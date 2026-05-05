@@ -177,6 +177,24 @@ def extract_fields(record: dict) -> dict | None:
     action_date_raw = action.get("date") or ""
     action_date = action_date_raw[:10] if action_date_raw else ""
 
+    # Fall back to the record-level timestamp ("YYYYMMDDTHHMMSSZ") when the
+    # log's action.date is missing. Without a date, format_action_line returns
+    # nothing, so the post collapses to "<emoji> <state> <id> — <title>" and
+    # multiple date-less records for the same bill all look like the same
+    # post.
+    if not action_date:
+        ts = record.get("timestamp") or ""
+        m = re.match(r"^(\d{4})(\d{2})(\d{2})", ts)
+        if m:
+            action_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
+    # If we still have no date AND no action description, there's nothing
+    # actionable to say beyond the bill's static title — skip rather than
+    # emit a bare post that's indistinguishable from other date-less updates
+    # of the same bill.
+    if not action_date and not action_desc:
+        return None
+
     dedup_key = f"{state}|{identifier}|{action_date}|{action_desc[:40]}"
     same_day_key = f"{state}|{identifier}|{action_date}"
 
@@ -829,6 +847,27 @@ def _b_ms(session, ident):  # verified — billstatus.ls.state.ms.us history pag
             f"{typ}/{typ}{num.zfill(4)}.xml")
 
 
+def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview page
+    # ND organizes bills by Legislative Assembly number; the Nth Assembly
+    # convenes in calendar year 1887 + 2N (1st LA = 1889, 69th LA = 2025).
+    # The URL is /assembly/<N>-<YYYY>/regular/bill-overview/bo<num>.html and
+    # bill numbers are unique across chambers (HB: 1000-1999, SB: 2000-2999),
+    # so the same path serves both. Resolutions use other number ranges and
+    # aren't covered here — they fall back to legis.nd.gov.
+    typ, num = _split_ident(ident)
+    if typ not in ("HB", "SB") or not num:
+        return None
+    year = _first_year(session)
+    if not year:
+        return None
+    y = int(year)
+    if y % 2 == 0:
+        y -= 1  # bienniums start in odd years
+    assembly = (y - 1887) // 2
+    return (f"https://www.ndlegis.gov/assembly/{assembly}-{y}/regular/"
+            f"bill-overview/bo{num}.html")
+
+
 def _b_al(session, ident):  # best-effort — alison.legislature.state.al.us PDF
     # Alabama redesigned its Alison site in 2025 around opaque internal bill
     # IDs that OpenStates no longer captures (instrumentUrl was dropped from
@@ -881,7 +920,7 @@ STATE_BILL_URL_BUILDERS = {
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
-    "AL": _b_al,
+    "AL": _b_al, "ND": _b_nd,
 }
 
 
