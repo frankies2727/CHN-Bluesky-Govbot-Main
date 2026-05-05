@@ -36,6 +36,7 @@
     "MA|H3716|2026-01-20|Rules suspended",
     "MA|HD5283|2025-11-17|Placed on file",
     "MA|SD3290|2025-10-16|Placed on file",
+    "MI|HB 4119|2025-05-06|referred to second reading",
     "MI|HB 4119|2025-05-06|reported with recommendation without ame",
     "MI|HB 4119|2025-11-04|placed on third reading",
     "MI|HB 4119|2025-11-04|read a second time",
@@ -59,6 +60,7 @@
     "NC|SB 257|2025-05-21|Amend Failed A21",
     "NC|SB 257|2025-05-21|Amend Failed A25",
     "NC|SB 257|2025-05-21|Amend Failed A30",
+    "NC|SB 257|2025-05-21|Amend Failed A32",
     "NC|SB 257|2025-05-21|Amend Failed A35",
     "NC|SB 257|2025-05-21|Amend Failed A44",
     "NC|SB 257|2025-05-21|Amend Tabled A41",
@@ -113,5 +115,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-04T19:15:21.938766+00:00"
+  "last_run": "2026-05-05T01:29:36.036837+00:00"
 }
