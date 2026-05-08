@@ -53,6 +53,7 @@
     "MS|SB2461|2026-02-03|Died In Committee",
     "MS|SB2736|2026-02-03|Died In Committee",
     "MS|SB2831|2026-02-03|Died In Committee",
+    "NC|SB 257|2025-05-19|Reptd Fav Com Substitute",
     "NC|SB 257|2025-05-20|Reptd Fav Com Sub 2",
     "NC|SB 257|2025-05-21|Added to Calendar",
     "NC|SB 257|2025-05-21|Amend Adopted A23",
@@ -135,11 +136,12 @@
     "PA|HB 257|2025-08-12|Final passage",
     "PA|HB 257|2025-08-12|Third consideration, with amendments",
     "PA|HB 257|2025-08-13|",
+    "PA|HR 68|2025-05-05|",
     "PA|HR 68|2025-06-18|Laid on the table (Pursuant to House Rul",
     "WV|HB 4263|2026-01-14|To Government Organization",
     "WV|SB 178|2026-01-14|To Transportation and Infrastructure",
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-08T13:08:55.254146+00:00"
+  "last_run": "2026-05-08T19:06:59.663533+00:00"
 }
