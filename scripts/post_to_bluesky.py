@@ -859,6 +859,13 @@ def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview pa
         return None
     year = _first_year(session)
     if not year:
+        # OpenStates / govbot sometimes encode ND sessions as just the
+        # legislative assembly number ("69", "69th") rather than a calendar
+        # year. Decode it to the biennium start year (LA N -> 1887 + 2N).
+        m = re.match(r"\s*(\d{1,3})(?:st|nd|rd|th)?\b", session or "")
+        if m:
+            year = str(1887 + 2 * int(m.group(1)))
+    if not year:
         return None
     y = int(year)
     if y % 2 == 0:
@@ -866,6 +873,37 @@ def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview pa
     assembly = (y - 1887) // 2
     return (f"https://www.ndlegis.gov/assembly/{assembly}-{y}/regular/"
             f"bill-overview/bo{num}.html")
+
+
+def _b_de(session, ident):  # best-effort -- LegiScan fallback
+    # Delaware's official site (legis.delaware.gov) keys per-bill pages off
+    # opaque internal LegislationIds that aren't exposed in OpenStates data,
+    # and the AllLegislation browser does its filtering client-side with no
+    # query-string entry point we can construct. LegiScan has stable per-bill
+    # pages for every DE bill, so use it as the canonical deep link rather
+    # than dropping readers on the homepage.
+    typ, num = _split_ident(ident)
+    if not (typ and num):
+        return None
+    year = _first_year(session)
+    if year:
+        return f"https://legiscan.com/DE/bill/{typ}{num}/{year}"
+    return f"https://legiscan.com/DE/bill/{typ}{num}"
+
+
+def _b_me(session, ident):  # best-effort -- LegiScan fallback
+    # Maine bills are Legislative Documents (LD). The official tracker at
+    # legislature.maine.gov uses a hash-fragment SPA URL that isn't a stable
+    # server-side route, and the LawMakerWeb summary pages key off paper
+    # numbers (HP/SP) we don't have in OpenStates data. LegiScan resolves
+    # LD numbers cleanly, so use it as the deep link.
+    typ, num = _split_ident(ident)
+    if typ != "LD" or not num:
+        return None
+    year = _first_year(session)
+    if year:
+        return f"https://legiscan.com/ME/bill/{typ}{num}/{year}"
+    return f"https://legiscan.com/ME/bill/{typ}{num}"
 
 
 def _b_al(session, ident):  # best-effort — alison.legislature.state.al.us PDF
@@ -936,7 +974,7 @@ STATE_BILL_URL_BUILDERS = {
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
-    "AL": _b_al, "ND": _b_nd, "NH": _b_nh,
+    "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
 }
 
 
