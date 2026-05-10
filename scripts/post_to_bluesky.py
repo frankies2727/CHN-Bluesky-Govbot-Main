@@ -495,9 +495,18 @@ def _smart_truncate(text: str, max_len: int) -> str:
 def summarize(b: dict) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
-    fallback = abstract[:180] if (abstract and abstract.lower() != title.lower()) else ""
+    has_extra = bool(abstract) and abstract.lower() != title.lower()
 
-    body_for_prompt = abstract if (abstract and abstract.lower() != title.lower()) else title
+    # When the only content is the title (common for Iowa, Indiana, etc.,
+    # which don't ship abstracts in OpenStates data), there's nothing the
+    # model can add without restating the title — and asking a small model
+    # to do so anyway invites hallucination (e.g. inventing an unrelated
+    # state's statutes). Skip summarization and let the title stand alone.
+    if not has_extra:
+        return ""
+
+    fallback = abstract[:180]
+    body_for_prompt = abstract
 
     user_prompt = (
         f"Title: {title}\n"
