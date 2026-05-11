@@ -1102,6 +1102,34 @@ def _b_ri(session, ident):  # verified — webserver.rilegislature.gov BillText
             f"{chamber}Text{yy}/{body}{num}.htm")
 
 
+def _b_sc(session, ident):  # verified — scstatehouse.gov sess<GA>_<Y1>-<Y2> path
+    # SC General Assemblies are 2-year terms convening in odd calendar years.
+    # GA N spans years (1773 + 2*N) and the next year, so
+    # GA = (year - 1773) // 2 works for either year of the biennium:
+    # 126th GA = 2025-2026, 125th GA = 2023-2024. OpenStates encodes SC
+    # sessions as either the calendar-year range ("2025-2026") or the GA
+    # number ("126"); accept either. Bill numbers are unique across chambers
+    # (House: 3000-4999, Senate: 1-2999) and the same /bills/<num>.htm path
+    # serves both. Resolutions use other ranges/paths and fall back to the
+    # homepage.
+    typ, num = _split_ident(ident)
+    if typ not in ("H", "S", "HB", "SB") or not num:
+        return None
+    year = _first_year(session)
+    if year:
+        y = int(year)
+        if y % 2 == 0:
+            y -= 1  # bienniums start in odd years
+        ga = (y - 1773) // 2
+    else:
+        m = re.match(r"\s*(\d{2,3})(?:st|nd|rd|th)?\b", session or "")
+        if not m:
+            return None
+        ga = int(m.group(1))
+        y = 1773 + 2 * ga
+    return f"https://www.scstatehouse.gov/sess{ga}_{y}-{y + 1}/bills/{num}.htm"
+
+
 STATE_BILL_URL_BUILDERS = {
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
@@ -1109,7 +1137,7 @@ STATE_BILL_URL_BUILDERS = {
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
-    "NE": _b_ne,
+    "NE": _b_ne, "SC": _b_sc,
 }
 
 
