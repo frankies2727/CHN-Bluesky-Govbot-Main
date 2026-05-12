@@ -1130,6 +1130,40 @@ def _b_sc(session, ident):  # verified — scstatehouse.gov sess<GA>_<Y1>-<Y2> p
     return f"https://www.scstatehouse.gov/sess{ga}_{y}-{y + 1}/bills/{num}.htm"
 
 
+def _b_md(session, ident):  # verified — mgaleg.maryland.gov Legislation/Details
+    # Maryland bill detail pages live at:
+    #   https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/<type><num4>?ys=<SESSION>
+    # NUM4 is zero-padded to 4 digits; the type is lowercase. SESSION is
+    # uppercased year + session code: "2025RS" (Regular), "2025S1" (1st
+    # Special), etc. OpenStates encodes sessions in lowercase ("2025rs");
+    # upper-case for the URL and default to <year>RS if no explicit code.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    sess = (session or "").strip().upper()
+    if not re.fullmatch(r"\d{4}[A-Z]+\d?", sess):
+        sess = f"{year}RS"
+    return ("https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/"
+            f"{typ.lower()}{num.zfill(4)}?ys={sess}")
+
+
+def _b_id(session, ident):  # verified — legislature.idaho.gov sessioninfo
+    # Idaho bills, resolutions, concurrent resolutions, and joint memorials
+    # all live at:
+    #   https://legislature.idaho.gov/sessioninfo/<year>/legislation/<TYPE><NUMN>/
+    # The type is upper-case. Bills (H, S) zero-pad the number to 4 digits;
+    # resolutions and memorials (HR, SR, HCR, SCR, HJR, SJR, HJM, SJM, HP)
+    # zero-pad to 3.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    width = 4 if typ in ("H", "S") else 3
+    return ("https://legislature.idaho.gov/sessioninfo/"
+            f"{year}/legislation/{typ}{num.zfill(width)}/")
+
+
 STATE_BILL_URL_BUILDERS = {
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
@@ -1137,7 +1171,7 @@ STATE_BILL_URL_BUILDERS = {
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
-    "NE": _b_ne, "SC": _b_sc,
+    "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id,
 }
 
 
