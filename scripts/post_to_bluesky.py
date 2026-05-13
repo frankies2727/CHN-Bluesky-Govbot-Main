@@ -1434,19 +1434,31 @@ def main() -> int:
     print(f"  by state: {', '.join(f'{s}={n}' for s,n in top)}")
 
     def sort_key(b: dict):
+        # Stub records (real action_date but empty action_desc) produce a post
+        # with no body action line — format_action_line returns "" unless both
+        # fields are present — so the reader sees only "<emoji> <state> <id> —
+        # <title>" with no indication of what just happened. Rank stubs
+        # strictly below any descriptive candidate so they only surface when
+        # nothing better is left in the pool. Within each group, freshness
+        # wins; missing/unparseable dates fall back to datetime.min and so
+        # land at the very bottom under reverse=True.
+        has_desc = bool((b["action_desc"] or "").strip())
         try:
-            return datetime.strptime(b["action_date"], "%Y-%m-%d")
+            d = datetime.strptime(b["action_date"], "%Y-%m-%d")
         except (ValueError, TypeError):
-            return datetime.min
+            d = datetime.min
+        return (has_desc, d)
 
-    # Sort all candidates by freshness (most recent action first) and post the
-    # top POST_LIMIT. An earlier version did per-state round-robin to prevent
-    # any one state from monopolizing a run, but that ordering was dominated
-    # by state-queue length and ended up surfacing stale single-bill states
-    # (e.g. NY|S751 from 2025-02-14, ME|LD 1500 from 2025-06) ahead of states
-    # with many fresh updates. Pure recency is preferred: if a hot state
-    # contributes both posts in a given run, that's fine — the next run picks
-    # up wherever it left off.
+    # Sort by (description-present, freshness) descending and post the top
+    # POST_LIMIT. An earlier version did per-state round-robin to prevent any
+    # one state from monopolizing a run, but that ordering was dominated by
+    # state-queue length and ended up surfacing stale single-bill states (e.g.
+    # NY|S751 from 2025-02-14, ME|LD 1500 from 2025-06) ahead of states with
+    # many fresh updates. Recency is preferred — except that a description-
+    # less stub (e.g. a govbot log entry where action.description came through
+    # empty) loses to any descriptive candidate, no matter how much older,
+    # since posting a stub crowds out genuinely substantive updates with a
+    # title-only post that conveys no new information.
     candidates.sort(key=sort_key, reverse=True)
     to_post: list[dict] = candidates[:POST_LIMIT]
 
