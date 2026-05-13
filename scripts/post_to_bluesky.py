@@ -1164,6 +1164,44 @@ def _b_id(session, ident):  # verified — legislature.idaho.gov sessioninfo
             f"{year}/legislation/{typ}{num.zfill(width)}/")
 
 
+def _b_ga(session, ident):  # verified — legis.ga.gov legacy display path 302s to bill page
+    # Georgia's modern bill page is keyed off opaque numeric IDs
+    # (legis.ga.gov/legislation/<id>) not exposed in OpenStates data, but the
+    # legacy display path is still a stable entry point that redirects to the
+    # per-bill page:
+    #   https://www.legis.ga.gov/Legislation/en-US/display/<biennium>/<TYP>/<NUM>
+    # <biennium> = start + end year concatenated ("20252026"). GA General
+    # Assemblies convene in odd calendar years, so if the session string
+    # carries only the even year (govbot encodes GA as e.g. '2025_26'), roll
+    # back to the biennium start year.
+    typ, num = _split_ident(ident)
+    if not (typ and num):
+        return None
+    year = _first_year(session)
+    if not year:
+        return None
+    y = int(year)
+    if y % 2 == 0:
+        y -= 1  # bienniums start in odd years
+    biennium = f"{y}{y + 1}"
+    return ("https://www.legis.ga.gov/Legislation/en-US/display/"
+            f"{biennium}/{typ}/{num}")
+
+
+def _b_wy(session, ident):  # verified — wyoleg.gov Legislation/<year>/<TYP><NUM4>
+    # Wyoming sessions are annual (General Session in odd years, Budget
+    # Session in even years); each year is its own session. The official
+    # per-bill page lives at:
+    #   https://www.wyoleg.gov/Legislation/<year>/<TYP><NUM4>
+    # NUM4 is zero-padded to 4 digits. Wyoming uses "SF" (Senate File), not
+    # "SB"; HB, HJ, SJ, HR, SR all follow the same path.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    return f"https://www.wyoleg.gov/Legislation/{year}/{typ}{num.zfill(4)}"
+
+
 STATE_BILL_URL_BUILDERS = {
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
@@ -1171,7 +1209,8 @@ STATE_BILL_URL_BUILDERS = {
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
-    "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id,
+    "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id, "GA": _b_ga,
+    "WY": _b_wy,
 }
 
 
