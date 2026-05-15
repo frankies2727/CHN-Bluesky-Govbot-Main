@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, the State Department of Public Health is responsible for the licensing and regulation of various facilities and settings that provide health care services, as specified. Existing law, the Confidentiality of Medical Information Act prohibits, except to the extent expressly authorized by a patient, enrollee, or subscriber, or as otherwise permitted or required, a provider of health care, health care service plan, contractor, or corporation and its subsidiaries and affiliates from disclosing medical information for immigration enforcement. Existing law requires health care provider entities, as defined, to establish or amend procedures for monitoring, documenting, and receiving visitors to health care provider entities to the extent possible, and prohibits, unless required by state or federal law, a health care provider entity and its personnel from allowing any person access to nonpublic areas of the provider's facilities for immigration enforcement purposes, except as specified.\n\nThis bill would, among other things, require a health care provider entity to, when there is a patient accompanied by an immigration enforcement officer, verify and document the identities and agencies of the accompanying immigration enforcement officers, to the extent possible. The bill would require a health care provider entity to ask an immigration enforcement officer to step out of the patient's room when discussing any matters pertaining to patient care, or performing any physical examination, or providing any medical care, except as specified, would prohibit an immigration enforcement officer from having any authority to make, influence, or participate in medical decisions on behalf of patient they accompany, and would require the health care provider entity personnel to report a refusal to comply with the requirements of this bill to the health care provider entity management, administration, or legal counsel, who is required to then document the actions, and, to the extent possible, the name and badge number of an immigration enforcement officer. The bill would also prohibit a health care provider entity from using blackout policies when admitting a patient who is accompanied by an immigration enforcement officer, except as specified, and defines blackout policies to mean any policy that is used by health care provider entities to conceal a patient's presence or identity at the entity's facility, including, but not limited to, registering patients under a pseudonym, removing the patient's name from the health care provider entity's directory, or prohibiting personnel from confirming that a patient is in the health care provider entity.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB915",
+    "legislative_session": "20252026",
+    "subject": [
+      "Healthcareproviderentities",
+      "patientsaccompaniedbyimmigrationenforcementofficers"
+    ],
+    "title": "Health care provider entities: patients accompanied by immigration enforcement officers."
+  },
+  "id": "SB915",
+  "log": {
+    "action": {
+      "date": "2026-05-04",
+      "description": "May 4 hearing: Placed on APPR. suspense file.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB915"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB915/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB915/logs/20260504T000000Z_may_4_hearing_placed_on_appr_suspense_file.json"
+  },
+  "timestamp": "20260504T000000Z"
+}

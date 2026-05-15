@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, there are programs providing assistance for, among other things, emergency housing, multifamily housing, farmworker housing, home ownership for very low and low-income households, and downpayment assistance for first-time home buyers. Existing law also authorizes the issuance of bonds in specified amounts pursuant to the State General Obligation Bond Law and requires that proceeds from the sale of these bonds be used to finance various existing housing programs, capital outlay related to infill development, brownfield cleanup that promotes infill development, and housing-related parks.\n\nThis bill would enact the Affordable Housing Bond Act of 2026, which, if adopted, would authorize the issuance of bonds in the amount of $10,000,000,000 pursuant to the State General Obligation Bond Law. Proceeds from the sale of these bonds would be used to finance programs to fund affordable rental housing and home ownership programs, including, among others, the Multifamily Housing Program, the CalHome Program, and the Joe Serna, Jr. Farmworker Housing Grant Program.\n\nThis bill would provide for submission of the bond act to the voters at the November 3, 2026, statewide general election, in accordance with specified law.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB417",
+    "legislative_session": "20252026",
+    "subject": [
+      "TheAffordableHousingBondActof2026"
+    ],
+    "title": "The Affordable Housing Bond Act of 2026."
+  },
+  "id": "SB417",
+  "log": {
+    "action": {
+      "date": "2026-05-13",
+      "description": "May 13 set for first hearing. Placed on suspense file.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB417"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB417/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB417/logs/20260513T000000Z_may_13_set_for_first_hearing_placed_on_suspense_file.json"
+  },
+  "timestamp": "20260513T000000Z"
+}

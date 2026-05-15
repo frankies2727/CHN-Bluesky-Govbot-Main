@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing state sales and use tax laws impose a tax on retailers measured by the gross receipts from the sale of tangible personal property sold at retail in this state, or on the storage, use, or other consumption in this state of tangible personal property purchased from a retailer for storage, use, or other consumption in this state. Existing law defines \"sale\" and \"purchase\" for these purposes and provides certain exclusions from those definitions.\n\nExisting law, until January 1, 2027, excludes the transfer of vested property by a pawnbroker to a person who pledged the property to the pawnbroker as security for a loan, if specified requirements are met, from the definition of \"sale\" and \"purchase,\" thus excluding that transfer from imposition of sales and use tax.\n\nThis bill would extend the exclusion of the transfer of vested property by a pawnbroker to the person who pledged it, as described above, until January 1, 2032.\n\nExisting law requires a bill authorizing a sales and use tax exemption to contain, among other things, specific goals, purposes, and objectives that the tax expenditure will achieve, detailed performance indicators, and data collection requirements.\n\nThis bill would include that additional information required for the above sales and use tax exclusion.\n\nThe Bradley-Burns Uniform Local Sales and Use Tax Law authorizes counties and cities to impose local sales and use taxes in conformity with the Sales and Use Tax Law, and existing laws authorize districts, as specified, to impose transactions and use taxes in accordance with the Transactions and Use Tax Law, which generally conforms to the Sales and Use Tax Law. Amendments to the Sales and Use Tax Law are automatically incorporated into the local tax laws.\n\nExisting law requires the state to reimburse counties and cities for revenue losses caused by the enactment of sales and use tax exemptions.\n\nThis bill would provide that, notwithstanding Section 2230 of the Revenue and Taxation Code, no appropriation is made and the state shall not reimburse any local agencies for sales and use tax revenues lost by them pursuant to this bill.\n\nThis bill would take effect immediately as a tax levy.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2641",
+    "legislative_session": "20252026",
+    "subject": [
+      "Salesandusetaxes",
+      "exclusion",
+      "pawnbrokers",
+      "transferofvestedproperty"
+    ],
+    "title": "Sales and use taxes: exclusion: pawnbrokers: transfer of vested property."
+  },
+  "id": "AB2641",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-13",
+      "description": "From committee: Do pass. (Ayes 15. Noes 0.) (May 13).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2641"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2641/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2641/logs/20260513T000000Z_from_committee_do_pass_ayes_15_noes_0_may_13.json"
+  },
+  "timestamp": "20260513T000000Z"
+}
