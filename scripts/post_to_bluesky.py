@@ -1490,6 +1490,38 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
 
+_FILENAME_UNSAFE_RE = re.compile(r"[^A-Za-z0-9._-]+")
+
+
+def _slug(text: str, max_len: int = 40) -> str:
+    """Lowercase, collapse non-alphanumerics into underscores, cap length."""
+    s = _FILENAME_UNSAFE_RE.sub("_", (text or "").strip().lower()).strip("_")
+    return s[:max_len].rstrip("_")
+
+
+def save_raw_record(b: dict) -> None:
+    """Write the verbatim bills.jsonl record for a posted bill to
+    categories/<name>/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
+    every posted action has a self-contained raw artifact alongside the
+    dedup key in bills_used.json. One file per posted action, kept
+    forever — pruning is a manual repo-hygiene decision."""
+    raw = b.get("_raw")
+    if not raw:
+        return
+    state = (b.get("state") or "XX")
+    # Identifier keeps original case (HB2763, SR 008 → HB2763, SR_008) so
+    # the filename matches how the bill is shown in the post.
+    ident_raw = (b.get("identifier") or "unknown").strip()
+    ident = _FILENAME_UNSAFE_RE.sub("_", ident_raw).strip("_")[:24] or "unknown"
+    date = b.get("action_date") or "no-date"
+    action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
+    fname = f"{state}-{ident}-{date}-{action_slug}.json"
+    out_dir = CATEGORY.bills_raw_dir()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / fname
+    out_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n")
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -1516,6 +1548,9 @@ def main() -> int:
             continue
         if b["dedup_key"] in seen:
             continue
+        # Stash the source record so save_raw_record() can dump the verbatim
+        # bills.jsonl line for any bill we end up posting.
+        b["_raw"] = r
         candidates.append(b)
 
     # Same-day dedup (collapse multiple log entries for same bill on same day).
@@ -1612,6 +1647,10 @@ def main() -> int:
                 continue
 
         seen.add(b["dedup_key"])
+        try:
+            save_raw_record(b)
+        except OSError as e:
+            print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
     state["posted"] = sorted(seen)
     state["last_run"] = datetime.now(timezone.utc).isoformat()

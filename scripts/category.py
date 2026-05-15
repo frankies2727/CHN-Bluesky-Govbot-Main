@@ -163,6 +163,9 @@ class Category:
     def state_file_path(self) -> Path:
         return CATEGORIES_DIR / self.name / "bills_used.json"
 
+    def bills_raw_dir(self) -> Path:
+        return CATEGORIES_DIR / self.name / "bills_raw"
+
     def _secret_suffix(self) -> str:
         return self.name.upper()
 
