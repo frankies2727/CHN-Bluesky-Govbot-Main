@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the State Revenue Sharing Act. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB528",
+    "legislative_session": "104th",
+    "title": "FINANCE-TECH"
+  },
+  "id": "HB528",
+  "log": {
+    "action": {
+      "date": "2025-03-12",
+      "description": "Do Pass / Short Debate Executive Committee;  012-000-000",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB528"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB528/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB528/logs/20250312T000000Z_do_pass_short_debate_executive_committee_012000000.json"
+  },
+  "timestamp": "20250312T000000Z"
+}

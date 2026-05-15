@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Criminal Code of 2012. Creates the offense of domestic assault. Provides that a person commits the offense when, without lawful authority, he or she knowingly engages in conduct that places any family or household member in reasonable apprehension of great bodily harm, or permanent disability or disfigurement. Provides that if the defendant is arrested for domestic assault, upon release of the defendant from custody pending trial, the court, at the preliminary examination, shall order that the defendant refrain from contact or communication with the victim of the domestic assault and refrain from entering or remaining at the victim's residence for a minimum of 72 consecutive hours. Provides that domestic assault is a Class A misdemeanor. Defines \"family or household member\"."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1205",
+    "legislative_session": "104th",
+    "title": "CRIM CD-DOMESTIC ASSAULT"
+  },
+  "id": "SB1205",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2025-01-24",
+      "description": "First Reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1205"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB1205/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB1205/logs/20250124T000000Z_first_reading.json"
+  },
+  "timestamp": "20250124T000000Z"
+}

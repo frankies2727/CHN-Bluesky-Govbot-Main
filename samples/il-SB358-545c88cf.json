@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Judicial Districts Act of 2021. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB358",
+    "legislative_session": "104th",
+    "title": "COURTS-TECH"
+  },
+  "id": "SB358",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2025-03-20",
+      "description": "Second Reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB358"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB358/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB358/logs/20250320T000000Z_second_reading.json"
+  },
+  "timestamp": "20250320T000000Z"
+}
