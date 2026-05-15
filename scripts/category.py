@@ -142,6 +142,20 @@ class Category:
             f"include any preamble, explanation, or trailing notes."
         )
 
+    def headline_system_prompt(self) -> str:
+        return (
+            f"You write short Bluesky headlines for US legislative bills focused on "
+            f"{self.prompt_topic}. Rewrite the bill's title as a plain-English headline "
+            f"under 65 characters. Strip statute verbs ('Requiring', 'Prohibiting', "
+            f"'Concerning', 'Relating to', 'An act to', 'Establishing'). Use noun "
+            f"phrases, not full sentences (e.g. 'Daily recess for elementary students; "
+            f"Kansas fitness test'). Keep the substantive change. Spell out unfamiliar "
+            f"acronyms. Do not invent facts not present in the title or description — "
+            f"never invent agency names, statute citations, or states. No emoji, no "
+            f"hashtags, no surrounding quotes, no trailing period, no preamble — output "
+            f"only the headline text."
+        )
+
     # ------------------------------------------------------------------
     # Paths and credentials
     # ------------------------------------------------------------------

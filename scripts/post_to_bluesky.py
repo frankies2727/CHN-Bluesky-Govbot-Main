@@ -84,6 +84,11 @@ STATE_FULL_NAME = {
 MAX_POST = 290
 LINK_PREFIX = "🔗 "
 
+# Titles at or below this length are used as-is in the post head; longer ones
+# get rewritten by the local model into a short plain-English headline.
+HEADLINE_THRESHOLD = 90
+HEADLINE_MAX_LEN = 70
+
 
 # ---------------------------------------------------------------------------
 # Loading
@@ -219,7 +224,7 @@ _BOILERPLATE_TITLE_RE = re.compile(
 )
 
 
-def best_display_text(b: dict) -> str:
+def best_display_text(b: dict, headline: str = "") -> str:
     title = (b["title"] or "").strip()
     abstract = (b["abstract"] or "").strip()
     if _looks_like_code_title(title) and abstract:
@@ -230,6 +235,11 @@ def best_display_text(b: dict) -> str:
     # Long, semicolon-laden multi-clause titles — prefer a shorter abstract.
     if abstract and len(title) > 120 and ";" in title and len(abstract) < len(title):
         return abstract
+    # A model-rewritten headline replaces a long legalese title outright,
+    # since the trim cascade in compose_post would otherwise have to chop the
+    # title mid-clause and lose the action line in the process.
+    if headline and len(title) > HEADLINE_THRESHOLD:
+        return headline
     return title
 
 
@@ -539,6 +549,62 @@ def summarize(b: dict) -> str:
     except Exception as e:
         print(f"  ! summarization failed, using fallback: {e}", file=sys.stderr)
         return _strip_title_prefix(fallback, b["title"])
+
+
+def shorten_title(b: dict) -> str:
+    """Ask the local model to rewrite a long legalese title as a short
+    plain-English headline. Returns "" when the original title is already
+    short enough, when there's no abstract to ground the rewrite, or when
+    the model output is unusable. The caller falls back to smart-truncating
+    the original title in any of those cases."""
+    title = (b["title"] or "").strip()
+    abstract = (b["abstract"] or "").strip()
+    if len(title) <= HEADLINE_THRESHOLD:
+        return ""
+    # Without an abstract the title is the only signal — letting a 1.5B model
+    # paraphrase a title-only record invites hallucinated specifics.
+    if not abstract or _normalize(abstract) == _normalize(title):
+        return ""
+
+    system_prompt = CATEGORY.headline_system_prompt()
+    user_prompt = (
+        f"Title: {title}\n"
+        f"Description: {abstract[:2000]}\n\n"
+        f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
+    )
+
+    try:
+        r = requests.post(
+            QWEN_API_URL,
+            json={
+                "model": QWEN_MODEL,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "stream": False,
+                "options": {"num_predict": 60, "temperature": 0.3},
+            },
+            timeout=QWEN_TIMEOUT,
+        )
+        if not r.ok:
+            print(f"  ! Qwen headline {r.status_code}: {r.text[:300]}", file=sys.stderr)
+            return ""
+        data = r.json()
+        text = (data.get("message") or {}).get("content") or data.get("response") or ""
+    except Exception as e:
+        print(f"  ! headline rewrite failed: {e}", file=sys.stderr)
+        return ""
+
+    headline = _clean_summary(text).rstrip(".!?,; ")
+    if not headline:
+        return ""
+    # If the model echoed the title (small models often do), bail.
+    if _normalize(headline).startswith(_normalize(title)[:60]):
+        return ""
+    if len(headline) > HEADLINE_MAX_LEN:
+        return ""
+    return headline
 
 
 # ---------------------------------------------------------------------------
@@ -1333,13 +1399,13 @@ def link_for(b: dict) -> str:
 # Composition
 # ---------------------------------------------------------------------------
 
-def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
+def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
     emoji = CATEGORY.emoji_for(b)
     link = link_for(b)
     link_block = f"\n\n{LINK_PREFIX}{link}" if link else ""
 
     state_label = b["state"] or "?"
-    display = best_display_text(b).strip()
+    display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
 
     summary_block = (
@@ -1350,6 +1416,7 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
+    prefix_len = len(emoji) + len(f" {state_label} {b['identifier']} — ")
     head = f"{emoji} {state_label} {b['identifier']} — {display}"
 
     def assemble(h, s, a, l):
@@ -1357,6 +1424,8 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
 
     text = assemble(head, summary_block, action_block, link_block)
 
+    # Trim order: summary → title in head → action description. Date+action
+    # is the news; it's preserved over a long title or a long body summary.
     if len(text) > MAX_POST and summary_block:
         overflow = len(text) - MAX_POST
         new_len = max(0, len(summary) - overflow - 1)
@@ -1367,6 +1436,18 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
             summary_block = ""
         text = assemble(head, summary_block, action_block, link_block)
 
+    if len(text) > MAX_POST:
+        avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
+                - prefix_len - 1
+        if avail > 0:
+            display_trimmed = _smart_truncate(display, avail + 1)
+        else:
+            display_trimmed = ""
+        head = f"{emoji} {state_label} {b['identifier']} — {display_trimmed}".rstrip(" —")
+        text = assemble(head, summary_block, action_block, link_block)
+
+    # Only reached when the action description itself is so long it can't fit
+    # even with display fully trimmed. Falls back to the old date+desc trim.
     if len(text) > MAX_POST and action_block and action_line:
         nice_date = _format_date(b["action_date"])
         if nice_date:
@@ -1379,20 +1460,10 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
                     action_line = date_prefix + _smart_truncate(desc_part, new_len + 1)
                     action_block = f"\n\n{action_line}"
                 else:
-                    # Not enough room for a meaningful description — drop
-                    # the action block entirely rather than emit a bare
-                    # date, which conveys no information on its own.
                     action_line = ""
                     action_block = ""
             else:
                 action_block = f"\n\n{action_line}"
-        text = assemble(head, summary_block, action_block, link_block)
-
-    if len(text) > MAX_POST:
-        avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
-                - len(emoji) - len(f" {state_label} {b['identifier']} — ") - 1
-        display_trimmed = _smart_truncate(display, max(0, avail) + 1)
-        head = f"{emoji} {state_label} {b['identifier']} — {display_trimmed}"
         text = assemble(head, summary_block, action_block, link_block)
 
     state_name = STATE_FULL_NAME.get(b["state"], b["state"] or "Bill")
@@ -1501,7 +1572,8 @@ def main() -> int:
 
     for b in to_post:
         summary = summarize(b)
-        text, link, ec_title, ec_desc = compose_post(b, summary)
+        headline = shorten_title(b)
+        text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
 
         thumb_blob = None
         if link and FETCH_OG_IMAGE:
