@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 4274",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Crimes and Criminals",
+      "Public Safety and Public Safety Department"
+    ],
+    "title": "Fleeing a peace officer in a motor vehicle crime modification"
+  },
+  "id": "SF 4274",
+  "log": {
+    "action": {
+      "date": "2026-03-11",
+      "description": "Author stricken Howe",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 4274"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF4274/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF4274/logs/20260311T000000Z_author_stricken_howe.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

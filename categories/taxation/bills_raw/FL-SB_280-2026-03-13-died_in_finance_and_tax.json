@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Assessment of Homestead Property;  Limiting the assessed value upon change of ownership of homestead property having a prior assessed value below a certain amount when the person acquiring the property is entitled to a homestead exemption, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 280",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Assessment of Homestead Property"
+  },
+  "id": "SB 280",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Finance and Tax",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 280"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB280/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB280/logs/20260313T000000Z_died_in_finance_and_tax.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

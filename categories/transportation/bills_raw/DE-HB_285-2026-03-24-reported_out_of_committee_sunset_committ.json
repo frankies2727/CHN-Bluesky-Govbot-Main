@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This act establishes the Athletic Trainers Compact (\"Compact\"), which facilitates the interstate practice of athletic training and provides for athletic trainers licensed in a participating state the ability to practice in other participating states. The Compact sets forth the requirements to be met in order for a state to join and maintain membership in the Compact. Additionally, the Compact provides the requirements for an athletic trainer to obtain and exercise the ability to practice in the remote participating states.\r\nThe Compact further provides that an athletic trainer with compact privilege shall function within the scope of practice of the state in which the patient is located and the remote practicing state. The athletic trainers also shall be subject to that remote state's regulatory authority. Participating states shall report any adverse action and significant investigative information to the Compact Data System. An adverse action against an athletic trainer in any participating state shall result in deactivation of the compact privilege during the pendency of the action. An encumbered license in a member state shall not be entitled to compact privilege until the encumbrance has passed and has exceeded two years since any encumbrance or restriction.\r\nAdditionally, the Compact creates the Athletic Trainer Licensure Compact Commission (\"Commission\"), which is a joint government agency to administer and implement the Compact, and provides for its powers and duties. Each participating state shall be entitled to one delegate, who shall be selected within sixty days of the effective date, on the Commission. Additionally, there shall be an Executive Committee of the Commission to act on behalf of the Commission. \r\nFurthermore, the Compact shall come into effect on the date in which the seventh state enacts the Compact into law. Any participating state may withdraw from the Compact by repealing the Compact, but such withdrawal shall not take effect until 180 days after the enactment of the repeal. Finally, the Compact shall be binding upon participating states and shall supersede any conflict with state law.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 285",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 24 OF THE DELAWARE CODE RELATING TO THE INTERSTATE COMPACT FOR ATHLETIC TRAINERS."
+  },
+  "id": "HB 285",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-24",
+      "description": "Reported Out of Committee (Sunset Committee (Policy Analysis & Government Accountability)) in House with 3 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Sunset Committee (Policy Analysis & Government Accountability"
+        }
+      ]
+    },
+    "bill_id": "HB 285"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB285/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB285/logs/20260324T000000Z_reported_out_of_committee_sunset_committee_policy_analysis_government_accountability_in_house_with_3.json"
+  },
+  "timestamp": "20260324T000000Z"
+}

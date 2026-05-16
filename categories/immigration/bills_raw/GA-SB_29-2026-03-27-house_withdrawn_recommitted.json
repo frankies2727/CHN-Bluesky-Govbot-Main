@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 6A of Chapter 3 of Title 35 of the Official Code of Georgia Annotated,  relating to DNA sampling, collection, and analysis, so as to provide for the collection of DNA samples of individuals arrested for the commission of a felony at the time such individuals are booked or otherwise processed by a detention facility; to revise provisions relating to the destruction of DNA profiles; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 29",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CRIMES AND OFFENSES (CRIMINAL CODE)",
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES",
+      "PENAL INSTITUTIONS"
+    ],
+    "title": "DNA Sampling, Collection, and Analysis; collection of DNA samples of individuals arrested for the commission of a felony at the time such individuals are booked or otherwise processed by a detention facility; provide"
+  },
+  "id": "SB 29",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee",
+        "withdrawal"
+      ],
+      "date": "2026-03-27",
+      "description": "House Withdrawn, Recommitted",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Public Safety and Homeland Security"
+        }
+      ]
+    },
+    "bill_id": "SB 29"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB29/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB29/logs/20260327T000000Z_house_withdrawn_recommitted.json"
+  },
+  "timestamp": "20260327T000000Z"
+}

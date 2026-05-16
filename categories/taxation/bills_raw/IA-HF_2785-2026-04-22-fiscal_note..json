@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 2785",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "biofuels",
+      "credit",
+      "fuel taxes",
+      "income taxes"
+    ],
+    "title": "A bill for an act extending the biodiesel blended fuel tax credit."
+  },
+  "id": "HF 2785",
+  "log": {
+    "action": {
+      "date": "2026-04-22",
+      "description": "Fiscal note.",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HF 2785"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/HF2785/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/HF2785/logs/20260422T000000Z_fiscal_note.json"
+  },
+  "timestamp": "20260422T000000Z"
+}

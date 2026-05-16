@@ -11,9 +11,11 @@
     "KS|HB2763|2026-04-10|Conference Committee Report agree to dis",
     "KS|HB2763|2026-04-10|Motion to suspend Joint Rule 4 (k) to al",
     "KS|SB263|2026-04-10|Died on House Calendar",
+    "KS|SB534|2026-04-10|Died in Committee",
     "KY|HB606|2025-04-02|signed by Governor (Acts Ch. 159)",
     "MA|H729|2026-03-16|Committee reported that the matter be pl",
     "MN|SF 4757|2026-03-26|Comm report: To pass",
+    "MO|HB 2723|2026-05-15|Referred: Emerging Issues(H)",
     "MO|SB 1002|2026-05-15|H Informal Calendar Senate Bills for Thi",
     "MO|SB 1083|2026-05-14|S Bills with H Amendments",
     "MO|SB 1083|2026-05-15|S Bills with H Amendments",
@@ -25,7 +27,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-05-16T12:59:58.468873+00:00",
+  "last_run": "2026-05-16T18:52:50.184574+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-05-16T02:57:07.992280+00:00",
@@ -34,6 +36,8 @@
     "CO": "2026-05-16T07:54:03.954308+00:00",
     "TN": "2026-05-16T07:54:03.954308+00:00",
     "MN": "2026-05-16T12:59:32.094517+00:00",
-    "MA": "2026-05-16T12:59:32.094517+00:00"
+    "MA": "2026-05-16T12:59:32.094517+00:00",
+    "KS": "2026-05-16T18:52:28.582924+00:00",
+    "MO": "2026-05-16T18:52:28.582924+00:00"
   }
 }
