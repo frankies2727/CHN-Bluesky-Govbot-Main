@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      QWEN_MODEL: "qwen2.5:1.5b"
+      LLM_MODEL: "gemma3:4b"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -59,9 +59,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.ollama/models
-          key: ollama-models-${{ env.QWEN_MODEL }}-v1
+          key: ollama-models-${{ env.LLM_MODEL }}-v1
 
-      - name: Install Ollama and pull Qwen model
+      - name: Install Ollama and pull the LLM model
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
           nohup ollama serve > /tmp/ollama.log 2>&1 &
@@ -72,13 +72,13 @@ jobs:
             fi
             sleep 1
           done
-          ollama pull "$QWEN_MODEL"
+          ollama pull "$LLM_MODEL"
           ollama list
 
       - name: Build and post weekly digest thread (all categories)
         env:
           ALL_SECRETS: ${{ toJSON(secrets) }}
-          QWEN_API_URL: "http://localhost:11434/api/chat"
+          LLM_API_URL: "http://localhost:11434/api/chat"
           DIGEST_LOOKBACK_DAYS: "7"
           DIGEST_MAX_HIGHLIGHTS: "6"
           DIGEST_PER_STATE_CAP: "2"

@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      QWEN_MODEL: "qwen2.5:1.5b"
+      LLM_MODEL: "gemma3:4b"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -79,9 +79,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.ollama/models
-          key: ollama-models-${{ env.QWEN_MODEL }}-v1
+          key: ollama-models-${{ env.LLM_MODEL }}-v1
 
-      - name: Install Ollama and pull Qwen model
+      - name: Install Ollama and pull the LLM model
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
           # Start Ollama in the background; logs to /tmp for debugging.
@@ -96,7 +96,7 @@ jobs:
           done
           # Cheap no-op when the model is already on disk (cache hit);
           # otherwise does the full ~1 GB download.
-          ollama pull "$QWEN_MODEL"
+          ollama pull "$LLM_MODEL"
           ollama list
 
       - name: Filter, summarize, and post to Bluesky (all categories)
@@ -106,7 +106,7 @@ jobs:
           # BLUESKY_HANDLE_<NAME> / BLUESKY_APP_PASSWORD_<NAME> from this map
           # at runtime based on BOT_CATEGORY.
           ALL_SECRETS: ${{ toJSON(secrets) }}
-          QWEN_API_URL: "http://localhost:11434/api/chat"
+          LLM_API_URL: "http://localhost:11434/api/chat"
           POST_LIMIT: "2"
         run: |
           shopt -s nullglob
