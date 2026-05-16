@@ -59,7 +59,7 @@ jobs:
           export PATH="$HOME/.govbot/bin:$PATH"
           govbot --version || true
           govbot clone ${{ github.event.inputs.states }}
-          govbot logs --limit 8000 > bills.jsonl
+          govbot logs --limit 2200 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
       - name: Save sample records into samples/ (no overwrite)
