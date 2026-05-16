@@ -37,6 +37,10 @@ CATEGORY: Category = load_active_category()
 STATE_FILE = CATEGORY.state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "4"))  # how many bluesky posts per run
+# Drop bill actions older than this many days so the feed never posts
+# year-old news as if it were fresh. Slow categories still have thousands
+# of candidates inside this window. Override via env for tuning.
+MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # og:image fetching is paused by default. Set FETCH_OG_IMAGE=1 to re-enable
 # thumbnail scraping from bill-page URLs. When off, posts still get an external
@@ -1734,6 +1738,26 @@ def main() -> int:
         # bills.jsonl line for any bill we end up posting.
         b["_raw"] = r
         candidates.append(b)
+
+    # Freshness gate: a state's newest *unposted* match can genuinely be a
+    # year-old action (part-time legislatures, niche topics). Posting that as
+    # news is misleading, so drop anything past the age cap. Mirrors
+    # weekly_digest.in_lookback_window.
+    cutoff = datetime.now(timezone.utc).date()
+
+    def _fresh(b: dict) -> bool:
+        try:
+            d = datetime.strptime(b["action_date"], "%Y-%m-%d").date()
+        except (ValueError, TypeError):
+            return False  # undated candidate -> can't confirm freshness, drop
+        return (cutoff - d).days <= MAX_ACTION_AGE_DAYS
+
+    before = len(candidates)
+    candidates = [b for b in candidates if _fresh(b)]
+    dropped = before - len(candidates)
+    if dropped:
+        print(f"  dropped {dropped} stale update(s) older than "
+              f"{MAX_ACTION_AGE_DAYS} days.")
 
     # Same-day dedup (collapse multiple log entries for same bill on same day).
     unique_by_day: dict[str, dict] = {}
