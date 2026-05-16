@@ -1070,7 +1070,7 @@ def _b_or(session, ident):  # verified — olis.oregonlegislature.gov Measures/O
     return f"https://olis.oregonlegislature.gov/liz/{year}{sub}/Measures/Overview/{typ}{num}"
 
 
-def _b_co(session, ident):  # verified — leg.colorado.gov /bills/<typ><yy>-<num>
+def _b_co(session, ident):  # verified — leg.colorado.gov /bills/<typ><yy>[<sess>]-<num>
     year = _first_year(session)
     typ, num = _split_ident(ident)
     if not (year and typ and num):
@@ -1078,7 +1078,15 @@ def _b_co(session, ident):  # verified — leg.colorado.gov /bills/<typ><yy>-<nu
     # CO conventions: HB numbers are 4 digits (e.g. HB25-1001); SB and joint /
     # concurrent / simple resolutions are 3 digits (SB25-001, SJR25-006).
     width = 4 if typ == "HB" else 3
-    return f"https://leg.colorado.gov/bills/{typ.lower()}{year[-2:]}-{num.zfill(width)}"
+    # Extraordinary sessions carry a letter past the year ("2025B" = the 2025
+    # special session); CO bakes that letter into the bill slug (sb25b-004),
+    # so SB25B-004 and the regular-session SB25-004 are distinct bills. The
+    # regular session ("2025A") carries no letter.
+    sess = ""
+    m = re.search(r"20\d{2}\s*([B-Z])", (session or "").upper())
+    if m:
+        sess = m.group(1).lower()
+    return f"https://leg.colorado.gov/bills/{typ.lower()}{year[-2:]}{sess}-{num.zfill(width)}"
 
 
 def _b_wa(session, ident):  # verified — app.leg.wa.gov billsummary
@@ -1440,6 +1448,39 @@ def _b_ar(session, ident):  # verified — arkleg.state.ar.us Bills/Detail?id=..
             f"?id={typ}{num}&ddBienniumSession={biennium}%2F{year}{code}")
 
 
+def _b_vt(session, ident):  # verified — legislature.vermont.gov bill status page
+    # Vermont organizes bills by biennium and addresses each biennium in URLs
+    # by its second (even) calendar year — the 2025-2026 biennium is "2026".
+    # Bill identifiers use a dotted form on the site: S.44, H.123.
+    typ, num = _split_ident(ident)
+    if not (typ and num):
+        return None
+    years = _YEAR_RE.findall(session or "")
+    if not years:
+        return None
+    y = int(years[-1])
+    if y % 2:  # odd -> first year of the biennium; the URL uses the even year
+        y += 1
+    return f"https://legislature.vermont.gov/bill/status/{y}/{typ}.{num}"
+
+
+def _b_il(session, ident):  # best-effort -- LegiScan fallback
+    # Illinois' redesigned ilga.gov keys per-bill pages off opaque internal
+    # LegIDs that aren't exposed in OpenStates data, and govbot carries the
+    # session only as a General Assembly ordinal ("104th"), not a year.
+    # LegiScan has stable per-bill pages, so use it as the deep link rather
+    # than dropping readers on the ilga.gov homepage. The Nth General
+    # Assembly opens the biennium starting 2025 + 2*(N - 104) (104th -> 2025).
+    typ, num = _split_ident(ident)
+    if not (typ and num):
+        return None
+    ga = _leading_int(session)
+    if ga:
+        year = 2025 + 2 * (int(ga) - 104)
+        return f"https://legiscan.com/IL/bill/{typ}{num}/{year}"
+    return f"https://legiscan.com/IL/bill/{typ}{num}"
+
+
 STATE_BILL_URL_BUILDERS = {
     "CA": _b_ca,
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
@@ -1449,7 +1490,7 @@ STATE_BILL_URL_BUILDERS = {
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
     "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id, "GA": _b_ga,
-    "WY": _b_wy, "AR": _b_ar,
+    "WY": _b_wy, "AR": _b_ar, "VT": _b_vt, "IL": _b_il,
 }
 
 
