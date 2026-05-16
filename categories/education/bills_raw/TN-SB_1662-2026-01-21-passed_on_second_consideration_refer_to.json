@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1662",
+    "legislative_session": "114",
+    "subject": [
+      "Education",
+      "Higher"
+    ],
+    "title": "Education, Higher - As introduced, creates the public institution athletic program fund, which consists of proceeds from a fee paid by vendors registered with the sports wagering council; authorizes the Tennessee higher education commission to award grants from the fund to public institutions to assist with expenses for recruiting intercollegiate athletes. - Amends TCA Title 4, Chapter 49; Title 9 and Title 49."
+  },
+  "id": "SB 1662",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-21",
+      "description": "Passed on Second Consideration, refer to Senate Education Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1662"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1662/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1662/logs/20260121T000000Z.classification.passage.upper.json"
+  }
+}

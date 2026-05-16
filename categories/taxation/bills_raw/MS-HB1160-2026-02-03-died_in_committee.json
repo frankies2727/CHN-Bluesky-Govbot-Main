@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1160",
+    "legislative_session": "2026",
+    "subject": [
+      "Education"
+    ],
+    "title": "\"Mississippi Children's Assessment and Mental Health Opportunity (CAMHEO) Act of 2026\"; create to require screenings and assessments."
+  },
+  "id": "HB1160",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB1160"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1160/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1160/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

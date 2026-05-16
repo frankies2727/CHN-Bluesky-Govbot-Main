@@ -24,6 +24,8 @@
     "FL|SB 4D||",
     "GA|SB 444|2026-05-05|Act 411",
     "GA|SB 444|2026-05-05|Senate Date Signed by Governor",
+    "IA|SF 2421|2026-02-23|Committee report, approving bill.",
+    "KS|HB2696|2026-04-10|Died in Committee",
     "MI|HB 4668|2025-09-11|recommendation concurred in",
     "MI|HB 4668|2025-09-11|reported with recommendation for referra",
     "MI|HB 4668|2025-09-18|motion to discharge committee approved",
@@ -36,11 +38,13 @@
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-05-16T04:25:07.787559+00:00",
+  "last_run": "2026-05-16T07:52:50.708019+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
     "AL": "2026-05-16T04:23:57.230034+00:00",
-    "FL": "2026-05-16T04:23:57.230034+00:00"
+    "FL": "2026-05-16T04:23:57.230034+00:00",
+    "IA": "2026-05-16T07:52:23.217967+00:00",
+    "KS": "2026-05-16T07:52:23.217967+00:00"
   }
 }

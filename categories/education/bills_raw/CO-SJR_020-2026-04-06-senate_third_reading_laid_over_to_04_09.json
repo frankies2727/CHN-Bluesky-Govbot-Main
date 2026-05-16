@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 020",
+    "legislative_session": "2026A",
+    "subject": [
+      "General Assembly"
+    ],
+    "title": "Recognize Home Education Day"
+  },
+  "id": "SJR 020",
+  "log": {
+    "action": {
+      "date": "2026-04-06",
+      "description": "Senate Third Reading Laid Over to 04/09/2026 - No Amendments",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR 020"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR020/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR020/logs/20260406T000000Z_senate_third_reading_laid_over_to_04092026_no_amendments.json"
+  },
+  "timestamp": "20260406T000000Z"
+}

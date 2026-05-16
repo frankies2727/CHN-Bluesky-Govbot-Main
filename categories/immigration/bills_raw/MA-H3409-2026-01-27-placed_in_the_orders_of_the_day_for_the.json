@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Rogers of Norwood and Senator Rush, a joint petition (accompanied by bill, House, No. 3409) of John H. Rogers for legislation to designate cookies and Cream as the official ice cream flavor of the Commonwealth.  State Administration and Regulatory Oversight.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3409",
+    "legislative_session": "194th",
+    "title": "An Act establishing the official ice cream flavor of the Commonwealth"
+  },
+  "id": "H3409",
+  "log": {
+    "action": {
+      "date": "2026-01-27",
+      "description": "Placed in the Orders of the Day for the next sitting (under the last sentence of Rule 7A) for a second reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H3409"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3409/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3409/logs/20260127T000000Z_placed_in_the_orders_of_the_day_for_the_next_sitting_under_the_last_sentence_of_rule_7a_for_a_second.json"
+  },
+  "timestamp": "20260127T000000Z"
+}

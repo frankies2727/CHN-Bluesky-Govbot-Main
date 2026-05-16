@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Public Records/Body Camera Recordings Recorded by a Code Inspector;  Providing an exemption from public records requirements for body camera recordings recorded by a code inspector under certain circumstances; providing exceptions; requiring a local government to retain body camera recordings for a specified timeframe; providing for future legislative review and repeal of the exemption; providing a statement of public necessity, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 506",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Public Records/Body Camera Recordings Recorded by a Code Inspector"
+  },
+  "id": "SB 506",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-04-21",
+      "description": "Signed by Officers and presented to Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 506"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB506/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB506/logs/20260421T000000Z.classification.executive-receipt.legislature.json"
+  }
+}
