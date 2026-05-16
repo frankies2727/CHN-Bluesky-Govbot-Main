@@ -833,6 +833,23 @@ def _leading_int(s: str) -> str:
 # marked "best-effort" are the most reasonable guess from the state's URL
 # scheme and may need adjustment if the state changes its site.
 
+def _b_ca(session, ident):  # verified — leginfo.legislature.ca.gov billNavClient
+    # CA's per-bill URL keys off a bill_id of the form
+    # <year1><year2>0<TYPE><NUM> for the 2-year session — e.g. SB 1072 in the
+    # 2025-2026 session is 202520260SB1072. The trailing 0 before the type is
+    # a constant. Sessions always start in an odd calendar year, so if govbot
+    # hands us the even year we step back to the session's start year.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    y1 = int(year)
+    if y1 % 2 == 0:
+        y1 -= 1
+    return ("https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml"
+            f"?bill_id={y1}{y1 + 1}0{typ}{num}")
+
+
 def _b_fl(session, ident):  # verified — flsenate.gov serves both chambers
     # Florida special sessions append a letter to the year (Special Session A,
     # B, C, …). The canonical URL is /Session/Bill/<year><letter>/<number>
@@ -940,16 +957,23 @@ def _b_ct(session, ident):  # verified — search by year + bill number
     return None
 
 
-def _b_mo(session, ident):  # best-effort — chamber-specific deep link by year+session-code
-    year = _first_year(session)
+def _b_mo(session, ident):  # best-effort -- senate.mo.gov search; LegiScan fallback
+    # Missouri rebuilt both chambers' trackers around opaque internal numeric
+    # bill IDs (BillInformation?billid=NNN), so there's no per-bill URL we can
+    # compute from the bill number. The senate bill-tracking search resolves a
+    # senate bill number to a single-result page for the current session; it
+    # doesn't index House bills, so those fall back to LegiScan, which has
+    # stable per-bill pages for every MO bill.
     typ, num = _split_ident(ident)
-    if not (year and typ and num):
+    if not (typ and num):
         return None
-    m = re.search(r"20\d{2}\s*([A-Za-z]\d*)", session or "")
-    code = (m.group(1) if m else "R").upper()
-    if typ.startswith("H"):
-        return f"https://house.mo.gov/Bill.aspx?bill={typ}{num}&year={year}&code={code}"
-    return f"https://www.senate.mo.gov/{year[-2:]}info/BTS_Web/Bill.aspx?SessionType={code}&BillID={typ}{num}"
+    if typ.startswith("S"):
+        return ("https://www.senate.mo.gov/Billtracking/bills/billSearch"
+                f"?Term={typ}{num}&Submit=Submit&handler=BillSearch")
+    year = _first_year(session)
+    if year:
+        return f"https://legiscan.com/MO/bill/{typ}{num}/{year}"
+    return f"https://legiscan.com/MO/bill/{typ}{num}"
 
 
 def _b_mn(session, ident):  # verified — revisor.mn.gov bills bill.php
@@ -1417,6 +1441,7 @@ def _b_ar(session, ident):  # verified — arkleg.state.ar.us Bills/Detail?id=..
 
 
 STATE_BILL_URL_BUILDERS = {
+    "CA": _b_ca,
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
