@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to provide a homestead exemption from Chattooga County ad valorem taxes for county purposes in the amount of $70,000.00 of the assessed value of the homestead for residents of that county who are 70 years of age or older and whose income does not exceed $38,000.00; to provide for definitions; to specify the terms and conditions of the exemption and the procedures relating thereto; to provide for applicability; to provide for compliance with constitutional requirements; to provide for a referendum, effective dates, automatic repeal, mandatory execution of election, and judicial remedies regarding failure to comply; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1544",
+    "legislative_session": "2025_26",
+    "title": "Chattooga County; ad valorem tax; county purposes; provide a homestead exemption"
+  },
+  "id": "HB 1544",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-11",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1544"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1544/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1544/logs/20260511T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260511T000000Z"
+}

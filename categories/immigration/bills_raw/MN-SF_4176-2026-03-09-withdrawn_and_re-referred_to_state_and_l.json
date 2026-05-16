@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 4176",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Appropriations",
+      "Immigration",
+      "Law Enforcement",
+      "Legal Proceedings",
+      "Public Safety and Public Safety Department"
+    ],
+    "title": "Various immigration policy provisions and appropriation"
+  },
+  "id": "SF 4176",
+  "log": {
+    "action": {
+      "date": "2026-03-09",
+      "description": "Withdrawn and re-referred to State and Local Government",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 4176"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF4176/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF4176/logs/20260309T000000Z_withdrawn_and_rereferred_to_state_and_local_government.json"
+  },
+  "timestamp": "20260309T000000Z"
+}

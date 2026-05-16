@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, commencing January 1, 2019, made various changes to the law governing ignition interlock devices (IID) , including, among other things, requiring a person who has been convicted of driving a motor vehicle under the influence of an alcoholic beverage, as specified, to install for a specified period of time as ordered by the court, an IID on the vehicle they operate, provided however that installation of an IID is discretionary for a first offender, as specified; authorizing a person convicted of driving a motor vehicle under the influence, if all other requirements are satisfied, including the installation of an IID, to apply for a restricted driver's license without completing a period of license suspension or revocation; and requiring ignition interlock device manufacturers and their certified agents to adopt a specified fee schedule that provides for the payment for the costs of an ignition interlock device in amounts commensurate with that person's income relative to the federal poverty level. Existing law makes these changes operative until January 1, 2033. Existing law makes it a crime to violate certain provisions relating to IIDs and motor vehicles equipped with IIDs.\n\nThis bill would extend the operation of these provisions indefinitely and would repeal a related reporting requirement. The bill would also instead require the court, upon the person's first criminal conviction for driving under the influence, to order installation of the IID. The bill would include, as part of the costs of the IID, the administration of the program, installation of the device, service, maintenance, and recalibration of the device, and any other costs associated with the device. The bill would adjust the person's income relative to the federal poverty level in the fee schedule and specify that the IID provider is responsible for absorbing the remaining costs not paid by the person. By extending the application of a crime, the bill would impose a state-mandated local program.\n\nExisting law requires the Department of Motor Vehicles to establish and maintain a data and monitoring system, as specified, to evaluate the efficacy of intervention programs for persons convicted of violations relating to alcohol and drugs, and to report thereon annually to the Legislature.\n\nThis bill would require the department to include in its annual report to the Legislature additional information pertaining to the individuals described above who were required to have a functioning, certified ignition interlock device installed, as specified.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1830",
+    "legislative_session": "20252026",
+    "subject": [
+      "Ignitioninterlockdevices"
+    ],
+    "title": "Ignition interlock devices."
+  },
+  "id": "AB1830",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass. (Ayes 15. Noes 0.) (May 14).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1830"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1830/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1830/logs/20260514T000000Z_from_committee_do_pass_ayes_15_noes_0_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

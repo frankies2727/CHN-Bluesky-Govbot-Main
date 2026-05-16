@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2438",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "city government",
+      "forms",
+      "landlord and tenant",
+      "notification",
+      "utilities",
+      "water utilities"
+    ],
+    "title": "A bill for an act relating to city utilities including landlord notification."
+  },
+  "id": "SF 2438",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-23",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2438"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2438/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2438/logs/20260223T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260223T000000Z"
+}
