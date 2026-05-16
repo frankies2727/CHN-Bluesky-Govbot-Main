@@ -2,7 +2,7 @@
 """
 Filter govbot's bills.jsonl for the active category (transportation by
 default), dedupe against the per-category state file, summarize with a
-local Qwen model (served by Ollama), and post to Bluesky with rich
+local LLM (Gemma served by Ollama), and post to Bluesky with rich
 link-card embeds.
 
 The category is selected via the BOT_CATEGORY env var and read from
@@ -47,12 +47,12 @@ BSKY_PASSWORD = CATEGORY.bluesky_password()
 
 BLUESKY_API = "https://bsky.social/xrpc"
 
-# Local Qwen via Ollama. Defaults assume `ollama serve` is running on the
+# Local LLM via Ollama. Defaults assume `ollama serve` is running on the
 # same host (e.g. installed in the GitHub Actions step before this script runs)
-# and the Qwen model has been pulled with `ollama pull <QWEN_MODEL>`.
-QWEN_API_URL = os.environ.get("QWEN_API_URL", "http://localhost:11434/api/chat")
-QWEN_MODEL = os.environ.get("QWEN_MODEL", "qwen2.5:1.5b")
-QWEN_TIMEOUT = int(os.environ.get("QWEN_TIMEOUT", "180"))
+# and the model has been pulled with `ollama pull <LLM_MODEL>`.
+LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
+LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
+LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "180"))
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -155,6 +155,34 @@ def _looks_like_code_title(title: str) -> bool:
     return len(t) < 35 and upper_ratio > 0.7
 
 
+# A leading bill-designation prefix, e.g. "SS#2/SCS/SB 1012 - " or "HB 5 - " —
+# alphanumeric codes optionally joined by slashes, the bill number, a dash.
+# Used to strip the redundant prefix before summarizing.
+_BILL_NUMBER_PREFIX_RE = re.compile(
+    r"^\s*[A-Z0-9#]+(?:/[A-Z0-9#]+)*\s+\d+\s*[-–—]\s+"
+)
+# The multi-part committee/substitute form (at least one slash, e.g.
+# "SS#2/SCS/SB 1012 - ") is a strong signal of a Missouri-style record that
+# dumps the whole abstract into the title — distinct from a plain "HB 5 - ".
+_SUBSTITUTE_PREFIX_RE = re.compile(
+    r"^\s*[A-Z0-9#]+(?:/[A-Z0-9#]+)+\s+\d+\s*[-–—]\s+"
+)
+
+
+def _is_blob_title(title: str) -> bool:
+    """True when the `title` field is actually a wall of legalese (the whole
+    abstract) rather than a real short headline. Some states — Missouri among
+    them — dump the entire multi-thousand-character abstract into the title."""
+    t = (title or "").strip()
+    if not t:
+        return False
+    if len(t) > 300:
+        return True
+    if "\r\n" in t or t.count("\n") >= 2:
+        return True
+    return bool(_SUBSTITUTE_PREFIX_RE.match(t))
+
+
 def extract_fields(record: dict) -> dict | None:
     bill = record.get("bill") or {}
     log = record.get("log") or {}
@@ -229,6 +257,10 @@ def best_display_text(b: dict, headline: str = "") -> str:
     abstract = (b["abstract"] or "").strip()
     if _looks_like_code_title(title) and abstract:
         return abstract
+    # Blob titles are walls of legalese — never show them raw in the post
+    # head. Use the model headline, falling back to the first clean sentence.
+    if _is_blob_title(title):
+        return headline or _first_sentence(abstract or title)
     # OR/TX-style boilerplate ("Relating to transportation; prescribing…")
     if abstract and _BOILERPLATE_TITLE_RE.match(title) and len(abstract) < 220:
         return abstract
@@ -440,6 +472,41 @@ def _clean_summary(text: str) -> str:
     return text
 
 
+def _is_allcaps_line(line: str) -> bool:
+    """A line that is mostly uppercase letters — a section header
+    ('INSPECTIONS OF LONG-TERM CARE FACILITIES') or a trailing drafter name
+    ('SCOTT SVAGERA'), not prose."""
+    letters = [c for c in line if c.isalpha()]
+    if len(letters) < 3:
+        return False
+    return sum(1 for c in letters if c.isupper()) / len(letters) > 0.8
+
+
+def _clean_for_llm(text: str) -> str:
+    """Normalize a raw bill abstract/title into prose the model can summarize:
+    drop the bill-number prefix, ALL-CAPS section headers, and the trailing
+    drafter name, and collapse the source's \\r\\n line breaks."""
+    text = (text or "").replace("\r\n", "\n").replace("\r", "\n")
+    text = _BILL_NUMBER_PREFIX_RE.sub("", text.strip(), count=1)
+    kept = []
+    for raw in text.split("\n"):
+        line = raw.strip()
+        if not line:
+            continue
+        # ALL-CAPS lines that don't end in sentence punctuation are section
+        # headers or a trailing drafter name — strip them so the model sees
+        # continuous prose instead of echoing a header.
+        if _is_allcaps_line(line) and not line.endswith((".", "!", "?")):
+            continue
+        kept.append(line)
+    collapsed = " ".join(" ".join(kept).split())
+    if collapsed:
+        return collapsed
+    # Everything looked like a header (rare) — fall back to the raw text so
+    # the caller still has something to work with.
+    return " ".join(text.split())
+
+
 _NORM_RE = re.compile(r"[^a-z0-9 ]+")
 
 
@@ -467,15 +534,20 @@ def _strip_title_prefix(summary: str, title: str) -> str:
     # title itself has no article.
     body = _LEAD_ARTICLE_RE.sub("", summary, count=1)
     skipped = len(summary) - len(body)
-    n_title = _normalize(title)
+    # Strip a leading article from the title too, so a summary and a title
+    # that both open with "The" still match (the summary side is already
+    # article-free in `body`).
+    n_title = _normalize(_LEAD_ARTICLE_RE.sub("", title, count=1))
     if not n_title or len(n_title) < 6:
         return summary
     n_body = _normalize(body)
     if not n_body.startswith(n_title):
         return summary
     # Walk forward through the un-stripped summary until the normalized prefix
-    # covers the title; that's where the restatement ends.
-    for i in range(skipped + len(title), len(summary) + 1):
+    # first covers the title; that's where the restatement ends. (Start from
+    # `skipped`, not `skipped + len(title)`: the article-stripped n_title can
+    # be shorter than the original title, so the boundary may come earlier.)
+    for i in range(skipped, len(summary) + 1):
         if _normalize(summary[skipped:i]).startswith(n_title):
             rest = summary[i:].lstrip(" -—:,.;")
             rest = _LEAD_FILLER_RE.sub("", rest)
@@ -502,33 +574,60 @@ def _smart_truncate(text: str, max_len: int) -> str:
     return cut.rstrip(",;:- ") + "…"
 
 
+def _first_sentence(text: str) -> str:
+    """First sentence of a cleaned abstract — the non-LLM fallback summary.
+    Returns "" when there's no usable prose, so the caller can drop the
+    summary block entirely rather than post raw legalese."""
+    cleaned = _clean_for_llm(text)
+    if not cleaned:
+        return ""
+    m = re.search(r"[.!?](?:\s|$)", cleaned)
+    sentence = cleaned[: m.end()].strip() if m else cleaned
+    return _smart_truncate(sentence, 180)
+
+
 def summarize(b: dict) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
-    has_extra = bool(abstract) and abstract.lower() != title.lower()
+    blob = _is_blob_title(title)
 
-    # When the only content is the title (common for Iowa, Indiana, etc.,
-    # which don't ship abstracts in OpenStates data), there's nothing the
-    # model can add without restating the title — and asking a small model
-    # to do so anyway invites hallucination (e.g. inventing an unrelated
-    # state's statutes). Skip summarization and let the title stand alone.
-    if not has_extra:
+    # When the only content is a short real title (common for Iowa, Indiana,
+    # etc., which don't ship abstracts in OpenStates data), there's nothing
+    # the model can add without restating the title — and asking a small
+    # model to do so anyway invites hallucination (e.g. inventing an
+    # unrelated state's statutes). Skip summarization and let the title
+    # stand alone. Blob titles are the opposite case: the "title" is itself
+    # the full abstract, so there's plenty of substance to summarize even
+    # when the title and abstract fields are identical.
+    if not abstract:
+        return ""
+    if not blob and abstract.lower() == title.lower():
         return ""
 
-    fallback = abstract[:180]
-    body_for_prompt = abstract
+    clean_abstract = _clean_for_llm(abstract)
+    if not clean_abstract:
+        return ""
 
-    user_prompt = (
-        f"Title: {title}\n"
-        f"Description: {body_for_prompt[:2000]}\n\n"
-        "Write the one-sentence neutral summary now."
-    )
+    # For blob bills the title is the same wall of legalese as the abstract;
+    # feeding it as a "Title:" line just confuses the model, so send only the
+    # cleaned description.
+    if blob:
+        user_prompt = (
+            f"Description: {clean_abstract[:2000]}\n\n"
+            "Write the one-sentence neutral summary now."
+        )
+    else:
+        user_prompt = (
+            f"Title: {title}\n"
+            f"Description: {clean_abstract[:2000]}\n\n"
+            "Write the one-sentence neutral summary now."
+        )
 
     try:
         r = requests.post(
-            QWEN_API_URL,
+            LLM_API_URL,
             json={
-                "model": QWEN_MODEL,
+                "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": CATEGORY.summary_system_prompt()},
                     {"role": "user", "content": user_prompt},
@@ -536,10 +635,10 @@ def summarize(b: dict) -> str:
                 "stream": False,
                 "options": {"num_predict": 200, "temperature": 0.3},
             },
-            timeout=QWEN_TIMEOUT,
+            timeout=LLM_TIMEOUT,
         )
         if not r.ok:
-            print(f"  ! Qwen {r.status_code}: {r.text[:300]}", file=sys.stderr)
+            print(f"  ! LLM {r.status_code}: {r.text[:300]}", file=sys.stderr)
             r.raise_for_status()
         data = r.json()
         # Ollama /api/chat returns {"message": {"content": "..."}, ...}
@@ -548,7 +647,8 @@ def summarize(b: dict) -> str:
         return _strip_title_prefix(_clean_summary(text), b["title"])
     except Exception as e:
         print(f"  ! summarization failed, using fallback: {e}", file=sys.stderr)
-        return _strip_title_prefix(fallback, b["title"])
+        # A clean first sentence beats raw legalese; "" drops the block.
+        return _strip_title_prefix(_first_sentence(abstract), b["title"])
 
 
 def shorten_title(b: dict) -> str:
@@ -559,25 +659,40 @@ def shorten_title(b: dict) -> str:
     the original title in any of those cases."""
     title = (b["title"] or "").strip()
     abstract = (b["abstract"] or "").strip()
+    blob = _is_blob_title(title)
     if len(title) <= HEADLINE_THRESHOLD:
         return ""
-    # Without an abstract the title is the only signal — letting a 1.5B model
-    # paraphrase a title-only record invites hallucinated specifics.
-    if not abstract or _normalize(abstract) == _normalize(title):
+    # Without an abstract a normal long title is the only signal — letting a
+    # small model paraphrase a title-only record invites hallucinated
+    # specifics. Blob titles carry the full abstract inline, so they are
+    # always safe (and necessary) to rewrite into a real headline.
+    if not blob and (not abstract or _normalize(abstract) == _normalize(title)):
+        return ""
+
+    # Blob bills: the title is the same legalese as the abstract. Ground the
+    # rewrite on the cleaned body rather than echoing the raw title back.
+    body = _clean_for_llm(abstract or title)
+    if not body:
         return ""
 
     system_prompt = CATEGORY.headline_system_prompt()
-    user_prompt = (
-        f"Title: {title}\n"
-        f"Description: {abstract[:2000]}\n\n"
-        f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
-    )
+    if blob:
+        user_prompt = (
+            f"Description: {body[:2000]}\n\n"
+            f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
+        )
+    else:
+        user_prompt = (
+            f"Title: {title}\n"
+            f"Description: {body[:2000]}\n\n"
+            f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
+        )
 
     try:
         r = requests.post(
-            QWEN_API_URL,
+            LLM_API_URL,
             json={
-                "model": QWEN_MODEL,
+                "model": LLM_MODEL,
                 "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
@@ -585,10 +700,10 @@ def shorten_title(b: dict) -> str:
                 "stream": False,
                 "options": {"num_predict": 60, "temperature": 0.3},
             },
-            timeout=QWEN_TIMEOUT,
+            timeout=LLM_TIMEOUT,
         )
         if not r.ok:
-            print(f"  ! Qwen headline {r.status_code}: {r.text[:300]}", file=sys.stderr)
+            print(f"  ! LLM headline {r.status_code}: {r.text[:300]}", file=sys.stderr)
             return ""
         data = r.json()
         text = (data.get("message") or {}).get("content") or data.get("response") or ""
@@ -1468,7 +1583,7 @@ def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, s
 
     state_name = STATE_FULL_NAME.get(b["state"], b["state"] or "Bill")
     embed_title = f"{state_name} {b['identifier']}"[:300]
-    embed_desc = (b["abstract"] or summary or display)[:280]
+    embed_desc = (summary or _clean_for_llm(b["abstract"]) or display)[:280]
     return text, link, embed_title, embed_desc
 
 

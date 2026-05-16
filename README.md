@@ -9,8 +9,8 @@ Each **category** (transportation, immigration, taxation, AI/data centers, housi
 On a cron (every 6 hours by default), one workflow:
 
 1. Installs and runs `govbot`, which clones state legislation repos and dumps `bills.jsonl`. **This is the slow step (~8 min)** and now runs once for all categories.
-2. Installs [Ollama](https://ollama.com/) on the runner and pulls a small **Qwen** model (`qwen2.5:1.5b`) — summarization runs entirely on the runner, no third-party API key required.
-3. Loops over `categories/*/`: for each one, `scripts/post_to_bluesky.py` filters `bills.jsonl` against the category's keywords, asks the local Qwen model for a one-sentence neutral summary, and posts to that category's Bluesky account with a clickable link.
+2. Installs [Ollama](https://ollama.com/) on the runner and pulls a small **Gemma** model (`gemma3:4b`) — summarization runs entirely on the runner, no third-party API key required.
+3. Loops over `categories/*/`: for each one, `scripts/post_to_bluesky.py` filters `bills.jsonl` against the category's keywords, asks the local model for a one-sentence neutral summary, and posts to that category's Bluesky account with a clickable link.
 4. Commits each `categories/<name>/bills_used.json` back to the repo so the next run knows what's already been posted.
 
 A second workflow runs **every Friday at ~4 pm ET** (`weekly-digest.yml`) and posts a threaded weekly digest per category: a root post summarizing the week's activity plus up to 6 reply posts highlighting the most significant updates (signed into law, passed, vetoed, etc.). Bills are scored by action significance and capped at 2 per state to keep the digest broad. Configure via env vars in the workflow: `DIGEST_LOOKBACK_DAYS`, `DIGEST_MAX_HIGHLIGHTS`, `DIGEST_PER_STATE_CAP`.
@@ -35,7 +35,7 @@ In **Settings → Secrets and variables → Actions**, add **two secrets per cat
 
 `<NAME>` is the upper-case category folder name. So for `categories/transportation/`, the secrets are `BLUESKY_HANDLE_TRANSPORTATION` and `BLUESKY_APP_PASSWORD_TRANSPORTATION`. For `categories/ai_data_centers/`: `BLUESKY_HANDLE_AI_DATA_CENTERS` and `BLUESKY_APP_PASSWORD_AI_DATA_CENTERS`.
 
-Summarization uses a local Qwen model via Ollama on the GitHub Actions runner, so no third-party LLM API key is needed.
+Summarization uses a local Gemma model via Ollama on the GitHub Actions runner, so no third-party LLM API key is needed.
 
 ### 4. Enable Actions
 On the Actions tab, enable workflows. The first run can be triggered manually via **Run workflow** on `govbot-bluesky-post`.
@@ -63,16 +63,16 @@ Edit `.github/workflows/post.yml`:
 
 Edit `scripts/post_to_bluesky.py` (or override via env vars in the workflow):
 
-- `QWEN_MODEL` — default is `qwen2.5:1.5b` (fast on a 2-core CI runner). Bump to `qwen2.5:3b` or `qwen2.5:7b` for richer summaries — pull time and per-summary latency will go up accordingly.
-- `QWEN_API_URL` — defaults to `http://localhost:11434/api/chat` (Ollama). Point at any Ollama-compatible endpoint to use a different host.
-- `QWEN_TIMEOUT` — per-request timeout in seconds (default 180).
+- `LLM_MODEL` — default is `gemma3:4b` (a good quality/speed balance on a 2-core CI runner). Drop to `gemma3:1b` for faster runs or bump to `gemma3:12b` for richer summaries — pull time and per-summary latency will go up accordingly.
+- `LLM_API_URL` — defaults to `http://localhost:11434/api/chat` (Ollama). Point at any Ollama-compatible endpoint to use a different host.
+- `LLM_TIMEOUT` — per-request timeout in seconds (default 180).
 - `MAX_POST` — post length cap. Bluesky's actual limit is 300 graphemes; we keep some slack.
 
 ## Local testing
 
 ```bash
-# 1. Install Ollama (https://ollama.com/) and pull the Qwen model
-ollama pull qwen2.5:1.5b
+# 1. Install Ollama (https://ollama.com/) and pull the model
+ollama pull gemma3:4b
 # Make sure `ollama serve` is running (the desktop app starts it automatically;
 # on Linux the install script enables a systemd service).
 
@@ -83,7 +83,7 @@ BOT_CATEGORY=transportation DRY_RUN=1 python scripts/post_to_bluesky.py
 
 Dry run prints composed posts without hitting Bluesky. State still updates so you can iterate without re-summarizing.
 
-If you don't have Ollama running locally, summaries fall back to a truncated abstract — the rest of the pipeline still works.
+If you don't have Ollama running locally, summaries fall back to the first clean sentence of the abstract (or are omitted) — the rest of the pipeline still works.
 
 ## Layout
 

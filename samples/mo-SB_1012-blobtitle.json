@@ -1,0 +1,28 @@
+{
+ "bill": {
+  "abstracts": [
+   {
+    "abstract": "SS#2/SCS/SB 1012 - This act creates new provisions relating to artificial intelligence.\r\n\r\nAI NON-SENTIENCE AND RESPONSIBILITY ACT\r\n(Section 1.2045)\r\nThe act establishes the \"AI Non-Sentience and Responsibility Act\". New provisions are created governing the legal status of AI, the use of AI by owners and licensed professionals, and responsibility for harm caused by AI systems.\r\n\r\nAI COMPANION CHATBOTS\r\n(Section 1.2058)\r\nThe act creates new provisions relating to companion chatbots. An operator of a companion chatbot shall issue a clear and conspicuous notification indicating that the companion chatbot is artificially generated and not human, and shall maintain a protocol for crisis situations.\r\n\r\nELECTIONS\r\n(Section 130.165)\r\nAny political advertisement that uses artificial intelligence shall prominently include a disclaimer alerting the viewer that the media was created with the use of AI.\r\n\r\nSCOTT SVAGERA",
+    "note": "abstract"
+   }
+  ],
+  "from_organization": "~{\"classification\": \"upper\"}",
+  "identifier": "SB 1012",
+  "legislative_session": "2026",
+  "title": "SS#2/SCS/SB 1012 - This act creates new provisions relating to artificial intelligence.\r\n\r\nAI NON-SENTIENCE AND RESPONSIBILITY ACT\r\n(Section 1.2045)\r\nThe act establishes the \"AI Non-Sentience and Responsibility Act\". New provisions are created governing the legal status of AI, the use of AI by owners and licensed professionals, and responsibility for harm caused by AI systems.\r\n\r\nAI COMPANION CHATBOTS\r\n(Section 1.2058)\r\nThe act creates new provisions relating to companion chatbots. An operator of a companion chatbot shall issue a clear and conspicuous notification indicating that the companion chatbot is artificially generated and not human, and shall maintain a protocol for crisis situations.\r\n\r\nELECTIONS\r\n(Section 130.165)\r\nAny political advertisement that uses artificial intelligence shall prominently include a disclaimer alerting the viewer that the media was created with the use of AI.\r\n\r\nSCOTT SVAGERA"
+ },
+ "id": "SB 1012",
+ "log": {
+  "action": {
+   "date": "2026-05-12T05:00:00+00:00",
+   "description": "Voted Do Not Pass H Emerging Issues",
+   "organization_id": "~{\"classification\": \"lower\"}"
+  },
+  "bill_id": "SB 1012"
+ },
+ "sources": {
+  "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1012/metadata.json",
+  "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1012/logs/20260512T050000Z_voted_do_not_pass_h_emerging_issues.json"
+ },
+ "timestamp": "20260512T050000Z"
+}
