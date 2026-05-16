@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 0086",
+    "legislative_session": "2025-2026",
+    "title": "A resolution to urge the United States Congress to pass legislation to require immigration officers to display visible identification, prohibit immigration officers from covering their faces, and limit immigration enforcement actions in sensitive locations."
+  },
+  "id": "SR 0086",
+  "log": {
+    "action": {
+      "date": "2025-11-12",
+      "description": "RULES SUSPENDED",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR 0086"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SR0086/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SR0086/logs/20251112T000000Z_rules_suspended.json"
+  },
+  "timestamp": "20251112T000000Z"
+}

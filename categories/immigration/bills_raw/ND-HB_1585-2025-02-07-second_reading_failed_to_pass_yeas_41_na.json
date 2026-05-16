@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to a requirement for peace officers to report undocumented immigrants to United States immigration and customs.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1585",
+    "legislative_session": "69",
+    "title": "A BILL for an Act to create and enact a new section to chapter 12-63 of the North Dakota Century Code, relating to a requirement for peace officers to report undocumented immigrants to United States immigration and customs."
+  },
+  "id": "HB 1585",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2025-02-07",
+      "description": "Second reading, failed to pass, yeas 41 nays 50",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1585"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/HB1585/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/HB1585/logs/20250207T000000Z_second_reading_failed_to_pass_yeas_41_nays_50.json"
+  },
+  "timestamp": "20250207T000000Z"
+}

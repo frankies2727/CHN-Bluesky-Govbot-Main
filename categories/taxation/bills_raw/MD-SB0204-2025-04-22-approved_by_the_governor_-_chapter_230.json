@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB0204",
+    "legislative_session": "2025",
+    "title": "Property Tax - Deadline to Set County and Municipal Corporation Tax Rates - Alteration"
+  },
+  "id": "SB0204",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2025-04-22",
+      "description": "Approved by the Governor - Chapter 230",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB0204"
+  },
+  "sources": {
+    "bill": "md-legislation/country:us/state:md/sessions/2025/bills/SB0204/metadata.json",
+    "log": "md-legislation/country:us/state:md/sessions/2025/bills/SB0204/logs/20250422T000000Z_approved_by_the_governor_chapter_230.json"
+  },
+  "timestamp": "20250422T000000Z"
+}

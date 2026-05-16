@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2160",
+    "legislative_session": "2025",
+    "title": "Motor vehicles; regulation; New Motor Vehicle Commission; approval of form; licensure; application; fees; certificates of registration; franchise; new vehicle dealers; effective date."
+  },
+  "id": "HB2160",
+  "log": {
+    "action": {
+      "date": "2025-05-29",
+      "description": "Becomes law without Governor's signature 05/29/2025",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2160"
+  },
+  "sources": {
+    "bill": "ok-legislation/country:us/state:ok/sessions/2025/bills/HB2160/metadata.json",
+    "log": "ok-legislation/country:us/state:ok/sessions/2025/bills/HB2160/logs/20250529T000000Z_becomes_law_without_governors_signature_05292025.json"
+  },
+  "timestamp": "20250529T000000Z"
+}

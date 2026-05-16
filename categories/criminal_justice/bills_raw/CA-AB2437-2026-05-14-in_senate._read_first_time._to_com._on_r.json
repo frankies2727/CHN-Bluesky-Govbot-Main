@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, whenever a peace officer determines, among other things, that a person was driving without a license or while their driving privilege was suspended or revoked, the peace officer is authorized to remove and seize that vehicle. Existing law requires the law enforcement agency and the impounding agency, including any storage facility acting on behalf of the law enforcement agency or impounding agency, to comply with specified provisions. Existing law requires that a vehicle be released to the legal owner of the vehicle or the legal owner's agent prior to the end of 30 days' impoundment if specified conditions are met, including, among other things, that the legal owner or the legal owner's agent pays all towing and storage fees related to the seizure of the vehicle and presents specified documents showing proof of legal ownership. With regards to the payment of the fees, existing law requires a person operating or in charge of a storage facility where vehicles are stored to accept a valid bank credit card or cash for payment by a legal or registered owner or the owner's agent claiming the vehicle. Existing law prohibits any tow yard, impounding agency, or governmental agency, or any person acting on behalf of those entities, from refusing to release a vehicle or other collateral to anyone that is legally entitled to that vehicle or other collateral.\n\n A violation of any provision of the Vehicle Code is punishable as a crime, unless otherwise specified.\n\nThis bill would additionally require the acceptance of debit cards, as defined, for the payment of the fees described above. The bill would provide that requiring any documents to show proof of ownership other than those specified in the provisions described above constitutes a refusal to release under the prohibition described above. The bill would also make other technical, clarifying, and conforming changes. By expanding the scope of existing crimes and creating a new crime, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2437",
+    "legislative_session": "20252026",
+    "subject": [
+      "Impoundedvehicles"
+    ],
+    "title": "Impounded vehicles."
+  },
+  "id": "AB2437",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-14",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2437"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2437/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2437/logs/20260514T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

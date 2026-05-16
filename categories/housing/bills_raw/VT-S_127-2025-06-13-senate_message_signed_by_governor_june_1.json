@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 127",
+    "legislative_session": "2025-2026",
+    "title": "An act relating to housing and housing development"
+  },
+  "id": "S 127",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2025-06-13",
+      "description": "Senate Message: Signed by Governor June 12, 2025",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "S 127"
+  },
+  "sources": {
+    "bill": "vt-legislation/country:us/state:vt/sessions/2025-2026/bills/S127/metadata.json",
+    "log": "vt-legislation/country:us/state:vt/sessions/2025-2026/bills/S127/logs/20250613T000000Z_senate_message_signed_by_governor_june_12_2025.json"
+  },
+  "timestamp": "20250613T000000Z"
+}

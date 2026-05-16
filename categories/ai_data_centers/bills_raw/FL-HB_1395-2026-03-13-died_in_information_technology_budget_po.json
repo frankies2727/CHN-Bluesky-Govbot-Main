@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Artificial Intelligence;  Prohibits governmental entities from extending or renewing contract with specified entities; prohibits governmental entities from taking certain actions relating to contracting for AI technology, software, or products unless certain requirements are met; prohibits governmental entities from entering into contracts for AI technology, software, or products under certain conditions; provides rights of Floridians relating to AI use; requires consent for minors to create new or maintain existing companion chatbot platforms; requires companion chatbot platforms to make certain disclosures & institute certain measures to protect minors; prohibits AI technology companies from selling or disclosing personal information of users unless information is deidentified; prohibits commercial use of individual's name, image, or likeness created through AI without consent; provides for enforcement; provides for civil penalties & damages; provides for private causes of action.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1395",
+    "legislative_session": "2026",
+    "subject": [
+      "and solicitations",
+      "domestic relations",
+      "public business"
+    ],
+    "title": "Artificial Intelligence"
+  },
+  "id": "HB 1395",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Information Technology Budget & Policy Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1395"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1395/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1395/logs/20260313T000000Z_died_in_information_technology_budget_policy_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

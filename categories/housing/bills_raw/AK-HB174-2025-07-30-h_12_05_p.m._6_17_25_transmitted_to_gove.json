@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB174",
+    "legislative_session": "34",
+    "subject": [
+      "APPROPRIATIONS",
+      "BUDGET",
+      "BUILDINGS",
+      "CAPITAL PROJECTS",
+      "CONSTRUCTION",
+      "EDUCATION",
+      "FUNDS",
+      "GRANTS",
+      "HOUSING",
+      "SCHOOL DISTRICTS",
+      "SCHOOLS",
+      "STATE AID",
+      "TEACHERS"
+    ],
+    "title": "An Act relating to the regional educational attendance area and small municipal school district fund; relating to Mt. Edgecumbe High School; and relating to teacher housing."
+  },
+  "id": "HB174",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2025-07-30",
+      "description": "(H) 12:05 P.M. 6/17/25 Transmitted to Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB174"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB174/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB174/logs/20250730T000000Z.classification.executive-receipt.lower.json"
+  }
+}

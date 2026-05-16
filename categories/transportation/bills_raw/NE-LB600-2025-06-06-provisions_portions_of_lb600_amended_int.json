@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "LB600",
+    "legislative_session": "109",
+    "title": "Change provisions relating to the Nebraska Rules of the Road and the Automatic License Plate Reader Privacy Act"
+  },
+  "id": "LB600",
+  "log": {
+    "action": {
+      "date": "2025-06-06",
+      "description": "Provisions/portions of LB600 amended into LB530 by AM1238",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "LB600"
+  },
+  "sources": {
+    "bill": "ne-legislation/country:us/state:ne/sessions/109/bills/LB600/metadata.json",
+    "log": "ne-legislation/country:us/state:ne/sessions/109/bills/LB600/logs/20250606T000000Z_provisionsportions_of_lb600_amended_into_lb530_by_am1238.json"
+  },
+  "timestamp": "20250606T000000Z"
+}

@@ -1,8 +1,10 @@
 {
   "posted": [
+    "AL|SB270|2026-04-17|Enacted",
     "CA|AB2392|2026-05-14|From committee: Do pass. (Ayes 14. Noes ",
     "CA|AB2545|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
     "CO|SB 004|2025-08-28|Governor Signed",
+    "FL|HB 1395|2026-03-13|Died in Information Technology Budget & ",
     "FL|SB 2D|2026-04-28|",
     "FL|SB 2D|2026-04-28|In Messages",
     "FL|SB 2D|2026-04-28|Introduced",
@@ -34,9 +36,11 @@
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-05-16T02:54:30.030405+00:00",
+  "last_run": "2026-05-16T04:25:07.787559+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
-    "CO": "2026-05-16T02:53:56.286279+00:00"
+    "CO": "2026-05-16T02:53:56.286279+00:00",
+    "AL": "2026-05-16T04:23:57.230034+00:00",
+    "FL": "2026-05-16T04:23:57.230034+00:00"
   }
 }

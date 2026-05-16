@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amend KRS 45.812 to require an agency, corporation, or school district that is authorized to issue a general obligation bond by an appropriation of the General Assembly, or by or on behalf of any Kentucky school district, to report the costs associated with the issuance of the bond to the Capital Projects and Bond Oversight Committee and the Interim Joint Committee on Appropriations and Revenue.",
+        "note": "Summary of Original Version"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB606",
+    "legislative_session": "2025RS",
+    "subject": [
+      "Bonds, Public",
+      "Education, Finance",
+      "Fiscal Note",
+      "Reports Mandated"
+    ],
+    "title": "AN ACT relating to economic development."
+  },
+  "id": "HB606",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2025-04-02T04:00:00+00:00",
+      "description": "signed by Governor (Acts Ch. 159)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB606"
+  },
+  "sources": {
+    "bill": "ky-legislation/country:us/state:ky/sessions/2025RS/bills/HB606/metadata.json",
+    "log": "ky-legislation/country:us/state:ky/sessions/2025RS/bills/HB606/logs/20250402T040000Z_signed_by_governor_acts_ch_159.json"
+  },
+  "timestamp": "20250402T040000Z"
+}

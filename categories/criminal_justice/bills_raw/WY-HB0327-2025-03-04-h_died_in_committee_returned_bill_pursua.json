@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB0327",
+    "legislative_session": "2025",
+    "title": "Attorney general-control by state-wide elected officials."
+  },
+  "id": "HB0327",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-failure"
+      ],
+      "date": "2025-03-04T00:20:04+00:00",
+      "description": "H:Died in Committee Returned Bill Pursuant to HR 5-4",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB0327"
+  },
+  "sources": {
+    "bill": "wy-legislation/country:us/state:wy/sessions/2025/bills/HB0327/metadata.json",
+    "log": "wy-legislation/country:us/state:wy/sessions/2025/bills/HB0327/logs/20250304T002004Z_hdied_in_committee_returned_bill_pursuant_to_hr_54.json"
+  },
+  "timestamp": "20250304T002004Z"
+}

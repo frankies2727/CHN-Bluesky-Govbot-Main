@@ -1,6 +1,7 @@
 {
   "posted": [
     "AK|HB35|2025-08-19|(H) EFFECTIVE DATE(S) OF LAW 11/5/25",
+    "CA|AB2437|2026-05-14|In Senate. Read first time. To Com. on R",
     "CA|AB2437|2026-05-14|Read third time. Passed. Ordered to the ",
     "CA|SB1217|2026-05-11|May 11 hearing: Placed on APPR. suspense",
     "CA|SB1217|2026-05-14|May 14 hearing: Held in committee and un",
@@ -17,11 +18,14 @@
     "MO|SB 1544|2026-05-14|S concurs in  HCS, as amended",
     "MO|SB 905|2026-05-14|S Bills with H Amendments",
     "RI|SB2308|2026-05-08|05/08/2026 Scheduled for hearing and/or ",
-    "RI|SB2308|2026-05-12|05/12/2026 Committee recommended measure"
+    "RI|SB2308|2026-05-12|05/12/2026 Committee recommended measure",
+    "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-05-16T02:55:59.204250+00:00",
+  "last_run": "2026-05-16T04:26:10.425013+00:00",
   "state_last_posted": {
     "DE": "2026-05-16T02:55:29.130660+00:00",
-    "AK": "2026-05-16T02:55:29.130660+00:00"
+    "AK": "2026-05-16T02:55:29.130660+00:00",
+    "CA": "2026-05-16T04:25:25.886287+00:00",
+    "WY": "2026-05-16T04:25:25.886287+00:00"
   }
 }
