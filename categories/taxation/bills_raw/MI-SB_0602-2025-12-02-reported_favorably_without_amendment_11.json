@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0602",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Industrial Hemp: other",
+      "Marihuana: other"
+    ],
+    "title": "Marihuana: other; references to and regulation of industrial hemp under the Michigan Regulation and Taxation of Marihuana Act; amend. Amends secs. 3 & 8 of 2018 IL 1 (MCL 333.27953 & 333.27958).   TIE BAR WITH: SB 0599'25"
+  },
+  "id": "SB 0602",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2025-12-02",
+      "description": "REPORTED FAVORABLY WITHOUT AMENDMENT 11/13/2025",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 0602"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0602/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0602/logs/20251202T000000Z_reported_favorably_without_amendment_11132025.json"
+  },
+  "timestamp": "20251202T000000Z"
+}

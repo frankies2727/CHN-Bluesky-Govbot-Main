@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1492",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of April 6, 1951 (P.L.69, No.20), known as The Landlord and Tenant Act of 1951, providing for use of criminal records to screen tenants; imposing duties on the Pennsylvania Human Relations Commission; and imposing penalties."
+  },
+  "id": "HB 1492",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2025-11-17T05:00:00+00:00",
+      "description": "Re-reported as committed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1492"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1492/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1492/logs/20251117T050000Z_rereported_as_committed.json"
+  },
+  "timestamp": "20251117T050000Z"
+}

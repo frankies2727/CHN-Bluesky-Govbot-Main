@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR13",
+    "legislative_session": "34",
+    "subject": [
+      "ALIENS",
+      "INTERGOVERNMENTAL RELATIONS",
+      "MILITARY",
+      "RESIDENCY",
+      "TERRORISM",
+      "WARFARE"
+    ],
+    "title": "Urging the President of the United States to expand evacuation efforts for applicants with approved Special Immigrant Visas, including resumption of evacuation flights organized by the Coordinator for Afghan Relocation Efforts; urging the United States Department of State to secure legal protections and humanitarian assistance for Special Immigrant Visa applicants; urging the United States Citizenship and Immigration Services in the United States Department of Homeland Security to expedite the review of applications for Special Immigrant Visas; and requesting that the United States Secretary of State provide a report to Congress regarding efforts to reinstate evacuation flights for applicants with approved Special Immigrant Visas."
+  },
+  "id": "HJR13",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2025-07-30",
+      "description": "(H) 12:05 P.M. 6/17/25 Transmitted to Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR13"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HJR13/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HJR13/logs/20250730T000000Z.classification.executive-receipt.lower.json"
+  }
+}

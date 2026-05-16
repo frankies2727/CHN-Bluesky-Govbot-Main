@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB35",
+    "legislative_session": "34",
+    "subject": [
+      "CORRECTIONS",
+      "CRIMES",
+      "CRIMINAL PROCEDURE",
+      "EDUCATION",
+      "EMPLOYMENT",
+      "FEES",
+      "RIGHTS",
+      "SCIENCE & TECHNOLOGY",
+      "VOCATIONAL TRAINING"
+    ],
+    "title": "An Act relating to the use and possession of electronic devices by prisoners; and relating to identification cards."
+  },
+  "id": "HB35",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2025-08-19",
+      "description": "(H) EFFECTIVE DATE(S) OF LAW 11/5/25",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB35"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB35/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB35/logs/20250819T000000Z.classification.became-law.lower.json"
+  }
+}

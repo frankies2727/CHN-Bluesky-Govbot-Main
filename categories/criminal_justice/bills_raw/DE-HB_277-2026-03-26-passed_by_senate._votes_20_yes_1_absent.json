@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act codifies the Delaware State Police program that makes available a “blue envelope” for use by a person with a disability. The intent of this program is to increase safety for both officers and persons with a disability during a traffic stop. The envelope contains written information for officers regarding interacting with a person with a disability, as well as guidance for the person with a disability on safe interactions with law-enforcement during a traffic stop. The envelope is sized to be able to contain a driver’s license, motor vehicle registration card, and insurance identification card and other related documents.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 277",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO SAFETY DURING TRAFFIC STOPS."
+  },
+  "id": "HB 277",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-26",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 277"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB277/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB277/logs/20260326T000000Z.classification.passage.upper.json"
+  }
+}

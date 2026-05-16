@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "SF0065",
+    "legislative_session": "2025",
+    "title": "Data privacy-government entities."
+  },
+  "id": "SF0065",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-failure"
+      ],
+      "date": "2025-03-01T02:45:29+00:00",
+      "description": "H COW:H Did not consider for COW",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SF0065"
+  },
+  "sources": {
+    "bill": "wy-legislation/country:us/state:wy/sessions/2025/bills/SF0065/metadata.json",
+    "log": "wy-legislation/country:us/state:wy/sessions/2025/bills/SF0065/logs/20250301T024529Z_h_cowh_did_not_consider_for_cow.json"
+  },
+  "timestamp": "20250301T024529Z"
+}

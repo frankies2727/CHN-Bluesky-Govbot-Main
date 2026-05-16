@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "In 2024, the general assembly enacted Senate Bill 24-205, which created consumer protections in interactions with artificial intelligence systems. The act extends the effective date of the requirements of Senate Bill 24-205 to June 30, 2026.APPROVED by Governor August 28, 2025EFFECTIVE November 25, 2025(Note: This summary applies to this bill as enacted.)",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 004",
+    "legislative_session": "2025B",
+    "subject": [
+      "Business & Economic Development",
+      "Labor & Employment",
+      "Telecommunications & Information Technology"
+    ],
+    "title": "Increase Transparency for Algorithmic Systems"
+  },
+  "id": "SB 004",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2025-08-28",
+      "description": "Governor Signed",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 004"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2025B/bills/SB004/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2025B/bills/SB004/logs/20250828T000000Z_governor_signed.json"
+  },
+  "timestamp": "20250828T000000Z"
+}

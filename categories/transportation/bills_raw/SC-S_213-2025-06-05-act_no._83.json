@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND ACT 919 OF 1928, AS AMENDED, RELATING TO THE POWERS AND DUTIES OF THE GREENVILLE AIRPORT COMMISSION, SO AS TO INCREASE THE AUTHORIZED TOTAL INDEBTEDNESS TO TWENTY MILLION DOLLARS. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 213",
+    "legislative_session": "2025-2026",
+    "title": "Greenville Airport Commission"
+  },
+  "id": "S 213",
+  "log": {
+    "action": {
+      "date": "2025-06-05",
+      "description": "Act No. 83",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "S 213"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S213/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S213/logs/20250605T000000Z_act_no_83.json"
+  },
+  "timestamp": "20250605T000000Z"
+}

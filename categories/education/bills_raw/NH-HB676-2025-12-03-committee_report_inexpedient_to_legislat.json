@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB676",
+    "legislative_session": "2025",
+    "title": "relative to the composition and responsibilities of the parent and education service provider advisory commission, and establishing education freedom account impact and parent satisfaction surveys."
+  },
+  "id": "HB676",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-failure"
+      ],
+      "date": "2025-12-03",
+      "description": "Committee Report: Inexpedient to Legislate; Vote 5-0; CC; 01/07/2026;",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB676"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2025/bills/HB676/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2025/bills/HB676/logs/20251203T000000Z_committee_report_inexpedient_to_legislate_vote_50_cc_01072026.json"
+  },
+  "timestamp": "20251203T000000Z"
+}

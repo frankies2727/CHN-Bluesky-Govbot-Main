@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Airport Authorities Act. Provides that, for authorities other than Metropolitan Airport Authorities, the Greater Metropolitan Airport Authority, and the Crawford County Airport Authority, in the order finding the results of the election to be favorable to the establishment of the authority, the circuit court shall determine the population of the authority and the population of each municipality located in whole or in part within the corporate limits of the authority having 5,000 or more inhabitants who reside within the corporate limits of the authority according to the last census (rather than the population of each municipality within the authority having 5,000 or more inhabitants according to the last census). Provides that, if a municipality located in whole or in part within the corporate limits of the authority attains 5,000 or more inhabitants who reside within the corporate limits of the authority (rather than if the municipality that is located wholly within the authority attains 5,000 inhabitants), or if a municipality having 5,000 or more inhabitants who reside within the corporate limits of the authority is established (rather than if a municipality located wholly within the authority having a population of 5,000 or more inhabitants), then the presiding officer of the municipality may petition the circuit court for an order finding and determining the population of the municipality and, if it is found and determined upon the hearing of the petition that 5,000 or more inhabitants reside within the corporate limits of both the municipality and the authority (rather than the population of the municipality is 5,000 or more), then the board of commissioners of the authority as previously established shall be increased by one commissioner who shall reside within the corporate limits of the municipality and shall be appointed by its presiding officer. Provides that all appointments of Commissioners to Boards of Commissioners of Airport Authorities shall be in writing and shall indicate the legal residence of the person appointed and whether or not he resides within or without a municipality having a population of 5,000 or more inhabitants within the corporate limits of the authority (rather than having a population of 5,000 or more)."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB4182",
+    "legislative_session": "104th",
+    "title": "AIRPORT AUTHORITY BOARDS"
+  },
+  "id": "HB4182",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2025-10-28",
+      "description": "First Reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB4182"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB4182/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB4182/logs/20251028T000000Z_first_reading.json"
+  },
+  "timestamp": "20251028T000000Z"
+}

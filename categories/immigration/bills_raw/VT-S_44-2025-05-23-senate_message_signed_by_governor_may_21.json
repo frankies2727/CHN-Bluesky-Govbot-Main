@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 44",
+    "legislative_session": "2025-2026",
+    "title": "An act relating to authorization to enter into certain immigration agreements"
+  },
+  "id": "S 44",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2025-05-23",
+      "description": "Senate Message: Signed by Governor May 21, 2025",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "S 44"
+  },
+  "sources": {
+    "bill": "vt-legislation/country:us/state:vt/sessions/2025-2026/bills/S44/metadata.json",
+    "log": "vt-legislation/country:us/state:vt/sessions/2025-2026/bills/S44/logs/20250523T000000Z_senate_message_signed_by_governor_may_21_2025.json"
+  },
+  "timestamp": "20250523T000000Z"
+}

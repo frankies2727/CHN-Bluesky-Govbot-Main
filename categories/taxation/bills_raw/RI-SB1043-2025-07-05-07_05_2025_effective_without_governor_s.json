@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Adds the property of the  Pokanoket Management Group, Trustee of the Pokanoket Tribe Land Trust, to the list of property designated for appropriations in lieu of municipal property tax, would concurrently exempt such property from municipal property tax.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1043",
+    "legislative_session": "2025",
+    "title": "AN ACT RELATING TO TAXATION -- PROPERTY SUBJECT TO TAXATION"
+  },
+  "id": "SB1043",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2025-07-05",
+      "description": "07/05/2025 Effective without Governor's signature",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB1043"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2025/bills/SB1043/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2025/bills/SB1043/logs/20250705T000000Z.classification.became-law.executive.json"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Permits the Department of Labor and Industrial Relations to enter into contracts with eligible employers or registered apprenticeship programs in the private sector to provide on-the-job training to eligible interns.  Establishes a state internship and workforce development program.  Requires the Department of Labor and Industrial Relations to collaborate with the Department of Human Resources Development for placement of interns in state executive branch departments, agencies, and programs.  Provides that the State shall be the responsible employer for purposes of workers' compensation coverage for students or recent graduates in the on-the-job-training work experience program, subject to certain limitations.  Appropriates funds.  (CD1)",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB430",
+    "legislative_session": "2025",
+    "subject": [
+      "Appropriation ($)",
+      "Department of Labor and Industrial Relations",
+      "Internships",
+      "Private Sector",
+      "Workers' Compensation Coverage",
+      "Workforce Development"
+    ],
+    "title": "RELATING TO INTERNSHIPS."
+  },
+  "id": "HB430",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2025-07-01",
+      "description": "Act 251, on 07/01/2025 (Gov. Msg. No. 1354).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB430"
+  },
+  "sources": {
+    "bill": "hi-legislation/country:us/state:hi/sessions/2025/bills/HB430/metadata.json",
+    "log": "hi-legislation/country:us/state:hi/sessions/2025/bills/HB430/logs/20250701T000000Z.classification.became-law.lower.json"
+  }
+}
