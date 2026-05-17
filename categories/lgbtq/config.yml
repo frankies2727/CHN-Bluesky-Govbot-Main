@@ -1,0 +1,97 @@
+# LGBTQ bot — best-effort seed. Tune keywords after a week of dry-run
+# output by inspecting which bills get matched and which don't.
+#
+# `keywords` are core terms — a single hit in a bill title is enough to match.
+# `context_keywords` are broad terms that show up in unrelated bills; they only
+# count toward a match when a core keyword also appears in the bill.
+
+name: lgbtq
+display_name: "LGBTQ"
+prompt_topic: "LGBTQ rights, including gender identity, sexual orientation, anti-discrimination protections, gender-affirming care, and transgender youth"
+default_emoji: "🏳️‍🌈"
+
+keywords:
+  # Identity / community
+  - LGBTQ
+  - LGBTQ+
+  - LGBT
+  - LGBTQIA
+  - LGBTQIA+
+  - lesbian
+  - gay
+  - bisexual
+  - transgender
+  - transgender youth
+  - transgender minors
+  - transgender students
+  - transgender athlete
+  - transgender athletes
+  - nonbinary
+  - non-binary
+  - queer
+  - intersex
+  - two-spirit
+  - sexual orientation
+  - gender identity
+  - gender expression
+
+  # Gender-affirming care / transition
+  - gender-affirming care
+  - gender affirming care
+  - gender-affirming treatment
+  - gender transition
+  - gender dysphoria
+  - sex reassignment
+  - puberty blockers
+  - hormone therapy
+  - transition-related care
+
+  # Recognition / documents
+  - same-sex marriage
+  - same sex marriage
+  - marriage equality
+  - civil union
+  - domestic partnership
+  - gender marker
+  - sex designation
+  - name change
+  - preferred pronouns
+  - pronoun policy
+
+  # Discrimination / protections / restrictions
+  - conversion therapy
+  - anti-discrimination
+  - sexual orientation discrimination
+  - gender identity discrimination
+  - bathroom bill
+  - restroom access
+  - drag performance
+  - drag show
+  - gay panic defense
+  - trans panic defense
+  - deadnaming
+  - parental notification policy
+
+# Broad terms that only count as a match alongside a core keyword above.
+context_keywords:
+  - hate crime
+  - hate crimes
+  - discrimination
+
+emojis:
+  - emoji: "🏳️‍⚧️"
+    match: ["transgender", "nonbinary", "non-binary", "gender identity", "gender expression", "gender marker"]
+  - emoji: "🏥"
+    match: ["gender-affirming care", "gender affirming care", "gender-affirming treatment", "gender transition", "gender dysphoria", "sex reassignment", "puberty blockers", "hormone therapy", "transition-related care"]
+  - emoji: "💍"
+    match: ["same-sex marriage", "same sex marriage", "marriage equality", "civil union", "domestic partnership"]
+  - emoji: "⚖️"
+    match: ["anti-discrimination", "sexual orientation discrimination", "gender identity discrimination", "conversion therapy", "gay panic defense", "trans panic defense"]
+  - emoji: "🏫"
+    match: ["transgender students", "transgender youth", "transgender minors", "bathroom bill", "restroom access", "parental notification policy", "transgender athlete", "transgender athletes"]
+  - emoji: "🎭"
+    match: ["drag performance", "drag show"]
+
+digest:
+  thread_title: "🏳️‍🌈 LGBTQ Bills Weekly Digest"
+  topic_phrase: "LGBTQ rights"
