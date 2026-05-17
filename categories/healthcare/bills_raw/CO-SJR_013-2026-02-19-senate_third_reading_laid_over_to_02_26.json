@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 013",
+    "legislative_session": "2026A",
+    "subject": [
+      "Public Health"
+    ],
+    "title": "Recognize Youth Mental Health Action Day"
+  },
+  "id": "SJR 013",
+  "log": {
+    "action": {
+      "date": "2026-02-19",
+      "description": "Senate Third Reading Laid Over to 02/26/2026 - No Amendments",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR 013"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR013/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR013/logs/20260219T000000Z_senate_third_reading_laid_over_to_02262026_no_amendments.json"
+  },
+  "timestamp": "20260219T000000Z"
+}

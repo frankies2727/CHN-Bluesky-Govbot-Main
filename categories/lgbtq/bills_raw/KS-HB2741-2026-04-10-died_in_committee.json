@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2741",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Civil Procedure and Civil Actions",
+      "Health Professions and Practices",
+      "Named Acts"
+    ],
+    "title": "Establishing the Kansas medical rights of conscience act to permit a healthcare provider to refuse to provide transgender healthcare services if such services violate the provider's conscience and creating a civil cause of action for violation of this act."
+  },
+  "id": "HB2741",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2741"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2741/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2741/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

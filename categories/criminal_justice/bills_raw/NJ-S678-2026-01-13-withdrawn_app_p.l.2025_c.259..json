@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S678",
+    "legislative_session": "222",
+    "subject": [
+      "POLICE",
+      "TEMP DISAB"
+    ],
+    "title": "Requires State Police to establish recovery leave policy for troopers presenting proof of pregnancy."
+  },
+  "id": "S678",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.259.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S678"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S678/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S678/logs/20260113T050000Z_withdrawn_app_pl2025_c259.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

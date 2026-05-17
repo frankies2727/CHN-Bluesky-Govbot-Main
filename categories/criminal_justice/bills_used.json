@@ -26,12 +26,14 @@
     "MO|SB 1544|2026-05-14|S concurs in  HCS, as amended",
     "MO|SB 905|2026-05-14|S Bills with H Amendments",
     "MS|HB1347|2026-02-03|Died In Committee",
+    "NJ|S678|2026-01-13|WITHDRAWN APP P.L.2025, c.259.",
     "RI|SB2308|2026-05-08|05/08/2026 Scheduled for hearing and/or ",
     "RI|SB2308|2026-05-12|05/12/2026 Committee recommended measure",
+    "TN|HB 1483|2026-01-14|Assigned to s/c Civil Justice Subcommitt",
     "WA|SB 5925|2026-03-30|Effective date 6/11/2026.",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-05-17T08:11:33.659933+00:00",
+  "last_run": "2026-05-17T12:55:11.535675+00:00",
   "state_last_posted": {
     "DE": "2026-05-16T02:55:29.130660+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
@@ -46,6 +48,8 @@
     "AL": "2026-05-17T01:54:24.580452+00:00",
     "WA": "2026-05-17T01:54:24.580452+00:00",
     "MS": "2026-05-17T08:11:29.397207+00:00",
-    "MO": "2026-05-17T08:11:29.397207+00:00"
+    "MO": "2026-05-17T08:11:29.397207+00:00",
+    "NJ": "2026-05-17T12:54:48.881341+00:00",
+    "TN": "2026-05-17T12:54:48.881341+00:00"
   }
 }

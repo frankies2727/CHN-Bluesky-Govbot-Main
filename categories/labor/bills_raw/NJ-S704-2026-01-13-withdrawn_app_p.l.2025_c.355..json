@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S704",
+    "legislative_session": "222",
+    "subject": [
+      "INTERNET"
+    ],
+    "title": "Amends current child labor laws to protect minor working as vlogger in certain circumstances."
+  },
+  "id": "S704",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.355.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S704"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S704/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S704/logs/20260113T050000Z_withdrawn_app_pl2025_c355.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

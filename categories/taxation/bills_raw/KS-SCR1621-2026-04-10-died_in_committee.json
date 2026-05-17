@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR1621",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Constitutional Amendments (Kansas)",
+      "Resolutions",
+      "Taxation"
+    ],
+    "title": "Proposing to amend section 1 of article 11 of the constitution of the state of Kansas to prohibit the levy of any property tax by the state or any political or taxing subdivision of the state."
+  },
+  "id": "SCR1621",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SCR1621"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SCR1621/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SCR1621/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

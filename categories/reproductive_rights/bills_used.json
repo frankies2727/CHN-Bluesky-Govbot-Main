@@ -1,11 +1,15 @@
 {
   "posted": [
+    "CA|AB1882|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
+    "DE|SB 236|2026-03-26|Passed By Senate. Votes: 18 YES 3 ABSENT",
     "FL|HB 331|2026-03-13|Died in Education Administration Subcomm",
     "KS|HB2010|2026-04-10|Died in Committee"
   ],
   "state_last_posted": {
     "KS": "2026-05-17T08:19:48.851543+00:00",
-    "FL": "2026-05-17T08:19:48.851543+00:00"
+    "FL": "2026-05-17T08:19:48.851543+00:00",
+    "CA": "2026-05-17T13:03:01.246733+00:00",
+    "DE": "2026-05-17T13:03:01.246733+00:00"
   },
-  "last_run": "2026-05-17T08:20:12.652577+00:00"
+  "last_run": "2026-05-17T13:04:15.438387+00:00"
 }

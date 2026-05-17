@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB391",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Real Estate"
+    ],
+    "title": "Prohibiting cities and counties from adopting or enforcing any ordinance or resolution that requires landlords to lease housing to tenants receiving financial assistance from or through the housing choice voucher program or any other housing assistance program or that otherwise restricts a landlord's ability to consider the income source of a prospective tenant."
+  },
+  "id": "SB391",
+  "log": {
+    "action": {
+      "date": "2026-04-10",
+      "description": "Motion to override veto prevailed; Yea 85, Nay 38, Absent 2",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB391"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB391/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB391/logs/20260410T000000Z_motion_to_override_veto_prevailed_yea_85_nay_38_absent_2.json"
+  },
+  "timestamp": "20260410T000000Z"
+}
