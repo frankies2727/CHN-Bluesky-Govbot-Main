@@ -1,0 +1,106 @@
+# Labor & Workers' Rights bot — best-effort seed. Tune keywords after a week
+# of dry-run output by inspecting which bills get matched and which don't.
+
+name: labor
+display_name: "Labor & Workers' Rights"
+prompt_topic: "labor and workers' rights, including wages, unions, workplace safety, employment protections, and worker benefits"
+default_emoji: "🛠️"
+
+keywords:
+  # Wages / pay
+  - minimum wage
+  - prevailing wage
+  - living wage
+  - wage theft
+  - unpaid wages
+  - overtime
+  - overtime pay
+  - tipped wage
+  - tip credit
+  - subminimum wage
+  - pay transparency
+  - equal pay
+  - pay equity
+
+  # Leave / benefits / scheduling
+  - paid sick leave
+  - paid family leave
+  - paid medical leave
+  - family and medical leave
+  - paid leave
+  - unemployment insurance
+  - unemployment benefits
+  - workers compensation
+  - workers' compensation
+  - predictive scheduling
+  - fair workweek
+  - public employee pension
+  - retirement benefits
+
+  # Unions / collective action
+  - labor union
+  - labor unions
+  - collective bargaining
+  - right to work
+  - right-to-work
+  - card check
+  - union election
+  - public sector union
+  - strike
+  - picketing
+  - project labor agreement
+
+  # Workplace safety
+  - workplace safety
+  - occupational safety
+  - occupational health
+  - heat illness
+  - workplace injury
+
+  # Employment classification / protections
+  - gig worker
+  - gig workers
+  - gig economy
+  - independent contractor
+  - worker misclassification
+  - employee classification
+  - non-compete
+  - noncompete
+  - non-compete agreement
+  - whistleblower protection
+  - workplace retaliation
+  - wrongful termination
+  - at-will employment
+  - workplace harassment
+  - workplace discrimination
+
+  # Specific workforces
+  - child labor
+  - farmworker
+  - farmworkers
+  - domestic worker
+  - domestic workers
+  - day laborer
+  - apprenticeship
+
+emojis:
+  - emoji: "💵"
+    match: ["minimum wage", "prevailing wage", "living wage", "wage theft", "unpaid wages", "overtime", "tipped wage", "tip credit", "pay transparency", "equal pay", "pay equity"]
+  - emoji: "🤝"
+    match: ["labor union", "labor unions", "collective bargaining", "right to work", "right-to-work", "card check", "union election", "public sector union", "project labor agreement"]
+  - emoji: "✊"
+    match: ["strike", "picketing"]
+  - emoji: "🦺"
+    match: ["workplace safety", "occupational safety", "occupational health", "heat illness", "workplace injury"]
+  - emoji: "🗓️"
+    match: ["paid sick leave", "paid family leave", "paid medical leave", "family and medical leave", "paid leave", "predictive scheduling", "fair workweek"]
+  - emoji: "📋"
+    match: ["gig worker", "gig workers", "gig economy", "independent contractor", "worker misclassification", "employee classification", "non-compete", "noncompete"]
+  - emoji: "⚖️"
+    match: ["whistleblower protection", "workplace retaliation", "wrongful termination", "at-will employment", "workplace harassment", "workplace discrimination"]
+  - emoji: "🧑‍🌾"
+    match: ["child labor", "farmworker", "farmworkers", "domestic worker", "domestic workers", "day laborer", "apprenticeship"]
+
+digest:
+  thread_title: "🛠️ Labor & Workers' Rights Bills Weekly Digest"
+  topic_phrase: "labor and workers' rights"

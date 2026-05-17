@@ -1,0 +1,81 @@
+# Reproductive Rights bot — best-effort seed. Tune keywords after a week of
+# dry-run output by inspecting which bills get matched and which don't.
+
+name: reproductive_rights
+display_name: "Reproductive Rights"
+prompt_topic: "reproductive rights, including abortion access, contraception, maternal health, and reproductive healthcare"
+default_emoji: "🩺"
+
+keywords:
+  # Abortion access / restrictions
+  - abortion
+  - abortion access
+  - abortion ban
+  - abortion rights
+  - abortion clinic
+  - abortion provider
+  - medication abortion
+  - abortion pill
+  - mifepristone
+  - misoprostol
+  - telehealth abortion
+  - gestational limit
+  - gestational age limit
+  - heartbeat bill
+  - fetal heartbeat
+  - six-week ban
+  - trigger law
+  - conscience clause
+  - parental consent
+  - judicial bypass
+  - crisis pregnancy center
+  - pregnancy resource center
+  - shield law
+
+  # Reproductive healthcare
+  - reproductive rights
+  - reproductive health
+  - reproductive healthcare
+  - reproductive freedom
+  - reproductive care
+  - contraception
+  - contraceptive
+  - contraceptive coverage
+  - birth control
+  - emergency contraception
+  - family planning
+  - Planned Parenthood
+  - Title X
+  - sterilization
+
+  # Fertility / pregnancy
+  - in vitro fertilization
+  - IVF
+  - fertility treatment
+  - assisted reproduction
+  - fetal personhood
+  - maternal health
+  - maternal mortality
+  - prenatal care
+  - postpartum care
+  - miscarriage
+  - stillbirth
+  - doula
+  - midwife
+  - midwifery
+
+emojis:
+  - emoji: "🏥"
+    match: ["abortion clinic", "abortion provider", "medication abortion", "abortion pill", "mifepristone", "misoprostol", "telehealth abortion"]
+  - emoji: "⚖️"
+    match: ["abortion ban", "abortion rights", "heartbeat bill", "fetal heartbeat", "six-week ban", "trigger law", "gestational limit", "conscience clause", "parental consent", "judicial bypass", "fetal personhood", "shield law"]
+  - emoji: "💊"
+    match: ["contraception", "contraceptive", "contraceptive coverage", "birth control", "emergency contraception", "family planning", "sterilization"]
+  - emoji: "🤰"
+    match: ["in vitro fertilization", "IVF", "fertility treatment", "assisted reproduction", "maternal health", "maternal mortality", "prenatal care", "postpartum care", "miscarriage", "stillbirth"]
+  - emoji: "👩‍⚕️"
+    match: ["doula", "midwife", "midwifery", "Planned Parenthood", "Title X", "crisis pregnancy center", "pregnancy resource center"]
+
+digest:
+  thread_title: "🩺 Reproductive Rights Bills Weekly Digest"
+  topic_phrase: "reproductive rights"

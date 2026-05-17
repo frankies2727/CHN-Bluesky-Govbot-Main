@@ -1,0 +1,104 @@
+# Healthcare bot — best-effort seed. Tune keywords after a week of dry-run
+# output by inspecting which bills get matched and which don't.
+
+name: healthcare
+display_name: "Healthcare"
+prompt_topic: "healthcare policy, including health insurance, Medicaid, hospitals, prescription drugs, mental health, and public health"
+default_emoji: "🏥"
+
+keywords:
+  # Coverage / insurance
+  - healthcare
+  - health care
+  - health insurance
+  - health coverage
+  - health plan
+  - Medicaid
+  - Medicaid expansion
+  - Medicare
+  - CHIP
+  - children's health insurance program
+  - Affordable Care Act
+  - health insurance marketplace
+  - health insurance exchange
+  - insurance premium
+  - deductible
+  - copay
+  - co-pay
+  - cost-sharing
+  - prior authorization
+  - surprise billing
+  - balance billing
+  - medical debt
+  - uninsured
+  - underinsured
+
+  # Providers / facilities
+  - hospital
+  - hospitals
+  - clinic
+  - community health center
+  - nursing home
+  - nursing homes
+  - long-term care
+  - long term care
+  - home health
+  - home health care
+  - assisted living
+  - ambulance
+  - emergency room
+  - emergency department
+  - certificate of need
+  - scope of practice
+  - nurse staffing
+  - nursing staffing ratios
+  - primary care
+  - rural health
+  - rural hospital
+
+  # Drugs / care delivery
+  - prescription drug
+  - prescription drugs
+  - drug pricing
+  - drug cost
+  - insulin
+  - insulin cost
+  - pharmacy benefit manager
+  - pharmacy benefit managers
+  - telehealth
+  - telemedicine
+  - dental care
+  - vision care
+
+  # Behavioral / public health
+  - mental health
+  - behavioral health
+  - substance use disorder
+  - opioid
+  - opioid epidemic
+  - overdose
+  - public health
+  - health department
+  - health equity
+  - immunization
+  - vaccination
+
+emojis:
+  - emoji: "💵"
+    match: ["health insurance", "health coverage", "health plan", "insurance premium", "deductible", "copay", "co-pay", "cost-sharing", "surprise billing", "balance billing", "medical debt"]
+  - emoji: "🩺"
+    match: ["Medicaid", "Medicare", "CHIP", "primary care", "community health center", "prior authorization", "scope of practice"]
+  - emoji: "🏥"
+    match: ["hospital", "clinic", "nursing home", "long-term care", "long term care", "home health", "assisted living", "rural hospital", "certificate of need"]
+  - emoji: "💊"
+    match: ["prescription drug", "drug pricing", "drug cost", "insulin", "pharmacy benefit manager", "telehealth", "telemedicine"]
+  - emoji: "🧠"
+    match: ["mental health", "behavioral health", "substance use disorder", "opioid", "overdose"]
+  - emoji: "🚑"
+    match: ["ambulance", "emergency room", "emergency department", "nurse staffing"]
+  - emoji: "🦠"
+    match: ["public health", "health department", "immunization", "vaccination"]
+
+digest:
+  thread_title: "🏥 Healthcare Bills Weekly Digest"
+  topic_phrase: "healthcare"
