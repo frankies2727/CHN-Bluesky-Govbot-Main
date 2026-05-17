@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2501",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "appropriations",
+      "area education agencies",
+      "charter schools",
+      "colleges and universities",
+      "community colleges",
+      "contracts",
+      "education",
+      "education department",
+      "extracurricular activities",
+      "innovation zone schools",
+      "management department",
+      "open enrollment",
+      "preschools",
+      "private education",
+      "private education student accounts",
+      "public employees' retirement system",
+      "reports",
+      "retirement",
+      "school finance",
+      "schools",
+      "students",
+      "teachers",
+      "tuition",
+      "university of northern iowa"
+    ],
+    "title": "A bill for an act relating to education, including by modifying provisions related to charter school approval, contracts, funding, and operations, services provided to charter schools by area education agencies, charter school student participation in extracurricular activities provided by public schools, the Iowa public employees’ retirement system, education savings accounts, independent accreditation, teacher training and licensure, the statewide voluntary preschool program, the district-to-community college sharing or concurrent enrollment program, open enrollment, school tuition organizations, and innovation zone schools; making appropriations; and including effective date and applicability provisions."
+  },
+  "id": "SF 2501",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-16",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2501"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2501/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2501/logs/20260416T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260416T000000Z"
+}

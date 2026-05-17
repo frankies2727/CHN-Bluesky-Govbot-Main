@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act establishes the Rights and Responsibilities Guide for Landlords and Tenants Committee (“Committee”) within the Delaware Real Estate Commission (“Commission”). The Commission is tasked with drafting, maintaining, and distributing a comprehensive, statewide rights & responsibilities guide (“guide”) for landlords and tenants with support from the Committee. This guide will reference responsibilities that a tenant or landlord must follow, including federal, state, county, and municipal requirements.\r\n\r\nThis Act also requires a landlord or real estate service provider to provide the guide to prospective tenants entering a landlord-tenant relationship governed under Part III of Title 25. The guide must also be provided at each time a rental agreement is renewed if the renewal is for a term of 1 or more years. The guide may be provided in electronic or paper format.\r\n\r\nThe guide is deemed a statutorily required form under 24 Del. C. § 2912. Real estate service providers may be subject to discipline for misrepresenting the availability or content of the required form. Additionally, failure to provide the guide when required is deemed an unlawful practice under § 2513 of Title 6 and a violation of Subchapter II of Chapter 25 of Title 6.\r\n\r\nSection 4 of this Act requires the Commission to provide a report to the General Assembly with findings about what disclosures or documents are required to be made to tenants independent of the guide and whether the Commission recommends other law be changed to incorporate those disclosures and documents into the guide.  \r\n\r\nThis Act is effective upon enactment into law and, except for the penalty provisions, is to be implemented the earlier of the following:\r\n(1)\tOne year from the date of the Act’s enactment.\r\n(2)\tNotice by the Director of the Division of Professional Regulation published in the Register of Regulations that both of the following have occurred:\r\na. The report required under Section 4 of this Act has been provided to the General Assembly. \r\nb. The guide this Act creates has been published by the Delaware Real Estate Commission.\r\n\r\nPenalty provisions are to be implemented 180 days after the remainder of the Act is implemented.\r\n\r\nIf this Act is implemented before the report under Section 4 of this Act is provided to the General Assembly, the report must be provided to the General Assembly within 180 days after the Act is implemented.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 311",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 24 AND TITLE 25 OF THE DELAWARE CODE RELATING TO A RESIDENTIAL LANDLORD TENANT GUIDE."
+  },
+  "id": "HB 311",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-10",
+      "description": "Reported Out of Committee (Housing) in House with 3 Favorable, 5 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Housing"
+        }
+      ]
+    },
+    "bill_id": "HB 311"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB311/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB311/logs/20260310T000000Z_reported_out_of_committee_housing_in_house_with_3_favorable_5_on_its_merits.json"
+  },
+  "timestamp": "20260310T000000Z"
+}

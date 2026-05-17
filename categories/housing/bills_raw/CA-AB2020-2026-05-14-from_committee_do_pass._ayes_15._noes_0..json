@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Department of Housing and Community Development and requires it to administer various programs intended to promote the development of housing, as specified, pursuant to which the department provides financial assistance in the form of deferred payment loans to pay for the eligible costs of development of specified types of housing projects. Existing law sets forth various general powers of the department in implementing these programs, including authorizing the department to enter into long-term contracts or agreements of up to 30 years for the purpose of servicing loans or grants or enforcing regulatory agreements or other security documents.\n\nThis bill would permit the department to authorize the transfer of excess reserves or excess operating income, as defined, from one rental housing development to another rental housing development with the same owner, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2020",
+    "legislative_session": "20252026",
+    "subject": [
+      "Housingprograms",
+      "financing"
+    ],
+    "title": "Housing programs: financing."
+  },
+  "id": "AB2020",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass. (Ayes 15. Noes 0.) (May 14).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2020"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2020/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2020/logs/20260514T000000Z_from_committee_do_pass_ayes_15_noes_0_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To enact sections 3313.7118, 3313.7119, 3314.148, 3326.62, and 3328.40 of the Revised Code regarding school policies on the administration of overdose reversal drugs.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 57",
+    "legislative_session": "136",
+    "subject": [
+      "Education",
+      "Health and Human Services",
+      "Primary and Secondary Education",
+      "Substance Abuse and Addiction"
+    ],
+    "title": "Regards school policies on administering overdose reversal drugs"
+  },
+  "id": "HB 57",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-01-19T05:00:00+00:00",
+      "description": "Effective 1/19/26",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 57"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB57/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB57/logs/20260119T050000Z.classification.became-law.executive.json"
+  }
+}
