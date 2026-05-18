@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Medical Freedom;  Citing this act as the \"Medical Freedom Act\"; repealing a provison relating to the future repeal of the definition of the term “messenger ribonucleic acid vaccine”; prohibiting a vaccine manufacturer from offering or paying, and a health care practitioner from receiving, specified financial incentives for the administration of a vaccine; requiring certain health care practitioners and paramedics to, before administering one or more vaccines to a minor child, provide the parent or legal guardian with specified materials; providing that specified amendments made by the act to s. 456.0575, F.S., take effect on a specified date or within a specified timeframe after the Board of Medicine and the Board of Osteopathic Medicine adopt certain materials by joint rule, whichever occurs later, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6D",
+    "legislative_session": "2026D",
+    "subject": [
+      "k",
+      "public health",
+      "regulation of professions and occupations"
+    ],
+    "title": "Medical Freedom"
+  },
+  "id": "SB 6D",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-30",
+      "description": "Died in Rules",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 6D"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026D/bills/SB6D/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026D/bills/SB6D/logs/20260430T000000Z_died_in_rules.json"
+  },
+  "timestamp": "20260430T000000Z"
+}

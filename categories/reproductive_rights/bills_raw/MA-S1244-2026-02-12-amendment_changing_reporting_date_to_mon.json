@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Ms. Rausch, a petition (accompanied by bill, Senate, No. 1244) of Rebecca L. Rausch, Sally P. Kerans, Manny Cruz, Susannah M. Whipps and other members of the General Court for legislation to enhance access to abortion care.  The Judiciary.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1244",
+    "legislative_session": "194th",
+    "title": "An Act enhancing access to abortion care"
+  },
+  "id": "S1244",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage"
+      ],
+      "date": "2026-02-12",
+      "description": "Amendment (changing reporting date to Monday March 2, 2026) adopted, pending concurrence",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1244"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1244/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1244/logs/20260212T000000Z_amendment_changing_reporting_date_to_monday_march_2_2026_adopted_pending_concurrence.json"
+  },
+  "timestamp": "20260212T000000Z"
+}

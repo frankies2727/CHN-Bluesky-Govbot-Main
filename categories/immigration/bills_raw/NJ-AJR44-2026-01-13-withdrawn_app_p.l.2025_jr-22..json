@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AJR44",
+    "legislative_session": "222",
+    "subject": [
+      "CIVIL RIGHTS",
+      "COMMEMORATIO"
+    ],
+    "title": "Designates March 9 of each year as U.S. Hostage and Wrongful Detainee Day."
+  },
+  "id": "AJR44",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, JR-22.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AJR44"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/AJR44/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/AJR44/logs/20260113T050000Z_withdrawn_app_pl2025_jr22.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

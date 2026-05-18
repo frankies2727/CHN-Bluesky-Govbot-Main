@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Motor Vehicles & Traffic",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB317",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Motor Vehicles & Traffic"
+    ],
+    "title": "Firefighter distinctive license plate; fire chaplains included, penalty for violations provided for"
+  },
+  "id": "HB317",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-17T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB317"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB317/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB317/logs/20260417T040000Z.classification.became-law.lower.json"
+  }
+}
