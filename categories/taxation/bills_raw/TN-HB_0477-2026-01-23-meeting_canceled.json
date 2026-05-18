@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 0477",
+    "legislative_session": "114",
+    "subject": [
+      "Taxes"
+    ],
+    "title": "Taxes - As introduced, allows a taxpayer to annually elect to take a bonus depreciation deduction of 40 percent of the cost of assets purchased on or after January 1, 2026, during the tax year in which the assets were purchased when calculating net earnings or net losses for excise tax purposes; allows the taxpayer to take the federal depreciation percentage if it exceeds 40 percent. - Amends TCA Title 67, Chapter 4, Part 20."
+  },
+  "id": "HB 0477",
+  "log": {
+    "action": {
+      "date": "2026-01-23",
+      "description": "Meeting Canceled",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 0477"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB0477/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB0477/logs/20260123T000000Z_meeting_canceled.json"
+  },
+  "timestamp": "20260123T000000Z"
+}

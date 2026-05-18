@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1561",
+    "legislative_session": "222",
+    "subject": [
+      "ENERGY",
+      "PROPERTY TAX"
+    ],
+    "title": "Subjects spent nuclear fuel located in a decommissioned nuclear power plant to taxation as business personal property."
+  },
+  "id": "S1561",
+  "log": {
+    "action": {
+      "classification": [
+        "withdrawal"
+      ],
+      "date": "2026-01-28T05:00:00+00:00",
+      "description": "Withdrawn from Consideration",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1561"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1561/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1561/logs/20260128T050000Z_withdrawn_from_consideration.json"
+  },
+  "timestamp": "20260128T050000Z"
+}

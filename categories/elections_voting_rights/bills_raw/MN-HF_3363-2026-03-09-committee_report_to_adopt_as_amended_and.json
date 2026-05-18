@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3363",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Data Practices and Privacy",
+      "Elections",
+      "State Boards"
+    ],
+    "title": "Campaign Finance; street address classified as private data; Campaign Finance and Public Disclosure Board prohibited from posting private data on its website; noncampaign disbursement use provided for security-related expenses; campaign finance laws modified; disclaimer requirements modified; Campaign Finance and Public Disclosure Board, local governments, and school districts required to remove, modify, and repost reports and statements on websites; certification requirements to have an address classified as private data on an affidavit of candidacy removed; and definitions provided and amended."
+  },
+  "id": "HF 3363",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-09",
+      "description": "Committee report, to adopt as amended and re-refer to Judiciary Finance and Civil Law",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3363"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3363/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3363/logs/20260309T000000Z_committee_report_to_adopt_as_amended_and_rerefer_to_judiciary_finance_and_civil_law.json"
+  },
+  "timestamp": "20260309T000000Z"
+}

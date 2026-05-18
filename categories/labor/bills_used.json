@@ -3,7 +3,9 @@
     "AL|HB361|2026-04-17|Enacted",
     "CA|AB1582|2026-05-14|From committee: Amend, and do pass as am",
     "IA|SF 2087|2026-01-22|Committee report, approving bill.",
+    "MA|H2111|2026-02-26|Committee reported that the matter be pl",
     "NJ|S704|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
+    "TN|SB 1655|2026-01-21|Passed on Second Consideration, refer to",
     "WA|HB 2471|2026-03-23|Effective date 6/11/2026.",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
@@ -13,7 +15,9 @@
     "NJ": "2026-05-17T12:59:44.375810+00:00",
     "CA": "2026-05-17T12:59:44.375810+00:00",
     "WI": "2026-05-18T02:09:56.063472+00:00",
-    "IA": "2026-05-18T02:09:56.063472+00:00"
+    "IA": "2026-05-18T02:09:56.063472+00:00",
+    "TN": "2026-05-18T09:46:07.589765+00:00",
+    "MA": "2026-05-18T09:46:07.589765+00:00"
   },
-  "last_run": "2026-05-18T02:10:16.859816+00:00"
+  "last_run": "2026-05-18T09:46:56.847013+00:00"
 }
