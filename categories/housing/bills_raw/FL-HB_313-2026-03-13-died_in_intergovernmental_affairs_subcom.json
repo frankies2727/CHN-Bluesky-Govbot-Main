@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Housing;  Requires, rather than authorizing, local governments to adopt, by specified date, ordinance to allow accessory dwelling units in certain areas; requires that such ordinances apply prospectively; prohibits inclusion of certain requirements or prohibitions in such ordinances; removes requirement that application for building permit to construct accessory dwelling unit include certain affidavit; revises accessory dwelling units that apply toward satisfying certain component of local government's comprehensive plan; prohibits denial of homestead exemption for certain portions of property on specified basis; requires that rented accessory dwelling unit be assessed separately from homestead property & taxed according to its use; authorizes local government to provide density bonus incentive to landowners who make certain real property donations to assist in provision of affordable housing for military families; requires OPPAGA to evaluate efficacy of using mezzanine finance & potential of tiny homes for specified purposes; requires office to consult with certain entities; requires office to submit certain report to Legislature by specified date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 313",
+    "legislative_session": "2026",
+    "subject": [
+      "(adopted)",
+      "civil practice and procedure",
+      "relations",
+      "t"
+    ],
+    "title": "Housing"
+  },
+  "id": "HB 313",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Intergovernmental Affairs Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 313"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB313/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB313/logs/20260313T000000Z_died_in_intergovernmental_affairs_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

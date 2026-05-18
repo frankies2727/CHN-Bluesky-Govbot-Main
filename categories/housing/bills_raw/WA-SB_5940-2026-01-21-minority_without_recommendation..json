@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5940",
+    "legislative_session": "2025-2026",
+    "title": "Creating a housing assistance pilot program for youth enrolled in extended foster care."
+  },
+  "id": "SB 5940",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-unfavorable"
+      ],
+      "date": "2026-01-21",
+      "description": "Minority; without recommendation.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 5940"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5940/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5940/logs/20260121T000000Z_minority_without_recommendation.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

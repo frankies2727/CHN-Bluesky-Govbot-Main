@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2789",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Abortion",
+      "Crimes, Punishment and Criminal Procedure",
+      "Named Acts"
+    ],
+    "title": "Enacting the abolish abortion Kansas act to make all abortions subject to criminal prosecution and removing certain exceptions to wrongful death cause of action for the death of an unborn child."
+  },
+  "id": "HB2789",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2789"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2789/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2789/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

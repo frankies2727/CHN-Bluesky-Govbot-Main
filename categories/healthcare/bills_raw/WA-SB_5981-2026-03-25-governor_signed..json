@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5981",
+    "legislative_session": "2025-2026",
+    "title": "Protecting patient access to discounted medications and health care services through Washington's health care safety net by preventing manufacturer limitations on the 340B drug pricing program."
+  },
+  "id": "SB 5981",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-25",
+      "description": "Governor signed.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 5981"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5981/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5981/logs/20260325T000000Z_governor_signed.json"
+  },
+  "timestamp": "20260325T000000Z"
+}
