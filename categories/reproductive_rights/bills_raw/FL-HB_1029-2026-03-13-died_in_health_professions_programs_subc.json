@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Maternal Health and Early Learning;  Requires DOH to establish certain home visit program for expectant mothers; provides program requirements; authorizes AHCA to authorize reduced fees for applicant or licensee for certain birthing centers; removes acceptance criteria for birthing centers; requires department to provide blood pressure monitor & cuff to expectant mother for certain purposes; requires department to create certain educational materials; revises continuing education requirements for physicians to include review of certain Medicaid payments for certain persons.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1029",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Maternal Health and Early Learning"
+  },
+  "id": "HB 1029",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Health Professions & Programs Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1029"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1029/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1029/logs/20260313T000000Z_died_in_health_professions_programs_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

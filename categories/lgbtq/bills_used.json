@@ -7,10 +7,12 @@
     "KS|HB2407|2026-04-10|Died in Committee",
     "KS|HB2741|2026-04-10|Died in Committee",
     "MO|HJR 142|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|SB 1085|2026-03-31|Reported from S Education Committee w/SC",
     "MO|SB 1085|2026-04-13|Bill Placed on Informal Calendar",
     "MO|SB 1085|2026-04-13|SA 1 to SS for SCS S offered & ruled out",
     "MO|SB 1085|2026-04-13|SS for SCS S offered (Nicola)--(4425S.04",
     "MO|SB 1085|2026-04-14|Informal Calendar S Bills for Perfection",
+    "WA|SB 6081|2026-03-03|Third reading, passed; yeas, 57; nays, 3",
     "WA|SB 6081|2026-03-04|President signed.",
     "WA|SB 6081|2026-03-05|Speaker signed.",
     "WA|SB 6081|2026-03-10|Delivered to Governor.",
@@ -18,10 +20,10 @@
     "WA|SB 6081|2026-03-16|Governor signed."
   ],
   "state_last_posted": {
-    "WA": "2026-05-19T09:10:27.446474+00:00",
-    "MO": "2026-05-19T09:10:27.446474+00:00",
+    "WA": "2026-05-19T14:42:27.618546+00:00",
+    "MO": "2026-05-19T14:42:27.618546+00:00",
     "KS": "2026-05-18T02:10:29.271757+00:00",
     "CA": "2026-05-19T02:08:35.889692+00:00"
   },
-  "last_run": "2026-05-19T09:11:49.740601+00:00"
+  "last_run": "2026-05-19T14:43:48.961811+00:00"
 }

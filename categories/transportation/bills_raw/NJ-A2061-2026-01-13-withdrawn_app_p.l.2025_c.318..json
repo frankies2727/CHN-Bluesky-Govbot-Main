@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2061",
+    "legislative_session": "222",
+    "subject": [
+      "AUTH - INTER",
+      "SUPPL APPROP"
+    ],
+    "title": "Makes supplemental appropriation of $45,000,000 from Transportation Trust Fund Account - Subaccount for Capital Reserves to Palisades Interstate Park Commission for certain construction projects."
+  },
+  "id": "A2061",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.318.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "A2061"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A2061/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A2061/logs/20260113T050000Z_withdrawn_app_pl2025_c318.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

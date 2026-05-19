@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Appropriations",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB487",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Appropriations"
+    ],
+    "title": "Appropriations, supplemental appropriations from the Opioid Treatment and Abatement Fund for the fiscal year ending September 30, 2026"
+  },
+  "id": "HB487",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-17T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB487"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB487/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB487/logs/20260417T040000Z.classification.became-law.lower.json"
+  }
+}
