@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Use of Artificial Intelligence by State Agencies;  Requiring the Florida Digital Service to conduct a certain study, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 146",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Use of Artificial Intelligence by State Agencies"
+  },
+  "id": "SB 146",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Governmental Oversight and Accountability",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 146"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB146/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB146/logs/20260313T000000Z_died_in_governmental_oversight_and_accountability.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

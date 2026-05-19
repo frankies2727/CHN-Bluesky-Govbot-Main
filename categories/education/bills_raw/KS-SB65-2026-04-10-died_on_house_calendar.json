@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB65",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Municipalities",
+      "Water"
+    ],
+    "title": "House Substitute for SB 65 by House Committee on Elections - Removing cities, counties, school districts and community colleges from the mail ballot election law; authorizing the election of directors by irrigation districts by mail ballot; requiring qualified electors deliver advance ballots unless otherwise provided by federal law."
+  },
+  "id": "SB65",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died on House Calendar",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB65"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB65/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB65/logs/20260410T000000Z_died_on_house_calendar.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

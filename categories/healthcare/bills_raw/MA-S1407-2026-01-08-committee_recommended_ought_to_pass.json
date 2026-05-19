@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Kennedy, a petition (accompanied by resolve, Senate, No. 1407) of Edward J. Kennedy that provisions be made for an investigation and study by a special commission (including members of the General Court) to ensure delivery of mental health services to adults with acute mental illness.  Mental Health, Substance Use and Recovery.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1407",
+    "legislative_session": "194th",
+    "title": "Resolve to ensure delivery of mental health services to adults with acute mental illness"
+  },
+  "id": "S1407",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-01-08",
+      "description": "Committee recommended ought to pass",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1407"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1407/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1407/logs/20260108T000000Z_committee_recommended_ought_to_pass.json"
+  },
+  "timestamp": "20260108T000000Z"
+}

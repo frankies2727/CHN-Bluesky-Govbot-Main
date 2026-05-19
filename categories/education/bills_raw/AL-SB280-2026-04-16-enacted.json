@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Retirement",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB280",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Retirement"
+    ],
+    "title": "Teachers' Retirement System and Employees' Retirement System; purchase of certain federal service credit by participating member"
+  },
+  "id": "SB280",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-16T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB280"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB280/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB280/logs/20260416T040000Z.classification.became-law.upper.json"
+  }
+}

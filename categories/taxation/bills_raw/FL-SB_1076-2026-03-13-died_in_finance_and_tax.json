@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Research and Development Tax Credit;  Increasing the combined total amount of tax credits which may be granted to business enterprises under the research and development tax credit, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1076",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Research and Development Tax Credit"
+  },
+  "id": "SB 1076",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Finance and Tax",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1076"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1076/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1076/logs/20260313T000000Z_died_in_finance_and_tax.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

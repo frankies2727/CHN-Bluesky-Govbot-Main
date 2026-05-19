@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 1804",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Elections",
+      "Government-Local"
+    ],
+    "title": "Ranked choice voting authorization provision; Procedures for adoption, implementation, and use of ranked choice voting for local jurisdictions establishment provision; appropriation"
+  },
+  "id": "SF 1804",
+  "log": {
+    "action": {
+      "date": "2026-02-17",
+      "description": "Author stricken Mitchell",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 1804"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1804/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1804/logs/20260217T000000Z_author_stricken_mitchell.json"
+  },
+  "timestamp": "20260217T000000Z"
+}

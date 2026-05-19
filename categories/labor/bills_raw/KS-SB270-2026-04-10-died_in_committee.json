@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB270",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Colleges and Universities",
+      "Commerce, Department of",
+      "Schools"
+    ],
+    "title": "Requiring grants awarded pursuant to the Kansas educator registered apprenticeship program for education apprentice tuition and fees to be made twice per year and at the time payments for such tuition and fees are due."
+  },
+  "id": "SB270",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB270"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB270/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB270/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}
