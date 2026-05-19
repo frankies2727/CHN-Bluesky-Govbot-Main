@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1491",
+    "legislative_session": "114",
+    "subject": [
+      "Health Care"
+    ],
+    "title": "Health Care - As introduced, changes from March 1 to February 1, the date by which a managed care organization that participates in the TennCare program must submit its annual report to the bureau of TennCare. - Amends TCA Title 71, Chapter 5, Part 1."
+  },
+  "id": "SB 1491",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-14",
+      "description": "Passed on Second Consideration, refer to Senate Health and Welfare Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1491"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1491/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1491/logs/20260114T000000Z.classification.passage.upper.json"
+  }
+}

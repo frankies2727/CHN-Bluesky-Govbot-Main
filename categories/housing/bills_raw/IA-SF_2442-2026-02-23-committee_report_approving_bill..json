@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2442",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "buildings",
+      "county boards of supervisors",
+      "county government",
+      "ordinances",
+      "residential property",
+      "subdivisions (land)",
+      "zoning"
+    ],
+    "title": "A bill for an act relating to county zoning ordinances governing residential buildings."
+  },
+  "id": "SF 2442",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-23",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2442"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2442/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2442/logs/20260223T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law regulates the terms and conditions of residential tenancies. Existing law provides that a tenant is guilty of unlawful detainer if the tenant continues to possess the property without permission of the landlord after the tenant defaults on rent, among other reasons.\n\nThis bill would prohibit a landlord from evicting for nonpayment of rent or nonrent fees, as defined, or charging or collecting late fees to, a tenant who is employed by the federal government or a federal contractor and whose income is materially affected by a government shutdown for the duration of, and 30 days following, a government shutdown. The bill would additionally require a court to stay any pending eviction action against the tenant during that time, as provided. The bill would require the tenant to provide specified documentation to a landlord or court, as applicable. The bill would require the deferred rent to be due and payable within 30 days of the date the tenant receives their first full paycheck containing retroactive backpay, as provided.\n\nThis bill would impose civil penalties not to exceed $2,000 for any person who knowingly violates its provisions and would permit the tenant to raise a violation of its provisions as an affirmative defense in any action for unlawful detainer. The bill would specify that this affirmative defense does not apply to any unlawful detainer action other than an action based on the nonpayment of rent or nonrent fees. The bill would require the Judicial Council to adopt or modify forms as needed to implement these provisions. The bill would make related findings and declarations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1155",
+    "legislative_session": "20252026",
+    "subject": [
+      "Nonpaymentofrent",
+      "federalemployees",
+      "governmentshutdown"
+    ],
+    "title": "Nonpayment of rent: federal employees: government shutdown."
+  },
+  "id": "SB1155",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "May 14 hearing: Held in committee and under submission.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1155"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1155/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1155/logs/20260514T000000Z_may_14_hearing_held_in_committee_and_under_submission.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A1555",
+    "legislative_session": "222",
+    "subject": [
+      "ELECTIONS"
+    ],
+    "title": "Allows voter to cure mail-in ballot due to certain envelope deficiencies or missing certificate, and to vote by provisional ballot following receipt of cure letter."
+  },
+  "id": "A1555",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.322.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "A1555"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A1555/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A1555/logs/20260113T050000Z_withdrawn_app_pl2025_c322.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

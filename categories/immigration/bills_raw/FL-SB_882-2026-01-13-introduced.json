@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Fee Waivers;  Specifying that a requirement for certain universities, colleges, career centers, and charter technical career centers to waive out-of-state fees for certain students applies to students who are undocumented for federal immigration purposes, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 882",
+    "legislative_session": "2026",
+    "subject": [
+      "k"
+    ],
+    "title": "Fee Waivers"
+  },
+  "id": "SB 882",
+  "log": {
+    "action": {
+      "classification": [
+        "introduction"
+      ],
+      "date": "2026-01-13",
+      "description": "Introduced",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 882"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB882/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB882/logs/20260113T000000Z.classification.introduction.upper.json"
+  }
+}

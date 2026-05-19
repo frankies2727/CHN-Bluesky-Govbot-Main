@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend an Act to reconstitute the Board of Education of Hancock County, approved April 5, 1993 (Ga. L. 1993, p. 4524), as amended, particularly by an Act approved May 6, 2013 (Ga. L. 2013, p. 4322), so as to change the description of the education districts; to provide for definitions and inclusions; to provide for the continuation in office of current members; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 619",
+    "legislative_session": "2025_26",
+    "title": "Board of Education of Hancock County; the description of the education districts; change"
+  },
+  "id": "SB 619",
+  "log": {
+    "action": {
+      "date": "2026-05-12",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 619"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB619/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB619/logs/20260512T000000Z_effective_date.json"
+  },
+  "timestamp": "20260512T000000Z"
+}

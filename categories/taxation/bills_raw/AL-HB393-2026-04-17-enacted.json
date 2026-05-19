@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Taxation & Revenue",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB393",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Taxation & Revenue"
+    ],
+    "title": "Tax abatement and tax incentive programs, NAICS Code references and definitions updated to latest terms"
+  },
+  "id": "HB393",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-17T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB393"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB393/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB393/logs/20260417T040000Z.classification.became-law.lower.json"
+  }
+}
