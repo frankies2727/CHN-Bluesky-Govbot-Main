@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Hunger-Free Campus Pilot Program;  Citing this act as the \"Hunger-Free Campus Act\"; establishing, subject to legislative appropriation, the pilot program within the Department of Agriculture and Consumer Services for a specified period; requiring the Commissioner of Agriculture to identify the three state universities or Florida College System institutions with the highest percentage of Pell Grant-eligible students for participation in the pilot program; providing requirements for participating universities and institutions, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 534",
+    "legislative_session": "2026",
+    "title": "Hunger-Free Campus Pilot Program"
+  },
+  "id": "SB 534",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Appropriations Committee on Agriculture, Environment, and General Government",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 534"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB534/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB534/logs/20260313T000000Z_died_in_appropriations_committee_on_agriculture_environment_and_general_government.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

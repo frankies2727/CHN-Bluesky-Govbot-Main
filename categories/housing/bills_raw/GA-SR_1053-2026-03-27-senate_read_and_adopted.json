@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A RESOLUTION commending President Donald J. Trump for his leadership and continued efforts to make home ownership more affordable and achievable for all Americans by reducing regulatory barriers, adopting innovative platforms, expanding housing supply, protecting prospective homebuyers, and advancing policies aimed at restoring the American Dream of homeownership; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 1053",
+    "legislative_session": "2025_26",
+    "title": "Trump, President Donald J.; commend"
+  },
+  "id": "SR 1053",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-27",
+      "description": "Senate Read and Adopted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR 1053"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SR1053/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SR1053/logs/20260327T000000Z.classification.passage.upper.json"
+  }
+}

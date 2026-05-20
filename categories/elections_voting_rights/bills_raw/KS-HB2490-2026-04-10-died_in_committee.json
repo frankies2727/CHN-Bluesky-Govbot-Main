@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2490",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Clarifying the signature verification requirements for advance voting ballot envelopes and providing for the repeal of advance voting statutes, except where advance voting is required by federal law, if a state or federal court issues a final order or judgment which is not subject to appeal invalidating such signature verification requirements."
+  },
+  "id": "HB2490",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2490"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2490/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2490/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

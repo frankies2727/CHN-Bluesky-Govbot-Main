@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3768",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Corrections and Corrections Department",
+      "Corrections-Juveniles"
+    ],
+    "title": "Department of Corrections licensed juvenile and adult community-based residential correctional facilities responsibilities clarified."
+  },
+  "id": "HF 3768",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-03-09",
+      "description": "Second reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3768"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3768/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3768/logs/20260309T000000Z_second_reading.json"
+  },
+  "timestamp": "20260309T000000Z"
+}
