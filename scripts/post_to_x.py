@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 X/Twitter version of the poster.
-Reuses ALL your existing logic from category.py, Ollama, dedup, etc.
+Reuses ALL existing logic from category.py, Ollama, dedup, etc.
 Just posts to X instead of Bluesky.
 """
 
