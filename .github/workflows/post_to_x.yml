@@ -3,7 +3,7 @@ name: govbot-x-post-ai-data-centers
 on:
   schedule:
     - cron: "0 */6 * * *"   # Every 6 hours
-  workflow_dispatch:        # Allows manual run
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,11 +12,12 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+
     env:
       LLM_MODEL: "gemma3:4b"
-      BOT_CATEGORY: "ai_data_centers"     # ← Only this category
+      BOT_CATEGORY: "ai_data_centers"
       POST_LIMIT: "2"
-      DRY_RUN: "1"                        # Change to "0" when ready to post live
+      DRY_RUN: "1"               # ← Change to "0" when ready
 
     steps:
       - name: Checkout
@@ -31,19 +32,24 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Install govbot + fetch bills
+      - name: Install govbot + fetch bills (Illinois only for now)
         run: |
           curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
           export PATH="$HOME/.govbot/bin:$PATH"
-          govbot clone il   # Start with Illinois only (you can add more later)
+          govbot clone il
           govbot logs --limit 1500 > bills.jsonl
 
-      - name: Install Ollama + pull model
+      - name: Install Ollama
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
           nohup ollama serve > /dev/null 2>&1 &
-          sleep 15
+          sleep 20
           ollama pull "$LLM_MODEL"
 
       - name: Post to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: python scripts/post_to_x.py
