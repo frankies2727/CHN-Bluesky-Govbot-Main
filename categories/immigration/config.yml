@@ -31,7 +31,6 @@ keywords:
   - permanent resident
   - naturalization
   - naturalized
-  - citizenship
   - dreamer
   - dreamers
   - DACA
@@ -72,6 +71,10 @@ context_keywords:
   - language access
   - LEP
   - limited english proficient
+  # "citizenship" alone catches felony rights-restoration ("rights of citizenship")
+  # and licensure boilerplate ("citizenship or lawful presence"). Only count it
+  # when a core immigration keyword also appears.
+  - citizenship
 
 emojis:
   - emoji: "🌎"
