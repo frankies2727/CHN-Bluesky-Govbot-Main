@@ -1,20 +1,12 @@
-name: govbot-x-post
+name: govbot-x-post-ai-data-centers
 
 on:
   schedule:
     - cron: "0 */6 * * *"   # Every 6 hours
-  workflow_dispatch: {}
+  workflow_dispatch:        # Allows manual run
 
 permissions:
   contents: write
-
-concurrency:
-  group: govbot-x-post
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
 
 jobs:
   run:
@@ -22,6 +14,10 @@ jobs:
     timeout-minutes: 60
     env:
       LLM_MODEL: "gemma3:4b"
+      BOT_CATEGORY: "ai_data_centers"     # ← Only this category
+      POST_LIMIT: "2"
+      DRY_RUN: "1"                        # Change to "0" when ready to post live
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,69 +31,19 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Verify scripts
-        run: |
-          ls -la scripts/
-          test -f scripts/post_to_x.py && echo "✅ post_to_x.py found" || (echo "❌ MISSING post_to_x.py" && exit 1)
-
       - name: Install govbot + fetch bills
         run: |
           curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
           export PATH="$HOME/.govbot/bin:$PATH"
-          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
-          for state in $STATES; do
-            echo "--- Cloning $state ---"
-            govbot clone "$state" 2>&1 || echo "  SKIPPED $state"
-          done
-          govbot logs --limit 2200 > bills.jsonl
-          echo "bills.jsonl has $(wc -l < bills.jsonl) lines"
-
-      - name: Cache Ollama model
-        uses: actions/cache@v4
-        with:
-          path: ~/.ollama/models
-          key: ollama-models-${{ env.LLM_MODEL }}-v1
+          govbot clone il   # Start with Illinois only (you can add more later)
+          govbot logs --limit 1500 > bills.jsonl
 
       - name: Install Ollama + pull model
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
-          nohup ollama serve > /tmp/ollama.log 2>&1 &
-          for i in $(seq 1 30); do
-            if curl -fsS http://localhost:11434/api/tags > /dev/null 2>&1; then
-              echo "Ollama ready"
-              break
-            fi
-            sleep 1
-          done
+          nohup ollama serve > /dev/null 2>&1 &
+          sleep 15
           ollama pull "$LLM_MODEL"
 
-      - name: Post to X (all categories)
-        env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
-          LLM_API_URL: "http://localhost:11434/api/chat"
-          POST_LIMIT: "2"          # Keep low at first (X costs $)
-          DRY_RUN: "1"             # ← Change to "0" when you're ready to go live
-        run: |
-          shopt -s nullglob
-          for category_dir in categories/*/; do
-            cat=$(basename "$category_dir")
-            if [ ! -f "$category_dir/config.yml" ]; then
-              echo "--- $cat: no config.yml, skipping ---"
-              continue
-            fi
-            echo "=== Posting for category: $cat ==="
-            BOT_CATEGORY="$cat" python scripts/post_to_x.py \
-              || echo "  $cat failed, continuing..."
-          done
-
-      - name: Commit updated state
-        run: |
-          git config user.name "govbot-x[bot]"
-          git config user.email "govbot-x[bot]@users.noreply.github.com"
-          git add categories/*/bills_used.json || true
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore: update posted state [skip ci]"
-            git push
-          fi
+      - name: Post to X
+        run: python scripts/post_to_x.py
