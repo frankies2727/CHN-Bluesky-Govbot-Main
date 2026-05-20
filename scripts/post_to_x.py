@@ -23,12 +23,24 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "3"))   # Start conservative for X
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
 
-# X credentials from GitHub Secrets (the ones you added)
+# X credentials from GitHub Secrets
 X_API_KEY = os.environ.get("X_API_KEY")
 X_API_SECRET = os.environ.get("X_API_SECRET")
 X_ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN")
 X_ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET")
 
+print("🔍 Checking X credentials...")   # ← For debugging
+print(f"X_API_KEY present: {bool(X_API_KEY)}")
+print(f"X_API_SECRET present: {bool(X_API_SECRET)}")
+print(f"X_ACCESS_TOKEN present: {bool(X_ACCESS_TOKEN)}")
+print(f"X_ACCESS_TOKEN_SECRET present: {bool(X_ACCESS_TOKEN_SECRET)}")
+
+if not all([X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET]):
+    print("❌ ERROR: Missing X API credentials in secrets")
+    print("Make sure you added them exactly as: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET")
+    sys.exit(1)
+
+print("✅ All X credentials found!")
 if not all([X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET]):
     print("❌ ERROR: Missing X API credentials in secrets", file=sys.stderr)
     sys.exit(1)
