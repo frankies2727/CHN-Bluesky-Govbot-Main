@@ -1,0 +1,134 @@
+name: govbot-bluesky-post
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: govbot-bluesky-post
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      LLM_MODEL: "gemma3:4b"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Verify script exists
+        run: |
+          ls -la scripts/
+          test -f scripts/post_to_bluesky.py && echo "OK" || (echo "MISSING" && exit 1)
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        # Clone each state one-at-a-time. Govbot panics on unsupported states,
+        # so we wrap each call in `|| echo "skipped"` to keep going. After the
+        # first successful run you'll see in the log which states are supported
+        # vs which ones were skipped.
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
+          export PATH="$HOME/.govbot/bin:$PATH"
+          govbot --version || true
+
+          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
+          SUCCESSFUL=""
+          SKIPPED=""
+          for state in $STATES; do
+            echo "--- Cloning $state ---"
+            if govbot clone "$state" 2>&1; then
+              SUCCESSFUL="$SUCCESSFUL $state"
+            else
+              echo "  SKIPPED $state (not supported by govbot)"
+              SKIPPED="$SKIPPED $state"
+            fi
+          done
+
+          echo ""
+          echo "=========================================="
+          echo "Supported states (cloned successfully):"
+          echo " $SUCCESSFUL"
+          echo ""
+          echo "Skipped states (not in govbot):"
+          echo " $SKIPPED"
+          echo "=========================================="
+
+          govbot logs --limit 2200 > bills.jsonl
+          echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-models-${{ env.LLM_MODEL }}-v1
+
+      - name: Install Ollama and pull the LLM model
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          # Start Ollama in the background; logs to /tmp for debugging.
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          # Wait for the server to come up.
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:11434/api/tags > /dev/null 2>&1; then
+              echo "Ollama is ready."
+              break
+            fi
+            sleep 1
+          done
+          # Cheap no-op when the model is already on disk (cache hit);
+          # otherwise does the full ~1 GB download.
+          ollama pull "$LLM_MODEL"
+          ollama list
+
+      - name: Filter, summarize, and post to Bluesky (all categories)
+        env:
+          # toJSON(secrets) exposes the entire secret map so dropping in a new
+          # category never requires editing this workflow. The script reads
+          # BLUESKY_HANDLE_<NAME> / BLUESKY_APP_PASSWORD_<NAME> from this map
+          # at runtime based on BOT_CATEGORY.
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          LLM_API_URL: "http://localhost:11434/api/chat"
+          POST_LIMIT: "2"
+        run: |
+          shopt -s nullglob
+          for category_dir in categories/*/; do
+            cat=$(basename "$category_dir")
+            if [ ! -f "$category_dir/config.yml" ]; then
+              echo "--- $cat: no config.yml, skipping ---"
+              continue
+            fi
+            echo "=== Posting for category: $cat ==="
+            BOT_CATEGORY="$cat" python scripts/post_to_bluesky.py \
+              || echo "  $cat post failed, continuing with next category"
+          done
+
+      - name: Commit state changes
+        run: |
+          git config user.name  "govbot-bluesky[bot]"
+          git config user.email "govbot-bluesky[bot]@users.noreply.github.com"
+          git add categories/*/bills_used.json categories/*/bills_raw || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: update posted state [skip ci]"
+            git push
+          fi
