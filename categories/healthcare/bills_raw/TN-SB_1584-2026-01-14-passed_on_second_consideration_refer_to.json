@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1584",
+    "legislative_session": "114",
+    "subject": [
+      "Hospitals and Health Care Facilities"
+    ],
+    "title": "Hospitals and Health Care Facilities - As introduced, lowers the age of an inpatient from 65 to 50 or older when a hospital, each year from October 1 through March 1, must offer immunization against influenza disease prior to discharge; requires a hospital to offer immunization against pneumococcal disease to an inpatient aged 50 or older prior to discharge. - Amends TCA Title 68."
+  },
+  "id": "SB 1584",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-14",
+      "description": "Passed on Second Consideration, refer to Senate Health and Welfare Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1584"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1584/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1584/logs/20260114T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Term Limits for Members of Boards of County Commissioners and District School Boards;  Proposes amendments to State Constitution to provide term limits for members of boards of county commissioners & district school boards & to allow for subsequent election or re-election after specified period.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 27",
+    "legislative_session": "2026",
+    "subject": [
+      "(adopted)",
+      "subject index"
+    ],
+    "title": "Term Limits for Members of Boards of County Commissioners and District School Boards"
+  },
+  "id": "HJR 27",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Intergovernmental Affairs Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR 27"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HJR27/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HJR27/logs/20260313T000000Z_died_in_intergovernmental_affairs_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}
