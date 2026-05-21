@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 1009",
+    "legislative_session": "2026A",
+    "subject": [
+      "General Assembly"
+    ],
+    "title": "Veterans Mental Health Awareness"
+  },
+  "id": "HJR 1009",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-3"
+      ],
+      "date": "2026-02-06",
+      "description": "House Third Reading Passed - No Amendments",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR 1009"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2026A/bills/HJR1009/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2026A/bills/HJR1009/logs/20260206T000000Z.classification.passage.lower.json"
+  }
+}

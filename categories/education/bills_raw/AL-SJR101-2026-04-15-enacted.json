@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Resolutions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR101",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Resolutions"
+    ],
+    "title": "Auburn University Architecture Program, commended"
+  },
+  "id": "SJR101",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-15T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR101"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SJR101/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SJR101/logs/20260415T040000Z.classification.became-law.upper.json"
+  }
+}

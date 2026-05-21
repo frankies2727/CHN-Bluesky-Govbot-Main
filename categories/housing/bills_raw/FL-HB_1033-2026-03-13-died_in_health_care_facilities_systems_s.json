@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Procedures for Discharging Persons to Avoid Homelessness;  Encourages certain facilities & institutions, in collaboration with Continuum of Care lead agency, to develop & implement certain procedures for when persons are discharged from certain facilities or institutions; requires DCF to conduct pilot program in specified counties; requires DCF to submit certain reports to Governor & Legislature; revises certain procedures; defines \"client level data\"; requires sharing of client level data to comply with specified state & federal laws & regulations; requires Continuum of Care lead agency to evaluate certain procedures & identify gaps & opportunities for improvement in its annual Continuum of Care plan; authorizes State Office on Homelessness, in conjunction with Council on Homelessness, to provide guidance to Continuum of Care lead agency for specified purpose.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1033",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Procedures for Discharging Persons to Avoid Homelessness"
+  },
+  "id": "HB 1033",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Health Care Facilities & Systems Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1033"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1033/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1033/logs/20260313T000000Z_died_in_health_care_facilities_systems_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}
