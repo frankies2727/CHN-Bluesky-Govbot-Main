@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 11",
+    "legislative_session": "2026",
+    "subject": [
+      "Crimes",
+      "Department of Public Safety",
+      "Energy",
+      "Fossil Fuels",
+      "Law Enforcement and Criminal Justice",
+      "Oil and Gas",
+      "Roads/Highways",
+      "Traffic Violations",
+      "Transportation"
+    ],
+    "title": "Dyed Diesel Fuel Search Amendments"
+  },
+  "id": "HB 11",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-02-11T20:13:49+00:00",
+      "description": "Enrolled Bill Returned to House or Senate",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 11"
+  },
+  "sources": {
+    "bill": "ut-legislation/country:us/state:ut/sessions/2026/bills/HB11/metadata.json",
+    "log": "ut-legislation/country:us/state:ut/sessions/2026/bills/HB11/logs/20260211T201349Z_enrolled_bill_returned_to_house_or_senate.json"
+  },
+  "timestamp": "20260211T201349Z"
+}

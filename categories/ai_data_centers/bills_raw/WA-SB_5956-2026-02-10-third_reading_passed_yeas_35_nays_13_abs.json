@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5956",
+    "legislative_session": "2025-2026",
+    "title": "Addressing artificial intelligence, student discipline, and surveillance in public schools."
+  },
+  "id": "SB 5956",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-02-10",
+      "description": "Third reading, passed; yeas, 35; nays, 13; absent, 0; excused, 1.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 5956"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5956/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5956/logs/20260210T000000Z_third_reading_passed_yeas_35_nays_13_absent_0_excused_1.json"
+  },
+  "timestamp": "20260210T000000Z"
+}

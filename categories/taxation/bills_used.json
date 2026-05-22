@@ -76,6 +76,7 @@
     "MN|HF 3902|2026-03-09|Committee report, to adopt as amended an",
     "MN|SF 2820|2026-03-11|Withdrawn and returned to author",
     "MN|SF 3778|2026-03-09|Author stricken Drazkowski",
+    "MO|HB 2646|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2941|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HJR 138|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HJR 8|2025-09-05|Introduced and Read First Time (H)",
@@ -130,6 +131,7 @@
     "SC|H 3858|2025-05-07|Roll call Yeas-89  Nays-7",
     "SC|H 3858|2025-05-08|Read third time and sent to Senate",
     "TN|HB 0477|2026-01-23|Meeting Canceled",
+    "TN|SB 1485|2026-01-14|Passed on Second Consideration, refer to",
     "TN|SB 1485|2026-01-22|Withdrawn.",
     "WA|SB 5054|2025-01-31|Executive action taken in the Senate Com",
     "WA|SB 6006|2026-03-12|By resolution, returned to Senate Rules ",
@@ -149,7 +151,7 @@
     "WY|HB0252|2025-01-20|H Received for Introduction",
     "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
   ],
-  "last_run": "2026-05-22T09:52:11.153629+00:00",
+  "last_run": "2026-05-22T15:03:30.064793+00:00",
   "state_last_posted": {
     "MI": "2026-05-16T03:00:10.016608+00:00",
     "RI": "2026-05-16T03:00:10.016608+00:00",
@@ -167,7 +169,7 @@
     "MA": "2026-05-22T09:51:04.926110+00:00",
     "WI": "2026-05-22T09:51:04.926110+00:00",
     "KS": "2026-05-21T04:18:00.605720+00:00",
-    "MO": "2026-05-19T14:45:03.965880+00:00",
-    "TN": "2026-05-20T15:45:52.894401+00:00"
+    "MO": "2026-05-22T15:03:08.842545+00:00",
+    "TN": "2026-05-22T15:03:08.842545+00:00"
   }
 }

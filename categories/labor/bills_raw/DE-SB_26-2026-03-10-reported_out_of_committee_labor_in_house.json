@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under current Delaware law, if a labor dispute constitutes a lockout, employees who meet all other eligibility requirements qualify for unemployment benefits from the date they file their claim. However, if a labor dispute does not constitute a lockout, employees do not qualify for (i.e. are disqualified from receiving) unemployment benefits. \r\n\r\nThis Act changes the law to allow an employee who is subject to a labor dispute, other than a lockout, to collect unemployment benefits after a 2-week waiting period, if the employee meets all the eligibility requirements for unemployment benefits, including being able and available for work and completing weekly job requirements. \r\n\r\nThis Act provides that the 2-week waiting period established by this Act is waived if one or both of the following apply:\r\n(1) The labor dispute is caused by the failure or refusal of the employer to comply with an agreement or contract between the employer and the individual, including a collective bargaining agreement with a union representing the individual, or a State or federal law pertaining to hours, wages, or other conditions of work.\r\n(2) The employer hires a permanent replacement worker for the individual's position.\r\n\r\nThe Department of Labor may impose a penalty on an employer who fraudulently certifies the ability of an employee to return to the employee’s prior position on conclusion of the labor dispute.\r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 26",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 19 OF THE DELAWARE CODE RELATING TO UNEMPLOYMENT COMPENSATION."
+  },
+  "id": "SB 26",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-10",
+      "description": "Reported Out of Committee (Labor) in House with 2 Favorable, 6 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Labor"
+        }
+      ]
+    },
+    "bill_id": "SB 26"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB26/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB26/logs/20260310T000000Z_reported_out_of_committee_labor_in_house_with_2_favorable_6_on_its_merits.json"
+  },
+  "timestamp": "20260310T000000Z"
+}
