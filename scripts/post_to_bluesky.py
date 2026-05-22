@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Filter govbot's bills.jsonl for the active category (transportation by
-default), dedupe against the per-category state file, summarize with a
+Filter govbot's bills.jsonl for the active topic (transportation by
+default), dedupe against the per-topic state file, summarize with a
 local LLM (Gemma served by Ollama), and post to Bluesky with rich
 link-card embeds.
 
-The category is selected via the BOT_CATEGORY env var and read from
-categories/<name>/config.yml. See scripts/category.py.
+The topic is selected via the BOT_TOPIC env var and read from
+topics/<name>/config.yml. See scripts/topic.py.
 
 Bill links go to each state's official legislature page when we have a
 deep-link builder for that state, otherwise to the state legislature
@@ -28,17 +28,17 @@ from urllib.parse import urlparse, urljoin
 
 import requests
 
-from category import Category, load_active_category
+from topic import Topic, load_active_topic
 
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
 
-CATEGORY: Category = load_active_category()
-STATE_FILE = CATEGORY.state_file_path()
+TOPIC: Topic = load_active_topic()
+STATE_FILE = TOPIC.state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "4"))  # how many bluesky posts per run
 # Drop bill actions older than this many days so the feed never posts
-# year-old news as if it were fresh. Slow categories still have thousands
+# year-old news as if it were fresh. Slow topics still have thousands
 # of candidates inside this window. Override via env for tuning.
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
@@ -47,8 +47,8 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # link card — just without the image.
 FETCH_OG_IMAGE = os.environ.get("FETCH_OG_IMAGE", "0") == "1"
 
-BSKY_HANDLE = CATEGORY.bluesky_handle()
-BSKY_PASSWORD = CATEGORY.bluesky_password()
+BSKY_HANDLE = TOPIC.bluesky_handle()
+BSKY_PASSWORD = TOPIC.bluesky_password()
 
 BLUESKY_API = "https://bsky.social/xrpc"
 
@@ -717,7 +717,7 @@ def summarize(b: dict) -> str:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": CATEGORY.summary_system_prompt()},
+                    {"role": "system", "content": TOPIC.summary_system_prompt()},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
@@ -763,7 +763,7 @@ def shorten_title(b: dict) -> str:
     if not body:
         return ""
 
-    system_prompt = CATEGORY.headline_system_prompt()
+    system_prompt = TOPIC.headline_system_prompt()
     if blob:
         user_prompt = (
             f"Description: {body[:2000]}\n\n"
@@ -1723,7 +1723,7 @@ def link_for(b: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
-    emoji = CATEGORY.emoji_for(b)
+    emoji = TOPIC.emoji_for(b)
     link = link_for(b)
     link_block = f"\n\n{LINK_PREFIX}{link}" if link else ""
 
@@ -1827,7 +1827,7 @@ def _slug(text: str, max_len: int = 40) -> str:
 
 def save_raw_record(b: dict) -> None:
     """Write the verbatim bills.jsonl record for a posted bill to
-    categories/<name>/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
+    topics/<name>/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
     every posted action has a self-contained raw artifact alongside the
     dedup key in bills_used.json. One file per posted action, kept
     forever — pruning is a manual repo-hygiene decision."""
@@ -1842,7 +1842,7 @@ def save_raw_record(b: dict) -> None:
     date = b.get("action_date") or "no-date"
     action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
     fname = f"{state}-{ident}-{date}-{action_slug}.json"
-    out_dir = CATEGORY.bills_raw_dir()
+    out_dir = TOPIC.bills_raw_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / fname
     out_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n")
@@ -1854,8 +1854,8 @@ def save_raw_record(b: dict) -> None:
 
 def main() -> int:
     if not DRY_RUN and (not BSKY_HANDLE or not BSKY_PASSWORD):
-        print(f"ERROR: {CATEGORY.bluesky_handle_env()} and "
-              f"{CATEGORY.bluesky_password_env()} must be set.", file=sys.stderr)
+        print(f"ERROR: {TOPIC.bluesky_handle_env()} and "
+              f"{TOPIC.bluesky_password_env()} must be set.", file=sys.stderr)
         return 1
 
     records = load_bills(JSONL_PATH)
@@ -1870,7 +1870,7 @@ def main() -> int:
         b = extract_fields(r)
         if not b:
             continue
-        if not CATEGORY.matches(b):
+        if not TOPIC.matches(b):
             continue
         if b["dedup_key"] in seen:
             continue
@@ -1907,7 +1907,7 @@ def main() -> int:
             unique_by_day[b["same_day_key"]] = b
     candidates = list(unique_by_day.values())
 
-    print(f"Found {len(candidates)} new {CATEGORY.topic_phrase} bill update(s).")
+    print(f"Found {len(candidates)} new {TOPIC.topic_phrase} bill update(s).")
     if not candidates:
         return 0
 

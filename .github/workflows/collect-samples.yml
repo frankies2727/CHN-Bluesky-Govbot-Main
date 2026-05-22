@@ -28,8 +28,8 @@ on:
         description: "Latest action month, MM-YYYY (e.g. '07-2025'). Empty = no upper bound. Inclusive."
         required: false
         default: ""
-      categories:
-        description: "Space-separated category folder names to filter by (e.g. 'transportation housing'). Empty = no filter."
+      topics:
+        description: "Space-separated topic folder names to filter by (e.g. 'transportation housing'). Empty = no filter."
         required: false
         default: ""
 
@@ -67,7 +67,7 @@ jobs:
           SAMPLE_COUNT: ${{ github.event.inputs.sample_count }}
           FROM_MONTH: ${{ github.event.inputs.from_month }}
           TO_MONTH: ${{ github.event.inputs.to_month }}
-          CATEGORIES: ${{ github.event.inputs.categories }}
+          TOPICS: ${{ github.event.inputs.topics }}
         run: |
           python <<'PY'
           import hashlib, json, os, random, re, sys
@@ -137,24 +137,24 @@ jobs:
                   return False
               return True
 
-          # Optional category filter — uses scripts/category.py:Category.matches()
-          cat_names = (os.environ.get("CATEGORIES") or "").split()
-          categories = []
-          if cat_names:
+          # Optional topic filter — uses scripts/topic.py:Topic.matches()
+          topic_names = (os.environ.get("TOPICS") or "").split()
+          topics = []
+          if topic_names:
               sys.path.insert(0, "scripts")
-              from category import Category, list_categories  # type: ignore
-              available = list_categories()
-              unknown = [n for n in cat_names if n not in available]
+              from topic import Topic, list_topics  # type: ignore
+              available = list_topics()
+              unknown = [n for n in topic_names if n not in available]
               if unknown:
                   raise SystemExit(
-                      f"Unknown categor{'y' if len(unknown)==1 else 'ies'}: "
+                      f"Unknown topic{'' if len(unknown)==1 else 's'}: "
                       f"{', '.join(unknown)}. Available: {', '.join(available)}"
                   )
-              categories = [Category.load(n) for n in cat_names]
+              topics = [Topic.load(n) for n in topic_names]
 
-          def category_for(rec):
-              # Returns the first selected category whose keyword regex matches
-              # this record's bill, or None if no category fits.
+          def topic_for(rec):
+              # Returns the first selected topic whose keyword regex matches
+              # this record's bill, or None if no topic fits.
               bill = rec.get("bill") or {}
               subjects_raw = bill.get("subjects")
               if subjects_raw is None:
@@ -165,9 +165,9 @@ jobs:
                   "abstract": bill.get("abstract") or "",
                   "subjects": subjects_raw or "",
               }
-              for cat in categories:
-                  if cat.matches(probe):
-                      return cat.name
+              for topic in topics:
+                  if topic.matches(probe):
+                      return topic.name
               return None
 
           # Read all records
@@ -189,7 +189,7 @@ jobs:
 
           random.seed()  # use real randomness so re-runs collect variety
 
-          # Apply date filter first (cheap), then category bucketing.
+          # Apply date filter first (cheap), then topic bucketing.
           dated = [r for r in records if in_range(r)]
           dropped_date = len(records) - len(dated)
           if from_ym or to_ym:
@@ -197,32 +197,32 @@ jobs:
                     f"(dropped {dropped_date}).")
 
           picks = []
-          if categories:
-              # buckets[cat_name][state] = [records]
-              buckets = {c.name: {} for c in categories}
+          if topics:
+              # buckets[topic_name][state] = [records]
+              buckets = {t.name: {} for t in topics}
               kept = 0
               for r in dated:
-                  cname = category_for(r)
-                  if cname is None:
+                  tname = topic_for(r)
+                  if tname is None:
                       continue
-                  buckets[cname].setdefault(find_state(r), []).append(r)
+                  buckets[tname].setdefault(find_state(r), []).append(r)
                   kept += 1
               for st_map in buckets.values():
                   for items in st_map.values():
                       random.shuffle(items)
-              print(f"Category filter kept {kept} of {len(dated)} records "
-                    f"across {len(categories)} categor"
-                    f"{'y' if len(categories)==1 else 'ies'}.")
+              print(f"Topic filter kept {kept} of {len(dated)} records "
+                    f"across {len(topics)} topic"
+                    f"{'' if len(topics)==1 else 's'}.")
 
-              # Round-robin: outer loop categories (in user order), inner
-              # loop states within each category. One pick per (cat, state)
+              # Round-robin: outer loop topics (in user order), inner
+              # loop states within each topic. One pick per (topic, state)
               # tick.
               while len(picks) < target and any(
                   any(st_map[s] for s in st_map) for st_map in buckets.values()
               ):
                   progressed = False
-                  for cat in categories:
-                      st_map = buckets[cat.name]
+                  for topic in topics:
+                      st_map = buckets[topic.name]
                       for s in sorted(st_map.keys()):
                           if not st_map[s]:
                               continue
@@ -235,7 +235,7 @@ jobs:
                   if not progressed:
                       break
           else:
-              # No category filter — keep the original per-state round-robin.
+              # No topic filter — keep the original per-state round-robin.
               by_state = {}
               for r in dated:
                   by_state.setdefault(find_state(r), []).append(r)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Weekly digest thread: a single root post + up to 6 reply posts highlighting
-the most significant bill activity for the active category over the past
+the most significant bill activity for the active topic over the past
 7 days.
 
 Reuses helpers from post_to_bluesky.py — no duplication of the bill loader,
@@ -9,9 +9,9 @@ filter, link builder, summarizer, or Bluesky client. The only digest-specific
 logic here is the significance scorer, the per-state cap, and the thread
 chaining via record.reply.{root,parent}.
 
-The active category is selected via the BOT_CATEGORY env var (see
-scripts/category.py). The digest's filter, copy, and Bluesky credentials
-are all derived from that category's config.yml.
+The active topic is selected via the BOT_TOPIC env var (see
+scripts/topic.py). The digest's filter, copy, and Bluesky credentials
+are all derived from that topic's config.yml.
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ from pathlib import Path
 
 from post_to_bluesky import (
     BlueskyClient,
-    CATEGORY,
+    TOPIC,
     FETCH_OG_IMAGE,
     JSONL_PATH,
     MAX_POST,
@@ -127,12 +127,12 @@ def in_lookback_window(action_date: str, today: datetime, days: int = DIGEST_LOO
     return d >= cutoff and d <= today
 
 
-def collect_category_bills(records: list[dict]) -> list[dict]:
-    """Extract every active-category bill log entry from the raw govbot records."""
+def collect_topic_bills(records: list[dict]) -> list[dict]:
+    """Extract every active-topic bill log entry from the raw govbot records."""
     out: list[dict] = []
     for r in records:
         b = extract_fields(r)
-        if b and CATEGORY.matches(b):
+        if b and TOPIC.matches(b):
             out.append(b)
     return out
 
@@ -201,7 +201,7 @@ def compose_root(today: datetime, total_updates: int, distinct_states: int,
             f"{window_days} days. Top highlights 🧵"
         )
     text = (
-        f"{CATEGORY.thread_title}\n"
+        f"{TOPIC.thread_title}\n"
         f"{range_str}\n\n"
         f"{framing}"
     )
@@ -253,10 +253,10 @@ def compose_landscape_root(today: datetime, unique_bills: list[dict],
     distinct_states = len([s for s in state_counts if s])
     juris_line = _format_jurisdictions_line(state_counts)
     text = (
-        f"{CATEGORY.thread_title}\n"
+        f"{TOPIC.thread_title}\n"
         f"Week of {_format_short(today)}, {today.year}\n\n"
         "Quiet stretch — no notable floor or executive action to flag from the "
-        f"past month. Tracking {total_bills} {CATEGORY.topic_phrase} bill(s) "
+        f"past month. Tracking {total_bills} {TOPIC.topic_phrase} bill(s) "
         f"across {distinct_states} jurisdiction(s): {juris_line}. A landscape "
         "check-in 🧵"
     )
@@ -264,11 +264,11 @@ def compose_landscape_root(today: datetime, unique_bills: list[dict],
     # un-enriched copy rather than truncating mid-state-list.
     if len(text) > MAX_POST:
         text = (
-            f"{CATEGORY.thread_title}\n"
+            f"{TOPIC.thread_title}\n"
             f"Week of {_format_short(today)}, {today.year}\n\n"
             "Quiet stretch — no notable floor or executive action to flag from "
             f"the past month. But we're still tracking {total_bills} "
-            f"{CATEGORY.topic_phrase} bill(s) across {distinct_states} "
+            f"{TOPIC.topic_phrase} bill(s) across {distinct_states} "
             "jurisdiction(s). A landscape check-in 🧵"
         )
     if len(text) > MAX_POST:
@@ -386,11 +386,11 @@ def main() -> int:
 
     today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=None)
 
-    all_bills = collect_category_bills(records)
+    all_bills = collect_topic_bills(records)
     if not all_bills:
         # Truly empty corpus — landscape stats would say "0 bills, 0 states",
         # which isn't informative. Skip rather than post nonsense.
-        print(f"No {CATEGORY.topic_phrase} bills found at all. Nothing to digest.")
+        print(f"No {TOPIC.topic_phrase} bills found at all. Nothing to digest.")
         return 0
 
     # Try the primary 7-day window first, then widen if it's empty so a
@@ -399,7 +399,7 @@ def main() -> int:
     chosen_window = LOOKBACK_FALLBACK_WINDOWS[0]
     for window in LOOKBACK_FALLBACK_WINDOWS:
         candidates = candidates_in_window(all_bills, today, window)
-        print(f"Lookback {window}d: {len(candidates)} {CATEGORY.topic_phrase} bill update(s).")
+        print(f"Lookback {window}d: {len(candidates)} {TOPIC.topic_phrase} bill update(s).")
         if candidates:
             chosen_window = window
             break

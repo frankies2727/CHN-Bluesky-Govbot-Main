@@ -14,8 +14,8 @@ concurrency:
   group: govbot-bluesky-weekly-digest
   cancel-in-progress: false
 
-# All categories run from the same govbot fetch + Ollama install. Adding a
-# category means dropping a categories/<name>/config.yml and adding the
+# All topics run from the same govbot fetch + Ollama install. Adding a
+# topic means dropping a topics/<name>/config.yml and adding the
 # matching BLUESKY_HANDLE_<NAME> / BLUESKY_APP_PASSWORD_<NAME> repo secrets.
 
 defaults:
@@ -75,7 +75,7 @@ jobs:
           ollama pull "$LLM_MODEL"
           ollama list
 
-      - name: Build and post weekly digest thread (all categories)
+      - name: Build and post weekly digest thread (all topics)
         env:
           ALL_SECRETS: ${{ toJSON(secrets) }}
           LLM_API_URL: "http://localhost:11434/api/chat"
@@ -84,13 +84,13 @@ jobs:
           DIGEST_PER_STATE_CAP: "2"
         run: |
           shopt -s nullglob
-          for category_dir in categories/*/; do
-            cat=$(basename "$category_dir")
-            if [ ! -f "$category_dir/config.yml" ]; then
-              echo "--- $cat: no config.yml, skipping ---"
+          for topic_dir in topics/*/; do
+            topic=$(basename "$topic_dir")
+            if [ ! -f "$topic_dir/config.yml" ]; then
+              echo "--- $topic: no config.yml, skipping ---"
               continue
             fi
-            echo "=== Digest for category: $cat ==="
-            BOT_CATEGORY="$cat" python scripts/weekly_digest.py \
-              || echo "  $cat digest failed, continuing with next category"
+            echo "=== Digest for topic: $topic ==="
+            BOT_TOPIC="$topic" python scripts/weekly_digest.py \
+              || echo "  $topic digest failed, continuing with next topic"
           done

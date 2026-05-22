@@ -3,7 +3,7 @@
 X/Twitter version of the poster. Mirrors post_to_bluesky.py's pipeline
 (state detection, abstract/subjects extraction, freshness gate, same-day
 dedup, weighted state selection, Ollama summary + headline) and posts to
-X via tweepy. All X state lives under categories/<name>/x/ (bills_used.json
+X via tweepy. All X state lives under topics/<name>/x/ (bills_used.json
 plus a bills_raw/ artifact folder) so X dedup is independent of Bluesky's.
 """
 
@@ -19,7 +19,7 @@ from pathlib import Path
 
 import tweepy
 
-from category import load_active_category
+from topic import load_active_topic
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
     _format_date,
@@ -39,8 +39,8 @@ from post_to_bluesky import (
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
 
-CATEGORY = load_active_category()
-STATE_FILE = CATEGORY.x_state_file_path()
+TOPIC = load_active_topic()
+STATE_FILE = TOPIC.x_state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
@@ -82,7 +82,7 @@ def save_state(state: dict) -> None:
 
 def save_raw_record(b: dict) -> None:
     """Write the verbatim bills.jsonl record for a posted bill to
-    categories/<name>/x/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
+    topics/<name>/x/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
     every X-posted action has a self-contained raw artifact alongside the
     dedup key in x/bills_used.json. Mirrors post_to_bluesky.save_raw_record."""
     raw = b.get("_raw")
@@ -94,7 +94,7 @@ def save_raw_record(b: dict) -> None:
     date = b.get("action_date") or "no-date"
     action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
     fname = f"{state}-{ident}-{date}-{action_slug}.json"
-    out_dir = CATEGORY.x_bills_raw_dir()
+    out_dir = TOPIC.x_bills_raw_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / fname
     out_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n")
@@ -105,7 +105,7 @@ def save_raw_record(b: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
-    emoji = CATEGORY.emoji_for(b)
+    emoji = TOPIC.emoji_for(b)
     url = link_for(b)
     url_block = f"\n\n{url}" if url else ""
 
@@ -222,7 +222,7 @@ def main() -> int:
         print(f"ERROR: missing X credentials: {', '.join(missing)}", file=sys.stderr)
         return 1
 
-    print(f"=== X GovBot running for category: {CATEGORY.name} ===")
+    print(f"=== X GovBot running for topic: {TOPIC.name} ===")
     records = load_bills(JSONL_PATH)
     if not records:
         return 0
@@ -235,7 +235,7 @@ def main() -> int:
         b = extract_fields(r)
         if not b:
             continue
-        if not CATEGORY.matches(b):
+        if not TOPIC.matches(b):
             continue
         if b["dedup_key"] in seen:
             continue
@@ -267,7 +267,7 @@ def main() -> int:
             unique_by_day[b["same_day_key"]] = b
     candidates = list(unique_by_day.values())
 
-    print(f"Found {len(candidates)} new {CATEGORY.topic_phrase} bill update(s).")
+    print(f"Found {len(candidates)} new {TOPIC.topic_phrase} bill update(s).")
     if not candidates:
         return 0
 
