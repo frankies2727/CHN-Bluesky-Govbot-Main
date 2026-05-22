@@ -591,6 +591,60 @@ def _strip_title_prefix(summary: str, title: str) -> str:
     return summary
 
 
+_ACT_TERMINATORS = {"act", "bill", "law", "resolution"}
+_NAME_CONNECTORS = {"of", "and", "for", "the", "to", "a", "an", "&"}
+
+
+def _strip_act_name_echo(summary: str, headline: str) -> str:
+    """When the summary opens by naming the bill's own act ("The AI
+    Non-Sentience and Responsibility Act establishes…") and that name echoes
+    the headline shown directly above it, drop the naming clause so the post
+    doesn't say the same thing twice. Returns the summary unchanged when there
+    is no such echo (e.g. the leading name doesn't overlap the headline)."""
+    if not summary or not headline:
+        return summary
+
+    body = _LEAD_ARTICLE_RE.sub("", summary, count=1)
+    tokens = body.split()
+    if len(tokens) < 3:
+        return summary
+
+    # Walk the leading run of capitalized words / connectors up to an act
+    # terminator ("Act", "Bill", …). Anything else means there is no act name.
+    name_words: list[str] = []
+    end_idx = -1
+    for i, tok in enumerate(tokens):
+        bare = tok.strip(",.;:—-").lower()
+        if bare in _ACT_TERMINATORS:
+            end_idx = i
+            break
+        if tok[:1].isupper() or bare in _NAME_CONNECTORS:
+            if tok[:1].isupper() and bare not in _NAME_CONNECTORS:
+                name_words.append(bare)
+            continue
+        return summary  # a lowercase non-connector word — not an act name
+    if end_idx < 1 or not name_words:
+        return summary
+
+    # Only strip when the act name genuinely echoes the headline: require two
+    # shared (normalized) words so an unrelated act keeps its name.
+    head_tokens = set(_normalize(headline).split())
+    name_tokens = _normalize(" ".join(name_words)).split()
+    shared = sum(1 for t in name_tokens if t in head_tokens)
+    if shared < 2:
+        return summary
+
+    # Char offset of the text after the terminator token.
+    pos = 0
+    for tok in tokens[: end_idx + 1]:
+        pos = body.index(tok, pos) + len(tok)
+    rest = body[pos:].lstrip(" -—:,.;")
+    rest = _LEAD_FILLER_RE.sub("", rest)
+    if not rest:
+        return summary
+    return rest[:1].upper() + rest[1:]
+
+
 def _smart_truncate(text: str, max_len: int) -> str:
     """Truncate to <= max_len, ending at a sentence or word boundary."""
     text = (text or "").strip()
@@ -1676,6 +1730,9 @@ def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, s
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
+    # Drop a leading act name from the summary when it just echoes the headline
+    # ("AI Non-Sentience Act…" appearing in both lines).
+    summary = _strip_act_name_echo(summary, display)
 
     summary_block = (
         f"\n\n{summary}"
