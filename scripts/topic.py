@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-Category configuration loader.
+Topic configuration loader.
 
-Each Bluesky bot is one category (transportation, immigration, taxation, …).
-A category is described by a YAML file at categories/<name>/config.yml; all
+Each Bluesky bot is one topic (transportation, immigration, taxation, …).
+A topic is described by a YAML file at topics/<name>/config.yml; all
 of its per-bot state lives in the same folder. The loader exposes a single
-Category object that the post + digest scripts use to filter bills, pick
+Topic object that the post + digest scripts use to filter bills, pick
 emojis, and look up Bluesky credentials.
 
-Adding a new category is a drop-in operation: create the folder, add the
+Adding a new topic is a drop-in operation: create the folder, add the
 config.yml, add BLUESKY_HANDLE_<NAME> + BLUESKY_APP_PASSWORD_<NAME> repo
-secrets. The shared workflow loops over categories/ and picks it up on
+secrets. The shared workflow loops over topics/ and picks it up on
 the next cron tick — no Python or workflow edits needed.
 """
 
@@ -25,11 +25,11 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-CATEGORIES_DIR = ROOT / "categories"
+TOPICS_DIR = ROOT / "topics"
 
 
 @dataclass
-class Category:
+class Topic:
     name: str
     display_name: str
     prompt_topic: str
@@ -47,12 +47,12 @@ class Category:
     # ------------------------------------------------------------------
 
     @classmethod
-    def load(cls, name: str) -> "Category":
-        path = CATEGORIES_DIR / name / "config.yml"
+    def load(cls, name: str) -> "Topic":
+        path = TOPICS_DIR / name / "config.yml"
         if not path.exists():
             raise FileNotFoundError(
-                f"Category config not found: {path}. "
-                f"Expected a folder at categories/{name}/ with config.yml."
+                f"Topic config not found: {path}. "
+                f"Expected a folder at topics/{name}/ with config.yml."
             )
         with path.open(encoding="utf-8") as f:
             data = yaml.safe_load(f) or {}
@@ -60,13 +60,13 @@ class Category:
         cfg_name = data.get("name") or name
         if cfg_name != name:
             raise ValueError(
-                f"Category folder name ({name!r}) does not match "
+                f"Topic folder name ({name!r}) does not match "
                 f"config.yml name ({cfg_name!r})."
             )
 
         keywords = list(data.get("keywords") or [])
         if not keywords:
-            raise ValueError(f"Category {name!r}: keywords list is empty.")
+            raise ValueError(f"Topic {name!r}: keywords list is empty.")
 
         display_name = data.get("display_name") or name.replace("_", " ").title()
         prompt_topic = data.get("prompt_topic") or display_name.lower()
@@ -123,7 +123,7 @@ class Category:
         if len(distinct) >= 2:
             return True
         # Context keywords (e.g. "human trafficking") are too broad to stand on
-        # their own — they only count when a core category keyword co-occurs.
+        # their own — they only count when a core topic keyword co-occurs.
         if self._context_re is not None:
             full = title + " " + body
             if self._context_re.search(full) and self._keyword_re.search(full):
@@ -186,18 +186,18 @@ class Category:
     # ------------------------------------------------------------------
 
     def state_file_path(self) -> Path:
-        return CATEGORIES_DIR / self.name / "bills_used.json"
+        return TOPICS_DIR / self.name / "bills_used.json"
 
     def bills_raw_dir(self) -> Path:
-        return CATEGORIES_DIR / self.name / "bills_raw"
+        return TOPICS_DIR / self.name / "bills_raw"
 
     # X/Twitter state lives in its own x/ subfolder so its dedup file and
     # raw artifacts sit beside — but never collide with — Bluesky's.
     def x_state_file_path(self) -> Path:
-        return CATEGORIES_DIR / self.name / "x" / "bills_used.json"
+        return TOPICS_DIR / self.name / "x" / "bills_used.json"
 
     def x_bills_raw_dir(self) -> Path:
-        return CATEGORIES_DIR / self.name / "x" / "bills_raw"
+        return TOPICS_DIR / self.name / "x" / "bills_raw"
 
     def _secret_suffix(self) -> str:
         return self.name.upper()
@@ -219,7 +219,7 @@ class Category:
 # Secret resolution
 #
 # In the shared workflow we expose toJSON(secrets) as a single ALL_SECRETS env
-# var so adding a new category never requires editing the workflow file. The
+# var so adding a new topic never requires editing the workflow file. The
 # script tries plain env vars first (so local dev with a single
 # BLUESKY_HANDLE_TRANSPORTATION export still works) and falls back to the
 # JSON map.
@@ -255,22 +255,22 @@ def _read_secret(env_name: str) -> str:
 # Discovery
 # ---------------------------------------------------------------------------
 
-def list_categories() -> list[str]:
-    if not CATEGORIES_DIR.exists():
+def list_topics() -> list[str]:
+    if not TOPICS_DIR.exists():
         return []
     out: list[str] = []
-    for child in sorted(CATEGORIES_DIR.iterdir()):
+    for child in sorted(TOPICS_DIR.iterdir()):
         if child.is_dir() and (child / "config.yml").exists():
             out.append(child.name)
     return out
 
 
-def load_active_category() -> Category:
-    """Resolve the category for this run from the BOT_CATEGORY env var."""
-    name = os.environ.get("BOT_CATEGORY", "").strip()
+def load_active_topic() -> Topic:
+    """Resolve the topic for this run from the BOT_TOPIC env var."""
+    name = os.environ.get("BOT_TOPIC", "").strip()
     if not name:
         raise RuntimeError(
-            "BOT_CATEGORY env var is required. Set it to a folder name under "
-            f"categories/ — available: {', '.join(list_categories()) or '(none)'}."
+            "BOT_TOPIC env var is required. Set it to a folder name under "
+            f"topics/ — available: {', '.join(list_topics()) or '(none)'}."
         )
-    return Category.load(name)
+    return Topic.load(name)
