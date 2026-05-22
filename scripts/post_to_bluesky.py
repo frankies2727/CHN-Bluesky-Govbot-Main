@@ -1283,19 +1283,21 @@ def _b_ms(session, ident):  # verified — billstatus.ls.state.ms.us history pag
 def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview page
     # ND organizes bills by Legislative Assembly number; the Nth Assembly
     # convenes in calendar year 1887 + 2N (1st LA = 1889, 69th LA = 2025).
-    # The URL is /assembly/<N>-<YYYY>/regular/bill-overview/bo<num>.html and
-    # bill numbers are unique across chambers (HB: 1000-1999, SB: 2000-2999),
-    # so the same path serves both. Resolutions use other number ranges and
-    # aren't covered here — they fall back to legis.nd.gov.
+    # The URL is /assembly/<N>-<YYYY>/{regular|special}/bill-overview/bo<num>.html
+    # and bill numbers are unique across chambers (HB: 1000-1999,
+    # SB: 2000-2999), so the same path serves both. Resolutions use other
+    # number ranges and aren't covered here — they fall back to legis.nd.gov.
     typ, num = _split_ident(ident)
     if typ not in ("HB", "SB") or not num:
         return None
-    year = _first_year(session)
+    raw = session or ""
+    year = _first_year(raw)
     if not year:
         # OpenStates / govbot sometimes encode ND sessions as just the
-        # legislative assembly number ("69", "69th") rather than a calendar
-        # year. Decode it to the biennium start year (LA N -> 1887 + 2N).
-        m = re.match(r"\s*(\d{1,3})(?:st|nd|rd|th)?\b", session or "")
+        # legislative assembly number ("69", "69th", "69X1") rather than a
+        # calendar year. Decode it to the biennium start year
+        # (LA N -> 1887 + 2N).
+        m = re.match(r"\s*(\d{1,3})", raw)
         if m:
             year = str(1887 + 2 * int(m.group(1)))
     if not year:
@@ -1304,7 +1306,13 @@ def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview pa
     if y % 2 == 0:
         y -= 1  # bienniums start in odd years
     assembly = (y - 1887) // 2
-    return (f"https://www.ndlegis.gov/assembly/{assembly}-{y}/regular/"
+    # Special sessions live under /special/ rather than /regular/. Govbot
+    # marks them inconsistently — sometimes by the words "special" or
+    # "extraordinary", sometimes by a trailing "X"/"S" code on the assembly
+    # or year ("69X1", "69s1", "2025S1").
+    is_special = bool(re.search(r"(?i)special|extra|\d[xs]", raw))
+    sub = "special" if is_special else "regular"
+    return (f"https://www.ndlegis.gov/assembly/{assembly}-{y}/{sub}/"
             f"bill-overview/bo{num}.html")
 
 
