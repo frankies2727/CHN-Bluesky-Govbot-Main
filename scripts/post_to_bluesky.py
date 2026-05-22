@@ -306,6 +306,35 @@ def _strip_leading_date(s: str) -> str:
     return _LEADING_DATE_RE.sub("", s or "", count=1)
 
 
+# Some sources (e.g. California) append a parenthetical date to the action
+# description, e.g. "Do pass. (Ayes 14. Noes 0.) (May 14)." That repeats the
+# formatted date we already prepend, so strip it when it matches the action
+# date (a parenthetical for a *different* date is kept — it carries info).
+_MONTH_PREFIXES = {1:"jan", 2:"feb", 3:"mar", 4:"apr", 5:"may", 6:"jun",
+                   7:"jul", 8:"aug", 9:"sep", 10:"oct", 11:"nov", 12:"dec"}
+_TRAILING_PAREN_RE = re.compile(r"\(\s*([^()]*?)\s*\)\s*\.?\s*$")
+
+
+def _strip_trailing_date(s: str, date_yyyy_mm_dd: str) -> str:
+    s = s or ""
+    try:
+        d = datetime.strptime(date_yyyy_mm_dd, "%Y-%m-%d")
+    except ValueError:
+        return s
+    m = _TRAILING_PAREN_RE.search(s)
+    if not m:
+        return s
+    inner = m.group(1).strip().lower().rstrip(".")
+    num = re.fullmatch(r"(\d{1,2})[/-](\d{1,2})(?:[/-]\d{2,4})?", inner)
+    if num and int(num.group(1)) == d.month and int(num.group(2)) == d.day:
+        return s[:m.start()].rstrip()
+    name = re.fullmatch(r"([a-z]{3,9})\.?\s+(\d{1,2})(?:,?\s*\d{2,4})?", inner)
+    if name and name.group(1).startswith(_MONTH_PREFIXES[d.month]) \
+            and int(name.group(2)) == d.day:
+        return s[:m.start()].rstrip()
+    return s
+
+
 def _smart_case(s: str) -> str:
     s = s.strip().rstrip(".")
     if not s:
@@ -322,10 +351,10 @@ def _smart_case(s: str) -> str:
 
 
 def format_action_line(action_desc: str, date_yyyy_mm_dd: str) -> str:
-    desc = _smart_case(_strip_leading_date(action_desc))
+    desc = _smart_case(_strip_trailing_date(_strip_leading_date(action_desc), date_yyyy_mm_dd))
     nice_date = _format_date(date_yyyy_mm_dd)
     if desc and nice_date:
-        desc_with_period = desc if desc.endswith((".", "!", "?")) else desc + "."
+        desc_with_period = desc if desc.endswith((".", "!", "?", ".)")) else desc + "."
         return f"{nice_date}: {desc_with_period}"
     return ""
 
