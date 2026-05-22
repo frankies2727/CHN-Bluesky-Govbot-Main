@@ -727,6 +727,52 @@ def shorten_title(b: dict) -> str:
     return headline
 
 
+def humanize_action(b: dict) -> str:
+    """Ask the local model to rewrite a raw legislative action description into
+    a plain-English clause a general reader can follow — e.g. "SA 3 to SS#2 for
+    SCS S offered & defeated (Burger)--(5687S16.02S)" becomes "An amendment to
+    the bill was offered in the Senate and defeated." Returns "" when there is
+    nothing to rewrite or the model output is unusable; compose_post then falls
+    back to the smart-cased original action description."""
+    raw = _strip_leading_date((b.get("action_desc") or "").strip())
+    if not raw:
+        return ""
+
+    user_prompt = (
+        f"Legislative action: {raw[:500]}\n\n"
+        "Rewrite it as one plain-English clause now."
+    )
+    try:
+        r = requests.post(
+            LLM_API_URL,
+            json={
+                "model": LLM_MODEL,
+                "messages": [
+                    {"role": "system", "content": CATEGORY.action_system_prompt()},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "stream": False,
+                "options": {"num_predict": 80, "temperature": 0.2},
+            },
+            timeout=LLM_TIMEOUT,
+        )
+        if not r.ok:
+            print(f"  ! LLM action {r.status_code}: {r.text[:300]}", file=sys.stderr)
+            return ""
+        data = r.json()
+        text = (data.get("message") or {}).get("content") or data.get("response") or ""
+    except Exception as e:
+        print(f"  ! action rewrite failed: {e}", file=sys.stderr)
+        return ""
+
+    action = _clean_summary(text).strip().rstrip(".!?")
+    # A model that pads a terse status line into a paragraph has lost the
+    # plot — fall back to the original rather than post the ramble.
+    if not action or len(action) > 160:
+        return ""
+    return action
+
+
 # ---------------------------------------------------------------------------
 # Bluesky
 # ---------------------------------------------------------------------------
@@ -1639,7 +1685,8 @@ def link_for(b: dict) -> str:
 # Composition
 # ---------------------------------------------------------------------------
 
-def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
+def compose_post(b: dict, summary: str, headline: str = "",
+                 action_desc: str = "") -> tuple[str, str, str, str]:
     emoji = CATEGORY.emoji_for(b)
     link = link_for(b)
     link_block = f"\n\n{LINK_PREFIX}{link}" if link else ""
@@ -1653,7 +1700,7 @@ def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, s
         if summary and _normalize(summary) != _normalize(display)
         else ""
     )
-    action_line = format_action_line(b["action_desc"], b["action_date"])
+    action_line = format_action_line(action_desc or b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
     prefix_len = len(emoji) + len(f" {state_label} {b['identifier']} — ")
@@ -1904,7 +1951,9 @@ def main() -> int:
     for b in to_post:
         summary = summarize(b)
         headline = shorten_title(b)
-        text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
+        action = humanize_action(b)
+        text, link, ec_title, ec_desc = compose_post(
+            b, summary, headline=headline, action_desc=action)
 
         thumb_blob = None
         if link and FETCH_OG_IMAGE:

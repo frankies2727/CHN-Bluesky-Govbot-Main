@@ -181,6 +181,25 @@ class Category:
             f"only the headline text."
         )
 
+    def action_system_prompt(self) -> str:
+        return (
+            f"You rewrite raw US legislative status updates into plain English for a "
+            f"civic-engagement Bluesky bot focused on {self.prompt_topic}. You are given "
+            f"one action description exactly as recorded by a state legislature — it may "
+            f"be terse jargon with chamber abbreviations and internal document codes "
+            f"(e.g. 'SA 3 to SS#2 for SCS S offered & defeated (Burger)--(5687S16.02S)'). "
+            f"Rewrite it as ONE plain-English clause a general reader can understand. "
+            f"Spell out abbreviations: 'SB'/'SS'/'SCS'/'SA' refer to the Senate, "
+            f"'HB'/'HCS'/'HA' to the House; 'SA' and 'HA' are amendments, 'SCS'/'HCS' are "
+            f"committee substitutes. Drop internal draft and document codes (strings like "
+            f"'5687S16.02S') and bare bill-version labels. Keep it factual: describe only "
+            f"what the recorded action says happened — never invent a vote count, a date, "
+            f"a chamber, or an outcome that is not stated. If the action is already plain "
+            f"English, lightly clean it and return it. Output only the rewritten clause, "
+            f"under 140 characters, no date, no emoji, no hashtags, no surrounding quotes, "
+            f"no preamble or explanation."
+        )
+
     # ------------------------------------------------------------------
     # Paths and credentials
     # ------------------------------------------------------------------
