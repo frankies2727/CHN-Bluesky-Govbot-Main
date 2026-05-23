@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB534",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Energy",
+      "Funds",
+      "Schools",
+      "Taxation"
+    ],
+    "title": "Imposing a nameplate capacity tax and a production tax upon certain wind farms and solar facilities, crediting the nameplate capacity tax and the production tax revenue to the property tax relief fund, creating the property tax relief fund, transferring moneys from the property tax relief fund to the state school district finance fund and decreasing the statewide property tax levy for schools."
+  },
+  "id": "SB534",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB534"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB534/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB534/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

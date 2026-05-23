@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Criminal Offenses Against Law Enforcement Officers and Other Personnel;  Citing this act as the \"Officer Jason Raynor Act\"; revising a prohibition on the use or threatened use of force to resist arrest or detention; providing for enhanced punishment for manslaughter when committed against specified officers; revising provisions concerning assault or battery upon specified officers and other personnel; revising a provision concerning resisting, obstructing, or opposing specified officers or legally authorized persons, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 156",
+    "legislative_session": "2026",
+    "subject": [
+      "crimes",
+      "criminal procedure and corrections"
+    ],
+    "title": "Criminal Offenses Against Law Enforcement Officers and Other Personnel"
+  },
+  "id": "SB 156",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-03-17",
+      "description": "Ordered enrolled",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 156"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB156/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB156/logs/20260317T000000Z_ordered_enrolled.json"
+  },
+  "timestamp": "20260317T000000Z"
+}

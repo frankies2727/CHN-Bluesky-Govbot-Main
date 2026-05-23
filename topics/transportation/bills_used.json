@@ -11,6 +11,7 @@
     "AK|HB55|2025-07-30|(H) LINE ITEM VETO AND REDUCTIONS",
     "AL|HB317|2026-04-17|Enacted",
     "AL|HJR237|2026-04-09|Enacted",
+    "AL|SB341|2026-04-09|Carnley motion to Concur In and Adopt Co",
     "AL|SB341|2026-04-15|Enacted",
     "AL|SB94|2026-04-07|Motion to Read a Third Time and Pass as ",
     "AL|SJR91|2026-03-31|Delivered to Governor",
@@ -251,6 +252,7 @@
     "UT|HB 11|2026-02-18|House/ received enrolled bill from Print",
     "UT|HB 11|2026-02-18|House/ to Governor",
     "UT|HB 11|2026-02-27|Governor Signed",
+    "WA|SB 5832|2026-02-27|APP - Majority; do pass.",
     "WA|SB 5832|2026-02-27|Executive action taken in the House Comm",
     "WA|SB 5832|2026-02-27|Minority; without recommendation.",
     "WA|SB 5832|2026-03-12|By resolution, returned to Senate Rules ",
@@ -263,7 +265,7 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-23T14:02:57.782384+00:00",
+  "last_run": "2026-05-23T21:01:36.978801+00:00",
   "state_last_posted": {
     "IL": "2026-05-16T03:01:17.694974+00:00",
     "SC": "2026-05-16T03:01:17.694974+00:00",
@@ -281,8 +283,8 @@
     "UT": "2026-05-22T15:03:42.406939+00:00",
     "TN": "2026-05-23T08:40:15.535987+00:00",
     "FL": "2026-05-23T03:48:18.993325+00:00",
-    "AL": "2026-05-23T14:00:53.355065+00:00",
+    "AL": "2026-05-23T21:01:06.493297+00:00",
     "MO": "2026-05-22T15:03:42.406939+00:00",
-    "WA": "2026-05-22T04:13:23.590497+00:00"
+    "WA": "2026-05-23T21:01:06.493297+00:00"
   }
 }

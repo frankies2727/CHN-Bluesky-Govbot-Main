@@ -24,6 +24,7 @@
     "AL|HB55|2026-04-09|Signature Requested",
     "AL|HB55|2026-04-16|Enacted",
     "CA|AB1556|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
+    "CA|AB1556|2026-05-22|Read third time and amended. Ordered to ",
     "CA|AB2020|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
     "CA|AB2185|2026-05-13|From committee: Do pass. (Ayes 15. Noes ",
     "CA|AB2185|2026-05-21|Read third time. Passed. Ordered to the ",
@@ -56,6 +57,7 @@
     "IA|SF 2435|2026-02-23|Committee report, approving bill.",
     "IA|SF 2438|2026-02-23|Committee report, approving bill.",
     "IA|SF 2442|2026-02-23|Committee report, approving bill.",
+    "KS|HB2209|2026-04-10|Died in Committee",
     "KS|SB371|2026-04-10|Died in Committee",
     "KS|SB391|2026-04-10|Motion to override veto prevailed; Yea 8",
     "MA|H4290|2026-03-30|Committee reported that the matter be pl",
@@ -157,7 +159,7 @@
     "WA|SB 5940|2026-01-21|Minority; without recommendation.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-23T13:53:48.589377+00:00",
+  "last_run": "2026-05-23T20:55:59.382329+00:00",
   "state_last_posted": {
     "MS": "2026-05-20T02:03:48.911912+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -170,9 +172,9 @@
     "AL": "2026-05-21T15:44:31.305173+00:00",
     "FL": "2026-05-23T13:52:58.978783+00:00",
     "PR": "2026-05-18T09:44:51.052129+00:00",
-    "CA": "2026-05-22T20:04:13.050755+00:00",
+    "CA": "2026-05-23T20:55:26.423068+00:00",
     "DE": "2026-05-17T08:14:23.320722+00:00",
-    "KS": "2026-05-21T04:10:21.718241+00:00",
+    "KS": "2026-05-23T20:55:26.423068+00:00",
     "MA": "2026-05-23T08:32:36.742891+00:00",
     "NJ": "2026-05-19T02:06:37.149818+00:00",
     "MO": "2026-05-22T20:04:13.050755+00:00"
