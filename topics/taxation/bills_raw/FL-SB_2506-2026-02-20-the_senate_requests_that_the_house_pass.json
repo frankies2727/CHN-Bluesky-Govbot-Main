@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Fuel Taxes;  Revising the distribution of the proceeds of the fuel sales tax; revising the transfer of funds received and collected into the Fuel Tax Collection Trust Fund, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2506",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Fuel Taxes"
+  },
+  "id": "SB 2506",
+  "log": {
+    "action": {
+      "date": "2026-02-20",
+      "description": "The Senate requests that the House pass the bill as passed by the Senate or agree to include the bill in the Budget Conference",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 2506"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB2506/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB2506/logs/20260220T000000Z_the_senate_requests_that_the_house_pass_the_bill_as_passed_by_the_senate_or_agree_to_include_the_bil.json"
+  },
+  "timestamp": "20260220T000000Z"
+}

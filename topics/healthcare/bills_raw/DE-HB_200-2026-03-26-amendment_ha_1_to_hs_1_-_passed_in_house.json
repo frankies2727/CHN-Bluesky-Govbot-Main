@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act is a substitute for HB 200 and differs from HB 200 by requiring health insurance coverage only for pre-exposure prophylaxis (“PrEP”) medication and post-exposure prophylaxis (“PEP”) medication. This Act also makes technical corrections including updating section numbers and updating the applicability date so insurance companies can file rates that include the cost of the coverage required under this Act. \r\n\r\nThis Act requires individual health insurance plans, group and blanket health insurance plans, the state employee health plan, and state Medicaid insurance to cover medically necessary PrEP medication for the prevention of human immunodeficiency virus (“HIV”) infection before possible HIV exposure and medically necessary PEP medication for the prevention of HIV infection after possible HIV exposure.\r\n\r\nThe coverage must include must be provided without any of the following:\r\n1. Cost-sharing requirements, including deductibles, coinsurance, copayments, and out-of-pocket expenses.\r\n2. Prior authorization or step therapy requirements.\r\n3. Unreasonable delay in coverage determination.\r\n\r\nThis Act applies to all policies, contracts, or certificates that are renewed, modified, altered, amended, or reissued after December 31, 2027.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 200",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 18, TITLE 29, AND TITLE 31 OF THE DELAWARE CODE RELATING TO INSURANCE COVERAGE FOR TREATMENT TO PREVENT HIV INFECTION."
+  },
+  "id": "HB 200",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage"
+      ],
+      "date": "2026-03-26",
+      "description": "Amendment HA 1 to HS 1 - Passed In House by Voice Vote",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 200"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB200/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB200/logs/20260326T000000Z_amendment_ha_1_to_hs_1_passed_in_house_by_voice_vote.json"
+  },
+  "timestamp": "20260326T000000Z"
+}

@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Nursing Education Programs;  Requiring applicants for nurse licensure seeking to take the licensing examination more than 6 months after graduation to first complete a remedial course approved or developed by the Board of Nursing; requiring the Department of Health to issue temporary provisional licenses to graduate professional nurses and graduate practical nurses meeting certain criteria; revising application requirements for nursing education program approval; requiring the Florida Center for Nursing to develop graduate nursing preceptorship standards by a specified date; authorizing agents or employees of the department to conduct onsite evaluations and inspections of approved and accredited nursing education programs, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 254",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Nursing Education Programs"
+  },
+  "id": "SB 254",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Fiscal Policy",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 254"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB254/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB254/logs/20260313T000000Z_died_in_fiscal_policy.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

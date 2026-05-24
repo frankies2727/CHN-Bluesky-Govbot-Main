@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3214",
+    "legislative_session": "2026",
+    "subject": [
+      "BUSINESS AND COMMERCE",
+      "ECONOMIC DEVELOPMENT",
+      "NATURAL RESOURCES, DEPARTMENT OF",
+      "TAX CREDITS",
+      "UTILITIES"
+    ],
+    "title": "Creates the Manufacturing Opportunity Zones Act for large manufacturing developments with access to transportation and proximity to electricity, gas, and water"
+  },
+  "id": "HB 3214",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3214"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3214/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3214/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

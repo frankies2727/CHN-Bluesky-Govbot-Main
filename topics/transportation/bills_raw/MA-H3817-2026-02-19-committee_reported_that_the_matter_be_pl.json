@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Xiarhos of Barnstable, a petition (accompanied by bill, House, No. 3817) of Steven George Xiarhos relative to the prohibition of motor vehicle operators to make turns at certain red lights.  Transportation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3817",
+    "legislative_session": "194th",
+    "title": "An Act regarding right of way violations (CeCelia's Law)"
+  },
+  "id": "H3817",
+  "log": {
+    "action": {
+      "date": "2026-02-19",
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H3817"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3817/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3817/logs/20260219T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260219T000000Z"
+}

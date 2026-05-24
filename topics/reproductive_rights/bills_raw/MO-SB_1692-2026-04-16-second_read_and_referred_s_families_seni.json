@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SB 1692 - This act repeals provisions relating to abortion regulation, including, but not limited to prohibitions on certain abortions, abortion facility licensing, informed consent procedures, waiting periods, requirements that only physicians can perform or induce an abortion, certain reporting requirements, and certain criminal penalties relating to abortion.\r\n\r\n\tThis act is identical to SB 696 (2025).\r\nSARAH HASKINS",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1692",
+    "legislative_session": "2026",
+    "title": "SB 1692 - This act repeals provisions relating to abortion regulation, including, but not limited to prohibitions on certain abortions, abortion facility licensing, informed consent procedures, waiting periods, requirements that only physicians can perform or induce an abortion, certain reporting requirements, and certain criminal penalties relating to abortion.\r\n\r\n\tThis act is identical to SB 696 (2025).\r\nSARAH HASKINS"
+  },
+  "id": "SB 1692",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2",
+        "referral-committee"
+      ],
+      "date": "2026-04-16T05:00:00+00:00",
+      "description": "Second Read and Referred S Families, Seniors and Health Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1692"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1692/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1692/logs/20260416T050000Z_second_read_and_referred_s_families_seniors_and_health_committee.json"
+  },
+  "timestamp": "20260416T050000Z"
+}
