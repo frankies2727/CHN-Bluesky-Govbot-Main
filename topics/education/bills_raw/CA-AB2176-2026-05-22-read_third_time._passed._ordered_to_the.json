@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of California, under the administration of the Regents of the University of California, as the 3 segments of public postsecondary education in the state.\n\nExisting law requires the office of the Chancellor of the California State University, and requests the office of the President of the University of California, on or before July 1, 2022, to conduct a needs assessment to determine the projected student housing needs, by campus, for the 2022–23 fiscal year to the 2026–27 fiscal year, inclusive, and create a student housing plan, with a focus on affordable student housing, that outlines how they will meet the projected student housing needs, by campus, as provided. Existing law also requires the chancellor's office, and requests the president's office, to, every 3 years after July 1, 2022, review and update the student housing plan, and include the specific actions to be taken in the next 5 fiscal years.\n\nThis bill would require the office of the Chancellor of the California State University and the office of the Chancellor of the California Community Colleges to establish an intersegmental student housing working group, composed of representatives from the 2 chancellor's offices, faculty, and students. The bill would request the office of the President of the University of California to join and appoint representatives to the working group. The bill would require the working group to use assessments of unmet demand developed by the respective segments in order to further analyze systemwide, regional, and campus-specific student housing needs. The bill would require the working group to develop a statewide plan that identifies opportunities for intersegmental collaboration to build campus housing and informs future state funding considerations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2176",
+    "legislative_session": "20252026",
+    "subject": [
+      "Studenthousing",
+      "intersegmentalworkinggroup"
+    ],
+    "title": "Student housing: intersegmental working group."
+  },
+  "id": "AB2176",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-22",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 73. Noes 0.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2176"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2176/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2176/logs/20260522T000000Z.classification.passage.lower.json"
+  }
+}

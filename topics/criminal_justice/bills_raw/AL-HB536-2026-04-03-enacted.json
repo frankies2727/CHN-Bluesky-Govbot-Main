@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Henry County",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB536",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Henry County"
+    ],
+    "title": "Henry County; sheriff, compensation revised"
+  },
+  "id": "HB536",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-03T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB536"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB536/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB536/logs/20260403T040000Z.classification.became-law.lower.json"
+  }
+}

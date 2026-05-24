@@ -5,6 +5,8 @@
     "AL|HB361|2026-04-09|Ready to Enroll",
     "AL|HB361|2026-04-09|Signature Requested",
     "AL|HB361|2026-04-17|Enacted",
+    "CA|AB1582|2026-03-18|",
+    "CA|AB1582|2026-03-18|Coauthors revised.",
     "CA|AB1582|2026-05-14|From committee: Amend, and do pass as am",
     "CA|AB1582|2026-05-18|Read second time and amended. Ordered re",
     "CA|AB2336|2026-04-06|In committee: Hearing postponed by commi",
@@ -13,6 +15,10 @@
     "DE|SB 248|2026-03-18|Reported Out of Committee (Labor) in Sen",
     "DE|SB 248|2026-03-25|Passed By Senate. Votes: 18 YES 3 ABSENT",
     "DE|SB 26|2026-03-10|Reported Out of Committee (Labor) in Hou",
+    "DE|SB 63|2026-01-28|",
+    "DE|SB 63|2026-01-28|Enacted into Law",
+    "DE|SB 63|2026-01-28|Veto Override Passed in the House. 25 YE",
+    "DE|SB 63|2026-01-28|Veto Override Passed in the Senate. 15 Y",
     "GA|HB 1128|2026-03-18|Senate Committee Favorably Reported",
     "GA|HB 1128|2026-03-25|Senate Passed/Adopted",
     "GA|HB 1128|2026-03-25|Senate Third Read",
@@ -60,7 +66,7 @@
     "WA": "2026-05-24T02:50:40.046982+00:00",
     "AL": "2026-05-24T02:50:40.046982+00:00",
     "NJ": "2026-05-24T11:25:20.229493+00:00",
-    "CA": "2026-05-24T11:25:20.229493+00:00",
+    "CA": "2026-05-24T20:59:16.702633+00:00",
     "WI": "2026-05-23T03:43:44.228664+00:00",
     "IA": "2026-05-19T19:46:36.551228+00:00",
     "TN": "2026-05-18T09:46:07.589765+00:00",
@@ -68,8 +74,8 @@
     "GA": "2026-05-23T20:57:11.033138+00:00",
     "KS": "2026-05-23T08:34:57.343640+00:00",
     "MS": "2026-05-21T09:58:37.227948+00:00",
-    "DE": "2026-05-22T20:07:20.379448+00:00",
+    "DE": "2026-05-24T20:59:16.702633+00:00",
     "MO": "2026-05-23T20:57:11.033138+00:00"
   },
-  "last_run": "2026-05-24T11:25:56.167501+00:00"
+  "last_run": "2026-05-24T21:01:08.411451+00:00"
 }

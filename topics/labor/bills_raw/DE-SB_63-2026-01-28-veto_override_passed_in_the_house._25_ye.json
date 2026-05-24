@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Chapter 35 of Title 19 prohibits an employer from improperly classifying an individual who is an employee as an independent contractor. Not only is this improper classification unfair to employees because it violates state and federal laws related to income tax withholding, unemployment insurance, wage laws, and workers’ compensation, it is also unfair to contractors who comply with Chapter 35 and these other employment laws. \r\n\r\nWhen employers who violate Chapter 35 are subcontractors who have not registered as contractors as required under Chapter 36 of Title 19, the Department of Labor (Department) has no recourse for enforcing compliance with Chapter 35. This Act makes a general contractor responsible for a subcontractor’s compliance with Chapter 35 by making the general contractor jointly and severally liable for restitution and penalties assessed against the subcontractor. This Act also allows the Department to deny, suspend, or revoke the certificate of registration of a contractor who contracts with a subcontractor who has not registered on any project.\r\n\r\nIn addition, Section 3 of this Act makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 63",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 19 OF THE DELAWARE CODE RELATING TO LABOR."
+  },
+  "id": "SB 63",
+  "log": {
+    "action": {
+      "date": "2026-01-28",
+      "description": "Veto Override Passed in the House. 25 YES 15 NO 1 ABSENT",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 63"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB63/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB63/logs/20260128T000000Z_veto_override_passed_in_the_house_25_yes_15_no_1_absent.json"
+  },
+  "timestamp": "20260128T000000Z"
+}

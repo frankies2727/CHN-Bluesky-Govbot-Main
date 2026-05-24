@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Education",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB99",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Education"
+    ],
+    "title": "Ten Commandments; required to be displayed in certain public schools, subject to the availability of donations"
+  },
+  "id": "SB99",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-13T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB99"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB99/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB99/logs/20260413T040000Z.classification.became-law.upper.json"
+  }
+}

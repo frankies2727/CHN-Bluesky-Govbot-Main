@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Community Associations;  Provides requirements for terminating dissolved HOA governing documents; provides requirements relating to easements of dissolved HOA; provides retroactive applicability; requires condominium & homeowners' associations to include specified statement in their governing documents or to hold meeting by date certain to vote to amend governing documents to include such statement; revises provisions relating to official records, electronic ballots, turnover inspection reports, & roofs; provides disclosure requirements for conflicts of interest; removes presuit mediation requirements; requires that specified arbitrators conduct arbitration proceedings; authorizes HOA's to be terminated; provides requirements for termination of HOA; provides duties & responsibilities of HOA board, & termination trustee; provides for distribution of HOA assets & paying lawful debts after termination; authorizes circuit court to create & administer community association court program; provides duties of chief judge; provides jurisdiction of community association court program; authorizes community association court program to take certain actions; requires each judicial circuit to submit to Legislature specified report annually by specified date; provides duties of OSCA; provides for funding & additional judges.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 657",
+    "legislative_session": "2026",
+    "subject": [
+      "and solicitations",
+      "business organizations",
+      "judicial branch",
+      "public transportation",
+      "real and personal property"
+    ],
+    "title": "Community Associations"
+  },
+  "id": "HB 657",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Rules",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 657"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB657/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB657/logs/20260313T000000Z_died_in_rules.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

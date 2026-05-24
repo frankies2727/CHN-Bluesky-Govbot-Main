@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB82",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Aging and Disability Services, Department for",
+      "Health and Healthcare",
+      "SB 35"
+    ],
+    "title": "Providing tax credits for expenditures for lockable gun and ammunition storage and the retail sale of higher ethanol blends of fuel, discontinuing the tax credit for qualified alternative-fueled motor vehicle property or fueling station expenditures, repealing the agritourism liability insurance, assistive technology contributions, declared disaster capital investment, owners promoting employment across Kansas and swine facility improvement tax credits and expanding the eligibility for applicable expenses under the child day care services assistance tax credit."
+  },
+  "id": "SB82",
+  "log": {
+    "action": {
+      "date": "2026-04-10",
+      "description": "Conference Committee Report not adopted; Rep. Daniel Hawkins, Rep. Chris Croft and Rep. Tom Sawyer appointed as third conferees —",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB82"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB82/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB82/logs/20260410T000000Z_conference_committee_report_not_adopted_rep_daniel_hawkins_rep_chris_croft_and_rep_tom_sawyer_appoin.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

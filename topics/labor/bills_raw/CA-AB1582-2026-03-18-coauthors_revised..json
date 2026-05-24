@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Higher Education Employer-Employee Relations Act, administered by the Public Employment Relations Board (PERB) , provides for negotiations concerning wages, hours, and other terms and conditions of employment between a higher education employer, as defined, and representatives of recognized employee organizations. Existing law grants higher education employees the right to form, join, and participate in the activities of employee organizations of their own choosing for the purpose of representation on all matters of employer-employee relations and for the purpose of meeting and conferring with their employer.\n\nExisting law authorizes an employer and an exclusive representative who enter into a written memorandum of understanding to agree to procedures for final and binding arbitration of disputes that may arise under the memorandum of understanding or between the parties. Existing law makes it unlawful for the higher education employer to, among other things, refuse or fail to meet and confer with an exclusive representative. \n\nThis bill would, with respect to arbitrations over violations of a collective bargaining agreement for the contracting out of bargaining unit work, make it an unfair practice for a higher education employer to, among other things, circumvent or disregard an arbitrator's decision by extending or renewing an existing contract, or entering into a new contract for the same or similar services, or violating a contract term already interpreted by an arbitrator to prohibit the employer's conduct.\n\nThis bill would prohibit PERB, among other things, from deferring repeat offenses in the above-described cases to subsequent arbitration proceedings. The bill would require remedies for a violation of these provisions to include the charging party's attorney's fees and costs.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1582",
+    "legislative_session": "20252026",
+    "subject": [
+      "HigherEducationEmployer-EmployeeRelationsAct",
+      "collectivebargaining",
+      "unfairlaborpractices"
+    ],
+    "title": "Higher Education Employer-Employee Relations Act: collective bargaining: unfair labor practices."
+  },
+  "id": "AB1582",
+  "log": {
+    "action": {
+      "date": "2026-03-18",
+      "description": "Coauthors revised.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1582"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1582/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1582/logs/20260318T000000Z_coauthors_revised.json"
+  },
+  "timestamp": "20260318T000000Z"
+}

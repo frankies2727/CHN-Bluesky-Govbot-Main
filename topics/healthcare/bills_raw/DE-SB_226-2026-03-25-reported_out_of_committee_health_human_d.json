@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides that health care facilities must permit patients who have been issued and possess a valid registry identification card for the medical use of marijuana and have a terminal illness to use medical marijuana on the health care facilities’ premises, subject to certain restrictions. However, a health care facility may prohibit or suspend such use of medical marijuana under some circumstances, such as if the facility's medical professionals determine that use of medical marijuana may have an adverse impact on the medical care and treatment of the patient or is otherwise contraindicated, or if a federal regulatory agency, the United States Department of Justice, or the Centers for Medicare and Medicaid Services  initiates an enforcement action against a health care facility based on the use of medical marijuana on the facility's premises or issues a rule or guidance prohibiting the use of medical marijuana at health care facilities.\r\n \r\nIn addition, the Act provides that a person is not subject to civil or criminal liability or professional discipline for complying with the Act, except in cases of gross negligence, recklessness, or intentional misconduct. \r\n \r\nThis Act is modeled on a 2021 California law known as \"Ryan's Law.\"",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 226",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO MEDICAL MARIJUANA."
+  },
+  "id": "SB 226",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Health & Human Development) in House with 3 Favorable, 6 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Health & Human Development"
+        }
+      ]
+    },
+    "bill_id": "SB 226"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB226/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB226/logs/20260325T000000Z_reported_out_of_committee_health_human_development_in_house_with_3_favorable_6_on_its_merits.json"
+  },
+  "timestamp": "20260325T000000Z"
+}
