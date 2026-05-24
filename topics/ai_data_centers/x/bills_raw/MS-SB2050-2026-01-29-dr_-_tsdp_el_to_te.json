@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2050",
+    "legislative_session": "2026",
+    "subject": [
+      "Elections",
+      "Technology"
+    ],
+    "title": "Artificial intelligence; require disclosure when used in political advertisements."
+  },
+  "id": "SB2050",
+  "log": {
+    "action": {
+      "date": "2026-01-29T06:00:00+00:00",
+      "description": "DR - TSDP: EL To TE",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2050"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2050/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2050/logs/20260129T060000Z_dr_tsdp_el_to_te.json"
+  },
+  "timestamp": "20260129T060000Z"
+}
