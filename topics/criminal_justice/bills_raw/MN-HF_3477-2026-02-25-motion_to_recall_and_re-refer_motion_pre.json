@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3477",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Human Rights and Human Rights Department",
+      "Legal Proceedings"
+    ],
+    "title": "Cause of action for violations of civil rights under color of law created, and state and local collaboration agreements with federal law enforcement agencies regulated."
+  },
+  "id": "HF 3477",
+  "log": {
+    "action": {
+      "date": "2026-02-25",
+      "description": "Motion to recall and re-refer, motion prevailed State Government Finance and Policy",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3477"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3477/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3477/logs/20260225T000000Z_motion_to_recall_and_rerefer_motion_prevailed_state_government_finance_and_policy.json"
+  },
+  "timestamp": "20260225T000000Z"
+}

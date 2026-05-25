@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1544",
+    "legislative_session": "114",
+    "subject": [
+      "School Vouchers"
+    ],
+    "title": "School Vouchers - As introduced, requires the department of education to submit an annual report to the general assembly on information about the education freedom scholarship program. - Amends TCA Title 49."
+  },
+  "id": "HB 1544",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-15",
+      "description": "Assigned to s/c K-12 Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1544"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1544/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1544/logs/20260115T000000Z_assigned_to_sc_k12_subcommittee.json"
+  },
+  "timestamp": "20260115T000000Z"
+}

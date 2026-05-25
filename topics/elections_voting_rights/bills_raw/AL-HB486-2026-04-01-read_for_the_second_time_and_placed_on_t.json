@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Elections, Voting, & Campaigns",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB486",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Elections; voting rights restoration process revised; Alabama Voting Rights Act Commission established to prevent discrimination in voting; duties and membership provided; Secretary of State required to establish database on election administration"
+  },
+  "id": "HB486",
+  "log": {
+    "action": {
+      "date": "2026-04-01T04:00:00+00:00",
+      "description": "Read for the Second Time and placed on the Calendar (Judiciary)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB486"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB486/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB486/logs/20260401T040000Z_read_for_the_second_time_and_placed_on_the_calendar_judiciary.json"
+  },
+  "timestamp": "20260401T040000Z"
+}
