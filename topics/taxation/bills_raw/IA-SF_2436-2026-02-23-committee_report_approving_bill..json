@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2436",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "county auditors",
+      "property taxes",
+      "public funds",
+      "school boards",
+      "school districts",
+      "school finance",
+      "schools",
+      "tax increment financing",
+      "tax levies",
+      "urban renewal"
+    ],
+    "title": "A bill for an act relating to the division of revenue of school district foundation property taxes for urban renewal projects, authorizing voluntary payments by school districts, and including applicability provisions."
+  },
+  "id": "SF 2436",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-23",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2436"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2436/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2436/logs/20260223T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

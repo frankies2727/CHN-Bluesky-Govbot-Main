@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2973",
+    "legislative_session": "2026",
+    "subject": [
+      "CHILDREN AND MINORS",
+      "EDUCATION, ELEMENTARY AND SECONDARY",
+      "EDUCATION, HIGHER",
+      "ELEMENTARY AND SECONDARY EDUCATION, DEPT. OF",
+      "ENTERTAINMENT, SPORTS AND AMUSEMENTS",
+      "HIGHER EDUCATION AND WORKFORCE DEVELOPMENT, DEPARTMENT OF"
+    ],
+    "title": "Modifies guidelines for student participation in athletic contests organized by sex"
+  },
+  "id": "HB 2973",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2973"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2973/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2973/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

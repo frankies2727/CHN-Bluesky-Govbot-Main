@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1081",
+    "legislative_session": "222",
+    "subject": [
+      "AUTH - LOCAL",
+      "TRAFFIC SAFE",
+      "TRANSPORT"
+    ],
+    "title": "Increases traffic threshold for local installation of certain speed humps on certain local streets without DOT approval."
+  },
+  "id": "S1081",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.231.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1081"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1081/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1081/logs/20260113T050000Z_withdrawn_app_pl2025_c231.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

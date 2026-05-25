@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Sousa of Framingham, a petition (accompanied by bill, House, No. 1329) of Priscila S. Sousa that mortgage lenders delay foreclosure proceedings after certain borrower deaths.  Financial Services.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H1329",
+    "legislative_session": "194th",
+    "title": "An Act temporarily protecting recently widowed spouses from foreclosure"
+  },
+  "id": "H1329",
+  "log": {
+    "action": {
+      "date": "2026-03-19",
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H1329"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1329/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1329/logs/20260319T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260319T000000Z"
+}
