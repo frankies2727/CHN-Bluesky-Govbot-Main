@@ -960,10 +960,16 @@ def _first_year(session: str) -> str:
 
 
 def _split_ident(ident: str) -> tuple[str, str]:
-    """'HB 1032' -> ('HB', '1032'); 'SCR 1' -> ('SCR', '1'); strips leading zeros from number."""
-    m = re.match(r"\s*([A-Za-z]+)\s*0*(\d+)", ident or "")
-    if not m:
+    """'HB 1032' -> ('HB', '1032'); 'SCR 1' -> ('SCR', '1'); strips leading zeros.
+
+    Some sources prefix the identifier with committee-substitute or substitute
+    markers ('SCS SB 836', 'HCS HB 4798', 'SS#2/SCS/SB 1012'); take the LAST
+    letters+digits pair so those prefixes don't break URL building.
+    """
+    matches = list(re.finditer(r"([A-Za-z]+)\s*0*(\d+)", ident or ""))
+    if not matches:
         return ("", "")
+    m = matches[-1]
     return (m.group(1).upper(), m.group(2))
 
 
@@ -1673,6 +1679,24 @@ def _b_ky(session, ident):  # verified — apps.legislature.ky.gov record page
     return f"https://apps.legislature.ky.gov/record/{year[-2:]}{code}/{typ.lower()}{num}.html"
 
 
+def _b_ut(session, ident):  # verified — le.utah.gov ~YYYY/bills/static path
+    # Utah bill pages live at:
+    #   https://le.utah.gov/~<YYYY>/bills/static/<TYPE><NUM>.html
+    # NUM is zero-padded: HB/SB to 4 digits (HB0011), resolutions
+    # (HJR, SJR, HCR, SCR, HR, SR) to 3 digits (HJR001). The path covers the
+    # General Session for the calendar year. Special / extraordinary sessions
+    # use different paths that aren't reliably derivable from OpenStates'
+    # session encoding, so let those fall back to the legislature homepage.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    if re.search(r"\d{4}\s*[A-Za-z]", session or ""):
+        return None  # special / extraordinary session — drop to homepage
+    width = 4 if typ in ("HB", "SB") else 3
+    return f"https://le.utah.gov/~{year}/bills/static/{typ}{num.zfill(width)}.html"
+
+
 def _b_ok(session, ident):  # verified — oklegislature.gov BillInfo
     # OK's Session param is a 4-digit code: 2-digit year + 2-digit session
     # number, "00" for the regular session (2025 -> 2500). OpenStates marks
@@ -1697,7 +1721,7 @@ STATE_BILL_URL_BUILDERS = {
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
     "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id, "GA": _b_ga,
     "WY": _b_wy, "AR": _b_ar, "VT": _b_vt, "IL": _b_il,
-    "KY": _b_ky, "OK": _b_ok,
+    "KY": _b_ky, "OK": _b_ok, "UT": _b_ut,
 }
 
 
