@@ -1344,7 +1344,7 @@ def _b_ms(session, ident):  # verified — billstatus.ls.state.ms.us history pag
             f"{typ}/{typ}{num.zfill(4)}.xml")
 
 
-def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview page
+def _b_nd(session, ident, action_date=""):  # verified — ndlegis.gov assembly bill-overview page
     # ND organizes bills by Legislative Assembly number; the Nth Assembly
     # convenes in calendar year 1887 + 2N (1st LA = 1889, 69th LA = 2025).
     # The URL is /assembly/<N>-<YYYY>/{regular|special}/bill-overview/bo<num>.html
@@ -1373,8 +1373,16 @@ def _b_nd(session, ident):  # verified — ndlegis.gov assembly bill-overview pa
     # Special sessions live under /special/ rather than /regular/. Govbot
     # marks them inconsistently — sometimes by the words "special" or
     # "extraordinary", sometimes by a trailing "X"/"S" code on the assembly
-    # or year ("69X1", "69s1", "2025S1").
+    # or year ("69X1", "69s1", "2025S1"). Also: ND's regular session of
+    # assembly N meets only Jan–April of the biennium's odd start year
+    # (year y), so any action dated in a later year must be a special-session
+    # action — use that as a fallback signal when the session string itself
+    # carries no explicit special marker (govbot often just emits "69").
     is_special = bool(re.search(r"(?i)special|extra|\d[xs]", raw))
+    if not is_special and action_date:
+        am = re.match(r"^(\d{4})", action_date)
+        if am and int(am.group(1)) != y:
+            is_special = True
     sub = "special" if is_special else "regular"
     return (f"https://www.ndlegis.gov/assembly/{assembly}-{y}/{sub}/"
             f"bill-overview/bo{num}.html")
@@ -1799,7 +1807,12 @@ def link_for(b: dict) -> str:
     builder = STATE_BILL_URL_BUILDERS.get(state)
     if builder:
         try:
-            url = builder(session, identifier)
+            # ND uses the action date to disambiguate /regular/ vs /special/
+            # session paths — see _b_nd.
+            if state == "ND":
+                url = builder(session, identifier, b.get("action_date", ""))
+            else:
+                url = builder(session, identifier)
         except Exception:
             url = None
         if url:
