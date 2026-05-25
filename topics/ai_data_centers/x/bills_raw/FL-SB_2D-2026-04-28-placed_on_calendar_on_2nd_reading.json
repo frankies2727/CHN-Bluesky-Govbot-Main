@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Artificial Intelligence Bill of Rights;  Prohibiting a governmental entity from extending or renewing a contract with specified entities, beginning on a specified date; prohibiting a local governmental entity from taking certain actions relating to contracting with an entity to provide artificial intelligence technology, software, or products unless certain requirements are met, beginning on a specified date; prohibiting a governmental entity from entering into a contract with an entity for artificial intelligence technology, software, or products under certain circumstances; requiring companion chatbot platforms to prohibit a minor from becoming or being an account holder unless the minor’s parent or guardian consents; requiring bot operators to periodically provide a certain notification to a user, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2D",
+    "legislative_session": "2026D",
+    "subject": [
+      "and solicitations",
+      "domestic relations",
+      "k",
+      "public business"
+    ],
+    "title": "Artificial Intelligence Bill of Rights"
+  },
+  "id": "SB 2D",
+  "log": {
+    "action": {
+      "date": "2026-04-28",
+      "description": "Placed on Calendar, on 2nd reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 2D"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026D/bills/SB2D/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026D/bills/SB2D/logs/20260428T000000Z_placed_on_calendar_on_2nd_reading.json"
+  },
+  "timestamp": "20260428T000000Z"
+}
