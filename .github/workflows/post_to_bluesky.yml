@@ -2,7 +2,7 @@ name: govbot-bluesky-post
 
 on:
   schedule:
-    - cron: "0 */10 * * *"
+    - cron: "27 12 * * *"
   workflow_dispatch: {}
 
 permissions:
