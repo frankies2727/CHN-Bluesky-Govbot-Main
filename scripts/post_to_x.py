@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
 import sys
 from collections import Counter
 from datetime import datetime, timezone
@@ -45,6 +46,15 @@ STATE_FILE = TOPIC.x_state_file_path()
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
+
+# Force-mode: when both FORCE_STATE and FORCE_BILL_ID are set, skip the random
+# weighted draw and the topic-keyword/freshness gates and tweet exactly that
+# one bill to the active topic's X account. Driven by the
+# post_x_specific_bill workflow. FORCE_REPOST=1 bypasses the dedup gate so an
+# already-tweeted bill can be re-posted.
+FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
+FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
+FORCE_REPOST = os.environ.get("FORCE_REPOST") == "1"
 
 # X budgets every URL at 23 t.co chars regardless of actual length.
 MAX_TWEET = 280
@@ -209,6 +219,101 @@ def post_tweet(client: tweepy.Client | None, text: str) -> bool:
 # Main
 # ---------------------------------------------------------------------------
 
+def _norm_ident(s: str) -> str:
+    return re.sub(r"\s+", "", (s or "")).upper()
+
+
+def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
+    target_ident = _norm_ident(FORCE_BILL_ID)
+    state_matches: list[dict] = []
+    bill_matches: list[dict] = []
+    for r in records:
+        b = extract_fields(r)
+        if not b:
+            continue
+        if (b["state"] or "").lower() != FORCE_STATE:
+            continue
+        state_matches.append(b)
+        if _norm_ident(b["identifier"]) == target_ident:
+            b["_raw"] = r
+            bill_matches.append(b)
+
+    if not bill_matches:
+        seen_idents = sorted({b["identifier"] for b in state_matches})
+        print(
+            f"ERROR: no bill matching state={FORCE_STATE!r} "
+            f"identifier={FORCE_BILL_ID!r} in {JSONL_PATH.name}.",
+            file=sys.stderr,
+        )
+        if seen_idents:
+            preview = ", ".join(seen_idents[:20])
+            more = "" if len(seen_idents) <= 20 else f" (+{len(seen_idents) - 20} more)"
+            print(f"  identifiers seen for {FORCE_STATE}: {preview}{more}",
+                  file=sys.stderr)
+        else:
+            print(f"  no records at all for state {FORCE_STATE} in bills.jsonl.",
+                  file=sys.stderr)
+        return 2
+
+    def _recency(b: dict) -> datetime:
+        try:
+            return datetime.strptime(b["action_date"], "%Y-%m-%d")
+        except (ValueError, TypeError):
+            return datetime.min
+
+    def _has_desc(b: dict) -> bool:
+        return bool((b["action_desc"] or "").strip())
+
+    bill_matches.sort(key=lambda b: (_has_desc(b), _recency(b)), reverse=True)
+    b = bill_matches[0]
+
+    state = load_state()
+    seen = set(state.get("posted", []))
+    if not FORCE_REPOST and b["dedup_key"] in seen:
+        print(
+            f"Bill {b['state']} {b['identifier']} action "
+            f"{b['action_date']!r} is already in {STATE_FILE.name}. "
+            f"Pass force_repost=true to re-post."
+        )
+        return 0
+
+    if not TOPIC.matches(b):
+        print(
+            f"  NOTE: bill does not match topic '{TOPIC.name}' keywords — "
+            f"tweeting anyway because force mode was requested."
+        )
+
+    print(f"Force-tweeting 1 bill to topic '{TOPIC.name}':")
+    print(f"  {b['state']} {b['identifier']} ({b['action_date']})  "
+          f"dedup_key={b['dedup_key']}")
+
+    summary_text = summarize(b)
+    headline = shorten_title(b)
+    text, _url = compose_x_post(b, summary_text, headline=headline)
+
+    print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
+    print(text)
+    print("---")
+
+    if not post_tweet(client, text):
+        return 1
+
+    seen.add(b["dedup_key"])
+    last_posted = state.get("state_last_posted", {})
+    last_posted[b["state"] or "?"] = datetime.now(timezone.utc).isoformat()
+    try:
+        save_raw_record(b)
+    except OSError as e:
+        print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+
+    state["posted"] = sorted(seen)
+    state["state_last_posted"] = last_posted
+    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    save_state(state)
+    print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    return 0
+
+
 def main() -> int:
     missing = [
         n for n, v in (
@@ -226,6 +331,10 @@ def main() -> int:
     records = load_bills(JSONL_PATH)
     if not records:
         return 0
+
+    if FORCE_STATE and FORCE_BILL_ID:
+        client = None if DRY_RUN else build_client()
+        return _post_forced_bill(records, client)
 
     state = load_state()
     seen = set(state.get("posted", []))
