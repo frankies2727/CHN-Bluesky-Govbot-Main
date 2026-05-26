@@ -47,11 +47,11 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
-# Persistence knobs. Default both ON so existing schedules keep their dedup
-# guarantees and raw-artifact trail. The post_x_specific_bill workflow exposes
-# these as checkboxes so an operator can post a one-off without polluting the
-# state file or without leaving a bills_raw artifact. DRY_RUN forces both off
-# (nothing was published, so nothing should be recorded).
+# Persistence knobs, independent of DRY_RUN. Default both ON so existing
+# schedules keep their dedup guarantees and raw-artifact trail. The
+# post_x_specific_bill workflow exposes them as checkboxes so an operator
+# can post a one-off without polluting the state file, or do a dry-run that
+# still records the bill (e.g. mark a bill as "handled" without tweeting).
 SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
 SAVE_RAW = os.environ.get("SAVE_RAW", "1") == "1"
 
@@ -306,11 +306,6 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
     if not post_tweet(client, text):
         return 1
 
-    if DRY_RUN:
-        print(f"\nDone. Dry run — no state written to "
-              f"{STATE_FILE.relative_to(ROOT)}.")
-        return 0
-
     if SAVE_RAW:
         try:
             save_raw_record(b)
@@ -476,21 +471,15 @@ def main() -> int:
 
         if post_tweet(client, text):
             posted += 1
-            if not DRY_RUN:
-                if SAVE_STATE:
-                    seen.add(b["dedup_key"])
-                    seen.update(same_day_siblings.get(b["same_day_key"], ()))
-                    last_posted[b["state"] or "?"] = now.isoformat()
-                if SAVE_RAW:
-                    try:
-                        save_raw_record(b)
-                    except Exception as e:
-                        print(f"  ! raw-record save failed: {e}", file=sys.stderr)
-
-    if DRY_RUN:
-        print(f"\nDone. Dry run — composed {posted} update(s), no state "
-              f"written to {STATE_FILE.relative_to(ROOT)}.")
-        return 0
+            if SAVE_STATE:
+                seen.add(b["dedup_key"])
+                seen.update(same_day_siblings.get(b["same_day_key"], ()))
+                last_posted[b["state"] or "?"] = now.isoformat()
+            if SAVE_RAW:
+                try:
+                    save_raw_record(b)
+                except Exception as e:
+                    print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
     if not SAVE_RAW:
         print("  SAVE_RAW=0 — bills_raw artifacts not written.")

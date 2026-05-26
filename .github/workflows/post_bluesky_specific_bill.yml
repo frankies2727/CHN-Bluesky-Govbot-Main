@@ -29,7 +29,7 @@ on:
         required: true
         type: string
       dry_run:
-        description: "Dry-run: compose the post but skip publishing to Bluesky"
+        description: "Dry-run: skip publishing to Bluesky only — update_state_file and save_raw_record still apply"
         required: false
         type: boolean
         default: false
@@ -142,7 +142,7 @@ jobs:
         run: python scripts/post_to_bluesky.py
 
       - name: Commit state changes
-        if: ${{ !inputs.dry_run }}
+        if: ${{ inputs.update_state_file || inputs.save_raw_record }}
         run: |
           git config user.name  "govbot-bluesky[bot]"
           git config user.email "govbot-bluesky[bot]@users.noreply.github.com"
