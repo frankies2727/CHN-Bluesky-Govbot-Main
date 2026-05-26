@@ -29,7 +29,7 @@ on:
         required: true
         type: string
       dry_run:
-        description: "Dry-run: compose the tweet but skip publishing to X"
+        description: "Dry-run: skip publishing to X only — update_state_file and save_raw_record still apply"
         required: false
         type: boolean
         default: true
@@ -145,7 +145,7 @@ jobs:
         run: python scripts/post_to_x.py
 
       - name: Commit X state changes
-        if: ${{ !inputs.dry_run }}
+        if: ${{ inputs.update_state_file || inputs.save_raw_record }}
         run: |
           git config user.name  "govbot-x[bot]"
           git config user.email "govbot-x[bot]@users.noreply.github.com"

@@ -47,11 +47,12 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # link card — just without the image.
 FETCH_OG_IMAGE = os.environ.get("FETCH_OG_IMAGE", "0") == "1"
 
-# Persistence knobs. Default both ON so the daily scheduler keeps its dedup
-# guarantees and raw-artifact trail. The post_bluesky_specific_bill workflow
-# exposes these as checkboxes so an operator can post a one-off without
-# polluting the state file or without leaving a bills_raw artifact. DRY_RUN
-# forces both off (nothing was published, so nothing should be recorded).
+# Persistence knobs, independent of DRY_RUN. Default both ON so the daily
+# scheduler keeps its dedup guarantees and raw-artifact trail. The
+# post_bluesky_specific_bill workflow exposes them as checkboxes so an
+# operator can post a one-off without polluting the state file, or do a
+# dry-run that still records the bill (e.g. mark a bill as "handled" without
+# publishing).
 SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
 SAVE_RAW = os.environ.get("SAVE_RAW", "1") == "1"
 
@@ -2075,11 +2076,6 @@ def _post_forced_bill(records: list[dict]) -> int:
                   file=sys.stderr)
             return 1
 
-    if DRY_RUN:
-        print(f"\nDone. Dry run — no state written to "
-              f"{STATE_FILE.relative_to(ROOT)}.")
-        return 0
-
     if SAVE_RAW:
         try:
             save_raw_record(b)
@@ -2289,9 +2285,6 @@ def main() -> int:
                 print(f"  ! post failed: {e.response.status_code} {e.response.text}", file=sys.stderr)
                 continue
 
-        if DRY_RUN:
-            continue
-
         if SAVE_STATE:
             seen.add(b["dedup_key"])
             seen.update(same_day_siblings.get(b["same_day_key"], ()))
@@ -2302,10 +2295,6 @@ def main() -> int:
             except OSError as e:
                 print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
-    if DRY_RUN:
-        print(f"\nDone. Dry run — no state written to "
-              f"{STATE_FILE.relative_to(ROOT)}.")
-        return 0
 
     if not SAVE_RAW:
         print("  SAVE_RAW=0 — bills_raw artifacts not written.")
