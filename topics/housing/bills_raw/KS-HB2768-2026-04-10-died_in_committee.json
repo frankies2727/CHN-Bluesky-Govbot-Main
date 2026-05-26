@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2768",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Consumer Protection",
+      "Real Estate"
+    ],
+    "title": "Providing that under rental agreements governed by the residential landlord tenant act, a landlord is required to accept multiple payment amounts as long as rent is paid on time and in full and to count certain income when considering a tenant or prospective tenant's qualifications for housing."
+  },
+  "id": "HB2768",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2768"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2768/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2768/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}
