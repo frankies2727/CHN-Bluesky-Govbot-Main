@@ -43,6 +43,11 @@ class Topic:
     _context_re: re.Pattern | None = field(repr=False, default=None)
     negative_keywords: list[str] = field(default_factory=list)
     _negative_re: re.Pattern | None = field(repr=False, default=None)
+    # X/Twitter state subfolder. Defaults to "x" so every existing topic keeps
+    # its current path; override in config.yml when a topic's X feed has been
+    # rebranded (e.g. ai_data_centers uses "x-including-Crypto" to flag that
+    # the X bot also tweets crypto-related bills).
+    x_subdir: str = "x"
 
     # ------------------------------------------------------------------
     # Loading
@@ -100,6 +105,8 @@ class Topic:
                 re.IGNORECASE,
             )
 
+        x_subdir = (data.get("x_subdir") or "x").strip() or "x"
+
         return cls(
             name=name,
             display_name=display_name,
@@ -114,6 +121,7 @@ class Topic:
             _context_re=context_re,
             negative_keywords=negative_keywords,
             _negative_re=negative_re,
+            x_subdir=x_subdir,
         )
 
     # ------------------------------------------------------------------
@@ -214,13 +222,14 @@ class Topic:
     def weekly_digest_bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / "weekly_digest" / "bills_raw"
 
-    # X/Twitter state lives in its own x/ subfolder so its dedup file and
-    # raw artifacts sit beside — but never collide with — Bluesky's.
+    # X/Twitter state lives in its own subfolder (default "x", overridable via
+    # x_subdir in config.yml) so its dedup file and raw artifacts sit beside —
+    # but never collide with — Bluesky's.
     def x_state_file_path(self) -> Path:
-        return TOPICS_DIR / self.name / "x" / "bills_used.json"
+        return TOPICS_DIR / self.name / self.x_subdir / "bills_used.json"
 
     def x_bills_raw_dir(self) -> Path:
-        return TOPICS_DIR / self.name / "x" / "bills_raw"
+        return TOPICS_DIR / self.name / self.x_subdir / "bills_raw"
 
     def _secret_suffix(self) -> str:
         return self.name.upper()
