@@ -1,11 +1,18 @@
-# AI / Data Centers bot — best-effort seed combining AI policy and data
-# center siting/regulation. If reader interest diverges, easy to split into
-# two folders + two secret pairs later.
+# AI / Data Centers / Crypto bot — best-effort seed combining AI policy,
+# data center siting/regulation, and cryptocurrency/digital-asset legislation.
+# The X feed for this topic is rebranded to also cover crypto bills, so its
+# state lives under x-including-Crypto/ instead of the default x/.
+# If reader interest diverges, easy to split into separate folders + secret
+# pairs later.
 
 name: ai_data_centers
-display_name: "AI & Data Centers"
-prompt_topic: "artificial intelligence regulation, algorithmic accountability, deepfakes, automated decision-making, and data center siting and energy use"
+display_name: "AI, Data Centers & Crypto"
+prompt_topic: "artificial intelligence regulation, algorithmic accountability, deepfakes, automated decision-making, data center siting and energy use, and cryptocurrency / digital asset legislation"
 default_emoji: "🤖"
+
+# X/Twitter state subfolder. Renamed from the default "x" to flag that this
+# topic's X feed now also tweets crypto / digital-asset bills.
+x_subdir: x-including-Crypto
 
 keywords:
   # AI / algorithmic
@@ -51,10 +58,45 @@ keywords:
   - GPU cluster
   - high-performance computing facility
 
-  # Crossover
+  # Crypto / digital assets
+  - cryptocurrency
+  - cryptocurrencies
+  - crypto asset
+  - crypto-asset
+  - digital asset
+  - digital assets
+  - virtual currency
+  - virtual currencies
+  - stablecoin
+  - stablecoins
+  - blockchain
+  - distributed ledger
+  - smart contract
+  - decentralized finance
+  - DeFi
+  - crypto exchange
+  - cryptocurrency exchange
+  - digital asset exchange
+  - virtual asset service provider
+  - VASP
+  - money transmitter
+  - bitcoin
+  - ethereum
+  - non-fungible token
+  - NFT
+  - NFTs
+  - Web3
+  - central bank digital currency
+  - CBDC
+  - crypto custody
+  - digital asset custody
   - cryptocurrency mining
   - bitcoin mining
   - crypto mining
+  - proof-of-work
+  - proof of work
+
+  # Crossover
   - data privacy
   - consumer data
   - personal data
@@ -72,11 +114,21 @@ emojis:
     match: ["data center", "data centers", "hyperscale", "colocation", "server farm"]
   - emoji: "⚡"
     match: ["GPU cluster", "high-performance computing"]
+  - emoji: "⛏️"
+    match: ["cryptocurrency mining", "bitcoin mining", "crypto mining", "proof-of-work", "proof of work"]
   - emoji: "₿"
-    match: ["cryptocurrency mining", "bitcoin mining", "crypto mining"]
+    match: ["cryptocurrency", "cryptocurrencies", "crypto asset", "crypto-asset", "bitcoin", "ethereum", "virtual currency", "virtual currencies"]
+  - emoji: "🪙"
+    match: ["stablecoin", "stablecoins", "central bank digital currency", "CBDC"]
+  - emoji: "🔗"
+    match: ["blockchain", "distributed ledger", "smart contract", "Web3"]
+  - emoji: "💱"
+    match: ["crypto exchange", "cryptocurrency exchange", "digital asset exchange", "virtual asset service provider", "VASP", "money transmitter", "decentralized finance", "DeFi"]
+  - emoji: "🖼️"
+    match: ["non-fungible token", "NFT", "NFTs"]
   - emoji: "🔒"
-    match: ["data privacy", "consumer data", "personal data"]
+    match: ["data privacy", "consumer data", "personal data", "crypto custody", "digital asset custody"]
 
 digest:
-  thread_title: "🤖 AI & Data Center Bills Weekly Digest"
-  topic_phrase: "AI and data center"
+  thread_title: "🤖 AI, Data Center & Crypto Bills Weekly Digest"
+  topic_phrase: "AI, data center, and crypto"
