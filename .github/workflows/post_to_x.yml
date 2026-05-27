@@ -28,6 +28,21 @@ jobs:
       DRY_RUN: "1"
 
     steps:
+      - name: Free disk space
+        # ubuntu-latest ships with ~14 GB free; govbot clones across 50+ states
+        # plus the Ollama LLM blow past that, which makes the runner crash with
+        # "No space left on device". Strip out preinstalled tooling we never
+        # use to recover ~30 GB before anything else runs.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+          docker-images: true
+          swap-storage: true
+
       - name: Checkout
         uses: actions/checkout@v4
 
