@@ -102,6 +102,7 @@ jobs:
         run: python scripts/post_to_x.py
 
       - name: Commit X state changes
+        if: env.DRY_RUN != '1'
         run: |
           git config user.name  "govbot-x[bot]"
           git config user.email "govbot-x[bot]@users.noreply.github.com"
