@@ -97,9 +97,9 @@ keywords:
   - proof of work
 
   # Crossover
-  - data privacy
-  - consumer data
-  - personal data
+  #- data privacy
+  #- consumer data
+  #- personal data
 
 emojis:
   - emoji: "🧠"
