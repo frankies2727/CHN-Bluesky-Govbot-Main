@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Managed Care Plans;  Revises Medicaid managed care contract requirements to prohibit managed care plans from reviewing certain prior authorization claims for medical necessity; requires that managed care plans provide coverage for durable medical equipment & complex rehabilitation technology from qualified provider, from within provider network, of enrollee's choosing; requires AHCA to adopt certain rules.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 531",
+    "legislative_session": "2026",
+    "subject": [
+      "(adopted)"
+    ],
+    "title": "Managed Care Plans"
+  },
+  "id": "HB 531",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Health Care Facilities & Systems Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 531"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB531/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB531/logs/20260313T000000Z_died_in_health_care_facilities_systems_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

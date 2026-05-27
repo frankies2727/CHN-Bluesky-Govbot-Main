@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Frost of Auburn, a petition (accompanied by bill, House, No. 4585) of Paul K. Frost and Michael O. Moore (by vote of the town) that the town of Auburn be authorized to offer expanded senior property tax abatements in said town.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4585",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the town of Auburn to offer expanded senior property tax abatements"
+  },
+  "id": "H4585",
+  "log": {
+    "action": {
+      "date": "2026-04-02",
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4585"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4585/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4585/logs/20260402T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260402T000000Z"
+}

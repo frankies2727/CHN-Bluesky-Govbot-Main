@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Subpart 1 of Part 4 of Article 2 of Chapter 2 of Title 8 of the Official Code of Georgia Annotated, relating to general provisions for manufactured or mobile homes, so as to provide for limited exceptions to circumstances under which a manufactured home shall become real property; to provide for preservation of rights and remedies of prior holders of a lien or security interest in certain manufactured homes; to provide for notice and application requirements; to provide for related matters; to provide for an effective date and applicability; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 377",
+    "legislative_session": "2025_26",
+    "subject": [
+      "BUILDINGS AND HOUSING"
+    ],
+    "title": "Buildings and housing; manufactured homes; provisions"
+  },
+  "id": "HB 377",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-03",
+      "description": "Senate Passed/Adopted By Substitute",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 377"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB377/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB377/logs/20260303T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Title 34 of the O.C.G.A., relating to labor and industrial relations, so as to provide for an actuarial study on state based paid family and medical leave insurance program; to provide for related matters; to provide for legislative findings and legislative purpose; to provide for a contingent effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1318",
+    "legislative_session": "2025_26",
+    "subject": [
+      "INSURANCE",
+      "LABOR AND INDUSTRIAL RELATIONS"
+    ],
+    "title": "Labor and industrial relations; actuarial study on state based paid family and medical leave insurance program; provide"
+  },
+  "id": "HB 1318",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-03",
+      "description": "House Committee Favorably Reported",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Industry and Labor"
+        }
+      ]
+    },
+    "bill_id": "HB 1318"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1318/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1318/logs/20260303T000000Z_house_committee_favorably_reported.json"
+  },
+  "timestamp": "20260303T000000Z"
+}

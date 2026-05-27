@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1806",
+    "legislative_session": "222",
+    "subject": [
+      "CRIM PROCED",
+      "CRIMES"
+    ],
+    "title": "Permits court to take additional time to consider pretrial release or pretrial detention when firearm offense is involved."
+  },
+  "id": "S1806",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.256.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1806"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1806/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1806/logs/20260113T050000Z_withdrawn_app_pl2025_c256.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

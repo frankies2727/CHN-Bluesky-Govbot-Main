@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Murray of Milford, a petition (accompanied by bill, House, No. 4663) of Brian W. Murray (by vote of the town) that the select board of the town of Milford be authorized to appoint a highway surveyor in said town.  Municipalities and Regional Government.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4663",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the Town of Milford Select Board to appoint a highway surveyor"
+  },
+  "id": "H4663",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-02-04",
+      "description": "Signed by the Governor, Chapter 15 of the Acts of 2026",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "H4663"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4663/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4663/logs/20260204T000000Z_signed_by_the_governor_chapter_15_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260204T000000Z"
+}
