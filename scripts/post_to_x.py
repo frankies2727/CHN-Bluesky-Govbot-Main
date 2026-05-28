@@ -29,6 +29,7 @@ from post_to_bluesky import (
     _smart_truncate,
     _strip_act_name_echo,
     best_display_text,
+    ensure_english_fields,
     extract_fields,
     format_action_line,
     format_no_match_error,
@@ -306,6 +307,7 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
     print(f"  {b['state']} {b['identifier']} ({b['action_date']})  "
           f"dedup_key={b['dedup_key']}")
 
+    ensure_english_fields(b)
     summary_text = summarize(b)
     headline = shorten_title(b)
     text, url = compose_x_post(b, summary_text, headline=headline)
@@ -509,6 +511,7 @@ def main() -> int:
 
     posted = 0
     for b in to_post:
+        ensure_english_fields(b)
         summary_text = summarize(b)
         headline = shorten_title(b)
         text, url = compose_x_post(b, summary_text, headline=headline)

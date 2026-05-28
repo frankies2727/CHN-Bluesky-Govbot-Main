@@ -35,6 +35,7 @@ from post_to_bluesky import (
     STATE_FULL_NAME,
     _format_date,
     compose_post,
+    ensure_english_fields,
     extract_fields,
     fetch_og_image,
     load_bills,
@@ -373,6 +374,7 @@ def _build_highlight_replies(client: BlueskyClient | None,
                              highlights: list[dict]) -> list[tuple[str, str, str, str, dict | None]]:
     replies: list[tuple[str, str, str, str, dict | None]] = []
     for b in highlights:
+        ensure_english_fields(b)
         summary = summarize(b)
         text, link, ec_title, ec_desc = compose_post(b, summary)
 

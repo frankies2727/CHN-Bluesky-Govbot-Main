@@ -738,6 +738,91 @@ def _first_sentence(text: str) -> str:
     return _smart_truncate(sentence, 180)
 
 
+# ---------------------------------------------------------------------------
+# Language detection + translation
+#
+# Puerto Rico is the only US jurisdiction in the govbot feed whose action
+# descriptions arrive in Spanish (titles and abstracts are sometimes
+# pre-translated upstream, action_desc almost never is). Posts must always
+# be in English regardless of source, so any field that still looks Spanish
+# at compose time is run through the same local Ollama model used for
+# summaries. Detection is a cheap heuristic — Spanish-exclusive characters
+# (ñ, ¿, ¡) or a small Spanish stopword/legislative-phrase list — so we
+# don't spend an LLM round-trip on text that's already English.
+# ---------------------------------------------------------------------------
+
+_SPANISH_MARKERS_RE = re.compile(
+    r"(?:[ñÑ¿¡áéíóúÁÉÍÓÚ])|"
+    r"\b(?:de\s+la|del|en\s+el|en\s+la|por\s+el|por\s+la|para\s+el|para\s+la|"
+    r"se\s+ha|se\s+hace|aparece|primera\s+lectura|segunda\s+lectura|"
+    r"tercera\s+lectura|senado|cámara|representantes|comisión|"
+    r"proyecto\s+del\s+senado|proyecto\s+de\s+la\s+cámara|asamblea\s+legislativa)\b",
+    re.IGNORECASE,
+)
+
+
+def _looks_spanish(text: str) -> bool:
+    if not text:
+        return False
+    return bool(_SPANISH_MARKERS_RE.search(text))
+
+
+def _translate_to_english(text: str) -> str:
+    """Best-effort translate Spanish legislative text to English via the
+    configured Ollama model. Returns the original text on any failure so
+    the post still goes out — better to ship a partially Spanish line than
+    drop the post entirely."""
+    if not text or not text.strip():
+        return text
+    try:
+        r = requests.post(
+            LLM_API_URL,
+            json={
+                "model": LLM_MODEL,
+                "messages": [
+                    {"role": "system", "content": (
+                        "You translate Spanish legislative text from Puerto "
+                        "Rico to clear, neutral English. Preserve bill "
+                        "numbers, dates, chamber names, and proper nouns. If "
+                        "the input is already English, return it verbatim. "
+                        "Output ONLY the English translation — no preamble, "
+                        "no commentary, no surrounding quotes, no notes."
+                    )},
+                    {"role": "user", "content": text},
+                ],
+                "stream": False,
+                "options": {"num_predict": 400, "temperature": 0.1},
+            },
+            timeout=LLM_TIMEOUT,
+        )
+        if not r.ok:
+            print(f"  ! translation {r.status_code}: {r.text[:200]}", file=sys.stderr)
+            return text
+        data = r.json()
+        out = (data.get("message") or {}).get("content") or data.get("response") or ""
+        out = (out or "").strip().strip('"').strip("'").strip()
+        return out or text
+    except Exception as e:
+        print(f"  ! translation failed: {e}", file=sys.stderr)
+        return text
+
+
+def ensure_english_fields(b: dict) -> dict:
+    """Translate any Spanish-looking title / abstract / action_desc / subjects
+    in `b` to English in place. Mutates and returns `b` so callers can chain.
+    Runs the detector first so already-English fields don't trigger LLM
+    calls. Used for Puerto Rico bills whose action_desc almost always
+    arrives in Spanish from OpenStates."""
+    for field_name in ("title", "abstract", "action_desc", "subjects"):
+        val = b.get(field_name) or ""
+        if _looks_spanish(val):
+            translated = _translate_to_english(val)
+            if translated and translated != val:
+                print(f"  translated {field_name}: {val[:80]!r} -> {translated[:80]!r}")
+            b[field_name] = translated
+    return b
+
+
 def summarize(b: dict) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
@@ -1213,6 +1298,29 @@ def _b_ks(session, ident):  # verified — kslegislature.gov biennium URL
         y -= 1  # bienniums start in odd years
     next_yy = str(y + 1)[-2:]
     return f"https://www.kslegislature.gov/b{y}_{next_yy}/bills/{typ.lower()}{num}/"
+
+
+def _b_pr(session, ident):  # best-effort — openstates.org canonical PR bill URL
+    # Puerto Rico's official tracker (sutra.oslpr.org) keys every measure by
+    # an internal record ID we can't derive from the bill number, so we deep-
+    # link to OpenStates' PR mirror instead. OpenStates URLs are
+    # https://openstates.org/pr/bills/<SESSION>/<IDENT>/ where SESSION is the
+    # 4-year cuatrenio (e.g. "2025-2028") and IDENT is the bill type +
+    # number without leading zeros ("PS934", not "PS0934"). PR legislatures
+    # convene every four years starting in odd calendar years, so any year
+    # in the session string maps back to the cuatrenio's odd start year.
+    year = _first_year(session)
+    if not year:
+        return None
+    y1 = int(year)
+    if y1 % 2 == 0:
+        y1 -= 1
+    cuatrenio = f"{y1}-{y1 + 3}"
+    m = re.match(r"\s*([A-Za-z]+)\s*0*(\d+)\s*$", (ident or "").strip())
+    if not m:
+        return None
+    typ, num = m.group(1).upper(), m.group(2)
+    return f"https://openstates.org/pr/bills/{cuatrenio}/{typ}{num}/"
 
 
 def _b_pa(session, ident):  # verified — legis.state.pa.us cfdocs billInfo form
@@ -1734,7 +1842,7 @@ STATE_BILL_URL_BUILDERS = {
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
-    "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
+    "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "PR": _b_pr, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
     "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id, "GA": _b_ga,
@@ -2172,6 +2280,7 @@ def _post_forced_bill(records: list[dict]) -> int:
 
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
 
+    ensure_english_fields(b)
     summary = summarize(b)
     headline = shorten_title(b)
     text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
@@ -2379,6 +2488,7 @@ def main() -> int:
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
 
     for b in to_post:
+        ensure_english_fields(b)
         summary = summarize(b)
         headline = shorten_title(b)
         text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
