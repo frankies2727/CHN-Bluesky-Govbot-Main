@@ -120,7 +120,7 @@ emojis:
     match: ["cryptocurrency", "cryptocurrencies", "crypto asset", "crypto-asset", "bitcoin", "ethereum", "virtual currency", "virtual currencies"]
   - emoji: "🪙"
     match: ["stablecoin", "stablecoins", "central bank digital currency", "CBDC"]
-  - emoji: "🔗"
+  - emoji: "⛓️"
     match: ["blockchain", "distributed ledger", "smart contract", "Web3"]
   - emoji: "💱"
     match: ["crypto exchange", "cryptocurrency exchange", "digital asset exchange", "virtual asset service provider", "VASP", "money transmitter", "decentralized finance", "DeFi"]
