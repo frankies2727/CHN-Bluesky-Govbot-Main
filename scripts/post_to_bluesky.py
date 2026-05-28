@@ -823,7 +823,7 @@ def ensure_english_fields(b: dict) -> dict:
     return b
 
 
-def summarize(b: dict) -> str:
+def summarize(b: dict, max_chars: int = 160) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
     blob = _is_blob_title(title)
@@ -878,7 +878,7 @@ def summarize(b: dict) -> str:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": TOPIC.summary_system_prompt()},
+                    {"role": "system", "content": TOPIC.summary_system_prompt(max_chars=max_chars)},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
