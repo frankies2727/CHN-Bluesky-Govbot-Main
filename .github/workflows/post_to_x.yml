@@ -1,4 +1,4 @@
-name: govbot-x-post-ai-data-centers
+name: govbot-x-post-ai-data-centers-including-crypto
 
 on:
   schedule:
