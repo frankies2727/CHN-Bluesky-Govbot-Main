@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution designates March 26, 2026 as \"Equal Pay Day\" in the State of Delaware.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 110",
+    "legislative_session": "153",
+    "title": "DESIGNATING MARCH 26, 2026, AS \"EQUAL PAY DAY\" IN THE STATE OF DELAWARE."
+  },
+  "id": "HCR 110",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-26",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HCR 110"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR110/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR110/logs/20260326T000000Z.classification.passage.upper.json"
+  }
+}

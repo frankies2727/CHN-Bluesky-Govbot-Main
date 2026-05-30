@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1892",
+    "legislative_session": "114",
+    "subject": [
+      "Real Property"
+    ],
+    "title": "Real Property - As introduced, allows a housing authority, industrial development corporation, or community redevelopment agency to enter into an agreement with a property owner in an area identified in a redevelopment plan, economic impact plan, or community redevelopment plan that requires the owner to make certain payments to secure the bonds of the authority, corporation, or agency; requires the agreement to be recorded in the county's real property records to create a lien; affords the lien first priority over previously and later recorded mortgages and all other liens. - Amends TCA Title 9, Chapter 23 and Title 67, Chapter 5."
+  },
+  "id": "HB 1892",
+  "log": {
+    "action": {
+      "classification": [
+        "sponsorship"
+      ],
+      "date": "2026-01-22",
+      "description": "Sponsor(s) withdrawn.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1892"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1892/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1892/logs/20260122T000000Z_sponsors_withdrawn.json"
+  },
+  "timestamp": "20260122T000000Z"
+}

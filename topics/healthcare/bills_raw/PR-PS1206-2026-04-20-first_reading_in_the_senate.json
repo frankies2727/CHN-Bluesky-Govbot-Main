@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS1206",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar el Artículo 41.050 de la Ley Núm. 77 de 19 de junio de 1957, según\nenmendada, conocida como “Código de Seguros de Puerto Rico”, a los fines de\nextender los límites de responsabilidad civil por impericia médico-hospitalaria a los\nque está sujeto el Gobierno de Puerto Rico, al Doctors’ Center Hospital San Fernando\nde la Carolina y a cualquier otro hospital cuyo dueño sea un municipio o el Gobierno\nde Puerto Rico, sus dependencias o instrumentalidades, independientemente de que\ndichos hospitales sean operados o administrados por una institución privada; y para\notros fines relacionados."
+  },
+  "id": "PS1206",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-04-20T04:00:00+00:00",
+      "description": "Aparece en Primera Lectura del Senado",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "PS1206"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1206/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1206/logs/20260420T040000Z_aparece_en_primera_lectura_del_senado.json"
+  },
+  "timestamp": "20260420T040000Z"
+}

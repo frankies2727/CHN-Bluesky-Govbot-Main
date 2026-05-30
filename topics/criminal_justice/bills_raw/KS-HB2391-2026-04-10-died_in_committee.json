@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2391",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Firearms"
+    ],
+    "title": "Prohibiting the carrying of a concealed handgun in the state capitol and providing exceptions for law enforcement and members of the military."
+  },
+  "id": "HB2391",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2391"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2391/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2391/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

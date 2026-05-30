@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 022",
+    "legislative_session": "2026A",
+    "subject": [
+      "General Assembly"
+    ],
+    "title": "Plastic Pollution Awareness"
+  },
+  "id": "SJR 022",
+  "log": {
+    "action": {
+      "date": "2026-04-13",
+      "description": "Senate Third Reading Laid Over to 04/22/2026 - No Amendments",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR 022"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR022/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR022/logs/20260413T000000Z_senate_third_reading_laid_over_to_04222026_no_amendments.json"
+  },
+  "timestamp": "20260413T000000Z"
+}

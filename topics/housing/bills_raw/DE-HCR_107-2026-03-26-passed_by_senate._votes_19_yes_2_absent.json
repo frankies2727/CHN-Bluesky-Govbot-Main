@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution extends the reporting date for the Housing Department Task Force to October 1, 2026.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 107",
+    "legislative_session": "153",
+    "title": "EXTENDING THE REPORTING DATE OF THE HOUSING DEPARTMENT TASK FORCE."
+  },
+  "id": "HCR 107",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-26",
+      "description": "Passed By Senate. Votes: 19 YES 2 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HCR 107"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR107/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR107/logs/20260326T000000Z.classification.passage.upper.json"
+  }
+}

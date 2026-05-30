@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Title 20 of the Official Code of Georgia Annotated, relating to education, so as to require the State Board of Education to appoint an audit committee; to provide for minimum responsibilities of such committee; to amend Chapter 6 of Title 50 of the Official Code of Georgia Annotated, relating to the Department of Audits and Accounts, so as to revise provisions for financial audits of local school systems by and on behalf of the Department of Audits and Accounts; to provide for such audits of state charter schools; to require the Department of Audits and Accounts to develop and implement a program of progressive monitoring, supports, and interventions to local school systems and state charter schools; to provide for investigations of local school systems and state charter schools by the state auditor; to provide for an effective date; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1164",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION",
+      "STATE GOVERNMENT"
+    ],
+    "title": "Education; require State Board of Education to appoint an audit committee"
+  },
+  "id": "HB 1164",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-12",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1164"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1164/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1164/logs/20260512T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260512T000000Z"
+}

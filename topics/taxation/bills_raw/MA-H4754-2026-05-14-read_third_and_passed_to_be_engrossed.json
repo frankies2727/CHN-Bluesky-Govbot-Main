@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Frost of Auburn, a petition (accompanied by bill, House, No. 4754) of Paul K. Frost and Michael O. Moore (by vote of the town) relative to expanded small property tax abatements in the town of Auburn.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4754",
+    "legislative_session": "194th",
+    "title": "An Act relative to expanded small property tax abatements in the Town of Auburn"
+  },
+  "id": "H4754",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-3"
+      ],
+      "date": "2026-05-14",
+      "description": "Read third and passed to be engrossed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4754"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4754/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4754/logs/20260514T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides that the Director of the Office of Management and Budget must designate 1 or more reserved parking spaces for a veteran at certain designated state buildings and facilities. It also prohibits stopping, standing, or parking in the veteran’s space. \r\nViolations of this Act are exempted from the civil penalty for parking violations that exists in Title 21. \r\nThis Act takes effect 6 months after its enactment into law.   \r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 295",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLES 21 AND 29 OF THE DELAWARE CODE RELATING TO A DESIGNATED PARKING SPACE FOR VETERANS AT STATE BUILDINGS."
+  },
+  "id": "HB 295",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-unfavorable"
+      ],
+      "date": "2026-03-11",
+      "description": "Reported Out of Committee (Administration) in House with 4 On Its Merits, 1 Unfavorable",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Administration"
+        }
+      ]
+    },
+    "bill_id": "HB 295"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB295/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB295/logs/20260311T000000Z_reported_out_of_committee_administration_in_house_with_4_on_its_merits_1_unfavorable.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

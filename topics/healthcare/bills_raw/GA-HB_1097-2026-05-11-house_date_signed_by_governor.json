@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Title 37 of the Official Code of Georgia Annotated, relating to mental health, so as to provide for criminal background, license status, and registry checks for owners, applicants, and employees of certain mental health facilities; to provide for the Department of Behavioral Health and Developmental Disabilities to submit fingerprints to the Federal Bureau of Investigation and Georgia Crime Information Center for the purpose of background checks to find disqualifying records; to provide for maintenance of personnel files; to provide for procedures relating to applicants or employees with ineligible determinations; to provide for definitions; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1097",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CRIMES AND OFFENSES (CRIMINAL CODE)",
+      "HANDICAPPED PERSONS",
+      "MENTAL HEALTH"
+    ],
+    "title": "Mental health; criminal background, license status, and registry checks for owners, applicants, and employees of certain mental health facilities; provide"
+  },
+  "id": "HB 1097",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-11",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1097"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1097/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1097/logs/20260511T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260511T000000Z"
+}

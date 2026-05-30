@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1626",
+    "legislative_session": "114",
+    "subject": [
+      "Bail",
+      "Bail Bonds"
+    ],
+    "title": "Bail, Bail Bonds - As introduced, requires bondsmen to file the quarterly reports on number of bonds issued by the bondsman in the preceding quarter by the thirtieth day of January, April, July, and October, rather than the twenty-fifth day; requires court clerks to file the quarterly reports on number of bonds accepted by the clerk in the preceding quarter by the thirtieth day of January, April, July, and October, rather than the twenty-fifth day. - Amends TCA Title 40, Chapter 11."
+  },
+  "id": "HB 1626",
+  "log": {
+    "action": {
+      "date": "2026-01-21",
+      "description": "P2C, caption bill, held on desk - pending amdt.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1626"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1626/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1626/logs/20260121T000000Z_p2c_caption_bill_held_on_desk_pending_amdt.json"
+  },
+  "timestamp": "20260121T000000Z"
+}
