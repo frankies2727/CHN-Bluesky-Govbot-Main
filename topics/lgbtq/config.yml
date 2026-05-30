@@ -70,7 +70,6 @@ keywords:
   - nondiscrimination act
   - non-discrimination act
   - act against discrimination
-  - law against discrimination
   - sexual orientation discrimination
   - gender identity discrimination
   - bathroom bill
@@ -87,6 +86,11 @@ context_keywords:
   - hate crime
   - hate crimes
   - discrimination
+  # State civil-rights statutes named "Law Against Discrimination" (e.g. New
+  # Jersey's NJLAD) get amended for many protected classes — veterans,
+  # military service, age — that have nothing to do with LGBTQ rights. Demoted
+  # to context so a bill only matches when another core LGBTQ term co-occurs.
+  - law against discrimination
   # These three are the "protected class enumeration" terms — state
   # statutes routinely list them as background ("...shall not consider
   # a person's sex, gender identity, gender expression, or sexual

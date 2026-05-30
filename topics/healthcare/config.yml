@@ -77,11 +77,18 @@ keywords:
   - opioid
   - opioid epidemic
   - overdose
-  - public health
   - health department
   - health equity
   - immunization
   - vaccination
+
+# Broad terms that only count as a match alongside a core keyword above.
+# "public health" trips on boilerplate exception clauses ("an imminent threat
+# to public health or safety") in bills that aren't about healthcare at all
+# (e.g. anti-SLAPP / civil-procedure acts), so it's demoted to context: it only
+# counts when another core healthcare keyword co-occurs.
+context_keywords:
+  - public health
 
 emojis:
   - emoji: "💵"
