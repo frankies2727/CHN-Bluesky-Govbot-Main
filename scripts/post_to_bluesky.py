@@ -1071,8 +1071,21 @@ class BlueskyClient:
             if thumb_blob:
                 external["thumb"] = thumb_blob
             record["embed"] = {"$type": "app.bsky.embed.external", "external": external}
-            if link_url in text:
-                tb = text.encode("utf-8")
+            # The visible text shows a short anchor (LINK_ANCHOR), not the raw
+            # URL, so point the facet at the anchor span and link it to the real
+            # URL — keeps the post short while still tapping through to the bill.
+            # Offsets are byte indices into the UTF-8 text. Fall back to the raw
+            # URL if for some reason it appears inline instead.
+            tb = text.encode("utf-8")
+            anchor = (LINK_PREFIX + LINK_ANCHOR).encode("utf-8")
+            marker = LINK_PREFIX.encode("utf-8")
+            pos = tb.rfind(anchor)
+            if pos >= 0:
+                record["facets"] = [{
+                    "index": {"byteStart": pos + len(marker), "byteEnd": pos + len(anchor)},
+                    "features": [{"$type": "app.bsky.richtext.facet#link", "uri": link_url}],
+                }]
+            elif link_url in text:
                 ub = link_url.encode("utf-8")
                 start = tb.find(ub)
                 if start >= 0:
