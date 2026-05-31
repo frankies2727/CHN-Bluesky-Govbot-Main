@@ -1,5 +1,7 @@
 {
   "posted": [
+    "AL|HB303|2026-03-31|Bedsole Concur In and Adopt - Adopted Ro",
+    "AL|HB303|2026-03-31|Ready to Enroll",
     "AL|HB303|2026-04-01|Delivered to Governor",
     "AL|HB303|2026-04-01|Enrolled",
     "AL|HB303|2026-04-01|Signature Requested",
@@ -46,6 +48,7 @@
     "FL|HB 1395|2026-03-13|Died in Information Technology Budget & ",
     "FL|SB 1344|2026-03-13|Died in Commerce and Tourism",
     "FL|SB 146|2026-03-13|Died in Governmental Oversight and Accou",
+    "FL|SB 1568|2026-03-17|Ordered enrolled",
     "FL|SB 2D|2026-04-28|",
     "FL|SB 2D|2026-04-28|In Messages",
     "FL|SB 2D|2026-04-28|Introduced",
@@ -138,12 +141,12 @@
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-05-31T17:53:43.843080+00:00",
+  "last_run": "2026-05-31T19:52:55.611995+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
-    "AL": "2026-05-28T10:47:25.292652+00:00",
-    "FL": "2026-05-26T16:23:01.835637+00:00",
+    "AL": "2026-05-31T19:49:58.322547+00:00",
+    "FL": "2026-05-31T19:49:58.322547+00:00",
     "IA": "2026-05-16T07:52:23.217967+00:00",
     "KS": "2026-05-20T02:00:10.240098+00:00",
     "NJ": "2026-05-19T14:33:03.387287+00:00",
