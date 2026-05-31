@@ -29,6 +29,7 @@ from urllib.parse import urlparse, urljoin
 
 import requests
 
+import bill_text
 from topic import Topic, load_active_topic
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -219,6 +220,11 @@ def extract_fields(record: dict) -> dict | None:
     state = detect_state(record)
     session = bill.get("legislative_session") or ""
 
+    # Path to the bill's on-disk metadata.json, used to fetch the full bill
+    # text (PDF) for richer summaries. May be "" — summarize() handles that.
+    sources = record.get("sources") or {}
+    sources_bill = sources.get("bill") or ""
+
     abstract = ""
     for a in (bill.get("abstracts") or []):
         text = a.get("abstract", "") if isinstance(a, dict) else (a if isinstance(a, str) else "")
@@ -264,6 +270,7 @@ def extract_fields(record: dict) -> dict | None:
         "subjects": subjects_text,
         "action_desc": action_desc,
         "action_date": action_date,
+        "sources_bill": sources_bill,
         "dedup_key": dedup_key,
         "same_day_key": same_day_key,
     }
@@ -828,6 +835,24 @@ def summarize(b: dict, max_chars: int = 160) -> str:
     title = b["title"].strip()
     blob = _is_blob_title(title)
 
+    # Prefer the real bill body text (extracted from the bill's PDF via
+    # bill_text) when we can get it — it grounds the summary in the actual
+    # legislation instead of a short abstract. Runs only for bills that have
+    # already passed the topic filter and the post draw, so it never fetches
+    # thousands of PDFs. Falls back to the abstract whenever extraction isn't
+    # possible (no PDF link, pdftotext missing, network error, etc.).
+    full_text = ""
+    sources_bill = b.get("sources_bill") or ""
+    if sources_bill:
+        try:
+            full_text = bill_text.extract_bill_text(sources_bill) or ""
+        except Exception as e:
+            print(f"  TEXT: ✗ extraction error, using abstract: {e}", file=sys.stderr)
+            full_text = ""
+    if full_text:
+        # Persisted by save_raw_record() for future RAG/digest use.
+        b["full_text"] = full_text
+
     # When the title IS a blob (the whole bill description dumped into the
     # title field — Puerto Rico does this for nearly every bill, Missouri
     # sometimes), there's plenty of substance to summarise even when no
@@ -838,22 +863,28 @@ def summarize(b: dict, max_chars: int = 160) -> str:
     if not abstract and blob:
         abstract = title
 
-    # When the only content is a short real title (common for Iowa, Indiana,
-    # etc., which don't ship abstracts in OpenStates data), there's nothing
-    # the model can add without restating the title — and asking a small
-    # model to do so anyway invites hallucination (e.g. inventing an
-    # unrelated state's statutes). Skip summarization and let the title
-    # stand alone. Blob titles are the opposite case: the "title" is itself
-    # the full abstract, so there's plenty of substance to summarize even
-    # when the title and abstract fields are identical.
-    if not abstract:
-        return ""
-    if not blob and abstract.lower() == title.lower():
-        return ""
+    # With full bill text in hand there's always real substance to summarize,
+    # so skip the abstract-only early-outs. Otherwise: when the only content
+    # is a short real title (common for Iowa, Indiana, etc., which don't ship
+    # abstracts in OpenStates data), there's nothing the model can add without
+    # restating the title — and asking a small model to do so anyway invites
+    # hallucination. Skip summarization and let the title stand alone.
+    if not full_text:
+        if not abstract:
+            return ""
+        if not blob and abstract.lower() == title.lower():
+            return ""
 
-    # Multi-section omnibus bills get a table-of-contents digest so the model
-    # sees every topic, not just whatever fits in the 2000-char window.
-    clean_abstract = _omnibus_digest(abstract) or _clean_for_llm(abstract)
+    # Choose the source text fed to the model: real bill body first, then the
+    # omnibus table-of-contents digest, then the cleaned abstract. Full text
+    # gets a wider character window since the opening pages carry the enacting
+    # clause and substantive sections.
+    if full_text:
+        clean_abstract = _clean_for_llm(full_text)
+        char_cap = 6000
+    else:
+        clean_abstract = _omnibus_digest(abstract) or _clean_for_llm(abstract)
+        char_cap = 2000
     if not clean_abstract:
         return ""
 
@@ -862,13 +893,13 @@ def summarize(b: dict, max_chars: int = 160) -> str:
     # cleaned description.
     if blob:
         user_prompt = (
-            f"Description: {clean_abstract[:2000]}\n\n"
+            f"Description: {clean_abstract[:char_cap]}\n\n"
             "Write the one-sentence neutral summary now."
         )
     else:
         user_prompt = (
             f"Title: {title}\n"
-            f"Description: {clean_abstract[:2000]}\n\n"
+            f"Description: {clean_abstract[:char_cap]}\n\n"
             "Write the one-sentence neutral summary now."
         )
 
@@ -897,7 +928,7 @@ def summarize(b: dict, max_chars: int = 160) -> str:
     except Exception as e:
         print(f"  ! summarization failed, using fallback: {e}", file=sys.stderr)
         # A clean first sentence beats raw legalese; "" drops the block.
-        return _strip_title_prefix(_first_sentence(abstract), b["title"])
+        return _strip_title_prefix(_first_sentence(abstract or full_text), b["title"])
 
 
 def shorten_title(b: dict) -> str:
@@ -2070,6 +2101,14 @@ def save_raw_record(b: dict, out_dir: Path | None = None) -> None:
     raw = b.get("_raw")
     if not raw:
         return
+    # Persist the extracted full bill text (when available) alongside the
+    # verbatim record so downstream RAG/digest work can reuse it without
+    # re-downloading the PDF. Stored on a copy so the in-memory record is
+    # untouched.
+    full_text = b.get("full_text")
+    if full_text:
+        raw = dict(raw)
+        raw["full_text"] = full_text
     state = (b.get("state") or "XX")
     # Identifier keeps original case (HB2763, SR 008 → HB2763, SR_008) so
     # the filename matches how the bill is shown in the post.
