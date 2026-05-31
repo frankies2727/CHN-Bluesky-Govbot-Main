@@ -279,6 +279,9 @@ class Topic:
     def x_bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.x_subdir / "bills_raw"
 
+    def x_bills_full_text_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.x_subdir / "bills_full_text"
+
     def _secret_suffix(self) -> str:
         return self.name.upper()
 

@@ -487,7 +487,7 @@ jobs:
           git add samples/ || true
           if [ "${{ inputs.publish }}" = "true" ] && [ "${{ inputs.dry_run }}" != "true" ]; then
             git add topics/*/bills_used.json topics/*/bills_raw topics/*/bills_full_text || true
-            git add topics/*/x*/bills_used.json topics/*/x*/bills_raw || true
+            git add topics/*/x*/bills_used.json topics/*/x*/bills_raw topics/*/x*/bills_full_text || true
           fi
           if git diff --cached --quiet; then
             echo "Nothing to commit."
