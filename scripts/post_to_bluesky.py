@@ -845,12 +845,22 @@ def summarize(b: dict, max_chars: int = 160) -> str:
     sources_bill = b.get("sources_bill") or ""
     if sources_bill:
         try:
-            full_text = bill_text.extract_bill_text(sources_bill) or ""
+            full_text, reason = bill_text.extract_bill_text_verbose(sources_bill)
+            full_text = full_text or ""
         except Exception as e:
             print(f"  TEXT: ✗ extraction error, using abstract: {e}", file=sys.stderr)
-            full_text = ""
+            full_text, reason = "", "error"
+        if full_text:
+            print(f"  TEXT: ✓ FULL PDF TEXT USED ({len(full_text)} chars) "
+                  f"for {b.get('state','??')} {b.get('identifier','?')}")
+        else:
+            print(f"  TEXT: ✗ full PDF text NOT used ({reason}) "
+                  f"for {b.get('state','??')} {b.get('identifier','?')} — using abstract")
+    else:
+        print(f"  TEXT: ✗ full PDF text NOT used (no-sources-path) "
+              f"for {b.get('state','??')} {b.get('identifier','?')} — using abstract")
     if full_text:
-        # Persisted by save_raw_record() for future RAG/digest use.
+        # Saved to topics/<name>/bills_full_text/ for future RAG/digest use.
         b["full_text"] = full_text
 
     # When the title IS a blob (the whole bill description dumped into the
@@ -2090,6 +2100,19 @@ def _slug(text: str, max_len: int = 40) -> str:
     return s[:max_len].rstrip("_")
 
 
+def _artifact_stem(b: dict) -> str:
+    """Shared <STATE>-<id>-<date>-<action_slug> stem so a bill's raw record and
+    its full-text file share a filename (just different extensions)."""
+    state = (b.get("state") or "XX")
+    # Identifier keeps original case (HB2763, SR 008 → HB2763, SR_008) so
+    # the filename matches how the bill is shown in the post.
+    ident_raw = (b.get("identifier") or "unknown").strip()
+    ident = _FILENAME_UNSAFE_RE.sub("_", ident_raw).strip("_")[:24] or "unknown"
+    date = b.get("action_date") or "no-date"
+    action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
+    return f"{state}-{ident}-{date}-{action_slug}"
+
+
 def save_raw_record(b: dict, out_dir: Path | None = None) -> None:
     """Write the verbatim bills.jsonl record for a posted bill to
     topics/<name>/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
@@ -2101,27 +2124,28 @@ def save_raw_record(b: dict, out_dir: Path | None = None) -> None:
     raw = b.get("_raw")
     if not raw:
         return
-    # Persist the extracted full bill text (when available) alongside the
-    # verbatim record so downstream RAG/digest work can reuse it without
-    # re-downloading the PDF. Stored on a copy so the in-memory record is
-    # untouched.
-    full_text = b.get("full_text")
-    if full_text:
-        raw = dict(raw)
-        raw["full_text"] = full_text
-    state = (b.get("state") or "XX")
-    # Identifier keeps original case (HB2763, SR 008 → HB2763, SR_008) so
-    # the filename matches how the bill is shown in the post.
-    ident_raw = (b.get("identifier") or "unknown").strip()
-    ident = _FILENAME_UNSAFE_RE.sub("_", ident_raw).strip("_")[:24] or "unknown"
-    date = b.get("action_date") or "no-date"
-    action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
-    fname = f"{state}-{ident}-{date}-{action_slug}.json"
+    fname = f"{_artifact_stem(b)}.json"
     if out_dir is None:
         out_dir = TOPIC.bills_raw_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / fname
     out_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n")
+
+
+def save_full_text(b: dict, out_dir: Path | None = None) -> None:
+    """Write the extracted full bill text (when available) to
+    topics/<name>/bills_full_text/<STATE>-<id>-<date>-<action_slug>.txt so the
+    real legislative body of every posted bill is visible as a plain-text file,
+    not buried inside JSON. No-op when no full text was extracted (e.g. the
+    bill had no PDF link or pdftotext was unavailable)."""
+    full_text = b.get("full_text")
+    if not full_text:
+        return
+    fname = f"{_artifact_stem(b)}.txt"
+    if out_dir is None:
+        out_dir = TOPIC.bills_full_text_dir()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / fname).write_text(full_text + "\n", encoding="utf-8")
 
 
 # ---------------------------------------------------------------------------
@@ -2375,6 +2399,7 @@ def _post_forced_bill(records: list[dict]) -> int:
     if SAVE_RAW:
         try:
             save_raw_record(b)
+            save_full_text(b)
         except OSError as e:
             print(f"  ! raw-record save failed: {e}", file=sys.stderr)
     else:
@@ -2588,6 +2613,7 @@ def main() -> int:
         if SAVE_RAW:
             try:
                 save_raw_record(b)
+                save_full_text(b)
             except OSError as e:
                 print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 

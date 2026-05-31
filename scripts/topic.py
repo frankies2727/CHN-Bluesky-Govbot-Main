@@ -258,6 +258,12 @@ class Topic:
     def bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / "bills_raw"
 
+    # Full bill text extracted from each posted bill's PDF lives here as plain
+    # .txt files (one per posted action), so the actual legislative body is
+    # readable without digging through the raw JSON record.
+    def bills_full_text_dir(self) -> Path:
+        return TOPICS_DIR / self.name / "bills_full_text"
+
     # Weekly-digest highlights live in their own weekly_digest/ subfolder so
     # the raw artifacts for bills featured in the Sunday thread don't mix
     # with the daily feed's bills_raw/.

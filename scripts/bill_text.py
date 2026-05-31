@@ -54,20 +54,39 @@ USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 
 # Ordered candidate base directories for resolving a ``sources.bill`` path like
 # "il-legislation/country:us/state:il/sessions/104th/bills/SB1696/metadata.json".
-# govbot runs at the repo root in CI, so ROOT is the most likely base, but we
-# try several so a different on-disk layout still resolves. This is the single
-# most fragile assumption in the module, so it is deliberately forgiving.
-_CANDIDATE_BASES = [
-    ROOT,
-    Path("."),
-    ROOT / ".govbot",
-    ROOT / "data",
-    ROOT / "legislation",
-]
+# govbot clones into ``~/.govbot/repos`` (per the govbot docs:
+# ``~/.govbot/repos/**/bills/*/metadata.json``), so that is the primary base.
+# Several fallbacks follow so a different layout still resolves. Override with
+# the GOVBOT_DATA_ROOT env var. This is the single most fragile assumption in
+# the module, so it is deliberately forgiving.
+_HOME = Path.home()
+
+
+def _candidate_bases() -> list[Path]:
+    bases: list[Path] = []
+    env_root = os.environ.get("GOVBOT_DATA_ROOT", "").strip()
+    if env_root:
+        bases.append(Path(env_root).expanduser())
+    bases += [
+        _HOME / ".govbot" / "repos",
+        _HOME / ".govbot",
+        ROOT,
+        Path("."),
+        ROOT / ".govbot" / "repos",
+        ROOT / ".govbot",
+        ROOT / "data",
+        ROOT / "legislation",
+    ]
+    return bases
+
+
+# Cached base dir discovered at runtime (the first that resolved a real path),
+# so we don't re-probe every candidate for every bill.
+_discovered_base: Path | None = None
 
 # In-process memo so the same document is never re-read (even from disk) twice
-# within one run. Maps resolved URL -> extracted text or None.
-_run_memo: dict[str, str | None] = {}
+# within one run. Maps resolved URL -> (extracted text or None, reason).
+_run_memo: dict[str, tuple[str | None, str]] = {}
 
 
 # ---------------------------------------------------------------------------
@@ -88,28 +107,41 @@ def resolve_metadata_path(sources_bill: str, root: Path = ROOT) -> Path | None:
     ``metadata.json``. Tries each candidate base directory and returns the
     first that exists, plus a fallback that drops the leading path segment
     (covers layouts where the ``<state>-legislation/`` prefix isn't on disk).
-    Returns ``None`` if nothing resolves."""
+    The base that first resolves is cached for subsequent calls. Returns
+    ``None`` if nothing resolves."""
+    global _discovered_base
     if not sources_bill:
         return None
 
     rel = sources_bill.lstrip("/")
-    bases = [root] + [b for b in _CANDIDATE_BASES if b != root]
 
-    candidates: list[Path] = []
-    for base in bases:
-        candidates.append(base / rel)
-    # As-is (already absolute, or already correct relative to CWD).
-    candidates.append(Path(sources_bill))
-    # Drop the leading segment (e.g. "il-legislation/") and retry under each base.
+    # Caller-supplied root (used by tests) takes priority, then the cached
+    # discovered base, then the standard candidate list.
+    bases: list[Path] = []
+    if root != ROOT:
+        bases.append(root)
+    if _discovered_base is not None:
+        bases.append(_discovered_base)
+    for b in _candidate_bases():
+        if b not in bases:
+            bases.append(b)
+
     parts = Path(rel).parts
-    if len(parts) > 1:
-        trimmed = Path(*parts[1:])
-        for base in bases:
-            candidates.append(base / trimmed)
+    trimmed = Path(*parts[1:]) if len(parts) > 1 else None
 
-    for c in candidates:
+    candidates: list[tuple[Path, Path]] = []  # (base, full path)
+    for base in bases:
+        candidates.append((base, base / rel))
+    candidates.append((Path(sources_bill), Path(sources_bill)))  # as-is
+    if trimmed is not None:
+        for base in bases:
+            candidates.append((base, base / trimmed))
+
+    for base, c in candidates:
         try:
             if c.is_file():
+                if root == ROOT:
+                    _discovered_base = base
                 return c
         except OSError:
             continue
@@ -131,10 +163,14 @@ def find_document_link(metadata_path: Path) -> tuple[str, str] | None:
     pdf_link: tuple[str, str] | None = None
     html_link: tuple[str, str] | None = None
 
-    for version in (meta.get("versions") or []):
-        if not isinstance(version, dict):
+    # OCD data carries document links under versions[] (bill text) and
+    # sometimes documents[] (fiscal notes, analyses). Prefer versions, but
+    # fall back to documents so HTML/PDF bodies stored there still resolve.
+    containers = (meta.get("versions") or []) + (meta.get("documents") or [])
+    for container in containers:
+        if not isinstance(container, dict):
             continue
-        for link in (version.get("links") or []):
+        for link in (container.get("links") or []):
             if not isinstance(link, dict):
                 continue
             url = (link.get("url") or "").strip()
@@ -144,7 +180,8 @@ def find_document_link(metadata_path: Path) -> tuple[str, str] | None:
             if mtype == "application/pdf" or url.lower().endswith(".pdf"):
                 if pdf_link is None:
                     pdf_link = (url, "application/pdf")
-            elif mtype in ("text/html", "application/xhtml+xml") and html_link is None:
+            elif (mtype in ("text/html", "application/xhtml+xml")
+                  or url.lower().endswith((".htm", ".html"))) and html_link is None:
                 html_link = (url, "text/html")
 
     return pdf_link or html_link
@@ -320,16 +357,30 @@ def clean_bill_text(text: str) -> str:
 
 def extract_bill_text(sources_bill: str, root: Path = ROOT) -> str | None:
     """Resolve, download, and extract clean full text for a bill given its
-    ``sources.bill`` path. Uses an in-process memo plus an on-disk
-    content-addressed cache keyed on the document URL. Returns ``None`` at any
-    failure point so callers can fall back to abstract-only behavior."""
+    ``sources.bill`` path. Returns ``None`` at any failure point so callers can
+    fall back to abstract-only behavior. See ``extract_bill_text_verbose`` for
+    the reason string used in logging."""
+    text, _reason = extract_bill_text_verbose(sources_bill, root=root)
+    return text
+
+
+def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str | None, str]:
+    """Like ``extract_bill_text`` but also returns a short reason string so the
+    caller can log why full text was or wasn't used. Reasons:
+    ``ok`` | ``no-sources-path`` | ``metadata-not-found`` | ``no-document-link``
+    | ``download-failed`` | ``pdftotext-missing`` | ``extract-failed`` |
+    ``empty-after-clean``. Uses an in-process memo plus an on-disk
+    content-addressed cache keyed on the document URL."""
+    if not sources_bill:
+        return None, "no-sources-path"
+
     metadata_path = resolve_metadata_path(sources_bill, root=root)
     if metadata_path is None:
-        return None
+        return None, "metadata-not-found"
 
     link = find_document_link(metadata_path)
     if link is None:
-        return None
+        return None, "no-document-link"
     url, media_type = link
 
     if url in _run_memo:
@@ -340,15 +391,22 @@ def extract_bill_text(sources_bill: str, root: Path = ROOT) -> str | None:
     if cache_file.is_file():
         try:
             cached = cache_file.read_text(encoding="utf-8")
-            _run_memo[url] = cached or None
-            return cached or None
+            result = (cached or None, "ok" if cached else "empty-after-clean")
+            _run_memo[url] = result
+            return result
         except OSError:
             pass
 
+    if media_type == "application/pdf" and not pdftotext_available():
+        result = (None, "pdftotext-missing")
+        _run_memo[url] = result
+        return result
+
     doc_path = _download(url)
     if doc_path is None:
-        _run_memo[url] = None
-        return None
+        result = (None, "download-failed")
+        _run_memo[url] = result
+        return result
 
     try:
         if media_type == "application/pdf":
@@ -364,13 +422,15 @@ def extract_bill_text(sources_bill: str, root: Path = ROOT) -> str | None:
             pass
 
     if not raw_text:
-        _run_memo[url] = None
-        return None
+        result = (None, "extract-failed")
+        _run_memo[url] = result
+        return result
 
     text = clean_bill_text(raw_text)
     if not text:
-        _run_memo[url] = None
-        return None
+        result = (None, "empty-after-clean")
+        _run_memo[url] = result
+        return result
 
     try:
         BILL_TEXT_CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -378,8 +438,9 @@ def extract_bill_text(sources_bill: str, root: Path = ROOT) -> str | None:
     except OSError:
         pass
 
-    _run_memo[url] = text
-    return text
+    result = (text, "ok")
+    _run_memo[url] = result
+    return result
 
 
 def main(argv: list[str]) -> int:
@@ -395,7 +456,8 @@ def main(argv: list[str]) -> int:
         return 1
     link = find_document_link(meta)
     print(f"document link: {link}")
-    text = extract_bill_text(sources_bill)
+    text, reason = extract_bill_text_verbose(sources_bill)
+    print(f"extraction reason: {reason}")
     if not text:
         print("no text extracted")
         return 1
