@@ -108,6 +108,11 @@ STATE_FULL_NAME = {
 
 MAX_POST = 290
 LINK_PREFIX = "🔗 "
+# Short, clickable anchor text shown in place of the long bill URL. The URL
+# itself stays the facet's link target (and the external link card), so tapping
+# it still opens the full bill document — it just no longer eats ~80 characters
+# of the post.
+LINK_ANCHOR = "Read the full bill"
 
 # Titles at or below this length are used as-is in the post head; longer ones
 # get rewritten by the local model into a short plain-English headline.
@@ -830,7 +835,7 @@ def ensure_english_fields(b: dict) -> dict:
     return b
 
 
-def summarize(b: dict, max_chars: int = 160) -> str:
+def summarize(b: dict, max_chars: int = 240) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
     blob = _is_blob_title(title)
@@ -892,25 +897,30 @@ def summarize(b: dict, max_chars: int = 160) -> str:
     if full_text:
         clean_abstract = _clean_for_llm(full_text)
         char_cap = 6000
+        max_sentences = 2   # real bill text supports a richer 1–2 sentence summary
     else:
         clean_abstract = _omnibus_digest(abstract) or _clean_for_llm(abstract)
         char_cap = 2000
+        max_sentences = 1
     if not clean_abstract:
         return ""
 
     # For blob bills the title is the same wall of legalese as the abstract;
     # feeding it as a "Title:" line just confuses the model, so send only the
     # cleaned description.
+    closing = (
+        "Write the neutral summary now (one or two sentences)."
+        if max_sentences > 1
+        else "Write the one-sentence neutral summary now."
+    )
     if blob:
         user_prompt = (
-            f"Description: {clean_abstract[:char_cap]}\n\n"
-            "Write the one-sentence neutral summary now."
+            f"Description: {clean_abstract[:char_cap]}\n\n{closing}"
         )
     else:
         user_prompt = (
             f"Title: {title}\n"
-            f"Description: {clean_abstract[:char_cap]}\n\n"
-            "Write the one-sentence neutral summary now."
+            f"Description: {clean_abstract[:char_cap]}\n\n{closing}"
         )
 
     try:
@@ -919,7 +929,7 @@ def summarize(b: dict, max_chars: int = 160) -> str:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": TOPIC.summary_system_prompt(max_chars=max_chars)},
+                    {"role": "system", "content": TOPIC.summary_system_prompt(max_chars=max_chars, max_sentences=max_sentences)},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
@@ -2000,7 +2010,7 @@ def link_for(b: dict) -> str:
 def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
     emoji = TOPIC.emoji_for(b)
     link = link_for(b)
-    link_block = f"\n\n{LINK_PREFIX}{link}" if link else ""
+    link_block = f"\n\n{LINK_PREFIX}{LINK_ANCHOR}" if link else ""
 
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
