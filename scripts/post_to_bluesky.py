@@ -721,6 +721,92 @@ def _strip_act_name_echo(summary: str, headline: str) -> str:
     return rest[:1].upper() + rest[1:]
 
 
+# Function words ignored when comparing a summary sentence against the headline:
+# they carry no topical signal, so leaving them in would dilute the overlap
+# score and let near-duplicate sentences slip through.
+_STOPWORDS = {
+    "the", "a", "an", "of", "and", "or", "to", "in", "on", "for", "by", "as",
+    "at", "with", "from", "that", "this", "these", "those", "is", "are", "be",
+    "will", "shall", "would", "each", "every", "any", "all", "into", "its",
+    "their", "his", "her", "it", "which", "who", "whom", "annually", "yearly",
+}
+
+
+def _content_words(s: str) -> list[str]:
+    """Topical words of a string: normalized, stopwords and 1–2 char tokens
+    dropped. Used to score how much a summary sentence overlaps the headline."""
+    return [w for w in _normalize(s).split() if len(w) > 2 and w not in _STOPWORDS]
+
+
+# Common abbreviations that end in a period but do NOT end a sentence, so the
+# splitter doesn't break "Dr. Mun Choi Day" into two sentences.
+_ABBREVIATIONS = {
+    "dr", "mr", "mrs", "ms", "st", "sen", "rep", "gov", "no", "vs", "etc",
+    "inc", "co", "jr", "sr", "prof", "dept", "fig", "approx",
+}
+
+_SENTENCE_SPLIT_RE = re.compile(r"[.!?]+[\"')\]]*\s+")
+
+
+def _split_sentences(text: str) -> list[str]:
+    """Split prose into sentences, keeping abbreviations ('Dr.') and lone
+    initials intact. Best-effort — only used to decide whether a leading
+    sentence merely restates the headline."""
+    text = (text or "").strip()
+    if not text:
+        return []
+    parts: list[str] = []
+    start = 0
+    for m in _SENTENCE_SPLIT_RE.finditer(text):
+        candidate = text[start:m.start()].strip()
+        last = re.split(r"\s+", candidate)[-1].strip("\"')(.,;:") if candidate else ""
+        # Don't split after an abbreviation or a single-letter initial.
+        if last.lower() in _ABBREVIATIONS or (len(last) == 1 and last.isalpha()):
+            continue
+        parts.append(text[start:m.end()].strip())
+        start = m.end()
+    if start < len(text):
+        parts.append(text[start:].strip())
+    return [p for p in parts if p]
+
+
+def _strip_headline_echo(summary: str, headline: str) -> str:
+    """Drop a leading summary sentence that merely restates the headline in
+    different words — the paraphrase case that `_strip_title_prefix` (exact
+    prefix only) misses, e.g. headline "Designates March first as Dr. Mun Choi
+    Day in Missouri" + summary opening "Missouri will designate March first
+    annually as Dr. Mun Choi Day." Only fires when a substantive later sentence
+    remains, so the post never collapses to an empty body. Returns the summary
+    unchanged when the first sentence carries new information."""
+    if not summary or not headline:
+        return summary
+    sentences = _split_sentences(summary)
+    if len(sentences) < 2:
+        return summary
+
+    head_words = set(_content_words(headline))
+    if len(head_words) < 3:
+        return summary
+    first_words = set(_content_words(sentences[0]))
+    if not first_words:
+        return summary
+
+    # Two-sided test: the first sentence is mostly headline words (adds little
+    # new), AND it covers nearly all of the headline (it really is the same
+    # statement). Both thresholds guard against stripping a sentence that
+    # shares some vocabulary but contributes a real new fact.
+    in_headline = sum(1 for w in first_words if w in head_words) / len(first_words)
+    covered = sum(1 for w in head_words if w in first_words) / len(head_words)
+    if in_headline < 0.7 or covered < 0.7:
+        return summary
+
+    rest = " ".join(sentences[1:]).strip()
+    rest = _LEAD_ARTICLE_RE.sub("", rest, count=1)
+    if len(rest) < 15:
+        return summary
+    return rest[:1].upper() + rest[1:]
+
+
 def _smart_truncate(text: str, max_len: int) -> str:
     """Truncate to <= max_len, ending at a sentence or word boundary."""
     text = (text or "").strip()
@@ -2031,6 +2117,10 @@ def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, s
     # Drop a leading act name from the summary when it just echoes the headline
     # ("AI Non-Sentience Act…" appearing in both lines).
     summary = _strip_act_name_echo(summary, display)
+    # Drop a whole leading sentence that paraphrases the headline ("Missouri
+    # will designate March first as Dr. Mun Choi Day" under a headline that
+    # already says exactly that), keeping the substantive follow-on sentence.
+    summary = _strip_headline_echo(summary, display)
 
     summary_block = (
         f"\n\n{summary}"
