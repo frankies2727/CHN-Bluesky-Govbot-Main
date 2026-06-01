@@ -19,6 +19,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import tweepy
+import time
 
 from topic import load_active_topic
 from post_to_bluesky import (
@@ -260,7 +261,9 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "") -> 
         tweet_id = resp.data["id"]
         print(f"  posted: https://x.com/i/web/status/{tweet_id}")
     except Exception as e:
-        print(f"  ! tweet failed: {e}", file=sys.stderr)
+        print(f" ! tweet failed: {e}", file=sys.stderr)
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"   Response body: {e.response.text}", file=sys.stderr)
         return False
     if reply_url:
         try:
@@ -567,6 +570,9 @@ def main() -> int:
                     save_full_text(b, out_dir=TOPIC.x_bills_full_text_dir())
                 except Exception as e:
                     print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+
+            # ←←← THIS IS THE FIX FOR THE 403 "You are not permitted" error
+            time.sleep(13)   # X is very picky about rapid successive posts
 
     if not SAVE_RAW:
         print("  SAVE_RAW=0 — bills_raw artifacts not written.")
