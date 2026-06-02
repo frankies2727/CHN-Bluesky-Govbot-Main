@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 0563",
+    "legislative_session": "114",
+    "subject": [
+      "Memorials",
+      "Recognition"
+    ],
+    "title": "Memorials, Recognition - Metro Nashville Public Schools Parent Coalition  -"
+  },
+  "id": "SJR 0563",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-23",
+      "description": "Signed by H. Speaker",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SJR 0563"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SJR0563/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SJR0563/logs/20260123T000000Z.classification.passage.lower.json"
+  }
+}

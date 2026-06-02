@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Resolution recognizes March 30, 2026, as \"National Doctors' Day\" in the State of Delaware.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR 163",
+    "legislative_session": "153",
+    "title": "RECOGNIZING NATIONAL DOCTORS’ DAY ON MARCH 30, AND HONORING THE SURGEONS OF DELAWARE, INCLUDING THE DELAWARE CHAPTER OF THE AMERICAN COLLEGE OF SURGEONS, FOR THEIR LIFE-SAVING SERVICE AND CONTRIBUTIONS TO A HEALTHIER DELAWARE."
+  },
+  "id": "SCR 163",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-26",
+      "description": "Passed By Senate. Votes: 21 YES",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SCR 163"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SCR163/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SCR163/logs/20260326T000000Z.classification.passage.upper.json"
+  }
+}

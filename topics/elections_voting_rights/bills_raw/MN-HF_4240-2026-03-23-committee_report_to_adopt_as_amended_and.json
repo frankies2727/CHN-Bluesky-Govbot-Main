@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 4240",
+    "legislative_session": "2025-2026",
+    "title": "Elections; various changes made related to election administration, absentee voting, timelines, and technical and clarifying changes; and money appropriated."
+  },
+  "id": "HF 4240",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-23",
+      "description": "Committee report, to adopt as amended and re-refer to Ways and Means",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 4240"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4240/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4240/logs/20260323T000000Z_committee_report_to_adopt_as_amended_and_rerefer_to_ways_and_means.json"
+  },
+  "timestamp": "20260323T000000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Department of Environmental Protection;  Removes provisions creating the Environmental Regulation Commission; requires certain solar facility permit applicants to incorporate certain protections in the development and implementation of erosion and sediment control plans for the construction of such facilities; specifies requirements for such plans; revises the date by which certain major permitted sources of air pollution must pay an annual operation license fee; ratifies specified rules relating to the Lower Santa Fe and Ichetucknee Rivers and Priority Springs minimum flows and recovery strategy for the sole and exclusive purpose of satisfying any condition on effectiveness pursuant to provisions which require ratification of any rule exceeding the specified thresholds for likely adverse impact or increase in regulatory costs, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1417",
+    "legislative_session": "2026",
+    "subject": [
+      "industry",
+      "public health",
+      "public lands and property",
+      "public officers, employees, and records",
+      "relations",
+      "subject index"
+    ],
+    "title": "Department of Environmental Protection"
+  },
+  "id": "HB 1417",
+  "log": {
+    "action": {
+      "date": "2026-03-20",
+      "description": "Chapter No. 2026-2",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 1417"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1417/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1417/logs/20260320T000000Z_chapter_no_20262.json"
+  },
+  "timestamp": "20260320T000000Z"
+}

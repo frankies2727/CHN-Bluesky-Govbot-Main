@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act repeals the sunset date on the rent increase calculations for manufactured home communities that were enacted as a pilot under Senate Bill No. 317 (151st General Assembly), 83 Del. Laws, c. 341. Under this Act, the calculations used for rent increases under § 7052A and § 7052B of Title 25 replace the grounds for rent increases under § 7052 of Title 25.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 235",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO RENT INCREASES."
+  },
+  "id": "SB 235",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-25",
+      "description": "Passed By Senate. Votes: 19 YES 1 NOT VOTING 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 235"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB235/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB235/logs/20260325T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2420",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "agricultural land",
+      "agriculture",
+      "agriculture and land stewardship department",
+      "audits",
+      "choose iowa promotional program",
+      "commodities",
+      "farming",
+      "grain",
+      "grain dealers",
+      "real property",
+      "renewable fuel infrastructure board",
+      "reports",
+      "transportation",
+      "weight and measurement"
+    ],
+    "title": "A bill for an act relating to agriculture, including by providing for the powers and duties of the department of agriculture and land stewardship, including the promotion and regulation of commodities and products, the regulation of the transportation of agricultural commodities, and the use of agricultural land, making penalties applicable, and including effective date provisions."
+  },
+  "id": "SF 2420",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-23",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2420"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2420/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2420/logs/20260223T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

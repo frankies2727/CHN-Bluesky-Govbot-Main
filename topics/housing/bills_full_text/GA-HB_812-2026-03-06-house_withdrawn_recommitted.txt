@@ -1,0 +1,549 @@
+The House Committee on Governmental Affairs offers the following substitute to HB 812:
+
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 2 of Title 8 and Chapter 7 of Title 12 of the Official Code of Georgia
+
+Annotated, relating to state building, plumbing, and electrical codes and control of soil
+
+erosion and sedimentation, respectively, so as to require that certain local governments
+
+establish and maintain publicly accessible websites posting real-time status updates relating
+
+to building permit applications; to provide for an optional records management system
+
+managed by a third party; to provide for construction; to revise regulatory requirements for
+
+building plans, permits, and applications; to allow for greater involvement of private
+
+professional providers in the review of plans, permits, and applications; to provide for
+
+automatic approval of approved inspection reports; to provide for required qualifications of
+
+private professional providers; to require that each local issuing authority publish a list of
+
+materials required for permit applications; to revise provisions regarding denial or
+
+nonacceptance of permits; to require local issuing authorities to provide rejected permit
+
+applicants with a written list of reasons for denial within specified time frames; to provide
+
+for related matters; to repeal conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Chapter 2 of Title 8 of the Official Code of Georgia Annotated, relating to state building,
+
+plumbing, and electrical codes, is amended by revising paragraph (6) of subsection (c) of
+
+Code Section 8-2-25, relating to application of minimum standard codes, local adoption and
+
+requirements, and exemptions, as follows:
+
+"(6) The department shall maintain a file of all amendments to the state minimum
+
+standard codes adopted by the various municipalities and counties in the this state, which
+
+information shall be made available to the public upon request. The department may
+
+charge reasonable fees for copies of such information be published on the department's
+
+website and updated in real time to include the department's determinations relating to
+
+all proposed local amendments to the state minimum standard codes. An index of such
+
+amendments shall be included in each new edition of a state minimum standard code."
+
+SECTION 2.
+
+Said chapter is further amended by adding a new Code section to read as follows:
+
+"8-2-25.1.
+
+(a) As used in this Code section, the term:
+
+(1) 'Building permit' means any permit, approval, or authorization issued by a local
+
+government relating to the construction, alteration, expansion, demolition, or substantial
+
+renovation of a structure, including any permit for land-disturbing activity as such term
+
+is defined in Code Section 12-7-3.
+
+(2) 'Local government' means any county or municipal government of this state.
+
+(3) 'Real-time' means updated contemporaneously with, or within one business day of,
+
+any change in the status of a building permit.
+
+(4) 'Status' means the current stage of review or action on a building permit application.
+
+(b) Beginning January 1, 2027, each local government that issued more than 250 building
+
+permits in the preceding calendar year shall maintain a publicly accessible website for
+
+applications that provides real-time status information for all building permits for which
+
+an application has been submitted and not finally closed. Such website shall, at a
+
+minimum, display the following information for each building permit application:
+
+(1) Permit application number;
+
+(2) Date of application submission;
+
+(3) Property address or parcel identification number;
+
+(4) Type of permit requested;
+
+(5) Current status of the permit application, including, but not limited to: submitted,
+
+under review, incomplete, additional information required, approved, issued, suspended,
+
+denied, or closed;
+
+(6) Date of the most recent status update;
+
+(7) Any failures to meet deadlines for approval or denial established by state or local
+
+law;
+
+(8) The statutory basis for any denials; and
+
+(9) Identification of the reviewing department or office.
+
+(c) The permit application status information posted pursuant to subsection (b) of this
+
+Code section shall be:
+
+(1) Searchable by permit number, address, or parcel identification number;
+
+(2) Available to the public without charge, registration, or log in; and
+
+(3) Presented in a format that is continuously accessible and reasonably useable by the
+
+general public.
+
+(d) A local government may satisfy the requirements of subsections (b) and (c) of this
+
+Code section by posting a direct link on its publicly accessible website to a records
+
+management system managed by a third party, provided such system complies with all
+
+requirements of subsections (b) and (c) of this Code section.
+
+(e) This Code section shall not be construed to alter substantive permitting standards,
+
+review timelines, or appeal rights otherwise provided by law, or to require the disclosure
+
+of information protected from public disclosure under state or federal law or personal
+
+identifying information of permit applicants beyond that which is otherwise publicly
+
+available under state law."
+
+SECTION 3.
+
+Said chapter is further amended by revising paragraphs (1), (3), (5), (12), (14), and (23) of
+
+subsection (g) of Code Section 8-2-26, relating to local enforcement, inspectors, and building
+
+permits, as follows:
+
+"(g)(1) As used in this subsection, the term:
+
+(A) 'Complete application' means a submitted plan, application, or request for
+
+inspection that contains all of the information and supporting documentation required
+
+by the county or municipality for it to make the determination as to whether the plan,
+
+application, or request is in compliance with regulatory requirements.
+
+(B) 'Private professional provider' means a:
+
+(i)
+
+Chapter 15 of Title 43;
+
+(ii) Professional architect who holds a certificate of registration issued under
+
+Chapter 4 of Title 43; or
+
+(iii) Qualified inspector as such term is defined in Code Section 8-2-26.1
+
+who is not an employee of or otherwise affiliated with or financially interested in the
+
+person, firm, or corporation engaged in the construction project to be reviewed or
+
+inspected.
+
+(C) 'Regulatory fee' means payments, whether designated as permit fees, application
+
+fees, or by another name, that are required by a local government as an exercise of its
+
+police power, its regulation of business, and as a part of or as an aid to regulation of
+
+construction related activities under this chapter.
+
+Professional engineer who holds a certificate of registration issued under
+
+(D) 'Regulatory requirements' means the requirements determined by a county or
+
+municipality to be of federal, state, or local laws, codes, regulations, and ordinances
+
+which are necessary for approval of plans, permits, or applications under this chapter;
+
+provided, however, that, with respect to any application, such requirements shall
+
+include the state minimum standard codes most recently adopted by the Department of
+
+Community Affairs and any locally properly adopted local ordinances and amendments
+
+to such codes; applicable zoning ordinances and zoning conditions; design standards;
+
+and other state and local laws, regulations, and ordinances applicable to the application
+
+in question."
+
+"(3) No later than five business days after receipt of any application related to regulatory
+
+requirements, a local building official of a county or municipality shall notify each
+
+applicant as to whether the submitted documents meet the requirements of a complete
+
+application. Except as otherwise provided in this paragraph, time spent by a county or
+
+municipality determining whether an application is complete shall count toward the total
+
+days for plan review or inspection. If a local building official determines that the
+
+application is not complete or is denied, the applicant shall be provided written notice
+
+identifying the items that are not complete or that form the basis for a denial, with
+
+citations in either instance to the specific regulatory requirements with which the
+
+application does not comply. The 30 day time period is tolled when the application is
+
+rejected as incomplete. If within 30 days after the county or municipality has provided
+
+notice that the application is incomplete the permit applicant submits revisions to address
+
+the identified deficiencies, the local building official shall have an additional five
+
+business days to review the application for completeness."
+
+"(5) Prior to filing any application related to regulatory requirements or at any time
+
+thereafter, The the applicant shall have the option of retaining, at its own expense, a
+
+private professional provider to provide the required plan review or inspection in
+
+accordance with the provisions of this Code section irrespective regardless of whether the
+
+county or municipality determines that the personnel employed or contracted by such
+
+county or municipality can provide regulatory action or inspection services within the
+
+time frames required under paragraph (4) of this subsection or whether the applicant has
+
+been notified of such determinations. If the applicant elects to utilize the services of a
+
+private professional provider, the regulatory fees associated with such regulatory action
+
+shall be reduced by 50 percent and such reduced amount shall be paid to the county or
+
+municipality in accordance with such jurisdiction's policies."
+
+"(12) The private professional provider shall be empowered to perform any plan review
+
+or inspection required by the governing authority of any county or municipality,
+
+including, but not limited to, erosion and sediment control plan review, inspections for
+
+footings, foundations, concrete slabs, framing, electrical, plumbing, heating ventilation
+
+and air conditioning (HVAC), or any and all other plan reviews or inspections necessary
+
+or required to determine compliance with all regulatory requirements and for the issuance
+
+of a permit for land-disturbing activity, as such term is defined in Code Section 12-7-3,
+
+building permit or certificate of occupancy by the governing authority of any county or
+
+municipality, provided that the plan review or inspection is within the scope of such
+
+private professional provider's area of competency; and provided, further, that a qualified
+
+inspector acting as a private professional provider shall only be empowered to perform
+
+a plan review or inspection within an area for which such qualified inspector has been
+
+issued a certification, license, or completion of training provided for in paragraph (2) of
+
+subsection (a) of Code Section 8-2-26.1 or Code Section 12-7-19 for plan reviews or
+
+inspections under Chapter 7 of Title 12 to be performed by a private professional
+
+provider. Nothing in this Code section shall authorize any private professional provider
+
+to issue a certificate of occupancy. Only a local governing authority shall be authorized
+
+to issue a certificate of occupancy."
+
+"(14) Upon submission by the private professional provider of a copy of his or her an
+
+approved inspection report to the local governing authority, said local governing authority
+
+shall be required to accept the inspection of the private professional provider without the
+
+necessity of further inspection or approval by the inspectors or other personnel employed
+
+by the local governing authority unless said such inspection shall be deemed approved
+
+as a matter of law. governing authority has notified the private professional provider,
+
+within two The local governing authority shall have five business days after the
+
+submission of the inspection report, that it finds the report incomplete or the inspection
+
+inadequate and has provided the private professional provider to notify the private
+
+professional provider of any deficiencies in such inspection report with a written
+
+description of the such deficiencies and specific regulatory requirements that have not
+
+been adequately addressed. The private professional provider shall submit a corrected
+
+inspection report after receiving notice from the local governing authority of deficiencies
+
+in such inspection report, but in no event shall any deficiency in an inspection report or
+
+a correction to such report prevent the completion of work that has been approved by the
+
+private professional provider or otherwise delay the progress of the project related to the
+
+private professional provider's inspection."
+
+"(23)
+
+Section 8-2-26.1. The process for plan reviews and inspections by a private professional
+
+provider set forth in this subsection shall also be available and applicable to plan reviews
+
+and inspections subject to Chapter 7 of Title 12 that are performed by a private
+
+professional provider."
+
+Nothing in this subsection shall apply to inspections exempted in Code
+
+SECTION 4.
+
+Said chapter is further amended by revising subsection (g) of Code Section 8-2-26.1, relating
+
+to qualified inspectors and inspection reports, as follows:
+
+"(g) Nothing in this Code section shall be construed to apply to inspections for compliance
+
+with a state or local fire safety standard or erosion control standard."
+
+SECTION 5.
+
+Chapter 7 of Title 12 of the Official Code of Georgia Annotated, relating to control of soil
+
+erosion and sedimentation, is amended by revising Code Section 12-7-9, relating to
+
+applications for permits, erosion and sediment control plans and data, and time for issuance
+
+or denial, as follows:
+
+"12-7-9.
+
+(a) Applications for permits shall be submitted in accordance with this chapter and the
+
+rules and regulations, ordinances, and resolutions adopted pursuant to this chapter. Such
+
+applications shall be accompanied by the applicant's erosion and sediment control plans
+
+and by such supportive data as will affirmatively demonstrate that the land-disturbing
+
+activity proposed will be carried out in such a manner that the minimum requirements set
+
+forth in Code Section 12-7-6 shall be met. All applications shall contain a certification
+
+stating that the plan preparer or the designee thereof his or her designee visited the site
+
+prior to creation of the plan or that such a visit was not required in accordance with rules
+
+and regulations established by the board.
+
+(b) Each local issuing authority shall publish on a website accessible to the public an
+
+objective list of materials and stylistic preferences required for the submission of a
+
+complete permit application. No permit shall be issued to any applicant unless the local
+
+issuing authority affirmatively determines that the plan embracing such activities meets the
+
+requirements of Code Section 12-7-6. All applicable fees shall be paid prior to issuance
+
+of the land disturbance permit by the local issuing authority.
+
+(c) Permits shall be issued or denied as soon as practicable after the application therefor
+
+has been filed with the local issuing authority, but in any event not later than 45 days
+
+thereafter after such filing. Within five days of the filing of any permit application, the
+
+local issuing authority shall determine whether the application is complete and accepted.
+
+If no such determination has been made within five days of the filing of any permit
+
+application, the application shall be deemed complete and accepted. A local issuing
+
+authority may only deem an application incomplete or deny an application when it fails to
+
+include the required materials or stylistic preferences published by a local authority
+
+pursuant to subsection (b) of this Code section. In the event that an application has been
+
+denied or deemed incomplete and not accepted and the applicant thereafter resubmits the
+
+application in modified form to address deficiencies identified in the stated reasons for
+
+denial or nonacceptance pursuant to this subsection and subsection (a) of Code
+
+Section 12-7-11, then the local issuing authority shall cause the permit to be issued or
+
+denied as soon as practicable after such resubmission, but in any event not later than 14
+
+days after such resubmission for applications that were denied and not later than five days
+
+after such resubmission for applications that were not accepted.
+
+(d) If a local issuing authority requires compliance with additional regulatory requirements
+
+by the applicant beyond erosion and sediment control, including, but not limited to, utility
+
+and storm-water management, that are subject to the approval of such local issuing
+
+authority, such local issuing authority shall comply with the review time frames imposed
+
+in subsection (c) of this Code section; provided, however, that time shall be tolled under
+
+such time frames from the date any local issuing authority submits materials to a state
+
+agency or agencies for mandatory review and approval until the local issuing authority
+
+receives the required information or approval from the reviewing state agency or agencies.
+
+(e) An applicant shall have the option of retaining, at its own expense, a private
+
+professional provider to perform the plan reviews and inspections required by this chapter
+
+utilizing the process set forth in subsection (g) of Code Section 8-2-26 for engaging a
+
+private professional provider to perform plan reviews and inspections; provided, however,
+
+that the provisions of paragraphs (2), (3), and (6) of subsection (g) of Code Section 8-2-26
+
+shall not be applicable to such process. For purposes of plan reviews and inspections
+
+performed pursuant to this chapter, a private professional provider shall be subject to the
+
+requirements of Code Section 12-7-19 and shall be:
+
+(1) A design professional in the field of engineering, architecture, landscape architecture,
+
+forestry, geology, or land surveying who is licensed as required for practice in this state
+
+by the applicable provisions of Title 43 related to such profession; or
+
+(2) A person with a current certification as a Certified Professional in Erosion and
+
+Sediment Control."
+
+SECTION 6.
+
+Said chapter is further amended by revising Code Section 12-7-11, relating to statement of
+
+reasons for denial of permit required, conditions for approval, and suspension, revocation,
+
+or modification of permit, as follows:
+
+"12-7-11.
+
+(a) Within the time frames specified by Code Section 12-7-9, the local issuing authority
+
+shall issue or deny the permit. The local issuing authority, upon denial of a permit, shall
+
+state its reasons for the denial, setting forth specifically wherein where such application is
+
+found to be deficient. No local issuing authority shall deny or deem incomplete and not
+
+accept an application for any reason other than the failure to comply with required
+
+materials or stylistic preferences published by a local authority pursuant to subsection (b)
+
+of Code Section 12-7-9 or federal, state, or local law. Concurrently with denial or
+
+nonacceptance of an application, the local issuing authority shall provide the applicant with
+
+a written list identifying the items that are not complete or that form the basis for a denial,
+
+with citations to the specific regulatory requirements with which the application does not
+
+comply. Such local issuing authority shall not be required to provide the applicant with the
+
+reasons for such denial or nonacceptance for any portion of an application which is
+
+incomplete under subsection (b) or (c) of Code Section 12-7-7; provided, however, that the
+
+local issuing authority shall notify the applicant that the application is incomplete and shall
+
+include in such notification a written list of the omissions rendering the application
+
+incomplete. Should the applicant make material additions to a resubmitted application that
+
+are unrelated to the cited reasons for the denial or nonacceptance of the original
+
+application, the local issuing authority may also address such additions in reviewing the
+
+resubmitted application. Material additions to any resubmitted application that are
+
+unrelated to the cited reasons for the denial or nonacceptance of the original application
+
+shall be considered a new application for purposes related to the review time frames
+
+prescribed in subsection (c) of Code Section 12-7-9. Any land-disturbing activity
+
+permitted under this chapter shall be carried out in accordance with this chapter and the
+
+ordinance, resolution, or rules and regulations adopted and promulgated pursuant to this
+
+chapter. The local issuing authority shall specify on the permit the conditions under which
+
+the activity may be undertaken.
+
+(b) The permit may be suspended, revoked, or modified by the local issuing authority, as
+
+to all or any portion of the land affected by the plan, upon a finding that the holder or his
+
+or her successor in title is not in compliance with the approved erosion and sediment
+
+control plan or that the holder or his or her successor in title is in violation of this chapter
+
+or any ordinance, resolution, rule, or regulation adopted or promulgated pursuant to this
+
+chapter. A holder of a permit shall notify any successor in title to him or her as to all or
+
+any portion of the land affected by the approved plan of the conditions contained in the
+
+permit."
+
+SECTION 7.
+All laws and parts of laws in conflict with this Act are repealed.

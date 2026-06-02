@@ -1,0 +1,957 @@
+02/23/26 ​
+
+This Document can be made available​
+in alternative formats upon request​
+
+State of Minnesota​
+
+26-07159​
+
+HOUSE OF REPRESENTATIVES​
+NINETY-FOURTH SESSION​
+03/12/2026​
+
+H. F. No.
+
+4240​
+
+Authored by Freiberg​
+The bill was read for the first time and referred to the Committee on Elections Finance and Government Operations​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+
+relating to elections; making various changes related to election administration;​
+modifying provisions related to absentee voting; modifying timelines; making​
+technical and clarifying changes; appropriating money; amending Minnesota​
+Statutes 2024, sections 203B.05, subdivision 1; 203B.06, subdivision 3; 203B.065;​
+204B.27, subdivision 2; 204C.26, subdivisions 2, 4; Minnesota Statutes 2025​
+Supplement, sections 203B.30, subdivisions 2, 3; 375.20; proposing coding for​
+new law in Minnesota Statutes, chapter 204D; repealing Minnesota Statutes 2024,​
+section 5.31.​
+
+1.10
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+
+1.11
+
+Section 1. Minnesota Statutes 2024, section 203B.05, subdivision 1, is amended to read:​
+
+1.12
+
+Subdivision 1. Generally. (a) The full-time clerk of any city or town shall administer​
+
+1.13
+
+the provisions of sections 203B.04 to 203B.15 and 203B.30 if:​
+
+1.14
+
+(1) the county auditor of that county has designated the clerk to administer them; or​
+
+1.15
+
+(2) the clerk has given the county auditor of that county notice of intention to administer​
+
+1.16
+
+them.​
+
+1.17
+
+The designation or notice must specify whether the clerk will be responsible for the​
+
+1.18
+
+administration of a ballot board as provided in section 203B.121 and whether the​
+
+1.19
+
+municipality's office will be designated to administer voting under section 203B.081 starting​
+
+1.20
+
+on the 46th day before the election or the 18th day before the election.​
+
+1.21
+
+(b) A clerk of a city that is located in more than one county may only administer the​
+
+1.22
+
+provisions of sections 203B.04 to 203B.15 and 203B.30 if the clerk has been designated​
+
+1.23
+
+by each of the county auditors or has provided notice to each of the county auditors that the​
+
+1.24
+
+city will administer absentee voting. A clerk may only administer the provisions of sections​
+
+Section 1.​
+
+1​
+
+02/23/26 ​
+
+26-07159​
+
+2.1
+
+203B.04 to 203B.15 and 203B.30 if the clerk has technical capacity to access the statewide​
+
+2.2
+
+voter registration system in the secure manner prescribed by the secretary of state. The​
+
+2.3
+
+secretary of state must identify hardware, software, security, or other technical prerequisites​
+
+2.4
+
+necessary to ensure the security, access controls, and performance of the statewide voter​
+
+2.5
+
+registration system. A clerk must receive training approved by the secretary of state on the​
+
+2.6
+
+use of the statewide voter registration system before administering this section. A clerk may​
+
+2.7
+
+not use the statewide voter registration system until the clerk has received the required​
+
+2.8
+
+training. The county auditor must notify the secretary of state of any municipal clerk who​
+
+2.9
+
+will be administering the provisions of this section and the duties that the clerk will​
+
+2.10
+
+administer.​
+
+2.11
+
+Sec. 2. Minnesota Statutes 2024, section 203B.06, subdivision 3, is amended to read:​
+
+2.12
+
+Subd. 3. Delivery of ballots. (a) The county auditor, municipal clerk, school district​
+
+2.13
+
+clerk, or full-time clerk of any city or town administering an election pursuant to section​
+
+2.14
+
+203B.05, shall mail absentee ballots to voters on the permanent absentee ballot list pursuant​
+
+2.15
+
+to section 203B.04, subdivision 5, on the following timelines:​
+
+2.16
+
+(1) except as otherwise provided by this section, at least 46 days before each regularly​
+
+2.17
+
+scheduled primary and general election and each special primary and special election;​
+
+2.18
+
+(2) as soon as practicable for a special election held pursuant to section 204D.19,​
+
+2.19
+
+subdivisions 2 and 3; and​
+
+2.20
+
+(3) at least 30 days before a town general election held in March.​
+
+2.21
+
+(b) The commissioner of corrections must provide the secretary of state with a list of​
+
+2.22
+
+the names and mailing addresses of state adult correctional facilities. An application for an​
+
+2.23
+
+absentee ballot that provides an address included on the list provided by the commissioner​
+
+2.24
+
+of corrections must not be accepted and an absentee ballot must not be provided to the​
+
+2.25
+
+applicant. The county auditor or municipal clerk must promptly transmit a copy of the​
+
+2.26
+
+application to the county attorney. The Department of Corrections must implement procedures​
+
+2.27
+
+to ensure that absentee ballots issued under this chapter are not received or mailed by​
+
+2.28
+
+offenders incarcerated at state adult correctional facilities.​
+
+2.29
+
+(c) If an application for absentee ballots is accepted at a time when absentee ballots are​
+
+2.30
+
+not yet available for distribution, the county auditor, or municipal clerk accepting the​
+
+2.31
+
+application shall file it and as soon as absentee ballots are available for distribution shall​
+
+2.32
+
+mail them to the address specified in the application. If an application for absentee ballots​
+
+Sec. 2.​
+
+2​
+
+02/23/26 ​
+
+26-07159​
+
+3.1
+
+is accepted when absentee ballots are available for distribution, the county auditor or​
+
+3.2
+
+municipal clerk accepting the application shall promptly:​
+
+3.3
+
+(1) mail the ballots to the voter whose signature appears on the application if the​
+
+3.4
+
+application is submitted by mail and does not request commercial shipping under clause​
+
+3.5
+
+(2);​
+
+3.6
+3.7
+3.8
+3.9
+3.10
+
+(2) ship the ballots to the voter using a commercial shipper requested by the voter at the​
+voter's expense;​
+(3) deliver the absentee ballots directly to the voter if the application is submitted in​
+person; or​
+(4) deliver the absentee ballots in a sealed transmittal envelope to an agent who has been​
+
+3.11
+
+designated to bring the ballots, as provided in section 203B.11, subdivision 4, to a voter​
+
+3.12
+
+who would have difficulty getting to the polls because of incapacitating health reasons, or​
+
+3.13
+
+who is disabled, or who is a patient in a health care facility, a resident of an assisted living​
+
+3.14
+
+facility licensed under chapter 144G, a participant in a residential program for adults licensed​
+
+3.15
+
+under section 245A.02, subdivision 14, or a resident of a shelter for battered women as​
+
+3.16
+
+defined in section 611A.37, subdivision 4.​
+
+3.17
+
+(d) If an application does not indicate the election for which absentee ballots are sought,​
+
+3.18
+
+the county auditor or municipal clerk shall mail or deliver only the ballots for the next​
+
+3.19
+
+election occurring after receipt of the application. Only one set of ballots may be mailed,​
+
+3.20
+
+shipped, or delivered to an applicant for any election, except as provided in section 203B.121,​
+
+3.21
+
+subdivision 2, or when a replacement ballot has been requested by the voter for a ballot that​
+
+3.22
+
+has been spoiled or lost in transit.​
+
+3.23
+
+Sec. 3. Minnesota Statutes 2024, section 203B.065, is amended to read:​
+
+3.24
+
+203B.065 USING THE REGISTRATION SYSTEM.​
+
+3.25
+
+(a) Upon accepting an application for a state primary or state general election, the county​
+
+3.26
+
+auditor or municipal clerk shall record in the statewide voter registration system the voter's​
+
+3.27
+
+name, date of birth, address of residence in Minnesota, mailing address, Minnesota driver's​
+
+3.28
+
+license or state identification number, or the last four digits of the voter's Social Security​
+
+3.29
+
+number, if provided by the voter. Upon acceptance of an absentee ballot application of a​
+
+3.30
+
+voter who is registered to vote at an address different from the residential address certified​
+
+3.31
+
+on the absentee ballot application, the voter registration record with the previous address​
+
+3.32
+
+shall be challenged. Once the absentee ballot has been transmitted to the voter, the method​
+
+3.33
+
+of transmission and the date of transmission must be recorded.​
+
+Sec. 3.​
+
+3​
+
+02/23/26 ​
+
+26-07159​
+
+4.1
+
+(b) Upon receipt of a returned absentee ballot for a state primary or state general election,​
+
+4.2
+
+the county auditor or municipal clerk shall record in the statewide voter registration system​
+
+4.3
+
+that the voter has returned the ballot.​
+
+4.4
+
+(c) Upon receipt of notice that the ballot board has accepted or rejected the absentee​
+
+4.5
+
+ballot for a state primary or state general election, the county auditor or municipal clerk​
+
+4.6
+
+shall record in the statewide voter registration system whether the ballot was accepted or​
+
+4.7
+
+rejected, and if rejected, the reason for rejection. If a replacement ballot is transmitted to​
+
+4.8
+
+the voter, the county auditor or municipal clerk shall record this in the statewide voter​
+
+4.9
+
+registration system.​
+
+4.10
+
+(d) The labels provided for envelopes used for transmitting an absentee ballot to and​
+
+4.11
+
+from an applicant for an absentee ballot for a state primary or state general election must​
+
+4.12
+
+contain bar codes generated by the statewide voter registration system to facilitate the​
+
+4.13
+
+recording required under this section. A county auditor or municipal clerk entering​
+
+4.14
+
+information into the statewide voter registration system under this section must include the​
+
+4.15
+
+information provided on the bar code label whenever information is entered into the system.​
+
+4.16
+
+(e) The requirements in this section do not apply to a town election held in March,​
+
+4.17
+4.18
+
+4.19
+4.20
+
+however the system may be used to administer absentee voting in such an election.​
+EFFECTIVE DATE. This section is effective September 1, 2027.​
+Sec. 4. Minnesota Statutes 2025 Supplement, section 203B.30, subdivision 2, is amended​
+to read:​
+
+4.21
+
+Subd. 2. Voting procedure. (a) When a voter appears in an early voting polling place,​
+
+4.22
+
+the voter must state the voter's name, address, and, if requested, the voter's date of birth to​
+
+4.23
+
+the early voting official. The early voting official must confirm that the voter's registration​
+
+4.24
+
+is current in the statewide voter registration system and that the voter has not already cast​
+
+4.25
+
+a ballot in the election. If the voter's status is challenged, the voter may resolve the challenge​
+
+4.26
+
+as provided in section 204C.12. An individual who is not registered to vote must register​
+
+4.27
+
+and a voter whose name or address has changed must update the voter's registration in the​
+
+4.28
+
+manner provided in section 201.061, subdivision 3. A voter who has already cast a ballot​
+
+4.29
+
+in the election must not be provided with a ballot.​
+
+4.30
+
+(b) Each voter must sign the certification provided in section 204C.10. The signature of​
+
+4.31
+
+an individual on the voter's certificate and the issuance of a ballot to the individual is evidence​
+
+4.32
+
+of the intent of the individual to vote at that election. After the voter signs the certification,​
+
+4.33
+
+two early voting officials must initial the ballot and issue it to the voter. The early voting​
+
+Sec. 4.​
+
+4​
+
+02/23/26 ​
+
+26-07159​
+
+5.1
+
+official must maintain a printed copy of the voter certificate. The voter must immediately​
+
+5.2
+
+retire to a voting station or other designated location in the polling place to mark the ballot.​
+
+5.3
+
+The voter must not take a ballot from the polling place. If the voter spoils the ballot, the​
+
+5.4
+
+voter may return it to the early voting official in exchange for a new ballot. After completing​
+
+5.5
+
+the ballot, the voter must deposit the ballot into the ballot counter and ballot box. The early​
+
+5.6
+
+voting official must immediately record that the voter has voted in the manner provided in​
+
+5.7
+
+section 203B.121, subdivision 3.​
+
+5.8
+
+EFFECTIVE DATE. This section is effective upon the revisor of statutes' receipt of​
+
+5.9
+
+the early voting certification and applies to elections held on or after the 85th day after the​
+
+5.10
+
+revisor of statutes receives the certification.​
+
+5.11
+5.12
+5.13
+5.14
+5.15
+5.16
+
+Sec. 5. Minnesota Statutes 2025 Supplement, section 203B.30, subdivision 3, is amended​
+to read:​
+Subd. 3. Processing of ballots. Each day when early voting occurs, the early voting​
+officials must:​
+(1) remove and secure ballots cast, noting the date, voting location, and number of ballots​
+cast;​
+
+5.17
+
+(2) without inspecting the ballots, using the procedures in section 204C.20, subdivisions​
+
+5.18
+
+to 4, ensure that the number of ballots removed from the ballot box is equal to the number​
+
+5.19
+
+of voter certificates that were signed by voters in subdivision 2, paragraph (b); and​
+
+5.20
+
+(3) seal and secure all voted and unvoted ballots and signed voter certificates present in​
+
+5.21
+
+that location at the end of the day.​
+
+5.22
+
+The ballot board must count the ballots after the polls have closed on election day following​
+
+5.23
+
+the procedures in section 203B.121, subdivision 5, paragraph (b).​
+
+5.24
+
+EFFECTIVE DATE. This section is effective upon the revisor of statutes' receipt of​
+
+5.25
+
+the early voting certification and applies to elections held on or after the 85th day after the​
+
+5.26
+
+revisor of statutes receives the certification.​
+
+5.27
+
+Sec. 6. Minnesota Statutes 2024, section 204B.27, subdivision 2, is amended to read:​
+
+5.28
+
+Subd. 2. Election law and instructions. The secretary of state shall prepare and publish​
+
+5.29
+
+a volume containing all state general laws relating to elections. The attorney general shall​
+
+5.30
+
+provide annotations to the secretary of state for this volume. On or before August 1 of every​
+
+5.31
+
+odd-numbered July 15 of each year the secretary of state shall furnish to the county auditors​
+
+5.32
+
+and municipal clerks enough copies of this volume so that each county auditor and municipal​
+Sec. 6.​
+
+5​
+
+02/23/26 ​
+
+26-07159​
+
+6.1
+
+clerk will have at least one copy. On or before July 1 of every even-numbered year, the​
+
+6.2
+
+secretary of state shall prepare and make an electronic copy of this volume available on the​
+
+6.3
+
+office's website. The secretary of state may prepare and transmit to the county auditors and​
+
+6.4
+
+municipal clerks detailed written instructions for complying with election laws relating to​
+
+6.5
+
+the conduct of elections, conduct of voter registration and voting procedures.​
+
+6.6
+
+Sec. 7. Minnesota Statutes 2024, section 204C.26, subdivision 2, is amended to read:​
+
+6.7
+
+Subd. 2. Summary statements; contents. (a) The blank summary statement forms​
+
+6.8
+
+furnished to each precinct shall identify the precinct, ward number if any, city, school district​
+
+6.9
+
+if applicable, or town, date, and kind of election and, under appropriate headings identifying​
+
+6.10
+
+each color ballot, shall contain spaces for the election judges to enter the information required​
+
+6.11
+
+by section 204C.24, subdivision 1.​
+
+6.12
+
+(b) Each blank summary statement form shall also contain a certificate to be signed by​
+
+6.13
+
+the election judges stating that the national flag was displayed on a suitable staff during​
+
+6.14
+
+voting hours; that all of the ballots cast were properly piled, checked, and counted; and that​
+
+6.15
+
+the numbers entered by the election judges on the summary statements correctly show the​
+
+6.16
+
+number of votes cast for each candidate and for and against each question.​
+
+6.17
+6.18
+
+Sec. 8. Minnesota Statutes 2024, section 204C.26, subdivision 4, is amended to read:​
+Subd. 4. Envelopes for counted ballots. Each official responsible for printing ballots​
+
+6.19
+
+shall also furnish envelopes to contain those ballots after they have been counted. The​
+
+6.20
+
+envelopes shall be made of heavy paper, printed or marked to distinguish the color of the​
+
+6.21
+
+ballots to be contained in them. They shall be of convenient size to hold the ballots and​
+
+6.22
+
+shall be furnished at the same time and in the same manner as the ballots.​
+
+6.23
+6.24
+
+Sec. 9. [204D.40] SPECIAL ELECTIONS; REIMBURSEMENT OF LOCAL​
+EXPENSES; APPROPRIATION.​
+
+6.25
+
+Subdivision 1. Reimbursable expenses for local governments. The secretary of state​
+
+6.26
+
+must reimburse counties and municipalities for expenses incurred in administering a special​
+
+6.27
+
+primary or special election for a state or federal office not held in conjunction with a state​
+
+6.28
+
+primary or state general election. Reimbursable expenses include:​
+
+6.29
+
+(1) preparation and printing of ballots;​
+
+6.30
+
+(2) postage for absentee ballots;​
+
+6.31
+
+(3) publication of notices to voters;​
+
+Sec. 9.​
+
+6​
+
+02/23/26 ​
+
+7.1
+7.2
+7.3
+7.4
+
+26-07159​
+
+(4) preparation of polling places, not to exceed $150 per polling place unless otherwise​
+authorized by the secretary of state;​
+(5) preparation of electronic voting systems, not to exceed $100 per precinct unless​
+otherwise authorized by the secretary of state;​
+
+7.5
+
+(6) compensation for temporary staff or overtime payments;​
+
+7.6
+
+(7) salaries of election judges;​
+
+7.7
+
+(8) compensation of county or municipal canvassing board members; and​
+
+7.8
+
+(9) other expenses approved by the secretary of state.​
+
+7.9
+
+Subd. 2. Submission of requests for reimbursement. (a) Within 60 days after the​
+
+7.10
+
+results of a special election are certified, the county auditor must submit to the secretary of​
+
+7.11
+
+state a request for payment of costs incurred by the county, and the municipal clerk must​
+
+7.12
+
+submit a request for payment of costs incurred by the municipality.​
+
+7.13
+
+(b) Each request must:​
+
+7.14
+
+(1) be accompanied by an itemized statement of actual expenditures; and​
+
+7.15
+
+(2) include copies of invoices and a certification that the expenses were incurred in the​
+
+7.16
+
+administration of the special election.​
+
+7.17
+
+Subd. 3. Forms and issuance. (a) The secretary of state must provide counties and​
+
+7.18
+
+municipalities with appropriate forms for requesting reimbursement and certifying expenses.​
+
+7.19
+
+(b) The secretary of state must not reimburse expenses unless the request and certification​
+
+7.20
+7.21
+7.22
+
+have been submitted as provided in this section.​
+(c) The secretary of state must complete the issuance of reimbursements no later than​
+days after the results of the special election have been certified.​
+
+7.23
+
+Subd. 4. Appropriation. The amounts necessary for the secretary of state to reimburse​
+
+7.24
+
+local governments for special election expenses under this section is appropriated annually​
+
+7.25
+
+to the secretary of state.​
+
+7.26
+7.27
+
+EFFECTIVE DATE. This section is effective for special elections for which a writ is​
+issued on or after July 1, 2026.​
+
+Sec. 9.​
+
+7​
+
+02/23/26 ​
+
+8.1
+
+26-07159​
+
+Sec. 10. Minnesota Statutes 2025 Supplement, section 375.20, is amended to read:​
+
+8.2
+
+375.20 BALLOT QUESTIONS.​
+
+8.3
+
+If the county board may do an act, incur a debt, appropriate money for a purpose, or​
+
+8.4
+
+exercise any other power or authority, only if authorized by a vote of the people, the question​
+
+8.5
+
+may be submitted at a special or general election, by a resolution specifying the matter or​
+
+8.6
+
+question to be voted upon. If the question is to authorize the appropriation of money, creation​
+
+8.7
+
+of a debt, or levy of a tax, it shall state the amount. Notice of the election shall be given as​
+
+8.8
+
+in the case of special elections. If the question submitted is adopted, the board shall pass an​
+
+8.9
+
+appropriate resolution to carry it into effect. In the election the form of the ballot shall be:​
+
+8.10
+
+"Shall (here state the substance of the resolution to be submitted)?, Yes ...... No......,". The​
+
+8.11
+
+county board may call a special county election upon a question to be held within at least​
+
+8.12
+
+days after a resolution to that effect is adopted by the county board. The special election​
+
+8.13
+
+must be held on a uniform election date established in section 205.10, subdivision 3a. Upon​
+
+8.14
+
+the adoption of the resolution the county auditor shall post and publish notices of the election,​
+
+8.15
+
+as required by section 204D.22, subdivisions 2 and 3. The election shall be conducted and​
+
+8.16
+
+the returns canvassed in the manner prescribed by sections 204D.20 to 204D.27, so far as​
+
+8.17
+
+practicable.​
+
+8.18
+8.19
+
+Sec. 11. REPEALER.​
+Minnesota Statutes 2024, section 5.31, is repealed.​
+
+Sec. 11.​
+
+8​
+
+APPENDIX​
+Repealed Minnesota Statutes: 26-07159​
+
+5.31 STATEWIDE VOTER REGISTRATION SYSTEM.​
+The secretary of state may sell intellectual property rights associated with the statewide voter​
+registration system to other states or to units of local government in other states. Receipts from the​
+sale must be deposited in the state treasury and credited to the Help America Vote Act account.​
+
+1R​

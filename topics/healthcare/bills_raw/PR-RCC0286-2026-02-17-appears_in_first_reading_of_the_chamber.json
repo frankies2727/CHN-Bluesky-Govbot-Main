@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RCC0286",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar al Departamento de Transportación y Obras Públicas a confeccionar y expedir una tablilla conmemorativa alusiva a los cien (100) años de la fundación de la Sociedad Pro Hospital del Niño, Inc., (Hospital del Niño) para el año 2026 en adelante; requerirle al Secretario de Hacienda que, en coordinación con el Secretario de Transportación y Obras Públicas establezca un procedimiento sobre los requisitos para el pago de la tablilla y donativos; requerirle al Departamento de Transportación y Obras Públicas que el diseño del arte sea en coordinación con la Sociedad del Hospital del Niño y para otros fines relacionados."
+  },
+  "id": "RCC0286",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-02-17T04:00:00+00:00",
+      "description": "Aparece en Primera Lectura de la Cámara",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "RCC0286"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCC0286/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCC0286/logs/20260217T040000Z_aparece_en_primera_lectura_de_la_cámara.json"
+  },
+  "timestamp": "20260217T040000Z"
+}

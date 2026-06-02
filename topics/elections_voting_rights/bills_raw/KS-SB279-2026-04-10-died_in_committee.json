@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB279",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Boards, Commissions and Task Forces",
+      "Elections",
+      "Ethics, Governmental"
+    ],
+    "title": "Amending the campaign finance act and the state governmental ethics laws regarding the qualifications of members of the governmental ethics commission, actions of the commission, formation of political committees, reporting requirements and requirements for \"paid for\" attributions."
+  },
+  "id": "SB279",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB279"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB279/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB279/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2377",
+    "legislative_session": "2025-2026",
+    "title": "Making technical clarifications by defining \"applicant\" to support fair and consistent pay transparency enforcement."
+  },
+  "id": "HB 2377",
+  "log": {
+    "action": {
+      "classification": [
+        "filing"
+      ],
+      "date": "2026-01-09",
+      "description": "Prefiled for introduction.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2377"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2377/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2377/logs/20260109T000000Z_prefiled_for_introduction.json"
+  },
+  "timestamp": "20260109T000000Z"
+}

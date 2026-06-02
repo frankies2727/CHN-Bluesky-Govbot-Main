@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Affordable Housing;  Authorizes multifamily & mixed-use residential uses as allowable uses for specified property; provides requirements for certain proposed developments; prohibits counties & municipalities from having certain restrictions or requiring certain setbacks; requires adoption of certain ordinances relating to accessory dwelling units; prohibits such ordinances from including certain requirements; provides exception to certain local governments; removes requirement for specified affidavit in building permit application; prohibits owners of certain property from being denied homestead exemption; requires certain accessory dwelling units to be assessed & taxed separately; authorizes applicants for certain proposed developments to proceed under certain provisions of law; requires counties & municipalities to allow certain applicants to submit revised applications, written requests, or notices of intent; provides that specified provisions of law relating to proposed developments do not apply to airport zoning regulations unless approved by governing body; authorizes local governments to provide certain incentives to landowners who donate property to provide affordable housing for military families; prohibits certain discriminatory practices based on financing of development for affordable housing; waiving state's sovereign immunity for certain causes of action; requires OPPAGA to evaluate certain methods to stimulate construction & use of tiny homes for specified purpose & submit to Legislature certain report.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1389",
+    "legislative_session": "2026",
+    "subject": [
+      "aviation",
+      "civil rights",
+      "municipalities",
+      "relations",
+      "subject index",
+      "t",
+      "taxation and finance"
+    ],
+    "title": "Affordable Housing"
+  },
+  "id": "HB 1389",
+  "log": {
+    "action": {
+      "date": "2026-03-13",
+      "description": "Concurred in House amendment(s) to Senate amendment(s) (680391)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 1389"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1389/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1389/logs/20260313T000000Z_concurred_in_house_amendments_to_senate_amendments_680391.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

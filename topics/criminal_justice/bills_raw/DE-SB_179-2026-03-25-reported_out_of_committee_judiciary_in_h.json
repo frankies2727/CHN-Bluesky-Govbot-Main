@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act repeals Subchapter X of Title 11 which established the Delaware Sentencing Accountability Commission (Commission) and recodifies the Commission under Chapter 89A of Title 11. \r\n\r\nThis Act modernizes the Commission’s mission, establishes the membership of the Commission, codifies the Commission’s overall power and authority, and creates a duty for the Commission to provide a data report annually.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 179",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO THE DELAWARE SENTENCING GUIDELINES AND ACCOUNTABILITY COMMISSION."
+  },
+  "id": "SB 179",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Judiciary) in House with 8 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Judiciary"
+        }
+      ]
+    },
+    "bill_id": "SB 179"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB179/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB179/logs/20260325T000000Z_reported_out_of_committee_judiciary_in_house_with_8_on_its_merits.json"
+  },
+  "timestamp": "20260325T000000Z"
+}
