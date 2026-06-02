@@ -572,7 +572,7 @@ def main() -> int:
                     print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
             # ←←← THIS IS THE FIX FOR THE 403 "You are not permitted" error
-            time.sleep(13)   # X is very picky about rapid successive posts
+            time.sleep(27)   # X is very picky about rapid successive posts
 
     if not SAVE_RAW:
         print("  SAVE_RAW=0 — bills_raw artifacts not written.")
