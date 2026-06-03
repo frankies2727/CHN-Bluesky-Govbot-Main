@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Driscoll, a petition (accompanied by bill, Senate, No. 2657) (subject to Joint Rule 12) of William J. Driscoll, Jr. for legislation to authorize the Commonwealth of Massachusetts, acting by and through its Division of Capital Asset Management and Maintenance, to grant permanent easements over certain land in the town of Milton for highway purposes.  State Administration and Regulatory Oversight.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2657",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the Commonwealth of Massachusetts, acting by and through its Division of Capital Asset Management and Maintenance, to grant permanent easements over certain land in the town of Milton for highway purposes"
+  },
+  "id": "S2657",
+  "log": {
+    "action": {
+      "date": "2026-02-26",
+      "description": "New draft substituted, see S2968",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S2657"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2657/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2657/logs/20260226T000000Z_new_draft_substituted_see_s2968.json"
+  },
+  "timestamp": "20260226T000000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 015",
+    "legislative_session": "2026A",
+    "subject": [
+      "General Assembly"
+    ],
+    "title": "Protecting Colorado's National Public Lands"
+  },
+  "id": "SJR 015",
+  "log": {
+    "action": {
+      "date": "2026-03-05",
+      "description": "Senate Third Reading Laid Over to 03/10/2026 - No Amendments",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR 015"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR015/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2026A/bills/SJR015/logs/20260305T000000Z_senate_third_reading_laid_over_to_03102026_no_amendments.json"
+  },
+  "timestamp": "20260305T000000Z"
+}

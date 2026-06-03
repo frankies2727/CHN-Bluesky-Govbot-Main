@@ -1,0 +1,484 @@
+Senate File 2447 - Introduced
+SENATE FILE 2447
+BY COMMITTEE ON COMMERCE
+(SUCCESSOR TO SF 376)
+
+A BILL FOR
+
+An Act relating to the siting and operation of renewable
+electric power generating facilities.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA:
+
+TLSB 2223SV (1) 91
+sb/js
+
+Section 1. Section 476.53A, Code 2025, is amended to read
+as follows:
+476.53A Renewable electric power generation.
+1. It is the intent of the general assembly to encourage
+the development of renewable electric power generation. It
+is also the intent of the general assembly to encourage the
+use of renewable power to meet local electric needs and the
+development of transmission capacity to export wind excess
+power generated in Iowa.
+2. To implement the intent of the general assembly and
+promote uniformity, the standards in this section shall
+apply to the approval by local authorities of all wind energy
+conversion facilities proposed after January 1, 2025.
+3. For purposes of this section, unless the context
+otherwise requires:
+a. “Abutting dwelling” means an occupied building or
+structure used primarily for human habitation that is located
+on nonparticipating property.
+b. “Battery energy storage system” means an electrochemical
+device that charges, or collects, energy from the grid or a
+generation facility, stores that energy, and then discharges
+that energy at a later time to provide electricity or other
+grid services.
+c. “Community building” means any one or more of the
+following buildings that is existing and occupied on the date
+that the application for approval, rezoning, or a special or
+conditional use permit is filed with the county: a school, a
+place of worship, a day care facility, a public library, or a
+community center.
+d. “Local authority” means a city as defined in section
+362.2 or a county as provided in chapter 331.
+e. “Nonparticipating property” means any real property owned
+by a person who has not granted written permission, consent,
+an easement, or other similar agreement pertaining to a wind
+energy conversion facility on such property.
+
+sb/js
+
+1/12
+
+f. “Public road right-of-way” means the same as defined in
+section 306.3.
+g. “Railroad right-of-way” means the same as defined in
+section 476.27.
+h. “Renewable electric power generation facility” means
+a battery energy storage system, a solar energy conversion
+facility, or a wind energy conversion facility.
+i. “Repowering” means the same as defined in section 476.53.
+j. “Solar energy conversion facility” means a solar energy
+conversion facility, as defined in section 476C.1, that has
+a nameplate generating capacity greater than one hundred
+kilowatts.
+k. “Unoccupied structure” means a building or structure that
+is not occupied or used primarily for human habitation at the
+time of siting.
+l. “Wind energy conversion facility” or “facility” means a
+wind energy conversion facility, as defined in section 476C.1,
+or a wind turbine that is part of a wind energy conversion
+system, that has a nameplate generating capacity greater than
+one hundred kilowatts.
+4. a. A local authority may determine setback standards
+for wind energy conversion facilities that, notwithstanding any
+statute or regulation to the contrary, shall be no greater than
+and shall not include any setback requirements beyond those in
+this subsection:
+(1) The facility shall be sited three times the total
+height of a wind energy conversion facility to be constructed
+on a proposed facility from any existing abutting dwelling or
+community building.
+(2) The facility shall be sited one and one-tenth times
+the total height of a wind energy conversion facility to
+be constructed on a proposed facility from any existing
+nonparticipating property.
+(3) The facility shall be sited one and one-tenth times
+the total height of a wind energy conversion facility to be
+
+sb/js
+
+2/12
+
+constructed on a proposed facility from any existing overhead
+utility line, electric substation, public road right-of-way,
+railroad right-of-way, or unoccupied structure.
+(4) Each wind turbine shall not exceed the height allowed
+under the determination of no hazard for that turbine from the
+federal aviation administration obstruction evaluation under
+14 C.F.R. pt. 77.
+b. For purposes of this subsection, the facility site
+distance shall be measured from the center of the wind energy
+conversion facility foundation to the nearest point of the
+abutting dwelling, community building, nonparticipating
+property, overhead utility line, electric substation, public
+road right-of-way, railroad right-of-way, or unoccupied
+structure.
+c. For purposes of this subsection, the total height of
+a wind energy conversion facility shall be measured as the
+distance from ground level to the tip of the wind energy
+conversion facility’s blade at its highest vertical point.
+5. A local authority may determine setback standards
+for solar energy conversion facilities. For purposes of
+this subsection, distance shall be measured from the nearest
+aboveground point of a solar facility, not including any
+fencing, to the nearest point of the abutting dwelling,
+overhead utility line, electric substation, nonparticipating
+property line, public road right-of-way, railroad right-of-way,
+or unoccupied structure. The standards shall be no greater
+than:
+a. Fifty feet from the near edge of any existing
+nonparticipating property line or one hundred feet from any
+existing abutting dwelling or community building, whichever is
+greater.
+b. Fifty feet from any existing overhead utility line,
+substation, public road right-of-way, or railroad right-of-way.
+6. A local authority may determine setback standards
+for battery energy storage systems. For purposes of this
+
+sb/js
+
+3/12
+
+subsection, distance shall be measured from the nearest storage
+container edge to the nearest point of the abutting dwelling,
+overhead utility line, electric substation, nonparticipating
+property line, public road right-of-way, railroad right-of-way,
+or unoccupied structure. The standards shall be no greater
+than:
+a. Fifty feet from any existing participating property line.
+b. One hundred feet from any existing nonparticipating
+property line or any existing abutting dwelling or community
+building.
+c. Fifty feet from any existing nonassociated transmission,
+substation, or distribution lines.
+d. Fifty feet from any public road right-of-way or railroad
+right-of-way.
+7. A local authority may only implement the following
+additional standards and only to the extent specified in this
+subsection:
+a. A shadow flicker standard that is no more restrictive
+than thirty hours per year under planned operating conditions
+as indicated by industry standard computer modeling measured
+from an abutting dwelling or community building.
+b. A sound limitation that is no more restrictive than
+a maximum forty-seven decibel sound from the wind energy
+conversion facility as measured at an existing abutting
+dwelling or community building. Decibel modeling shall use the
+A-weighted scale as designed by the American national standards
+institute. Sound modeling shall be completed by a professional
+board-certified by the institute of noise control engineering,
+or an appropriately licensed professional engineer.
+c. A requirement that the applicant of a proposed wind
+energy conversion facility shall agree to repair or replace any
+damaged drainage infrastructure if directly attributable to the
+construction or operation of the facility.
+d. A requirement that renewable electric power generation
+facilities meet all applicable national electric safety code
+
+sb/js
+
+4/12
+
+and international building code requirements.
+e. A requirement that renewable electric power generation
+facilities meet all applicable provisions of national fire
+protection association standard 855.
+f. A requirement that renewable electric power generation
+facilities for fencing are no more restrictive than the
+requirement issued by the national electric safety code.
+g. A requirement for solar energy conversion facilities
+to maintain appropriate ground cover within the solar energy
+conversion facility’s fence line throughout the life of the
+facility to minimize erosion.
+h. A height requirement for solar energy conversion
+facilities for a minimum one and one-half feet panel height
+from the ground, exclusive of supporting infrastructure, with
+no additional or higher minimum height requirements for the
+solar energy conversion facility.
+8. A local authority must provide a process for the owner of
+any abutting dwelling, nonparticipating property, or community
+building to waive the standards in this section or those
+adopted by a local authority.
+9. A local authority must use reasonable estimates of the
+cost of approving an application for a facility, which shall
+not exceed one thousand dollars per wind energy conversion
+system, solar energy conversion system, or battery energy
+storage system. A local authority may not require the facility
+owner to pay costs, fees, or charges for administrative or road
+work that is not specifically and uniquely attributable to the
+approval and construction of the facility.
+10. A local authority shall not prohibit or regulate testing
+activities undertaken by a wind energy conversion facility
+owner for purposes of determining the suitability of the
+placement of a wind energy conversion facility.
+11. Ordinances, limitations, or other requirements imposed
+after an application for approval, rezoning, or a special
+or conditional use permit for a renewable electric power
+
+sb/js
+
+5/12
+
+generation facility has been submitted or previously approved
+shall not be construed to limit or impair the construction,
+operation, or maintenance of the renewable electric power
+generation facility.
+12. A local authority shall not prohibit an affected
+landowner or other entity from waiving any requirements under
+this section by the conveyance of an easement or other property
+interest.
+13. a. A local authority may require the owner of the
+proposed renewable electric power generation facility to file
+with the county recorder of the county or counties in which
+the proposed facility will be located a decommissioning plan
+outlining measures that will be taken to return the land to
+a reasonably similar state to the condition that existed
+before construction of the renewable electric power generation
+facility. Removal requirements of underground project
+infrastructure may not exceed a maximum depth of four feet. If
+the proposed facility will be located within two miles of the
+corporate limits of a city, the owner of the proposed facility
+may also be required to file the plan with the city clerk. A
+local authority shall not require a revision or amendment of
+a decommissioning plan.
+b. A local authority may require the owner to provide
+in the decommissioning plan proof of financial assurance to
+fund decommissioning efforts, which assurance is calculated
+by an independent third party as the estimated costs of
+decommissioning, inclusive of net salvage value, no earlier
+than the following schedule:
+(1) Five percent of determined decommissioning costs
+committed by the initial commercial operation date.
+(2) One hundred percent of determined decommissioning costs
+committed by the fifteenth year of commercial operation.
+c. After the fifteenth year of commercial operation, the
+owner of the renewable electric power generation facility
+may reestimate the cost of decommissioning, inclusive of net
+
+sb/js
+
+6/12
+
+salvage value, using an independent third party for the purpose
+of redetermining the amount required for financial assurance.
+d. Evidence of financial security may be in the form of a
+surety bond, collateral bond, parent guaranty, cash, cashier’s
+check, certificate of deposit, bank joint custody receipt, or
+other approved negotiable instrument.
+e. This subsection shall not apply to a renewable electric
+power generation facility owned or operated by a public utility
+regulated by the Iowa utilities commission.
+14. A renewable electric power generation facility shall be
+presumed abandoned if the facility fails to operate for more
+than twenty-four consecutive months without generating energy,
+excluding repowering or required maintenance events or force
+majeure events outside of the owner’s control. The owner of
+the abandoned facility shall be responsible for the removal of
+the facility, including the removal of infrastructure four feet
+below ground level and subject to any reasonable additional
+conditions of a decommissioning plan filed with the local
+authority.
+15. a. This section shall not apply to a wind energy
+conversion facility that has a nameplate capacity of
+twenty-five or more megawatts on any single gathering line
+and if the facility has applied for certification pursuant to
+chapter 476A.
+b. This section shall not apply to a renewable electric
+power generation facility that is operating or has submitted
+an application for the issuance of permits on or before the
+effective date of this Act.
+c. This section shall not apply to the repowering of a wind
+energy conversion facility existing on or before January 1,
+2025.
+d. This section shall not apply to the repowering of a
+renewable electric power generation facility, which is not
+already excluded under paragraph “c”, existing on or before
+January 1, 2025, provided that the repowering does not require
+
+sb/js
+
+7/12
+
+the issuance of any new permits, or amendments to existing
+permits, from a local authority. This section shall apply
+to the repowering of a renewable electric power generation
+facility existing on or before January 1, 2025, when such
+repowering requires the issuance of any new permits, or
+amendments to existing permits, from a local authority.
+16. a. A local authority within one hundred twenty calendar
+days of receiving an application requesting approval, rezoning,
+or a special or conditional use permit for a renewable electric
+power generation facility, or modification of an approved
+siting, rezoning, or special or conditional use permit, shall
+comply with the following provisions:
+(1) Review the application for conformity with applicable
+local zoning regulations, building permit requirements, and
+consistency with this chapter. An application is deemed to
+be complete unless the local authority notifies the applicant
+in writing, within thirty calendar days of submission of the
+application, specifying the deficiencies in the application
+that, if cured, would make the application complete. The local
+authority’s time frame to review the application is tolled
+beginning the date the notice is sent. The local authority’s
+time frame of one hundred twenty days for review of the
+application shall continue running when the applicant cures the
+specified deficiencies. Following the applicant’s supplemental
+submission, the local authority has ten days to notify the
+applicant if the supplemental submission did not provide the
+information identified in the original notice that specified
+deficiencies in the application. The local authority’s time
+frame of one hundred twenty days to review the application
+is tolled in the case of second or subsequent notices in
+conformance with this subparagraph. The local authority
+shall not include deficiencies in a second or subsequent
+notice that were not delineated in the original notice. The
+local authority’s time frame for review does not toll if the
+local authority requests information regarding any of the
+
+sb/js
+
+8/12
+
+considerations a local authority may not consider according to
+this section.
+(2) Make its final decision to approve or disapprove the
+application.
+(3) Advise the applicant in writing of its final decision.
+b. A local authority must approve, approve with
+modifications, or deny an application requesting approval,
+rezoning, or a special or conditional use permit for a
+renewable electric power generation facility or modification
+of an approved rezoning or special or conditional use permit
+within one hundred twenty days of the submission of an
+application.
+c. Denial of an application for approval, rezoning, or a
+special or conditional use permit by a local authority must
+be based on substantial evidence in the record of material
+noncompliance with one or more specific provisions of this
+section or regulations of local authorities that are not
+inconsistent with this section. An appeal of such a denial by
+an adversely affected party may be brought by certiorari as
+provided in sections 335.18 and 335.19. The reviewing court
+shall expedite the proceeding to the extent practicable.
+17. a. A local authority shall not adopt regulations
+that explicitly or implicitly disallow a renewable electric
+power generation facility from being developed or operated
+in any district zoned to allow agricultural or industrial
+use. A local authority may not prohibit or otherwise limit
+renewable electric power generation facility development
+based on corn suitability rating as calculated using the
+methodology recognized by the Iowa state university of science
+and technology. A local authority may not limit the size of
+any specific project or create caps on projects based on total
+land mass within the local jurisdiction.
+b. A local authority may place one temporary moratorium
+for up to six months on the installation of a wind energy
+conversion facility for the purpose of adopting new regulations
+
+sb/js
+
+9/12
+
+that are consistent with this section. All new, revised,
+or amended ordinances or regulations pertaining to solar or
+solar energy conversion facilities shall only be prospectively
+applied.
+c. Nothing in this section requires a local authority
+to adopt standards for approval of renewable electric power
+generation facilities.
+Sec. 2. COMPLIANCE BY LOCAL AUTHORITIES. If any local
+authority has a standard in effect on or after the effective
+date of this Act that does not comply with the provisions in
+this Act, the local authority must amend the standard to comply
+with this Act by December 31, 2025.
+EXPLANATION
+
+The inclusion of this explanation does not constitute agreement with
+the explanation’s substance by the members of the general assembly.
+
+This bill relates to siting and operation of certain
+renewable electric power generation facilities.
+The bill creates standard-making ability for local
+authorities approving a renewable electric power generation
+facility (facility) proposed after January 1, 2025.
+The bill sets guidelines for a local authority to implement
+a facility setback standard, which shall include a facility’s
+distance from specified existing buildings based on the
+facility’s height. The local authority must include a process
+for an owner of an abutting dwelling, nonparticipating
+property, or community building to waive the setback standards.
+The bill includes additional standards a local authority
+may implement including shadow flicker standards, sound
+limitations, a requirement that an applicant for a proposed
+facility shall agree to repair any damages caused by the
+facility, wind turbine height limitations, electric code
+and building code standards, fire protection standards,
+fencing limitations, ground cover standards, and solar energy
+conversion facility panel height requirements.
+The bill requires a local authority to utilize reasonable
+
+sb/js
+
+10/12
+
+estimates for application approval costs and prohibits the
+local authority from requiring the facility owner to pay for
+administration or road work that is not directly attributable
+to the approval and construction of the facility. A local
+authority shall not prohibit or regulate a facility testing the
+suitability of a facility placement. Any regulations enacted
+after the application for a facility permit shall not limit the
+construction, operation, or maintenance of that facility. A
+local authority shall not prohibit an affected landowner or
+other entity from waiving requirements by conveyance of an
+easement.
+The bill provides that a local authority may require a
+facility that is not owned or operated by a public utility
+regulated by the Iowa utilities commission to file a
+decommissioning plan including certain measures. The local
+authority is prohibited from requiring a facility to provide a
+revision or amendment of a decommissioning plan.
+The bill requires a facility to be presumed abandoned if
+the facility has not been in operation for 24 months, with
+some exceptions. The owner of the abandoned facility is
+responsible for removing the facility and is subject to any
+other reasonable conditions in the decommissioning plan if
+applicable.
+The bill shall not apply to a wind energy conversion facility
+with a nameplate capacity of 25 or more megawatts and that has
+applied for certification under Code chapter 476A, a facility
+that is currently operating or has applied for certification
+before the enactment of the bill, or the repowering of a
+facility existing on or before January 1, 2025, subject to
+certain conditions.
+The bill requires a local authority to approve a request
+by a facility if the request is in compliance with the bill.
+A local authority shall issue a decision on a request by a
+facility within 120 days of the request submission. The denial
+of a request shall be supported by substantial evidence of
+
+sb/js
+
+11/12
+
+noncompliance by the facility.
+The bill prohibits a local authority from disallowing the
+development of a facility in an agricultural or industrial
+district. The bill provides that a local authority may not
+prohibit or otherwise limit renewable electric power generation
+facility development based on corn suitability rating as
+calculated using the methodology recognized by the Iowa state
+university of science and technology. The bill prohibits a
+local authority from limiting the size of any specific project
+or creating caps on projects based on total land mass within
+the local jurisdiction.
+The bill allows a local authority to place one temporary
+moratorium for up to six months on the installation of a
+wind energy conversion facility for the purpose of adopting
+new regulations that are consistent with the bill. The bill
+provides that all new, revised, or amended ordinances or
+regulations pertaining to solar or solar energy conversion
+facilities shall only be prospectively applied.
+The bill expounds that a local authority is not required
+to adopt standards for approval of renewable electric power
+generation facilities; however, a local authority with existing
+siting standards in effect on or after the effective date
+of the bill that do not comply with the bill must amend the
+standards to comply with the bill by December 31, 2025.
+
+sb/js
+
+12/12

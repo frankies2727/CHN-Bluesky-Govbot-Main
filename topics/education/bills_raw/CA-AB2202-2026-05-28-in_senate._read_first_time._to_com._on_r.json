@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the State Board of Education and requires the state board to study educational conditions and needs of the state and to make plans for the improvement of the administration and efficiency of the public schools of the state. Existing law establishes the State Department of Education under the administration of the Superintendent of Public Instruction and assigns to the department numerous responsibilities relating to the governance of the public elementary and secondary schools in the state.\n\nThis bill would establish the Closing the Achievement Gap Commission as an advisory body to the state board. The bill would require the membership of the commission to consist of 17 voting members and one nonvoting member with an advisory vote, as provided. The bill would require 11 members of the commission to be appointed by the Governor and one member each to be appointed by the President pro Tempore of the Senate and the Speaker of the Assembly, pursuant to a specified application process and would require those members to reflect geographic, demographic, and local educational agency-type diversity. The bill would limit members appointed to the commission to one 4-year term, as provided. The bill would require the commission to annually elect a chair and vice chair and meet at least 2 times annually in the first year after its creation, and as needed thereafter, at the call of the chair or the state board. The bill would require the commission to, among other things, continually assess the extent to which there are gaps in state support for local educational agencies in their efforts to close achievement gaps. The bill would require the commission, on or before December 1, 2028, and every 2 years thereafter, to submit a report to the Governor, the appropriate policy and fiscal committees of the Legislature, the state board, and the department with recommendations and proposed actions that the state can take to help and support local educational agencies in closing the achievement gap. The bill would require the state board to consider those reports as an agenda item at a regularly scheduled public meeting or as provided and would require the department to post those reports on the department's internet website.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2202",
+    "legislative_session": "20252026",
+    "subject": [
+      "ClosingtheAchievementGapCommission",
+      "Pupilachievement"
+    ],
+    "title": "Pupil achievement: Closing the Achievement Gap Commission."
+  },
+  "id": "AB2202",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-28",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2202"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2202/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2202/logs/20260528T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260528T000000Z"
+}

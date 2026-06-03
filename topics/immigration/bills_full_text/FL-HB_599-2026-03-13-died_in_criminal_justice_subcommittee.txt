@@ -1,0 +1,1091 @@
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+A bill to be entitled
+
+An act relating to U-visa certification policy;
+
+creating s. 908.112, F.S.; defining terms; specifying
+
+duties of certifying officials from certifying
+
+agencies concerning certification forms in support of
+
+U-visa applications; providing a rebuttable
+
+presumption; requiring a certifying official from a
+
+certifying agency that denies a certification to
+
+provide the petitioner with specified written notice;
+
+requiring certifying agencies to grant or deny
+
+requests for certifications within specified
+
+timeframes; authorizing applicants to petition the
+
+circuit court if the certifying agency fails to
+
+respond within those timeframes; prohibiting
+
+certifying agencies and certifying officials from
+
+disclosing the immigration status of victims or
+
+persons seeking a certification; providing initial and
+
+annual reporting requirements; providing immunity for
+
+certifying officials; specifying duties of certifying
+
+agencies; providing an effective date.
+
+Be It Enacted by the Legislature of the State of Florida:
+
+Section 1.
+
+Section 908.112, Florida Statutes, is created
+
+to read:
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+908.112
+
+(1)
+
+As used in this section, the term:
+
+(a)
+
+"Certification form" means Form I-918, Supplement B, U
+
+U-visa certification policy.—
+
+Nonimmigrant Status Certification as required by 8 U.S.C. s.
+
+1184(p).
+
+(b)
+
+"Certifying agency" means a state or local law
+
+enforcement agency, a prosecutor, a judge, or any other
+
+governmental agency that has criminal, civil, administrative,
+
+investigative, or prosecutorial authority.
+
+(c)
+
+"Certifying official" means any of the following:
+
+1.
+
+The head of the certifying agency.
+
+2.
+
+A person in a supervisory role who has been
+
+specifically designated by the head of the certifying agency to
+
+issue Form I-918 Supplement B certifications on behalf of the
+
+agency.
+
+3.
+
+A judge.
+
+4.
+
+Any other certifying official described in 8 C.F.R. s.
+
+214.14(a)(3).
+
+(d)
+
+E
+
+V
+
+"Petitioner" means a person who requests a
+
+certification, including indirect and bystander victims.
+(e)
+
+"Qualifying criminal activity" means an offense for
+
+which the elements are substantially similar to an offense
+
+described in 8 U.S.C. s. 1101(a)(15)(U)(iii) of the Immigration
+
+and Nationality Act or the attempt, solicitation, or conspiracy
+
+to commit such an offense. Qualifying criminal activity pursuant
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+to 8 U.S.C. s. 1011(a)(15)(U)(iii) includes, but is not limited
+
+to, the following crimes:
+
+1.
+
+Rape.
+
+2.
+
+Torture.
+
+3.
+
+Human trafficking.
+
+4.
+
+Incest.
+
+5.
+
+Domestic violence.
+
+6.
+
+Sexual assault.
+
+7.
+
+Abusive sexual contact.
+
+8.
+
+Prostitution.
+
+9.
+
+Sexual Exploitation.
+
+10.
+
+Female genital mutilation.
+
+11.
+
+Being held hostage.
+
+12.
+
+Peonage.
+
+13.
+
+Perjury.
+
+14.
+
+Involuntary servitude.
+
+15.
+
+Slavery.
+
+16.
+
+Kidnapping.
+
+17.
+
+Abduction.
+
+18.
+
+Unlawful criminal restraint.
+
+19.
+
+False imprisonment.
+
+20.
+
+Blackmail.
+
+21.
+
+Extortion.
+
+22.
+
+Manslaughter.
+
+23.
+
+Murder.
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+E
+
+24.
+
+Felonious assault.
+
+25.
+
+Witness tampering.
+
+26.
+
+Obstruction of justice.
+
+27.
+
+Fraud in foreign labor contracting.
+
+28.
+
+Stalking.
+
+(2)
+
+Upon the request of a petitioner or a victim's family
+
+member, a certifying official from a certifying agency must
+
+certify victim helpfulness on the Form I-918 Supplement B
+
+certification if the victim was a victim of a qualifying
+
+criminal activity and has been helpful, is being helpful, or is
+
+likely to be helpful to the detection or investigation or
+
+prosecution of such qualifying criminal activity.
+
+V
+
+(3)
+
+For purposes of determining helpfulness pursuant to
+
+subsection (2), there is a rebuttable presumption that a victim
+
+is helpful, has been helpful, or is likely to be helpful to the
+
+detection or investigation or prosecution of that qualifying
+
+criminal activity if the victim has not refused or failed to
+
+provide information and assistance reasonably requested by law
+
+enforcement.
+
+(4)
+
+The certifying official shall fully complete and sign
+
+the Form I-918 Supplement B certification and, regarding victim
+
+helpfulness, include specific details about the nature of the
+
+crime investigated or prosecuted and a detailed description of
+
+the victim's helpfulness or likely helpfulness to the detection,
+
+investigation, or prosecution of the criminal activity. The
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+certifying agency may not consider any other factors in deciding
+
+whether to sign the certification form, except whether the
+
+victim was a victim of qualifying criminal activity and the
+
+victim's helpfulness.
+(5)
+
+A current investigation or an arrest, the filing of
+
+charges, or a prosecution or conviction are not required for the
+
+victim to request and obtain the Form I-918 Supplement B
+
+certification from a certifying official.
+
+(6)
+
+A certifying official may withdraw the certification
+
+only if the victim refuses to provide information and assistance
+
+when reasonably requested.
+
+(7)(a)
+
+If a certifying official or certifying agency
+
+denies certification under this section, the official or agency
+
+must, in writing, notify the petitioner of the reason for the
+
+denial. The denial notification must contain all of the
+
+following information:
+
+E
+
+V
+
+1.
+
+An internal case number that allows the certifying
+
+agency to identify each certification request individually.
+
+2.
+
+The date of the denial.
+
+3.
+
+The reason for the denial, which must be of one of the
+
+following:
+
+a.
+
+Lack of qualifying criminal activity;
+
+b.
+
+Lack of helpfulness;
+
+c.
+
+Lack of jurisdiction over the certification request; or
+
+d.
+
+Other circumstances for which a certifying official or
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+agency may lawfully deny a certification.
+(b)
+
+Upon receiving notice that a request for certification
+
+under this section is denied, a petitioner may provide
+
+supplemental information to the certifying official or
+
+certifying agency and request that the certification denial be
+
+reviewed.
+
+(c)
+
+After a request is denied, a petitioner may submit a
+
+new request for certification to a different certifying official
+
+or certifying agency for processing if the initial certifying
+
+official or certifying agency was involved in investigating the
+
+qualifying criminal activity.
+(d)
+
+A certification official or agency shall keep a copy
+
+of a denial notification for at least 3 years after the date of
+
+the notification.
+
+(8)(a)
+
+Except under circumstances in which there is good
+
+cause for delay, a certifying official or certifying agency
+
+shall grant or deny a request for certification:
+
+1.
+
+request; or
+
+2.
+
+E
+
+V
+
+Within 90 days after the date of the certification
+Within 14 days after the date of the certification
+
+request if the victim is in removal proceedings.
+(b)
+
+If a certifying agency fails to respond within the
+
+statutory timeframe or refuses to certify that an applicant was
+
+a victim of qualifying criminal activity, the applicant may
+
+petition a circuit court to review the determination of the
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+E
+
+certifying agency within 30 days after such determination or
+
+within 30 days after the expiration of the statutory timeframe.
+
+V
+
+(c)
+
+The circuit court shall conduct an evidentiary hearing
+
+on such petition within 30 days after the petition is filed.
+
+After conducting a hearing, if the circuit court is satisfied
+
+that the applicant has proven his or her eligibility for Form I-
+
+Supplement B certification by a preponderance of the
+
+evidence and if the circuit court finds that the certifying
+
+official or agency's refusal to sign was unreasonable, the
+
+circuit court judge may execute the certification form. In
+
+assessing the reasonableness of the certifying official or
+
+agency's decision or failure to respond, the circuit court may
+
+consider whether the applicant has complied with the terms of
+
+this section and whether circumstances exist that would justify
+
+the deferral of a decision, including whether a certification
+
+would jeopardize an ongoing criminal investigation or the
+
+prosecution or the safety of an individual, cause a suspect to
+
+flee or evade detection, or result in the destruction of
+
+evidence, or whether the applicant's cooperation is incomplete.
+
+Upon finding that the certifying official or agency denied the
+
+application without a factual or legal justification or failed
+
+to respond to the applicant within the specified timeframes, the
+
+circuit court shall make an award of reasonable costs and
+
+attorney fees to a prevailing applicant. Such determination
+
+shall be without prejudice to any future proceeding premised
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+upon a material change in circumstances.
+(d)
+
+Any petition filed under paragraph (b), along with the
+
+record of all hearings and all other pleadings, papers filed,
+
+and orders entered in connection with such petition, must be
+
+kept under seal by the clerk unless otherwise ordered by the
+
+court.
+(9)
+
+Certifying officials and agencies are prohibited from
+
+disclosing the immigration status of a victim or person
+
+requesting the Form I-918 Supplement B certification, except to
+
+comply with federal law or legal process or if authorized by the
+
+victim or person requesting the Form I-918 Supplement B
+
+certification.
+
+(10)
+
+A certifying official or agency that receives a
+
+request for a Form I-918 Supplement B certification shall report
+
+to the Speaker of the House of Representatives, the President of
+
+the Senate, and the Governor on or before January 15, 2027, and
+
+annually thereafter, the number of victims or persons who
+
+requested such certifications from the official or agency, the
+
+number of certification forms that were signed, the number of
+
+certification forms that were denied, the reason for each
+
+denial, and the number of pending certifications on the date of
+
+the report.
+
+E
+
+V
+
+(11)
+
+A certifying official or agency is immune from civil
+
+and criminal liability for, in good faith, certifying or denying
+
+certification under this section.
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+(12)
+
+A certifying agency shall:
+
+(a)
+
+Designate a person or persons within the agency
+
+responsible for processing requests for certification under this
+
+section.
+
+(b)
+
+Develop written procedures for processing requests for
+
+certification under this section.
+(c)
+
+Establish a process for each certifying agency to
+
+train certifying officials and communicate with community-based
+
+organizations and faith-based service providers about this
+
+process.
+
+E
+
+V
+
+Section 2.
+
+This act shall take effect July 1, 2026.
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb599-00
+
+S

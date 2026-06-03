@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "U-visa Certification Policy;  Specifies duties of certifying officials from certifying agencies concerning certification forms in support of U-visa applications; provides rebuttable presumption; requires certifying official from certifying agency that denies certification to provide petitioner with specified written notice; requires certifying agencies to grant or deny requests for certifications within specified timeframes; authorizes applicants to petition circuit court if certifying agency fails to respond within those timeframes; prohibits certifying agencies & certifying officials from disclosing immigration status of victims or persons seeking certification; provides initial & annual reporting requirements; provides immunity for certifying officials; specifies duties of certifying agencies.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 599",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "U-visa Certification Policy"
+  },
+  "id": "HB 599",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Criminal Justice Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 599"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB599/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB599/logs/20260313T000000Z_died_in_criminal_justice_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}
