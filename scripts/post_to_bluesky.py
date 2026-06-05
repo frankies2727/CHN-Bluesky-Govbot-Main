@@ -2106,6 +2106,33 @@ def link_for(b: dict) -> str:
 # Composition
 # ---------------------------------------------------------------------------
 
+# Below this floor the summary block is too short to add useful detail beyond
+# the headline — callers skip the LLM round-trip and compose without a summary.
+MIN_SUMMARY_CHARS = 60
+
+
+def summary_budget(b: dict, headline: str) -> int:
+    """Character budget available for the summary block in a Bluesky post,
+    given the head (emoji + state + id + display), the action line, and the
+    bill link that share the post. Returned so the caller can ask the LLM for
+    a summary that fits cleanly instead of relying on compose_post's post-hoc
+    trim — when that trim fires it lops the tail off the model's sentence at a
+    word boundary, which usually drops the most concrete clause (the "…include
+    stock and…" failure mode). Mirrors x_summary_budget in post_to_x.py."""
+    emoji = TOPIC.emoji_for(b)
+    state_label = b["state"] or "?"
+    display = best_display_text(b, headline=headline).strip()
+    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    head_len = len(prefix) + len(display)
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    action_block_len = len(f"\n\n{action_line}") if action_line else 0
+    link = link_for(b)
+    link_block_len = len(f"\n\n{LINK_PREFIX}{LINK_ANCHOR}") if link else 0
+    # The summary itself is preceded by "\n\n" (2 chars).
+    summary_sep_len = 2
+    return MAX_POST - head_len - action_block_len - link_block_len - summary_sep_len
+
+
 def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
     emoji = TOPIC.emoji_for(b)
     link = link_for(b)
@@ -2470,8 +2497,12 @@ def _post_forced_bill(records: list[dict]) -> int:
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
 
     ensure_english_fields(b)
-    summary = summarize(b)
+    # Headline first so the summary's character budget can reserve the exact
+    # head length, then ask the model for a summary that fits the leftover
+    # space instead of writing 240 chars that compose_post truncates mid-clause.
     headline = shorten_title(b)
+    budget = summary_budget(b, headline)
+    summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
     text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
 
     thumb_blob = None
@@ -2681,8 +2712,12 @@ def main() -> int:
 
     for b in to_post:
         ensure_english_fields(b)
-        summary = summarize(b)
+        # Headline first so the summary's character budget can reserve the exact
+        # head length, then ask the model for a summary that fits the leftover
+        # space (rather than a fixed 240 chars compose_post would truncate).
         headline = shorten_title(b)
+        budget = summary_budget(b, headline)
+        summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
 
         thumb_blob = None
