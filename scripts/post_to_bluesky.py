@@ -115,8 +115,12 @@ LINK_PREFIX = "🔗 "
 LINK_ANCHOR = "Read the full bill"
 
 # Titles at or below this length are used as-is in the post head; longer ones
-# get rewritten by the local model into a short plain-English headline.
-HEADLINE_THRESHOLD = 90
+# get rewritten by the local model into a short plain-English headline. Set
+# very low so virtually every real title is rephrased into punchy layman's
+# terms (and the freed head space goes to a fuller summary) — shorten_title
+# still bails to the raw title when there's no abstract to ground the rewrite,
+# so title-only records can't be hallucinated into something new.
+HEADLINE_THRESHOLD = 10
 HEADLINE_MAX_LEN = 70
 
 
