@@ -1,0 +1,117 @@
+Session of 2026
+
+House Resolution No. 6023
+By Committee on Legislative Modernization
+1-28
+
+A RESOLUTION opposing the federal preemption of state laws that
+regulate artificial intelligence.
+WHEREAS, The State of Kansas recognizes the rapid advancement and
+deployment of artificial intelligence (AI) systems throughout the
+economy, including in sectors affecting Kansas citizens such as
+employment, housing, healthcare, elections and education; and
+WHEREAS, Federal preemption of state AI laws would represent a
+significant intrusion into the states' traditional and constitutionally
+protected powers under the Tenth Amendment, which reserves to the
+states powers not explicitly delegated to the federal government; and
+WHEREAS, The proposed federal preemption would override states'
+traditional authority in areas such as state election administration, state
+court operations, public safety and policing, professional licensing and
+the governance of state executive branches, all of which are areas in
+which states have legitimate constitutional authority and responsibility
+to their citizens; and
+WHEREAS, Federal proposals to preempt state AI laws have contained
+serious flaws, including ambiguous definitions, lack of state criminal
+prosecution exemptions and, most critically, no meaningful federal
+protections or standards to replace state authority; and
+WHEREAS, Such federal preemption would leave courts, employers,
+consumers and Kansas residents operating in a regulatory vacuum at
+precisely the moment when AI systems are becoming deeply
+embedded in everyday life; and
+WHEREAS, Federal preemption efforts may be paired with threats to
+withhold discretionary federal funding and Broadband Equity Access
+and Deployment (BEAD) Program funds from states with AI
+regulations, representing a coercive infringement on state authority
+and an inequitable burden on rural and fiscally constrained states, like
+Kansas, that depend heavily on federal broadband funding; and
+WHEREAS, States are uniquely positioned to tailor policy to local needs,
+and they have been the "laboratory of democracy," piloting solutions
+that can later inform federal legislation when Congress finally acts;
+and
+WHEREAS, Kansas and other states now risk having their carefully
+
+HR 6023
+
+considered policymaking undone by broadly applied and rushed
+federal intervention; and
+WHEREAS, Congress should instead focus on setting a strong federal
+floor of protections, while preserving state authority to go further, as
+needed, in addressing new harms in ways that are tailored to their
+constituents' needs: Now, therefore,
+Be it resolved by the House of Representatives of the State of Kansas:
+That we express our strong opposition to any federal legislation,
+executive order or federal policy that would preempt, freeze or
+otherwise restrict the state of Kansas from enacting, enforcing or
+modifying laws and regulations governing AI; and
+Be it further resolved: That we oppose any proposal to temporarily or
+permanently suspend Kansas' authority to regulate AI in any sector,
+including, but not limited to, areas of traditional state responsibility,
+such as:
+(a) State election administration and the prevention of election
+interference through AI-generated deepfakes, automated votertargeting tools and related technologies;
+(b) state court operations and the rules governing the use of AI in legal
+proceedings and judicial decision-making;
+(c) public safety and policing, including the use of AI-based
+surveillance and biometric identification technologies;
+(d) professional licensing and the regulation of professionals' use of AI
+tools;
+(e) employment practices and protections for Kansas workers from AIenabled discrimination;
+(f) housing and the prevention of AI-enabled discriminatory practices in
+housing markets;
+(g) healthcare and the regulation of AI systems used in medical
+decision-making;
+(h) consumer protection and the prevention of AI-generated fraud and
+identity theft;
+(i) environmental and land use regulation related to data center
+construction and operation; and
+(j) protecting the privacy of children and regulating AI companion
+applications; and
+Be it further resolved: That we reject any federal preemption proposal
+that:
+(a) Fails to include a clear exemption preserving state authority to
+enforce criminal laws against AI-enabled crimes, including the
+production of non-consensual synthetic media, identity fraud and
+election interference;
+(b) does not offer federal protections or minimum standards to replace
+
+HR 6023
+
+state authority, leaving Kansas residents in a regulatory vacuum;
+(c) uses ambiguous definitions of AI systems or AI regulation that
+invite litigation and regulatory paralysis;
+(d) allows private entities to enforce federal restrictions on state
+authority, subjecting Kansas to costly litigation;
+(e) conditions the receipt of federal funding, including, but not limited
+to, Broadband Equity Access and Deployment (BEAD) Program
+funds, on Kansas' refusal to enact or enforce AI regulations; or
+(f) attempts to achieve preemption through executive order, which
+exceeds presidential constitutional authority; and
+Be it further resolved: That we affirm the constitutional authority of the
+state of Kansas to regulate artificial intelligence within its borders and
+the responsibility of Kansas to protect its citizens from AI-related
+harms; and
+Be it further resolved: That nothing in this resolution shall be construed
+as endorsement of all AI regulations or opposition to reasonable
+federal AI standards that are paired with preservation of meaningful
+state authority; and
+Be it further resolved: That the Secretary of State shall send enrolled
+copies of this resolution to:
+(a) Each member of the Kansas congressional delegation;
+(b) the President of the United States;
+(c) the Speaker of the United States House of Representatives;
+(d) the President pro tempore of the United States Senate;
+(e) the chairpersons and ranking members of the United States House
+Committee on Energy and Commerce and the United States Senate
+Committee on Commerce, Science, and Transportation;
+(f) all state governors and state legislative leaders; and
+(g) the national media outlets.

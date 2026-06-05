@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law vests the Public Utilities Commission with regulatory authority over public utilities. Existing law authorizes the commission to fix the rates and charges for every public utility and requires that those rates and charges be just and reasonable.\n\nThis bill would require the commission to assess opportunities for rate structures to ensure data centers pay a reasonable share of their costs associated with transmission and distribution needs, identify mechanisms to ensure that data centers pay for their proportionate share of load increases and procurements needed to reliably serve their loads using nonemitting resources, and structure rates to alleviate cost pressures on residential ratepayers.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1168",
+    "legislative_session": "20252026",
+    "subject": [
+      "Datacenters",
+      "ratestructures"
+    ],
+    "title": "Data centers: rate structures."
+  },
+  "id": "SB1168",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass. (Ayes 5. Noes 2.) (May 14).",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1168"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1168/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1168/logs/20260514T000000Z_from_committee_do_pass_ayes_5_noes_2_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}
