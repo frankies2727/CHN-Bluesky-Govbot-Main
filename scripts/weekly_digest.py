@@ -42,6 +42,8 @@ from post_to_bluesky import (
     prepare_image_for_bluesky,
     save_raw_record,
     summarize,
+    summary_budget,
+    MIN_SUMMARY_CHARS,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -372,7 +374,11 @@ def _build_highlight_replies(client: BlueskyClient | None,
     replies: list[tuple[str, str, str, str, dict | None]] = []
     for b in highlights:
         ensure_english_fields(b)
-        summary = summarize(b)
+        # Digest replies use the bill's own title as the head (no headline
+        # rewrite), so budget against headline="" and ask the model to fit the
+        # leftover space rather than overrun into compose_post's trim.
+        budget = summary_budget(b, "")
+        summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, link, ec_title, ec_desc = compose_post(b, summary)
 
         thumb_blob = None

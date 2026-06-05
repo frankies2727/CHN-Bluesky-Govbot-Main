@@ -115,8 +115,12 @@ LINK_PREFIX = "🔗 "
 LINK_ANCHOR = "Read the full bill"
 
 # Titles at or below this length are used as-is in the post head; longer ones
-# get rewritten by the local model into a short plain-English headline.
-HEADLINE_THRESHOLD = 90
+# get rewritten by the local model into a short plain-English headline. Set
+# very low so virtually every real title is rephrased into punchy layman's
+# terms (and the freed head space goes to a fuller summary) — shorten_title
+# still bails to the raw title when there's no abstract to ground the rewrite,
+# so title-only records can't be hallucinated into something new.
+HEADLINE_THRESHOLD = 10
 HEADLINE_MAX_LEN = 70
 
 
@@ -807,6 +811,28 @@ def _strip_headline_echo(summary: str, headline: str) -> str:
     return rest[:1].upper() + rest[1:]
 
 
+# Connector / function words that read as dangling when a truncated summary
+# ends on them — dropped (with any trailing punctuation) before the ellipsis so
+# a cut never ships "…citing…" or "…disclose stocks and…".
+_DANGLING_TAIL_RE = re.compile(
+    r"[\s,;:]+(?:and|or|but|nor|the|a|an|of|to|for|with|by|on|in|at|from|as|"
+    r"that|which|who|whose|including|citing|such|plus|per|than|into|onto|upon|"
+    r"over|under|about|via|while|when|where|whether|because|so)$",
+    re.IGNORECASE,
+)
+
+
+def _drop_dangling_tail(s: str) -> str:
+    """Strip trailing dangling connectors/punctuation from a truncated string
+    so the ellipsis attaches to a content word, not "…, citing" or "… and"."""
+    s = s.rstrip(",;:- ")
+    prev = None
+    while prev != s:
+        prev = s
+        s = _DANGLING_TAIL_RE.sub("", s).rstrip(",;:- ")
+    return s
+
+
 def _smart_truncate(text: str, max_len: int) -> str:
     """Truncate to <= max_len, ending at a sentence or word boundary."""
     text = (text or "").strip()
@@ -820,8 +846,8 @@ def _smart_truncate(text: str, max_len: int) -> str:
             return cut[: idx + 1]
     idx = cut.rfind(" ")
     if idx >= floor:
-        return cut[:idx].rstrip(",;:- ") + "…"
-    return cut.rstrip(",;:- ") + "…"
+        return _drop_dangling_tail(cut[:idx]) + "…"
+    return _drop_dangling_tail(cut) + "…"
 
 
 def _first_sentence(text: str) -> str:
@@ -2106,6 +2132,33 @@ def link_for(b: dict) -> str:
 # Composition
 # ---------------------------------------------------------------------------
 
+# Below this floor the summary block is too short to add useful detail beyond
+# the headline — callers skip the LLM round-trip and compose without a summary.
+MIN_SUMMARY_CHARS = 60
+
+
+def summary_budget(b: dict, headline: str) -> int:
+    """Character budget available for the summary block in a Bluesky post,
+    given the head (emoji + state + id + display), the action line, and the
+    bill link that share the post. Returned so the caller can ask the LLM for
+    a summary that fits cleanly instead of relying on compose_post's post-hoc
+    trim — when that trim fires it lops the tail off the model's sentence at a
+    word boundary, which usually drops the most concrete clause (the "…include
+    stock and…" failure mode). Mirrors x_summary_budget in post_to_x.py."""
+    emoji = TOPIC.emoji_for(b)
+    state_label = b["state"] or "?"
+    display = best_display_text(b, headline=headline).strip()
+    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    head_len = len(prefix) + len(display)
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    action_block_len = len(f"\n\n{action_line}") if action_line else 0
+    link = link_for(b)
+    link_block_len = len(f"\n\n{LINK_PREFIX}{LINK_ANCHOR}") if link else 0
+    # The summary itself is preceded by "\n\n" (2 chars).
+    summary_sep_len = 2
+    return MAX_POST - head_len - action_block_len - link_block_len - summary_sep_len
+
+
 def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
     emoji = TOPIC.emoji_for(b)
     link = link_for(b)
@@ -2470,8 +2523,12 @@ def _post_forced_bill(records: list[dict]) -> int:
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
 
     ensure_english_fields(b)
-    summary = summarize(b)
+    # Headline first so the summary's character budget can reserve the exact
+    # head length, then ask the model for a summary that fits the leftover
+    # space instead of writing 240 chars that compose_post truncates mid-clause.
     headline = shorten_title(b)
+    budget = summary_budget(b, headline)
+    summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
     text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
 
     thumb_blob = None
@@ -2681,8 +2738,12 @@ def main() -> int:
 
     for b in to_post:
         ensure_english_fields(b)
-        summary = summarize(b)
+        # Headline first so the summary's character budget can reserve the exact
+        # head length, then ask the model for a summary that fits the leftover
+        # space (rather than a fixed 240 chars compose_post would truncate).
         headline = shorten_title(b)
+        budget = summary_budget(b, headline)
+        summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
 
         thumb_blob = None

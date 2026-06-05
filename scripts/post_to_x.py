@@ -29,6 +29,7 @@ from post_to_bluesky import (
     _slug,
     _smart_truncate,
     _strip_act_name_echo,
+    _strip_headline_echo,
     best_display_text,
     ensure_english_fields,
     extract_fields,
@@ -222,6 +223,9 @@ def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]
     summary = (summary or "").strip()
     # Drop a leading act name from the summary when it just echoes the headline.
     summary = _strip_act_name_echo(summary, display)
+    # Drop a whole leading sentence that just paraphrases the headline, matching
+    # Bluesky's compose_post so X doesn't ship a redundant restatement.
+    summary = _strip_headline_echo(summary, display)
 
     summary_block = (
         f"\n\n{summary}"
