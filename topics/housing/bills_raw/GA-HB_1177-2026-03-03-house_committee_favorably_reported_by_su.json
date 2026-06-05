@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 62 of Title 36 of the Official Code of Georgia Annotated, relating to development authorities, so as to provide that certain affordable housing uses of property qualify as projects that may be undertaken by development authorities; to provide for legislative findings and declarations; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1177",
+    "legislative_session": "2025_26",
+    "subject": [
+      "LOCAL GOVERNMENT",
+      "PROPERTY"
+    ],
+    "title": "Development authorities; certain affordable housing uses of property qualify as projects; provide"
+  },
+  "id": "HB 1177",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-03",
+      "description": "House Committee Favorably Reported By Substitute",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Governmental Affairs"
+        }
+      ]
+    },
+    "bill_id": "HB 1177"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1177/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1177/logs/20260303T000000Z_house_committee_favorably_reported_by_substitute.json"
+  },
+  "timestamp": "20260303T000000Z"
+}

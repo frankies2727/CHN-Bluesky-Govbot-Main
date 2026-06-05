@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1647",
+    "legislative_session": "114",
+    "subject": [
+      "Traffic Safety"
+    ],
+    "title": "Traffic Safety - As introduced, authorizes a law enforcement officer to seize and impound a motor vehicle in any county or municipality that has passed a resolution or ordinance authorizing the seizure and impoundment of a motor vehicle observed by law enforcement to have been used to commit the offense of drag racing or to flee after commission of the offense of drag racing subject to certain restrictions. - Amends TCA Title 6; Title 7; Title 16; Title 40 and Title 55, Chapter 10, Part 5."
+  },
+  "id": "SB 1647",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-21",
+      "description": "Passed on Second Consideration, refer to Senate Judiciary Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1647"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1647/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1647/logs/20260121T000000Z.classification.passage.upper.json"
+  }
+}

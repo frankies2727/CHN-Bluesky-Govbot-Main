@@ -1,0 +1,28 @@
+<BillNo> <Sponsor>
+
+SENATE BILL 1674
+By Massey
+AN ACT to amend Tennessee Code Annotated, Title 36,
+Chapter 1, Part 1 and Title 68, Chapter 11, Part 2,
+relative to voluntary surrendering of an infant.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF TENNESSEE:
+SECTION 1. Tennessee Code Annotated, Section 68-11-255(a)(2), is amended by
+inserting the language ", ambulance station that has staff scheduled twenty-four (24) hours a
+day," immediately after "a fire department that is staffed twenty-four (24) hours a day".
+SECTION 2. Tennessee Code Annotated, Section 68-11-255, is amended by deleting
+"is staffed" wherever it appears in subdivisions (a)(1), (a)(2), and (a)(5) and substituting "has
+staff scheduled".
+SECTION 3. Tennessee Code Annotated, Section 68-11-255(a)(4)(C), is amended by
+deleting the subdivision and substituting:
+(C) Approved by and located inside a participating hospital, fire station,
+ambulance station, police station, emergency communications center, or nursing home
+that:
+(i) Is licensed or otherwise legally operating in this state; and
+(ii) Has staff scheduled continuously on a twenty-four-hour basis every
+day by a licensed emergency medical services provider; and
+SECTION 4. Tennessee Code Annotated, Section 68-11-255(h), is amended by
+deleting the second sentence.
+SECTION 5. This act takes effect July 1, 2026, the public welfare requiring it.
+
+SB1674
+010916

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act updates Delaware’s Uniform Health Data laws.  \r\nThis Act corrects the form number of UB-82 to UB-04.\r\nThis Act provides that emergency department data is included in the data that the Hospital Discharge Technical Advisory Committee studies.\r\nFinally, this Act makes technical corrections to conform to the requirements of the Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 231",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO UNIFORM HEALTH DATA."
+  },
+  "id": "HB 231",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-19",
+      "description": "Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 231"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB231/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB231/logs/20260319T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260319T000000Z"
+}

@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2329",
+    "legislative_session": "2026",
+    "subject": [
+      "Appropriations",
+      "Judiciary, Division B"
+    ],
+    "title": "Mississippi Glacier (ICE) Act; provide grants to law enforcement agencies participating in the federal 287(g) program."
+  },
+  "id": "SB2329",
+  "log": {
+    "action": {
+      "date": "2026-02-02T06:00:00+00:00",
+      "description": "DR - TSDP: JB To AP",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2329"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2329/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2329/logs/20260202T060000Z_dr_tsdp_jb_to_ap.json"
+  },
+  "timestamp": "20260202T060000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act removes the 8% cap on net energy metering for customer-generation.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 239",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 26 OF THE DELAWARE CODE RELATING TO PUBLIC UTILITIES AND NET METERING."
+  },
+  "id": "SB 239",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-11",
+      "description": "Reported Out of Committee (Environment, Energy & Transportation) in Senate with 8 Favorable",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Environment, Energy & Transportation"
+        }
+      ]
+    },
+    "bill_id": "SB 239"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB239/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB239/logs/20260311T000000Z_reported_out_of_committee_environment_energy_transportation_in_senate_with_8_favorable.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

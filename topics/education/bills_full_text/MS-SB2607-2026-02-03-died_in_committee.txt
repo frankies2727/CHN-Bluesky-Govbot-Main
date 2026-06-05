@@ -1,0 +1,963 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To: Universities and
+Colleges
+
+Senator(s) England
+
+SENATE BILL NO. 2607
+
+AN ACT TO AMEND SECTION 31-7-14, MISSISSIPPI CODE OF 1972, TO
+ESTABLISH A PILOT PROGRAM AUTHORIZING THE USE OF PERFORMANCE-BASED
+CONTRACTS TO IMPROVE, OPERATE AND MAINTAIN PUBLIC FACILITIES ON
+COMMUNITY AND JUNIOR COLLEGE CAMPUSES; TO PROVIDE THAT THE PROGRAM
+SHALL OPERATE FOR NO MORE THAN SEVEN YEARS, SUBJECT TO EXTENSION
+OR EXPANSION BY THE LEGISLATURE; TO DEFINE "FACILITIES PERFORMANCE
+CONTRACT"; TO EXPAND THE DEFINITION OF "SAVINGS"; TO WAIVE THE
+PAYBACK PERIOD LIMITATION; TO PROVIDE THAT A FACILITIES
+PERFORMANCE CONTRACT UNDER THIS ACT MAY INCLUDE LONG-TERM
+OPERATION, MAINTENANCE, REPAIR, REPLACEMENT AND MANAGEMENT
+SERVICES; TO REQUIRE CERTAIN PROVISIONS IN EACH CONTRACT UNDER
+THIS ACT; TO PROVIDE FOR PROCUREMENT; TO CREATE REPORTING
+REQUIREMENTS; AND FOR RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+amended as follows:
+
+31-7-14.
+
+Section 31-7-14, Mississippi Code of 1972, is
+
+(1)
+
+(a)
+
+For purposes of this section, the
+
+following words and phrases shall have the meaning ascribed
+
+herein, unless the context clearly indicates otherwise:
+
+(i)
+
+Mississippi Development Authority.
+
+(ii)
+
+"Division" means the Energy Division of the
+
+"Energy services" or "energy efficient
+
+services" means energy efficiency equipment, services relating to
+S. B. No. 2607
+PAGE 1 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+G1/2
+
+the installation, operation and maintenance of equipment and
+
+improvements reasonably required to existing or new equipment and
+
+existing or new improvements and facilities including, but not
+
+limited to, heating, ventilation and air-conditioning systems,
+
+lighting, windows, insulation and energy management controls, life
+
+safety measures that provide long-term operating-cost reductions,
+
+building operation programs that reduce operating costs,
+
+alternative fuel motor vehicles including vehicles that have been
+
+converted to such and ancillary equipment related to or associated
+
+with the fueling of alternative fuel motor vehicles, or other
+
+energy-conservation-related improvements, including improvements
+
+or equipment related to renewable energy, water and other natural
+
+resources conservation, including accuracy and measurement of
+
+water distribution and/or consumption, and other equipment,
+
+services and improvements providing verifiable cost savings.
+
+(iii)
+
+"Energy services provider" means a person or
+
+business with a successful record of documented energy savings
+
+projects that is experienced in the design, implementation and
+
+installation of energy conservation measures; has the technical
+
+capabilities to verify that such measures generate energy and
+
+operational cost savings or enhanced revenues; has the ability to
+
+guarantee the savings; has the ability to secure or arrange the
+
+financing necessary to support the implementation of the energy
+
+conservation measures; and is approved by the division.
+
+S. B. No. 2607
+PAGE 2 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+Approval by the division of an energy services provider shall
+be granted in a prequalification process.
+Such energy services providers may petition the division to
+
+review their qualifications and deem them to be qualified for
+
+inclusion on a prequalification list if they meet the
+
+qualifications set forth by the division.
+
+Any energy services project that has been competitively bid
+
+and awarded prior to any change in law shall be allowed to
+
+continue under the laws current at the time the project was
+
+awarded.
+
+The division shall ensure that small businesses are not
+
+disadvantaged in the determination of a qualified energy services
+
+provider.
+
+(iv)
+
+"Entity" means the board of trustees of any
+
+public school district, junior college, institution of higher
+
+learning, publicly owned hospital, state agency or governmental
+
+authority under this chapter.
+
+(v)
+
+"Energy services contract" means an agreement
+
+to provide energy services which include, but are not limited to,
+
+the design, installation, financing and maintenance or management
+
+of the energy systems or equipment in order to improve its energy
+
+efficiency.
+
+actual savings realized from the equipment.
+
+Payments for the contract are not contingent upon the
+
+(vi)
+
+"Energy performance contract" means an
+
+agreement to provide energy services which includes, but is not
+S. B. No. 2607
+PAGE 3 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+limited to, the design, installation, financing and maintenance or
+
+management of the energy systems or equipment in order to improve
+
+its energy efficiency.
+
+(vii)
+
+"Shared-savings contract" means an agreement
+
+where the contractor and the entity each receive a preagreed
+
+percentage or dollar value of the energy cost savings over the
+
+life of the contract.
+
+(viii)
+
+"Reduce operating costs" means elimination
+
+of future expenses or avoidance of future replacement expenditures
+
+as a result of new equipment installed or services performed.
+
+Material savings, labor savings, cancelled maintenance contracts,
+
+et cetera, shall be considered as being viable to reduce operating
+
+costs.
+
+contract or energy services agreement solely at the discretion of
+
+the entity.
+
+of this section shall satisfy the requirements allowing use of an
+
+energy performance, energy services or shared-savings contract
+
+even if the sole expense being eliminated is maintenance expense.
+
+Reduce operating costs may be included in the performance
+
+A contract that otherwise satisfies the requirements
+
+(ix)
+
+"Capital cost avoidance" means planned
+
+capital improvement expenditures that will be avoided through
+
+implementation of the energy services project.
+
+avoidance may be included in an energy services contract or an
+
+energy performance contract solely at the discretion of the
+
+entity.
+
+avoidance or as a one-time avoidance in a specific year of the
+
+Capital cost
+
+Capital cost avoidance may be claimed as an annual
+
+S. B. No. 2607
+PAGE 4 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+contract term, depending upon the nature of the avoided capital
+
+cost.
+
+(x)
+
+"Alternative fuel motor vehicle" means a motor
+
+vehicle propelled by alternative fuel either as a dedicated
+
+alternative fuel vehicle, as a bi-fuel vehicle using alternative
+
+fuel as one of its fuels, or as a dual fuel vehicle using
+
+alternative fuel as one of its fuels.
+
+(xi)
+
+"Energy conservation measure" means the
+
+individual items or components of a large energy services or
+
+energy efficient services program.
+
+(xii)
+
+"Simple payback period" means the amount of
+
+time for the recuperation of the initial investment.
+
+payback period is calculated by dividing the initial investment by
+
+the annual savings.
+
+shall not exceed twenty (20) years.
+
+an individual energy conservation measure shall not be considered
+
+in any evaluation provided the simple payback period for the
+
+contract does not exceed twenty (20) years.
+
+(b)
+
+The simple
+
+The simple payback period for any contract
+The simple payback period of
+
+An entity may, using any sources of funding
+
+available to the entity, enter into an energy services contract,
+
+energy performance contract, shared-savings contract, any of which
+
+may contain a lease, or lease-purchase contract for energy
+
+efficiency equipment, services relating to the installation,
+
+operation and maintenance of equipment or improvements reasonably
+
+required to existing or new equipment and existing or new
+S. B. No. 2607
+PAGE 5 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+improvements and facilities and shall contract in accordance with
+
+the following provisions:
+
+(i)
+
+The division may assemble a list of
+
+prequalified energy services providers.
+
+objective criteria in the selection process.
+
+evaluation shall include, but shall not be limited to, the
+
+following factors:
+
+energy services provider in the area of design engineering,
+
+installation, maintenance and repairs associated with energy
+
+services or guaranteed energy performance contracts;
+
+qualifications including engineering depth and experience,
+
+post-installation project monitoring, data collection, and
+
+verification of and reporting of savings; overall project
+
+experience and qualifications; management capability; ability to
+
+access long-term sources of project financing; financial health
+
+and stability, litigation history with customers and other factors
+
+determined by the division to be relevant and appropriate and
+
+related to the ability to perform the project.
+
+either accept or reject an application for prequalification from
+
+an energy services provider within sixty (60) days after receipt.
+
+If the division fails to act within sixty (60) days from the date
+
+of receiving an application, then the application shall
+
+automatically be accepted and the energy services provider shall
+
+be added to the prequalified list.
+
+S. B. No. 2607
+PAGE 6 (aa\kr)
+
+The division shall use
+The criteria for
+
+to assess the capability of the qualified
+
+*SS08/R1251*
+
+The division shall
+
+~ OFFICIAL ~
+
+(ii)
+
+An entity shall publicly issue requests for
+
+proposals, advertised in the same manner as provided in Section
+
+31-7-13 for seeking competitive sealed bids, concerning the
+
+provision of energy efficiency services relating to the
+
+installation, operation and maintenance of equipment, improvements
+
+reasonably required to existing or new equipment and existing or
+
+new improvements and facilities or the design, installation,
+
+ownership, operation and maintenance of energy efficiency
+
+equipment.
+
+conditions relating to submission of proposals, evaluation and
+
+selection of proposals, financial terms, legal responsibilities,
+
+and any other matters as the entity determines to be appropriate
+
+for inclusion.
+
+Those requests for proposals shall contain terms and
+
+(iii)
+
+Upon receiving responses to the request for
+
+proposals, the entity may select the most qualified proposal or
+
+proposals on the basis of experience and qualifications of the
+
+proposers, the technical approach, the financial arrangements, the
+
+overall benefits to the entity and any other relevant factors
+
+determined to be appropriate.
+
+(iv)
+
+An entity shall negotiate and enter into
+
+contracts with the person, persons, firm or firms submitting the
+
+proposal selected as the most qualified under this section.
+
+(v)
+
+The annual rate of interest paid under any
+
+lease-purchase agreement authorized by this section shall not
+
+S. B. No. 2607
+PAGE 7 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+exceed the maximum interest rate to maturity on general obligation
+
+indebtedness permitted under Section 75-17-101.
+
+(vi)
+
+The maximum lease-purchase term for any
+
+equipment acquired under this section shall not exceed the lesser
+
+of twenty (20) years or the average useful life of the energy
+
+conservation measures from the date the energy conservation
+
+measures have been completed and accepted by the governmental
+
+unit.
+
+(vii)
+
+This subsection shall, with respect to the
+
+procurement of energy efficiency services and/or equipment,
+
+supersede any contradictory or conflicting provisions of Chapter
+
+7, Title 31, Mississippi Code of 1972, and other laws with respect
+
+to awarding public contracts.
+
+(2)
+
+(a)
+
+The division may contract with a party selected
+
+under this subsection to provide financing to entities and private
+
+"nonprofit" hospitals, to purchase energy efficiency equipment,
+
+services relating to the installation, operation and maintenance
+
+of equipment or improvements reasonably required to existing or
+
+new equipment and existing or new improvements and facilities or
+
+an energy saving performance contract, energy services contract,
+
+or lease-purchase basis.
+
+contract entered into by the division before May 15, 1992, shall
+
+be valid and binding when the contract was entered into under this
+
+subsection.
+
+S. B. No. 2607
+PAGE 8 (aa\kr)
+
+Any energy efficiency lease financing
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+(b)
+
+The entities and private "nonprofit" hospitals that
+
+decide to contract for energy efficiency equipment, services
+
+relating to the installation, operation and maintenance of
+
+equipment or improvements reasonably required to existing or new
+
+equipment and existing or new improvements and facilities on a
+
+lease, energy services contract or lease-purchase basis, may
+
+request financial assistance from the division.
+
+(c)
+
+The provisions of any energy efficiency
+
+lease-purchase agreements authorized under this subsection (2)
+
+shall comply with the requirements of subsection (1)(b)(v) of this
+
+section.
+
+energy efficiency services and/or equipment entered into under
+
+this section shall not exceed twenty (20) years, commencing on the
+
+completion of the installation of equipment or improvements under
+
+the contract.
+
+(d)
+
+The term of any lease or lease-purchase agreement for
+
+Any entity or private "nonprofit" hospital having
+
+approval of the division may borrow money in anticipation of
+
+entering into a lease-purchase agreement pursuant to subsection
+
+(2)(b) of this section.
+
+conditions as may be agreed upon by the borrowing entity and the
+
+party advancing interim funds; however, the principal on any
+
+borrowing shall be repaid within a period of time not to exceed
+
+one hundred eighty (180) days.
+
+paragraph (d), it is not necessary to publish notice of intention
+
+to do so or to secure the consent of the qualified electors,
+S. B. No. 2607
+PAGE 9 (aa\kr)
+
+Any borrowing may be upon terms and
+
+*SS08/R1251*
+
+In borrowing money under this
+
+~ OFFICIAL ~
+
+either by election or otherwise.
+
+between the parties and is not required to be publicly bid, may be
+
+evidenced by negotiable notes or lease and shall not be considered
+
+when computing any limitation of indebtedness of the borrowing
+
+entity established by law.
+
+incurring any borrowing shall not exceed the principal amount of
+
+the final contract or agreement approved by the division, and
+
+accepted by the borrowing entity, under subsection (2)(b) of this
+
+section.
+
+(e)
+
+Any borrowing may be negotiated
+
+The principal, interest and costs of
+
+This subsection (2) shall, with respect to the
+
+procurement of energy efficiency services and/or equipment,
+
+supersede the provisions of any contradictory or conflicting
+
+provisions of Chapter 7, Title 31, Mississippi Code of 1972, and
+
+other laws with respect to awarding public contracts.
+
+(3)
+
+All lease-purchase agreements authorized by this section
+
+and the income from those agreements shall be exempt from all
+
+taxation within the State of Mississippi, except gift, transfer
+
+and inheritance taxes.
+
+(4)
+
+(a)
+
+An entity may contract for energy efficiency
+
+equipment services relating to the installation, operation or
+
+maintenance of equipment or improvements reasonably required to
+
+existing or new equipment and existing or new improvements and
+
+facilities on a shared-savings basis or performance basis.
+
+(b)
+
+If an entity decides to enter into a contract for
+
+energy efficiency equipment, services relating to the
+S. B. No. 2607
+PAGE 10 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+installation, operation or maintenance of equipment or
+
+improvements reasonably required to existing or new equipment and
+
+existing or new improvements and facilities on a shared-savings
+
+basis or performance basis, the entity shall issue a request for
+
+proposals or a request for qualifications, as determined necessary
+
+by the division, in the same manner as prescribed under subsection
+
+(1)(b) of this section.
+
+writing of its intention to issue a request for proposals or a
+
+request for qualifications.
+
+(c)
+
+The entity shall notify the division in
+
+The terms of any shared-savings contract, energy
+
+services contract, or energy performance contract entered into
+
+under this section may not exceed twenty (20) years, commencing on
+
+the completion of the installation of equipment or improvements
+
+under the contract.
+
+(d)
+
+The terms of any shared-savings or energy
+
+performance contract entered into under this section must contain
+
+a guarantee of savings clause from the company providing energy
+
+efficiency equipment services relating to the installation,
+
+operation and maintenance of equipment or improvements reasonably
+
+required to existing or new equipment and existing or new
+
+improvements and facilities.
+
+(5)
+
+(a)
+
+By March 1 and September 1 of each year, each
+
+entity that enters into an energy performance contract or
+
+shared-savings contract shall report to the division its energy
+
+S. B. No. 2607
+PAGE 11 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+usage by meter in dollars and consumption by fuel type for the
+
+previous six-month period determined by the division.
+
+(b)
+
+The division shall remove qualified status of an
+
+energy services provider that fails to meet the reporting
+
+requirements of paragraph (a) of this subsection after two (2)
+
+such violations.
+
+(c)
+
+Any costs associated with the reporting made under
+
+this subsection (5) shall be paid by the energy services provider.
+(6)
+
+The contract may be construed to provide flexibility to
+
+public agencies in structuring agreements entered into hereunder
+
+so that economic benefits may be maximized.
+
+(7)
+
+(a)
+
+The Legislature finds that Mississippi's community
+
+and junior colleges face significant deferred maintenance, aging
+
+infrastructure and limited capital resources.
+
+this subsection to authorize a limited pilot program allowing the
+
+use of performance-based contracting to improve, operate and
+
+maintain public facilities through guaranteed cost savings and
+
+avoided capital expenditures.
+
+(b)
+
+It is the intent of
+
+There is established within the Mississippi
+
+Community College Board a pilot program permitting the board to
+
+authorize community and junior colleges to enter into facilities
+
+performance contracts pursuant to this subsection.
+
+shall operate for no more than seven (7) years from the effective
+
+date of this act, subject to extension or expansion by the
+
+S. B. No. 2607
+PAGE 12 (aa\kr)
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+The program
+
+Legislature.
+
+valid for their full term.
+
+(c)
+
+Contracts executed prior to expiration shall remain
+
+For the purposes of this subsection, a "facilities
+
+performance contract" means an agreement with a qualified provider
+
+under which the provider designs, finances, installs, operates,
+
+maintains, repairs, replaces or manages one or more facility
+
+systems or infrastructure improvements, and guarantees cost
+
+savings sufficient to pay all or a portion of the contract costs
+
+over the term of the agreement.
+
+(d)
+
+For contracts entered into under this subsection,
+
+"cost savings" may include, but shall not be limited to:
+
+(i)
+
+Energy and utility cost savings;
+
+(ii)
+
+Operational and maintenance savings;
+
+(iii)
+
+Avoided or deferred capital expenditures;
+
+(iv)
+
+Reduced lifecycle costs;
+
+(v)
+
+Avoided emergency repairs or equipment
+
+(vi)
+
+Other measurable and verifiable cost
+
+failures; and
+
+reductions approved by the governing board.
+(e)
+
+The requirement in this section that a performance
+
+contract achieve a simple payback within twenty (20) years shall
+
+not apply to facilities performance contracts executed pursuant to
+
+this subsection (7).
+
+to exceed the useful life of the improvements or services
+
+provided, as determined by the governing board.
+S. B. No. 2607
+PAGE 13 (aa\kr)
+
+Contract terms may extend for a period not
+
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+(f)
+
+A facilities performance contract under this
+
+subsection may include long-term operation, maintenance, repair,
+
+replacement and management services, provided that such services
+
+are directly related to achieving the guaranteed savings and
+
+performance outcomes.
+
+(g)
+
+Each facilities performance contract shall include:
+(i)
+
+A written guarantee of cost savings from the
+
+(ii)
+
+An annual reconciliation of guaranteed
+
+savings versus actual savings; and
+
+(iii)
+
+consistent with industry standards.
+
+provider;
+
+(h)
+
+Measurement and verification procedures
+
+Contracts under this subsection may be procured
+
+using a qualifications-based or best-value selection process as
+
+determined by each community and junior college, and these
+
+contracts shall not be subject to competitive bidding requirements
+
+applicable to construction contracts.
+
+(i)
+
+No later than June 30 each year, each participating
+
+community college shall submit an annual report to the Mississippi
+
+Community College Board and the Legislature detailing:
+
+(i)
+
+Contract scope and term;
+
+(ii)
+
+Guaranteed versus realized savings;
+
+(iii)
+
+Capital expenditures avoided; and
+
+(iv)
+
+Facility condition outcomes.
+
+( * * *8)
+S. B. No. 2607
+PAGE 14 (aa\kr)
+
+This section shall stand repealed on July 1, 2028.
+*SS08/R1251*
+
+~ OFFICIAL ~
+
+SECTION 2.
+
+This act shall take effect and be in force from
+
+and after July 1, 2026.
+
+S. B. No. 2607
+PAGE 15 (aa\kr)
+
+~ OFFICIAL ~
+ST: Pilot program; establish for community and
+junior college facilities performance
+contracting.
+
+*SS08/R1251*

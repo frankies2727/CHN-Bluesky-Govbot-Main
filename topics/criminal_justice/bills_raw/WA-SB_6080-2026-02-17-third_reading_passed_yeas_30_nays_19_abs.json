@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6080",
+    "legislative_session": "2025-2026",
+    "title": "Concerning contracts between the United States and county and municipal jails for committing or confining individuals in federal custody."
+  },
+  "id": "SB 6080",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-02-17",
+      "description": "Third reading, passed; yeas, 30; nays, 19; absent, 0; excused, 0.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 6080"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6080/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6080/logs/20260217T000000Z_third_reading_passed_yeas_30_nays_19_absent_0_excused_0.json"
+  },
+  "timestamp": "20260217T000000Z"
+}

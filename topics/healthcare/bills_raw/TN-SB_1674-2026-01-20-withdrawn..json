@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1674",
+    "legislative_session": "114",
+    "subject": [
+      "Children"
+    ],
+    "title": "Children - As introduced, revises various provisions governing surrendering custody of unwanted infants, including adding an ambulance station that has staff scheduled 24 hours a day to the list of facilities that must receive possession of a newborn infant left on the premises with an employee or member of the professional medical community if certain listed conditions are met.  - Amends TCA Title 36, Chapter 1, Part 1 and Title 68, Chapter 11, Part 2."
+  },
+  "id": "SB 1674",
+  "log": {
+    "action": {
+      "classification": [
+        "withdrawal"
+      ],
+      "date": "2026-01-20",
+      "description": "Withdrawn.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1674"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1674/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1674/logs/20260120T000000Z_withdrawn.json"
+  },
+  "timestamp": "20260120T000000Z"
+}

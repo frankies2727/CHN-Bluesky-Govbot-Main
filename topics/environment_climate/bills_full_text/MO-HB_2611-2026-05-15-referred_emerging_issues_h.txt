@@ -1,0 +1,122 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 2611
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE VEIT.
+6327H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapter 701, RSMo, by adding thereto one new section relating to battery
+recycling, with penalty provisions.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapter 701, RSMo, is amended by adding thereto one new section, to be
+known as section 701.155, to read as follows:
+701.155. 1. This section shall be known and may be cited as the "Lithium
+Battery Recycling and Safety Act".
+2. As used in this section, the following terms shall mean:
+(1) "Battery", a medium-format rechargeable battery with a rating between
+three hundred to two thousand watt-hours, a lithium-ion rechargeable battery that uses
+lithium ions to store energy, or a portable battery that can be carried by hand and is
+used to charge or operate electronic devices. A "Battery" does not mean:
+(a) A battery contained within a medical device;
+(b) A battery that contains an electrolyte as a free liquid;
+(c) A lead-acid battery of any size;
+(d) A battery that is a component of a motor vehicle or intended for use
+exclusively in a motor vehicle; or
+(e) A battery that is not intended or designed to be removed from any product
+that is manufactured, distributed, or sold in the state;
+(2) "Battery recycling program" or "program", a battery recycling program
+sponsored by the department where the department provides or contracts for the
+transport, processing, or recycling of batteries;
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+(3) "Collection site", any location, event, or other department-approved
+collection service at which batteries are accepted into the battery recycling program;
+(4) "Department", the department of natural resources;
+(5) "Director", the director of the department of natural resources or the
+director's designee;
+(6) "Representative organization", a nonprofit organization established to
+implement the battery recycling program.
+3. Any person or entity engaged in the manufacture, distribution, or sale of
+batteries in the state shall establish or join a representative organization. The
+representative organization shall develop and submit to the director for the director's
+approval a plan for the establishment of a battery recycling program no less than every
+five years. The plan shall:
+(1) List contact information of each person or entity engaged in the
+manufacture, distribution, or sale of batteries and battery brands covered by the
+program;
+(2) Describe the education and communication strategies used to promote
+participation in the battery recycling program;
+(3) Describe the methods of funding the battery recycling program in a manner
+that equitably distributes the program's costs between the members of the
+representative organization;
+(4) Establish battery collection rate goals for every year for the first three years
+after the implementation of the program that are based on the estimated total weight of
+batteries that have been sold in the state in the previous three calendar years prior to the
+implementation of the program;
+(5) Identify proposed battery collection service providers, including sorters,
+transporters, or processors, to be used by the program for the final disposition of
+batteries;
+(6) Establish a goal for the number and geographic distribution of sites for the
+collection of batteries;
+(7) Describe how the program will compensate service providers for activities
+conducted under the program including, but not limited to, collection, transportation,
+and final disposition of batteries;
+(8) Describe the public outreach methods used to increase the public awareness
+of the program; and
+(9) List any other information the department deems relevant.
+4. The department shall enforce the representative organization's compliance
+with the plan under subsection 3 of this section and may, by regulation or by using
+
+existing regulations promulgated under sections 260.230, 260.240, and 260.249, establish
+enforcement procedures and penalties.
+5. After the program is implemented, a person or an entity shall not
+manufacture, distribute, sell, or make available for sale batteries in the state unless
+the person or entity participates in a battery recycling program. A person or an entity
+shall not charge a point-of-sale fee to consumers to cover the costs of the battery
+recycling program.
+6. After the program is implemented, all batteries shall be disposed of only into
+receptacles at collection sites approved by the program. A battery shall not be disposed
+of into any household waste or household recycling receptacle or container.
+7. A person or an entity engaged in the manufacture, distribution, or sale of
+batteries shall be deemed to be in compliance with this section if on the date a battery is
+offered for sale, the person or entity is listed on the department's website as being
+included in the program.
+8. Any person may report violations of this section to the department. If the
+department finds that the person or entity engaged in the manufacture, distribution, or
+sale of batteries violated provisions of this section, the department shall ask the attorney
+general to commence a civil action in a court of competent jurisdiction. If the court
+finds that the person or entity violated provisions of this section, the court may grant
+injunctive relief, damages, attorney's fees, and any other relief the court finds
+appropriate.
+9. By June 1, 2028, and by June first of each following year, a representative
+organization shall submit an annual report to the department covering the preceding
+calendar year of the battery recycling program. The report shall contain the following:
+(1) An independent financial assessment of the program by a third-party
+assessor, including a breakdown of the program's expenses including, but not limited to,
+collection expenses, recycling expenses, and public outreach expenses;
+(2) The annual weight of batteries collected under the program;
+(3) The collection rate achieved under the program, including a description of
+how the collection rate was calculated;
+(4) A list of all facilities used in the collection, transportation, processing, or
+disposition of batteries;
+(5) The estimated aggregate sales of batteries sold in the state; and
+(6) Any other information the department deems relevant.
+10. The report under subsection 9 of this section shall be posted on the
+department's website and on the websites of the representative organizations.
+
+11. The department shall promulgate rules to implement the provisions of this
+section. Any rule or portion of a rule, as that term is defined in section 536.010, that is
+created under the authority delegated in this section shall become effective only if it
+complies with and is subject to all of the provisions of chapter 536 and, if applicable,
+section 536.028. This section and chapter 536 are nonseverable and if any of the powers
+vested with the general assembly pursuant to chapter 536 to review, to delay the
+effective date, or to disapprove and annul a rule are subsequently held unconstitutional,
+then the grant of rulemaking authority and any rule proposed or adopted after August
+28, 2026, shall be invalid and void.
+✔

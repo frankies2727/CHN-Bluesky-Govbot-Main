@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Sylvia of Fairhaven and Senator Montigny, a joint petition (accompanied by bill, House, No. 4234) of Mark D. Sylvia and Mark C. Montigny (by vote of the town) that the town of Fairhaven be authorized to appoint retired police officers as special police officers in said town.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4234",
+    "legislative_session": "194th",
+    "title": "An Act relative to the appointment of retired police officers as special police officers in the town of Fairhaven"
+  },
+  "id": "H4234",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-29",
+      "description": "Signed by the Governor, Chapter 90 of the Acts of 2026",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "H4234"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4234/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4234/logs/20260629T000000Z_signed_by_the_governor_chapter_90_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260629T000000Z"
+}
