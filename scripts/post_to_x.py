@@ -129,6 +129,56 @@ def save_raw_record(b: dict) -> None:
 # Composition
 # ---------------------------------------------------------------------------
 
+# X enforces its 280 cap with twitter-text's *weighted* character count, not a
+# raw code-point count. Most code points weigh 1, but anything outside a few
+# Latin / General-Punctuation ranges weighs 2 — that includes essentially all
+# emoji, the ₿ symbol (U+20BF), the … ellipsis (U+2026), and CJK text. Python's
+# len() weighs every code point as 1, so a post that len()-measures at exactly
+# 280 can be 281-282 by X's count and bounce (the 403 / over-limit errors we
+# see). x_weighted_len mirrors X's algorithm so every cap check below matches
+# what X actually enforces.
+_X_LIGHT_RANGES = ((0, 4351), (8192, 8205), (8208, 8223), (8242, 8247))
+
+
+def x_weighted_len(text: str) -> int:
+    total = 0
+    for ch in text:
+        cp = ord(ch)
+        # Variation selectors (e.g. U+FE0F in "⚖️" / "✈️") have no width of
+        # their own — they're folded into the preceding emoji, which X already
+        # counts as a single weight-2 glyph. Count them as 0 so a base+selector
+        # emoji totals 2 (matching X) rather than 4.
+        if 0xFE00 <= cp <= 0xFE0F:
+            continue
+        if any(lo <= cp <= hi for lo, hi in _X_LIGHT_RANGES):
+            total += 1
+        else:
+            total += 2
+    return total
+
+
+def _weighted_truncate(text: str, max_weight: int) -> str:
+    """Like _smart_truncate, but the result's X *weighted* length is
+    guaranteed <= max_weight (not just its code-point len). Needed because the
+    model's summary can itself contain weight-2 code points (…, emoji, CJK)
+    that len()-based truncation would undercount and let slip over the cap."""
+    text = (text or "").strip()
+    if max_weight <= 0:
+        return ""
+    if x_weighted_len(text) <= max_weight:
+        return text
+    # Weighted length >= code-point len, so a fitting prefix has at most
+    # max_weight code points. Start from that guess and shrink until the
+    # (word-boundary, possibly …-suffixed) cut fits X's weighted count.
+    n = min(len(text), max_weight)
+    while n > 0:
+        cut = _smart_truncate(text, n)
+        if x_weighted_len(cut) <= max_weight:
+            return cut
+        n -= 1
+    return ""
+
+
 def x_summary_budget(b: dict, headline: str) -> int:
     """Character budget available for the summary block inside an X post,
     given the head (emoji + state + id + display), the action line, and
@@ -141,11 +191,11 @@ def x_summary_budget(b: dict, headline: str) -> int:
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
     prefix = f"{emoji} {state_label} {b['identifier']} — "
-    head_len = len(prefix) + len(display)
+    head_len = x_weighted_len(prefix) + x_weighted_len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
-    action_block_len = len(f"\n\n{action_line}") if action_line else 0
+    action_block_len = x_weighted_len(f"\n\n{action_line}") if action_line else 0
     url = link_for(b)
-    notice_block_len = len(REPLY_NOTICE_BLOCK) if url else 0
+    notice_block_len = x_weighted_len(REPLY_NOTICE_BLOCK) if url else 0
     # The summary itself is preceded by "\n\n" (2 chars). Anything below
     # MIN_SUMMARY_CHARS isn't worth asking the model for — drop the block.
     summary_sep_len = 2
@@ -182,7 +232,6 @@ def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]
     action_block = f"\n\n{action_line}" if action_line else ""
 
     prefix = f"{emoji} {state_label} {b['identifier']} — "
-    prefix_len = len(prefix)
     head = f"{prefix}{display}"
 
     def assemble(h: str, s: str, a: str, n: str) -> str:
@@ -191,35 +240,34 @@ def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]
     text = assemble(head, summary_block, action_block, notice_block)
 
     # Trim order matches Bluesky: summary → display in head → action desc.
-    if len(text) > MAX_TWEET and summary_block:
-        overflow = len(text) - MAX_TWEET
-        new_len = max(0, len(summary) - overflow - 1)
-        if new_len > 20:
-            summary = _smart_truncate(summary, new_len + 1)
-            summary_block = f"\n\n{summary}"
-        else:
-            summary_block = ""
+    # Every cap check uses X's weighted character count (x_weighted_len) and
+    # every cut goes through _weighted_truncate, so weight-2 code points
+    # (emoji, …, ₿, CJK) can't push the post past X's real 280 limit the way
+    # raw len() math silently let them.
+    if x_weighted_len(text) > MAX_TWEET and summary_block:
+        fixed = x_weighted_len(assemble(head, "\n\n", action_block, notice_block))
+        summary = _weighted_truncate(summary, MAX_TWEET - fixed)
+        summary_block = f"\n\n{summary}" if len(summary) > 20 else ""
         text = assemble(head, summary_block, action_block, notice_block)
 
-    if len(text) > MAX_TWEET:
-        avail = MAX_TWEET - len(notice_block) - len(summary_block) - len(action_block) - prefix_len - 1
-        if avail > 0:
-            display_trimmed = _smart_truncate(display, avail + 1)
-        else:
-            display_trimmed = ""
+    if x_weighted_len(text) > MAX_TWEET:
+        fixed = x_weighted_len(assemble(prefix, summary_block, action_block, notice_block))
+        display_trimmed = _weighted_truncate(display, MAX_TWEET - fixed)
         head = f"{prefix}{display_trimmed}".rstrip(" —")
         text = assemble(head, summary_block, action_block, notice_block)
 
-    if len(text) > MAX_TWEET and action_block and action_line:
+    if x_weighted_len(text) > MAX_TWEET and action_block and action_line:
         nice_date = _format_date(b["action_date"])
         if nice_date:
             date_prefix = f"{nice_date}: "
             if action_line.startswith(date_prefix):
                 desc_part = action_line[len(date_prefix):].rstrip(".!?")
-                overflow = len(text) - MAX_TWEET
-                new_len = max(0, len(desc_part) - overflow - 1)
-                if new_len > 8:
-                    action_line = date_prefix + _smart_truncate(desc_part, new_len + 1)
+                fixed = x_weighted_len(
+                    assemble(head, summary_block, f"\n\n{date_prefix}", notice_block)
+                )
+                new_desc = _weighted_truncate(desc_part, MAX_TWEET - fixed)
+                if len(new_desc) > 8:
+                    action_line = date_prefix + new_desc
                     action_block = f"\n\n{action_line}"
                 else:
                     action_line = ""
@@ -252,7 +300,7 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "") -> 
     still recorded as posted and the URL ends up only missing from the
     thread (better than re-posting the whole bill on the next run)."""
     if DRY_RUN or client is None:
-        print(f"  [DRY RUN] skipping tweet ({len(text)} chars)")
+        print(f"  [DRY RUN] skipping tweet ({x_weighted_len(text)} weighted chars)")
         if reply_url:
             print(f"  [DRY RUN] skipping link reply: {reply_url}")
         return True
