@@ -807,6 +807,28 @@ def _strip_headline_echo(summary: str, headline: str) -> str:
     return rest[:1].upper() + rest[1:]
 
 
+# Connector / function words that read as dangling when a truncated summary
+# ends on them — dropped (with any trailing punctuation) before the ellipsis so
+# a cut never ships "…citing…" or "…disclose stocks and…".
+_DANGLING_TAIL_RE = re.compile(
+    r"[\s,;:]+(?:and|or|but|nor|the|a|an|of|to|for|with|by|on|in|at|from|as|"
+    r"that|which|who|whose|including|citing|such|plus|per|than|into|onto|upon|"
+    r"over|under|about|via|while|when|where|whether|because|so)$",
+    re.IGNORECASE,
+)
+
+
+def _drop_dangling_tail(s: str) -> str:
+    """Strip trailing dangling connectors/punctuation from a truncated string
+    so the ellipsis attaches to a content word, not "…, citing" or "… and"."""
+    s = s.rstrip(",;:- ")
+    prev = None
+    while prev != s:
+        prev = s
+        s = _DANGLING_TAIL_RE.sub("", s).rstrip(",;:- ")
+    return s
+
+
 def _smart_truncate(text: str, max_len: int) -> str:
     """Truncate to <= max_len, ending at a sentence or word boundary."""
     text = (text or "").strip()
@@ -820,8 +842,8 @@ def _smart_truncate(text: str, max_len: int) -> str:
             return cut[: idx + 1]
     idx = cut.rfind(" ")
     if idx >= floor:
-        return cut[:idx].rstrip(",;:- ") + "…"
-    return cut.rstrip(",;:- ") + "…"
+        return _drop_dangling_tail(cut[:idx]) + "…"
+    return _drop_dangling_tail(cut) + "…"
 
 
 def _first_sentence(text: str) -> str:
