@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3522",
+    "legislative_session": "2026",
+    "subject": [
+      "LICENSES - DRIVER'S"
+    ],
+    "title": "Requires the Missouri driver's license written examination to be administered in English and prohibits the use of translators"
+  },
+  "id": "HB 3522",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3522"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3522/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3522/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

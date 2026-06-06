@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires that a contract advertised after September 30, 2026, relating to a public works project (project) with an aggregate cost of $5 million or more must include a project labor agreement with the Delaware Building and Construction Trades Council unless the project receives federal funding, the project is for highway construction, or there was only 1 bid for the craft under the contract. \r\n\r\nA project labor agreement is a type of collective bargaining agreement in the construction industry that is generally negotiated before construction begins. Project labor agreements are intended to provide a legally binding and enforceable contract primarily related to labor conditions and labor-management relations.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 241",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS."
+  },
+  "id": "SB 241",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-11",
+      "description": "Reported Out of Committee (Labor) in Senate with 4 Favorable",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Labor"
+        }
+      ]
+    },
+    "bill_id": "SB 241"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB241/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB241/logs/20260311T000000Z_reported_out_of_committee_labor_in_senate_with_4_favorable.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

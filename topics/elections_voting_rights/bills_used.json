@@ -54,6 +54,12 @@
     "FL|HB 991|2026-04-01|Approved by Governor",
     "FL|HB 991|2026-04-02|Chapter No. 2026-26",
     "FL|SB 1598|2026-03-13|Died in Ethics and Elections",
+    "FL|SB 748|2026-02-19|",
+    "FL|SB 748|2026-02-19|Immediately certified",
+    "FL|SB 748|2026-02-19|In Messages",
+    "FL|SB 748|2026-02-19|Passed; YEAS 37 NAYS 0",
+    "FL|SB 748|2026-02-19|Read 2nd time",
+    "FL|SB 748|2026-02-19|Read 3rd time",
     "FL|SB 748|2026-03-13|Died in Messages",
     "GA|HB 1093|2026-03-19|Act 373",
     "GA|HB 1093|2026-03-19|House Date Signed by Governor",
@@ -109,12 +115,13 @@
     "MS|HB699|2026-02-03|Died In Committee",
     "MS|HB732|2026-02-03|Died In Committee",
     "MS|HB793|2026-02-03|Died In Committee",
+    "MS|HB81|2026-02-03|Died In Committee",
     "MS|HB859|2026-01-29|Title Suff Do Pass",
     "MS|SB2034|2026-02-03|Died In Committee",
     "NJ|A1196|2026-01-13|WITHDRAWN APP P.L.2025, c.204.",
     "NJ|A1555|2026-01-13|WITHDRAWN APP P.L.2025, c.322."
   ],
-  "last_run": "2026-06-05T10:51:02.179632+00:00",
+  "last_run": "2026-06-06T09:28:53.772973+00:00",
   "state_last_posted": {
     "MO": "2026-06-04T10:40:12.862606+00:00",
     "GA": "2026-06-01T12:33:45.913654+00:00",
@@ -123,8 +130,8 @@
     "CA": "2026-06-03T11:44:17.827037+00:00",
     "KS": "2026-06-05T10:48:37.544037+00:00",
     "AL": "2026-05-27T16:26:07.303383+00:00",
-    "FL": "2026-06-04T10:40:12.862606+00:00",
-    "MS": "2026-06-05T10:48:37.544037+00:00",
+    "FL": "2026-06-06T09:24:05.710212+00:00",
+    "MS": "2026-06-06T09:24:05.710212+00:00",
     "DE": "2026-06-01T00:15:25.541521+00:00"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the Department of Parks and Recreation to issue a park pass for free use of all park facilities in the state park system to a veteran of war in which the United States has been, or may be, engaged, who is a resident of this state, who presents to the department proof of a disability, proof of being held captive as a prisoner of war, or proof of being a recipient of a Congressional Medal of Honor, and proof of an honorable discharge from service.\n\nThis bill would require an eligible Gold Star Family member, as defined, upon presentation of proof to the department, to be issued a pass for use of all facilities, including boat launching facilities, in units of the state park system.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB893",
+    "legislative_session": "20252026",
+    "subject": [
+      "GoldStarFamilymembers",
+      "Stateparks",
+      "facilitiespass"
+    ],
+    "title": "State parks: facilities pass: Gold Star Family members."
+  },
+  "id": "SB893",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "May 14 hearing: Held in committee and under submission.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB893"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB893/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB893/logs/20260514T000000Z_may_14_hearing_held_in_committee_and_under_submission.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

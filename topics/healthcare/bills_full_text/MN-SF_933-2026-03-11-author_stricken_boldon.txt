@@ -1,0 +1,3567 @@
+SGS/AC​
+
+as introduced​
+
+SENATE​
+STATE OF MINNESOTA​
+NINETY-FOURTH SESSION​
+
+S.F. No. 933​
+
+(SENATE AUTHORS: CWODZINSKI, Gustafson, Clark and Champion)​
+DATE​
+D-PG​
+OFFICIAL STATUS​
+02/03/2025​
+258​ Introduction and first reading​
+Referred to Commerce and Consumer Protection​
+02/06/2025​
+316​ Authors added Clark; Boldon​
+02/10/2025​
+346​ Author added Champion​
+348​ Withdrawn and re-referred to Health and Human Services​
+03/11/2026​
+6599​ Author stricken Boldon​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+1.10
+
+relating to health; guaranteeing that health care is available and affordable for​
+every Minnesotan; establishing the Minnesota Health Plan, Minnesota Health​
+Board, Minnesota Health Fund, Office of Health Quality and Planning, ombudsman​
+for patient advocacy, and auditor general for the Minnesota Health Plan; requesting​
+an Affordable Care Act 1332 waiver; authorizing rulemaking; making conforming​
+changes; requiring a report; appropriating money; amending Minnesota Statutes​
+2024, sections 13.3806, by adding a subdivision; 14.03, subdivisions 2, 3;​
+15A.0815, subdivision 2; proposing coding for new law as Minnesota Statutes,​
+chapter 62X.​
+
+1.11
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+
+1.12
+
+ARTICLE 1​
+
+1.13
+
+MINNESOTA HEALTH PLAN​
+
+1.14
+
+Section 1. [62X.01] HEALTH PLAN REQUIREMENTS.​
+
+1.15
+1.16
+
+In order to keep Minnesota residents healthy and provide the best quality of health care,​
+the Minnesota Health Plan must:​
+
+1.17
+
+(1) ensure all Minnesota residents are covered;​
+
+1.18
+
+(2) cover all necessary care, including medical, dental, vision and hearing, mental health,​
+
+1.19
+
+chemical dependency treatment, prescription drugs, medical equipment and supplies,​
+
+1.20
+
+long-term care, and home care;​
+
+1.21
+
+(3) allow patients to choose their providers;​
+
+1.22
+
+(4) reduce costs by negotiating fair prices and by cutting administrative bureaucracy,​
+
+1.23
+
+not by restricting or denying care;​
+
+Article 1 Section 1.​
+
+1​
+
+2.1
+2.2
+
+SGS/AC​
+
+as introduced​
+
+(5) be affordable to all through premiums based on ability to pay and elimination of​
+co-pays;​
+
+2.3
+
+(6) focus on preventive care and early intervention to improve health;​
+
+2.4
+
+(7) ensure that there are enough health care providers to guarantee timely access to care;​
+
+2.5
+
+(8) continue Minnesota's leadership in medical education, research, and technology;​
+
+2.6
+
+(9) provide adequate and timely payments to providers; and​
+
+2.7
+
+(10) use a simple funding and payment system.​
+
+2.8
+
+Sec. 2. [62X.02] MINNESOTA HEALTH PLAN GENERAL PROVISIONS.​
+
+2.9
+
+Subdivision 1. Short title. This chapter may be cited as the "Minnesota Health Plan."​
+
+2.10
+
+Subd. 2. Purpose. The Minnesota Health Plan shall provide all medically necessary​
+
+2.11
+
+health care services for all Minnesota residents in a manner that meets the requirements in​
+
+2.12
+
+section 62X.01.​
+
+2.13
+2.14
+
+Subd. 3. Definitions. As used in this chapter, the following terms have the meanings​
+provided:​
+
+2.15
+
+(a) "Board" means the Minnesota Health Board.​
+
+2.16
+
+(b) "Plan" means the Minnesota Health Plan.​
+
+2.17
+
+(c) "Fund" means the Minnesota Health Fund.​
+
+2.18
+
+(d) "Medically necessary" means services or supplies needed to promote health and to​
+
+2.19
+
+prevent, diagnose, or treat a particular patient's medical condition that meet accepted​
+
+2.20
+
+standards of medical practice within a provider's professional peer group and geographic​
+
+2.21
+
+region.​
+
+2.22
+2.23
+
+(e) "Institutional provider" means an inpatient hospital, nursing facility, rehabilitation​
+facility, and other health care facilities that provide overnight care.​
+
+2.24
+
+(f) "Noninstitutional provider" means individual providers, group practices, clinics,​
+
+2.25
+
+outpatient surgical centers, imaging centers, and other health facilities that do not provide​
+
+2.26
+
+overnight care.​
+
+Article 1 Sec. 2.​
+
+2​
+
+SGS/AC​
+
+3.1
+
+ARTICLE 2​
+
+3.2
+
+ELIGIBILITY​
+
+3.3
+3.4
+3.5
+
+as introduced​
+
+Section 1. [62X.03] ELIGIBILITY.​
+Subdivision 1. Residency. All Minnesota residents are eligible for the Minnesota Health​
+Plan.​
+
+3.6
+
+Subd. 2. Enrollment; identification. The Minnesota Health Board shall establish a​
+
+3.7
+
+procedure to enroll residents and provide each with identification that may be used by health​
+
+3.8
+
+care providers to confirm eligibility for services. The application for enrollment shall be no​
+
+3.9
+
+more than two pages.​
+
+3.10
+
+Subd. 3. Premium remittance. All Minnesota residents must pay the plan premiums​
+
+3.11
+
+beginning on the date when the resident becomes eligible under the plan. Minnesota residents​
+
+3.12
+
+are eligible for the plan even if they have not filled out the enrollment form.​
+
+3.13
+
+Subd. 4. Residents temporarily out of state. (a) The Minnesota Health Plan shall​
+
+3.14
+
+provide health care coverage to Minnesota residents who are temporarily out of the state​
+
+3.15
+
+who intend to return and reside in Minnesota.​
+
+3.16
+
+(b) Coverage for emergency care obtained out of state shall be at prevailing local rates.​
+
+3.17
+
+Coverage for nonemergency care obtained out of state, or routine care obtained out of state​
+
+3.18
+
+by people living in border communities, shall be according to rates and conditions established​
+
+3.19
+
+by the board.​
+
+3.20
+
+Subd. 5. Visitors. Nonresidents visiting Minnesota shall be billed by the board for all​
+
+3.21
+
+services received under the Minnesota Health Plan. The board may enter into​
+
+3.22
+
+intergovernmental arrangements or contracts with other states and countries to provide​
+
+3.23
+
+reciprocal coverage for temporary visitors.​
+
+3.24
+3.25
+
+Subd. 6. Nonresident employed in Minnesota. The board shall extend eligibility to​
+nonresidents employed in Minnesota under a premium schedule set by the board.​
+
+3.26
+
+Subd. 7. Business outside of Minnesota employing Minnesota residents. The board​
+
+3.27
+
+shall apply for a federal waiver to collect the employer contribution mandated by federal​
+
+3.28
+
+law.​
+
+3.29
+3.30
+
+Subd. 8. Retiree benefits. All persons who are eligible for retiree medical benefits under​
+an employer-employee contract shall remain eligible for those benefits.​
+
+3.31
+
+Subd. 9. Presumptive eligibility. (a) An individual is presumed eligible for coverage​
+
+3.32
+
+under the Minnesota Health Plan if the individual arrives at a health facility unconscious,​
+
+Article 2 Section 1.​
+
+3​
+
+SGS/AC​
+
+as introduced​
+
+4.1
+
+comatose, or otherwise unable, because of the individual's physical or mental condition, to​
+
+4.2
+
+document eligibility or to act on the individual's own behalf. If the patient is a minor, the​
+
+4.3
+
+patient is presumed eligible, and the health facility shall provide care as if the patient were​
+
+4.4
+
+eligible.​
+
+4.5
+
+(b) Any individual is presumed eligible when brought to a health facility.​
+
+4.6
+
+(c) Any individual involuntarily committed to an acute psychiatric facility or to a hospital​
+
+4.7
+4.8
+4.9
+
+with psychiatric beds is presumed eligible.​
+(d) All health facilities subject to state and federal provisions governing emergency​
+medical treatment must comply with those provisions.​
+
+4.10
+
+Subd. 10. Data. Data collected because an individual applies for or is enrolled in the​
+
+4.11
+
+Minnesota Health Plan are private data on individuals as defined in section 13.02, subdivision​
+
+4.12
+
+12, but may be released to:​
+
+4.13
+
+(1) providers for purposes of confirming enrollment and processing payments for benefits;​
+
+4.14
+
+(2) the ombudsman for patient advocacy for purposes of performing duties under section​
+
+4.15
+4.16
+
+4.17
+4.18
+4.19
+4.20
+
+62X.12 or 62X.13; or​
+(3) the auditor general for purposes of performing duties under section 62X.14.​
+Sec. 2. Minnesota Statutes 2024, section 13.3806, is amended by adding a subdivision to​
+read:​
+Subd. 1d. Minnesota Health Plan. Data on enrollees under the Minnesota Health Plan​
+are classified under sections 62X.03, subdivision 10, and 62X.13, subdivision 6.​
+
+4.21
+
+ARTICLE 3​
+
+4.22
+
+BENEFITS​
+
+4.23
+4.24
+4.25
+
+Section 1. [62X.04] BENEFITS.​
+Subdivision 1. General provisions. Any eligible individual may choose to receive​
+services under the Minnesota Health Plan from any participating provider.​
+
+4.26
+
+Subd. 2. Covered benefits. Covered health care benefits in this chapter include all​
+
+4.27
+
+medically necessary care subject to the limitations specified in subdivision 4. Covered health​
+
+4.28
+
+care benefits for Minnesota Health Plan enrollees include:​
+
+4.29
+
+(1) inpatient and outpatient health facility services;​
+
+4.30
+
+(2) inpatient and outpatient professional health care provider services;​
+
+Article 3 Section 1.​
+
+4​
+
+SGS/AC​
+
+as introduced​
+
+5.1
+
+(3) diagnostic imaging, laboratory services, and other diagnostic and evaluative services;​
+
+5.2
+
+(4) medical equipment, supplies, including prescribed dietary and nutritional therapies,​
+
+5.3
+
+appliances, and assistive technology, including prosthetics, eyeglasses, and hearing aids,​
+
+5.4
+
+their repair, technical support, and customization needed for individual use;​
+
+5.5
+
+(5) inpatient and outpatient rehabilitative care;​
+
+5.6
+
+(6) emergency care services;​
+
+5.7
+
+(7) emergency transportation;​
+
+5.8
+
+(8) necessary transportation for health care services for persons with disabilities or who​
+
+5.9
+
+may qualify as low income;​
+
+5.10
+
+(9) child and adult immunizations and preventive care;​
+
+5.11
+
+(10) reproductive and sexual health care;​
+
+5.12
+
+(11) health and wellness education;​
+
+5.13
+
+(12) hospice care;​
+
+5.14
+
+(13) care in a skilled nursing facility;​
+
+5.15
+
+(14) home health care including health care provided in an assisted living facility;​
+
+5.16
+
+(15) mental health services;​
+
+5.17
+
+(16) substance abuse treatment;​
+
+5.18
+
+(17) dental care;​
+
+5.19
+
+(18) vision care;​
+
+5.20
+
+(19) hearing care;​
+
+5.21
+
+(20) prescription drugs and devices;​
+
+5.22
+
+(21) podiatric care;​
+
+5.23
+
+(22) chiropractic care;​
+
+5.24
+
+(23) acupuncture;​
+
+5.25
+
+(24) therapies which are shown by the National Institutes of Health National Center for​
+
+5.26
+
+Complementary and Integrative Health to be safe and effective;​
+
+5.27
+
+(25) blood and blood products;​
+
+5.28
+
+(26) dialysis;​
+
+Article 3 Section 1.​
+
+5​
+
+SGS/AC​
+
+as introduced​
+
+6.1
+
+(27) adult day care;​
+
+6.2
+
+(28) rehabilitative and habilitative services;​
+
+6.3
+
+(29) ancillary health care or social services previously covered by Minnesota's public​
+
+6.4
+
+health programs;​
+
+6.5
+
+(30) case management and care coordination;​
+
+6.6
+
+(31) language interpretation and translation for health care services, including sign​
+
+6.7
+
+language and Braille or other services needed for individuals with communication barriers;​
+
+6.8
+
+and​
+
+6.9
+
+(32) those health care and long-term supportive services currently covered under​
+
+6.10
+
+Minnesota Statutes 2016, chapter 256B, for persons on medical assistance, including home​
+
+6.11
+
+and community-based waivered services under chapter 256B.​
+
+6.12
+
+Subd. 3. Benefit expansion. The Minnesota Health Board may expand health care​
+
+6.13
+
+benefits beyond the minimum benefits described in this section when expansion meets the​
+
+6.14
+
+intent of this chapter and when there are sufficient funds to cover the expansion.​
+
+6.15
+
+Subd. 4. Cost-sharing for the room and board portion of long-term care. The​
+
+6.16
+
+Minnesota Health Board shall develop income and asset qualifications based on medical​
+
+6.17
+
+assistance standards for covered benefits under subdivision 2, clauses (12) and (13). All​
+
+6.18
+
+health care services for long-term care in a skilled nursing facility or assisted living facility​
+
+6.19
+
+are fully covered but, notwithstanding section 62X.20, subdivision 6, room and board costs​
+
+6.20
+
+may be charged to patients who do not meet income and asset qualifications.​
+
+6.21
+6.22
+
+Subd. 5. Exclusions. The following health care services shall be excluded from coverage​
+by the Minnesota Health Plan:​
+
+6.23
+
+(1) health care services determined to have no medical benefit by the board;​
+
+6.24
+
+(2) treatments and procedures primarily for cosmetic purposes, unless required to correct​
+
+6.25
+
+a functional or congenital impairment, restore or correct a part of the body that has been​
+
+6.26
+
+altered as a result of injury, disease, or surgery, or determined to be medically necessary​
+
+6.27
+
+by a qualified, licensed health care provider in the Minnesota Health Plan; and​
+
+6.28
+
+(3) services of a health care provider or facility that is not licensed or accredited by the​
+
+6.29
+
+state, except for approved services provided to a Minnesota resident who is temporarily out​
+
+6.30
+
+of the state.​
+
+Article 3 Section 1.​
+
+6​
+
+SGS/AC​
+
+as introduced​
+
+7.1
+
+Subd. 6. Prohibition. The Minnesota Health Plan shall not pay for drugs requiring a​
+
+7.2
+
+prescription if the pharmaceutical companies directly market those drugs to consumers in​
+
+7.3
+
+Minnesota.​
+
+7.4
+
+Sec. 2. [62X.041] PATIENT CARE.​
+
+7.5
+
+(a) All patients shall have a primary care provider and have access to care coordination.​
+
+7.6
+
+(b) Referrals are not required for a patient to see a health care specialist. If a patient sees​
+
+7.7
+
+a specialist and does not have a primary care provider, the Minnesota Health Plan may assist​
+
+7.8
+
+with choosing a primary care provider.​
+
+7.9
+7.10
+
+(c) The board may establish an online registry to assist patients in identifying appropriate​
+providers.​
+
+7.11
+
+ARTICLE 4​
+
+7.12
+
+FUNDING​
+
+7.13
+
+Section 1. [62X.19] MINNESOTA HEALTH FUND.​
+
+7.14
+
+Subdivision 1. General provisions. (a) The Minnesota Health Fund, a revolving fund,​
+
+7.15
+
+is established under the jurisdiction and control of the Minnesota Health Board to implement​
+
+7.16
+
+the Minnesota Health Plan and to receive premiums and other sources of revenue. The fund​
+
+7.17
+
+shall be administered by a director appointed by the Minnesota Health Board.​
+
+7.18
+7.19
+7.20
+7.21
+7.22
+7.23
+7.24
+7.25
+7.26
+7.27
+7.28
+7.29
+
+(b) All money collected, received, and transferred according to this chapter shall be​
+deposited in the Minnesota Health Fund.​
+(c) Money deposited in the Minnesota Health Fund shall be used exclusively to finance​
+the Minnesota Health Plan.​
+(d) All claims for health care services rendered shall be made to the Minnesota Health​
+Fund.​
+(e) All payments made for health care services shall be disbursed from the Minnesota​
+Health Fund.​
+(f) Premiums and other revenues collected each year must be sufficient to cover that​
+year's projected costs.​
+Subd. 2. Accounts. The Minnesota Health Fund shall have operating, capital, and reserve​
+accounts.​
+
+Article 4 Section 1.​
+
+7​
+
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
+
+SGS/AC​
+
+as introduced​
+
+Subd. 3. Operating account. The operating account in the Minnesota Health Fund shall​
+be comprised of the accounts specified in paragraphs (a) to (e).​
+(a) Medical services account. The medical services account must be used to provide​
+for all medical services and benefits covered under the Minnesota Health Plan.​
+(b) Prevention account. The prevention account must be used to establish and maintain​
+primary community prevention programs, including preventive screening tests.​
+
+8.7
+
+(c) Program administration, evaluation, planning, and assessment account. The​
+
+8.8
+
+program administration, evaluation, planning, and assessment account must be used to​
+
+8.9
+
+monitor and improve the plan's effectiveness and operations. The board may establish grant​
+
+8.10
+
+programs including demonstration projects for this purpose.​
+
+8.11
+
+(d) Training and development account. The training and development account must​
+
+8.12
+
+be used to incentivize the training and development of health care providers and the health​
+
+8.13
+
+care workforce needed to meet the health care needs of the population.​
+
+8.14
+
+(e) Health service research account. The health service research account must be used​
+
+8.15
+
+to support research and innovation as determined by the Minnesota Health Board, and​
+
+8.16
+
+recommended by the Office of Health Quality and Planning and the Ombudsman for Patient​
+
+8.17
+
+Advocacy.​
+
+8.18
+8.19
+
+Subd. 4. Capital account. The capital account must be used to pay for capital​
+expenditures for institutional providers.​
+
+8.20
+
+Subd. 5. Reserve account. (a) The Minnesota Health Plan must at all times hold in​
+
+8.21
+
+reserve an amount estimated in the aggregate to provide for the payment of all losses and​
+
+8.22
+
+claims for which the Minnesota Health Plan may be liable and to provide for the expense​
+
+8.23
+
+of adjustment or settlement of losses and claims.​
+
+8.24
+
+(b) Money currently held in reserve by state, city, and county health programs must be​
+
+8.25
+
+transferred to the Minnesota Health Fund when the Minnesota Health Plan replaces those​
+
+8.26
+
+programs.​
+
+8.27
+
+(c) The board shall have provisions in place to insure the Minnesota Health Plan against​
+
+8.28
+
+unforeseen expenditures or revenue shortfalls not covered by the reserve account. The board​
+
+8.29
+
+may borrow money to cover temporary shortfalls.​
+
+8.30
+
+Subd. 6. Assets of the Minnesota Health Plan; functions of the commissioner of​
+
+8.31
+
+Minnesota Management and Budget. All money received by the Minnesota Health Fund​
+
+8.32
+
+shall be paid to the commissioner of Minnesota Management and Budget as agent of the​
+
+8.33
+
+board who shall not commingle these funds with any other money. The money in these​
+Article 4 Section 1.​
+
+8​
+
+SGS/AC​
+
+as introduced​
+
+9.1
+
+accounts shall be paid out on warrants drawn by the commissioner on requisition by the​
+
+9.2
+
+board.​
+
+9.3
+
+Subd. 7. Management. The Minnesota Health Fund shall be separate from the state​
+
+9.4
+
+treasury. Management of the fund shall be conducted by the Minnesota Health Board, which​
+
+9.5
+
+has exclusive authority over the fund.​
+
+9.6
+9.7
+9.8
+
+Sec. 2. [62X.20] REVENUE SOURCES.​
+Subdivision 1. Minnesota Health Plan premium. (a) The Minnesota Health Board​
+shall:​
+
+9.9
+
+(1) determine the aggregate cost of providing health care according to this chapter;​
+
+9.10
+
+(2) develop an equitable and affordable premium structure based on income, including​
+
+9.11
+9.12
+9.13
+
+unearned income, and a business health tax;​
+(3) in consultation with the Department of Revenue, develop an efficient means of​
+collecting premiums and the business health tax; and​
+
+9.14
+
+(4) coordinate with existing, ongoing funding sources from federal and state programs.​
+
+9.15
+
+(b) The premium structure must be based on ability to pay.​
+
+9.16
+
+(c) Within one year after the effective date of this act, the board shall submit to the​
+
+9.17
+
+governor and the legislature a report on the premium and business health tax structure​
+
+9.18
+
+established to finance the Minnesota Health Plan.​
+
+9.19
+
+Subd. 2. Federal receipts. All federal funding received by Minnesota including the​
+
+9.20
+
+premium subsidies under the Affordable Care Act, Public Law 111-148, as amended by​
+
+9.21
+
+Public Law 111-152, is appropriated to the Minnesota Health Plan Board to be used to​
+
+9.22
+
+administer the Minnesota Health Plan under chapter 62X. Federal funding that is received​
+
+9.23
+
+for implementing and administering the Minnesota Health Plan must be used to provide​
+
+9.24
+
+health care for Minnesota residents.​
+
+9.25
+
+Subd. 3. Funds from outside sources. Institutional providers operating under Minnesota​
+
+9.26
+
+Health Plan operating budgets may raise and expend funds from sources other than the​
+
+9.27
+
+Minnesota Health Plan including private or foundation donors. Contributions to providers​
+
+9.28
+
+in excess of $500,000 must be reported to the board.​
+
+9.29
+
+Subd. 4. Governmental payments. The chief executive officer and, if required under​
+
+9.30
+
+federal law, the commissioners of health, human services, and commerce shall seek all​
+
+9.31
+
+necessary waivers, exemptions, agreements, or legislation so that all current federal payments​
+
+9.32
+
+to the state, including the premium tax credits under the Affordable Care Act, are paid​
+Article 4 Sec. 2.​
+
+9​
+
+SGS/AC​
+
+as introduced​
+
+10.1
+
+directly to the Minnesota Health Plan. When any required waivers, exemptions, agreements,​
+
+10.2
+
+or legislation are obtained, the Minnesota Health Plan shall assume responsibility for all​
+
+10.3
+
+health care benefits and health care services previously paid for with federal funds. In​
+
+10.4
+
+obtaining the waivers, exemptions, agreements, or legislation, the chief executive officer​
+
+10.5
+
+and, if required, commissioners shall seek from the federal government a contribution for​
+
+10.6
+
+health care services in Minnesota that reflects: medical inflation, the state gross domestic​
+
+10.7
+
+product, the size and age of the population, the number of residents living below the poverty​
+
+10.8
+
+level, and the number of Medicare and VA eligible individuals, and that does not decrease​
+
+10.9
+
+in relation to the federal contribution to other states as a result of the waivers, exemptions,​
+
+10.10
+
+agreements, or savings from implementation of the Minnesota Health Plan.​
+
+10.11
+
+Subd. 5. Federal preemption. (a) The board shall secure a repeal or a waiver of any​
+
+10.12
+
+provision of federal law that preempts any provision of this chapter. The commissioners of​
+
+10.13
+
+health, human services, and commerce shall provide all necessary assistance.​
+
+10.14
+
+(b) In the section 1332 waiver application, the board shall request to waive any of the​
+
+10.15
+
+following provisions of the Patient Protection and Affordable Care Act, to the extent​
+
+10.16
+
+necessary to implement this act:​
+
+10.17
+
+(1) United States Code, title 42, sections 18021 to 18024;​
+
+10.18
+
+(2) United States Code, title 42, sections 18031 to 18033;​
+
+10.19
+
+(3) United States Code, title 42, section 18071; and​
+
+10.20
+
+(4) sections 36B and 5000A of the Internal Revenue Code of 1986, as amended.​
+
+10.21
+
+(c) In the event that a repeal or a waiver of law or regulations cannot be secured, the​
+
+10.22
+
+board shall adopt rules, or seek conforming state legislation, consistent with federal law, in​
+
+10.23
+
+an effort to best fulfill the purposes of this chapter.​
+
+10.24
+
+(d) The Minnesota Health Plan's responsibility for providing care shall be secondary to​
+
+10.25
+
+existing federal government programs for health care services to the extent that funding for​
+
+10.26
+
+these programs is not transferred to the Minnesota Health Fund or that the transfer is delayed​
+
+10.27
+
+beyond the date on which initial benefits are provided under the Minnesota Health Plan.​
+
+10.28
+10.29
+
+10.30
+
+Subd. 6. No cost-sharing. No deductible, co-payment, coinsurance, or other cost-sharing​
+shall be imposed with respect to covered benefits.​
+Sec. 3. [62X.21] SUBROGATION.​
+
+10.31
+
+Subdivision 1. Collateral source. (a) Health care costs shall be collected from collateral​
+
+10.32
+
+sources whenever medical services provided to an individual by the MHP are, or may be,​
+
+Article 4 Sec. 3.​
+
+10​
+
+SGS/AC​
+
+as introduced​
+
+11.1
+
+covered services under a policy of insurance, or other collateral source available to that​
+
+11.2
+
+individual, or when the individual has a right of action for compensation permitted under​
+
+11.3
+
+law.​
+
+11.4
+
+(b) As used in this section, collateral source includes but is not limited to:​
+
+11.5
+
+(1) health insurance policies and the medical components of automobile, homeowners,​
+
+11.6
+
+and other forms of insurance;​
+
+11.7
+
+(2) medical components of workers' compensation;​
+
+11.8
+
+(3) a judgment for damages for personal injury;​
+
+11.9
+
+(4) the state of last domicile for individuals moving to Minnesota for medical care who​
+
+11.10
+11.11
+11.12
+
+have extraordinary medical needs; and​
+(5) any third party who is or may be liable to an individual for health care services or​
+costs.​
+
+11.13
+
+(c) An entity described in paragraph (b) is not excluded from the obligations imposed​
+
+11.14
+
+by this section by virtue of a contract or relationship with a government unit, agency, or​
+
+11.15
+
+service.​
+
+11.16
+11.17
+11.18
+
+(d) The board shall negotiate waivers or make other arrangements to incorporate collateral​
+sources into the Minnesota Health Plan if necessary.​
+Subd. 2. Notification. When an individual who receives health care services under the​
+
+11.19
+
+Minnesota Health Plan is entitled to coverage, reimbursement, indemnity, or other​
+
+11.20
+
+compensation from a collateral source, the individual shall notify the health care provider​
+
+11.21
+
+and provide information identifying the collateral source, the nature and extent of coverage​
+
+11.22
+
+or entitlement, and other relevant information. The health care provider shall forward this​
+
+11.23
+
+information to the board. The individual entitled to coverage, reimbursement, indemnity,​
+
+11.24
+
+or other compensation from a collateral source shall provide additional information as​
+
+11.25
+
+requested by the board.​
+
+11.26
+
+Subd. 3. Reimbursement. (a) The Minnesota Health Plan shall seek reimbursement​
+
+11.27
+
+from the collateral source for services provided to the individual and may institute appropriate​
+
+11.28
+
+action, including legal proceedings, to recover the reimbursement. Upon demand, the​
+
+11.29
+
+collateral source shall pay to the Minnesota Health Fund the sums it would have paid or​
+
+11.30
+
+expended on behalf of the individual for the health care services provided by the Minnesota​
+
+11.31
+
+Health Plan.​
+
+Article 4 Sec. 3.​
+
+11​
+
+SGS/AC​
+
+as introduced​
+
+12.1
+
+(b) In addition to any other right to recovery provided in this section, the board shall​
+
+12.2
+
+have the same right to recover the reasonable value of health care benefits from a collateral​
+
+12.3
+
+source as provided to the commissioner of human services under section 256B.37.​
+
+12.4
+
+Subd. 4. Defaults, underpayments, and late payments. (a) Default, underpayment, or​
+
+12.5
+
+late payment of any tax or other obligation imposed by this chapter shall result in the remedies​
+
+12.6
+
+and penalties provided by law, except as provided in this section.​
+
+12.7
+
+(b) Eligibility for health care benefits under section 62X.04 shall not be impaired by any​
+
+12.8
+
+default, underpayment, or late payment of any premium or other obligation imposed by this​
+
+12.9
+
+chapter.​
+
+12.10
+
+ARTICLE 5​
+
+12.11
+
+PAYMENTS​
+
+12.12
+12.13
+
+Section 1. [62X.05] PROVIDER PAYMENTS.​
+Subdivision 1. General provisions. (a) All health care providers licensed to practice in​
+
+12.14
+
+Minnesota may participate in the Minnesota Health Plan as well as other providers as​
+
+12.15
+
+determined by the board.​
+
+12.16
+
+(b) A participating health care provider shall comply with all federal laws and regulations​
+
+12.17
+
+governing referral fees and fee splitting including, but not limited to, United States Code,​
+
+12.18
+
+title 42, sections 1320a-7b and 1395nn, whether reimbursed by federal funds or not.​
+
+12.19
+12.20
+
+(c) A fee schedule or financial incentive may not adversely affect the care a patient​
+receives or the care a health provider recommends.​
+
+12.21
+
+Subd. 2. Payments to noninstitutional providers. (a) The Minnesota Health Board​
+
+12.22
+
+shall establish and oversee a fair and efficient payment system for noninstitutional providers.​
+
+12.23
+
+(b) The board shall pay noninstitutional providers based on rates negotiated with​
+
+12.24
+12.25
+
+providers. Rates shall take into account the need to address provider shortages.​
+(c) The board shall establish payment criteria and methods of payment for care​
+
+12.26
+
+coordination for patients especially those with chronic illness and complex medical needs.​
+
+12.27
+
+(d) Providers who accept any payment from the Minnesota Health Plan for a covered​
+
+12.28
+12.29
+12.30
+
+health care service shall not bill the patient for the covered health care service.​
+(e) Providers shall be paid within 30 business days for claims filed following procedures​
+established by the board.​
+
+Article 5 Section 1.​
+
+12​
+
+SGS/AC​
+
+as introduced​
+
+13.1
+
+Subd. 3. Payments to institutional providers. (a) The board shall set annual budgets​
+
+13.2
+
+for institutional providers. These budgets shall consist of an operating and a capital budget.​
+
+13.3
+
+An institution's annual budget shall be set to cover its anticipated health care services for​
+
+13.4
+
+the next year based on past performance and projected changes in prices and health care​
+
+13.5
+
+service levels. The annual budget for each individual institutional provider must be set​
+
+13.6
+
+separately. The board shall not set a joint budget for a group of more than one institutional​
+
+13.7
+
+provider nor for a parent corporation that owns or operates one or more institutional provider.​
+
+13.8
+
+(b) Providers who accept any payment from the Minnesota Health Plan for a covered​
+
+13.9
+
+health care service shall not bill the patient for the covered health care service.​
+
+13.10
+
+Subd. 4. Capital management plan. (a) The board shall periodically develop a capital​
+
+13.11
+
+investment plan that will serve as a guide in determining the annual budgets of institutional​
+
+13.12
+
+providers and in deciding whether to approve applications for approval of capital expenditures​
+
+13.13
+
+by noninstitutional providers.​
+
+13.14
+
+(b) Providers who propose to make capital purchases in excess of $500,000 must obtain​
+
+13.15
+
+board approval. The board may alter the threshold expenditure level that triggers the​
+
+13.16
+
+requirement to submit information on capital expenditures. Institutional providers shall​
+
+13.17
+
+propose these expenditures and submit the required information as part of the annual budget​
+
+13.18
+
+they submit to the board. Noninstitutional providers shall submit applications for approval​
+
+13.19
+
+of these expenditures to the board. The board must respond to capital expenditure applications​
+
+13.20
+
+in a timely manner.​
+
+13.21
+
+ARTICLE 6​
+
+13.22
+
+GOVERNANCE​
+
+13.23
+
+Section 1. Minnesota Statutes 2024, section 14.03, subdivision 2, is amended to read:​
+
+13.24
+
+Subd. 2. Contested case procedures. The contested case procedures of the​
+
+13.25
+
+Administrative Procedure Act provided in sections 14.57 to 14.69 do not apply to (a)​
+
+13.26
+
+proceedings under chapter 414, except as specified in that chapter, (b) the commissioner of​
+
+13.27
+
+corrections, (c) the unemployment insurance program and the Social Security disability​
+
+13.28
+
+determination program in the Department of Employment and Economic Development, (d)​
+
+13.29
+
+the commissioner of mediation services, (e) the Workers' Compensation Division in the​
+
+13.30
+
+Department of Labor and Industry, (f) the Workers' Compensation Court of Appeals, or (g)​
+
+13.31
+
+the Board of Pardons, or (h) the Minnesota Health Plan.​
+
+Article 6 Section 1.​
+
+13​
+
+14.1
+
+SGS/AC​
+
+as introduced​
+
+Sec. 2. Minnesota Statutes 2024, section 15A.0815, subdivision 2, is amended to read:​
+
+14.2
+
+Subd. 2. Agency head salaries. The salary for a position listed in this subdivision shall​
+
+14.3
+
+be determined by the Compensation Council under section 15A.082. The commissioner of​
+
+14.4
+
+management and budget must publish the salaries on the department's website. This​
+
+14.5
+
+subdivision applies to the following positions:​
+
+14.6
+
+Commissioner of administration;​
+
+14.7
+
+Commissioner of agriculture;​
+
+14.8
+
+Commissioner of education;​
+
+14.9
+
+Commissioner of children, youth, and families;​
+
+14.10
+
+Commissioner of commerce;​
+
+14.11
+
+Commissioner of corrections;​
+
+14.12
+
+Commissioner of health;​
+
+14.13
+
+Chief executive officer of the Minnesota Health Plan;​
+
+14.14
+
+Commissioner, Minnesota Office of Higher Education;​
+
+14.15
+
+Commissioner, Minnesota IT Services;​
+
+14.16
+
+Commissioner, Housing Finance Agency;​
+
+14.17
+
+Commissioner of human rights;​
+
+14.18
+
+Commissioner of human services;​
+
+14.19
+
+Commissioner of labor and industry;​
+
+14.20
+
+Commissioner of management and budget;​
+
+14.21
+
+Commissioner of natural resources;​
+
+14.22
+
+Commissioner, Pollution Control Agency;​
+
+14.23
+
+Commissioner of public safety;​
+
+14.24
+
+Commissioner of revenue;​
+
+14.25
+
+Commissioner of employment and economic development;​
+
+14.26
+
+Commissioner of transportation;​
+
+14.27
+
+Commissioner of veterans affairs;​
+
+14.28
+
+Executive director of the Gambling Control Board;​
+
+Article 6 Sec. 2.​
+
+14​
+
+SGS/AC​
+
+15.1
+
+Executive director of the Minnesota State Lottery;​
+
+15.2
+
+Executive director of the Office of Cannabis Management;​
+
+15.3
+
+Commissioner of Iron Range resources and rehabilitation;​
+
+15.4
+
+Commissioner, Bureau of Mediation Services;​
+
+15.5
+
+Ombudsman for mental health and developmental disabilities;​
+
+15.6
+
+Ombudsperson for corrections;​
+
+15.7
+
+Chair, Metropolitan Council;​
+
+15.8
+
+Chair, Metropolitan Airports Commission;​
+
+15.9
+
+School trust lands director;​
+
+15.10
+
+Executive director of pari-mutuel racing;​
+
+15.11
+
+Commissioner, Public Utilities Commission;​
+
+15.12
+
+Chief Executive Officer, Direct Care and Treatment; and​
+
+15.13
+
+Director of the Office of Emergency Medical Services.​
+
+15.14
+
+as introduced​
+
+Sec. 3. [62X.06] MINNESOTA HEALTH BOARD.​
+
+15.15
+
+Subdivision 1. Establishment. The Minnesota Health Board is established to promote​
+
+15.16
+
+the delivery of high quality, coordinated health care services that enhance health; prevent​
+
+15.17
+
+illness, disease, and disability; slow the progression of chronic diseases; and improve personal​
+
+15.18
+
+health management. The board shall administer the Minnesota Health Plan. The board shall​
+
+15.19
+
+oversee:​
+
+15.20
+
+(1) the Office of Health Quality and Planning under section 62X.09; and​
+
+15.21
+
+(2) the Minnesota Health Fund under section 62X.19.​
+
+15.22
+
+Subd. 2. Board composition. (a) The board shall consist of 15 members, including a​
+
+15.23
+
+representative selected by each of the five rural regional health planning boards under section​
+
+15.24
+
+62X.08 and three representatives selected by the metropolitan regional health planning​
+
+15.25
+
+board under section 62X.08. These members shall appoint the following additional members​
+
+15.26
+
+to serve on the board:​
+
+15.27
+
+(1) one patient member and one employer member; and​
+
+15.28
+
+(2) five providers that include one physician, one registered nurse, one mental health​
+
+15.29
+
+provider, one dentist, and one facility director.​
+
+Article 6 Sec. 3.​
+
+15​
+
+SGS/AC​
+
+as introduced​
+
+16.1
+
+(b) Each member shall qualify by taking the oath of office to uphold the Minnesota and​
+
+16.2
+
+United States Constitution and to operate the Minnesota Health Plan in the public interest​
+
+16.3
+
+by upholding the underlying principles of this chapter.​
+
+16.4
+
+Subd. 3. Term and compensation; selection of chair. Board members shall serve four​
+
+16.5
+
+years. Board members shall set the board's compensation not to exceed the compensation​
+
+16.6
+
+of Public Utilities Commission members. The board shall select the chair from its​
+
+16.7
+
+membership.​
+
+16.8
+
+Subd. 4. Removal of board member. A board member may be removed by a two-thirds​
+
+16.9
+
+vote of the members voting on removal. After receiving notice and hearing, a member may​
+
+16.10
+
+be removed for malfeasance or nonfeasance in performance of the member's duties.​
+
+16.11
+
+Conviction of any criminal behavior regardless of how much time has lapsed is grounds for​
+
+16.12
+
+immediate removal.​
+
+16.13
+
+Subd. 5. General duties. The board shall:​
+
+16.14
+
+(1) ensure that all of the requirements of section 62X.01 are met;​
+
+16.15
+
+(2) hire a chief executive officer for the Minnesota Health Plan who shall be qualified​
+
+16.16
+
+after taking the oath of office specified in subdivision 2 and who shall administer all aspects​
+
+16.17
+
+of the plan as directed by the board;​
+
+16.18
+16.19
+16.20
+16.21
+
+(3) hire a director for the Office of Health Quality and Planning who shall be qualified​
+after taking the oath of office specified in subdivision 2;​
+(4) hire a director of the Minnesota Health Fund who shall be qualified after taking the​
+oath of office specified in subdivision 2;​
+
+16.22
+
+(5) provide technical assistance to the regional boards established under section 62X.08;​
+
+16.23
+
+(6) conduct necessary investigations and inquiries and require the submission of​
+
+16.24
+
+information, documents, and records the board considers necessary to carry out the purposes​
+
+16.25
+
+of this chapter;​
+
+16.26
+
+(7) establish a process for the board to receive the concerns, opinions, ideas, and​
+
+16.27
+
+recommendations of the public regarding all aspects of the Minnesota Health Plan and the​
+
+16.28
+
+means of addressing those concerns;​
+
+16.29
+16.30
+
+(8) conduct other activities the board considers necessary to carry out the purposes of​
+this chapter;​
+
+Article 6 Sec. 3.​
+
+16​
+
+SGS/AC​
+
+as introduced​
+
+17.1
+
+(9) collaborate with the agencies that license health facilities to ensure that facility​
+
+17.2
+
+performance is monitored and that deficient practices are recognized and corrected in a​
+
+17.3
+
+timely manner;​
+
+17.4
+17.5
+
+(10) adopt rules, policies, and procedures as necessary to carry out the duties assigned​
+under this chapter;​
+
+17.6
+
+(11) establish conflict of interest standards that prohibit providers from receiving any​
+
+17.7
+
+financial benefit from their medical decisions outside of board reimbursement, including​
+
+17.8
+
+any financial benefit for referring a patient for any service, product, or provider, or for​
+
+17.9
+
+prescribing, ordering, or recommending any drug, product, or service;​
+
+17.10
+
+(12) establish conflict of interest standards related to pharmaceuticals, medical supplies​
+
+17.11
+
+and devices and their marketing to providers so that no provider receives any incentive to​
+
+17.12
+
+prescribe, administer, or use any product or service;​
+
+17.13
+
+(13) require all electronic health records used by providers be fully interoperable with​
+
+17.14
+
+the open source electronic health records system used by the United States Veterans​
+
+17.15
+
+Administration;​
+
+17.16
+
+(14) provide financial help and assistance in retraining and job placement to Minnesota​
+
+17.17
+
+workers who may be displaced because of the administrative efficiencies of the Minnesota​
+
+17.18
+
+Health Plan;​
+
+17.19
+17.20
+
+(15) ensure that assistance is provided to all workers and communities who may be​
+affected by provisions in this chapter; and​
+
+17.21
+
+(16) work with the Department of Employment and Economic Development (DEED)​
+
+17.22
+
+to ensure that funding and program services are promptly and efficiently distributed to all​
+
+17.23
+
+affected workers. DEED shall monitor and report on a regular basis on the status of displaced​
+
+17.24
+
+workers.​
+
+17.25
+
+There is currently a serious shortage of providers in many health care professions, from​
+
+17.26
+
+medical technologists to registered nurses, and many potentially displaced health​
+
+17.27
+
+administrative workers already have training in some medical field. To alleviate these​
+
+17.28
+
+shortages, the dislocated worker support program should emphasize retraining and placement​
+
+17.29
+
+into health care related positions if appropriate. As Minnesota residents, all displaced workers​
+
+17.30
+
+shall be covered under the Minnesota Health Plan.​
+
+17.31
+
+Subd. 6. Waiver request duties. Before submitting a waiver application under section​
+
+17.32
+
+of the Patient Protection and Affordable Care Act, Public Law Number 111-148, as​
+
+17.33
+
+amended, the board shall do the following, as required by federal law:​
+
+Article 6 Sec. 3.​
+
+17​
+
+SGS/AC​
+
+as introduced​
+
+18.1
+
+(1) conduct or contract for any necessary actuarial analyses and actuarial certifications​
+
+18.2
+
+needed to support the board's estimates that the waiver will comply with the comprehensive​
+
+18.3
+
+coverage, affordability, and scope of coverage requirements in federal law;​
+
+18.4
+
+(2) conduct or contract for any necessary economic analyses needed to support the​
+
+18.5
+
+board's estimates that the waiver will comply with the comprehensive coverage, affordability,​
+
+18.6
+
+scope of coverage, and federal deficit requirements in federal law. These analyses must​
+
+18.7
+
+include:​
+
+18.8
+
+(i) a detailed ten-year budget plan; and​
+
+18.9
+
+(ii) a detailed analysis regarding the estimated impact of the waiver on health insurance​
+
+18.10
+
+coverage in the state;​
+
+18.11
+
+(3) establish a detailed draft implementation timeline for the waiver plan; and​
+
+18.12
+
+(4) establish quarterly, annual, and cumulative targets for the comprehensive coverage,​
+
+18.13
+
+affordability, scope of coverage, and federal deficit requirements in federal law.​
+
+18.14
+
+Subd. 7. Financial duties. The board shall:​
+
+18.15
+
+(1) establish and after enactment into law, collect premiums and the business health tax​
+
+18.16
+18.17
+18.18
+
+according to section 62X.20, subdivision 1;​
+(2) approve statewide and regional budgets that include budgets for the accounts in​
+section 62X.19;​
+
+18.19
+
+(3) negotiate and establish payment rates for providers;​
+
+18.20
+
+(4) monitor compliance with all budgets and payment rates and take action to achieve​
+
+18.21
+18.22
+
+compliance to the extent authorized by law;​
+(5) pay claims for medical products or services as negotiated, and may issue requests​
+
+18.23
+
+for proposals from Minnesota nonprofit business corporations for a contract to process​
+
+18.24
+
+claims;​
+
+18.25
+
+(6) seek federal approval to bill other states for health care coverage provided to residents​
+
+18.26
+
+from out-of-state who come to Minnesota for long-term care or other costly treatment when​
+
+18.27
+
+the resident's home state fails to provide such coverage, unless a reciprocal agreement with​
+
+18.28
+
+those states to provide similar coverage to Minnesota residents relocating to those states​
+
+18.29
+
+can be negotiated;​
+
+18.30
+
+(7) administer the Minnesota Health Fund created under section 62X.19;​
+
+Article 6 Sec. 3.​
+
+18​
+
+19.1
+19.2
+19.3
+19.4
+
+SGS/AC​
+
+as introduced​
+
+(8) annually determine the appropriate level for the Minnesota Health Plan reserve​
+account and implement policies needed to establish the appropriate reserve;​
+(9) implement fraud prevention measures necessary to protect the operation of the​
+Minnesota Health Plan; and​
+
+19.5
+
+(10) work to ensure appropriate cost control by:​
+
+19.6
+
+(i) instituting aggressive public health measures, early intervention and preventive care,​
+
+19.7
+19.8
+19.9
+
+health and wellness education, and promotion of personal health improvement;​
+(ii) making changes in the delivery of health care services and administration that improve​
+efficiency and care quality;​
+
+19.10
+
+(iii) minimizing administrative costs;​
+
+19.11
+
+(iv) ensuring that the delivery system does not contain excess capacity; and​
+
+19.12
+
+(v) negotiating the lowest reasonable prices for prescription drugs, medical equipment,​
+
+19.13
+
+and medical services.​
+
+19.14
+
+Subd. 8. Minnesota Health Board management duties. The board shall:​
+
+19.15
+
+(1) develop and implement enrollment procedures for the Minnesota Health Plan;​
+
+19.16
+
+(2) implement eligibility standards for the Minnesota Health Plan;​
+
+19.17
+
+(3) arrange for health care to be provided at convenient locations, including ensuring​
+
+19.18
+
+the availability of school nurses so that all students have access to health care, immunizations,​
+
+19.19
+
+and preventive care at public schools and encouraging providers to open small health clinics​
+
+19.20
+
+at larger workplaces and retail centers;​
+
+19.21
+19.22
+
+(4) make recommendations, when needed, to the legislature about changes in the​
+geographic boundaries of the health planning regions;​
+
+19.23
+
+(5) establish an electronic claims and payments system for the Minnesota Health Plan;​
+
+19.24
+
+(6) monitor the operation of the Minnesota Health Plan through consumer surveys and​
+
+19.25
+
+regular data collection and evaluation activities, including evaluations of the adequacy and​
+
+19.26
+
+quality of services furnished under the program, the need for changes in the benefit package,​
+
+19.27
+
+the cost of each type of service, and the effectiveness of cost control measures under the​
+
+19.28
+
+program;​
+
+19.29
+
+(7) disseminate information and establish a health care website to provide information​
+
+19.30
+
+to the public about the Minnesota Health Plan including providers and facilities, and state​
+
+19.31
+
+and regional health planning board meetings and activities;​
+
+Article 6 Sec. 3.​
+
+19​
+
+SGS/AC​
+
+as introduced​
+
+20.1
+
+(8) collaborate with public health agencies, schools, and community clinics;​
+
+20.2
+
+(9) ensure that Minnesota Health Plan policies and providers, including public health​
+
+20.3
+
+providers, support all Minnesota residents in achieving and maintaining maximum physical​
+
+20.4
+
+and mental health; and​
+
+20.5
+
+(10) annually report to the chairs and ranking minority members of the senate and house​
+
+20.6
+
+of representatives committees with jurisdiction over health care issues on the performance​
+
+20.7
+
+of the Minnesota Health Plan, fiscal condition and need for payment adjustments, any needed​
+
+20.8
+
+changes in geographic boundaries of the health planning regions, recommendations for​
+
+20.9
+
+statutory changes, receipt of revenue from all sources, whether current year goals and​
+
+20.10
+
+priorities are met, future goals and priorities, major new technology or prescription drugs,​
+
+20.11
+
+and other circumstances that may affect the cost or quality of health care.​
+
+20.12
+
+Subd. 9. Policy duties. The board shall:​
+
+20.13
+
+(1) develop and implement cost control and quality assurance procedures;​
+
+20.14
+
+(2) ensure strong public health services including education and community prevention​
+
+20.15
+20.16
+20.17
+20.18
+20.19
+
+and clinical services;​
+(3) ensure a continuum of coordinated high-quality primary to tertiary care to all​
+Minnesota residents; and​
+(4) implement policies to ensure that all Minnesota residents receive culturally and​
+linguistically competent care.​
+
+20.20
+
+Subd. 10. Self-insurance. The board shall determine the feasibility of self-insuring​
+
+20.21
+
+providers for malpractice and shall establish a self-insurance system and create a special​
+
+20.22
+
+fund for payment of losses incurred if the board determines self-insuring providers would​
+
+20.23
+
+reduce costs.​
+
+20.24
+
+Sec. 4. [62X.07] HEALTH PLANNING REGIONS.​
+
+20.25
+
+A metropolitan health planning region consisting of the seven-county metropolitan area​
+
+20.26
+
+is established. The commissioner of health shall designate five rural health planning regions​
+
+20.27
+
+from the greater Minnesota area composed of geographically contiguous counties grouped​
+
+20.28
+
+on the basis of the following considerations:​
+
+20.29
+
+(1) patterns of utilization of health care services;​
+
+20.30
+
+(2) health care resources, including workforce resources;​
+
+20.31
+
+(3) health needs of the population, including public health needs;​
+
+Article 6 Sec. 4.​
+
+20​
+
+SGS/AC​
+
+21.1
+
+(4) geography;​
+
+21.2
+
+(5) population and demographic characteristics; and​
+
+21.3
+
+(6) other considerations as appropriate.​
+
+21.4
+
+The commissioner of health shall designate the health planning regions.​
+
+21.5
+
+as introduced​
+
+Sec. 5. [62X.08] REGIONAL HEALTH PLANNING BOARD.​
+
+21.6
+
+Subdivision 1. Regional planning board composition. (a) Each regional board shall​
+
+21.7
+
+consist of one county commissioner per county selected by the county board and two county​
+
+21.8
+
+commissioners per county selected by the county board in the seven-county metropolitan​
+
+21.9
+
+area. A county commissioner may designate a representative to act as a member of the board​
+
+21.10
+
+in the member's absence. Each board shall select the chair from among its membership.​
+
+21.11
+21.12
+
+(b) Board members shall serve for four-year terms and may receive per diems for meetings​
+as provided in section 15.059, subdivision 3.​
+
+21.13
+
+Subd. 2. Regional health board duties. Regional health planning boards shall:​
+
+21.14
+
+(1) recommend health standards, goals, priorities, and guidelines for the region;​
+
+21.15
+
+(2) prepare an operating and capital budget for the region to recommend to the Minnesota​
+
+21.16
+
+Health Board;​
+
+21.17
+
+(3) hire a regional planning director;​
+
+21.18
+
+(4) address the needs of high risk populations by:​
+
+21.19
+
+(i) collaborating with community health clinics and social service providers through​
+
+21.20
+
+planning and financing to provide outreach, medical care, and case management services​
+
+21.21
+
+in the community for patients who, because of mental illness, homelessness, or other​
+
+21.22
+
+circumstances, are unlikely to obtain needed care; and​
+
+21.23
+
+(ii) collaborating with hospitals, medical and social service providers through planning​
+
+21.24
+
+and financing to keep people healthy and reduce hospital readmissions by providing discharge​
+
+21.25
+
+planning and services including medical respite and transitional care for patients leaving​
+
+21.26
+
+medical facilities and mental health and chemical dependency treatment programs;​
+
+21.27
+21.28
+21.29
+21.30
+
+(5) collaborate with local public health care agencies to educate consumers and providers​
+on public health programs;​
+(6) collaborate with public health care agencies to implement public health and wellness​
+initiatives; and​
+
+Article 6 Sec. 5.​
+
+21​
+
+22.1
+22.2
+
+22.3
+
+SGS/AC​
+
+as introduced​
+
+(7) ensure that all parts of the region have access to a 24-hour nurse hotline and 24-hour​
+urgent care clinics.​
+Sec. 6. [62X.09] OFFICE OF HEALTH QUALITY AND PLANNING.​
+
+22.4
+
+Subdivision 1. Establishment. The Minnesota Health Board shall establish an Office​
+
+22.5
+
+of Health Quality and Planning to assess the quality, access, and funding adequacy of the​
+
+22.6
+
+Minnesota Health Plan.​
+
+22.7
+22.8
+22.9
+22.10
+
+Subd. 2. General duties. (a) The Office of Health Quality and Planning shall make​
+annual recommendations to the board on the overall direction on subjects including:​
+(1) the overall effectiveness of the Minnesota Health Plan in addressing public health​
+and wellness;​
+
+22.11
+
+(2) access to health care;​
+
+22.12
+
+(3) quality improvement;​
+
+22.13
+
+(4) efficiency of administration;​
+
+22.14
+
+(5) adequacy of budget and funding;​
+
+22.15
+
+(6) appropriateness of payments for providers;​
+
+22.16
+
+(7) capital expenditure needs;​
+
+22.17
+
+(8) long-term health care;​
+
+22.18
+
+(9) mental health and substance abuse services;​
+
+22.19
+
+(10) staffing levels and working conditions in health care facilities;​
+
+22.20
+
+(11) identification of number and mix of health care facilities and providers required to​
+
+22.21
+
+best meet the needs of the Minnesota Health Plan;​
+
+22.22
+
+(12) care for chronically ill patients;​
+
+22.23
+
+(13) educating providers on promoting the use of advance directives with patients to​
+
+22.24
+
+enable patients to obtain the health care of their choice;​
+
+22.25
+
+(14) research needs; and​
+
+22.26
+
+(15) integration of disease management programs into health care delivery.​
+
+22.27
+
+(b) Analyze shortages in health care workforce required to meet the needs of the​
+
+22.28
+
+population and develop plans to meet those needs in collaboration with regional planners​
+
+22.29
+
+and educational institutions.​
+
+Article 6 Sec. 6.​
+
+22​
+
+SGS/AC​
+
+as introduced​
+
+(c) Analyze methods of paying providers and make recommendations to improve quality​
+
+23.1
+23.2
+
+and control costs.​
+
+23.3
+
+(d) Assist in coordination of the Minnesota Health Plan and public health programs.​
+
+23.4
+
+Subd. 3. Assessment and evaluation of benefits. (a) The Office of Health Quality and​
+
+23.5
+
+Planning shall:​
+(1) consider health care benefit additions to the Minnesota Health Plan and evaluate​
+
+23.6
+23.7
+
+them based on evidence of clinical efficacy;​
+
+23.8
+
+(2) establish a process and criteria by which providers may request authorization to​
+
+23.9
+
+provide health care services and treatments that are not included in the Minnesota Health​
+
+23.10
+
+Plan benefit set, including experimental health care treatments;​
+
+23.11
+
+(3) evaluate proposals to increase the efficiency and effectiveness of the health care​
+
+23.12
+
+delivery system, and make recommendations to the board based on the cost-effectiveness​
+
+23.13
+
+of the proposals; and​
+(4) identify complementary and alternative health care modalities that have been shown​
+
+23.14
+23.15
+
+to be safe and effective.​
+(b) The board may convene advisory panels as needed.​
+
+23.16
+
+23.17
+
+Sec. 7. [62X.10] ETHICS AND CONFLICT OF INTEREST.​
+
+23.18
+
+(a) All provisions of section 43A.38 apply to employees and the chief executive officer​
+
+23.19
+
+of the Minnesota Health Plan, the members and directors of the Minnesota Health Board,​
+
+23.20
+
+the regional health boards, the director of the Office of Health Quality and Planning, the​
+
+23.21
+
+director of the Minnesota Health Fund, and the ombudsman for patient advocacy. Failure​
+
+23.22
+
+to comply with section 43A.38 shall be grounds for disciplinary action which may include​
+
+23.23
+
+termination of employment or removal from the board.​
+(b) In order to avoid the appearance of political bias or impropriety, the Minnesota Health​
+
+23.24
+23.25
+
+Plan chief executive officer shall not:​
+
+23.26
+
+(1) engage in leadership of, or employment by, a political party or a political organization;​
+
+23.27
+
+(2) publicly endorse a political candidate;​
+
+23.28
+
+(3) contribute to any political candidates or political parties and political organizations;​
+
+23.29
+23.30
+23.31
+
+or​
+(4) attempt to avoid compliance with this subdivision by making contributions through​
+a spouse or other family member.​
+
+Article 6 Sec. 7.​
+
+23​
+
+SGS/AC​
+
+as introduced​
+
+24.1
+
+(c) In order to avoid a conflict of interest, individuals specified in paragraph (a) shall​
+
+24.2
+
+not be currently employed by a medical provider or a pharmaceutical, medical insurance,​
+
+24.3
+
+or medical supply company. This paragraph does not apply to the five provider members​
+
+24.4
+
+of the board.​
+
+24.5
+
+Sec. 8. [62X.11] CONFLICT OF INTEREST COMMITTEE.​
+
+24.6
+
+(a) The board shall establish a conflict of interest committee to develop standards of​
+
+24.7
+
+practice for individuals or entities doing business with the Minnesota Health Plan, including​
+
+24.8
+
+but not limited to, board members, providers, and medical suppliers. The committee shall​
+
+24.9
+
+establish guidelines on the duty to disclose the existence of a financial interest and all​
+
+24.10
+
+material facts related to that financial interest to the committee.​
+
+24.11
+
+(b) In considering the transaction or arrangement, if the committee determines a conflict​
+
+24.12
+
+of interest exists, the committee shall investigate alternatives to the proposed transaction​
+
+24.13
+
+or arrangement. After exercising due diligence, the committee shall determine whether the​
+
+24.14
+
+Minnesota Health Plan can obtain with reasonable efforts a more advantageous transaction​
+
+24.15
+
+or arrangement with a person or entity that would not give rise to a conflict of interest. If​
+
+24.16
+
+this is not reasonably possible under the circumstances, the committee shall make a​
+
+24.17
+
+recommendation to the board on whether the transaction or arrangement is in the best interest​
+
+24.18
+
+of the Minnesota Health Plan, and whether the transaction is fair and reasonable. The​
+
+24.19
+
+committee shall provide the board with all material information used to make the​
+
+24.20
+
+recommendation. After reviewing all relevant information, the board shall decide whether​
+
+24.21
+
+to approve the transaction or arrangement.​
+
+24.22
+24.23
+
+Sec. 9. [62X.12] OMBUDSMAN OFFICE FOR PATIENT ADVOCACY.​
+Subdivision 1. Creation of office. (a) The Ombudsman Office for Patient Advocacy is​
+
+24.24
+
+created to represent the interests of the consumers of health care. The ombudsman shall​
+
+24.25
+
+help residents of the state secure the health care services and health care benefits they are​
+
+24.26
+
+entitled to under the laws administered by the Minnesota Health Board and advocate on​
+
+24.27
+
+behalf of and represent the interests of enrollees in entities created by this chapter and in​
+
+24.28
+
+other forums.​
+
+24.29
+
+(b) The ombudsman shall be a patient advocate appointed by the governor, who serves​
+
+24.30
+
+in the unclassified service and may be removed only for just cause. The ombudsman must​
+
+24.31
+
+be selected without regard to political affiliation and must be knowledgeable about and have​
+
+24.32
+
+experience in health care services and administration.​
+
+Article 6 Sec. 9.​
+
+24​
+
+SGS/AC​
+
+as introduced​
+
+25.1
+
+(c) The ombudsman may gather information about decisions, acts, and other matters of​
+
+25.2
+
+the Minnesota Health Board, health care organization, or a health care program. A person​
+
+25.3
+
+may not serve as ombudsman while holding another public office.​
+
+25.4
+
+(d) The budget for the ombudsman's office shall be determined by the legislature and is​
+
+25.5
+
+independent from the Minnesota Health Board. The ombudsman shall establish offices to​
+
+25.6
+
+provide convenient access to residents.​
+
+25.7
+25.8
+
+(e) The Minnesota Health Board has no oversight or authority over the ombudsman for​
+patient advocacy.​
+
+25.9
+
+Subd. 2. Ombudsman's duties. The ombudsman shall:​
+
+25.10
+
+(1) ensure that patient advocacy services are available to all Minnesota residents;​
+
+25.11
+
+(2) establish and maintain the grievance process according to section 62X.13;​
+
+25.12
+
+(3) receive, evaluate, and respond to consumer complaints about the Minnesota Health​
+
+25.13
+25.14
+25.15
+25.16
+25.17
+25.18
+25.19
+25.20
+25.21
+
+25.22
+
+Plan;​
+(4) establish a process to receive recommendations from the public about ways to improve​
+the Minnesota Health Plan;​
+(5) develop educational and informational guides according to communication services​
+under section 15.441, describing consumer rights and responsibilities;​
+(6) ensure the guides in clause (5) are widely available to consumers and specifically​
+available in provider offices and health care facilities; and​
+(7) prepare an annual report about the consumer perspective on the performance of the​
+Minnesota Health Plan, including recommendations for needed improvements.​
+Sec. 10. [62X.13] GRIEVANCE SYSTEM.​
+
+25.23
+
+Subdivision 1. Grievance system established. The ombudsman shall establish a​
+
+25.24
+
+grievance system for complaints. The system shall provide a process that ensures adequate​
+
+25.25
+
+consideration of Minnesota Health Plan enrollee grievances and appropriate remedies.​
+
+25.26
+
+Subd. 2. Referral of grievances. The ombudsman may refer any grievance that does​
+
+25.27
+
+not pertain to compliance with this chapter to the federal Centers for Medicare and Medicaid​
+
+25.28
+
+Services or any other appropriate local, state, and federal government entity for investigation​
+
+25.29
+
+and resolution.​
+
+25.30
+
+Subd. 3. Submittal by designated agents and providers. A provider may join with,​
+
+25.31
+
+or otherwise assist, a complainant to submit the grievance to the ombudsman. A provider​
+
+Article 6 Sec. 10.​
+
+25​
+
+SGS/AC​
+
+as introduced​
+
+26.1
+
+or an employee of a provider who, in good faith, joins with or assists a complainant in​
+
+26.2
+
+submitting a grievance is subject to the protections and remedies under sections 181.931 to​
+
+26.3
+
+181.935.​
+
+26.4
+26.5
+
+Subd. 4. Review of documents. The ombudsman may require additional information​
+from health care providers or the board.​
+
+26.6
+
+Subd. 5. Written notice of disposition. The ombudsman shall send a written notice of​
+
+26.7
+
+the final disposition of the grievance, and the reasons for the decision, to the complainant,​
+
+26.8
+
+to any provider who is assisting the complainant, and to the board, within 30 calendar days​
+
+26.9
+
+of receipt of the request for review unless the ombudsman determines that additional time​
+
+26.10
+
+is reasonably necessary to fully and fairly evaluate the relevant grievance. The ombudsman's​
+
+26.11
+
+order of corrective action shall be binding on the Minnesota Health Plan. A decision of the​
+
+26.12
+
+ombudsman is subject to de novo review by the district court.​
+
+26.13
+
+Subd. 6. Data. Data on enrollees collected because an enrollee submits a complaint to​
+
+26.14
+
+the ombudsman are private data on individuals as defined in section 13.02, subdivision 12,​
+
+26.15
+
+but may be released to a provider who is the subject of the complaint or to the board for​
+
+26.16
+
+purposes of this section.​
+
+26.17
+
+Sec. 11. [62X.14] AUDITOR GENERAL FOR THE MINNESOTA HEALTH PLAN.​
+
+26.18
+
+Subdivision 1. Establishment. There is within the Office of the Legislative Auditor an​
+
+26.19
+
+auditor general for health care fraud and abuse for the Minnesota Health Plan who is​
+
+26.20
+
+appointed by the legislative auditor.​
+
+26.21
+
+Subd. 2. Duties. The auditor general shall:​
+
+26.22
+
+(1) investigate, audit, and review the financial and business records of the Minnesota​
+
+26.23
+26.24
+
+Health Plan and the Minnesota Health Fund;​
+(2) investigate, audit, and review the financial and business records of individuals, public​
+
+26.25
+
+and private agencies and institutions, and private corporations that provide services or​
+
+26.26
+
+products to the Minnesota Health Plan, the costs of which are reimbursed by the Minnesota​
+
+26.27
+
+Health Plan;​
+
+26.28
+
+(3) investigate allegations of misconduct on the part of an employee or appointee of the​
+
+26.29
+
+Minnesota Health Board and on the part of any provider of health care services that is​
+
+26.30
+
+reimbursed by the Minnesota Health Plan, and report any findings of misconduct to the​
+
+26.31
+
+attorney general;​
+
+26.32
+
+(4) investigate fraud and abuse;​
+
+Article 6 Sec. 11.​
+
+26​
+
+27.1
+27.2
+27.3
+27.4
+
+27.5
+27.6
+
+SGS/AC​
+
+as introduced​
+
+(5) arrange for the collection and analysis of data needed to investigate the inappropriate​
+utilization of these products and services; and​
+(6) annually report recommendations for improvements to the Minnesota Health Plan​
+to the board.​
+Sec. 12. [62X.15] MINNESOTA HEALTH PLAN POLICIES AND PROCEDURES;​
+RULEMAKING.​
+
+27.7
+
+Subdivision 1. Exempt rules. The Minnesota Health Plan policies and procedures are​
+
+27.8
+
+exempt from the Administrative Procedure Act but, to the extent authorized by law to adopt​
+
+27.9
+
+rules, the board may use the provisions of section 14.386, paragraph (a), clauses (1) and​
+
+27.10
+
+(3). Section 14.386, paragraph (b), does not apply to these rules.​
+
+27.11
+
+Subd. 2. Rulemaking procedures. (a) Whenever the board determines that a rule should​
+
+27.12
+
+be adopted under this section establishing, modifying, or revoking a policy or procedure,​
+
+27.13
+
+the board shall publish in the State Register the proposed policy or procedure and shall​
+
+27.14
+
+afford interested persons a period of 30 days after publication to submit written data or​
+
+27.15
+
+comments.​
+
+27.16
+
+(b) On or before the last day of the period provided for the submission of written data​
+
+27.17
+
+or comments, any interested person may file with the board written objections to the proposed​
+
+27.18
+
+rule, stating the grounds for objection and requesting a public hearing on those objections.​
+
+27.19
+
+Within 30 days after the last day for filing objections, the board shall publish in the State​
+
+27.20
+
+Register a notice specifying the policy or procedure to which objections have been filed​
+
+27.21
+
+and a hearing requested and specifying a time and place for the hearing.​
+
+27.22
+
+Subd. 3. Rule adoption. Within 60 days after the expiration of the period provided for​
+
+27.23
+
+the submission of written data or comments, or within 60 days after the completion of any​
+
+27.24
+
+hearing, the board shall issue a rule adopting, modifying, or revoking a policy or procedure,​
+
+27.25
+
+or make a determination that a rule should not be adopted. The rule may contain a provision​
+
+27.26
+
+delaying its effective date for such period as the board determines is necessary.​
+
+27.27
+27.28
+27.29
+
+Sec. 13. [62X.151] EXEMPTION FROM RULEMAKING.​
+The board and its operation of the Minnesota Health Plan and the Minnesota Health​
+Fund is exempt from rulemaking under chapter 14.​
+
+Article 6 Sec. 13.​
+
+27​
+
+SGS/AC​
+
+as introduced​
+
+28.1
+
+Sec. 14. Minnesota Statutes 2024, section 14.03, subdivision 3, is amended to read:​
+
+28.2
+
+Subd. 3. Rulemaking procedures. (a) The definition of a rule in section 14.02,​
+
+28.3
+28.4
+28.5
+28.6
+
+subdivision 4, does not include:​
+(1) rules concerning only the internal management of the agency or other agencies that​
+do not directly affect the rights of or procedures available to the public;​
+(2) an application deadline on a form; and the remainder of a form and instructions for​
+
+28.7
+
+use of the form to the extent that they do not impose substantive requirements other than​
+
+28.8
+
+requirements contained in statute or rule;​
+
+28.9
+
+(3) the curriculum adopted by an agency to implement a statute or rule permitting or​
+
+28.10
+
+mandating minimum educational requirements for persons regulated by an agency, provided​
+
+28.11
+
+the topic areas to be covered by the minimum educational requirements are specified in​
+
+28.12
+
+statute or rule;​
+
+28.13
+28.14
+
+(4) procedures for sharing data among government agencies, provided these procedures​
+are consistent with chapter 13 and other law governing data practices.​
+
+28.15
+
+(b) The definition of a rule in section 14.02, subdivision 4, does not include:​
+
+28.16
+
+(1) rules of the commissioner of corrections relating to the release, placement, term, and​
+
+28.17
+
+supervision of inmates serving a supervised release or conditional release term, the internal​
+
+28.18
+
+management of institutions under the commissioner's control, and rules adopted under​
+
+28.19
+
+section 609.105 governing the inmates of those institutions;​
+
+28.20
+28.21
+
+(2) rules relating to weight limitations on the use of highways when the substance of the​
+rules is indicated to the public by means of signs;​
+
+28.22
+
+(3) opinions of the attorney general;​
+
+28.23
+
+(4) the data element dictionary and the annual data acquisition calendar of the Department​
+
+28.24
+
+of Education to the extent provided by section 125B.07;​
+
+28.25
+
+(5) the occupational safety and health standards provided in section 182.655;​
+
+28.26
+
+(6) revenue notices and tax information bulletins of the commissioner of revenue;​
+
+28.27
+
+(7) uniform conveyancing forms adopted by the commissioner of commerce under​
+
+28.28
+28.29
+28.30
+
+section 507.09;​
+(8) standards adopted by the Electronic Real Estate Recording Commission established​
+under section 507.0945; or​
+
+Article 6 Sec. 14.​
+
+28​
+
+29.1
+29.2
+29.3
+29.4
+
+SGS/AC​
+
+(9) the interpretive guidelines developed by the commissioner of human services to the​
+extent provided in chapter 245A.; or​
+(10) rules, policies, and procedures adopted by the Minnesota Health Board under chapter​
+62X.​
+
+29.5
+
+ARTICLE 7​
+
+29.6
+
+IMPLEMENTATION​
+
+29.7
+
+as introduced​
+
+Section 1. [62X.16] IMPLEMENTATION.​
+
+29.8
+
+Subdivision 1. Prohibition. On and after the day the Minnesota Health Plan becomes​
+
+29.9
+
+operational, a health plan, as defined in section 62Q.01, subdivision 3, may not be sold in​
+
+29.10
+
+Minnesota for health services provided by the Minnesota Health Plan.​
+
+29.11
+
+Subd. 2. Analysis; transition. (a) The commissioners of health, human services, and​
+
+29.12
+
+commerce shall prepare an analysis of the state's capital expenditure needs for the purpose​
+
+29.13
+
+of assisting the board in adopting the statewide capital budget for the year following​
+
+29.14
+
+implementation. The commissioners shall submit this analysis to the board.​
+
+29.15
+
+(b) The following timelines shall be implemented:​
+
+29.16
+
+(1) the commissioner of health shall designate the health planning regions utilizing the​
+
+29.17
+29.18
+29.19
+29.20
+29.21
+
+criteria specified in section 62X.07, 30 days after the date of enactment of this act;​
+(2) the regional boards shall be established three months after the date of enactment of​
+this act; and​
+(3) the Minnesota Health Board shall be established five months after the date of​
+enactment of this act; and​
+
+29.22
+
+(4) the commissioner of health, or the commissioner's designee, shall convene the first​
+
+29.23
+
+meeting of each of the regional boards and the Minnesota Health Board within 30 days after​
+
+29.24
+
+each of the boards has been established.​
+
+29.25
+
+Subd. 3. Report. Within one year of the effective date of chapter 62X, DEED shall​
+
+29.26
+
+provide to the Minnesota Health Board, the governor, and the chairs and ranking members​
+
+29.27
+
+of the legislative committees with jurisdiction over health, human services, and commerce​
+
+29.28
+
+a report spelling out the appropriations and legislation necessary to assist all affected​
+
+29.29
+
+individuals and communities through the transition.​
+
+Article 7 Section 1.​
+
+29​
+
+30.1
+30.2
+
+SGS/AC​
+
+as introduced​
+
+Sec. 2. APPROPRIATION.​
+$....... in fiscal year 2026 is appropriated from the general fund to the Minnesota Health​
+
+30.3
+
+Fund under the Minnesota Health Plan to provide start-up funding for the provisions of​
+
+30.4
+
+Minnesota Statutes, chapter 62X.​
+
+30.5
+30.6
+
+Sec. 3. EFFECTIVE DATE AND TRANSITION.​
+Subdivision 1. Effective date. This act is effective the day following final enactment.​
+
+30.7
+
+The commissioner of management and budget and the chief executive officer of the​
+
+30.8
+
+Minnesota Health Plan shall regularly update the legislature on the status of planning,​
+
+30.9
+
+implementation, and financing of this act.​
+
+30.10
+30.11
+
+Subd. 2. Timing to implement. The Minnesota Health Plan must be operational within​
+two years from the date of final enactment of this act.​
+
+Article 7 Sec. 3.​
+
+30​
+
+APPENDIX​
+Article locations for 25-02780​
+
+ARTICLE 1​
+
+MINNESOTA HEALTH PLAN............................................................. Page.Ln 1.12​
+
+ARTICLE 2​
+
+ELIGIBILITY......................................................................................... Page.Ln 3.1​
+
+ARTICLE 3​
+
+BENEFITS.............................................................................................. Page.Ln 4.21​
+
+ARTICLE 4​
+
+FUNDING.............................................................................................. Page.Ln 7.11​
+
+ARTICLE 5​
+
+PAYMENTS........................................................................................... Page.Ln 12.10​
+
+ARTICLE 6​
+
+GOVERNANCE..................................................................................... Page.Ln 13.21​
+
+ARTICLE 7​
+
+IMPLEMENTATION............................................................................. Page.Ln 29.5​
+1​

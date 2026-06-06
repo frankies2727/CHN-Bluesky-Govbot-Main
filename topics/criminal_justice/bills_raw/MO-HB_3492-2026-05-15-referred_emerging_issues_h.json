@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3492",
+    "legislative_session": "2026",
+    "subject": [
+      "LICENSES - MOTOR VEHICLE"
+    ],
+    "title": "Establishes a process in which persons registering a motor vehicle may apply for a designation and license plate decals indicating a health condition or disability that limits or impairs the ability to effectively communicate with law enforcement"
+  },
+  "id": "HB 3492",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3492"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3492/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3492/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

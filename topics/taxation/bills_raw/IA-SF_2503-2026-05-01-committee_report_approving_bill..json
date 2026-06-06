@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2503",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "biofuels",
+      "processing and production",
+      "sales taxes",
+      "tax refunds",
+      "use taxes"
+    ],
+    "title": "A bill for an act modifying the sales or use tax refund for biodiesel production, and including retroactive applicability provisions."
+  },
+  "id": "SF 2503",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-05-01",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2503"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2503/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2503/logs/20260501T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260501T000000Z"
+}
