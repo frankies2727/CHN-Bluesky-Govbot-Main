@@ -5,7 +5,7 @@ on:
   # (which runs at 21:00) but a half-hour later so the two don't race the
   # shared govbot fetch / Ollama install on the same runner pool.
   schedule:
-    - cron: "30 21 * * FRI"
+    - cron: "27 12 * * FRI"
   workflow_dispatch: {}
 
 permissions:
