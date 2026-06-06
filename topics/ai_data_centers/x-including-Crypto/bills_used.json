@@ -31,6 +31,8 @@
     "FL|SB 2D|2026-04-28|Read 3rd time",
     "FL|SB 2D|2026-04-28|Withdrawn from Rules",
     "FL|SB 2D|2026-04-29|Died in Information Technology Budget & ",
+    "GA|HB 1272|2026-05-11|Act 452",
+    "GA|HB 1272|2026-05-11|House Date Signed by Governor",
     "GA|HR 2121|2026-04-02|House Read and Adopted",
     "GA|SB 444|2026-05-05|Act 411",
     "GA|SB 444|2026-05-05|Senate Date Signed by Governor",
@@ -45,6 +47,7 @@
     "KS|HB2696|2026-04-10|Died in Committee",
     "KS|HR6023|2026-04-10|Died in Committee",
     "KS|SB467|2026-04-10|Died in Committee",
+    "KS|SB499|2026-04-10|Died in Committee",
     "MN|HF 3146|2026-03-05|Author stricken Engen",
     "MN|SF 1856|2026-03-04|Author stricken Mitchell",
     "MN|SF 1857|2026-02-26|Withdrawn and re-referred to Judiciary a",
@@ -89,9 +92,9 @@
   ],
   "state_last_posted": {
     "IA": "2026-05-21T05:01:24.592579+00:00",
-    "KS": "2026-06-05T17:15:46.814953+00:00",
+    "KS": "2026-06-06T10:39:34.831012+00:00",
     "WA": "2026-06-01T18:04:50.925907+00:00",
-    "GA": "2026-06-01T18:04:50.925907+00:00",
+    "GA": "2026-06-06T10:39:34.831012+00:00",
     "MN": "2026-06-02T12:32:48.851632+00:00",
     "CA": "2026-06-05T17:15:46.814953+00:00",
     "MS": "2026-05-30T10:31:21.713792+00:00",
@@ -102,5 +105,5 @@
     "IL": "2026-05-26T01:08:56.456572+00:00",
     "PR": "2026-06-05T11:51:06.690013+00:00"
   },
-  "last_run": "2026-06-05T23:37:37.853474+00:00"
+  "last_run": "2026-06-06T10:45:37.427086+00:00"
 }
