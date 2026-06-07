@@ -1,0 +1,95 @@
+Session of 2025
+
+SENATE BILL No. 233
+By Committee on Federal and State Affairs
+2-6
+
+AN ACT concerning energy; relating to commercial wind and solar energy
+facilities; establishing requirements for the decommissioning of such
+facilities; requiring a county to enter into a decommissioning agreement
+with a facility owner prior to construction of any such facility;
+requiring the facility owner to provide financial assurance in an amount
+sufficient to cover the costs of decommissioning; requiring
+decommissioning costs to be paid by affected landowners under certain
+circumstances.
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. (a) (1) Prior to the construction of any commercial solar
+energy facility or commercial wind energy facility in this state, the board
+of county commissioners of the county where such proposed facility will
+be located shall require the facility owner to enter into a decommissioning
+agreement with the county. The decommissioning agreement shall
+establish a sufficient, efficient and enforceable decommissioning plan for
+the facility. The decommissioning plan shall require a facility owner to
+decommission all generating units and applicable supporting facilities and
+materially return and restore any land disturbed or changed as a result of
+the construction, operation and decommissioning of the facility to the
+condition that such land existed prior to such construction, operation and
+decommissioning.
+(2) The decommissioning plan shall be prepared by an independent,
+third-party engineer licensed under the laws of this state. Such plan shall
+include an estimate and description of the amount of financial assurance
+that shall be sufficient for the facility owner to implement the
+decommissioning plan. Such financial assurance cost estimate shall be
+updated by such an engineer at least once every five years to account for
+any inflation adjustments or other factors. The facility owner shall
+reimburse the county for any costs borne by the county to contract with an
+engineer pursuant to this section.
+(3) The facility owner shall provide the financial assurance
+determined pursuant to paragraph (2) in the form of an irrevocable standby
+letter of credit, performance bond, surety bond or unconditional payment
+guarantee executed by a parent company of the facility owner only if such
+parent company maintains an investment grade credit rating. The county
+
+SB 233
+
+shall have the sole authority to determine the form of financial assurance
+required pursuant to a decommissioning plan and may, from time to time
+and as conditions may require, revise the form of financial assurance
+required. Such financial assurance shall at all times be accessible by such
+county so that the county may initiate decommissioning of the facility in
+accordance with the terms and conditions of the decommissioning
+agreement.
+(b) Upon any change of ownership of a commercial solar energy
+facility or commercial wind energy facility, a decommissioning agreement
+entered into pursuant to this section shall be transferred to and all such
+rights and obligations assumed by the subsequent facility owner.
+(c) If a facility owner indicates an inability to complete
+decommissioning, or is no longer in business, and the county is unable to
+access the financial assurance to complete decommissioning in accordance
+with a decommissioning plan entered into pursuant to this section, the
+county shall decommission such facility in accordance with the
+decommissioning plan and shall assess against any landowner who is
+subject to a lease or easement relating to such facility the costs borne by
+the county to decommission any such facility on such landowner's land.
+Prior to the county bearing the costs to decommissioning any such facility
+and assessing such costs against landowners as provided in this subsection,
+the county may authorize any landowner to decommission any such
+facility and may establish reasonable time limitations for the landowner's
+completion of such decommissioning.
+(d) Any decommissioning agreement entered into pursuant to this
+section shall include meaningful remedy and penalty provisions for a
+facility owner's noncompliance with such agreement, including a
+requirement that when the county commences a civil action against a
+facility owner with respect to the enforcement or interpretation of a
+decommissioning agreement, the county shall be entitled to an award of
+the county's costs of such litigation, including reasonable attorney fees,
+from the facility owner. The county shall have authority to enforce a
+decommissioning agreement by mandamus or other appropriate
+proceeding at law or equity.
+(e) As used in this section:
+(1) "Commercial solar energy facility" means any device or assembly
+of devices and supporting facilities that has a nameplate capacity of a least
+one megawatt and uses solar energy to generate electricity for the primary
+purpose of wholesale or retail sale.
+(2) "Commercial wind energy facility" means any device or assembly
+of devices and supporting facilities that has a nameplate capacity of at
+least one megawatt and uses kinetic energy from the wind to generate
+electricity for the primary purpose of wholesale or retail sale.
+
+SB 233
+
+(3) "Facility owner" means any person who has a direct ownership
+interest in or who is acting as the developer or operator of a commercial
+solar energy facility or commercial wind energy facility.
+Sec. 2. This act shall take effect and be in force from and after its
+publication in the statute book.

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Personal Income Tax Law and the Corporation Tax Law allow a credit against the taxes imposed by those laws, for taxable years beginning on or after January 1, 2021, and before January 1, 2027, for rehabilitation of certified historic structures, as defined, and, under the Personal Income Tax Law, for a qualified residence, as defined. Existing law allows an increased credit of 25% of the qualified rehabilitation expenditures with respect to a certified historic structure meeting any of certain criteria, including a rehabilitated structure that includes affordable housing for lower income households. Existing law requires a taxpayer to receive an allocation from the California Tax Credit Allocation Committee (CTCAC) to be eligible for the credit. Existing law limits the aggregate amount of money that can be allocated for these credits per calendar year and reserves a portion of that money to be allocated for a qualified residence or for projects less than $1,000,000.\n\nExisting law requires, on an annual basis beginning January 1, 2021, until January 1, 2027, the Legislative Analyst to collaborate with the CTCAC and the Office of Historic Preservation to review the effectiveness of these tax credits, as described.\n\nThis bill would require the Legislative Analyst to submit a review of the effectiveness of the tax credits for taxable years beginning on or after January 1, 2025, and before January 1, 2027, to the Legislature, as specified. \n\nThis bill, for taxable years beginning on or after January 1, 2027, and before January 1, 2031, would enact a similar credit for the rehabilitation of certified historic structures, as provided. The bill, for tax credits allocated for those taxable years, would remove the above-described increased credit of 25% and would remove the credit for a qualified residence. The bill would also remove the limit on the amount of money that can be allocated per calendar year, including the above-described reservations.\n\nExisting law requires any bill authorizing a new tax expenditure, as defined, to include exclusions from income, to contain, among other things, specific goals, purposes, and objectives that the tax credit will achieve, detailed performance indicators, and data collection requirements.\n\nThis bill would include findings and reporting requirements in compliance with this requirement.\n\nThis bill would take effect immediately as a tax levy.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1265",
+    "legislative_session": "20252026",
+    "subject": [
+      "Incometaxes",
+      "credits",
+      "rehabilitationofcertifiedhistoricstructures"
+    ],
+    "title": "Income taxes: credits: rehabilitation of certified historic structures."
+  },
+  "id": "AB1265",
+  "log": {
+    "action": {
+      "date": "2026-06-03",
+      "description": "In committee: Set, first hearing. Hearing canceled at the request of author.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1265"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1265/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1265/logs/20260603T000000Z_in_committee_set_first_hearing_hearing_canceled_at_the_request_of_author.json"
+  },
+  "timestamp": "20260603T000000Z"
+}

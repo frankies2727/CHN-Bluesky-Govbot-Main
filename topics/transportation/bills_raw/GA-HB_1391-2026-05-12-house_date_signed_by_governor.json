@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 40-2-86 of the Official Code of Georgia Annotated, relating to license plates promoting or supporting certain agencies, funds, or nonprofit corporations with proceeds disbursed to the general fund and the agency, fund, or nonprofit corporation, so as to establish a specialty license plate honoring public safety officers; to provide for related matters; to provide for compliance with constitutional requirements; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1391",
+    "legislative_session": "2025_26",
+    "subject": [
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES",
+      "MOTOR VEHICLES AND TRAFFIC",
+      "PUBLIC OFFICERS AND EMPLOYEES"
+    ],
+    "title": "Specialty license plates; honor public safety officers; establish"
+  },
+  "id": "HB 1391",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-12",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1391"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1391/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1391/logs/20260512T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260512T000000Z"
+}

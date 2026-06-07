@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Taxation & Revenue",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB221",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Taxation & Revenue"
+    ],
+    "title": "Taxation; to exclude credit card transaction fees from sales and use tax calculations"
+  },
+  "id": "SB221",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-17T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB221"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB221/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB221/logs/20260417T040000Z.classification.became-law.upper.json"
+  }
+}

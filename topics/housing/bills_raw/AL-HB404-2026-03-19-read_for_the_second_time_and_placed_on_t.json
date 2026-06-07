@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Counties & Municipalities",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB404",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Counties & Municipalities"
+    ],
+    "title": "Class 1 municipalities; authorization to establish community land trusts, affordable housing"
+  },
+  "id": "HB404",
+  "log": {
+    "action": {
+      "date": "2026-03-19T04:00:00+00:00",
+      "description": "Read for the Second Time and placed on the Calendar (County and Municipal Government)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB404"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB404/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB404/logs/20260319T040000Z_read_for_the_second_time_and_placed_on_the_calendar_county_and_municipal_government.json"
+  },
+  "timestamp": "20260319T040000Z"
+}

@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2506",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "business assistance",
+      "business incentives for growth program",
+      "credit",
+      "economic development",
+      "economic development authority",
+      "education",
+      "industrial new jobs training program",
+      "job training",
+      "labor and employment",
+      "major economic growth attraction program",
+      "research",
+      "tax credits",
+      "transmission lines",
+      "utilities",
+      "utilities commission"
+    ],
+    "title": "A bill for an act relating to matters under the purview of the economic development authority, the utilities commission, and the department of education, including creation of the headquarters expansion and development for growth and employment program, and the business incentives for growth program training fund; repeal of the new jobs tax credit program; the major economic growth attraction program; load forecasting and analysis of electric transmission system expansion plans; creation of the electric transmission system expansion planning and analysis and load forecasting fund; the industrial new jobs training program; establishing the new jobs training program interim study committee; the research activities credit; and including effective date provisions."
+  },
+  "id": "SF 2506",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-05-01",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2506"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2506/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2506/logs/20260501T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260501T000000Z"
+}

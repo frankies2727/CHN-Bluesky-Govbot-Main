@@ -1,0 +1,163 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To:
+
+Senator(s) Blackmon
+
+Judiciary, Division A
+
+SENATE BILL NO. 2354
+
+AN ACT TO CREATE THE ARTIFICIAL INTELLIGENCE FRAUD AND
+ACCOUNTABILITY ACT; TO DEFINE ARTIFICIAL INTELLIGENCE FRAUD; TO
+CREATE A CIVIL CAUSE OF ACTION FOR PERSONS OR ENTITIES INJURED OR
+DAMAGED BY ARTIFICIAL INTELLIGENCE FRAUD; TO PROVIDE REMEDIES; TO
+ALLOW THE COURT TO AWARD PUNITIVE DAMAGES UPON A FINDING OF
+KNOWING AND WILLFUL VIOLATION; TO ALLOW INJURED PERSONS OR
+ENTITIES TO FILE A CAUSE OF ACTION FOR A TEMPORARY OR PERMANENT
+INJUNCTION AGAINST VIOLATORS OF THIS ACT; TO PROVIDE THAT A PERSON
+OR ENTITY WHO KNOWINGLY DEVELOPS OR USES ARTIFICIAL INTELLIGENCE
+FOR FRAUDULENT PURPOSES MAY BE HELD JOINTLY AND SEVERALLY LIABLE;
+AND FOR RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+(1)
+
+This act shall be known and may be cited as
+
+the "Artificial Intelligence Fraud and Accountability Act."
+(2)
+
+As used in this section:
+(a)
+
+"Artificial intelligence fraud" means the use of
+
+artificial intelligence systems to deceive, impersonate or obtain
+
+money, property, data or other assets from another person; and
+
+(b)
+
+"Artificial intelligence systems" includes, but is
+
+not limited to, deepfakes, voice cloning, generative text or image
+
+tools, chatbots or automated decision-making systems.
+
+S. B. No. 2354
+PAGE 1 (aa\kr)
+
+*SS08/R355*
+
+~ OFFICIAL ~
+
+G1/2
+
+(3)
+
+(a)
+
+Any person or entity injured or damaged by
+
+artificial intelligence fraud as defined herein may bring a cause
+
+of action in the court having jurisdiction in the county in which
+
+the violator resides, has his or her place of business, or where
+
+the act or practice prohibited in this section allegedly occurred,
+
+to seek compensatory damages or statutory damages in the amount of
+
+Five Hundred Dollars ($500.00) per violation, whichever is
+
+greater.
+
+recover reasonable attorney's fees and other litigation costs
+
+reasonably incurred.
+
+Such injured person or entity shall also be entitled to
+
+(b)
+
+In any action brought under this section, if the
+
+court finds clear and convincing evidence that a person or entity
+
+knowingly and willfully engaged in a transaction or trade practice
+
+with a consumer in which the consumer was or is harmed by
+
+artificial intelligence fraud, the injured party may recover, at
+
+the court's discretion, punitive damages under Section 11-1-65.
+
+(c)
+
+Upon a violation of this section, any person or
+
+entity affected by such violation may bring a cause of action
+
+against violators to restrain by temporary or permanent injunction
+
+the use of such fraudulent method, act or practice involving
+
+artificial intelligence fraud.
+
+chancery or county court of the county in which such person
+
+resides or has his or her principal place of business, or, with
+
+the consent of the parties, may be brought in the chancery court
+
+of the county in which the State Capitol is located.
+S. B. No. 2354
+PAGE 2 (aa\kr)
+
+*SS08/R355*
+
+The action shall be brought in the
+
+~ OFFICIAL ~
+
+Courts are
+
+authorized to issue temporary or permanent injunctions to restrain
+
+and prevent violations of this chapter, and such injunctions shall
+
+be issued without bond.
+
+(4)
+
+Any person or entity which knowingly develops, deploys
+
+or facilitates artificial intelligence systems for the purpose of
+
+fraudulent behavior may be held jointly and severally liable for
+
+resulting damages.
+
+SECTION 2.
+
+This act shall take effect and be in force from
+
+and after July 1, 2026.
+
+S. B. No. 2354
+PAGE 3 (aa\kr)
+
+~ OFFICIAL ~
+ST: Artificial Intelligence Fraud and
+Accountability Act; enact.
+
+*SS08/R355*

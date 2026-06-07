@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2077",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Taxation"
+    ],
+    "title": "Providing a sales tax exemption for purchases of personal property and services, sales of personal property and purchases of construction materials and services for not-for-profit animal shelters and rescue network managers licensed under the Kansas pet animal act."
+  },
+  "id": "HB2077",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2077"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2077/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2077/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

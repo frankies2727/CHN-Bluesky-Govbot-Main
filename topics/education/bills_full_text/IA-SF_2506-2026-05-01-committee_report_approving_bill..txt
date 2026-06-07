@@ -1,0 +1,958 @@
+Senate File 2506 - Introduced
+SENATE FILE 2506
+BY COMMITTEE ON WAYS AND MEANS
+(SUCCESSOR TO SF 2301)
+(SUCCESSOR TO SSB 3103)
+
+A BILL FOR
+
+An Act relating to matters under the purview of the economic
+development authority, the utilities commission, and
+the department of education, including creation of the
+headquarters expansion and development for growth and
+employment program, and the business incentives for growth
+program training fund; repeal of the new jobs tax credit
+program; the major economic growth attraction program; load
+forecasting and analysis of electric transmission system
+expansion plans; creation of the electric transmission
+system expansion planning and analysis and load forecasting
+fund; the industrial new jobs training program; establishing
+the new jobs training program interim study committee; the
+research activities credit; and including effective date
+provisions.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA:
+
+TLSB 5472SZ (3) 91
+nls/ko
+
+DIVISION I
+HEADQUARTERS EXPANSION AND DEVELOPMENT FOR GROWTH EMPLOYMENT
+PROGRAM
+Section 1. NEW SECTION. 15.600 Short title.
+This part shall be known and may be cited as the
+“Headquarters Expansion and Development for Growth and Employment
+Program”, or “EDGE Program”.
+Sec. 2. NEW SECTION. 15.601 Definitions.
+As used in this part, unless the context otherwise requires:
+1. “Agreement” means an agreement entered into by an
+eligible business and the authority pursuant to section 15.604.
+2. “Base employment level” means the number of full-time
+equivalent positions at a business, as established by the
+authority and the business based on the business’s payroll
+records, on the date the business applies for the program.
+3. “Benefits” means nonwage compensation provided to an
+employee. “Benefits” include medical and dental insurance, a
+pension, a retirement plan, a profit-sharing plan, child care,
+life insurance, vision insurance, and disability insurance.
+4. “Community” means a city or county in the state.
+5. “Corporate headquarters” means a location in the
+state that serves as the principal executive office or
+houses the core administrative operations for a business,
+and that includes executive leadership offices, strategic
+decision-making functions, and administrative and support staff
+employees.
+6. “Corporate job” means a position based at a corporate
+headquarters that involves strategic planning, executive
+decision-making, or core administrative functions.
+7. “Created jobs” or “create jobs” means new, permanent,
+full-time equivalent positions added to an eligible business’s
+payroll, at the location of the eligible business’s project, in
+excess of the eligible business’s base employment level.
+8. “Data center business” means the same as defined in
+section 423.3, subsection 95.
+
+nls/ko
+
+1/24
+
+9. “Eligible business” means a business that meets the
+requirements of section 15.602.
+10. “Full-time equivalent position” means a non-part-time
+position for the number of hours or days per week considered
+to be full-time work for the kind of service or work performed
+for an employer. Typically, a full-time equivalent position
+requires two thousand eighty hours of work in a calendar year,
+including all paid holidays, vacations, sick time, and other
+paid leave.
+11. “Gross annual wages” means all regular wages and
+salaries received by an employee for performing services as
+an employee of an employer. “Gross annual wages” does not
+include nonregular forms of compensation, such as bonuses,
+unusual overtime pay, commissions, stock options, pensions,
+retirement or death benefits, unemployment benefits, life or
+other insurance, or other fringe benefits.
+12. “New corporate job” means a corporate job that is a
+created job.
+13. “Program” means the headquarters expansion and
+development for growth and employment program.
+14. “Project” means the retention or location of a corporate
+headquarters for an eligible business, proposed in an eligible
+business’s application to the program, that will accomplish the
+goals of the program.
+15. “Qualifying wage threshold” means the mean wage level
+represented by the wages within two standard deviations of
+the mean wage within the laborshed area in which the eligible
+business is located, as calculated by the authority by rule,
+using the most current covered wage and employment data
+available from the department of workforce development for the
+laborshed area in which the eligible business is located.
+16. “Retained corporate job” means a corporate job that is
+also a retained job.
+17. “Retained jobs” means a full-time equivalent position
+that is in existence at the time an eligible business applies
+
+nls/ko
+
+2/24
+
+for the program that remains continuously filled, and that is
+at risk of elimination if the proposed project for which the
+eligible business is applying to the program does not proceed.
+18. “Tax incentives” means tax credits authorized under the
+program by the authority for an eligible business.
+Sec. 3. NEW SECTION. 15.602 Eligible business.
+1. To be eligible to receive tax incentives under
+the program, a business must meet all of the following
+requirements:
+a. The community in which the proposed project is located
+must approve the project either by ordinance or resolution.
+b. The business must have a global presence, significant
+market share, or national recognition in the industry in which
+the business operates.
+c. The business must be able to provide documentation that a
+minimum of fifty-one percent of the business’s gross revenue is
+generated from business conducted outside the state.
+d. The business must be able to provide documentation that
+a state other than Iowa is meaningfully competing for the
+location or retention of the business’s corporate headquarters.
+e. (1) The business must be primarily engaged in advanced
+manufacturing, bioscience, insurance and finance, technology
+and innovation, or research and development. The business
+shall not be a data center business, a retail business, or
+a business where a cover charge or membership requirement
+restricts certain individuals from entering the business.
+(2) Factors the authority shall consider to determine if
+a business is primarily engaged in advanced manufacturing,
+bioscience, insurance and finance, technology and innovation,
+or research and development shall include but are not limited
+to all of the following:
+(a) The business’s North American industry classification
+system code.
+(b) The business’s main sources of revenue.
+(c) The business’s customer base.
+
+nls/ko
+
+3/24
+
+f. (1) The business must not be solely relocating
+operations from one area of the state to another area of
+the state. A proposed project that does not create jobs or
+involve a substantial amount of new capital investment shall
+be presumed to be a relocation of operations. For purposes of
+this subparagraph, the authority shall consider a letter from
+the affected local community’s government officials supporting
+the business’s move away from the affected local community
+in making a determination whether the business is solely
+relocating operations.
+(2) This paragraph shall not be construed to prohibit
+a business from expanding the business’s operations in a
+community if the business has similar operations in this state
+that are not closing or undergoing a substantial reduction in
+operations.
+g. The business must offer comprehensive benefits to
+each full-time equivalent employee employed at its corporate
+headquarters. The authority may adopt rules under chapter 17A
+to determine the requirements for comprehensive benefits.
+h. (1) The business must not have a record of violations
+of law or of rules, including but not limited to antitrust,
+environmental, trade, or worker safety, that over a period of
+time show a consistent pattern or that establish the business’s
+intentional, criminal, or reckless conduct in violation of such
+laws or rules.
+(2) In making determinations and findings under
+subparagraph (1), and making a determination whether a business
+is disqualified from the program, the authority shall be exempt
+from chapter 17A.
+2. In determining if a business is eligible to participate
+in the program, the authority shall consider a variety of
+factors including but not limited to all of the following:
+a. The cost to the state of providing tax incentives
+compared to the potential increase in state and local tax
+collections from the project, the potential for population
+
+nls/ko
+
+4/24
+
+growth resulting from the project, and the potential for wage
+growth resulting from the project.
+b. The impact of the business’s proposed project on
+businesses that are in competition with the business.
+The authority shall make a good-faith effort to identify
+existing Iowa businesses in competition with the business
+being considered for the program. The authority shall make
+a good-faith effort to determine the probability that any
+proposed tax incentives will displace employees of a competing
+business. In determining the impact on a competing business,
+employee displacement from the competing business shall not be
+considered created jobs for the applying business’s project.
+c. The business’s proposed project’s economic impact on
+the state. The authority shall place greater emphasis on
+businesses and proposed projects that meet the following
+requirements:
+(1) The business has a high proportion of in-state
+suppliers.
+(2) The proposed project will diversify the state economy.
+(3) The business has few in-state competitors.
+(4) The proposed project has the potential to create jobs on
+an ongoing basis, or will result in increased skills and wages
+for employees of the eligible business.
+(5) The proposed project has the potential to increase the
+state’s overall gross domestic product.
+(6) The proposed project will result in a newly constructed
+facility, or a facility with a significantly increased taxable
+valuation.
+(7) Any other factors the authority deems relevant in
+determining the economic impact of a proposed project.
+Sec. 4. NEW SECTION. 15.603 Applications —— authorization
+of tax incentives.
+1. Applications for the program shall be submitted to the
+authority in the form and manner prescribed by the authority by
+rule. Each application must be accompanied by an application
+
+nls/ko
+
+5/24
+
+fee in an amount determined by the authority by rule.
+2. In determining the eligibility of a business to
+participate in the program the authority may engage outside
+experts to complete a technical, financial, or other review
+of an application submitted by a business if such review is
+outside the expertise of the authority.
+3. The authority and the board may negotiate with an
+eligible business regarding the terms of, and the aggregate
+value of, the tax incentives the eligible business may receive
+under the program.
+Sec. 5. NEW SECTION. 15.604 Agreement.
+1. An eligible business that is approved by the authority to
+participate in the program shall enter into an agreement with
+the authority that specifies the criteria for the successful
+completion of all requirements of the program. The agreement
+must contain, at a minimum, provisions related to all of the
+following:
+a. The eligible business must certify to the authority
+annually that the business is in compliance with the agreement.
+b. If the eligible business fails to comply with any
+requirements of the program or the agreement, the eligible
+business may be required to repay any tax incentives the
+authority issued to the eligible business. After a final
+determination by the authority, the authority will notify
+the department of revenue of any required repayment of a
+tax incentive, which shall be considered a tax payment due
+and payable to the department of revenue by any taxpayer
+that claimed the tax incentive, and the failure to make the
+repayment may be treated by the department of revenue in the
+same manner as a failure to pay the tax shown due, or required
+to be shown due, with the filing of a return or deposit form.
+c. If the eligible business undergoes a layoff or
+permanently closes any of its facilities within the state, the
+eligible business may be subject to all of the following:
+(1) A reduction or elimination of some or all of the tax
+
+nls/ko
+
+6/24
+
+incentives the authority issued to the eligible business.
+(2) Repayment of any tax incentives that the business
+has claimed, and payment of any penalties assessed by the
+department of revenue.
+d. The end date of the agreement.
+e. The number of new corporate jobs and retained corporate
+jobs to be created or retained as part of the project, the
+qualifying wage threshold applicable to the project, and the
+date on which the authority will initially verify the eligible
+business employs the required number of new corporate jobs and
+retained corporate jobs.
+f. The maximum aggregate value of the tax incentives
+authorized by the board.
+g. The eligible business shall only employ individuals
+legally authorized to work in this state. If the eligible
+business is found to knowingly employ individuals who are
+not legally authorized to work in this state, in addition to
+any penalties provided by law, the eligible business may be
+required to repay all or a portion of any tax incentives the
+authority issued to the eligible business.
+h. A requirement that the eligible business must continue to
+own and operate a corporate headquarters in the state until the
+end date of the agreement as specified in paragraph “d”.
+i. Any terms deemed necessary by the authority to effect the
+eligible business’s ongoing compliance with section 15.602.
+2. The board shall not amend the terms of the agreement
+to allow an increase in the maximum aggregate value of tax
+incentives authorized by the board under section 15.603.
+3. The eligible business shall comply with all applicable
+terms of the agreement until the agreement end date. An
+eligible business shall maintain the business’s base employment
+level until the agreement end date.
+4. The eligible business shall not assign the agreement
+to another entity without the advance written approval of the
+board.
+
+nls/ko
+
+7/24
+
+5. The authority may enforce the terms of the agreement as
+necessary and appropriate.
+Sec. 6. NEW SECTION. 15.605 Qualifying wage tax credit.
+1. If the authority has entered into an agreement with an
+eligible business pursuant to section 15.604, the authority
+may authorize a qualifying wage tax credit with the eligible
+business for a period not to exceed three years according
+to the start and end date specified in the agreement. The
+authority may issue a qualifying wage tax credit to the
+eligible business for each year of the authorized period upon
+verification under section 15.604, subsection 1, paragraph
+“e”, that the eligible business employed the required number
+of employees in new corporate jobs and retained corporate jobs
+that pay at least two hundred percent of the qualifying wage
+threshold. The tax credit for each year of the authorized
+period shall equal no more than the sum of all of the
+following:
+a. Up to fifteen percent of the gross annual wages of new
+corporate jobs that pay at least two hundred percent of the
+qualifying wage threshold.
+b. Up to one percent of the gross annual wages of retained
+corporate jobs that pay at least two hundred percent of the
+qualifying wage threshold, not to exceed one million dollars.
+2. A tax credit shall be allowed against the taxes imposed
+in chapter 422, subchapters II, III, and V, and against the
+moneys and credits tax imposed in section 533.329.
+3. In order for a taxpayer to claim a tax credit under
+subsection 1, a tax credit certificate issued by the authority
+shall be included with the taxpayer’s tax return. The tax
+credit certificate shall contain the taxpayer’s name, address,
+tax identification number, the amount of the credit, and other
+information required by the authority.
+4. An individual may claim a tax credit under subsection
+1 on behalf of a partnership, limited liability company,
+S corporation, estate, or trust electing to have income
+
+nls/ko
+
+8/24
+
+taxed directly to the individual. The amount claimed by the
+individual shall be based upon the pro rata share of the
+individual’s earnings from the partnership, limited liability
+company, S corporation, estate, or trust.
+5. Any tax credit in excess of the taxpayer’s liability
+for the tax year is refundable. In lieu of claiming a refund,
+an eligible business may elect to have the overpayment shown
+on the eligible business’s final, completed return credited
+to the eligible business’s tax liability for the immediately
+succeeding tax year. A tax credit shall not be carried back
+to a tax year prior to the tax year in which the tax credit is
+first claimed by the eligible business.
+6. Tax credit certificates issued pursuant to this section
+are not transferable.
+Sec. 7. NEW SECTION. 15.606 Other incentives.
+The authority, in its discretion, may prohibit an eligible
+business that has been issued tax incentives under the program
+from receiving any additional tax incentive, tax credit,
+grant, loan, or other financial assistance under any program
+administered by the authority.
+Sec. 8. NEW SECTION. 422.12R Qualifying wage tax credit.
+The taxes imposed under this subchapter, less the credits
+allowed under section 422.12, shall be reduced by a qualifying
+wage tax credit allowed under section 15.605.
+Sec. 9. Section 422.33, Code 2026, is amended by adding the
+following new subsection:
+NEW SUBSECTION. 4. The taxes imposed under this subchapter
+shall be reduced by a qualifying wage tax credit allowed under
+section 15.605.
+Sec. 10. Section 422.60, Code 2026, is amended by adding the
+following new subsection:
+NEW SUBSECTION. 2. The taxes imposed under this subchapter
+shall be reduced by a qualifying wage tax credit allowed under
+section 15.605.
+Sec. 11. Section 533.329, subsection 2, Code 2026, is
+
+nls/ko
+
+9/24
+
+amended by adding the following new paragraph:
+NEW PARAGRAPH. m. The moneys and credits tax imposed under
+this section shall be reduced by a qualifying wage tax credit
+allowed under section 15.605.
+Sec. 12. CODE EDITOR DIRECTIVE. The Code editor is directed
+to designate sections 15.600 through 15.606, as enacted in this
+division of this Act, as part 37 of subchapter II.
+DIVISION II
+MAJOR ECONOMIC GROWTH ATTRACTION PROGRAM
+Sec. 13. Section 15.491, subsection 12, Code 2026, is
+amended to read as follows:
+12. “Foreign adversary” means a the following:
+a. A foreign government or foreign non-government person as
+determined in 15 C.F.R. §7.4, and that is listed in 15 C.F.R.
+§7.4(a) at any time from March 4, 2024, through the termination
+of the program July 17, 2024.
+b. A foreign government or foreign non-government person as
+determined in 15 C.F.R. §791.4, and that is listed in 15 C.F.R.
+§791.4 at any time from July 18, 2024, through the termination
+of the program.
+Sec. 14. Section 15.501, Code 2026, is amended to read as
+follows:
+15.501 Restrictions on board.
+The board shall not authorize tax incentives available under
+the program, or an exemption to restrictions on agricultural
+land holdings pursuant to this part, for more than two eligible
+businesses, or on or after January 1, 2027 2030, whichever
+occurs first.
+DIVISION III
+BUSINESS INCENTIVES FOR GROWTH PROGRAM TRAINING FUND
+Sec. 15. NEW SECTION. 15.512 Training fund.
+1. A business incentives for growth program training fund
+is created in the state treasury under the control of the
+authority. An amount up to one and one-half percent of the
+gross wages an eligible business pays to employees specified in
+
+nls/ko
+
+10/24
+
+an agreement entered into pursuant to section 15.506 shall be
+credited to the fund from the withholding payments made by an
+eligible business pursuant to section 422.16. Such jobs shall
+be identified by the authority as having a sufficient economic
+impact to warrant assistance with training.
+2. On a quarterly basis, an eligible business shall disclose
+the amount of gross wages that qualify under subsection 1 to
+the authority and to the department of revenue. Based upon
+the gross wage amount provided to the authority, the authority
+shall calculate the amount of gross wages to be deposited into
+the fund for the quarter, and the department of revenue shall
+deposit that amount into the fund.
+3. Moneys in the fund shall be used to reimburse training
+expenses incurred by an eligible business that are associated
+with the eligible business’s project.
+4. An eligible business’s training expenses that may be
+eligible for reimbursement must meet all of the following
+criteria:
+a. The expenses are paid to a third party.
+b. The expenses are for training that is specific to the
+project of the eligible business and necessary for the success
+of the project.
+c. The expenses were incurred over the period of time
+identified in the agreement under section 15.506, but not to
+exceed four years.
+d. The expenses are documented to the satisfaction of the
+authority.
+5. An eligible business that has been approved by the
+authority to receive a reimbursement from the fund shall not be
+eligible to receive any other state incentive to be used for
+the same purpose.
+DIVISION IV
+REPEAL OF THE NEW JOBS TAX CREDIT
+Sec. 16. Section 2.48, subsection 3, paragraph e,
+subparagraph (7), Code 2026, is amended by striking the
+
+nls/ko
+
+11/24
+
+subparagraph.
+Sec. 17. REPEAL. Section 422.11A, Code 2026, is repealed.
+Sec. 18. PRESERVATION OF EXISTING RIGHTS. This division of
+this Act shall not limit, modify, or otherwise adversely affect
+any amount of tax incentive issued, awarded, or allowed before
+the effective date of this division of this Act, nor shall
+it limit, modify, or otherwise adversely affect a taxpayer’s
+right to claim or redeem a tax incentive issued, awarded, or
+allowed before the effective date of this division of this Act,
+including but not limited to any tax incentive carryforward
+amount.
+Sec. 19. EFFECTIVE DATE. This division of this Act, being
+deemed of immediate importance, takes effect upon enactment.
+DIVISION V
+LOAD FORECASTING
+Sec. 20. NEW SECTION. 15.120A Load forecasting report and
+analysis of electric transmission system expansion plans.
+To support economic development in the state, the authority
+shall commission Iowa state university of science and
+technology to produce a report forecasting the probable future
+growth of the use of electricity within Iowa and within the
+midwest region. The report shall include a load forecast and
+an analysis of electric transmission system expansion plans.
+The authority must commission such report from the university
+at least every two years. In developing the report, the
+university shall solicit the input of residential, commercial,
+and industrial consumers and the electric industry. The
+published report shall only rely on information provided by
+utilities as required by section 476.2 in aggregate form and
+exclude identifying information about an individual utility’s
+electric system. The load forecast and state electric
+transmission system expansion planning analysis must be
+published by December 31, 2028, and biennially published on or
+before December 31 thereafter. The authority may commission
+other reports as necessary to evaluate energy needs including
+
+nls/ko
+
+12/24
+
+but not limited to natural gas. A report commissioned pursuant
+to this section must be publicly available on the authority’s
+internet site.
+Sec. 21. Section 476.1A, subsection 2, Code 2026, is amended
+to read as follows:
+2. However, sections section 476.2, subsection 7, section
+476.20, subsections 1 through 4, sections 476.21, 476.51,
+476.56, 476.58, 476.62, and 476.66, and chapters 476A and 478,
+to the extent applicable, apply to such electric utilities.
+Sec. 22. Section 476.1B, subsection 2, Code 2026, is amended
+to read as follows:
+2. Section 476.20, subsections 1 through 4, Section 476.2,
+subsection 7, section 476.20, subsections 1 through 4, sections
+476.51, 476.56, 476.58, 476.62, and 476.66, and chapters 476A
+and 478, to the extent applicable, apply to such electric and
+gas utilities.
+Sec. 23. Section 476.2, Code 2026, is amended by adding the
+following new subsection:
+NEW SUBSECTION. 7. The commission shall have the authority
+to compel all public utilities to share with Iowa state
+university of science and technology the utility’s information
+necessary to develop state load forecasts and state electric
+transmission system expansion planning analysis pursuant to
+section 15.120A. A public utility may use a third party
+to prepare such information to be shared with Iowa state
+university of science and technology. A public utility may
+enter into a nondisclosure agreement with Iowa state university
+of science and technology requiring the shared information be
+kept confidential if the public utility reasonably believes
+the information is a confidential record pursuant to section
+22.7. The state load forecast and state electric transmission
+system expansion planning aggregate analysis published pursuant
+to section 15.120A may be used as evidentiary support in any
+proceedings before the commission, provided the confidentiality
+of any information provided by a public utility is maintained.
+
+nls/ko
+
+13/24
+
+Sec. 24. NEW SECTION. 476.10C Load forecasts and analyses
+of state electric transmission system expansion plans —— fund.
+1. An electric transmission system expansion plans analysis
+and load forecasting fund is created in the state treasury
+under the control of the economic development authority. The
+commission shall direct all electric utilities to remit to the
+treasurer of state for deposit in the electric transmission
+system expansion plans analysis and load forecasting fund not
+more than two one-hundredths of one percent of the total gross
+operating revenues during the last calendar year derived from
+the utilities’ intrastate public utility operations. Moneys in
+the fund are appropriated to the economic development authority
+to be used for the purposes of commissioning a report pursuant
+to section 15.120A. Notwithstanding section 8.33, moneys in
+the fund that remain unencumbered or unobligated at the close
+of a fiscal year shall not revert but shall remain available
+for expenditure for the purposes designated. Notwithstanding
+section 12C.7, subsection 2, interest or earnings on moneys in
+the fund shall be credited to the fund.
+2. The commission shall, by rule, establish a maximum
+amount of remittances in aggregate and provide a schedule
+for remittances. The remittances collected pursuant to this
+section shall be in addition to the assessments permitted
+pursuant to section 476.10. The commission shall allow
+inclusion of these remittances in the budgets approved by the
+commission pursuant to section 476.6, subsection 15, paragraph
+“c”, but such remittances shall not be included when computing
+the projected cumulative average annual cost for an electric
+utility’s energy efficiency plan and demand response plan under
+section 476.6, subsection 15, paragraph “c”.
+DIVISION VI
+IOWA INDUSTRIAL NEW JOBS TRAINING PROGRAM
+Sec. 25. Section 260E.3, subsection 1, unnumbered paragraph
+1, Code 2026, is amended to read as follows:
+A community college may enter into an agreement to establish
+
+nls/ko
+
+14/24
+
+a project. If an agreement is entered into, the community
+college and the employer shall notify the department of
+workforce development and the department of revenue as soon
+as possible. An agreement shall provide for program costs,
+including deferred costs, which may be paid from one or a
+combination of the following sources:
+Sec. 26. Section 260E.3, subsection 2, Code 2026, is amended
+to read as follows:
+2. a. Payment For an agreement entered into on or
+before June 30, 2026, payment of program costs shall not be
+deferred for a period longer than ten years from the date of
+commencement of the project, and the agreed upon period shall
+not be extended.
+b. For an agreement entered into on or after July 1, 2026,
+payment of program costs shall not be deferred for a period
+longer than five years from the date of commencement of the
+project.
+Sec. 27. Section 260E.3, Code 2026, is amended by adding the
+following new subsection:
+NEW SUBSECTION. 6. A project shall not be funded under this
+chapter unless the department of workforce development approves
+the agreement. No more than thirty calendar days after
+receipt of notice of an agreement pursuant to subsection 1, the
+department of workforce development shall either approve or
+deny the agreement and notify the community college, business,
+and department of revenue of such decision.
+Sec. 28. Section 260E.7, Code 2026, is amended by adding the
+following new subsection:
+NEW SUBSECTION. 4. A community college that receives
+a new jobs credit from withholding under section 260E.5
+shall annually report a detailed accounting of the community
+college’s bond interest to the department of workforce
+development, the department of education, and the department
+of revenue.
+Sec. 29. NEW SECTION. 260E.8 Eligible program costs.
+
+nls/ko
+
+15/24
+
+To be eligible to receive a new jobs credit from withholding,
+a community college must document to the satisfaction of the
+department that the community college’s program costs meet all
+of the following criteria:
+1. The program costs are incurred over the period of time
+specified in the agreement under section 260E.3.
+2. The program costs are not incurred to reimburse travel,
+conferences, or legal fees.
+3. Administrative expenses account for no more than fifteen
+percent of the program costs.
+DIVISION VII
+IOWA INDUSTRIAL NEW JOBS TRAINING PROGRAM INTERIM STUDY
+COMMITTEE
+Sec. 30. IOWA INDUSTRIAL NEW JOBS TRAINING PROGRAM INTERIM
+STUDY COMMITTEE.
+1. The legislative council is requested to establish an
+interim study committee to meet during the 2026 legislative
+interim to review the new jobs training program and make
+recommendations regarding the program.
+2. The membership of the committee shall consist of, at a
+minimum:
+a. Three members of the senate, two republicans and one
+democrat, appointed by the majority leader of the senate.
+b. Three members of the house of representatives, two
+republicans and one democrat, appointed by the speaker of the
+house of representatives.
+c. A representative of a community college located within
+the state.
+d. A representative of the Iowa economic development
+authority.
+e. A representative of the department of workforce
+development.
+f. Three business owners who have participated in the new
+jobs training program.
+g. One business owner who has not participated in the new
+
+nls/ko
+
+16/24
+
+jobs training program.
+3. The interim study committee shall do all of the
+following:
+a. Review the new jobs training program, including but not
+limited to all of the following:
+(1) The original objectives of the program, and an
+evaluation of whether the objectives are aligned with the
+current workforce needs in the state.
+(2) The number of jobs created as a result of the program.
+(3) Wage increases for participants in the program prior to
+and after participating in the program.
+(4) Employee retention rates for employers participating
+in the program.
+(5) The financial impact of the program, including an
+evaluation of the cost-effectiveness of the program, a
+comparison of state funding versus economic output and job
+creation, and an assessment of the return on investment for the
+state and businesses that participate in the program.
+(6) The quality and relevance of the training programs that
+are offered, including whether each training program meets
+industry standards and needs, and whether participants in the
+training gain necessary skills to succeed in each participant’s
+job.
+(7) The effectiveness of the program in targeting
+industries with the highest demand for skilled labor.
+(8) Sectors that may require more focus and support from the
+program.
+b. Gather qualitative data through surveys or interviews
+with program participants, and identify the strengths
+and weaknesses of the new jobs training program from the
+perspective of the participants.
+c. Review partnerships with community colleges and training
+providers to evaluate whether the partnerships are effective in
+delivering relevant training, and identify ways to strengthen
+or expand partnerships.
+
+nls/ko
+
+17/24
+
+d. Assess the effectiveness of the program’s compliance
+monitoring and oversight of the use of program funds and
+participants’ adherence to the program requirements.
+4. Meetings of the interim study committee may be held
+electronically or in person, provided that the final meeting of
+the interim study committee is held in person.
+5. The interim study committee shall submit a report
+detailing the committee’s findings and recommendations to the
+general assembly no later than December 15, 2026.
+DIVISION VIII
+RESEARCH ACTIVITIES CREDIT
+Sec. 31. Section 422.10, subsection 1, paragraph a,
+subparagraph (2), Code 2026, is amended to read as follows:
+(2) (a) The business claims and is allowed a research
+credit for such qualified research expenses under section 41
+of the Internal Revenue Code for the same taxable year as it is
+claiming the credit provided in this section.
+(b) If the credit is based on conducting agriscience
+research as defined in subparagraph (1), subparagraph division
+(b), subparagraph subdivision (i), subparagraph part (B),
+section 41(d)(4) of the Internal Revenue Code does not apply
+and qualified research expenses under section 41(b) of the
+Internal Revenue Code includes all qualified research expenses
+incurred for qualified research regardless of whether conducted
+after the beginning of commercial production of the business
+component within the meaning of section 41(d)(4)(A) of the
+Internal Revenue Code or such research otherwise meets another
+excluded category in section 41(d)(4) of the Internal Revenue
+Code.
+EXPLANATION
+
+The inclusion of this explanation does not constitute agreement with
+the explanation’s substance by the members of the general assembly.
+
+This bill relates to economic development authority programs
+and tax credits; load forecasting and the state electric
+transmission system expansion plans; and the industrial new
+
+nls/ko
+
+18/24
+
+jobs training program.
+DIVISION I —— HEADQUARTERS EXPANSION AND DEVELOPMENT FOR
+GROWTH AND EMPLOYMENT PROGRAM. The bill creates a headquarters
+expansion and development for growth and employment program
+(EDGE program) to provide tax incentives to eligible
+businesses. The qualifications for an eligible business, and
+the factors the economic development authority (authority)
+shall consider in determining if a business is eligible to
+participate in the EDGE program are provided in the bill.
+Applications for the EDGE program shall be submitted to the
+authority.
+The terms of, and aggregate value of, a tax incentive may
+be negotiated between an eligible business, the authority, and
+the board comprised of members of the authority appointed by
+the governor (board). An eligible business that is approved to
+participate in the EDGE program shall enter into an agreement
+with the authority specifying the criteria for successful
+completion of the program requirements. The requirements
+for the program agreement are detailed in the bill, and the
+authority may enforce such requirements.
+If the authority enters into an agreement with an eligible
+business, the authority may authorize a qualifying wage tax
+credit for the eligible business for a period not to exceed
+three years as specified in the agreement. The authority may
+issue a qualifying wage tax credit to the eligible business for
+each year of the authorized period upon verification that the
+eligible business employed the required number of employees
+in new corporate jobs and retained corporate jobs that pay
+at least 200 percent of the qualifying wage threshold. The
+tax credit for each year of the authorized period shall equal
+no more than the amount specified in the bill. A taxpayer
+shall include a tax credit certificate issued by the authority
+with the taxpayer’s tax return to claim the tax credit. An
+individual may claim a tax credit on behalf of a partnership,
+limited liability company, S corporation, estate, or trust
+
+nls/ko
+
+19/24
+
+electing to have income taxed directly to the individual in
+an amount based upon the pro rata share of the individual’s
+earnings. Any tax credit in excess of the taxpayer’s liability
+for the tax year is refundable or may be credited to the
+immediately succeeding tax year. Tax credit certificates are
+not transferable.
+The authority may prohibit an eligible business that
+receives a tax incentive from the program from receiving any
+other tax incentives or financial assistance under any program
+administered by the authority.
+Under the bill, individual and corporate income taxes,
+financial institution franchise taxes, and money and credits
+taxes on credit unions shall be reduced by a qualifying wage
+tax credit.
+DIVISION II —— MAJOR ECONOMIC GROWTH ATTRACTION PROGRAM.
+The bill amends the definition of a “foreign adversary” under
+the major economic growth attraction program (MEGA program).
+Under current law, a foreign adversary is a foreign government
+or foreign nongovernment person as determined in 15 C.F.R.
+§7.4, and as listed in 15 C.F.R. §7.4(a) at any time from March
+4, 2024, through the termination of the program. Under the
+bill, a foreign adversary is a foreign government or foreign
+nongovernment person as determined in 15 C.F.R. §7.4, and as
+listed in 15 C.F.R. §7.4(a) at any time from March 4, 2024,
+through July 17, 2024, or, as determined in 15 C.F.R. §791.4,
+and as listed in 15 C.F.R. §791.4 at any time from July 18,
+2024, through the termination of the program.
+Under current law, the board shall not authorize tax
+incentives available under the MEGA program, or an exemption to
+restrictions on agricultural land holdings, for more than two
+eligible businesses, or on or after January 1, 2027, whichever
+occurs first. The bill extends this provision to January 1,
+2030.
+DIVISION III —— BUSINESS INCENTIVES FOR GROWTH PROGRAM
+TRAINING FUND. The bill creates a business incentives for
+
+nls/ko
+
+20/24
+
+growth program training fund (fund) in the state treasury under
+the control of the authority.
+Under the bill, an amount up to 1.5 percent of the gross
+wages an eligible business pays to employees specified in an
+agreement with the authority shall be credited to the fund
+from the withholding payments made by the eligible business.
+Such jobs shall be identified by the authority as having a
+sufficient economic impact to warrant assistance with training.
+On a quarterly basis, an eligible business shall disclose the
+amount of gross wages that qualify to the authority and to the
+department of revenue (DOR). The authority shall calculate the
+amount of gross wages to be deposited into the fund, and the
+DOR shall deposit that amount into the fund.
+Moneys in the fund shall be used to reimburse training
+expenses incurred by an eligible business that are associated
+with the eligible business’s project, and that meet the
+requirements detailed in the bill. An eligible business that
+has been approved to receive a reimbursement from the fund
+shall not receive any other state incentives for the same
+purpose.
+DIVISION IV —— REPEAL OF THE NEW JOBS TAX CREDIT. The
+bill repeals the new jobs tax credit under Code section
+422.11A. The bill makes a conforming change to Code section
+2.48(3)(e)(7).
+This division of the bill, being deemed of immediate
+importance, takes effect upon enactment.
+DIVISION V —— LOAD FORECASTING. The bill relates to load
+forecasting and analysis of electric transmission system
+expansion plans. The bill directs the authority to commission
+Iowa state university of science and technology (ISU) to
+produce a report forecasting the probable future growth of
+electricity use within the state and within the midwest region.
+The report must include a load forecast and an analysis of
+electric transmission system expansion plans, and must be
+commissioned from ISU at least once every two years. In
+
+nls/ko
+
+21/24
+
+developing the report, ISU must solicit input from residential,
+commercial, and industrial consumers and the electric industry.
+The published report shall only rely on information provided by
+utilities in aggregate form and must exclude any identifying
+information about an individual utility’s electric system.
+The load forecast and electric transmission system expansion
+planning analysis must be published by December 31, 2028, and
+biennially published on or before December 31 thereafter. The
+authority may commission other reports as necessary to evaluate
+energy needs. A report shall be made publicly available on the
+authority’s internet site.
+The bill grants the Iowa utilities commission (commission)
+authority to compel public utilities to share with ISU the
+utility’s information necessary to develop the load forecasts
+and electric transmission system expansion planning analysis
+required under the bill. A public utility may use a third
+party to prepare such information to be shared with ISU and may
+enter into a nondisclosure agreement with ISU requiring shared
+information be kept confidential. The bill also provides that
+the load forecast and electric transmission system expansion
+planning aggregate analysis may be used as evidentiary support
+in any proceedings before the commission as detailed in
+the bill. This authority to compel includes all electric
+utilities, including electric public utilities with few
+customers, electric cooperative corporations and associations,
+and municipally owned utilities.
+The bill requires the commission to direct all electric
+utilities to remit to the treasurer of state for deposit in
+the electric transmission system expansion planning analysis
+and load forecasting fund, as created in the bill, not more
+than .02 percent of the utilities’ total gross intrastate
+operating revenues from the prior year. Moneys in the fund are
+appropriated to the authority for the purpose of commissioning
+the load forecasting report and analysis. The bill directs
+the commission to establish by rule an aggregate maximum
+
+nls/ko
+
+22/24
+
+amount of remittances and a schedule for remittances. The
+remittances are in addition to assessments otherwise permitted
+and may be included in budgets approved for energy efficiency
+implementation as detailed in the bill.
+DIVISION VI —— IOWA INDUSTRIAL NEW JOBS TRAINING PROGRAM.
+Under current law, payment of program costs shall not be
+deferred for a period of more than 10 years from the date of
+commencement of the project. Under the bill, for an agreement
+entered into on or before June 30, 2026, payment shall not be
+deferred for more than 10 years and may not be extended, and
+for an agreement on or after July 1, 2026, payment may not be
+deferred for more than 5 years.
+A community college and an employer shall notify the
+department of workforce development upon entering into the
+agreement. Under the bill, a project shall not be funded
+unless the department of workforce development approves the
+agreement within 30 days of receipt of notice of an agreement.
+The bill requires a community college that receives a new
+jobs credit from withholding to annually report a detailed
+accounting of the community college’s bond interest. Under the
+bill, to be eligible for the new jobs credit from withholding,
+a community college most document that program costs are
+incurred over the period of time specified in the agreement
+with an employer, that program costs are not incurred to
+reimburse travel, conferences, or legal fees, and that
+administrative expenses do not account for more than 15 percent
+of the program costs.
+DIVISION VII —— IOWA INDUSTRIAL NEW JOBS TRAINING PROGRAM
+INTERIM COMMITTEE. The bill requests the legislative council
+to establish an interim study committee to review the new
+jobs training program and make recommendations regarding the
+program. Membership of the interim study committee, and the
+responsibilities of the committee, are detailed in the bill.
+The interim study committee shall submit a report detailing
+the findings and recommendations to the general assembly by
+
+nls/ko
+
+23/24
+
+December 15, 2026.
+DIVISION VIII —— RESEARCH ACTIVITIES CREDIT. The bill
+clarifies, for a research credit based on conducting
+agriscience research, which sections of the Internal Revenue
+Code apply and what claims a business is allowed.
+
+nls/ko
+
+24/24
