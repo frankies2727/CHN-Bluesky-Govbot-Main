@@ -114,13 +114,14 @@ LINK_PREFIX = "🔗 "
 # of the post.
 LINK_ANCHOR = "Read the full bill"
 
-# Titles at or below this length are used as-is in the post head; longer ones
-# get rewritten by the local model into a short plain-English headline. Set
-# very low so virtually every real title is rephrased into punchy layman's
-# terms (and the freed head space goes to a fuller summary) — shorten_title
-# still bails to the raw title when there's no abstract to ground the rewrite,
-# so title-only records can't be hallucinated into something new.
-HEADLINE_THRESHOLD = 10
+# Titles at or below this length (characters) are used as-is in the post head;
+# longer ones get rewritten by the local model into a short plain-English
+# headline. Set as low as possible so virtually every real title is rephrased
+# into punchy layman's terms (and the freed head space goes to a fuller
+# summary) — shorten_title still bails to the raw title when there's no
+# abstract AND no full bill text to ground the rewrite, so title-only records
+# can't be hallucinated into something new.
+HEADLINE_THRESHOLD = 2
 HEADLINE_MAX_LEN = 70
 
 
@@ -947,17 +948,17 @@ def ensure_english_fields(b: dict) -> dict:
     return b
 
 
-def summarize(b: dict, max_chars: int = 240) -> str:
-    abstract = (b["abstract"] or "").strip()
-    title = b["title"].strip()
-    blob = _is_blob_title(title)
+def _get_full_text(b: dict) -> str:
+    """Full bill body text, extracted from the bill's PDF via bill_text and
+    cached on the record so shorten_title() and summarize() share a single
+    fetch (shorten_title runs first). Returns "" when extraction isn't
+    possible (no PDF link, pdftotext missing, network error, etc.); the empty
+    result is cached too so a failed fetch isn't retried by the next caller.
 
-    # Prefer the real bill body text (extracted from the bill's PDF via
-    # bill_text) when we can get it — it grounds the summary in the actual
-    # legislation instead of a short abstract. Runs only for bills that have
-    # already passed the topic filter and the post draw, so it never fetches
-    # thousands of PDFs. Falls back to the abstract whenever extraction isn't
-    # possible (no PDF link, pdftotext missing, network error, etc.).
+    Runs only for bills that have already passed the topic filter and the post
+    draw, so it never fetches thousands of PDFs."""
+    if "full_text" in b:
+        return b["full_text"]
     full_text = ""
     sources_bill = b.get("sources_bill") or ""
     if sources_bill:
@@ -976,9 +977,22 @@ def summarize(b: dict, max_chars: int = 240) -> str:
     else:
         print(f"  TEXT: ✗ full PDF text NOT used (no-sources-path) "
               f"for {b.get('state','??')} {b.get('identifier','?')} — using abstract")
-    if full_text:
-        # Saved to topics/<name>/bills_full_text/ for future RAG/digest use.
-        b["full_text"] = full_text
+    # Cache on the record (saved to topics/<name>/bills_full_text/ for future
+    # RAG/digest use when non-empty) so summarize() reuses this fetch.
+    b["full_text"] = full_text
+    return full_text
+
+
+def summarize(b: dict, max_chars: int = 240) -> str:
+    abstract = (b["abstract"] or "").strip()
+    title = b["title"].strip()
+    blob = _is_blob_title(title)
+
+    # Prefer the real bill body text (extracted from the bill's PDF via
+    # bill_text) when we can get it — it grounds the summary in the actual
+    # legislation instead of a short abstract. Falls back to the abstract
+    # whenever extraction isn't possible.
+    full_text = _get_full_text(b)
 
     # When the title IS a blob (the whole bill description dumped into the
     # title field — Puerto Rico does this for nearly every bill, Missouri
@@ -1074,18 +1088,28 @@ def shorten_title(b: dict) -> str:
     blob = _is_blob_title(title)
     if len(title) <= HEADLINE_THRESHOLD:
         return ""
-    # Without an abstract a normal long title is the only signal — letting a
-    # small model paraphrase a title-only record invites hallucinated
-    # specifics. Blob titles carry the full abstract inline, so they are
-    # always safe (and necessary) to rewrite into a real headline.
-    if not blob and (not abstract or _normalize(abstract) == _normalize(title)):
+
+    # A real abstract that differs from the title is the cleanest grounding for
+    # the rewrite. Many states (MS, IA, IN, …) ship no abstract — or set it
+    # equal to the title — leaving a wall of legalese as the only headline. For
+    # those, fall back to the bill's full PDF text (the same source summarize()
+    # uses) so the title still gets rephrased into plain English instead of
+    # shipping raw. Blob titles carry the full abstract inline and are always
+    # safe (and necessary) to rewrite.
+    abstract_usable = bool(abstract) and _normalize(abstract) != _normalize(title)
+    full_text = "" if (blob or abstract_usable) else _get_full_text(b)
+    # Without any grounding (no usable abstract, no full text) a normal title is
+    # the only signal — letting a small model paraphrase a title-only record
+    # invites hallucinated specifics, so bail and let the raw title stand.
+    if not blob and not abstract_usable and not full_text:
         return ""
 
-    # Blob bills: the title is the same legalese as the abstract. Ground the
-    # rewrite on the cleaned body rather than echoing the raw title back.
-    # For omnibus bills (3+ titled sections) use a table-of-contents digest
-    # so the headline reflects the full bill, not just the first section.
-    body = _omnibus_digest(abstract or title) or _clean_for_llm(abstract or title)
+    # Ground the rewrite on the cleaned body rather than echoing the raw title
+    # back: a usable abstract first, then the full bill text, then (for blob
+    # bills) the title itself. For omnibus bills (3+ titled sections) use a
+    # table-of-contents digest so the headline reflects the full bill.
+    source = abstract if abstract_usable else (full_text or abstract or title)
+    body = _omnibus_digest(source) or _clean_for_llm(source)
     if not body:
         return ""
 
