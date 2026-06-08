@@ -1,0 +1,157 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 1970
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE CLEMENS.
+4623H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapter 1, RSMo, by adding thereto six new sections relating to the biometric
+information privacy act.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapter 1, RSMo, is amended by adding thereto six new sections, to be
+known as sections 1.561, 1.563, 1.566, 1.567, 1.569, and 1.572, to read as follows:
+1.561. Sections 1.561 to 1.572 shall be known and may be cited as the "Biometric
+Information Privacy Act".
+1.563. As used in sections 1.561 to 1.572, the following terms mean:
+(1) "Biometric identifier", a retina or iris scan, fingerprint, voiceprint, or scan of
+hand or face geometry or any other biological characteristic that can be used to
+uniquely identify an individual. "Biometric identifier" does not include:
+(a) Writing samples; written signatures; a photograph or video, except data
+generated, captured, or collected from the biological characteristics of a person depicted
+in a photograph or video; human biological samples used for valid scientific testing or
+screening; demographic data; tattoo descriptions; or physical descriptions such as
+height, weight, hair color, or eye color;
+(b) Any donated organ, tissue or part as those terms are defined under section
+194.210, or blood or serum stored on behalf of recipients or potential recipients of living
+or cadaveric transplants and obtained or stored by a federally designated organ
+procurement agency;
+(c) Information captured from a patient in a health care setting or information
+collected, used, or stored for health care treatment, payment, or operations under the
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+federal Health Insurance Portability and Accountability Act of 1996, Pub. L. 104-191;
+or
+(d) An X-ray, roentgen process, computed tomography, MRI, PET scan,
+mammography, or other image or film of the human anatomy used to diagnose,
+prognose, or treat an illness or other medical condition or to further validate scientific
+testing or screening;
+(2) "Biometric information", any information, regardless of how it is captured,
+converted, stored, or shared, that is based on an individual's biometric identifier and
+used to identify an individual. "Biometric information" does not include information
+derived from items or procedures excluded under the definition of biometric identifiers;
+(3) "Confidential and sensitive information", personal information that can be
+used to uniquely identify an individual or an individual's account or property.
+Examples of "confidential and sensitive information" include, but are not limited to, a
+genetic marker, genetic testing information, a unique identifier number to locate an
+account or property, an account number, a personal identification number, a pass code,
+a driver's license number, or a Social Security number;
+(4) "Private entity", any individual acting in a commercial context, partnership,
+corporation, limited liability company, association, or other group however organized.
+"Private entity" does not include a state or local government agency. "Private entity"
+does not include any court of Missouri, a clerk of the court, or a judge or justice thereof;
+(5) "Written release", informed written consent, including written consent
+provided by electronic means. A valid written release shall not be secured through a
+general release or user agreement. In the context of employment, a written release:
+(a) Shall be used only to secure consent to collect and use biometric identifiers
+for the purposes of:
+a. Permitting access to secure physical locations and secure electronic hardware
+and software applications without retaining data that allows for employee location
+tracking or the tracking of how long an employee spends using a hardware or software
+application; or
+b. Recording the commencement and conclusion of an employee's full work day
+and meal or rest breaks in excess of thirty minutes; and
+(b) May be secured in the form of a written release executed by an employee as a
+condition of employment.
+1.566. 1. Any private entity in possession of biometric identifiers or biometric
+information shall develop a written policy, made available to the public, establishing a
+retention schedule and guidelines for permanently destroying biometric identifiers and
+biometric information when the initial purpose for collecting or obtaining such
+
+identifiers or information has been satisfied or within one year of the individual's last
+interaction with the private entity, whichever occurs first. Absent a valid warrant or
+subpoena issued by a court of competent jurisdiction, a private entity in possession of
+biometric identifiers or biometric information shall comply with its established
+retention schedule and destruction guidelines.
+2. No private entity shall collect, capture, purchase, receive through trade, or
+otherwise obtain a person's or a customer's biometric identifier or biometric
+information unless it first:
+(1) Informs the person or customer, or the person's or customer's legally
+authorized representative, in writing that a biometric identifier or biometric
+information is being collected or stored;
+(2) Informs the person or customer, or the person's or customer's legally
+authorized representative, of the specific purpose and length of term for which a
+biometric identifier or biometric information is being collected, stored, and used; and
+(3) Receives a written release executed by the person or customer, or the
+person's or customer's legally authorized representative.
+3. (1) Any entity or individual required to comply with the federal Health
+Insurance Portability and Accountability Act, Pub. L. No. 104-191, shall treat biometric
+identifiers and biometric information as individually identifiable health information and
+unique health identifiers protected under that act and the rules promulgated
+thereunder.
+(2) No private entity in possession of a biometric identifier or biometric
+information shall sell, lease, or trade a person's or a customer's biometric identifier or
+biometric information.
+4. No private entity in possession of a biometric identifier or biometric
+information shall disclose, redisclose, or otherwise disseminate a person's or a
+customer's biometric identifier or biometric information unless:
+(1) The person or customer, or the person's or customer's legally authorized
+representative, provides written release to the disclosure or redisclosure;
+(2) The disclosure or redisclosure completes a financial transaction requested or
+authorized by the person or customer, or the person's or customer's legally authorized
+representative;
+(3) The disclosure or redisclosure is required by state law, federal law, or
+municipal ordinance; or
+(4) The disclosure is required pursuant to a valid warrant or subpoena issued by
+a court of competent jurisdiction.
+
+5. A private entity in possession of a biometric identifier or biometric
+information shall:
+(1) Store, transmit, and protect from disclosure all biometric identifiers and
+biometric information using the reasonable standard of care within the private entity's
+industry; and
+(2) Store, transmit, and protect from disclosure all biometric identifiers and
+biometric information in a manner that is the same as or more protective than the
+manner in which the private entity stores, transmits, and protects other confidential and
+sensitive information.
+1.567. A private entity shall not:
+(1) Condition the provision of a good or service on the collection, use, disclosure,
+transfer, sale, retention, or processing of a biometric identifier unless the biometric
+identifier is strictly necessary to provide the good or service; or
+(2) Charge different prices or rates for goods or services or provide a different
+level of quality of a good or service to any individual who exercises the individual's
+rights under sections 1.561 to 1.572.
+1.569. Any person aggrieved by a violation of sections 1.561 to 1.572 shall have a
+right of action in a state circuit court or as a supplemental claim in federal district court
+against an offending party including, but not limited to, a class action brought pursuant
+to the rules of the Missouri supreme court. The court shall award all attorney's fees and
+costs, including expert witness fees and other litigation expenses, to the prevailing
+plaintiff. A prevailing plaintiff may recover for each violation:
+(1) Against a private entity that negligently violates a provision of sections 1.561
+to 1.572, liquidated damages of one thousand dollars or actual damages, whichever is
+greater;
+(2) Against a private entity that intentionally or recklessly violates a provision of
+sections 1.561 to 1.572, liquidated damages of five thousand dollars or actual damages,
+whichever is greater; and
+(3) Other relief, including an injunction, as the state or federal court may deem
+appropriate.
+1.572. 1. Nothing in sections 1.561 to 1.572 shall be construed to impact the
+admission or discovery of biometric identifiers and biometric information in any action
+of any kind in any court, or before any tribunal, board, agency, or person.
+2. Nothing in sections 1.561 to 1.572 shall be construed to conflict with section
+334.097 or with the federal Health Insurance Portability and Accountability Act of 1996,
+Pub. L. 104-191, or the rules promulgated thereunder.
+
+3. Nothing in sections 1.561 to 1.572 shall be deemed to apply in any manner to a
+financial institution or an affiliate of a financial institution that is subject to Title V of
+the federal Gramm-Leach-Bliley Act of 1999, Pub. L. 106-102, and the rules
+promulgated thereunder.
+4. Nothing in sections 1.561 to 1.572 shall be construed to apply to a contractor,
+subcontractor, or agent of a state agency or local unit of government when working for
+that state agency or local unit of government.
+✔
