@@ -1,0 +1,66 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 1742
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE MILLER.
+4172H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapter 1, RSMo, by adding thereto one new section relating to companion
+chatbots.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapter 1, RSMo, is amended by adding thereto one new section, to be
+known as section 1.2055, to read as follows:
+1.2055. 1. As used in this section, the following terms mean:
+(1) "Artificial intelligence", an engineered or machine-based system that varies
+in its level of autonomy and that can, for explicit or implicit objectives, infer from the
+input it receives how to generate outputs that can influence physical or virtual
+environments;
+(2) "Companion chatbot", an artificial intelligence system with a natural
+language interface that provides adaptive, human-like responses to user inputs and is
+capable of meeting a user's social needs, which includes exhibiting anthropomorphic
+features and sustaining a relationship across multiple interactions. A "companion
+chatbot" does not include the following:
+(a) A bot that is used only for customer service, a business's operational purpose,
+productivity, and analysis related to source information, internal research, or technical
+assistance;
+(b) A bot that is a feature of a video game and is limited to replies related to the
+video game. Limited video game replies include replies that cannot discuss topics
+related to mental health, self-harm, or sexually explicit conduct or maintain a dialogue
+on other topics unrelated to the video game; or
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+HB 1742
+
+(c) A stand-alone consumer electronic device that functions as a speaker and
+voice command interface, acts as a voice-activated virtual assistant, and does not sustain
+a relationship across multiple interactions or generate outputs that are likely to elicit
+emotional responses in the user;
+(3) "Covered platform", any person who provides companion chatbot services to
+a user in this state;
+(4) "Minor", an individual under eighteen years of age.
+2. It shall be unlawful for a person who owns or controls a website, application,
+software, or program to allow a minor to access a companion chatbot for recreational,
+relational, or companion purposes. A person who offers companion chatbot services for
+recreational, relational, or companion purposes shall require an individual to provide
+proof of the individual's age before allowing the individual to access a companion
+chatbot. No companion chatbot shall be installed on any device assigned to, or regularly
+used by, anyone who is a minor.
+3. Any person who owns or controls a website, application, software, or
+program:
+(1) Shall not process data or design systems in ways that deceive or mislead users
+of such website, application, software, or program regarding the nonhuman nature of
+the companion chatbot;
+(2) Shall implement and maintain reasonably effective systems to detect and
+prevent emotional dependence of a user on a companion chatbot. Such systems shall
+apply to any covered platform that utilizes a companion chatbot designed to generate
+social connections with users, engages in extended conversations mimicking human
+interactions, or provides emotional support or companionship; and
+(3) Shall not implement or allow the use of a human-like avatar, including
+cartoon- or anime-like representations of humans.
+✔
