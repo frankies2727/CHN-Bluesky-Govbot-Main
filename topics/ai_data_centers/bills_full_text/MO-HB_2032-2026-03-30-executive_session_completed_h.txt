@@ -1,0 +1,166 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 2032
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE SCHMIDT.
+5323H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapter 1, RSMo, by adding thereto one new section relating to the implementation
+of age verification measures for artificial intelligence chatbots, with penalty
+provisions.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapter 1, RSMo, is amended by adding thereto one new section, to be
+known as section 1.2058, to read as follows:
+1.2058. 1. This section shall be known and may be cited as the "Guidelines for
+User Age-Verification and Responsible Dialogue Act of 2026" or the "GUARD Act".
+2. As used in this section, the following terms mean:
+(1) "AI companion", an artificial intelligence chatbot that:
+(a) Provides adaptive, human-like responses to user inputs; and
+(b) Is designed to encourage or facilitate the simulation of interpersonal or
+emotional interaction, friendship, companionship, or therapeutic communication;
+(2) "Artificial intelligence chatbot":
+(a) Any interactive computer service or software application that:
+a. Produces new expressive content or responses not fully predetermined by the
+developer or operator of the service or application; and
+b. Accepts open-ended natural language or multimodal user input and produces
+adaptive or context-responsive output; and
+(b) Does not include an interactive computer service or software application, the
+responses of which are limited to contextualized replies and that is unable to respond on
+a range of topics outside of a narrow, specified purpose;
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+(3) "Covered entity", any person who owns, operates, or otherwise makes
+available an artificial intelligence chatbot to individuals in this state;
+(4) "Minor", any person seventeen years of age or under;
+(5) "Reasonable age verification measure", a method that is authenticated to
+relate to a user of an artificial intelligence chatbot, including:
+(a) A government-issued identification; or
+(b) Any other commercially reasonable method that can reliably and accurately:
+a. Determine whether a user is an adult; and
+b. Prevent access by minors to AI companions, as required by subsection 6 of
+this section;
+(6) "Reasonable age verification process", an age verification process employed
+by a covered entity that:
+(a) Uses one or more reasonable age verification measures in order to verify the
+age of a user of an artificial intelligence chatbot owned, operated, or otherwise made
+available by the covered entity;
+(b) Provides that requiring a user to confirm that the user is not a minor, or to
+insert the user's birth date, is not sufficient to constitute a reasonable age verification
+measure;
+(c) Ensures that each user is subjected to each reasonable age verification
+measure used by the covered entity as part of the age verification process; and
+(d) Does not base verification of a user's age on factors such as whether the user
+shares an internet protocol address, hardware identifier, or other technical indicator
+with another user determined not to be a minor;
+(7) "Sexually explicit conduct", the same meaning as defined under section
+573.010.
+3. (1) It shall be unlawful to design, develop, or make available an artificial
+intelligence chatbot knowing or with reckless disregard for the fact that the artificial
+intelligence chatbot poses a risk of soliciting, encouraging, or inducing minors to:
+(a) Engage in, describe, or simulate sexually explicit conduct; or
+(b) Create or transmit any visual depiction of sexually explicit conduct,
+including any visual depiction described in section 573.010.
+(2) Any person who violates subdivision (1) of this subsection shall be fined not
+more than one hundred thousand dollars per offense.
+4. (1) It shall be unlawful to design, develop, or make available an artificial
+intelligence chatbot knowing or with reckless disregard for the fact that the artificial
+intelligence chatbot encourages, promotes, or coerces suicide, nonsuicidal self-injury, or
+imminent physical or sexual violence.
+
+(2) Any person who violates subdivision (1) of this subsection shall be fined not
+more than one hundred thousand dollars per offense.
+5. (1) A covered entity shall require each individual accessing an artificial
+intelligence chatbot to make a user account in order to use or otherwise interact with
+such chatbot.
+(2) (a) With respect to each user account of an artificial intelligence chatbot that
+exists as of August 28, 2026, a covered entity shall:
+a. On such date, freeze any such account;
+b. In order to restore the functionality of such account, require that the user
+provide age data that is verifiable using a reasonable age verification process, subject to
+paragraph (d) of this subdivision; and
+c. Using such age data, classify each user as a minor or an adult.
+(b) At the time an individual creates a new user account to use or interact with
+an artificial intelligence chatbot, a covered entity shall:
+a. Request age data from the individual;
+b. Verify the individual's age using a reasonable age verification process, subject
+to paragraph (d) of this subdivision; and
+c. Using such age data, classify each user as a minor or an adult.
+(c) A covered entity shall periodically review previously verified user accounts
+using a reasonable age verification process, subject to paragraph (d) of this subdivision,
+to ensure compliance with this section.
+(d) For purposes of subparagraph b. of paragraph (a) of this subdivision,
+subparagraph b. of paragraph (b) of this subdivision, and paragraph (c) of this
+subdivision, a covered entity may contract with a third party to employ reasonable age
+verification measures as part of the covered entity's reasonable age verification process,
+but the use of such third party shall not relieve the covered entity of its obligations
+under this section or from liability under this section.
+(e) A covered entity shall:
+a. Establish, implement, and maintain reasonable data security to:
+(i) Limit collection of personal data to that which is minimally necessary to
+verify a user's age or maintain compliance with this section; and
+(ii) Protect such age verification data against unauthorized access;
+b. Protect such age verification data against unauthorized access;
+c. Protect the integrity and confidentiality of such data by only transmitting such
+data using industry-standard encryption protocols;
+d. Retain such data for no longer than is reasonably necessary to verify a user's
+age or maintain compliance with this section; and
+
+e. Not share with, transfer to, or sell to any other entity such data.
+(3) (a) Each artificial intelligence chatbot made available to users shall:
+a. At the initiation of each conversation with a user and at thirty-minute
+intervals, clearly and conspicuously disclose to the user that the chatbot is an artificial
+intelligence system and not a human being; and
+b. Be programmed to ensure that the chatbot does not claim to be a human being
+or otherwise respond deceptively when asked by a user if the chatbot is a human being.
+(b) a. An artificial intelligence chatbot shall not represent, directly or indirectly,
+that the chatbot is a licensed professional, including a therapist, physician, lawyer,
+financial advisor, or other professional.
+b. Each artificial intelligence chatbot made available to users shall, at the
+initiation of each conversation with a user and at reasonably regular intervals, clearly
+and conspicuously disclose to the user that:
+(i) The chatbot does not provide medical, legal, financial, or psychological
+services; and
+(ii) Users of the chatbot should consult a licensed professional for such advice.
+6. If the age verification process described in subdivision (2) of subsection 5 of
+this section determines that an individual is a minor, a covered entity shall prohibit the
+minor from accessing or using any AI companion owned, operated, or otherwise made
+available by the covered entity.
+7. (1) In the case of a violation of subsection 5 or 6 of this section, or a rule or
+regulation promulgated thereunder, the attorney general may bring a civil action in an
+appropriate circuit court to:
+(a) Enjoin the violation;
+(b) Enforce compliance with subsection 5 or 6 of this section, or any rules or
+regulations promulgated thereunder; or
+(c) Obtain civil penalties under subdivision (3) of this subsection, restitution, or
+other appropriate relief.
+(2) (a) For the purpose of conducting investigations or bringing enforcement
+actions under this section, the attorney general may issue subpoenas, administer oaths,
+and compel the production of documents or testimony.
+(b) The attorney general may promulgate all necessary rules and regulations for
+the administration of this section. Any rule or portion of a rule, as that term is defined
+in section 536.010, that is created under the authority delegated in this section shall
+become effective only if it complies with and is subject to all of the provisions of chapter
+and, if applicable, section 536.028. This section and chapter 536 are nonseverable
+and if any of the powers vested with the general assembly pursuant to chapter 536 to
+
+review, to delay the effective date, or to disapprove and annul a rule are subsequently
+held unconstitutional, then the grant of rulemaking authority and any rule proposed or
+adopted after August 28, 2026, shall be invalid and void.
+(3) (a) Any person who violates subsection 5 or 6 of this section, or any rule or
+regulation promulgated thereunder, shall be subject to a civil penalty not to exceed one
+hundred thousand dollars for each violation.
+(b) Each violation described in paragraph (a) of this subdivision shall be
+considered a separate violation.
+(4) In any case in which the attorney general has reason to believe that an
+interest of the residents of this state has been or is being threatened or adversely affected
+by the engagement of any covered entity in a violation of this section, or any rule or
+regulation promulgated thereunder, the attorney general, as parens patriae, may bring a
+civil action on behalf of the residents of this state in a circuit court of this state with
+appropriate jurisdiction to obtain injunctive relief.
+✔

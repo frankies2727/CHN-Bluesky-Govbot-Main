@@ -118,6 +118,8 @@
     "MO|HB 1747|2026-04-08|HCS Voted Do Pass (H)",
     "MO|HB 1747|2026-04-09|",
     "MO|HB 1747|2026-04-09|HCS Reported Do Pass (H) - AYES: 5 NOES:",
+    "MO|HB 2032|2026-03-30|Executive Session Completed (H)",
+    "MO|HB 2032|2026-03-30|HCS Voted Do Pass (H)",
     "MO|HB 2032|2026-04-02|",
     "MO|HB 2032|2026-04-02|HCS Reported Do Pass (H) - AYES: 9 NOES:",
     "MO|SB 1012|2026-04-30|Perfected",
@@ -159,6 +161,7 @@
     "WA|SB 5956|2026-02-24|Minority; do not pass.",
     "WA|SB 5956|2026-02-24|Minority; without recommendation.",
     "WA|SB 5956|2026-03-12|By resolution, returned to Senate Rules ",
+    "WA|SB 6231|2026-02-23|Passed to Rules Committee for second rea",
     "WA|SB 6231|2026-02-28|",
     "WA|SB 6231|2026-02-28|1st substitute bill substituted (WM 26).",
     "WA|SB 6231|2026-02-28|Floor amendment(s) adopted.",
@@ -175,7 +178,7 @@
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-06-09T10:22:27.975326+00:00",
+  "last_run": "2026-06-10T10:49:54.436431+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -185,10 +188,10 @@
     "KS": "2026-06-09T10:17:36.088611+00:00",
     "NJ": "2026-05-19T14:33:03.387287+00:00",
     "MS": "2026-06-07T09:54:31.429729+00:00",
-    "WA": "2026-06-07T09:54:31.429729+00:00",
+    "WA": "2026-06-10T10:46:41.834091+00:00",
     "GA": "2026-06-03T11:34:51.763524+00:00",
     "CA": "2026-06-05T10:43:44.308351+00:00",
-    "MO": "2026-06-08T11:34:30.223849+00:00",
+    "MO": "2026-06-10T10:46:41.834091+00:00",
     "MN": "2026-06-05T10:43:44.308351+00:00",
     "PR": "2026-06-02T11:12:31.418186+00:00"
   }

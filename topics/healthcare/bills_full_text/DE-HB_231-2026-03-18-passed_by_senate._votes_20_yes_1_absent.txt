@@ -1,0 +1,222 @@
+SPONSOR: Rep. Kamela Smith & Sen. Huxtable
+Reps. Chukwuocha, K. Johnson, Ross Levin, SnyderHall, Carson, Berry; Sens. Buckson, Hansen, Seigfried,
+Wilson
+
+HOUSE OF REPRESENTATIVES
+153rd GENERAL ASSEMBLY
+HOUSE BILL NO. 231
+AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO UNIFORM HEALTH DATA.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF DELAWARE:
+
+Section 1. Amend Chapter 20, Title 16 of the Delaware Code by making deletions as shown by strike through and
+insertions as shown by underline as follows:
+
+Chapter 20. UNIFORM HEALTH DATA
+
+§ 2002. Definitions.
+
+The following words, terms and phrases, when used in this chapter, shall have meaning ascribed to them in this
+
+section, except where the context indicates a different meaning:
+(1) “Delaware uniform claims and billing data set” shall mean means that data approved for use by the State
+Uniform Billing Committee.
+
+(2) “Hospital” shall mean means any nonfederal facility licensed as such pursuant to Chapter l0 of this title.
+
+(3) “Individual” shall mean means a singular human being.
+
+(4) “Nursing home” shall mean means any and all rest residential, assisted living facility, skilled care or
+
+intermediate nursing facility licensed pursuant to Chapter 11 of this title.
+
+(5) “Person” shall mean means an individual, trust or estate, a partnership, a corporation (including
+
+associations, joint stock companies and insurance companies), or a state or political subdivision or instrumentality
+
+(including a municipal corporation) of a state.
+
+(6) “Raw data” shall mean means any information collected pursuant to this chapter which has not been
+approved for release by the state agency.
+
+(7) “State agency” shall mean means the Division of Public Health within the Department of Health and
+
+Social Services. The Division of Public Health shall serve as the designated statistical agency under Public Law 95-
+
+for data analysis and statistical research related to the National Center for Health Statistics activities and for the
+
+designation of Health Manpower Shortage Areas (HMSAs) and Medically Underserved Areas (MUAs) by the U.S.
+
+Department of Health and Social Services.
+HD : RW : SCD
+
+Released: 06/27/2025 09:42 AM
+
+(8) “Third-party payers” shall mean means any person authorized to transact health insurance or to engage in
+
+the business of a health service corporation in this State.
+
+§ 2003. Duties and authority of state agency.
+
+(a) The state agency shall compile, correlate, analyze and develop data which it collects pursuant to this chapter.
+
+The state agency shall prepare and distribute or make available reports to health-care purchasers, health-care insurers,
+
+health-care providers and the general public. The data shall be collected in the most efficient and cost-effective manner.
+
+Data collected shall be limited to that contained in the Delaware uniform claims and billing data set (UB-82 UB-04 or
+
+successor form).
+
+(b) The state agency shall periodically compile and disseminate reports on the data collected such as, but not
+
+limited to: as charge levels, age-specific utilization patterns, morbidity patterns, patient origin and trends in health-care
+
+charges. Prior to release or dissemination of any compilations, the state agency shall provide a specified time period for
+
+hospitals and nursing homes to review the information they have submitted and to submit corrections. The state agency
+
+shall incorporate any valid corrections prior to release. Hospitals and nursing homes shall have the right to provide
+
+independent data interpretation which shall be disseminated along with the report.
+
+(d) The state agency shall establish the Hospital Discharge Technical Advisory Committee to study issues such as
+
+the collection, compilation, dissemination and confidentiality of data with regard to regarding hospital discharge and
+
+emergency department data reporting. The Committee shall be comprised of 9 members. These members shall include
+
+hospital and nursing home representatives from the Delaware Healthcare Association and the Delaware Health Care
+
+Facilities Association. The members shall be appointed by the Secretary of the Department of Health and Social Services.
+
+Members shall serve a 3-year term and are eligible for reappointment. The state agency may establish other committees as
+
+deemed appropriate.
+
+§ 2004. Reporting requirements.
+
+(a) The Delaware uniform claims and billing data set (UB-82 UB-04 or successor form) shall be completed for all
+
+hospital inpatient discharges and emergency department visits. and shall be submitted by all
+
+(b) All hospitals must submit data electronically to the state agency according to a schedule established pursuant to
+
+subsection (d)(e) of this section. section, through the state agency’s Secure File Transfer Protocol (SFTP), in the format
+
+agreed upon by the state agency and the Delaware Healthcare Association. All third-party payers shall be required to accept
+
+this uniform claims and billing form. The state agency shall recognize the capabilities of each hospital in specifying the
+
+medium or mediums to be used in submitting data (hard copy, data tape or other appropriate electronic media).
+
+HD : RW : SCD
+
+Released: 06/27/2025 09:42 AM
+
+(b)(c) The Delaware uniform claims and billing data set (UB-82 UB-04 or successor form) shall be completed for
+
+all nursing home inpatient discharges beginning not sooner than June 30, 1995, and shall be submitted by all nursing homes
+
+to the state agency according to a schedule established pursuant to subsection (d)(e) of this section. All third-party payers
+
+shall be required to accept the Delaware uniform claims and billing form. Prior to this time, nursing Nursing homes shall
+
+continue to submit data electronically through the State agency’s SFTP in a medium and in a format as agreed to upon by
+
+the state agency and the Delaware Health Care Facilities Association.
+
+(c)(d) The state agency shall assure that any report of data specific to hospitals or nursing homes presents data that
+
+are reliable, valid and informative. Such data shall reflect, as appropriate, factors including, but not limited to, the number
+
+of patients, patient severity at admission, age of patients, the actual versus expected number of deaths, average length of
+
+stay and case mix. The report shall explain each of these adjustments. The report also shall include information necessary
+
+to adequately represent the operations of the individual hospital or nursing home such as whether or not physician charges
+
+are included in the hospital charges, whether or not the hospital maintains medical education programs and the hospital’s
+
+payer mix. The state agency shall consult with the Association of Delaware Hospitals Healthcare Association and the
+
+Delaware Health Care Facilities Association in identifying the various adjustment factors and information to be included.
+
+(d)(e) The state agency shall establish schedules for the timely submission of data and information collected
+pursuant to this section. The state agency may grant waivers from such schedules for good cause shown.
+
+§ 2005. Cancer incidence data.
+
+(a) Notwithstanding any provisions in this title to the contrary, the agency shall make available as public records
+
+cancer incidence by census tract and by type of cancer. Such released data shall be assigned consensus census tract
+
+geography from the most recent decennial census. If release of such information by census tract will explicitly or implicitly
+
+identify any individual, the agency may combine data among contiguous census tracts, but only insofar as is necessary to
+
+protect patient confidentiality.
+
+(b) The agency shall create a detailed map of each county in Delaware that graphically illustrates the overall
+
+incidence of cancer in each census track. tract. The census tracks tracts will be identified on the maps and shall be color-
+
+coded to designate the degree of cancer incidence in each track. tract. These maps shall be created within 90 days of the
+
+agency receiving the cancer incidence data.
+
+(c) The agency shall post the maps created under subsection (b) of this section above on their website in a format
+that can be easily accessed and read by the public.
+§ 2007. Sanctions.
+
+HD : RW : SCD
+
+Released: 06/27/2025 09:42 AM
+
+(a) A hospital or nursing home which wilfully willfully violates this chapter shall be reported to the Delaware
+
+Department of Health and Social Services which may take such action as deemed appropriate to enforce compliance. No
+
+action shall be taken by the Delaware Department of Health and Social Services without first providing an opportunity to
+
+the hospital or nursing home for a fair hearing.
+
+(b) A hospital or nursing home which is aggrieved by any action taken by the Delaware Department of Health and
+Social Services pursuant to this section may, within 30 days of being notified of such action, appeal to the Superior Court.
+
+§ 2008. Immunity.
+
+No person shall be subject to, and all persons shall be immune from, any claim, suit, liability, damages damages,
+
+or any other recourse, civil or criminal, arising from any act or proceeding, decision or determination undertaken or
+
+performed, or recommendation made while discharging any duty or authority under this chapter, so long as such person
+
+acted in good faith, without malice, and within the scope of the person’s duty or authority under this chapter or any other
+
+provisions of the Delaware law, federal law law, or regulations or duly adopted rules and regulations providing for the
+
+administration of this chapter, good faith being presumed until proven otherwise, with malice required to be shown by the
+
+complainant.
+
+§ 2009. Data from other providers.
+
+The Delaware Health Care Commission or its successor agency shall complete an analysis of the merits and
+
+feasibility of collecting data from providers other than hospitals and nursing homes. Other providers to be considered shall
+
+include, but not be limited to, include physicians, freestanding surgical centers, freestanding birthing centers and
+
+freestanding emergency centers licensed in the State. The results of such analysis along with proposed enabling legislation,
+
+as appropriate, shall be submitted to the Governor and the General Assembly by December 31, 1995.
+SYNOPSIS
+This Act updates Delaware’s Uniform Health Data laws.
+This Act corrects the form number of UB-82 to UB-04.
+This Act provides that emergency department data is included in the data that the Hospital Discharge Technical
+Advisory Committee studies.
+Finally, this Act makes technical corrections to conform to the requirements of the Legislative Drafting Manual.
+
+HD : RW : SCD
+
+Released: 06/27/2025 09:42 AM

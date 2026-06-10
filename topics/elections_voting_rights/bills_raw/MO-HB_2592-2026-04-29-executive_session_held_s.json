@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2592",
+    "legislative_session": "2026",
+    "title": "Restores voting rights to individuals on probation and parole"
+  },
+  "id": "HB 2592",
+  "log": {
+    "action": {
+      "date": "2026-04-29T05:00:00+00:00",
+      "description": "Executive Session Held (S)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 2592"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2592/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2592/logs/20260429T050000Z_executive_session_held_s.json"
+  },
+  "timestamp": "20260429T050000Z"
+}

@@ -8,6 +8,7 @@
     "DE|SB 239|2026-03-11|Reported Out of Committee (Environment, ",
     "DE|SB 239|2026-03-17|",
     "DE|SB 239|2026-03-17|Passed By Senate. Votes: 18 YES 3 ABSENT",
+    "FL|HB 1417|2026-03-18|Signed by Officers and presented to Gove",
     "FL|HB 1417|2026-03-19|Approved by Governor",
     "FL|HB 1417|2026-03-20|Chapter No. 2026-2",
     "GA|HB 1277|2026-05-11|Act 454",
@@ -31,6 +32,7 @@
     "MO|HB 2611|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3504|2026-05-15|Referred: Emerging Issues(H)",
     "MS|HB1623|2026-02-03|Died In Committee",
+    "MS|SB2883|2026-02-03|Died In Committee",
     "NJ|S1221|2026-01-13|WITHDRAWN APP P.L.2025, c.202.",
     "PR|RKC0032|2026-01-12|Aparece en Primera Lectura de la C\u00e1mara",
     "PR|RKC0032|2026-01-12|Retirada por su Autor",
@@ -39,7 +41,7 @@
     "UT|HB 11|2026-02-27|Governor Signed",
     "WA|HB 2251|2026-03-25|Governor signed."
   ],
-  "last_run": "2026-06-09T10:38:24.657022+00:00",
+  "last_run": "2026-06-10T11:08:29.362069+00:00",
   "state_last_posted": {
     "IA": "2026-06-03T11:47:38.067759+00:00",
     "MO": "2026-06-05T10:51:14.963005+00:00",
@@ -52,10 +54,10 @@
     "UT": "2026-06-09T10:34:59.913620+00:00",
     "NJ": "2026-05-31T20:00:27.055804+00:00",
     "CA": "2026-06-06T09:29:15.732273+00:00",
-    "MS": "2026-06-01T00:21:48.756550+00:00",
+    "MS": "2026-06-10T11:03:00.737053+00:00",
     "WA": "2026-06-01T12:38:07.577059+00:00",
     "GA": "2026-06-09T10:34:59.913620+00:00",
-    "FL": "2026-06-06T09:29:15.732273+00:00",
+    "FL": "2026-06-10T11:03:00.737053+00:00",
     "MN": "2026-06-08T11:53:47.911449+00:00"
   }
 }

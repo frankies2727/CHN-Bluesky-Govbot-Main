@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Retirement",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB311",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Retirement"
+    ],
+    "title": "Retirement benefits; participation of qualifying sheriffs in supernumerary program and Employees' Retirement System based on separate years of service authorized"
+  },
+  "id": "HB311",
+  "log": {
+    "action": {
+      "date": "2026-04-08T04:00:00+00:00",
+      "description": "Carried Over to the Call of the Chair",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB311"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB311/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB311/logs/20260408T040000Z_carried_over_to_the_call_of_the_chair.json"
+  },
+  "timestamp": "20260408T040000Z"
+}

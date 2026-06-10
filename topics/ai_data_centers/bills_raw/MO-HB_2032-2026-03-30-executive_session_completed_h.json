@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2032",
+    "legislative_session": "2026",
+    "subject": [
+      "CHILDREN AND MINORS",
+      "SCIENCE AND TECHNOLOGY",
+      "SEXUAL OFFENSES"
+    ],
+    "title": "Establishes age verification measures for companion chatbots"
+  },
+  "id": "HB 2032",
+  "log": {
+    "action": {
+      "date": "2026-03-30T05:00:00+00:00",
+      "description": "Executive Session Completed (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2032"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2032/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2032/logs/20260330T050000Z_executive_session_completed_h.json"
+  },
+  "timestamp": "20260330T050000Z"
+}

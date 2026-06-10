@@ -1,0 +1,298 @@
+The Senate Committee on Finance offered the following
+substitute to SB 576:
+
+A BILL TO BE ENTITLED
+AN ACT
+To amend Article 1 of Chapter 5 of Title 48 of the Official Code of Georgia Annotated,
+relating to general provisions relative to ad valorem taxation of property, so as to provide for
+assessment of tangible real property used for community housing provider properties; to
+provide for supporting affidavits; to provide for definitions; to provide for related matters;
+to repeal conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Article 1 of Chapter 5 of Title 48 of the Official Code of Georgia Annotated, relating to
+general provisions relative to ad valorem taxation of property, is amended in Code
+Section 48-5-2, relating to definitions regarding ad valorem taxation of property generally,
+by revising paragraph (3) and adding new paragraphs to read as follows:
+
+"(.2) 'Community housing provider' means:
+
+(A) A housing provider that is either a natural person, a nonprofit corporation, or a
+
+charitable organization; or
+
+(B) A Subchapter 'S' corporation, limited liability company, or partnership that does
+
+not own in excess of 500 properties in this state, either directly or indirectly, in common
+
+ownership with any corporation, association, partnership, limited liability company,
+
+limited partnership, trust, issuer, or other private legal entity organized under the laws
+
+of this state, the United States, the District of Columbia, or any other state, territory, or
+
+dependency of the United States or under the laws of a foreign country."
+
+"(3) 'Fair market value of property' means the amount a knowledgeable buyer would pay
+
+for the property and a willing seller would accept for the property at an arm's length, bona
+
+fide sale. The income approach, if data are available, shall be considered in determining
+
+the fair market value of income-producing property. If actual income and expense data
+
+are voluntarily supplied by the property owner, such data shall be considered in such
+
+determination. A housing provider that is not a community housing provider shall
+
+provide the tax assessor the data necessary to use an income approach, upon request of
+
+the tax assessor. With respect to the valuation of equipment, machinery, and fixtures
+
+when no ready market exists for the sale of the equipment, machinery, and fixtures, fair
+
+market value may be determined by resorting to any reasonable, relevant, and useful
+
+information available, including, but not limited to, the original cost of the property, any
+
+depreciation or obsolescence, and any increase in value by reason of inflation. Each tax
+
+assessor shall have access to any public records of the taxpayer for the purpose of
+
+discovering such information.
+
+(A) In determining the fair market value of a going business where its continued
+
+operation is reasonably anticipated, the tax assessor may value the equipment,
+
+machinery, and fixtures which are the property of the business as a whole where
+
+appropriate to reflect the accurate fair market value.
+
+(B) The tax assessor shall apply the following criteria in determining the fair market
+
+value of real property:
+
+(i) Existing zoning of property;
+
+(ii) Existing use of property, including any restrictions or limitations on the use of
+
+property resulting from state or federal law or rules or regulations adopted pursuant
+
+to the authority of state or federal law;
+
+(iii) Existing covenants or restrictions in deed dedicating the property to a particular
+
+use;
+
+(iv) Bank sales, other financial institution owned sales, or distressed sales, or any
+
+combination thereof, of comparable real property;
+
+(v) Decreased value of the property based on limitations and restrictions resulting
+
+from the property being in a conservation easement;
+
+(vi) Rent limitations, higher operating costs resulting from regulatory requirements
+
+imposed on the property, and any other restrictions imposed upon the property in
+
+connection with the property being eligible for any income tax credits with respect to
+
+real property which are claimed and granted pursuant to either Section 42 of the
+
+Internal Revenue Code of 1986, as amended, or Chapter 7 of this title or receiving any
+
+other state or federal subsidies provided with respect to the use of the property as
+
+residential rental property; provided, however, that properties described in this
+
+division shall not be considered comparable real property for the assessment or appeal
+
+of assessment of properties not covered by this division;
+
+(vii)(I) In establishing the value of any property subject to rent restrictions under
+
+the sales comparison approach, any income tax credits described in division (vi) of
+
+this subparagraph that are attributable to a property may be considered in
+
+determining the fair market value of the property, provided that the tax assessor uses
+
+comparable sales of property which, at the time of the comparable sale, had unused
+
+income tax credits that were transferred in an arm's length, bona fide sale.
+
+(II) In establishing the value of any property subject to rent restrictions under the
+
+income approach, any income tax credits described in division (vi) of this
+
+subparagraph that are attributable to property may be considered in determining the
+
+fair market value of the property, provided that such income tax credits generate
+
+actual income to the record holder of title to the property; and
+
+(viii) Any other existing factors provided by law or by rule and regulation of the
+
+commissioner deemed pertinent in arriving at fair market value.
+
+(B.1) The tax assessor shall not consider any income tax credits with respect to real
+
+property which are claimed and granted pursuant to either Section 42 of the Internal
+
+Revenue Code of 1986, as amended, or Chapter 7 of this title in determining the fair
+
+market value of real property.
+
+(B.2) In determining the fair market value of real property, the tax assessor shall not
+
+include the value of any intangible assets used by a business, wherever located,
+
+including patents, trademarks, trade names, customer agreements, and merchandising
+
+agreements.
+
+(C) Fair market value of 'rehabilitated historic property' as such term is defined in
+
+subsection (a) of Code Section 48-5-7.2 means:
+
+(i) For the first eight years in which the property is classified as rehabilitated historic
+
+property, the value equal to the greater of the acquisition cost of the property or the
+
+appraised fair market value of the property as recorded in the county tax digest at the
+
+time preliminary certification on such property was received by the county board of
+
+tax assessors pursuant to subsection (c) of Code Section 48-5-7.2;
+
+(ii) For the ninth year in which the property is classified as rehabilitated historic
+
+property, the value of the property as determined by division (i) of this subparagraph
+
+plus one-half of the difference between such value and the current fair market value
+
+exclusive of the provisions of this subparagraph; and
+
+(iii) For the tenth and following years, the fair market value of such property as
+
+determined by the provisions of this paragraph, excluding the provisions of this
+
+subparagraph.
+
+(D) Fair market value of 'landmark historic property' as such term is defined in
+
+subsection (a) of Code Section 48-5-7.3 means:
+
+(i) For the first eight years in which the property is classified as landmark historic
+
+property, the value equal to the greater of the acquisition cost of the property or the
+
+appraised fair market value of the property as recorded in the county tax digest at the
+
+time certification on such property was received by the county board of tax assessors
+
+pursuant to subsection (c) of Code Section 48-5-7.3;
+
+(ii) For the ninth year in which the property is classified as landmark historic
+
+property, the value of the property as determined by division (i) of this subparagraph
+
+plus one-half of the difference between such value and the current fair market value
+
+exclusive of the provisions of this subparagraph; and
+
+(iii) For the tenth and following years, the fair market value of such property as
+
+determined by the provisions of this paragraph, excluding the provisions of this
+
+subparagraph.
+
+(E) Timber shall be valued at its fair market value at the time of its harvest or sale in
+
+the manner specified in Code Section 48-5-7.5.
+
+(F) Fair market value of 'brownfield property' as such term is defined in subsection (a)
+
+of Code Section 48-5-7.6 means:
+
+(i) Unless sooner disqualified pursuant to subsection (e) of Code Section 48-5-7.6,
+
+for the first ten years in which the property is classified as brownfield property, or as
+
+this period of preferential assessment may be extended pursuant to subsection (o) of
+
+Code Section 48-5-7.6, the value equal to the lesser of the acquisition cost of the
+
+property or the appraised fair market value of the property as recorded in the county
+
+tax digest at the time application was made to the Environmental Protection Division
+
+of the Department of Natural Resources for participation under Article 9 of Chapter 8
+
+of Title 12, the 'Georgia Brownfield Act,' as amended; and
+
+(ii) Unless sooner disqualified pursuant to subsection (e) of Code Section 48-5-7.6,
+
+for the eleventh and following years, or at the end of any extension of this period of
+
+preferential assessment pursuant to subsection (o) of Code Section 48-5-7.6, the fair
+
+market value of such property as determined by the provisions of this paragraph,
+
+excluding the provisions of this subparagraph.
+
+(G) Fair market value of 'qualified timberland property' means the fair market value
+
+determined in accordance with Article 13 of this chapter."
+
+"(7) 'Housing provider' means an owner of a single-family residential property which
+
+owner does not reside in the property, but offers the property, for a fee, to another to be
+
+used as a residence.
+
+(8) 'Housing provider services' means providing a single-family residential property to
+
+another, for a fee, to be used as the residence of an individual other than the owner of the
+
+property."
+
+SECTION 2.
+
+Said article is further amended in Code Section 48-5-7, relating to assessment of tangible
+property, by adding a new subsection to read as follows:
+
+"(c.7)(1)(A) Except as provided in subparagraph (B) of this paragraph, tangible real
+
+property used for housing provider services and owned by a housing provider may be
+
+assessed for ad valorem property tax purposes at 100 percent of the value which other
+
+tangible real property is assessed and shall be taxed on a levy made by each respective
+
+tax jurisdiction according to said assessment.
+
+(B) Tangible real property used for housing provider services and owned by a
+
+community housing provider shall be assessed for ad valorem property tax purposes at
+
+percent of the value which other tangible real property is assessed and shall be taxed
+
+on a levy made by each respective tax jurisdiction according to said assessment.
+
+(2) The tax assessor may require an authorized representative of a community housing
+
+provider to file, not later than April 1 of each year, a sworn affidavit establishing that
+
+tangible real property is not used for housing provider services or that such community
+
+housing provider is in fact a community housing provider."
+
+SECTION 3.
+
+All laws and parts of laws in conflict with this Act are repealed.
