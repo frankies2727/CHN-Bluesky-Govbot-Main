@@ -1,0 +1,88 @@
+LC 46 1522S
+
+Senate Bill 444
+By: Senators Kirkpatrick of the 32nd, Watson of the 1st, Hodges of the 3rd, Harbison of the
+15th and Walker III of the 20th
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 46 of Title 33 of the Official Code of Georgia Annotated, relating to
+
+certification of private review agents, so as to provide that certain decisions with regard to
+
+the provision of insurance coverage for healthcare services shall not be based solely on
+
+artificial intelligence systems, artificial intelligence, or other software tools; to provide for
+
+definitions; to provide for related matters; to provide for an effective date; to repeal
+
+conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Chapter 46 of Title 33 of the Official Code of Georgia Annotated, relating to certification of
+
+private review agents, is amended by adding a new Code section to read as follows:
+
+"33-46-7.1.
+
+(a) As used in this Code section, the term:
+
+(1) 'Artificial intelligence' means a machine based system that can, for a given set of
+
+human defined objectives, make predictions, recommendations, or decisions influencing
+
+real or virtual environments.
+
+S. B. 444
+
+LC 46 1522S
+
+(2) 'Artificial intelligence system' means an engineered or machine based system that
+
+emulates the capability of a person to receive audio, visual, text, or any other form of
+
+information and use such information to emulate a human cognitive process, including,
+
+but not limited to, learning, generalizing, reasoning, planning, predicting, acting, or
+
+communicating; provided, however, that artificial intelligence systems may vary in the
+
+forms of information they can receive and in the human cognitive processes they can
+
+emulate.
+
+(b) Private review agents and utilization review entities may use artificial intelligence
+
+systems, artificial intelligence, or other software tools, provided that such systems or tools
+
+are a part of a utilization review plan that is in accordance with the standards set forth in
+
+this chapter and the rules and regulations adopted by the Commissioner.
+
+(c) Artificial intelligence systems, artificial intelligence, and other software tools may be
+
+used to automate tasks, reduce administrative burdens, participate in decision-making
+
+processes, and perform other lawful functions; provided, however, that such systems shall
+
+not issue an adverse determination to a patient until a natural person qualifying as a private
+
+review agent or a utilization review entity conducts a utilization review in which a clinical
+
+peer participates. In no event shall artificial intelligence systems, artificial intelligence, or
+
+other software tools supersede the judgment of such clinical peer."
+
+SECTION 2.
+
+This Act shall become effective on January 1, 2027.
+
+SECTION 3.
+
+All laws and parts of laws in conflict with this Act are repealed.
+
+S. B. 444
