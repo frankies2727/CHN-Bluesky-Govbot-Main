@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Senate Bill No. 188, enacted during this General Assembly, clarified that the law-enforcement agency practice of purchasing firearms for that agency’s law-enforcement officers for use by the officers in their official duties is exempted from the background check requirements under §§ 1448A, 1448B, and 1448D of Title 11 under our State’s permit to purchase firearms laws. \r\nThis Act provides the same exemption from background check requirements for a qualified constable agency representative. A qualified constable agency representative means a constable working for an employer, as defined under § 5602 of Title 24, that has authorized the procurement of handguns by the constable on behalf of any constables working for that employer. For purposes of this Act, “constable” means an individual who satisfies all of the following:\r\n(1) Commissioned under Chapter 56 of Title 24.\r\n(2) Licensed to carry a firearm by the Professional Licensing Section of the Delaware State Police.\r\n(3) Authorized by the Constable Board of Examiners to carry a firearm in the performance of the constable’s \r\nofficial duties.\r\n\r\nThis Act also makes void a permit to purchase and gives the Director of the State Bureau of Identification (SBI) permission to revoke a permit to purchase if the person is no longer a qualified constable agency representative.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 324",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO DEADLY WEAPONS."
+  },
+  "id": "SB 324",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-11",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 324"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB324/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB324/logs/20260611T000000Z.classification.passage.upper.json"
+  }
+}

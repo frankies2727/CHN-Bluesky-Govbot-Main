@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to criminal history record checks by the board of occupational therapy practice; to amend and reenact section 43‑17‑27.1 of the North Dakota Century Code, relating to physician continuing education requirements; to provide a statement of legislative intent; and to provide an effective date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2401",
+    "legislative_session": "69",
+    "title": "AN ACT to create and enact a new subdivision to subsection 2 of section 12-60-24 of the North Dakota Century Code, relating to criminal history record checks by the board of occupational therapy practice; to amend and reenact section 43-17-27.1 of the North Dakota Century Code, relating to physician continuing education requirements; to provide a statement of legislative intent; and to provide an effective date."
+  },
+  "id": "SB 2401",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-01-21",
+      "description": "Reported back amended, do pass, amendment placed on calendar 12 2 0",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 2401"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2401/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2401/logs/20260121T000000Z_reported_back_amended_do_pass_amendment_placed_on_calendar_12_2_0.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

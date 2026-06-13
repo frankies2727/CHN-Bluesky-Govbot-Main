@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1468",
+    "legislative_session": "114",
+    "subject": [
+      "Consumer Protection"
+    ],
+    "title": "Consumer Protection - As introduced, prohibits an entity from setting the price of a specific good or service using personalized algorithmic pricing; designates a violation as an unfair or deceptive act or practice affecting trade or commerce in violation of the Tennessee Consumer Protection Act of 1977. - Amends TCA Title 29; Title 45; Title 47 and Title 66."
+  },
+  "id": "HB 1468",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-14",
+      "description": "Assigned to s/c Banking & Consumer Affairs Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1468"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1468/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1468/logs/20260114T000000Z_assigned_to_sc_banking_consumer_affairs_subcommittee.json"
+  },
+  "timestamp": "20260114T000000Z"
+}

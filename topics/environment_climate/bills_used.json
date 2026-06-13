@@ -5,6 +5,7 @@
     "CA|SB893|2026-05-14|May 14 hearing: Held in committee and un",
     "CO|SJR 015|2026-03-05|Senate Third Reading Laid Over to 03/10/",
     "CO|SJR 022|2026-04-13|Senate Third Reading Laid Over to 04/22/",
+    "DE|SB 212|2026-06-11|Passed By Senate. Votes: 20 YES 1 ABSENT",
     "DE|SB 239|2026-03-11|Reported Out of Committee (Environment, ",
     "DE|SB 239|2026-03-17|",
     "DE|SB 239|2026-03-17|Passed By Senate. Votes: 18 YES 3 ABSENT",
@@ -28,6 +29,8 @@
     "MN|HF 4222|2026-03-23|Committee report, to adopt as amended an",
     "MN|SF 3800|2026-03-11|Comm report: To pass",
     "MN|SF 3800|2026-03-11|Second reading",
+    "MN|SF 3887|2026-03-05|Comm report: To pass as amended",
+    "MN|SF 3887|2026-03-05|Second reading",
     "MO|HB 2578|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2611|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3504|2026-05-15|Referred: Emerging Issues(H)",
@@ -41,14 +44,14 @@
     "UT|HB 11|2026-02-27|Governor Signed",
     "WA|HB 2251|2026-03-25|Governor signed."
   ],
-  "last_run": "2026-06-10T11:08:29.362069+00:00",
+  "last_run": "2026-06-13T10:07:13.503027+00:00",
   "state_last_posted": {
     "IA": "2026-06-03T11:47:38.067759+00:00",
     "MO": "2026-06-05T10:51:14.963005+00:00",
     "MA": "2026-06-07T10:08:21.229730+00:00",
     "PR": "2026-05-29T10:45:32.375297+00:00",
     "CO": "2026-06-03T11:47:38.067759+00:00",
-    "DE": "2026-06-05T10:51:14.963005+00:00",
+    "DE": "2026-06-13T10:04:46.662059+00:00",
     "KS": "2026-06-08T11:53:47.911449+00:00",
     "AL": "2026-05-31T17:56:38.433033+00:00",
     "UT": "2026-06-09T10:34:59.913620+00:00",
@@ -58,6 +61,6 @@
     "WA": "2026-06-01T12:38:07.577059+00:00",
     "GA": "2026-06-09T10:34:59.913620+00:00",
     "FL": "2026-06-10T11:03:00.737053+00:00",
-    "MN": "2026-06-08T11:53:47.911449+00:00"
+    "MN": "2026-06-13T10:04:46.662059+00:00"
   }
 }

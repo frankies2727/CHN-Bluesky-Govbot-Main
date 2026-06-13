@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3412",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Law Enforcement",
+      "Public Safety Department"
+    ],
+    "title": "Circumstances when a person may conceal their identity in public modified and specific exceptions for law enforcement officers created."
+  },
+  "id": "HF 3412",
+  "log": {
+    "action": {
+      "date": "2026-03-02",
+      "description": "Motion to suspend rules",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3412"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3412/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3412/logs/20260302T000000Z_motion_to_suspend_rules.json"
+  },
+  "timestamp": "20260302T000000Z"
+}

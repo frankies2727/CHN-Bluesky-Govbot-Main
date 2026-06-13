@@ -1,0 +1,1378 @@
+MS/LJ​
+
+as introduced​
+
+SENATE​
+STATE OF MINNESOTA​
+NINETY-FOURTH SESSION​
+
+S.F. No. 2621​
+
+(SENATE AUTHORS: MOHAMED, Port, Maye Quade and Clark)​
+DATE​
+D-PG​
+OFFICIAL STATUS​
+03/17/2025​
+860​ Introduction and first reading​
+Referred to Housing and Homelessness Prevention​
+03/05/2026​
+6507​ Comm report: To pass and re-referred to Health and Human Services​
+6507​ Rule 12.10: report of votes in committee​
+03/12/2026​
+Comm report: To pass as amended and re-refer to State and Local Government​
+Rule 12.10: report of votes in committee​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+
+relating to state government; proposing an amendment to the Minnesota​
+Constitution, article XI; increasing the sales tax rate by three-eighths of one percent​
+and dedicating the receipts for housing purposes; creating a homeownership​
+opportunity fund, a community and household stability fund, and a rental​
+opportunity fund; creating fund councils; providing appointments; requiring reports;​
+proposing coding for new law in Minnesota Statutes, chapters 256K; 462A.​
+
+1.8
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+
+1.9
+
+ARTICLE 1​
+
+1.10
+
+CONSTITUTIONAL AMENDMENT TO FUND HOUSING INITIATIVES​
+
+1.11
+1.12
+1.13
+
+Section 1. CONSTITUTIONAL AMENDMENT PROPOSED.​
+An amendment to the Minnesota Constitution is proposed to the people. If the amendment​
+is adopted, a section shall be added to article XI to read:​
+
+1.14
+
+Sec. 16. Beginning July 1, 2027, until June 30, 2052, the sales and use tax rate shall be​
+
+1.15
+
+increased by three-eighths of one percent on sales and uses taxable under the general sales​
+
+1.16
+
+and use tax law. Receipts from the increase, plus penalties and interest and reduced by any​
+
+1.17
+
+refunds, are dedicated, for the benefit of Minnesotans, to the following funds: 25 percent​
+
+1.18
+
+to the homeownership opportunity fund, which may be spent to assist in the creation,​
+
+1.19
+
+purchase, and rehabilitation of homes for owner occupancy; 25 percent to the community​
+
+1.20
+
+and household stability fund, which may be used to assist in providing emergency financial​
+
+1.21
+
+assistance, legal services, educational services, and outreach services to persons who are​
+
+1.22
+
+homeless or at risk of becoming homeless; and 50 percent to the rental opportunity fund,​
+
+1.23
+
+which may be used to assist in funding ongoing rental assistance and supportive services​
+
+1.24
+
+for renters and in the acquisition, development, rehabilitation, or adaptive reuse of rental​
+
+Article 1 Section 1.​
+
+1​
+
+MS/LJ​
+
+as introduced​
+
+2.1
+
+housing. A homeownership opportunity fund, a community and household stability fund,​
+
+2.2
+
+and a rental opportunity fund are created in the state treasury. The money dedicated under​
+
+2.3
+
+this section shall be appropriated by law. The dedicated money under this section must​
+
+2.4
+
+supplement traditional sources of funding for these purposes and may not be used as a​
+
+2.5
+
+substitute. The dedicated money under this section may be used to provide matching grants.​
+
+2.6
+2.7
+2.8
+2.9
+
+Sec. 2. SUBMISSION TO VOTERS.​
+(a) The proposed amendment must be submitted to the people at the 2026 general election.​
+The question submitted must be:​
+"Shall the Minnesota Constitution be amended to remove barriers to homeownership,​
+
+2.10
+
+to make rental housing safe and affordable, and to protect vulnerable households and​
+
+2.11
+
+communities from displacement and homelessness by increasing the sales and use tax rate​
+
+2.12
+
+beginning July 1, 2027, by three-eighths of one percent on taxable sales until the year 2052?​
+
+2.13
+
+Yes ...................
+
+2.14
+
+No .................... "​
+
+2.15
+
+(b) The title required under Minnesota Statutes, section 204D.15, subdivision 1, for the​
+
+2.16
+
+question submitted to the people under paragraph (a) shall be: "Creation of Homeownership​
+
+2.17
+
+Opportunity Fund, Community and Household Stability Fund, and Rental Opportunity​
+
+2.18
+
+Fund."​
+
+2.19
+
+ARTICLE 2​
+
+2.20
+
+STATUTORY CHANGES​
+
+2.21
+
+Section 1. [256K.50] COMMUNITY AND HOUSEHOLD STABILITY FUND.​
+
+2.22
+
+Subdivision 1. Fund. The community and household stability fund is established in the​
+
+2.23
+
+Minnesota Constitution, article XI, section 16. All money earned by the fund must be credited​
+
+2.24
+
+to the fund.​
+
+2.25
+2.26
+
+Subd. 2. Purpose. The fund is established to help Minnesotans improve the condition​
+of homes and communities and prevent homelessness and displacement from homes.​
+
+2.27
+
+Subd. 3. Expenditures. Subject to appropriation, receipts in the fund may be spent for:​
+
+2.28
+
+(1) emergency assistance for households or individuals that are homeless or at risk of​
+
+2.29
+2.30
+2.31
+
+homelessness or displacement;​
+(2) legal services for households or individuals that are homeless or at risk of​
+homelessness or displacement;​
+
+Article 2 Section 1.​
+
+2​
+
+3.1
+3.2
+
+MS/LJ​
+
+as introduced​
+
+(3) outreach services for households or individuals that are homeless or at risk of​
+homelessness or displacement;​
+
+3.3
+
+(4) funding the operation of emergency shelters; and​
+
+3.4
+
+(5) financing the acquisition, rehabilitation, adaptive reuse, or new construction of​
+
+3.5
+
+property to serve as emergency shelter, transitional housing, or permanent supportive​
+
+3.6
+
+housing.​
+
+3.7
+
+Subd. 4. Audit. The legislative auditor shall audit fund expenditures to ensure that the​
+
+3.8
+
+money is spent for the purposes for which it is constitutionally dedicated and for which the​
+
+3.9
+
+money was appropriated.​
+
+3.10
+3.11
+
+3.12
+
+Subd. 5. Prevailing wages. Contracts for projects funded by this fund must meet the​
+requirements of contracts for state projects, as established in section 177.43.​
+Sec. 2. [256K.51] COMMUNITY AND HOUSEHOLD STABILITY COUNCIL.​
+
+3.13
+
+Subdivision 1. Establishment. A Community and Household Stability Council is created​
+
+3.14
+
+to advise on the administration and implementation of the community and household stability​
+
+3.15
+
+fund under section 256K.50. The Housing Finance Agency shall provide administrative​
+
+3.16
+
+support for the council. The members of the council shall elect a chair from the voting​
+
+3.17
+
+members of the council.​
+
+3.18
+
+Subd. 2. Membership; appointment. (a) Three members of the house of representatives,​
+
+3.19
+
+including two members from the majority party, appointed by the speaker of the house, and​
+
+3.20
+
+one member from the minority party, appointed by the minority leader, shall serve at the​
+
+3.21
+
+pleasure of the appointing authority as nonvoting members of the council. Three members​
+
+3.22
+
+of the senate, including two members from the majority party and one member from the​
+
+3.23
+
+minority party, appointed according to the rules of the senate, shall serve at the pleasure of​
+
+3.24
+
+the appointing authority as nonvoting members of the council.​
+
+3.25
+
+(b) Twenty-four voting members shall be appointed and must include:​
+
+3.26
+
+(1) one representative of a labor union;​
+
+3.27
+
+(2) the commissioner of the Housing Finance Agency;​
+
+3.28
+
+(3) four representatives of organizations that work directly with under-resourced or​
+
+3.29
+3.30
+3.31
+
+underrepresented communities;​
+(4) four members who receive or previously received support services, emergency rental​
+assistance, or homeless prevention services;​
+
+Article 2 Sec. 2.​
+
+3​
+
+MS/LJ​
+
+as introduced​
+
+4.1
+
+(5) two members representing a Tribal government;​
+
+4.2
+
+(6) one member elected to or appointed by the governing body of a local government;​
+
+4.3
+
+(7) one member that represents either a public housing authority or a housing and​
+
+4.4
+
+redevelopment authority; and​
+
+4.5
+
+(8) one member representing the Council on Disability.​
+
+4.6
+
+(c) Appointments shall be made as follows: the governor, the senate majority leader,​
+
+4.7
+
+and the speaker of the house shall each in turn appoint members required under paragraph​
+
+4.8
+
+(b) until 12 appointments have been made. The governor shall appoint an additional eight​
+
+4.9
+
+members, ensuring that any outstanding requirements under paragraph (b) are satisfied. The​
+
+4.10
+
+house minority leader and the senate minority leader shall then each appoint two members.​
+
+4.11
+
+Members appointed under this paragraph must not be registered lobbyists or legislators.​
+
+4.12
+
+(d) Appointing authorities shall ensure that appointees represent a diversity of​
+
+4.13
+
+backgrounds, including racial, ethnic, socioeconomic, and geographic backgrounds.​
+
+4.14
+
+Subd. 3. Conflict of interest. A council member may not participate in or vote on a​
+
+4.15
+
+decision of the council relating to an organization in which the member has either a direct​
+
+4.16
+
+or indirect personal financial interest. While serving on the council, a member shall avoid​
+
+4.17
+
+any potential conflict of interest.​
+
+4.18
+
+Subd. 4. Terms; compensation; removal. The terms of members representing the state​
+
+4.19
+
+agencies are four years and are coterminous with the governor. The terms of other​
+
+4.20
+
+nonlegislative members of the council shall be as provided in section 15.059, subdivision​
+
+4.21
+
+2. Members may serve until their successors are appointed and qualify. Compensation and​
+
+4.22
+
+removal of nonlegislative council members is as provided in section 15.059, subdivisions​
+
+4.23
+
+and 4. Compensation of legislative members is as determined by the appointing authority.​
+
+4.24
+
+The Department of Human Services may reimburse legislative members for expenses. A​
+
+4.25
+
+vacancy on the council may be filled by the appointing authority provided in subdivision 2​
+
+4.26
+
+for the remainder of the unexpired term.​
+
+4.27
+
+Subd. 5. Strategic plan. The council shall adopt a strategic plan for recommending​
+
+4.28
+
+policy changes and making expenditures from the community and household stability fund​
+
+4.29
+
+that further the purpose in section 256K.50, subdivision 2, including identifying the priority​
+
+4.30
+
+areas for funding for the next six years. The council shall issue a revised plan by December​
+
+4.31
+
+each even-numbered year. The strategic plan must have clearly stated short- and long-term​
+
+4.32
+
+goals and strategies for fund expenditures, must provide measurable outcomes for​
+
+4.33
+
+expenditures, and must determine areas of emphasis for funding. The council's strategic​
+
+Article 2 Sec. 2.​
+
+4​
+
+MS/LJ​
+
+as introduced​
+
+5.1
+
+plan must detail how the council will engage impacted individuals and communities and​
+
+5.2
+
+ensure council recommendations support the fund's purpose and the intention to reduce​
+
+5.3
+
+disparities, support community-based solutions, improve the condition of homes, increase​
+
+5.4
+
+accessibility, and improve energy and water efficiency.​
+
+5.5
+
+Subd. 6. Recommended appropriations. The Community and Household Stability​
+
+5.6
+
+Council shall recommend to the governor and the legislature the manner in which money​
+
+5.7
+
+from the community and household stability fund should be appropriated for the purposes​
+
+5.8
+
+stated in section 256K.50 and the Minnesota Constitution, article XI, section 16.​
+
+5.9
+
+Subd. 7. Reports to legislature. (a) By January 15 of each odd-numbered year, the​
+
+5.10
+
+council must submit a report to the chairs and ranking minority members of the legislative​
+
+5.11
+
+committees with jurisdiction over housing and jurisdiction over taxes on the activities for​
+
+5.12
+
+which money has been or will be spent for the current biennium and the activities for which​
+
+5.13
+
+money is recommended to be spent in the next biennium.​
+
+5.14
+
+(b) By January 15 of each even-numbered year, the council may submit to the legislature​
+
+5.15
+
+supplemental recommendations on the manner in which money from the community and​
+
+5.16
+
+household stability fund should be appropriated in the next fiscal year.​
+
+5.17
+
+Sec. 3. [462A.51] HOMEOWNERSHIP OPPORTUNITY FUND.​
+
+5.18
+
+Subdivision 1. Fund. The homeownership opportunity fund is established in the​
+
+5.19
+
+Minnesota Constitution, article XI, section 16. All money earned by the fund must be credited​
+
+5.20
+
+to the fund.​
+
+5.21
+
+Subd. 2. Purpose. The fund is established to support Minnesotans and the communities​
+
+5.22
+
+in which they live, to eliminate racial disparities in homeownership, to ensure Minnesotans​
+
+5.23
+
+can accumulate wealth and assets, and to increase quality of life by helping more first-time​
+
+5.24
+
+home buyers afford and access homeownership.​
+
+5.25
+
+Subd. 3. Expenditures. Subject to appropriation, receipts in the fund may be spent for:​
+
+5.26
+
+(1) financing the acquisition, rehabilitation, adaptive reuse, or new construction of​
+
+5.27
+
+property to serve as owner-occupied housing, including single-family housing, multifamily​
+
+5.28
+
+housing containing up to four units, housing on land leased by a community land trust,​
+
+5.29
+
+condominiums, and cooperatively owned housing, including cooperatively owned​
+
+5.30
+
+manufactured home parks;​
+
+5.31
+5.32
+
+(2) financing the conversion of rental property into owner-occupied property, including​
+cooperatively owned housing and cooperatively owned manufactured home parks;​
+
+Article 2 Sec. 3.​
+
+5​
+
+MS/LJ​
+
+as introduced​
+
+6.1
+
+(2) down payment assistance;​
+
+6.2
+
+(3) accessibility grants and loans for owner-occupied housing;​
+
+6.3
+
+(4) financial assistance to borrowers who are delinquent on mortgage or contract for​
+
+6.4
+
+deed payments; and​
+
+6.5
+
+(5) homeownership education, counseling, and training under section 462A.209.​
+
+6.6
+
+Subd. 4. Audit. The legislative auditor shall audit fund expenditures to ensure that the​
+
+6.7
+
+money is spent for the purposes for which it is constitutionally dedicated and for which the​
+
+6.8
+
+money was appropriated.​
+
+6.9
+
+Subd. 5. Prevailing wages. Contracts for projects funded by this fund must meet the​
+
+6.10
+
+requirements of contracts for state projects, as established in section 177.43.​
+
+6.11
+
+Sec. 4. [462A.52] HOMEOWNERSHIP OPPORTUNITY COUNCIL.​
+
+6.12
+
+Subdivision 1. Establishment. A Homeownership Opportunity Council is created to​
+
+6.13
+
+advise on the administration and implementation of the homeownership opportunity fund​
+
+6.14
+
+under section 462A.51. The Housing Finance Agency shall provide administrative support​
+
+6.15
+
+for the council. The members of the council shall elect a chair from the voting members of​
+
+6.16
+
+the council.​
+
+6.17
+
+Subd. 2. Membership; appointment. (a) Three members of the house of representatives,​
+
+6.18
+
+including two members from the majority party, appointed by the speaker of the house, and​
+
+6.19
+
+one member from the minority party, appointed by the minority leader, shall serve at the​
+
+6.20
+
+pleasure of the appointing authority as nonvoting members of the council. Three members​
+
+6.21
+
+of the senate, including two members from the majority party and one member from the​
+
+6.22
+
+minority party, appointed according to the rules of the senate, shall serve at the pleasure of​
+
+6.23
+
+the appointing authority as nonvoting members of the council.​
+
+6.24
+
+(b) Twenty-four voting members shall be appointed and must include:​
+
+6.25
+
+(1) the commissioner of the Housing Finance Agency;​
+
+6.26
+
+(2) one member that represents either a public housing authority or a housing and​
+
+6.27
+
+redevelopment authority;​
+
+6.28
+
+(3) one representative of a labor union;​
+
+6.29
+
+(4) two members who purchased a Habitat for Humanity home;​
+
+6.30
+
+(5) two members who purchased a community land trust home;​
+
+6.31
+
+(6) two members who have been or are manufactured home park residents;​
+Article 2 Sec. 4.​
+
+6​
+
+MS/LJ​
+
+as introduced​
+
+7.1
+
+(7) two members who live in a cooperatively owned property;​
+
+7.2
+
+(8) two representatives of organizations focused on producing new affordable homes​
+
+7.3
+7.4
+7.5
+7.6
+7.7
+
+for ownership;​
+(9) one representative of an organization that provides down payment assistance or home​
+buyer preparation services to low-income households;​
+(10) two representatives of organizations that work directly with households on the path​
+to homeownership;​
+
+7.8
+
+(11) one member elected to or appointed by the governing body of a local government;​
+
+7.9
+
+(12) two representatives of a Tribal government;​
+
+7.10
+
+(13) one person with a disability or one disability advocate; and​
+
+7.11
+
+(14) one person with practical experience or expertise with both housing and either​
+
+7.12
+
+energy or climate.​
+
+7.13
+
+(c) Appointments shall be made as follows: the governor, the senate majority leader,​
+
+7.14
+
+and the speaker of the house shall each in turn appoint members required under paragraph​
+
+7.15
+
+(b) until 12 appointments have been made. The governor shall appoint an additional eight​
+
+7.16
+
+members, ensuring that any outstanding requirements under paragraph (b) are satisfied. The​
+
+7.17
+
+house minority leader and the senate minority leader shall then each appoint two members.​
+
+7.18
+
+Members appointed under this paragraph must not be registered lobbyists or legislators.​
+
+7.19
+
+(d) Appointing authorities shall ensure that appointees represent a diversity of​
+
+7.20
+
+backgrounds, including racial, ethnic, socioeconomic, and geographic backgrounds.​
+
+7.21
+
+Subd. 3. Conflict of interest. A council member may not participate in or vote on a​
+
+7.22
+
+decision of the council relating to an organization in which the member has either a direct​
+
+7.23
+
+or indirect personal financial interest. While serving on the council, a member shall avoid​
+
+7.24
+
+any potential conflict of interest.​
+
+7.25
+
+Subd. 4. Terms; compensation; removal. The terms of members representing the state​
+
+7.26
+
+agencies are four years and are coterminous with the governor. The terms of other​
+
+7.27
+
+nonlegislative members of the council shall be as provided in section 15.059, subdivision​
+
+7.28
+
+2. Members may serve until their successors are appointed and qualify. Compensation and​
+
+7.29
+
+removal of nonlegislative council members is as provided in section 15.059, subdivisions​
+
+7.30
+
+and 4. Compensation of legislative members is as determined by the appointing authority.​
+
+7.31
+
+The agency may reimburse legislative members for expenses. A vacancy on the council​
+
+Article 2 Sec. 4.​
+
+7​
+
+MS/LJ​
+
+as introduced​
+
+8.1
+
+may be filled by the appointing authority provided in subdivision 2 for the remainder of the​
+
+8.2
+
+unexpired term.​
+
+8.3
+
+Subd. 5. Strategic plan. The council shall adopt a strategic plan for recommending​
+
+8.4
+
+policy changes and making expenditures from the homeownership opportunity fund that​
+
+8.5
+
+further the purpose in section 462A.51, subdivision 2, including identifying the priority​
+
+8.6
+
+areas for funding for the next six years. The council shall issue a revised plan by December​
+
+8.7
+
+of each even-numbered year. The strategic plan must have clearly stated short- and​
+
+8.8
+
+long-term goals and strategies for fund expenditures, must provide measurable outcomes​
+
+8.9
+
+for expenditures, and must determine areas of emphasis for funding. The council's strategic​
+
+8.10
+
+plan must detail how the council will engage impacted individuals and communities and​
+
+8.11
+
+ensure council recommendations support the fund's purpose and the intention to reduce​
+
+8.12
+
+disparities, support community-based solutions, improve the condition of homes, increase​
+
+8.13
+
+accessibility, and improve energy and water efficiency.​
+
+8.14
+
+Subd. 6. Recommended appropriations. The Homeownership Opportunity Council​
+
+8.15
+
+shall recommend to the governor and the legislature the manner in which money from the​
+
+8.16
+
+homeownership opportunity fund should be appropriated for the purposes stated in section​
+
+8.17
+
+462A.51 and the Minnesota Constitution, article XI, section 16.​
+
+8.18
+
+Subd. 7. Reports to legislature. (a) By January 15 of each odd-numbered year, the​
+
+8.19
+
+council must submit a report to the chairs and ranking minority members of the legislative​
+
+8.20
+
+committees with jurisdiction over housing and jurisdiction over taxes on the activities for​
+
+8.21
+
+which money has been or will be spent for the current biennium and the activities for which​
+
+8.22
+
+money is recommended to be spent in the next biennium.​
+
+8.23
+
+(b) By January 15 of each even-numbered year, the council may submit to the legislature​
+
+8.24
+
+supplemental recommendations on the manner in which money from the homeownership​
+
+8.25
+
+opportunity fund should be appropriated in the next fiscal year.​
+
+8.26
+
+Sec. 5. [462A.53] RENTAL OPPORTUNITY FUND.​
+
+8.27
+
+Subdivision 1. Fund. The rental opportunity fund is established in the Minnesota​
+
+8.28
+
+Constitution, article XI, section 16. All money earned by the fund must be credited to the​
+
+8.29
+
+fund.​
+
+8.30
+
+Subd. 2. Purpose. The fund is established to create more homes that Minnesotans can​
+
+8.31
+
+afford by increasing the supply of affordable rental housing, especially for very low- and​
+
+8.32
+
+extremely low-income households; reduce the number of low-income households​
+
+Article 2 Sec. 5.​
+
+8​
+
+MS/LJ​
+
+as introduced​
+
+9.1
+
+experiencing housing cost burden by investing in rental assistance; and improve quality of​
+
+9.2
+
+life by ensuring existing homes are safe, healthy, and resilient.​
+
+9.3
+
+Subd. 3. Expenditures. Subject to appropriation, receipts in the fund must be spent for:​
+
+9.4
+
+(1) financing the acquisition, rehabilitation, adaptive reuse, or new construction of​
+
+9.5
+
+property to serve as rental housing;​
+
+9.6
+
+(2) rental assistance; and​
+
+9.7
+
+(3) supportive services to renters and owners of rental property.​
+
+9.8
+
+Subd. 4. Audit. The legislative auditor shall audit fund expenditures to ensure that the​
+
+9.9
+
+money is spent for the purposes for which it is constitutionally dedicated and for which the​
+
+9.10
+
+money was appropriated.​
+
+9.11
+9.12
+
+9.13
+
+Subd. 5. Prevailing wages. Contracts for projects funded by this fund must meet the​
+requirements of contracts for state projects, as established in section 177.43.​
+Sec. 6. [462A.54] RENTAL OPPORTUNITY COUNCIL.​
+
+9.14
+
+Subdivision 1. Establishment. A Rental Opportunity Council is created to advise on​
+
+9.15
+
+the administration and implementation of the rental opportunity fund under section 462A.53.​
+
+9.16
+
+The Housing Finance Agency shall provide administrative support for the council. The​
+
+9.17
+
+members of the council shall elect a chair from the voting members of the council.​
+
+9.18
+
+Subd. 2. Membership; appointment. (a) Three members of the house of representatives,​
+
+9.19
+
+including two members from the majority party, appointed by the speaker of the house, and​
+
+9.20
+
+one member from the minority party, appointed by the minority leader, shall serve at the​
+
+9.21
+
+pleasure of the appointing authority as nonvoting members of the council. Three members​
+
+9.22
+
+of the senate, including two members from the majority party and one member from the​
+
+9.23
+
+minority party, appointed according to the rules of the senate, shall serve at the pleasure of​
+
+9.24
+
+the appointing authority as nonvoting members of the council.​
+
+9.25
+
+(b) Twenty-four voting members shall be appointed and must include:​
+
+9.26
+
+(1) the commissioner of the Housing Finance Agency;​
+
+9.27
+
+(2) one representative of a labor union;​
+
+9.28
+
+(3) one member that represents either a public housing authority or a housing or​
+
+9.29
+9.30
+9.31
+
+redevelopment authority;​
+(4) one member living in rental housing who (i) has a disability, and (ii) transitioned out​
+of congregate care;​
+
+Article 2 Sec. 6.​
+
+9​
+
+MS/LJ​
+
+as introduced​
+
+10.1
+
+(5) one member who is experiencing or has experienced homelessness;​
+
+10.2
+
+(6) two representatives of a Tribal government;​
+
+10.3
+
+(7) one representative of a nonprofit housing provider;​
+
+10.4
+
+(8) one representative of a for-profit housing provider;​
+
+10.5
+
+(9) one representative of a nonprofit developer of rental housing; and​
+
+10.6
+
+(10) one representative of a for-profit developer of rental housing.​
+
+10.7
+
+(c) Appointments shall be made as follows: the governor, the senate majority leader,​
+
+10.8
+
+and the speaker of the house shall each in turn appoint members required under paragraph​
+
+10.9
+
+(b) until 12 appointments have been made. The governor shall appoint an additional eight​
+
+10.10
+
+members, ensuring that any outstanding requirements under paragraph (b) are satisfied. The​
+
+10.11
+
+house minority leader and the senate minority leader shall then each appoint two members.​
+
+10.12
+
+Members appointed under this paragraph must not be registered lobbyists or legislators.​
+
+10.13
+
+(d) Appointing authorities shall ensure that appointees represent a diversity of​
+
+10.14
+
+backgrounds, including racial, ethnic, socioeconomic, and geographic backgrounds.​
+
+10.15
+
+Subd. 3. Conflict of interest. A council member may not participate in or vote on a​
+
+10.16
+
+decision of the council relating to an organization in which the member has either a direct​
+
+10.17
+
+or indirect personal financial interest. While serving on the council, a member shall avoid​
+
+10.18
+
+any potential conflict of interest.​
+
+10.19
+
+Subd. 4. Terms; compensation; removal. The terms of members representing the state​
+
+10.20
+
+agencies are four years and are coterminous with the governor. The terms of other​
+
+10.21
+
+nonlegislative members of the council shall be as provided in section 15.059, subdivision​
+
+10.22
+
+2. Members may serve until their successors are appointed and qualify. Compensation and​
+
+10.23
+
+removal of nonlegislative council members is as provided in section 15.059, subdivisions​
+
+10.24
+
+and 4. Compensation of legislative members is as determined by the appointing authority.​
+
+10.25
+
+The agency may reimburse legislative members for expenses. A vacancy on the council​
+
+10.26
+
+may be filled by the appointing authority provided in subdivision 2 for the remainder of the​
+
+10.27
+
+unexpired term.​
+
+10.28
+
+Subd. 5. Strategic plan. The council shall adopt a strategic plan for recommending​
+
+10.29
+
+policy changes and making expenditures from the rental opportunity fund that further the​
+
+10.30
+
+purpose in section 462A.53, subdivision 2, including identifying the priority areas for funding​
+
+10.31
+
+for the next six years. The council shall issue a revised plan by December 1 each​
+
+10.32
+
+even-numbered year. The strategic plan must have clearly stated short- and long-term goals​
+
+10.33
+
+and strategies for fund expenditures, must provide measurable outcomes for expenditures,​
+Article 2 Sec. 6.​
+
+10​
+
+MS/LJ​
+
+as introduced​
+
+11.1
+
+and must determine areas of emphasis for funding. The council's strategic plan must detail​
+
+11.2
+
+how the council will engage impacted individuals and communities and ensure council​
+
+11.3
+
+recommendations support the fund's purpose and the intention to reduce disparities, support​
+
+11.4
+
+community-based solutions, improve the condition of homes, increase accessibility, and​
+
+11.5
+
+improve energy and water efficiency.​
+
+11.6
+
+Subd. 6. Recommended appropriations. The Rental Opportunity Council shall​
+
+11.7
+
+recommend to the governor and the legislature the manner in which money from the rental​
+
+11.8
+
+opportunity fund should be appropriated for the purposes stated in section 462A.53 and the​
+
+11.9
+
+Minnesota Constitution, article XI, section 16.​
+
+11.10
+
+Subd. 7. Reports to legislature. (a) By January 15 of each odd-numbered year, the​
+
+11.11
+
+council must submit a report to the chairs and ranking minority members of the legislative​
+
+11.12
+
+committees with jurisdiction over housing and jurisdiction over taxes on the activities for​
+
+11.13
+
+which money has been or will be spent for the current biennium and the activities for which​
+
+11.14
+
+money is recommended to be spent in the next biennium.​
+
+11.15
+
+(b) By January 15 of each even-numbered year, the council may submit to the legislature​
+
+11.16
+
+supplemental recommendations on the manner in which money from the rental opportunity​
+
+11.17
+
+fund should be appropriated in the next fiscal year.​
+
+11.18
+11.19
+11.20
+
+Sec. 7. EFFECTIVE DATE.​
+This article is effective July 1, 2027, if the constitutional amendment proposed in article​
+1, section 1, is adopted by the voters.​
+
+Article 2 Sec. 7.​
+
+11​
+
+APPENDIX​
+Article locations for 25-03079​
+
+ARTICLE 1​
+
+CONSTITUTIONAL AMENDMENT TO FUND HOUSING​
+INITIATIVES......................................................................................... Page.Ln 1.9​
+
+ARTICLE 2​
+
+STATUTORY CHANGES...................................................................... Page.Ln 2.19​
+1​

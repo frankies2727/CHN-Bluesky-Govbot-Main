@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Criminal Procedure",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB13",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Criminal Procedure"
+    ],
+    "title": "Illegal immigration, procedures for arrest, detention, transportation of illegal immigrants provided for; reporting requirements established"
+  },
+  "id": "HB13",
+  "log": {
+    "action": {
+      "date": "2026-04-02T04:00:00+00:00",
+      "description": "Read for the Second Time and placed on the Calendar (Veterans, Military Affairs and Public Safety)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB13"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB13/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB13/logs/20260402T040000Z_read_for_the_second_time_and_placed_on_the_calendar_veterans_military_affairs_and_public_safety.json"
+  },
+  "timestamp": "20260402T040000Z"
+}

@@ -1,0 +1,63 @@
+SENATE BILL 1807
+By Bailey
+
+HOUSE BILL 1468
+By Clemmons
+AN ACT to amend Tennessee Code Annotated, Title 29;
+Title 45; Title 47 and Title 66, relative to
+algorithmic pricing.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF TENNESSEE:
+SECTION 1. Tennessee Code Annotated, Title 47, Chapter 18, Part 1, is amended by
+adding the following as a new section:
+47-18-139. Algorithmic pricing prohibited.
+(a) As used in this section:
+(1) "Algorithm" means a computational automated process that uses a
+set of rules to define a sequence of operations;
+(2) "Consumer" means a natural person who is seeking or has solicited
+to purchase, lease, or receive a good or service for personal, family, or
+household use;
+(3) "Dynamic pricing" means pricing that fluctuates dependent on
+conditions;
+(4) "Entity" means a natural person, firm, organization, partnership,
+association, corporation, or any other entity domiciled or doing business in this
+state;
+(5) "Personal data":
+(A) Means any data that identifies or could reasonably be linked
+with, directly or indirectly, a specific consumer or device; and
+(B) Does not include location data that is used solely to calculate
+the fare based on mileage and trip duration between the passenger's
+
+HB1468
+
+pickup and drop-off locations for a prearranged ride, as defined in § 6515-301, or by a taxi, limousine, or other for-hire vehicle regulated
+pursuant to § 7-51-1003; and
+(6) "Personalized algorithmic pricing" means dynamic pricing set by an
+algorithm that uses personal data.
+(b) An entity shall not set the price of a specific good or service for a consumer
+in this state using personalized algorithmic pricing.
+(c) Subsection (b) does not apply to:
+(1) An entity that is subject to the insurance law of this state;
+(2) A financial institution or affiliate of a financial institution, all as defined
+in 15 U.S.C. § 6809, to the extent that the financial institution or affiliate is subject
+to Title V of the federal Gramm Leach Bliley Act (15 U.S.C. § 6801 et seq.);
+(3) A state or national bank, a savings and loan association, savings
+bank, credit union, industrial loan and thrift company, or mortgage lender; or
+(4) A price that is offered to a consumer who has an existing
+subscription-based contract or subscription-based agreement for goods or
+services with an entity and where such price is less than the price for the same
+good or service set forth in the subscription-based agreement or subscriptionbased contract.
+(d) A violation of subsection (b) constitutes a violation of the Tennessee
+Consumer Protection Act of 1977, compiled in this part. A violation of subsection (b)
+constitutes an unfair or deceptive act or practice affecting trade or commerce
+and is subject to the penalties and remedies as provided in this part.
+(e) This section does not limit any other criminal or civil liability such entity may
+be subject to under law.
+
+SECTION 2. Tennessee Code Annotated, Section 47-18-104(b), is amended by adding
+the following as a new subdivision:
+( ) Violating § 47-18-139;
+SECTION 3. The heading in this act is for reference purposes only and does not
+constitute a part of the law enacted by this act. However, the Tennessee Code Commission is
+requested to include the heading in any compilation or publication containing this act.
+SECTION 4. This act takes effect July 1, 2026, the public welfare requiring it, and
+applies to conduct occurring on or after that date.

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Land Use and Development Regulations;  Requires amount of application fees associated with development permits or orders to reasonably relate to certain costs; requires public schools interlocal agreements to address reasonable access to certain public easements & public rights-of-way; requires local governments to administratively approve applications for minor special exceptions or variances submitted by large destination resorts that meet certain requirements ; requires local government comprehensive plans & land development regulations to include factors for assessing compatibility of certain residential uses; requires land development regulations to incorporate measures for mitigating or minimizing potential incompatibility; prohibits residential manufactured buildings from being denied a building permit for placement on certain lots; requires housing units located on a mobile home lot to be taxed in a specified manner and be subject to payments to a specified fund; requires off-site constructed residential dwellings to be permitted as of right in certain zoning districts; requires local government regulations to be reasonable and uniformly enforced.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 399",
+    "legislative_session": "2026",
+    "subject": [
+      "municipalities",
+      "relations",
+      "subject index"
+    ],
+    "title": "Land Use and Development Regulations"
+  },
+  "id": "HB 399",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-27",
+      "description": "Approved by Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 399"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB399/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB399/logs/20260327T000000Z_approved_by_governor.json"
+  },
+  "timestamp": "20260327T000000Z"
+}

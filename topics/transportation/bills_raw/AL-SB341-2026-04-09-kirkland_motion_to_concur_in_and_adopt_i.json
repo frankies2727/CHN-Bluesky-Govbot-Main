@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Motor Vehicles & Traffic",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB341",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Motor Vehicles & Traffic"
+    ],
+    "title": "Alabama Work Zone Safety Act; pilot program to establish photographic speed enforcement system in a work zone on interstate highway, provided; civil penalties for violations, provided"
+  },
+  "id": "SB341",
+  "log": {
+    "action": {
+      "date": "2026-04-09T04:00:00+00:00",
+      "description": "Kirkland motion to Concur In and Adopt in Conference Committee - Adopted Roll Call 1341",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB341"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB341/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB341/logs/20260409T040000Z_kirkland_motion_to_concur_in_and_adopt_in_conference_committee_adopted_roll_call_1341.json"
+  },
+  "timestamp": "20260409T040000Z"
+}

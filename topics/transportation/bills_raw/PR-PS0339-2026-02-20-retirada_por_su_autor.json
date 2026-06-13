@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS0339",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar las secciones 4 y 15, y añadir una nueva Sección 15-A, en la Ley 212-2018, según enmendada, conocida como “Ley de Registro y Licenciamiento de Instituciones de Educación”, con el propósito de transferir la Agencia Estatal Aprobadora de Programas e Instituciones Públicas Postsecundarias de Educación Ocupacional y Técnica de Puerto Rico, desde el Departamento de Educación, a la Junta de Instituciones Postsecundarias del\nDepartamento de Estado; disponer sobre la acreditación obligatoria de la Escuela de Troquelería y Herramentaje, del Puerto Rico Aviation Maintenance Institute y del Instituto Tecnológico de Puerto Rico, por parte de la Agencia Estatal Aprobadora de Programas e Instituciones Públicas Postsecundarias de Educación Ocupacional y Técnica de Puerto Rico; y para otros fines relacionados."
+  },
+  "id": "PS0339",
+  "log": {
+    "action": {
+      "classification": [
+        "withdrawal"
+      ],
+      "date": "2026-02-20T04:00:00+00:00",
+      "description": "Retirada por su Autor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "PS0339"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0339/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0339/logs/20260220T040000Z_retirada_por_su_autor.json"
+  },
+  "timestamp": "20260220T040000Z"
+}

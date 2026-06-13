@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 18 of Title 45, Chapter 4 of Title 49, and Chapter 1 of Title 50 of the Official Code of Georgia Annotated, relating to the employees' insurance and benefits plans, public assistance, and general provisions relative to state government, respectively, so as to prohibit coverage of expenses for gender-affirming care under the state health benefit plan or with any state funds; to provide for definitions; to provide for limited exceptions; to prohibit state healthcare facilities and healthcare providers employed by the state from providing gender-affirming care; to provide for related matters; to provide for legislative findings; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 39",
+    "legislative_session": "2025_26",
+    "subject": [
+      "PUBLIC OFFICERS AND EMPLOYEES"
+    ],
+    "title": "Employees' Insurance and Benefits Plans; expenses for gender-affirming care under the state health benefit plan or with any state funds; prohibit coverage"
+  },
+  "id": "SB 39",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-04-02",
+      "description": "House Committee Favorably Reported By Substitute",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Health"
+        }
+      ]
+    },
+    "bill_id": "SB 39"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB39/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB39/logs/20260402T000000Z_house_committee_favorably_reported_by_substitute.json"
+  },
+  "timestamp": "20260402T000000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "LD 2244",
+    "legislative_session": "132",
+    "subject": [
+      "PROPERTY TAX",
+      "PROVISIONS REVISED",
+      "TASK FORCE RECOMMENDATIONS"
+    ],
+    "title": "An Act To Implement Certain Preliminary Recommendations Of The Real Estate Property Tax Relief Task Force And To Make Other Changes To Tax Law"
+  },
+  "id": "LD 2244",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-04-08",
+      "description": "The Bill was READ ONCE.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "LD 2244"
+  },
+  "sources": {
+    "bill": "me-legislation/country:us/state:me/sessions/132/bills/LD2244/metadata.json",
+    "log": "me-legislation/country:us/state:me/sessions/132/bills/LD2244/logs/20260408T000000Z_the_bill_was_read_once.json"
+  },
+  "timestamp": "20260408T000000Z"
+}

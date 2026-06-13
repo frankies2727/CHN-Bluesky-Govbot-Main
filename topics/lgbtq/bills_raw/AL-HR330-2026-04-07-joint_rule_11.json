@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Resolutions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR330",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Resolutions"
+    ],
+    "title": "Grayson Gay, commended"
+  },
+  "id": "HR330",
+  "log": {
+    "action": {
+      "classification": [
+        "introduction",
+        "passage"
+      ],
+      "date": "2026-04-07T04:00:00+00:00",
+      "description": "Joint Rule 11",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR330"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HR330/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HR330/logs/20260407T040000Z.classification.introduction.lower.json"
+  }
+}
