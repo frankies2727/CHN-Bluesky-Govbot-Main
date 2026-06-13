@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law prohibits a state officer or employee from engaging in any employment, activity, or enterprise that is clearly inconsistent, incompatible, in conflict with, or inimical to their duties. Existing law also prohibits specified local agency officers or employees from engaging in any employment, activity, or enterprise for compensation that is inconsistent, incompatible, or in conflict with, or inimical to, their duties, as specified.\n\nThis bill would prohibit a public officer and specified public employees, as those terms are defined, from issuing a meme coin. The bill would define \"public officer\" for purposes of these provisions to include a state or local elected or appointed officer, including a Member of the Legislature, or an elected or appointed member of a governmental board, commission, committee, or other body, including a governmental body that has only advisory powers. The bill would define \"public employee\" for these purposes to mean an employee of a state or a local government entity who has decisionmaking authority over bids and contracts for that entity.\n\nThis bill would also prohibit a business that operates a digital asset exchange from listing a meme coin for sale on behalf of, or for purchase by, a California resident if the meme coin contains the likeness or image of a federal public official or a state or local public officer.\n\nThis bill would authorize the Attorney General to enforce these prohibitions by filing a civil action for injunctive relief and would authorize the Attorney General to include a claim for disgorgement. The bill would additionally authorize a district attorney, city attorney, or county counsel to enforce the above-described prohibition on businesses that operate a digital asset exchange.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2409",
+    "legislative_session": "20252026",
+    "subject": [
+      "Digitalassets",
+      "memecoins"
+    ],
+    "title": "Digital assets: meme coins."
+  },
+  "id": "AB2409",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-27",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 77. Noes 0.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2409"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2409/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2409/logs/20260527T000000Z.classification.passage.lower.json"
+  }
+}
