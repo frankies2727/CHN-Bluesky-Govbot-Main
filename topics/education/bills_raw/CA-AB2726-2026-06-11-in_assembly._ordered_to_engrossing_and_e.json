@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law authorizes the governing board of any school district or community college district to sell for cash any personal property belonging to the school district or community college district if the property is not required for school purposes, should be disposed of for the purpose of replacement, or is unsatisfactory or not suitable for school use, pursuant to certain requirements, including, among others, notice and bid requirements.\n\nThis bill, in addition to and notwithstanding those provisions, would separately authorize the governing board of a school district or community college district to declare district-owned technology, as defined, to be surplus technology property and would authorize the school district or community college district to dispose of that surplus technology property by (A) sale by public auction, (B) sale by sealed bid, (C) sale or transfer through a structured trade-in or buyback program with a vendor, manufacturer, or other third-party purchaser, as specified, (D) negotiated sale to a public agency, nonprofit organization, or private entity, as specified, or (E) donation to a public agency or nonprofit public benefit corporation.\n\nThe bill would require the governing board of a school district or community college district, before disposing of surplus technology property, to adopt policies and procedures that, at minimum, address specified items, including, among others, a process for determining that property is no longer required for school purposes, reasonable methods to ensure competition or market testing, and compliance with all applicable state and federal requirements for protecting pupil or student and employee data. The bill would require the school district or community college district, to the extent practicable, to structure the disposition of surplus technology property in a manner that maximizes net proceeds or value returned, minimizes electronic waste, and promotes environmentally responsible recycling, refurbishment, and reuse.\n\n(2) Existing law prohibits a county superintendent of schools from disposing of any item of personal property worth over $25,000 that belongs to the county office of education without meeting specified conditions, including conditions relating to valuation, advertising, and county board of education approval. Existing law prohibits a county superintendent of schools from disposing of any item of personal property worth less than $25,000 that belongs to the county office of education unless they certify the value of the property in a quarterly report and submit that report to the county board of education for its review.\n\nThis bill, in addition to and notwithstanding those provisions, would separately authorize the county board of education to declare county office of education-owned technology, as defined, to be surplus technology property and would authorize the county superintendent of schools to dispose of that surplus technology property pursuant to the same above-described provisions that would apply to school districts and community college districts.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2726",
+    "legislative_session": "20252026",
+    "subject": [
+      "Schoolfacilities",
+      "disposalofsurplustechnologyproperty"
+    ],
+    "title": "School facilities: disposal of surplus technology property."
+  },
+  "id": "AB2726",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-06-11",
+      "description": "In Assembly. Ordered to Engrossing and Enrolling.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2726"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2726/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2726/logs/20260611T000000Z_in_assembly_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260611T000000Z"
+}

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 0469",
+    "legislative_session": "114",
+    "subject": [
+      "Landlord and Tenant"
+    ],
+    "title": "Landlord and Tenant - As introduced, prohibits a landlord from prohibiting a tenant from lawfully possessing, carrying, transporting, or storing a firearm, firearm components, or ammunition on leased premises or in a vehicle located on leased premises; creates a cause of action for a tenant who is adversely affected by a landlord's violation of such prohibition. - Amends TCA Title 66."
+  },
+  "id": "HB 0469",
+  "log": {
+    "action": {
+      "date": "2026-01-26",
+      "description": "Meeting Canceled",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 0469"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB0469/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB0469/logs/20260126T000000Z_meeting_canceled.json"
+  },
+  "timestamp": "20260126T000000Z"
+}

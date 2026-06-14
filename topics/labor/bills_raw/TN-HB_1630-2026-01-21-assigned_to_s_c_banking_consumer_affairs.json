@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1630",
+    "legislative_session": "114",
+    "subject": [
+      "Workers Compensation"
+    ],
+    "title": "Workers Compensation - As introduced, authorizes the chief administrative officer of the bureau of workers' compensation of the department of labor and workforce development to disburse funds from the subsequent injury and vocational recovery fund for costs associated with implementing and maintaining a computer system for the bureau of workers' compensation; makes other changes related to workers' compensation. - Amends TCA Title 50, Chapter 6, Part 2."
+  },
+  "id": "HB 1630",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-21",
+      "description": "Assigned to s/c Banking & Consumer Affairs Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1630"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1630/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1630/logs/20260121T000000Z_assigned_to_sc_banking_consumer_affairs_subcommittee.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

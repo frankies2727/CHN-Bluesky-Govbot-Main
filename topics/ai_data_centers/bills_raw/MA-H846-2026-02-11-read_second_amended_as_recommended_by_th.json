@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Jones of North Reading, a petition (accompanied by bill, House, No. 846) of Bradley H. Jones, Jr., and others relative to disclosure requirements for synthetic media in political advertising.  Election Laws.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H846",
+    "legislative_session": "194th",
+    "title": "An Act enhancing disclosure requirements for synthetic media in political advertising"
+  },
+  "id": "H846",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-02-11",
+      "description": "Read second, amended (as recommended by the committee on House Ways and Means)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H846"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H846/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H846/logs/20260211T000000Z_read_second_amended_as_recommended_by_the_committee_on_house_ways_and_means.json"
+  },
+  "timestamp": "20260211T000000Z"
+}

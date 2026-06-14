@@ -1,0 +1,43 @@
+SENATE BILL 1861
+By Johnson
+
+HOUSE BILL 1630
+By Lamberth
+AN ACT to amend Tennessee Code Annotated, Title 50,
+Chapter 6, Part 2, relative to workers'
+compensation.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF TENNESSEE:
+SECTION 1. Tennessee Code Annotated, Section 50-6-208(d), is amended by deleting
+the first sentence of the subsection and substituting:
+The sums collected by the administrator as provided in this section must be
+deposited by the administrator in a special fund, which must be termed the "subsequent
+injury and vocational recovery fund", to be disbursed by the administrator only for the
+purposes stated in this section, for costs associated with legal counsel to defend the
+administrator in actions claiming compensation from the subsequent injury and
+vocational recovery fund pursuant to this section, for costs associated with providing
+vocational recovery assistance to eligible employees pursuant to subsection (i), and for
+costs associated with implementing and maintaining a computer system for the bureau
+of workers' compensation.
+SECTION 2. Tennessee Code Annotated, Section 50-6-235(a)(1), is amended by
+deleting "petition" and substituting "file a motion with".
+SECTION 3. Tennessee Code Annotated, Section 50-6-235(a)(2), is amended by
+deleting "respond to the petition in a timely fashion" and substituting "comply with the court's
+order".
+SECTION 4. Tennessee Code Annotated, Section 50-6-239(c)(3), is amended by
+deleting "request for hearing" and substituting "petition for benefit determination".
+
+HB1630
+010033
+
+SECTION 5. Tennessee Code Annotated, Section 50-6-242(a)(2)(A), is amended by
+deleting "an impairment rating of at least ten percent (10%) to the body as whole, that has been
+determined according to the AMA guides as defined by § 50-6-102, by the authorized treating
+physician" and substituting "impairment ratings totaling at least ten percent (10%) to the body as
+whole, that have been determined according to the AMA guides, by the authorized treating
+physicians".
+SECTION 6. Tennessee Code Annotated, Section 50-6-242(a)(2)(B), is amended by
+deleting "physician has" and substituting "physicians have" and by further deleting "physician's
+certification" and substituting "physicians' certifications".
+SECTION 7. This act takes effect July 1, 2026, the public welfare requiring it.
+
+010033

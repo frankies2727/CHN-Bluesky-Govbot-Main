@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1683",
+    "legislative_session": "114",
+    "subject": [
+      "Highways",
+      "Roads and Bridges"
+    ],
+    "title": "Highways, Roads and Bridges - As introduced, requires 95.3970 percent, instead of 100 percent, of sales and use tax revenue generated from the sale of new or used tires to be deposited in the highway fund; adds 95.3970 percent of sales and use tax revenue generated from the sale of new or used motor vehicles to be deposited in the highway fund; requires the remaining 4.6030 percent of such revenue to be allocated to the several incorporated municipalities; allocates single article sales tax collections on the retail sale of new or used motor vehicles to the highway fund. - Amends TCA Title 4; Title 54; Title 55; Title 65 and Title 67."
+  },
+  "id": "HB 1683",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-21",
+      "description": "P2C, ref. to Transportation Committee - Finance, Ways & Means Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1683"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1683/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1683/logs/20260121T000000Z_p2c_ref_to_transportation_committee_finance_ways_means_committee.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

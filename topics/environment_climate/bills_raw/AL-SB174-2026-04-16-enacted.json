@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Conservation & Natural Resources",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB174",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Conservation & Natural Resources"
+    ],
+    "title": "Natural resources; conversion of oil and gas wells into alternative energy facilities authorized; lease of state lands for energy sources by Commissioner of Conservation expanded"
+  },
+  "id": "SB174",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-16T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB174"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB174/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB174/logs/20260416T040000Z.classification.became-law.upper.json"
+  }
+}

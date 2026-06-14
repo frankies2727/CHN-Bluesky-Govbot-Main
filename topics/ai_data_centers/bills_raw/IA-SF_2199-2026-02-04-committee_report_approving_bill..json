@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2199",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "artificial intelligence",
+      "computers and software",
+      "intellectual property",
+      "personal property",
+      "property",
+      "technology"
+    ],
+    "title": "A bill for an act relating to the ownership of artificial intelligence output and trained artificial intelligence."
+  },
+  "id": "SF 2199",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-04",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2199"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2199/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2199/logs/20260204T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260204T000000Z"
+}
