@@ -2161,17 +2161,25 @@ def link_for(b: dict) -> str:
 MIN_SUMMARY_CHARS = 60
 
 
-def summary_budget(b: dict, headline: str) -> int:
+def summary_budget(b: dict, headline: str, head_cap: int | None = None) -> int:
     """Character budget available for the summary block in a Bluesky post,
     given the head (emoji + state + id + display), the action line, and the
     bill link that share the post. Returned so the caller can ask the LLM for
     a summary that fits cleanly instead of relying on compose_post's post-hoc
     trim — when that trim fires it lops the tail off the model's sentence at a
     word boundary, which usually drops the most concrete clause (the "…include
-    stock and…" failure mode). Mirrors x_summary_budget in post_to_x.py."""
+    stock and…" failure mode). Mirrors x_summary_budget in post_to_x.py.
+
+    head_cap bounds the display length used for budgeting only. The weekly
+    digest passes it so a long raw legalese title (when no headline rewrite is
+    available) doesn't starve the summary out of the post — the caller pairs
+    this with compose_post(prefer_summary=True), which trims that long title to
+    fit rather than dropping the summary."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
+    if head_cap is not None and len(display) > head_cap:
+        display = display[:head_cap]
     prefix = f"{emoji} {state_label} {b['identifier']} — "
     head_len = len(prefix) + len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
@@ -2183,7 +2191,8 @@ def summary_budget(b: dict, headline: str) -> int:
     return MAX_POST - head_len - action_block_len - link_block_len - summary_sep_len
 
 
-def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str]:
+def compose_post(b: dict, summary: str, headline: str = "",
+                 prefer_summary: bool = False) -> tuple[str, str, str, str]:
     emoji = TOPIC.emoji_for(b)
     link = link_for(b)
     link_block = f"\n\n{LINK_PREFIX}{LINK_ANCHOR}" if link else ""
@@ -2214,6 +2223,17 @@ def compose_post(b: dict, summary: str, headline: str = "") -> tuple[str, str, s
         return h + s + a + l
 
     text = assemble(head, summary_block, action_block, link_block)
+
+    # Weekly digest: the plain-English summary is the whole point of the card,
+    # so when a long raw legalese title (no headline rewrite available) would
+    # overflow, trim that title first and keep the summary intact. Residual
+    # overflow then falls through to the normal cascade below.
+    if prefer_summary and len(text) > MAX_POST and summary_block:
+        avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
+                - prefix_len - 1
+        display = _smart_truncate(display, avail + 1) if avail > 0 else ""
+        head = f"{emoji} {state_label} {b['identifier']} — {display}".rstrip(" —")
+        text = assemble(head, summary_block, action_block, link_block)
 
     # Trim order: summary → title in head → action description. Date+action
     # is the news; it's preserved over a long title or a long body summary.
