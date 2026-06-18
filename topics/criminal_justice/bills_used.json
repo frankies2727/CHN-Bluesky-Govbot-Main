@@ -10,6 +10,7 @@
     "AL|SB254|2026-04-07|Signature Requested",
     "AL|SB254|2026-04-07|Third Reading in Second House",
     "AL|SB254|2026-04-16|Enacted",
+    "CA|AB1549|2026-06-15|In Assembly. Ordered to Engrossing and E",
     "CA|AB1647|2026-05-05|In Senate. Read first time. To Com. on R",
     "CA|AB1917|2026-05-05|In Senate. Read first time. To Com. on R",
     "CA|AB2437|2026-05-06|From committee: Do pass. To Consent Cale",
@@ -118,6 +119,7 @@
     "MO|SB 905|2026-05-14|S Bills with H Amendments",
     "MS|HB102|2026-02-03|Died In Committee",
     "MS|HB1347|2026-02-03|Died In Committee",
+    "MS|HB1694|2026-02-03|DR - TSDPCS: AP To CN",
     "MS|HB745|2026-02-03|Title Suff Do Pass Comm Sub",
     "MS|SB2131|2026-02-03|Died In Committee",
     "MS|SB2327|2026-02-03|Died In Committee",
@@ -154,11 +156,11 @@
     "WA|SB 6080|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-06-17T11:35:20.053366+00:00",
+  "last_run": "2026-06-18T13:33:06.045188+00:00",
   "state_last_posted": {
     "DE": "2026-06-13T10:00:24.569607+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
-    "CA": "2026-06-04T10:37:14.810808+00:00",
+    "CA": "2026-06-18T13:29:08.194229+00:00",
     "WY": "2026-05-16T04:25:25.886287+00:00",
     "MA": "2026-06-10T10:50:14.928573+00:00",
     "FL": "2026-06-16T11:51:05.348916+00:00",
@@ -168,7 +170,7 @@
     "MN": "2026-06-13T10:00:24.569607+00:00",
     "AL": "2026-06-09T10:22:52.509742+00:00",
     "WA": "2026-06-14T15:51:01.515033+00:00",
-    "MS": "2026-06-04T10:37:14.810808+00:00",
+    "MS": "2026-06-18T13:29:08.194229+00:00",
     "MO": "2026-06-15T12:58:05.174418+00:00",
     "NJ": "2026-06-03T11:38:30.906188+00:00",
     "TN": "2026-06-14T15:51:01.515033+00:00"
