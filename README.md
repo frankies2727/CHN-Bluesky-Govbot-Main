@@ -1,6 +1,6 @@
 # 🏛️ govbot-social
 
-**A free, multi-topic, multi-platform bot network that posts new U.S. state-legislative activity — each bill summarized in plain English by a local AI model — to Bluesky and X/Twitter.**
+**A free, multi-topic, multi-platform bot network that posts new U.S. state-legislative activity — each bill summarized in plain English by a local AI model — to Bluesky, X/Twitter, and Threads.**
 
 Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the raw legislative data and [Ollama](https://ollama.com/) + [Gemma](https://ai.google.dev/gemma) for on-runner summarization. Everything runs on scheduled **GitHub Actions** — no servers, no paid LLM API, no hosting bill.
 
@@ -54,7 +54,7 @@ Each **topic** is its own social account with its own keyword list, emoji map, s
 - 🆓 **Genuinely free to run.** No hosted server, no LLM API key. Summarization happens on the Actions runner with a local model. The whole thing fits in GitHub's free tier.
 - 🧠 **Grounded summaries.** Most bill bots parrot the title. This one pulls the bill's PDF, extracts the full text with `pdftotext`, and asks the model to translate the *substance* into plain layman's terms — spelling out acronyms, swapping legalese ("appropriates" → "sets aside money for") for everyday words.
 - 🧩 **Drop-in topics.** Adding a new subject area is three steps: create a folder, write a `config.yml`, add two secrets. The shared workflow auto-discovers it on the next run. No Python or YAML pipeline edits.
-- 🐦 **Two platforms, one pipeline.** The same filtering/summarization engine drives both Bluesky and X, with fully independent dedup state per platform.
+- 🐦 **Three platforms, one pipeline.** The same filtering/summarization engine drives Bluesky, X, and Threads, with fully independent dedup state per platform.
 - 🎯 **Quality filtering.** Title hits, multi-keyword body matches, context keywords, negative keywords, and per-bucket draws keep omnibus-budget noise and off-topic referenda out of the feeds.
 - 📚 **Auditable.** Every posted bill's raw record and extracted full text is committed back to the repo, so there's a permanent trail of exactly what was posted and why.
 
@@ -150,6 +150,16 @@ In **Settings → Secrets and variables → Actions**, add credentials for each 
 | --- | --- |
 | `X_API_KEY` / `X_API_SECRET` | Your X app's consumer key & secret |
 | `X_ACCESS_TOKEN` / `X_ACCESS_TOKEN_SECRET` | The posting account's access token & secret |
+
+**Threads (Meta)** — a single dedicated account (e.g. `chn.govbot`), two secrets:
+
+| Secret | Value |
+| --- | --- |
+| `THREADS_ACCESS_TOKEN` | A **long-lived** Threads access token (see below) |
+| `THREADS_USER_ID` | The account's numeric Threads user id |
+| `THREADS_REFRESH_PAT` | *(optional)* A PAT with `secrets: write` so the weekly refresh workflow can persist the rolled-forward token |
+
+> **Getting the Threads token:** create a Meta app with the *"Access the Threads API"* use case, add the `threads_basic` + `threads_content_publish` permissions, add your Threads account under **App roles → Roles → Threads Testers** (and accept the invite inside Threads → *Settings → Website permissions*). Then generate a short-lived token in the **Graph API Explorer** and exchange it for a 60-day long-lived token via `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=…&access_token=…`. The `threads-refresh-token` workflow keeps it from lapsing — see [Threads token refresh](#threads-token-refresh).
 
 > Summarization runs entirely on the runner via a local Gemma model — **no OpenAI/Anthropic/other LLM API key is ever needed.**
 
@@ -271,6 +281,8 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | `weekly-digest.yml` | Fridays + manual | Threaded weekly digest per topic on Bluesky. Sharded ×2. |
 | `post_to_x.yml` | Daily cron + manual | Same pipeline, posting to an X account. |
 | `weekly-digest-x.yml` | Weekly + manual | Weekly digest threads on X. |
+| `post_to_threads.yml` | Daily cron + manual | Same pipeline, posting to a Threads account (currently dedicated to the `lgbtq` topic). |
+| `threads-refresh-token.yml` | Weekly + manual | Rolls the 60-day Threads token forward so it never lapses. |
 | `post_bluesky_specific_bill.yml` | Manual | Force-post one specific `state` + `bill_id` to a chosen topic's Bluesky account (with dry-run / repost toggles). |
 | `post_x_specific_bill.yml` | Manual | Same one-off force-post, for X. |
 | `collect-samples.yml` | Manual | Save a batch of full bill records into `samples/` (optionally compose/post them too). Useful for prompt-tuning and tests. |
@@ -292,9 +304,11 @@ scripts/
   topic.py                     # Topic config loader + matching/emoji logic
   post_to_bluesky.py           # shared Bluesky bot (parameterized by BOT_TOPIC)
   post_to_x.py                 # shared X bot (reuses the Bluesky engine)
+  post_to_threads.py           # shared Threads bot (reuses the Bluesky engine)
   weekly_digest.py             # Bluesky weekly digest builder
   weekly_digest_x.py           # X weekly digest builder
   bill_text.py                 # full bill-text extraction from PDFs (pdftotext)
+  refresh_threads_token.py     # roll the Threads long-lived token forward
   sync_topic_choices.py        # keep workflow choice dropdowns in sync with topics/
 samples/                       # saved bill records for prompt-tuning / tests
 topics/
@@ -305,12 +319,13 @@ topics/
     bills_full_text/           # extracted full text of each posted bill
     weekly_digest/             # digest highlight artifacts
     x/  (or x_subdir)          # mirror of the above for the X account
+    threads/ (or threads_subdir) # mirror of the above for the Threads account
 requirements.txt               # requests, Pillow, PyYAML, tweepy
 ```
 
 ## State, dedup & seeding the backlog
 
-- **Idempotency** is per-platform and per-topic. Bluesky dedup lives in `topics/<name>/bills_used.json`; X dedup lives under `topics/<name>/<x_subdir>/bills_used.json`. Keys are the RSS `<guid>` (falling back to link, then `feed_name:title`).
+- **Idempotency** is per-platform and per-topic. Bluesky dedup lives in `topics/<name>/bills_used.json`; X dedup under `topics/<name>/<x_subdir>/bills_used.json`; Threads dedup under `topics/<name>/<threads_subdir>/bills_used.json`. Keys are the RSS `<guid>` (falling back to link, then `feed_name:title`).
 - **First run is loud.** With an empty state file, *every* matching bill is "new." Each topic ships with `{"posted": []}`, and `POST_LIMIT` caps the blast radius — but you'll likely want to seed the backlog first.
 - **Permissions.** Posting workflows need `contents: write` to commit state back. This is set in the workflows, but org-level settings can override it — check **Settings → Actions → General → Workflow permissions** if commits aren't landing.
 
@@ -339,6 +354,12 @@ git commit -m "seed transportation backlog" && git push
 
 Repeat with `BOT_TOPIC=<name>` for each topic before enabling its workflow.
 
+### Threads token refresh
+
+Threads access tokens differ from Bluesky app passwords: a long-lived token is valid for **60 days**, but can be *refreshed* (which rolls the 60-day window forward) any time after it's 24 hours old. The `threads-refresh-token.yml` workflow does this on a weekly cron via `scripts/refresh_threads_token.py`, so the token never lapses as long as the bot keeps running.
+
+Persisting a refreshed token means updating the `THREADS_ACCESS_TOKEN` repo secret, which the default `GITHUB_TOKEN` can't do. To enable automatic write-back, add a **`THREADS_REFRESH_PAT`** secret — a Personal Access Token with `secrets: write` on this repo. The refresh script encrypts the new token (via PyNaCl) and writes it back through the GitHub API. Without the PAT, the workflow still refreshes and reports the new expiry but won't persist the token (and never prints it to the logs).
+
 ## Troubleshooting & gotchas
 
 - **A state was skipped in the logs.** `govbot` panics on states it doesn't support; the workflow wraps each clone in `|| echo skipped` and prints a *supported vs skipped* summary at the end. That's expected, not an error.
@@ -346,6 +367,8 @@ Repeat with `BOT_TOPIC=<name>` for each topic before enabling its workflow.
 - **Nothing posted but no error.** Check `POST_LIMIT`, the freshness window (`MAX_ACTION_AGE_DAYS`), and whether the bills were already in `bills_used.json`.
 - **New topic missing from the manual workflow dropdown.** Run `python scripts/sync_topic_choices.py` and commit the updated YAMLs.
 - **Runner crashed with "No space left on device."** The free-disk-space step must run before the govbot clone; don't remove it.
+- **Threads: `"requires the threads_basic permission … or your user must be in the list of Threads testers."`** The account isn't enrolled as a tester. Add it under **App roles → Roles → Threads Testers**, accept the invite in Threads (*Settings → Website permissions*), then regenerate the token.
+- **Threads posts stopped after ~2 months.** The long-lived token expired. Make sure `threads-refresh-token.yml` is enabled (and ideally set `THREADS_REFRESH_PAT`), or re-run the manual token exchange.
 
 ## Contributing
 
