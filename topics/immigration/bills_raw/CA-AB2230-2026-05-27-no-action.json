@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California Child Day Care Facilities Act, provides for the licensure and regulation of child daycare facilities, including daycare centers and daycare homes, by the State Department of Social Services. Under existing law, any person who willfully or repeatedly violates this provision, as specified, is guilty of a misdemeanor. Existing law requires the licensee or administrator of a licensed child daycare facility, as applicable, to report to the State Department of Social Services and Attorney General any requests for information or access to the facility by an officer or employee of a law enforcement agency for the purpose of immigration enforcement.\n\nThis bill would, except as required by state or federal law or as required to administer a state or federally supported early care and learning program, prohibit employees of a licensed child daycare facility from allowing an officer or employee of an agency conducting immigration enforcement to enter a nonpublic area without being presented with a valid judicial warrant or judicial subpoena or a court order. By expanding the application of a crime, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2230",
+    "legislative_session": "20252026",
+    "subject": [
+      "Immigrationenforcement",
+      "childdaycarefacilities"
+    ],
+    "title": "Immigration enforcement: child daycare facilities."
+  },
+  "id": "AB2230",
+  "log": {
+    "bill_id": "AB2230"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2230/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2230/logs/20260527T192025Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260527T192025Z.vote"
+}

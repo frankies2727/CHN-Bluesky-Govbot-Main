@@ -1,0 +1,252 @@
+Senate Bill 399
+By: Senators Harbin of the 16th, Albers of the 56th, Hatchett of the 50th, Burns of the 23rd,
+Anavitarte of the 31st and others
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Article 3 of Chapter 11 of Title 31 of the Official Code of Georgia Annotated,
+relating to personnel of emergency medical services, so as to provide for notification to
+public safety answering points about the location of automated external defibrillators; to
+provide for training; to amend Chapter 8 of Title 35 of the Official Code of Georgia
+Annotated, relating to employment and training of peace officers, so as to provide for
+training of communications officers to facilitate the use of automated external defibrillators;
+to provide for definitions; to provide for related matters; to provide for a short title; to repeal
+conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+This Act shall be known and may be cited as the ''Mason Sells AED Coordination Act.''
+
+SECTION 2.
+
+Article 3 of Chapter 11 of Title 31 of the Official Code of Georgia Annotated, relating to
+personnel of emergency medical services, is amended by revising Code Section 31-11-53.1,
+
+relating to automated external defibrillator program, establishment, regulations, and liability,
+as follows:
+
+"31-11-53.1.
+
+(a) As used in this Code section, the term:
+
+(1) 'Agency' means every state department, agency, division, board, bureau, commission,
+
+or entity, including without limitation the Board of Regents of the University System of
+
+Georgia.
+
+(1)(2) 'Automated external defibrillator' means a defibrillator which:
+
+(A) Is capable of cardiac rhythm analysis;
+
+(B) Will charge and be capable of being activated to deliver a countershock after
+
+electrically detecting the presence of certain cardiac dysrhythmias; and
+
+(C) Is capable of continuous recording of the cardiac dysrhythmia at the scene with a
+
+mechanism for transfer and storage or for printing for review subsequent to use.
+
+(2)(3) 'Defibrillation' means to terminate ventricular fibrillation.
+
+(3)(4) 'First responder' means any person or agency who provides on-site care until the
+
+arrival of a duly licensed ambulance service. This shall include, but not be limited to,
+
+persons who routinely respond to calls for assistance through an affiliation with law
+
+enforcement agencies, fire suppression agencies, rescue agencies, and others.
+
+(5) 'Person' means any firm, partnership, association, corporation, or other private entity,
+
+including without limitation any private postsecondary school, college, or university in
+
+this state.
+
+(6) 'Public safety answering point' shall have the same meaning as provided in Code
+
+Section 46-5-122.
+
+(b) It is the intent of the General Assembly that an automated external defibrillator may
+
+be used by any person for the purpose of saving the life of another person in cardiac arrest.
+
+In order to ensure public health and safety:
+
+(1) It is recommended that all persons who have access to or use an automated external
+
+defibrillator obtain appropriate training as set forth in the rules and regulations of the
+
+Department of Public Health from the American Red Cross, the American Heart
+
+Association, or other nationally recognized training. It is further recommended that such
+
+training include at a minimum the successful completion of:
+
+(A)
+
+cardiopulmonary resuscitation course; and
+
+(B) A department established or approved nationally recognized course which includes
+
+demonstrated proficiency in the use of an automated external defibrillator;
+
+A nationally recognized health care provider/professional rescuer level
+
+(2)
+
+defibrillator shall notify the appropriate emergency medical services system public safety
+
+answering point of the existence and location of the automated external defibrillator prior
+
+to said defibrillator being placed in use. The department is authorized to promulgate
+
+rules and regulations to implement this provision; and
+
+(3) All persons who use an automated external defibrillator shall activate the emergency
+
+medical services system as soon as reasonably possible by calling 9-1-1 or the
+
+appropriate emergency telephone number upon use of the automated external
+
+defibrillator; and
+
+(4) Within a reasonable period of time, all persons who use an automated external
+
+defibrillator shall make available a printed or electronically stored report to the licensed
+
+emergency medical services provider which transports the patient.
+
+(c) With the exception of communications officers under Code Section 35-8-23, who shall
+
+complete training as set forth in such Code section, All all persons who provide instruction
+
+to others in the use of the automated external defibrillator shall have completed an a
+
+nationally recognized instructor course established or approved by the department.
+
+(d) The department shall establish an automated external defibrillator program for use by
+
+emergency medical technicians. Such program shall be subject to the direct supervision
+
+All persons and agencies possessing and maintaining an automated external
+
+of a medical adviser approved under Code Section 31-11-50. No emergency medical
+
+technician shall be authorized to use an automated external defibrillator to defibrillate a
+
+person unless that defibrillator is a properly maintained automated external defibrillator and
+
+that emergency medical technician:
+
+(1) Submits to and has approved by the department an application for such use, and in
+
+considering that application the department may obtain and use the recommendation of
+
+the local coordinating entity for the health district in which the applicant will use such
+
+defibrillator;
+
+(2)
+
+established or approved by the department;
+
+(3) Is subject to protocols requiring that both the emergency physician who receives a
+
+patient defibrillated by that emergency medical technician and the medical adviser for the
+
+defibrillator program review the department required prehospital care report and any
+
+other documentation of the defibrillation of any person by that emergency medical
+
+technician and send a written report of such review to the district EMS medical director
+
+of the health district in which the defibrillation occurred; and
+
+(4) Obtains a passing score on an annual automated external defibrillator proficiency
+
+exam given in connection with that program.
+
+(e) It shall not be necessary for a licensed emergency medical service, licensed neonatal
+
+transport service, or other services licensed by the department which provide care
+
+administered by cardiac technicians or paramedics to obtain department approval for the
+
+use of an automated external defibrillator on licensed vehicles.
+
+(f) Any emergency medical technician who violates the provisions of this Code section
+
+shall be subject to having revoked by the department that person's authority to use an
+
+automated external defibrillator. Such a violation shall also be grounds for any entity
+
+which issues a license or certificate authorizing such emergency medical technician to
+
+perform emergency medical services to take disciplinary action against such person,
+
+Successfully completes an automated external defibrillator training program
+
+including but not limited to suspension or revocation of that license or certificate. Such a
+
+violation shall also be grounds for the employer of such emergency medical technician to
+
+impose any sanction available thereto, including but not limited to dismissal.
+
+(g)(d) Any first responder who gratuitously and in good faith renders emergency care or
+
+treatment by the use of or provision of an automated external defibrillator, without
+
+objection of the injured victim or victims thereof, shall not be held liable for any civil
+
+damages as a result of such care or treatment or as a result of any act or failure to act in
+
+providing or arranging further medical treatment where the person acts without gross
+
+negligence or intent to harm or as an ordinary reasonably prudent person would have acted
+
+under the same or similar circumstances, even if such individual does so without benefit
+
+of the appropriate training. This provision includes paid persons who extend care or
+
+treatment without expectation of remuneration from the patient or victim for receiving the
+
+defibrillation care or treatment."
+
+SECTION 3.
+
+Chapter 8 of Title 35 of the Official Code of Georgia Annotated, relating to employment and
+training of peace officers, is amended in Code Section 35-8-23, relating to basic training
+course for communications officers, certification requirements, duties of council, and rules
+and regulations, by adding a new subsection to read as follows:
+
+"(g) On and after January 1, 2028, all communications officers shall be required to
+
+successfully complete training in the delivery of high-quality telephone cardiopulmonary
+
+resuscitation (T-CPR) and instructions to facilitate the use of automated external
+
+defibrillators in addition to the basic training otherwise required by this Code section, and
+
+on or after that date no person shall be certified by the council under this Code section
+
+unless such person has satisfactorily completed such training; provided, however, that the
+
+requirements of this subsection shall be satisfied by any communications officer who is
+
+certified in emergency medical dispatch, as such term is defined in Code Section 38-3-181.
+
+Such training shall follow the most current evidence based nationally recognized guidelines
+
+for high-quality telephone cardiopulmonary resuscitation which incorporate recognition
+
+protocols for out-of-hospital cardiac arrest, compression-only cardiopulmonary
+
+resuscitation, and continuing education."
+
+SECTION 4.
+
+All laws and parts of laws in conflict with this Act are repealed.
