@@ -1,0 +1,426 @@
+Senate Bill 179
+By: Senators Dixon of the 45th, Gooch of the 51st, Cowsert of the 46th, Kennedy of the 18th,
+Ginn of the 47th and others
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to
+
+elementary and secondary education, so as to provide that, beginning in the 2031-2032
+
+school year, a computer science course shall be a high school graduation requirement; to
+
+provide for certain computer science courses to be substituted for units of credit graduation
+
+requirements in certain other subject areas; to provide for such exception; to revise legislative
+
+findings; to increase the allowable charge per student per semester for each Georgia Virtual
+
+School course from $250.00 to $350.00; to require local school systems to allow the
+
+representatives of certain organizations to speak with students during school hours; to require
+
+certain organizations to provide notice; to require local school superintendents to provide
+
+approval of certain activities by certain organizations during school hours; to require local
+
+school superintendents to provide written explanation for denial of certain activities; to
+
+provide for legislative intent; to provide for a definition; to include certain online schools in
+
+the definition of "private school"; to provide for related matters; to repeal conflicting laws;
+
+and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to elementary and
+
+secondary education, is amended by revising Code Section 20-2-149.3, relating to
+
+requirements for computer science education, as follows:
+
+"20-2-149.3.
+
+(a) The General Assembly finds that:
+
+(1) Education in computer science is a critical need for the students of Georgia for the
+
+twenty-first century; and
+
+(2) Less than 0.5 percent of high school graduates have taken a computer science course;
+
+(3) There are thousands of unfulfilled computer science jobs in the state; and
+
+(4) The logical critical thinking skills taught by computer science are now very valuable
+
+in many noncomputer science jobs, as technology has become embedded in most
+
+professions.
+
+(b) As used in this Code section, the term:
+
+(1) 'Computer science' means the study of computers, algorithmic processes, coding,
+
+computer science ethics, artificial intelligence, emerging technologies, and logical critical
+
+thinking, including computer principles, their hardware and software designs, their
+
+implementation, and their impact on society.
+
+(2) 'Computer science courses and content' means high school courses that teach
+
+computer science as stand-alone implementations and middle school courses that provide
+
+instruction in computer science in stand-alone implementations or by being embedded
+
+in other subjects and focus on how to create and understand technology, rather than by
+
+simply using technology.
+
+(3) 'High-quality professional learning' means professional development activities that:
+
+(A) Clarify the conceptual foundations of computer science;
+
+(B) Teach research based practices, including hands-on and inquiry based learning; and
+
+(C) Are intended for teachers with or without prior exposure to computer science.
+
+(4) 'High-quality professional learning providers' means institutions of higher education
+
+in this state, local school systems, nonprofit organizations, or private entities that have
+
+successfully designed, implemented, and scaled high-quality professional learning for
+
+teachers and are approved or recommended by the State Board of Education in
+
+coordination with the Department of Education.
+
+(5) 'Offer' means providing a course taught by a computer science teacher:
+
+(A) Who is onsite at the physical location of the school; or
+
+(B) Who is not onsite at the physical location of the school but conducts the course
+
+through virtual means with a proctor onsite at the physical location of the school.
+
+(c)(1) Beginning in the 2022-2023 school year:
+
+(A) Each local school system shall provide that at least one high school in its school
+
+system offer a course in computer science;
+
+(B) Each local school system shall provide that all middle schools in its school system
+
+offer instruction in exploratory computer science;
+
+(C) Each state charter school that serves high school students shall offer a course in
+
+computer science;
+
+(D) Each state charter school that serves middle school students shall offer instruction
+
+in exploratory computer science;
+
+(E) Each local school system may provide that all elementary schools in its school
+
+system offer instruction in exploratory computer science; and
+
+(F) Each state charter school that serves elementary school students may offer
+
+instruction in exploratory computer science.
+
+(2) Beginning in the 2023-2024 school year, each local school system shall provide that
+
+at least 50 percent of the high schools in its school system offer a course in computer
+
+science.
+
+(3) Beginning in the 2024-2025 school year, each local school system shall provide that
+
+all high schools in its school system offer a course in computer science.
+
+(4)(A) Beginning in the 2031-2032 school year, each local board of education shall
+
+require all students who will graduate in 2037 or later, as a condition of graduation
+
+from high school, to complete a course in computer science or a career, technical, and
+
+agricultural education (CTAE) course embedded with computer science which meets
+
+the requirements provided in subparagraph (B) of this paragraph.
+
+(B) The course required in subparagraph (A) of this paragraph may be earned by
+
+students in any of grades eight through 12 and shall:
+
+(i) Meet or exceed the content standards and any other requirements prescribed by
+
+the State Board of Education for such courses;
+
+(ii)
+
+environment, or an online or other technology based format that is tailored to meet the
+
+needs of each participating student; and
+
+(iii) Not increase the number of credits required for graduation.
+
+(C)(i) Except as provided in division (ii) of this subparagraph, a full-credit computer
+
+science course that meets the requirements provided in subparagraph (B) of this
+
+paragraph shall be eligible to satisfy the course required in subparagraph (A) of this
+
+paragraph and one unit of credit graduation requirement for one of the following:
+
+Be made available in a traditional classroom setting, a blended learning
+
+(I) One unit of math credit; provided, however, that such unit of credit shall not be
+
+a substitute for Algebra: Concepts and Connections or its equivalent, Geometry:
+
+Concepts and Connections or its equivalent, or Advanced Algebra: Concepts and
+
+Connections or its equivalent;
+
+(II) One unit of science credit; provided, however, that such unit of credit shall not
+
+be a substitute for Biology or an equivalent, Physical Science, Physics, Chemistry,
+
+Earth Systems, Environmental Science, or an advanced placement or international
+
+baccalaureate course;
+
+(III) One unit of CTAE credit;
+
+(IV) One unit of Modern Language or Latin credit;
+
+(V) One unit of Fine Arts credit; or
+
+(VI) One unit of elective credit.
+
+(ii) A student may be permitted to earn more than one unit of credit graduation
+
+requirement by completing more than one computer science course that implements
+
+a minimum course of instruction based on content standards prescribed by the State
+
+Board of Education and which is separate and distinct from such other computer
+
+science course completed by such student, and such student may be permitted to use
+
+multiple units of credit to offset other graduation requirements as provided in this
+
+subparagraph; provided, however, that a student shall not be permitted to offset more
+
+than one unit of math credit and one unit of science credit; and, provided, further, that
+
+there shall be no limit to the number of offsets permitted for units of CTAE or elective
+
+credits.
+
+(D)(i) Except as provided in division (ii) of this subparagraph, a full-credit CTAE
+
+course embedded with computer science that meets the requirements provided in
+
+subparagraph (B) of this paragraph shall be eligible to satisfy the full-credit course
+
+required in subparagraph (A) of this paragraph and one unit of credit graduation
+
+requirement for one of the following:
+
+(I) One unit of CTAE credit; or
+
+(II) One unit of elective credit.
+
+(ii) A student may be permitted to earn more than one unit of credit graduation
+
+requirement by completing more than one CTAE course embedded with computer
+
+science that implements a minimum course of instruction based on content standards
+
+prescribed by the State Board of Education and which is separate and distinct from
+
+such other computer science course completed by such student, and such student may
+
+be permitted to use multiple units of credit to offset other graduation requirements as
+
+provided in this subparagraph.
+
+(E) The Department of Education shall establish, and the State Board of Education
+
+shall approve, the minimum criteria by which a CTAE course embedded with computer
+
+science may be approved.
+
+(d) The Department of Education shall ensure that the Georgia Virtual School operated
+
+pursuant to Code Section 20-2-319.1 has sufficient capacity to enable schools to utilize
+
+computer science courses to meet the needs of such schools as a result of this Code section.
+
+(e)(1) Subject to appropriations, grants shall be provided to eligible entities to deliver
+
+professional development programs for teachers providing instruction in computer
+
+science courses and content.
+
+(2) Eligible entities shall include local school systems, consortia of local school systems,
+
+local charter schools, state charter schools, and high-quality professional learning
+
+providers working in partnership with local school systems.
+
+(3) Criteria for grant awards to eligible entities pursuant to this subsection shall include:
+
+(A) The number of teachers in a local school system that require training and the
+
+number of teachers in a local school system that have already received training; and
+
+(B) The willingness of local school systems to make available their teachers who have
+
+received training in computer science courses and content to provide computer science
+
+instruction in another local school system or systems.
+
+(4) The Department of Education shall submit a report on December 1 of each year to
+
+the Governor, the Lieutenant Governor, the Speaker of the House of Representatives, the
+
+chairperson of the Senate Education and Youth Committee, and the chairperson of the
+
+House Committee on Education. Such report shall include the number of teachers
+
+trained, the number of schools offering training, the number of students served and the
+
+demographics of such students, and a list of the eligible entities that provided the
+
+training."
+
+SECTION 2.
+
+Said chapter is further amended in Code Section 20-2-319.1, relating to the Georgia Virtual
+
+School, by revising paragraphs (2) and (3) of subsection (b) as follows:
+
+"(2) The local school system shall pay to the department costs for tuition, materials, and
+
+fees directly related to the approved course taken by a student in its school system
+
+through the Georgia Virtual School; provided, however, that in no event shall the amount
+
+of tuition charged to and paid by the local school system on behalf of such student exceed
+
+$250.00 $350.00 per student per semester course; and provided, further, that, if a student
+
+participates in courses through the Georgia Virtual School that are in excess of the
+
+maximum number of courses a student may be enrolled in during a school day, such
+
+student shall be subject to the cost of tuition not to exceed $250.00 $350.00 per student
+
+per semester course.
+
+(3) Students in home study programs and private schools in this state may enroll in
+
+courses through the Georgia Virtual School at no cost, if appropriations are provided for
+
+such purpose in accordance with paragraph (1) of this subsection. If appropriations are
+
+not provided or if appropriations are provided but have been expended for such purpose,
+
+students in home study programs and private schools in this state may enroll in courses
+
+through the Georgia Virtual School based on availability of slots; provided, however, that
+
+such students shall be subject to the cost of tuition not to exceed $250.00 $350.00 per
+
+student per semester course."
+
+SECTION 3.
+Said chapter is further amended by adding a new Code section to read as follows:
+
+"20-2-324.10.
+
+(a) As used in this Code section, the term 'patriotic society' means a youth organization
+
+listed in Title 36 of the United States Code as a patriotic society that promotes good
+
+citizenship, civic education, and patriotism, including, but not limited to, the Boy Scouts
+
+of America and its affiliated Georgia groups and councils and the Girl Scouts of the United
+
+States of America and its affiliated Georgia groups and councils.
+
+(b) To encourage local school systems to facilitate access for students to participate in
+
+citizenship, civic, and patriotic activities provided by a patriotic society, each local school
+
+system shall allow representatives of a patriotic society the opportunity to speak with
+
+students to promote good citizenship, civic education, and patriotism during school hours.
+
+(c)(1) To speak with students during school hours pursuant to this Code section, a
+
+patriotic society shall submit a written request to a local school superintendent proposing
+
+a date and time to visit a school. Such notice shall be submitted at least 30 days before
+
+the proposed date and time.
+
+(2) Such notice shall also include the purpose of the visit, the amount of time the
+
+patriotic society will be on school grounds, and the speakers and representatives of such
+
+patriotic society who will be in attendance.
+
+(3) Within seven days of receiving the request, the local school superintendent shall
+
+provide verbal or written approval or denial of the specific date and time requested by the
+
+patriotic society. If the local school superintendent denies such request, the local school
+
+superintendent shall provide, in writing, a comparable, alternative date and time for the
+
+patriotic society to visit.
+
+(4) If the local school superintendent denies the request and does not provide an
+
+alternative date and time, the local school superintendent shall provide the patriotic
+
+society with a written explanation of the reasoning for such denial without an alternative
+
+date and time.
+
+(d) It is the intent of the General Assembly that if any provision of this Code section is
+
+found invalid by a court of law, this Code section shall be void and repealed in its entirety."
+
+SECTION 4.
+
+Said chapter is further amended in Code Section 20-2-690, relating to educational entities,
+
+requirements for private schools and home study programs, and learning pod protection, by
+
+revising paragraph (3) of subsection (b) as follows:
+
+"(3) The institution provides instruction each 12 months for the equivalent of 180 school
+
+days of education with each school day consisting of at least four and one-half school
+
+hours; provided, however, that a nonpublic institution which meets the requirements of
+
+paragraphs (1), (2), and (4) of this subsection and which solely provides virtual
+
+instruction shall be deemed a private school notwithstanding whether such institution
+
+provides instruction each 12 months for the equivalent of 180 school days of education
+
+with each school day consisting of at least four and one-half school hours;"
+
+SECTION 5.
+All laws and parts of laws in conflict with this Act are repealed.

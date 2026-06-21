@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to elementary and secondary education, so as to require that the academic and disciplinary records of each transferring student shall be provided by such student's previous school to the receiving school within five days; to reduce the number of days by which a parent or guardian of a transferring student shall receive copies of such records;to provide for evidence based youth violence prevention training programs; to provide for student violence prevention clubs; to provide for local policies for anonymous reporting; to provide for definitions; to provide for related matters; to provide for an effective date and applicability; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 179",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION",
+      "MINORS"
+    ],
+    "title": "Education; the academic and disciplinary records of each transferring student shall be provided within five days; require"
+  },
+  "id": "SB 179",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 179"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB179/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB179/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

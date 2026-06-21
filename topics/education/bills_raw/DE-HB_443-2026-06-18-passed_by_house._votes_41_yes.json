@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides clarification that all individuals currently or prospectively serving as mentors to one or more students through a mentoring program under the Department of Education must submit to state and federal criminal background checks, and that they are subject to continued criminal record monitoring for 1 year.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 443",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO BACKGROUND CHECKS FOR VOLUNTEERS IN EDUCATION."
+  },
+  "id": "HB 443",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 41 YES",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 443"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB443/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB443/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}

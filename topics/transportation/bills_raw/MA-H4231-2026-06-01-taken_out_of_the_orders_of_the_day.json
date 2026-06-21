@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Decker of Cambridge, a petition (accompanied by bill, House, No. 4231) of Marjorie C. Decker (with the approval of the city council) relative to notices of violation for parking enforcement in the city of Cambridge.  Municipalities and Regional Government.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4231",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the city of Cambridge to expand the options available to issue notices of violation for parking enforcement above the limits set forth in M.G.L. C. 90, §20A½ or other applicable state laws"
+  },
+  "id": "H4231",
+  "log": {
+    "action": {
+      "date": "2026-06-01",
+      "description": "Taken out of the Orders of the Day",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "H4231"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4231/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4231/logs/20260601T000000Z_taken_out_of_the_orders_of_the_day.json"
+  },
+  "timestamp": "20260601T000000Z"
+}

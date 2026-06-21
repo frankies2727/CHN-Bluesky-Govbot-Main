@@ -21,6 +21,7 @@
     "GA|HB 1277|2026-05-11|House Date Signed by Governor",
     "GA|HB 983|2026-05-06|Act 429",
     "GA|HB 983|2026-05-06|House Date Signed by Governor",
+    "GA|SB 420|2026-07-01|Effective Date",
     "IA|SF 2447|2026-02-23|Committee report, approving bill.",
     "IA|SF 2490|2026-04-14|Committee report, approving bill.",
     "KS|HB2113|2026-04-10|Died in Senate Committee",
@@ -43,6 +44,8 @@
     "MO|HB 2578|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2611|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3504|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|SB 953|2026-05-28|Delivered to Governor",
+    "MO|SB 953|2026-05-28|Signed by House Speaker",
     "MS|HB1621|2026-02-03|Died In Committee",
     "MS|HB1623|2026-02-03|Died In Committee",
     "MS|SB2663|2026-02-03|Died In Committee",
@@ -58,10 +61,10 @@
     "WA|HB 2416|2026-03-25|Governor signed.",
     "WA|SB 6246|2026-03-12|Delivered to Governor."
   ],
-  "last_run": "2026-06-20T10:08:05.764888+00:00",
+  "last_run": "2026-06-21T10:32:51.110168+00:00",
   "state_last_posted": {
     "IA": "2026-06-03T11:47:38.067759+00:00",
-    "MO": "2026-06-20T10:05:22.806834+00:00",
+    "MO": "2026-06-21T10:28:02.729456+00:00",
     "MA": "2026-06-16T12:00:23.780512+00:00",
     "PR": "2026-06-19T11:20:34.696452+00:00",
     "CO": "2026-06-03T11:47:38.067759+00:00",
@@ -73,7 +76,7 @@
     "CA": "2026-06-18T11:14:11.063777+00:00",
     "MS": "2026-06-17T11:39:29.861123+00:00",
     "WA": "2026-06-20T10:05:22.806834+00:00",
-    "GA": "2026-06-09T10:34:59.913620+00:00",
+    "GA": "2026-06-21T10:28:02.729456+00:00",
     "FL": "2026-06-19T11:20:34.696452+00:00",
     "MN": "2026-06-17T11:39:29.861123+00:00"
   }

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 27-2-23 of the Official Code of Georgia Annotated, relating to license, permit, tag, and stamp fees, so as to provide for fees for reef and migratory fish endorsements; to amend Code Section 12-2-2 of the Official Code of Georgia Annotated, relating to Environmental Protection Division, appeal procedures generally, permit applications, and inspections, Code Section 27-1-39 of the Official Code of Georgia Annotated, relating to rules and regulations used to establish criminal violations, and Code Section 52-7-26 of the Official Code of Georgia Annotated, relating to penalty, respectively, so as to revise effective dates; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 420",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CONSERVATION AND NATURAL RESOURCES",
+      "GAME AND FISH",
+      "WATERS, PORTS, AND WATERCRAFT"
+    ],
+    "title": "License, Permit, Tag, and Stamp Fees; fees for reef and migratory fish endorsement; provide"
+  },
+  "id": "SB 420",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 420"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB420/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB420/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution requests the Department of Labor to evaluate the feasibility of apprenticeship programs for school-based mental health professionals and submit a report to certain members of the General Assembly, the Office of Management and Budget, and the Controller General by November 1, 2026.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 131",
+    "legislative_session": "153",
+    "title": "REQUESTING THE DEPARTMENT OF LABOR EVALUATE THE FEASIBILITY OF APPRENTICESHIP PROGRAMS FOR SCHOOL-BASED MENTAL HEALTH PROFESSIONALS."
+  },
+  "id": "HCR 131",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 41 YES",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HCR 131"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR131/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR131/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Outdoor Advertising Act provides for the regulation by the Department of Transportation of advertising displays, as defined, within view of public highways. The act exempts from most of its provisions an advertising display used exclusively to advertise products, goods, or services that are either sold on the premises of an arena or marketed or promoted on the premises of an arena if, among other conditions, the arena has been authorized, as of January 1, 2021, by, or in accordance with, a local ordinance, including, but not limited to, a specific plan or sign district adopted in connection with the approval of the arena, as provided. The act requires an advertising display that is located on the premises of an arena and that was erected pursuant to the exemption also to be authorized by, or in accordance with, an ordinance, including, but not limited to, a specific plan or sign district, as provided.\n\nThis bill would similarly exempt from most provisions of the act an advertising display used exclusively to advertise products, goods, or services that are either sold on the premises of an arena or marketed or promoted on the premises of the arena if, among other conditions, the arena has been authorized, as of January 1, 2032, by, or in accordance with a local ordinance or other discretionary approval, including, but not limited to, a specific plan or sign district that benefits the arena, as specified. The bill would require, before one of these advertising displays may be placed, a determination from the department or the Federal Highway Administration that the display will not cause a reduction in federal aid funds or otherwise be inconsistent with federal law, federal regulations, or an agreement between the state and a federal agency or department, as specified.\n\n This bill would limit both of these exemptions to an arena that is fully constructed or under construction on or before January 1, 2027. The bill would instead require an advertising display that is located on the premises of an arena and that was erected pursuant to either of these exemptions to be authorized by an ordinance or other discretionary approval, including, but not limited to, a specific plan, sign district, or conditional use permit, as specified. Except for advertising displays located in the City of Inglewood or authorized by the existing exemption, the bill would require certain advertising displays placed pursuant to the new exemption for one arena to be located at least 5,000 feet from an advertising display authorized pursuant to an exemption for another arena.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2717",
+    "legislative_session": "20252026",
+    "subject": [
+      "Outdooradvertisingdisplays",
+      "arenas",
+      "exemptions"
+    ],
+    "title": "Outdoor advertising displays: arenas: exemptions."
+  },
+  "id": "AB2717",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-27",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2717"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2717/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2717/logs/20260527T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260527T000000Z"
+}
