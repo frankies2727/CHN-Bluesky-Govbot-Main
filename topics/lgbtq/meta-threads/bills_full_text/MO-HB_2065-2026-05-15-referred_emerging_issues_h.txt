@@ -1,0 +1,540 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 2065
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE THOMAS.
+4882H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To repeal sections 191.1720, 208.152, 217.230, and 221.120, RSMo, and to enact in lieu
+thereof three new sections relating to gender transition procedures.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Sections 191.1720, 208.152, 217.230, and 221.120, RSMo, are repealed
+and three new sections enacted in lieu thereof, to be known as sections 208.152, 217.230, and
+221.120, to read as follows:
+208.152. 1. MO HealthNet payments shall be made on behalf of those eligible needy
+persons as described in section 208.151 who are unable to provide for it in whole or in part,
+with any payments to be made on the basis of the reasonable cost of the care or reasonable
+charge for the services as defined and determined by the MO HealthNet division, unless
+otherwise hereinafter provided, for the following:
+(1) Inpatient hospital services, except to persons in an institution for mental diseases
+who are under the age of sixty-five years and over the age of twenty-one years; provided that
+the MO HealthNet division shall provide through rule and regulation an exception process for
+coverage of inpatient costs in those cases requiring treatment beyond the seventy-fifth
+percentile professional activities study (PAS) or the MO HealthNet children's diagnosis
+length-of-stay schedule; and provided further that the MO HealthNet division shall take into
+account through its payment system for hospital services the situation of hospitals which
+serve a disproportionate number of low-income patients;
+(2) All outpatient hospital services, payments therefor to be in amounts which
+represent no more than eighty percent of the lesser of reasonable costs or customary charges
+for such services, determined in accordance with the principles set forth in Title XVIII A and
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+B, Public Law 89-97, 1965 amendments to the federal Social Security Act (42 U.S.C. Section
+301, et seq.), but the MO HealthNet division may evaluate outpatient hospital services
+rendered under this section and deny payment for services which are determined by the MO
+HealthNet division not to be medically necessary, in accordance with federal law and
+regulations;
+(3) Laboratory and X-ray services;
+(4) Nursing home services for participants, except to persons with more than five
+hundred thousand dollars equity in their home or except for persons in an institution for
+mental diseases who are under the age of sixty-five years, when residing in a hospital licensed
+by the department of health and senior services or a nursing home licensed by the department
+of health and senior services or appropriate licensing authority of other states or governmentowned and -operated institutions which are determined to conform to standards equivalent to
+licensing requirements in Title XIX of the federal Social Security Act (42 U.S.C. Section
+1396, et seq.), as amended, for nursing facilities. The MO HealthNet division may recognize
+through its payment methodology for nursing facilities those nursing facilities which serve a
+high volume of MO HealthNet patients. The MO HealthNet division when determining the
+amount of the benefit payments to be made on behalf of persons under the age of twenty-one
+in a nursing facility may consider nursing facilities furnishing care to persons under the age of
+twenty-one as a classification separate from other nursing facilities;
+(5) Nursing home costs for participants receiving benefit payments under subdivision
+(4) of this subsection for those days, which shall not exceed twelve per any period of six
+consecutive months, during which the participant is on a temporary leave of absence from the
+hospital or nursing home, provided that no such participant shall be allowed a temporary
+leave of absence unless it is specifically provided for in his or her plan of care. As used in
+this subdivision, the term "temporary leave of absence" shall include all periods of time
+during which a participant is away from the hospital or nursing home overnight because he or
+she is visiting a friend or relative;
+(6) Physicians' services, whether furnished in the office, home, hospital, nursing
+home, or elsewhere, provided, that no funds shall be expended to any abortion facility, as
+defined in section 188.015, or to any affiliate, as defined in section 188.015, of such abortion
+facility;
+(7) Subject to appropriation, up to twenty visits per year for services limited to
+examinations, diagnoses, adjustments, and manipulations and treatments of malpositioned
+articulations and structures of the body provided by licensed chiropractic physicians
+practicing within their scope of practice. Nothing in this subdivision shall be interpreted to
+otherwise expand MO HealthNet services;
+
+(8) Drugs and medicines when prescribed by a licensed physician, dentist, podiatrist,
+or an advanced practice registered nurse; except that no payment for drugs and medicines
+prescribed on and after January 1, 2006, by a licensed physician, dentist, podiatrist, or an
+advanced practice registered nurse may be made on behalf of any person who qualifies for
+prescription drug coverage under the provisions of P.L. 108-173;
+(9) Emergency ambulance services and, effective January 1, 1990, medically
+necessary transportation to scheduled, physician-prescribed nonelective treatments;
+(10) Early and periodic screening and diagnosis of individuals who are under the age
+of twenty-one to ascertain their physical or mental defects, and health care, treatment, and
+other measures to correct or ameliorate defects and chronic conditions discovered thereby.
+Such services shall be provided in accordance with the provisions of Section 6403 of P.L.
+101-239 and federal regulations promulgated thereunder;
+(11) Home health care services;
+(12) Family planning as defined by federal rules and regulations; provided, that no
+funds shall be expended to any abortion facility, as defined in section 188.015, or to any
+affiliate, as defined in section 188.015, of such abortion facility; and further provided,
+however, that such family planning services shall not include abortions or any abortifacient
+drug or device that is used for the purpose of inducing an abortion unless such abortions are
+certified in writing by a physician to the MO HealthNet agency that, in the physician's
+professional judgment, the life of the mother would be endangered if the fetus were carried to
+term;
+(13) Inpatient psychiatric hospital services for individuals under age twenty-one as
+defined in Title XIX of the federal Social Security Act (42 U.S.C. Section 1396d, et seq.);
+(14) Outpatient surgical procedures, including presurgical diagnostic services
+performed in ambulatory surgical facilities which are licensed by the department of health
+and senior services of the state of Missouri; except, that such outpatient surgical services shall
+not include persons who are eligible for coverage under Part B of Title XVIII, Public Law 8997, 1965 amendments to the federal Social Security Act, as amended, if exclusion of such
+persons is permitted under Title XIX, Public Law 89-97, 1965 amendments to the federal
+Social Security Act, as amended;
+(15) Personal care services which are medically oriented tasks having to do with a
+person's physical requirements, as opposed to housekeeping requirements, which enable a
+person to be treated by his or her physician on an outpatient rather than on an inpatient or
+residential basis in a hospital, intermediate care facility, or skilled nursing facility. Personal
+care services shall be rendered by an individual not a member of the participant's family who
+is qualified to provide such services where the services are prescribed by a physician in
+accordance with a plan of treatment and are supervised by a licensed nurse. Persons eligible
+
+to receive personal care services shall be those persons who would otherwise require
+placement in a hospital, intermediate care facility, or skilled nursing facility. Benefits payable
+for personal care services shall not exceed for any one participant one hundred percent of the
+average statewide charge for care and treatment in an intermediate care facility for a
+comparable period of time. Such services, when delivered in a residential care facility or
+assisted living facility licensed under chapter 198, shall be authorized on a tier level based on
+the services the resident requires and the frequency of the services. A resident of such facility
+who qualifies for assistance under section 208.030 shall, at a minimum, if prescribed by a
+physician, qualify for the tier level with the fewest services. The rate paid to providers for
+each tier of service shall be set subject to appropriations. Subject to appropriations, each
+resident of such facility who qualifies for assistance under section 208.030 and meets the
+level of care required in this section shall, at a minimum, if prescribed by a physician, be
+authorized up to one hour of personal care services per day. Authorized units of personal care
+services shall not be reduced or tier level lowered unless an order approving such reduction or
+lowering is obtained from the resident's personal physician. Such authorized units of personal
+care services or tier level shall be transferred with such resident if he or she transfers to
+another such facility. Such provision shall terminate upon receipt of relevant waivers from
+the federal Department of Health and Human Services. If the Centers for Medicare and
+Medicaid Services determines that such provision does not comply with the state plan, this
+provision shall be null and void. The MO HealthNet division shall notify the revisor of
+statutes as to whether the relevant waivers are approved or a determination of noncompliance
+is made;
+(16) Mental health services. The state plan for providing medical assistance under
+Title XIX of the Social Security Act, 42 U.S.C. Section 1396, et seq., as amended, shall
+include the following mental health services when such services are provided by community
+mental health facilities operated by the department of mental health or designated by the
+department of mental health as a community mental health facility or as an alcohol and drug
+abuse facility or as a child-serving agency within the comprehensive children's mental health
+service system established in section 630.097. The department of mental health shall
+establish by administrative rule the definition and criteria for designation as a community
+mental health facility and for designation as an alcohol and drug abuse facility. Such mental
+health services shall include:
+(a) Outpatient mental health services including preventive, diagnostic, therapeutic,
+rehabilitative, and palliative interventions rendered to individuals in an individual or group
+setting by a mental health professional in accordance with a plan of treatment appropriately
+established, implemented, monitored, and revised under the auspices of a therapeutic team as
+a part of client services management;
+
+(b) Clinic mental health services including preventive, diagnostic, therapeutic,
+rehabilitative, and palliative interventions rendered to individuals in an individual or group
+setting by a mental health professional in accordance with a plan of treatment appropriately
+established, implemented, monitored, and revised under the auspices of a therapeutic team as
+a part of client services management;
+(c) Rehabilitative mental health and alcohol and drug abuse services including home
+and community-based preventive, diagnostic, therapeutic, rehabilitative, and palliative
+interventions rendered to individuals in an individual or group setting by a mental health
+or alcohol and drug abuse professional in accordance with a plan of treatment appropriately
+established, implemented, monitored, and revised under the auspices of a therapeutic team as
+a part of client services management. As used in this section, mental health professional and
+alcohol and drug abuse professional shall be defined by the department of mental health
+pursuant to duly promulgated rules. With respect to services established by this subdivision,
+the department of social services, MO HealthNet division, shall enter into an agreement with
+the department of mental health. Matching funds for outpatient mental health services, clinic
+mental health services, and rehabilitation services for mental health and alcohol and drug
+abuse shall be certified by the department of mental health to the MO HealthNet division.
+The agreement shall establish a mechanism for the joint implementation of the provisions of
+this subdivision. In addition, the agreement shall establish a mechanism by which rates for
+services may be jointly developed;
+(17) Such additional services as defined by the MO HealthNet division to be
+furnished under waivers of federal statutory requirements as provided for and authorized by
+the federal Social Security Act (42 U.S.C. Section 301, et seq.) subject to appropriation by the
+general assembly;
+(18) The services of an advanced practice registered nurse with a collaborative
+practice agreement to the extent that such services are provided in accordance with chapters
+and 335, and regulations promulgated thereunder;
+(19) Nursing home costs for participants receiving benefit payments under
+subdivision (4) of this subsection to reserve a bed for the participant in the nursing home
+during the time that the participant is absent due to admission to a hospital for services which
+cannot be performed on an outpatient basis, subject to the provisions of this subdivision:
+(a) The provisions of this subdivision shall apply only if:
+a. The occupancy rate of the nursing home is at or above ninety-seven percent of MO
+HealthNet certified licensed beds, according to the most recent quarterly census provided to
+the department of health and senior services which was taken prior to when the participant is
+admitted to the hospital; and
+
+b. The patient is admitted to a hospital for a medical condition with an anticipated
+stay of three days or less;
+(b) The payment to be made under this subdivision shall be provided for a maximum
+of three days per hospital stay;
+(c) For each day that nursing home costs are paid on behalf of a participant under this
+subdivision during any period of six consecutive months such participant shall, during the
+same period of six consecutive months, be ineligible for payment of nursing home costs of
+two otherwise available temporary leave of absence days provided under subdivision (5) of
+this subsection; and
+(d) The provisions of this subdivision shall not apply unless the nursing home
+receives notice from the participant or the participant's responsible party that the participant
+intends to return to the nursing home following the hospital stay. If the nursing home receives
+such notification and all other provisions of this subsection have been satisfied, the nursing
+home shall provide notice to the participant or the participant's responsible party prior to
+release of the reserved bed;
+(20) Prescribed medically necessary durable medical equipment. An electronic webbased prior authorization system using best medical evidence and care and treatment
+guidelines consistent with national standards shall be used to verify medical need;
+(21) Hospice care. As used in this subdivision, the term "hospice care" means a
+coordinated program of active professional medical attention within a home, outpatient and
+inpatient care which treats the terminally ill patient and family as a unit, employing a
+medically directed interdisciplinary team. The program provides relief of severe pain or other
+physical symptoms and supportive care to meet the special needs arising out of physical,
+psychological, spiritual, social, and economic stresses which are experienced during the final
+stages of illness, and during dying and bereavement and meets the Medicare requirements for
+participation as a hospice as are provided in 42 CFR Part 418. The rate of reimbursement
+paid by the MO HealthNet division to the hospice provider for room and board furnished by a
+nursing home to an eligible hospice patient shall not be less than ninety-five percent of the
+rate of reimbursement which would have been paid for facility services in that nursing home
+facility for that patient, in accordance with subsection (c) of Section 6408 of P.L. 101-239
+(Omnibus Budget Reconciliation Act of 1989);
+(22) Prescribed medically necessary dental services. Such services shall be subject to
+appropriations. An electronic web-based prior authorization system using best medical
+evidence and care and treatment guidelines consistent with national standards shall be used to
+verify medical need;
+(23) Prescribed medically necessary optometric services. Such services shall be
+subject to appropriations. An electronic web-based prior authorization system using best
+
+medical evidence and care and treatment guidelines consistent with national standards shall
+be used to verify medical need;
+(24) Blood clotting products-related services. For persons diagnosed with a bleeding
+disorder, as defined in section 338.400, reliant on blood clotting products, as defined in
+section 338.400, such services include:
+(a) Home delivery of blood clotting products and ancillary infusion equipment and
+supplies, including the emergency deliveries of the product when medically necessary;
+(b) Medically necessary ancillary infusion equipment and supplies required to
+administer the blood clotting products; and
+(c) Assessments conducted in the participant's home by a pharmacist, nurse, or local
+home health care agency trained in bleeding disorders when deemed necessary by the
+participant's treating physician;
+(25) Medically necessary cochlear implants and hearing instruments, as defined in
+section 345.015, that are:
+(a) Prescribed by an audiologist, as defined in section 345.015; or
+(b) Dispensed by a hearing instrument specialist, as defined in section 346.010;
+(26) The MO HealthNet division shall, by January 1, 2008, and annually thereafter,
+report the status of MO HealthNet provider reimbursement rates as compared to one hundred
+percent of the Medicare reimbursement rates and compared to the average dental
+reimbursement rates paid by third-party payors licensed by the state. The MO HealthNet
+division shall, by July 1, 2008, provide to the general assembly a four-year plan to achieve
+parity with Medicare reimbursement rates and for third-party payor average dental
+reimbursement rates. Such plan shall be subject to appropriation and the division shall
+include in its annual budget request to the governor the necessary funding needed to complete
+the four-year plan developed under this subdivision.
+2. Additional benefit payments for medical assistance shall be made on behalf of
+those eligible needy children, pregnant women and blind persons with any payments to be
+made on the basis of the reasonable cost of the care or reasonable charge for the services as
+defined and determined by the MO HealthNet division, unless otherwise hereinafter provided,
+for the following:
+(1) Dental services;
+(2) Services of podiatrists as defined in section 330.010;
+(3) Optometric services as described in section 336.010;
+(4) Orthopedic devices or other prosthetics, including eye glasses, dentures, and
+wheelchairs;
+(5) Hospice care. As used in this subdivision, the term "hospice care" means a
+coordinated program of active professional medical attention within a home, outpatient and
+
+inpatient care which treats the terminally ill patient and family as a unit, employing a
+medically directed interdisciplinary team. The program provides relief of severe pain or other
+physical symptoms and supportive care to meet the special needs arising out of physical,
+psychological, spiritual, social, and economic stresses which are experienced during the final
+stages of illness, and during dying and bereavement and meets the Medicare requirements for
+participation as a hospice as are provided in 42 CFR Part 418. The rate of reimbursement
+paid by the MO HealthNet division to the hospice provider for room and board furnished by a
+nursing home to an eligible hospice patient shall not be less than ninety-five percent of the
+rate of reimbursement which would have been paid for facility services in that nursing home
+facility for that patient, in accordance with subsection (c) of Section 6408 of P.L. 101-239
+(Omnibus Budget Reconciliation Act of 1989);
+(6) Comprehensive day rehabilitation services beginning early posttrauma as part of a
+coordinated system of care for individuals with disabling impairments. Rehabilitation
+services must be based on an individualized, goal-oriented, comprehensive and coordinated
+treatment plan developed, implemented, and monitored through an interdisciplinary
+assessment designed to restore an individual to an optimal level of physical, cognitive, and
+behavioral function. The MO HealthNet division shall establish by administrative rule the
+definition and criteria for designation of a comprehensive day rehabilitation service facility,
+benefit limitations and payment mechanism. Any rule or portion of a rule, as that term is
+defined in section 536.010, that is created under the authority delegated in this subdivision
+shall become effective only if it complies with and is subject to all of the provisions of
+chapter 536 and, if applicable, section 536.028. This section and chapter 536 are
+nonseverable and if any of the powers vested with the general assembly pursuant to chapter
+to review, to delay the effective date, or to disapprove and annul a rule are subsequently
+held unconstitutional, then the grant of rulemaking authority and any rule proposed or
+adopted after August 28, 2005, shall be invalid and void.
+3. The MO HealthNet division may require any participant receiving MO HealthNet
+benefits to pay part of the charge or cost until July 1, 2008, and an additional payment after
+July 1, 2008, as defined by rule duly promulgated by the MO HealthNet division, for all
+covered services except for those services covered under subdivisions (15) and (16) of
+subsection 1 of this section and sections 208.631 to 208.657 to the extent and in the manner
+authorized by Title XIX of the federal Social Security Act (42 U.S.C. Section 1396, et seq.)
+and regulations thereunder. When substitution of a generic drug is permitted by the prescriber
+according to section 338.056, and a generic drug is substituted for a name-brand drug, the
+MO HealthNet division may not lower or delete the requirement to make a co-payment
+pursuant to regulations of Title XIX of the federal Social Security Act. A provider of goods
+or services described under this section must collect from all participants the additional
+
+payment that may be required by the MO HealthNet division under authority granted herein,
+if the division exercises that authority, to remain eligible as a provider. Any payments made
+by participants under this section shall be in addition to and not in lieu of payments made by
+the state for goods or services described herein except the participant portion of the pharmacy
+professional dispensing fee shall be in addition to and not in lieu of payments to pharmacists.
+A provider may collect the co-payment at the time a service is provided or at a later date. A
+provider shall not refuse to provide a service if a participant is unable to pay a required
+payment. If it is the routine business practice of a provider to terminate future services to an
+individual with an unclaimed debt, the provider may include uncollected co-payments under
+this practice. Providers who elect not to undertake the provision of services based on a
+history of bad debt shall give participants advance notice and a reasonable opportunity for
+payment. A provider, representative, employee, independent contractor, or agent of a
+pharmaceutical manufacturer shall not make co-payment for a participant. This subsection
+shall not apply to other qualified children, pregnant women, or blind persons. If the Centers
+for Medicare and Medicaid Services does not approve the MO HealthNet state plan
+amendment submitted by the department of social services that would allow a provider to
+deny future services to an individual with uncollected co-payments, the denial of services
+shall not be allowed. The department of social services shall inform providers regarding the
+acceptability of denying services as the result of unpaid co-payments.
+4. The MO HealthNet division shall have the right to collect medication samples from
+participants in order to maintain program integrity.
+5. Reimbursement for obstetrical and pediatric services under subdivision (6) of
+subsection 1 of this section shall be timely and sufficient to enlist enough health care
+providers so that care and services are available under the state plan for MO HealthNet
+benefits at least to the extent that such care and services are available to the general
+population in the geographic area, as required under subparagraph (a)(30)(A) of 42 U.S.C.
+Section 1396a and federal regulations promulgated thereunder.
+6. Beginning July 1, 1990, reimbursement for services rendered in federally funded
+health centers shall be in accordance with the provisions of subsection 6402(c) and Section
+of P.L. 101-239 (Omnibus Budget Reconciliation Act of 1989) and federal regulations
+promulgated thereunder.
+7. Beginning July 1, 1990, the department of social services shall provide notification
+and referral of children below age five, and pregnant, breast-feeding, or postpartum women
+who are determined to be eligible for MO HealthNet benefits under section 208.151 to the
+special supplemental food programs for women, infants and children administered by the
+department of health and senior services. Such notification and referral shall conform to the
+requirements of Section 6406 of P.L. 101-239 and regulations promulgated thereunder.
+
+8. Providers of long-term care services shall be reimbursed for their costs in
+accordance with the provisions of Section 1902 (a)(13)(A) of the Social Security Act, 42
+U.S.C. Section 1396a, as amended, and regulations promulgated thereunder.
+9. Reimbursement rates to long-term care providers with respect to a total change in
+ownership, at arm's length, for any facility previously licensed and certified for participation
+in the MO HealthNet program shall not increase payments in excess of the increase that
+would result from the application of Section 1902 (a)(13)(C) of the Social Security Act, 42
+U.S.C. Section 1396a (a)(13)(C).
+10. The MO HealthNet division may enroll qualified residential care facilities and
+assisted living facilities, as defined in chapter 198, as MO HealthNet personal care providers.
+11. Any income earned by individuals eligible for certified extended employment at a
+sheltered workshop under chapter 178 shall not be considered as income for purposes of
+determining eligibility under this section.
+12. If the Missouri Medicaid audit and compliance unit changes any interpretation or
+application of the requirements for reimbursement for MO HealthNet services from the
+interpretation or application that has been applied previously by the state in any audit of a MO
+HealthNet provider, the Missouri Medicaid audit and compliance unit shall notify all affected
+MO HealthNet providers five business days before such change shall take effect. Failure of
+the Missouri Medicaid audit and compliance unit to notify a provider of such change shall
+entitle the provider to continue to receive and retain reimbursement until such notification is
+provided and shall waive any liability of such provider for recoupment or other loss of any
+payments previously made prior to the five business days after such notice has been sent.
+Each provider shall provide the Missouri Medicaid audit and compliance unit a valid email
+address and shall agree to receive communications electronically. The notification required
+under this section shall be delivered in writing by the United States Postal Service or
+electronic mail to each provider.
+13. Nothing in this section shall be construed to abrogate or limit the department's
+statutory requirement to promulgate rules under chapter 536.
+14. Beginning July 1, 2016, and subject to appropriations, providers of behavioral,
+social, and psychophysiological services for the prevention, treatment, or management of
+physical health problems shall be reimbursed utilizing the behavior assessment and
+intervention reimbursement codes 96150 to 96154 or their successor codes under the
+Current Procedural Terminology (CPT) coding system. Providers eligible for such
+reimbursement shall include psychologists.
+15. There shall be no payments made under this section for gender transition
+surgeries, cross-sex hormones, or puberty-blocking drugs[, as such terms are defined in
+section 191.1720,] for the purpose of a gender transition.
+
+217.230. The director shall arrange for necessary health care services for offenders
+confined in correctional centers, which shall not include any gender transition surgery[, as
+defined in section 191.1720].
+221.120. 1. If any prisoner confined in the county jail is sick and in the judgment of
+the jailer, requires the attention of a physician, dental care, or medicine, the jailer shall
+procure the necessary medicine, dental care or medical attention necessary or proper to
+maintain the health of the prisoner; provided, that this shall not include any gender transition
+surgery[, as defined in section 191.1720]. The costs of such medicine, dental care, or medical
+attention shall be paid by the prisoner through any health insurance policy as defined in
+subsection 3 of this section, from which the prisoner is eligible to receive benefits. If the
+prisoner is not eligible for such health insurance benefits then the prisoner shall be liable for
+the payment of such medical attention, dental care, or medicine, and the assets of such
+prisoner may be subject to levy and execution under court order to satisfy such expenses in
+accordance with the provisions of section 221.070, and any other applicable law. The county
+commission of the county may at times authorize payment of certain medical costs that the
+county commission determines to be necessary and reasonable. As used in this section, the
+term "medical costs" includes the actual costs of medicine, dental care or other medical
+attention and necessary costs associated with such medical care such as transportation, guards
+and inpatient care.
+2. The county commission may, in [their] its discretion, employ a physician by the
+year, to attend such prisoners, and make such reasonable charge for his or her service and
+medicine, when required, to be taxed and collected as provided by law.
+3. As used in this section, the following terms mean:
+(1) "Assets", property, tangible or intangible, real or personal, belonging to or due a
+prisoner or a former prisoner, including income or payments to such prisoner from Social
+Security, workers' compensation, veterans' compensation, pension benefits, previously earned
+salary or wages, bonuses, annuities, retirement benefits, compensation paid to the prisoner per
+work or services performed while a prisoner or from any other source whatsoever, including
+any of the following:
+(a) Money or other tangible assets received by the prisoner as a result of a settlement
+of a claim against the state, any agency thereof, or any claim against an employee or
+independent contractor arising from and in the scope of the employee's or contractor's official
+duties on behalf of the state or any agency thereof;
+(b) A money judgment received by the prisoner from the state as a result of a civil
+action in which the state, an agency thereof or any state employee or independent contractor
+where such judgment arose from a claim arising from the conduct of official duties on behalf
+of the state by the employee or subcontractor or for any agency of the state;
+
+(c) A current stream of income from any source whatsoever, including a salary,
+wages, disability benefits, retirement benefits, pension benefits, insurance or annuity benefits,
+or similar payments; [and]
+(2) "Health insurance policy", any group insurance policy providing coverage on an
+expense-incurred basis, any group service or indemnity contract issued by a not-for-profit
+health services corporation or any self-insured group health benefit plan of any type or
+description.
+
+[191.1720. 1. This section shall be known and may be cited as the
+"Missouri Save Adolescents from Experimentation (SAFE) Act".
+2. For purposes of this section, the following terms mean:
+(1) "Biological sex", the biological indication of male or female in the
+context of reproductive potential or capacity, such as sex chromosomes,
+naturally occurring sex hormones, gonads, and nonambiguous internal and
+external genitalia present at birth, without regard to an individual's
+psychological, chosen, or subjective experience of gender;
+(2) "Cross-sex hormones", testosterone, estrogen, or other androgens
+given to an individual in amounts that are greater or more potent than would
+normally occur naturally in a healthy individual of the same age and sex;
+(3) "Gender", the psychological, behavioral, social, and cultural
+aspects of being male or female;
+(4) "Gender transition", the process in which an individual transitions
+from identifying with and living as a gender that corresponds to his or her
+biological sex to identifying with and living as a gender different from his or
+her biological sex, and may involve social, legal, or physical changes;
+(5) "Gender transition surgery", a surgical procedure performed for the
+purpose of assisting an individual with a gender transition, including, but not
+limited to:
+(a) Surgical procedures that sterilize, including, but not limited to,
+castration, vasectomy, hysterectomy, oophorectomy, orchiectomy, or
+penectomy;
+(b) Surgical procedures that artificially construct tissue with the
+appearance of genitalia that differs from the individual's biological sex,
+including, but not limited to, metoidioplasty, phalloplasty, or vaginoplasty; or
+(c) Augmentation mammoplasty or subcutaneous mastectomy;
+(6) "Health care provider", an individual who is licensed, certified, or
+otherwise authorized by the laws of this state to administer health care in the
+ordinary course of the practice of his or her profession;
+(7) "Puberty-blocking drugs", gonadotropin-releasing hormone
+analogues or other synthetic drugs used to stop luteinizing hormone
+secretion and follicle stimulating hormone secretion, synthetic antiandrogen
+drugs to block the androgen receptor, or any other drug used to delay or
+suppress pubertal development in children for the purpose of assisting an
+individual with a gender transition.
+3. A health care provider shall not knowingly perform a gender
+transition surgery on any individual under eighteen years of age.
+
+4. (1) A health care provider shall not knowingly prescribe or
+administer cross-sex hormones or puberty-blocking drugs for the purpose of a
+gender transition for any individual under eighteen years of age.
+(2) The provisions of this subsection shall not apply to the prescription
+or administration of cross-sex hormones or puberty-blocking drugs for any
+individual under eighteen years of age who was prescribed or administered
+such hormones or drugs prior to August 28, 2023, for the purpose of assisting
+the individual with a gender transition.
+(3) The provisions of this subsection shall expire on August 28, 2027.
+5. The performance of a gender transition surgery or the prescription
+or administration of cross-sex hormones or puberty-blocking drugs to an
+individual under eighteen years of age in violation of this section shall be
+considered unprofessional conduct and any health care provider doing so shall
+have his or her license to practice revoked by the appropriate licensing entity
+or disciplinary review board with competent jurisdiction in this state.
+6. (1) The prescription or administration of cross-sex hormones or
+puberty-blocking drugs to an individual under eighteen years of age for the
+purpose of a gender transition shall be considered grounds for a cause of action
+against the health care provider. The provisions of chapter 538 shall not apply
+to any action brought under this subsection.
+(2) An action brought pursuant to this subsection shall be brought
+within fifteen years of the individual injured attaining the age of twenty-one or
+of the date the treatment of the injury at issue in the action by the defendant
+has ceased, whichever is later.
+(3) An individual bringing an action under this subsection shall be
+entitled to a rebuttable presumption that the individual was harmed if the
+individual is infertile following the prescription or administration of cross-sex
+hormones or puberty-blocking drugs and that the harm was a direct result of
+the hormones or drugs prescribed or administered by the health care provider.
+Such presumption may be rebutted only by clear and convincing evidence.
+(4) In any action brought pursuant to this subsection, a plaintiff may
+recover economic and noneconomic damages and punitive damages, without
+limitation to the amount and no less than five hundred thousand dollars in the
+aggregate. The judgment against a defendant in an action brought pursuant to
+this subsection shall be in an amount of three times the amount of any
+economic and noneconomic damages or punitive damages assessed. Any
+award of damages in an action brought pursuant to this subsection to a
+prevailing plaintiff shall include attorney's fees and court costs.
+(5) An action brought pursuant to this subsection may be brought in
+any circuit court of this state.
+(6) No health care provider shall require a waiver of the right to bring
+an action pursuant to this subsection as a condition of services. The right to
+bring an action by or through an individual under the age of eighteen shall not
+be waived by a parent or legal guardian.
+(7) A plaintiff to an action brought under this subsection may enter
+into a voluntary agreement of settlement or compromise of the action, but no
+agreement shall be valid until approved by the court. No agreement allowed
+by the court shall include a provision regarding the nondisclosure or
+
+confidentiality of the terms of such agreement unless such provision was
+specifically requested and agreed to by the plaintiff.
+(8) If requested by the plaintiff, any pleadings, attachments, or exhibits
+filed with the court in any action brought pursuant to this subsection, as well as
+any judgments issued by the court in such actions, shall not include the
+personal identifying information of the plaintiff. Such information shall be
+provided in a confidential information filing sheet contemporaneously filed
+with the court or entered by the court, which shall not be subject to public
+inspection or availability.
+7. The provisions of this section shall not apply to any speech
+protected by the First Amendment of the United States Constitution.
+8. The provisions of this section shall not apply to the following:
+(1) Services to individuals born with a medically-verifiable disorder of
+sex development, including, but not limited to, an individual with external
+biological sex characteristics that are irresolvably ambiguous, such as those
+born with 46,XX chromosomes with virilization, 46,XY chromosomes with
+undervirilization, or having both ovarian and testicular tissue;
+(2) Services provided when a physician has otherwise diagnosed an
+individual with a disorder of sex development and determined through genetic
+or biochemical testing that the individual does not have normal sex
+chromosome structure, sex steroid hormone production, or sex steroid
+hormone action;
+(3) The treatment of any infection, injury, disease, or disorder that has
+been caused by or exacerbated by the performance of gender transition surgery
+or the prescription or administration of cross-sex hormones or pubertyblocking drugs regardless of whether the surgery was performed or the
+hormones or drugs were prescribed or administered in accordance with state
+and federal law; or
+(4) Any procedure undertaken because the individual suffers from a
+physical disorder, physical injury, or physical illness that would, as certified by
+a physician, place the individual in imminent danger of death or impairment of
+a major bodily function unless surgery is performed.]
+✔
