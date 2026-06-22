@@ -80,10 +80,10 @@ THEMES = {
     ),
     "dark": Theme(
         bg=(24, 23, 20),        # warm near-black
-        ink=(245, 242, 236),    # #f5f2ec
-        muted=(168, 164, 154),  # warm light gray
+        ink=(255, 255, 255),    # white
+        muted=(255, 255, 255),  # white (all dark-mode text white for legibility)
         tile_bg=(38, 36, 32),   # slightly elevated panel
-        tile_label=(178, 173, 162),
+        tile_label=(255, 255, 255),
     ),
 }
 
