@@ -52,15 +52,40 @@ INNER0 = FRAME + PAD            # content box left/top (= 96)
 INNER1 = CARD - FRAME - PAD     # content box right/bottom (= 984)
 INNER_W = INNER1 - INNER0       # = 888
 
-# --- Palette (from the template) --------------------------------------------
-CREAM = (250, 247, 240)         # #faf7f0 card body
-CARD_BG = (241, 237, 226)       # #f1ede2 status/date tiles
-INK = (27, 26, 23)              # #1b1a17 near-black headline/values
-MUTED = (87, 84, 76)            # #57544c summary + footer
-FAINT = (138, 135, 125)         # #8a877d
-TILE_LABEL = (74, 71, 64)       # darker, readable STATUS/DATE labels
+# --- Palette ----------------------------------------------------------------
+# The card ships in two themes — "light" (the template's daylight cream) and
+# "dark" — sharing the same layout; the poster picks one per run. Each theme
+# bundles the five tones the layout needs: card body, headline/value ink, the
+# muted summary/footer tone, the tile background, and the tile label tone.
 LABEL_SIZE = 16
 DEFAULT_ACCENT = (37, 99, 235)  # govbot blue fallback
+
+
+class Theme:
+    def __init__(self, bg, ink, muted, tile_bg, tile_label):
+        self.bg = bg                  # card body fill
+        self.ink = ink                # wordmark, headline, tile values
+        self.muted = muted            # summary + footer
+        self.tile_bg = tile_bg        # STATUS/DATE tile fill
+        self.tile_label = tile_label  # STATUS/DATE labels
+
+
+THEMES = {
+    "light": Theme(
+        bg=(250, 247, 240),     # #faf7f0 cream
+        ink=(27, 26, 23),       # #1b1a17
+        muted=(87, 84, 76),     # #57544c
+        tile_bg=(241, 237, 226),  # #f1ede2
+        tile_label=(74, 71, 64),
+    ),
+    "dark": Theme(
+        bg=(24, 23, 20),        # warm near-black
+        ink=(245, 242, 236),    # #f5f2ec
+        muted=(168, 164, 154),  # warm light gray
+        tile_bg=(38, 36, 32),   # slightly elevated panel
+        tile_label=(178, 173, 162),
+    ),
+}
 
 # Pride spectrum used when spectrum=True (the LGBTQ+ launch palette).
 PRIDE = [
@@ -342,7 +367,8 @@ def _wordmark_height(font: ImageFont.FreeTypeFont) -> int:
     return asc + desc
 
 
-def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool) -> None:
+def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
+                   theme: Theme) -> None:
     """Render the GOVBOT wordmark with the two O's replaced by rainbow dots."""
     font = _mono(40, semibold=True)
     tracking = 8
@@ -357,11 +383,11 @@ def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool) -> None:
             img.paste(dot, (round(cx), round(cy - dot_d / 2)), dot)
             cx += dot_d + tracking
         else:
-            cx = _draw_tracked(draw, cx, y, text, font, INK, tracking) + tracking
+            cx = _draw_tracked(draw, cx, y, text, font, theme.ink, tracking) + tracking
 
 
 def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
-                      colors, spectrum: bool) -> int:
+                      colors, spectrum: bool, theme: Theme) -> int:
     """Draw a rounded STATUS/DATE tile and return its height."""
     pad_x, pad_y = 28, 24
     bar_h = 8
@@ -378,7 +404,7 @@ def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
     tile_h = bar_h + pad_y + label_lh + 6 + val_lh * len(value_lines) + pad_y
 
     # Tile body (rounded) then the gradient accent bar across the top.
-    draw.rounded_rectangle([x, y, x + w, y + tile_h], radius=radius, fill=CARD_BG)
+    draw.rounded_rectangle([x, y, x + w, y + tile_h], radius=radius, fill=theme.tile_bg)
     bar = _h_gradient(w, bar_h, colors)
     bar_mask = Image.new("L", (w, bar_h), 0)
     ImageDraw.Draw(bar_mask).rounded_rectangle([0, 0, w, bar_h + radius],
@@ -386,10 +412,10 @@ def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
     img.paste(bar, (x, y), bar_mask)
 
     ty = y + bar_h + pad_y
-    _draw_tracked(draw, x + pad_x, ty, label, label_font, TILE_LABEL, tracking=3)
+    _draw_tracked(draw, x + pad_x, ty, label, label_font, theme.tile_label, tracking=3)
     ty += label_lh + 6
     for ln in value_lines:
-        draw.text((x + pad_x, ty), ln, font=value_font, fill=INK)
+        draw.text((x + pad_x, ty), ln, font=value_font, fill=theme.ink)
         ty += val_lh
     return tile_h
 
@@ -406,11 +432,14 @@ def render_card(
     emoji: str = "",   # topic emoji, shown to the left of the state in the eyebrow
     accent: tuple[int, int, int] = DEFAULT_ACCENT,
     spectrum: bool = False,
+    mode: str = "light",
     brand: str = "govbot",
     out_path: str | Path = "card.png",
 ) -> Path:
-    """Render a bill into a 1080x1080 PNG card (Direction A — Daylight) and
-    return the output Path.
+    """Render a bill into a 1080x1080 PNG card and return the output Path.
+
+    The layout is the GovBot Post design; mode picks the "light" (daylight
+    cream) or "dark" theme — both share the layout and the colored frame.
 
     bill is the dict shape produced by post_to_bluesky.extract_fields (uses
     keys: state, identifier, action_desc, action_date, title). headline and
@@ -419,14 +448,15 @@ def render_card(
     rainbow (TOPIC.card_spectrum) over that single accent."""
     accent = tuple(accent)
     colors = _accent_colors(accent, spectrum)
+    theme = THEMES.get(mode, THEMES["light"])
 
-    img = Image.new("RGB", (CARD, CARD), CREAM)
-    # Colored frame: paste the diagonal gradient full-bleed, then lay the cream
-    # card on top inset by FRAME so only the border shows.
+    img = Image.new("RGB", (CARD, CARD), theme.bg)
+    # Colored frame: paste the diagonal gradient full-bleed, then lay the card
+    # body on top inset by FRAME so only the border shows.
     img.paste(_diagonal_gradient(CARD, colors, angle_deg=30.0), (0, 0))
     draw = ImageDraw.Draw(img)
     draw.rounded_rectangle([FRAME, FRAME, CARD - FRAME, CARD - FRAME],
-                           radius=2, fill=CREAM)
+                           radius=2, fill=theme.bg)
 
     state = (bill.get("state") or "").upper()
     state_name = STATE_FULL_NAME.get(state, state or "Legislature")
@@ -500,7 +530,7 @@ def render_card(
     y = INNER0
 
     # Header: GOVBOT wordmark
-    _draw_wordmark(img, draw, INNER0, y, colors, spectrum)
+    _draw_wordmark(img, draw, INNER0, y, colors, spectrum, theme)
     y += header_h + gap
 
     # Hero: eyebrow + headline (with highlighter underline on last line) + summary.
@@ -511,7 +541,7 @@ def render_card(
         asc, _ = eyebrow_font.getmetrics()
         img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
         ex += emoji_img.width + 18
-    _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, INK, tracking=3)
+    _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, theme.ink, tracking=3)
     y += eyebrow_h + GAP_EYE_HEAD
 
     for i, ln in enumerate(head_lines):
@@ -524,13 +554,13 @@ def render_card(
             hl_y = y + round(asc * 0.74)
             hl = _h_gradient(round(lw), hl_h, colors)
             img.paste(hl, (INNER0, hl_y))
-        draw.text((INNER0, y), ln, font=headline_font, fill=INK)
+        draw.text((INNER0, y), ln, font=headline_font, fill=theme.ink)
         y += head_lh
 
     if has_summary:
         y += GAP_HEAD_SUM
         for ln in sum_lines:
-            draw.text((INNER0, y), ln, font=summary_font, fill=MUTED)
+            draw.text((INNER0, y), ln, font=summary_font, fill=theme.muted)
             y += sum_lh
 
     # Status / date tiles, anchored above the footer but never allowed to ride
@@ -538,15 +568,15 @@ def render_card(
     if show_tiles:
         ty = max(INNER0 + INNER_W - footer_h - gap - status_h, y + 24)
         _draw_status_tile(img, draw, INNER0, ty, tile_w, "STATUS",
-                          status_val or "—", colors, spectrum)
+                          status_val or "—", colors, spectrum, theme)
         _draw_status_tile(img, draw, INNER0 + tile_w + tile_gap, ty, tile_w,
-                          "DATE", date_val or "—", colors, spectrum)
+                          "DATE", date_val or "—", colors, spectrum, theme)
 
     # Footer: @brand (left) and the caption pointer (right), pinned to the
     # bottom of the content box.
     fy = INNER0 + INNER_W - footer_h
     handle = f"@{brand}"
-    draw.text((INNER0, fy), handle, font=footer_font, fill=MUTED)
+    draw.text((INNER0, fy), handle, font=footer_font, fill=theme.muted)
     # Right side: 🔗 + "Link to the bill in the description", right-aligned.
     link_text = "Link to the bill in the description"
     link_w = draw.textlength(link_text, font=footer_font)
@@ -557,7 +587,7 @@ def render_card(
         asc, _ = footer_font.getmetrics()
         img.paste(link_emoji, (round(sx), round(fy + asc * 0.5 - link_emoji.height / 2)),
                   link_emoji)
-    draw.text((sx + emoji_w, fy), link_text, font=footer_font, fill=MUTED)
+    draw.text((sx + emoji_w, fy), link_text, font=footer_font, fill=theme.muted)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -586,13 +616,19 @@ _LGBTQ_ACCENT = (192, 38, 211)   # #C026D3 fuchsia; lgbtq card_accent
 
 
 if __name__ == "__main__":
+    # Optional args: [out_path] [mode]; with no mode, emit both light and dark.
     out = sys.argv[1] if len(sys.argv) > 1 else "instagram-card-sample.png"
-    path = render_card(
-        _SAMPLE_BILL,
-        headline=_SAMPLE_HEADLINE,
-        summary=_SAMPLE_SUMMARY,
-        accent=_LGBTQ_ACCENT,
-        spectrum=True,
-        out_path=out,
-    )
-    print(f"Wrote sample card to {path.resolve()}")
+    modes = [sys.argv[2]] if len(sys.argv) > 2 else ["light", "dark"]
+    for m in modes:
+        target = out if len(modes) == 1 else f"{Path(out).with_suffix('')}-{m}.png"
+        path = render_card(
+            _SAMPLE_BILL,
+            headline=_SAMPLE_HEADLINE,
+            summary=_SAMPLE_SUMMARY,
+            emoji="🏳️‍🌈",
+            accent=_LGBTQ_ACCENT,
+            spectrum=True,
+            mode=m,
+            out_path=target,
+        )
+        print(f"Wrote {m} sample card to {path.resolve()}")

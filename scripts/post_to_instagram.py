@@ -84,6 +84,11 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
 SAVE_RAW = os.environ.get("SAVE_RAW", "1") == "1"
 
+# The card ships in a light and a dark theme; each run randomly picks one so the
+# feed alternates between them. CARD_MODE can pin it ("light"/"dark") for testing.
+CARD_MODE = (os.environ.get("CARD_MODE") or random.choice(["light", "dark"])).strip().lower()
+print(f"Card theme for this run: {CARD_MODE}")
+
 FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
 FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
 FORCE_REPOST = os.environ.get("FORCE_REPOST") == "1"
@@ -232,6 +237,7 @@ def render_bill_card(b: dict, summary: str, headline: str) -> Path:
         emoji=TOPIC.emoji_for(b),
         accent=TOPIC.card_accent,
         spectrum=TOPIC.card_spectrum,
+        mode=CARD_MODE,
         out_path=out_path,
     )
 
