@@ -56,8 +56,10 @@ INNER_W = INNER1 - INNER0       # = 888
 CREAM = (250, 247, 240)         # #faf7f0 card body
 CARD_BG = (241, 237, 226)       # #f1ede2 status/date tiles
 INK = (27, 26, 23)              # #1b1a17 near-black headline/values
-MUTED = (87, 84, 76)            # #57544c summary + footer handle
-FAINT = (138, 135, 125)         # #8a877d labels + footer link
+MUTED = (87, 84, 76)            # #57544c summary + footer
+FAINT = (138, 135, 125)         # #8a877d
+TILE_LABEL = (74, 71, 64)       # darker, readable STATUS/DATE labels
+LABEL_SIZE = 16
 DEFAULT_ACCENT = (37, 99, 235)  # govbot blue fallback
 
 # Pride spectrum used when spectrum=True (the LGBTQ+ launch palette).
@@ -75,6 +77,13 @@ _FONT_DIR = Path(__file__).resolve().parent.parent / "assets" / "fonts"
 _MONO_REGULAR = _FONT_DIR / "IBMPlexMono-Regular.ttf"
 _MONO_SEMIBOLD = _FONT_DIR / "IBMPlexMono-SemiBold.ttf"
 _SERIF_VF = _FONT_DIR / "Newsreader.ttf"
+# Color-emoji font for the topic emoji (eyebrow) and the 🔗 in the footer.
+# Vendored so the runner renders glyphs identically; falls back to the system
+# copy, and the card silently omits the emoji if neither is present.
+_EMOJI_CANDIDATES = [
+    _FONT_DIR / "NotoColorEmoji.ttf",
+    Path("/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"),
+]
 
 # DejaVu is the universal fallback present on the runners if the vendored fonts
 # are ever unavailable, so the card degrades instead of crashing.
@@ -116,6 +125,37 @@ def _serif(size: int, weight: int = 700) -> ImageFont.FreeTypeFont:
         if Path(fb).exists():
             return ImageFont.truetype(fb, size)
     return ImageFont.load_default()
+
+
+@lru_cache(maxsize=None)
+def _emoji_font_path() -> str | None:
+    for p in _EMOJI_CANDIDATES:
+        if Path(p).exists():
+            return str(p)
+    return None
+
+
+def _render_emoji(emoji: str, target_px: int) -> Image.Image | None:
+    """Render a single emoji to an RGBA tile target_px tall, or None if the
+    color-emoji font / glyph isn't available. Noto Color Emoji only ships bitmap
+    strikes at size 109, so we render at 109 with embedded_color and resize."""
+    path = _emoji_font_path()
+    if not emoji or not path:
+        return None
+    try:
+        font = ImageFont.truetype(path, 109)
+        tile = Image.new("RGBA", (200, 160), (0, 0, 0, 0))
+        d = ImageDraw.Draw(tile)
+        d.text((0, 0), emoji, font=font, embedded_color=True)
+        bbox = tile.getbbox()
+        if not bbox:
+            return None
+        glyph = tile.crop(bbox)
+        scale = target_px / glyph.height
+        new_size = (max(1, round(glyph.width * scale)), max(1, target_px))
+        return glyph.resize(new_size, Image.Resampling.LANCZOS)
+    except Exception:
+        return None
 
 
 def _lighten(rgb: tuple[int, int, int], f: float) -> tuple[int, int, int]:
@@ -326,7 +366,7 @@ def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
     pad_x, pad_y = 28, 24
     bar_h = 8
     radius = 6
-    label_font = _mono(14)
+    label_font = _mono(LABEL_SIZE, semibold=True)
     value_font = _serif(38, weight=600)
 
     text_w = w - 2 * pad_x
@@ -346,7 +386,7 @@ def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
     img.paste(bar, (x, y), bar_mask)
 
     ty = y + bar_h + pad_y
-    _draw_tracked(draw, x + pad_x, ty, label, label_font, FAINT, tracking=3)
+    _draw_tracked(draw, x + pad_x, ty, label, label_font, TILE_LABEL, tracking=3)
     ty += label_lh + 6
     for ln in value_lines:
         draw.text((x + pad_x, ty), ln, font=value_font, fill=INK)
@@ -363,7 +403,7 @@ def render_card(
     *,
     headline: str = "",
     summary: str = "",
-    emoji: str = "",   # accepted for caller compatibility; not used in this design
+    emoji: str = "",   # topic emoji, shown to the left of the state in the eyebrow
     accent: tuple[int, int, int] = DEFAULT_ACCENT,
     spectrum: bool = False,
     brand: str = "govbot",
@@ -443,7 +483,7 @@ def render_card(
         tw = tile_w - 2 * 28
         sl = len(_truncate(draw, _wrap(draw, status_val or "—", vf, tw), vf, 2, tw))
         dl = len(_truncate(draw, _wrap(draw, date_val or "—", vf, tw), vf, 2, tw))
-        status_h = 8 + 24 + _line_h(_mono(14), 1.2) + 6 + _line_h(vf, 1.05) * max(sl, dl) + 24
+        status_h = 8 + 24 + _line_h(_mono(LABEL_SIZE, semibold=True), 1.2) + 6 + _line_h(vf, 1.05) * max(sl, dl) + 24
 
     footer_font = _mono(18)
     footer_h = _line_h(footer_font, 1.2)
@@ -463,8 +503,15 @@ def render_card(
     _draw_wordmark(img, draw, INNER0, y, colors, spectrum)
     y += header_h + gap
 
-    # Hero: eyebrow + headline (with highlighter underline on last line) + summary
-    _draw_tracked(draw, INNER0, y, eyebrow, eyebrow_font, INK, tracking=3)
+    # Hero: eyebrow + headline (with highlighter underline on last line) + summary.
+    # The topic emoji (when available) leads the eyebrow, to the left of the state.
+    ex = INNER0
+    emoji_img = _render_emoji(emoji, round(eyebrow_font.size * 1.15))
+    if emoji_img is not None:
+        asc, _ = eyebrow_font.getmetrics()
+        img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
+        ex += emoji_img.width + 18
+    _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, INK, tracking=3)
     y += eyebrow_h + GAP_EYE_HEAD
 
     for i, ln in enumerate(head_lines):
@@ -500,9 +547,17 @@ def render_card(
     fy = INNER0 + INNER_W - footer_h
     handle = f"@{brand}"
     draw.text((INNER0, fy), handle, font=footer_font, fill=MUTED)
-    link_text = "Full bill linked in description ↗"
+    # Right side: 🔗 + "Link to the bill in the description", right-aligned.
+    link_text = "Link to the bill in the description"
     link_w = draw.textlength(link_text, font=footer_font)
-    draw.text((INNER1 - link_w, fy), link_text, font=footer_font, fill=FAINT)
+    link_emoji = _render_emoji("🔗", round(footer_font.size * 1.2))
+    emoji_w = (link_emoji.width + 8) if link_emoji is not None else 0
+    sx = INNER1 - link_w - emoji_w
+    if link_emoji is not None:
+        asc, _ = footer_font.getmetrics()
+        img.paste(link_emoji, (round(sx), round(fy + asc * 0.5 - link_emoji.height / 2)),
+                  link_emoji)
+    draw.text((sx + emoji_w, fy), link_text, font=footer_font, fill=MUTED)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
