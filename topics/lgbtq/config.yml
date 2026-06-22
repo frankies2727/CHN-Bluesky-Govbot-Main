@@ -10,9 +10,12 @@ display_name: "LGBTQ"
 prompt_topic: "LGBTQ rights, including gender identity, sexual orientation, anti-discrimination protections, gender-affirming care, and transgender youth"
 default_emoji: "🏳️‍🌈"
 
-# Accent color for the Instagram bill-card header (the thin top stripe, the
-# bill identifier, the action+date line, and the wordmark). LGBTQ+ launch color.
+# Accent color for the Instagram bill-card (used as a fallback single-hue accent
+# when the rainbow is off). LGBTQ+ launch color.
 card_accent: "#C026D3"
+# Use the LGBTQ+ pride rainbow on the Instagram card (frame, wordmark dots,
+# headline highlight, and STATUS/DATE accent bars) instead of the single accent.
+card_spectrum: true
 
 keywords:
   # Identity / community
