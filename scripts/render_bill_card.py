@@ -1,86 +1,125 @@
 #!/usr/bin/env python3
 """
-Instagram bill-card renderer.
+Instagram bill-card renderer — "Daylight" template.
 
 Instagram's Graph API has no text-only post type — every feed post needs an
-image. This module turns the same (state, bill id, headline, summary, action)
-data the other posters compose into a branded 1080x1350 (4:5) PNG card so the
-Instagram poster has something to publish. The text is produced by the shared
-pipeline in post_to_bluesky.py exactly as for Bluesky/X/Threads; this file only
-concerns itself with laying it out as an image.
+image. This module turns the same (state, bill id, headline, summary, status,
+date) data the other posters compose into a branded 1080x1080 (1:1) PNG card so
+the Instagram poster has something to publish. The text is produced by the
+shared pipeline in post_to_bluesky.py exactly as for Bluesky/X/Threads; this
+file only concerns itself with laying it out as an image.
 
-The card is dark-mode with a per-topic accent color (passed in by the poster
-from the topic's config). The action + date line is folded into the main body
-copy, and the footer points readers to the accompanying caption ("Link to the
-bill in the description") since the Instagram post ships as a card image plus a
-text caption and Instagram captions can't carry a clickable link.
+The layout is the "GovBot Post" design (Direction A — Daylight): a light cream
+card sitting inside a colored frame, with the GOVBOT wordmark, a state/bill-id
+eyebrow, a serif (Newsreader) headline with a highlighter underline on its last
+line, a monospace (IBM Plex Mono) summary, side-by-side STATUS and DATE cards,
+and a footer pointing readers to the caption ("Full bill linked in description")
+since Instagram captions can't carry a clickable link.
+
+Color treatment is driven by `spectrum`:
+  * spectrum=True  -> the LGBTQ+ pride rainbow is used for the frame, the
+    wordmark dots, the headline highlight, and the STATUS/DATE accent bars.
+  * spectrum=False -> the topic's single accent color (passed by the poster
+    from the topic config) is used as a two-stop gradient in those same places.
 
 Public entry point:
 
-    render_card(bill, headline=..., summary=..., emoji=..., accent=..., out_path=...) -> Path
+    render_card(bill, headline=..., summary=..., accent=..., spectrum=...,
+                out_path=...) -> Path
 
 Run directly to emit a sample card from a real bill record for visual review:
 
     python scripts/render_bill_card.py [out.png]
 
-Emoji are drawn from Noto Color Emoji when present (rendered to a bitmap tile
-and resized), and silently omitted if that font or glyph is unavailable, so the
-card never shows a "tofu" box.
+Fonts (IBM Plex Mono, Newsreader) are vendored under assets/fonts/ so the card
+renders identically on the GitHub Actions runner; if they're missing the code
+falls back to DejaVu so it never crashes.
 """
 
 from __future__ import annotations
 
 import sys
+from functools import lru_cache
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-# --- Canvas geometry (Instagram 4:5 portrait, the tallest allowed feed ratio) -
-CARD_W = 1080
-CARD_H = 1350
-MARGIN = 80
+# --- Canvas geometry (Instagram 1:1 square, matching the design template) -----
+CARD = 1080
+FRAME = 22          # colored border thickness around the cream card
+PAD = 74            # inner padding inside the cream card
+INNER0 = FRAME + PAD            # content box left/top (= 96)
+INNER1 = CARD - FRAME - PAD     # content box right/bottom (= 984)
+INNER_W = INNER1 - INNER0       # = 888
 
-ACCENT_STRIPE_H = 16    # thin accent rule across the very top
-HEADER_TOP = 96         # y where the emoji + state/bill-id header begins
-HEADER_BOTTOM = 250     # body is vertically centered below this
-EMOJI_PX = 92           # rendered emoji size in the header row
+# --- Palette (from the template) --------------------------------------------
+CREAM = (250, 247, 240)         # #faf7f0 card body
+CARD_BG = (241, 237, 226)       # #f1ede2 status/date tiles
+INK = (27, 26, 23)              # #1b1a17 near-black headline/values
+MUTED = (87, 84, 76)            # #57544c summary + footer handle
+FAINT = (138, 135, 125)         # #8a877d labels + footer link
+DEFAULT_ACCENT = (37, 99, 235)  # govbot blue fallback
 
-# --- Dark-mode palette ------------------------------------------------------
-BG = (18, 18, 23)               # near-black card body
-ACCENT = (37, 99, 235)          # default govbot blue; overridden per topic
-HEADER_TEXT = (255, 255, 255)
-HEADLINE_COLOR = (243, 244, 246)   # near-white
-SUMMARY_COLOR = (191, 199, 212)    # light slate
-FOOTER_COLOR = (138, 143, 152)     # muted gray
-DIVIDER = (44, 46, 54)
+# Pride spectrum used when spectrum=True (the LGBTQ+ launch palette).
+PRIDE = [
+    (228, 3, 3),     # #E40303 red
+    (255, 140, 0),   # #FF8C00 orange
+    (255, 212, 0),   # #FFD400 yellow
+    (30, 158, 62),   # #1E9E3E green
+    (31, 111, 235),  # #1F6FEB blue
+    (123, 44, 191),  # #7B2CBF violet
+]
 
 # --- Fonts ------------------------------------------------------------------
-# Liberation Sans is a metric-compatible Helvetica/Arial clone present on the
-# GitHub Actions ubuntu runners; DejaVu is the universal fallback.
-_FONT_CANDIDATES = {
-    "bold": [
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-    ],
-    "regular": [
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-    ],
-}
-_EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+_FONT_DIR = Path(__file__).resolve().parent.parent / "assets" / "fonts"
+_MONO_REGULAR = _FONT_DIR / "IBMPlexMono-Regular.ttf"
+_MONO_SEMIBOLD = _FONT_DIR / "IBMPlexMono-SemiBold.ttf"
+_SERIF_VF = _FONT_DIR / "Newsreader.ttf"
+
+# DejaVu is the universal fallback present on the runners if the vendored fonts
+# are ever unavailable, so the card degrades instead of crashing.
+_MONO_FALLBACK = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+]
+_SERIF_FALLBACK = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+]
 
 
-def _font(weight: str, size: int) -> ImageFont.FreeTypeFont:
-    for path in _FONT_CANDIDATES[weight]:
-        if Path(path).exists():
-            return ImageFont.truetype(path, size)
-    # Last resort: PIL's built-in bitmap font (won't scale, but never crashes).
+@lru_cache(maxsize=None)
+def _mono(size: int, semibold: bool = False) -> ImageFont.FreeTypeFont:
+    path = _MONO_SEMIBOLD if semibold else _MONO_REGULAR
+    if path.exists():
+        return ImageFont.truetype(str(path), size)
+    for fb in _MONO_FALLBACK:
+        if Path(fb).exists():
+            return ImageFont.truetype(fb, size)
+    return ImageFont.load_default()
+
+
+@lru_cache(maxsize=None)
+def _serif(size: int, weight: int = 700) -> ImageFont.FreeTypeFont:
+    """Newsreader instance at the given weight. The vendored file is a variable
+    font (Weight 200-800, Optical Size 6-72); we pin the weight and let the
+    optical size track the point size so large display text stays crisp."""
+    if _SERIF_VF.exists():
+        font = ImageFont.truetype(str(_SERIF_VF), size)
+        try:
+            # Axis order from get_variation_axes(): [Weight, Optical Size].
+            font.set_variation_by_axes([weight, max(6, min(size, 72))])
+        except Exception:
+            pass
+        return font
+    for fb in _SERIF_FALLBACK:
+        if Path(fb).exists():
+            return ImageFont.truetype(fb, size)
     return ImageFont.load_default()
 
 
 def _lighten(rgb: tuple[int, int, int], f: float) -> tuple[int, int, int]:
-    """Blend rgb toward white by fraction f, so a saturated accent stays legible
-    as text on the dark background."""
+    """Blend rgb toward white by fraction f."""
     return tuple(round(c + (255 - c) * f) for c in rgb)
 
 
@@ -117,34 +156,63 @@ def _format_date(yyyy_mm_dd: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Emoji
+# Gradients
 # ---------------------------------------------------------------------------
 
-def _render_emoji(emoji: str, target_px: int) -> Image.Image | None:
-    """Render a single emoji to an RGBA tile of side target_px, or None if the
-    color-emoji font / glyph isn't available. NotoColorEmoji only ships bitmap
-    strikes at size 109, so we render at 109 with embedded_color and resize."""
-    if not emoji or not Path(_EMOJI_FONT).exists():
-        return None
-    try:
-        font = ImageFont.truetype(_EMOJI_FONT, 109)
-        tile = Image.new("RGBA", (160, 160), (0, 0, 0, 0))
-        d = ImageDraw.Draw(tile)
-        d.text((0, 0), emoji, font=font, embedded_color=True)
-        bbox = tile.getbbox()
-        if not bbox:
-            return None
-        glyph = tile.crop(bbox)
-        scale = target_px / max(glyph.width, glyph.height)
-        new_size = (max(1, round(glyph.width * scale)),
-                    max(1, round(glyph.height * scale)))
-        return glyph.resize(new_size, Image.Resampling.LANCZOS)
-    except Exception:
-        return None
+def _interp(colors: list[tuple[int, int, int]], t: float) -> tuple[int, int, int]:
+    """Color at position t in [0, 1] along an evenly-spaced multi-stop ramp."""
+    if t <= 0:
+        return colors[0]
+    if t >= 1:
+        return colors[-1]
+    span = len(colors) - 1
+    pos = t * span
+    i = int(pos)
+    frac = pos - i
+    a, b = colors[i], colors[i + 1]
+    return tuple(round(a[k] + (b[k] - a[k]) * frac) for k in range(3))
+
+
+def _h_gradient(w: int, h: int, colors: list[tuple[int, int, int]]) -> Image.Image:
+    """A w x h image whose color ramps horizontally (left -> right) across the
+    evenly-spaced color stops."""
+    w = max(1, w)
+    row = [_interp(colors, x / (w - 1) if w > 1 else 0.0) for x in range(w)]
+    strip = Image.new("RGB", (w, 1))
+    strip.putdata(row)
+    return strip.resize((w, max(1, h)))
+
+
+def _v_gradient(w: int, h: int, colors: list[tuple[int, int, int]]) -> Image.Image:
+    """A w x h image whose color ramps vertically (top -> bottom)."""
+    h = max(1, h)
+    col = [_interp(colors, y / (h - 1) if h > 1 else 0.0) for y in range(h)]
+    strip = Image.new("RGB", (1, h))
+    strip.putdata(col)
+    return strip.resize((max(1, w), h))
+
+
+def _diagonal_gradient(size: int, colors: list[tuple[int, int, int]],
+                       angle_deg: float = 30.0) -> Image.Image:
+    """A size x size image with the color ramp running on a diagonal, so a thin
+    frame shows the first color at the top-left and the last at the bottom-right
+    (mirrors the template's 120deg frame gradient)."""
+    diag = int(size * 1.5) + 2
+    g = _h_gradient(diag, diag, colors)
+    g = g.rotate(angle_deg, resample=Image.BICUBIC, expand=False)
+    off = (diag - size) // 2
+    return g.crop((off, off, off + size, off + size))
+
+
+def _accent_colors(accent: tuple[int, int, int], spectrum: bool
+                   ) -> list[tuple[int, int, int]]:
+    """The color stops used for frame/accents: the pride rainbow when spectrum,
+    otherwise a two-stop ramp built from the topic's accent."""
+    return list(PRIDE) if spectrum else [accent, _lighten(accent, 0.45)]
 
 
 # ---------------------------------------------------------------------------
-# Text layout
+# Text helpers
 # ---------------------------------------------------------------------------
 
 def _wrap(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont,
@@ -154,7 +222,6 @@ def _wrap(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont,
     for paragraph in (text or "").split("\n"):
         words = paragraph.split()
         if not words:
-            lines.append("")
             continue
         cur = words[0]
         for w in words[1:]:
@@ -168,30 +235,123 @@ def _wrap(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont,
     return lines
 
 
-def _block_height(lines, font, line_gap, max_lines=None) -> int:
-    """Pixel height of a wrapped block as _draw_block would render it, so the
-    body can be measured up-front and vertically centered."""
-    asc, desc = font.getmetrics()
-    n = len(lines) if max_lines is None else min(len(lines), max_lines)
-    return (asc + desc + line_gap) * n
+def _truncate(draw, lines: list[str], font, max_lines: int, max_w: int
+              ) -> list[str]:
+    """Cap a wrapped block to max_lines, adding an ellipsis to the last kept
+    line if anything was dropped."""
+    if len(lines) <= max_lines:
+        return lines
+    kept = lines[:max_lines]
+    last = kept[-1]
+    while last and draw.textlength(last + "…", font=font) > max_w:
+        last = last[:-1].rstrip()
+    kept[-1] = (last + "…") if last else "…"
+    return kept
 
 
-def _draw_block(draw, lines, font, x, y, color, line_gap, max_lines=None,
-                ellipsis_after=None):
-    """Draw wrapped lines top-down; returns the y below the block. If max_lines
-    is set, truncate and append an ellipsis to the last kept line."""
+def _line_h(font: ImageFont.FreeTypeFont, factor: float) -> int:
     asc, desc = font.getmetrics()
-    line_h = asc + desc + line_gap
-    if max_lines is not None and len(lines) > max_lines:
-        lines = lines[:max_lines]
-        last = lines[-1]
-        while last and draw.textlength(last + "…", font=font) > (ellipsis_after or 10**9):
-            last = last[:-1].rstrip()
-        lines[-1] = (last + "…") if last else "…"
-    for ln in lines:
-        draw.text((x, y), ln, font=font, fill=color)
-        y += line_h
-    return y
+    return round((asc + desc) * factor)
+
+
+def _draw_tracked(draw, x: float, y: float, text: str,
+                  font: ImageFont.FreeTypeFont, fill, tracking: float) -> float:
+    """Draw text with extra letter-spacing (PIL has no native tracking).
+    Returns the x just past the last glyph."""
+    for ch in text:
+        draw.text((x, y), ch, font=font, fill=fill)
+        x += draw.textlength(ch, font=font) + tracking
+    return x - tracking if text else x
+
+
+def _tracked_width(draw, text: str, font: ImageFont.FreeTypeFont,
+                   tracking: float) -> float:
+    if not text:
+        return 0.0
+    return sum(draw.textlength(ch, font=font) for ch in text) + tracking * (len(text) - 1)
+
+
+# ---------------------------------------------------------------------------
+# Components
+# ---------------------------------------------------------------------------
+
+def _rainbow_dot(d: int, colors: list[tuple[int, int, int]], spectrum: bool
+                 ) -> Image.Image:
+    """A circular dot for the wordmark O's: hard horizontal pride stripes when
+    spectrum, otherwise a solid accent disc."""
+    d = max(2, d)
+    if spectrum:
+        base = Image.new("RGB", (d, d))
+        bd = ImageDraw.Draw(base)
+        n = len(colors)
+        for i, c in enumerate(colors):
+            y0 = round(d * i / n)
+            y1 = round(d * (i + 1) / n)
+            bd.rectangle([0, y0, d, y1], fill=c)
+    else:
+        base = Image.new("RGB", (d, d), colors[0])
+    mask = Image.new("L", (d, d), 0)
+    ImageDraw.Draw(mask).ellipse([0, 0, d - 1, d - 1], fill=255)
+    out = Image.new("RGBA", (d, d), (0, 0, 0, 0))
+    out.paste(base, (0, 0), mask)
+    return out
+
+
+def _wordmark_height(font: ImageFont.FreeTypeFont) -> int:
+    asc, desc = font.getmetrics()
+    return asc + desc
+
+
+def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool) -> None:
+    """Render the GOVBOT wordmark with the two O's replaced by rainbow dots."""
+    font = _mono(40, semibold=True)
+    tracking = 8
+    asc, _ = font.getmetrics()
+    dot_d = round(40 * 0.8)
+    cy = y + asc * 0.55          # vertical center of the cap height
+    segments = [("G", False), ("O", True), ("VB", False), ("O", True), ("T", False)]
+    cx = float(x)
+    for text, is_dot in segments:
+        if is_dot:
+            dot = _rainbow_dot(dot_d, colors, spectrum)
+            img.paste(dot, (round(cx), round(cy - dot_d / 2)), dot)
+            cx += dot_d + tracking
+        else:
+            cx = _draw_tracked(draw, cx, y, text, font, INK, tracking) + tracking
+
+
+def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
+                      colors, spectrum: bool) -> int:
+    """Draw a rounded STATUS/DATE tile and return its height."""
+    pad_x, pad_y = 28, 24
+    bar_h = 8
+    radius = 6
+    label_font = _mono(14)
+    value_font = _serif(38, weight=600)
+
+    text_w = w - 2 * pad_x
+    value_lines = _truncate(draw, _wrap(draw, value, value_font, text_w),
+                            value_font, max_lines=2, max_w=text_w)
+    val_lh = _line_h(value_font, 1.05)
+    label_lh = _line_h(label_font, 1.2)
+
+    tile_h = bar_h + pad_y + label_lh + 6 + val_lh * len(value_lines) + pad_y
+
+    # Tile body (rounded) then the gradient accent bar across the top.
+    draw.rounded_rectangle([x, y, x + w, y + tile_h], radius=radius, fill=CARD_BG)
+    bar = _h_gradient(w, bar_h, colors)
+    bar_mask = Image.new("L", (w, bar_h), 0)
+    ImageDraw.Draw(bar_mask).rounded_rectangle([0, 0, w, bar_h + radius],
+                                               radius=radius, fill=255)
+    img.paste(bar, (x, y), bar_mask)
+
+    ty = y + bar_h + pad_y
+    _draw_tracked(draw, x + pad_x, ty, label, label_font, FAINT, tracking=3)
+    ty += label_lh + 6
+    for ln in value_lines:
+        draw.text((x + pad_x, ty), ln, font=value_font, fill=INK)
+        ty += val_lh
+    return tile_h
 
 
 # ---------------------------------------------------------------------------
@@ -203,107 +363,146 @@ def render_card(
     *,
     headline: str = "",
     summary: str = "",
-    emoji: str = "",
-    accent: tuple[int, int, int] = ACCENT,
+    emoji: str = "",   # accepted for caller compatibility; not used in this design
+    accent: tuple[int, int, int] = DEFAULT_ACCENT,
+    spectrum: bool = False,
     brand: str = "govbot",
     out_path: str | Path = "card.png",
 ) -> Path:
-    """Render a bill into a 1080x1350 dark-mode PNG card and return the output
-    Path.
+    """Render a bill into a 1080x1080 PNG card (Direction A — Daylight) and
+    return the output Path.
 
     bill is the dict shape produced by post_to_bluesky.extract_fields (uses
     keys: state, identifier, action_desc, action_date, title). headline and
-    summary are the already-composed strings from the shared pipeline; emoji is
-    the topic emoji and accent the topic's card color (TOPIC.card_accent)."""
-    img = Image.new("RGB", (CARD_W, CARD_H), BG)
-    draw = ImageDraw.Draw(img)
-
+    summary are the already-composed strings from the shared pipeline; accent is
+    the topic's card color (TOPIC.card_accent) and spectrum selects the pride
+    rainbow (TOPIC.card_spectrum) over that single accent."""
     accent = tuple(accent)
-    accent_text = _lighten(accent, 0.30)   # legible accent for text on dark BG
+    colors = _accent_colors(accent, spectrum)
+
+    img = Image.new("RGB", (CARD, CARD), CREAM)
+    # Colored frame: paste the diagonal gradient full-bleed, then lay the cream
+    # card on top inset by FRAME so only the border shows.
+    img.paste(_diagonal_gradient(CARD, colors, angle_deg=30.0), (0, 0))
+    draw = ImageDraw.Draw(img)
+    draw.rounded_rectangle([FRAME, FRAME, CARD - FRAME, CARD - FRAME],
+                           radius=2, fill=CREAM)
 
     state = (bill.get("state") or "").upper()
     state_name = STATE_FULL_NAME.get(state, state or "Legislature")
-    identifier = bill.get("identifier") or ""
+    identifier = (bill.get("identifier") or "").strip()
     display = (headline or bill.get("title") or "").strip()
     summary = (summary or "").strip()
 
-    inner_w = CARD_W - 2 * MARGIN
+    # ---- measure the four stacked blocks (header / hero / status / footer) so
+    # they can be distributed top-to-bottom like the template's space-between --
+    wordmark_font = _mono(40, semibold=True)
+    header_h = _wordmark_height(wordmark_font)
 
-    # --- Top accent stripe + header (header sits on the dark body, not on a
-    # colored band) ---------------------------------------------------------
-    draw.rectangle([0, 0, CARD_W, ACCENT_STRIPE_H], fill=accent)
+    eyebrow = " · ".join(p for p in (state_name, identifier) if p).upper()
+    eyebrow_font = _mono(30, semibold=True)
+    eyebrow_h = _line_h(eyebrow_font, 1.1)
 
-    state_font = _font("bold", 52)
-    id_font = _font("regular", 38)
-    hx = MARGIN
-    emoji_img = _render_emoji(emoji, EMOJI_PX)
-    # Center the emoji against the two stacked text lines (state + id).
-    text_block_h = 60 + id_font.getmetrics()[0]
-    if emoji_img is not None:
-        ey = HEADER_TOP + (text_block_h - emoji_img.height) // 2
-        img.paste(emoji_img, (hx, ey), emoji_img)
-        hx += emoji_img.width + 28
-    draw.text((hx, HEADER_TOP), state_name, font=state_font, fill=HEADLINE_COLOR)
-    draw.text((hx, HEADER_TOP + 60), identifier, font=id_font, fill=accent_text)
+    # Auto-fit the headline: keep it as large as the template's 90px when the
+    # copy is short, but step the size down so longer headlines stay within ~3
+    # lines instead of swelling the hero block and colliding with the tiles.
+    headline_font = _serif(90, weight=700)
+    head_lines = _wrap(draw, display, headline_font, INNER_W)
+    for size in (90, 80, 72, 64, 58):
+        headline_font = _serif(size, weight=700)
+        head_lines = _wrap(draw, display, headline_font, INNER_W)
+        if len(head_lines) <= 3:
+            break
+    head_lines = _truncate(draw, head_lines, headline_font, max_lines=4, max_w=INNER_W)
+    head_lh = _line_h(headline_font, 0.98)
+    head_h = head_lh * len(head_lines)
 
-    # --- Footer (measured first so the body can center between it and the
-    # header) ---------------------------------------------------------------
-    foot_y = CARD_H - MARGIN - 70
+    summary_font = _mono(25)
+    has_summary = bool(summary and summary.lower() != display.lower())
+    sum_lines = (_truncate(draw, _wrap(draw, summary, summary_font, INNER_W),
+                           summary_font, max_lines=4, max_w=INNER_W) if has_summary else [])
+    sum_lh = _line_h(summary_font, 1.45)
+    sum_h = sum_lh * len(sum_lines)
 
-    # --- Body: measure every block, then vertically center the whole stack
-    # between the header and the footer ------------------------------------
-    headline_font = _font("bold", 60)
-    summary_font = _font("regular", 42)
-    action_font = _font("bold", 40)
-    GAP_HEAD_SUM = 36
-    GAP_SUM_DATE = 78   # extra breathing room so the date sits a little lower
+    GAP_EYE_HEAD = 18
+    GAP_HEAD_SUM = 34
+    hero_h = eyebrow_h + GAP_EYE_HEAD + head_h + (GAP_HEAD_SUM + sum_h if has_summary else 0)
 
-    head_lines = _wrap(draw, display, headline_font, inner_w)
-    head_h = _block_height(head_lines, headline_font, 12, max_lines=4)
+    # Status / date tiles
+    status_val = (bill.get("action_desc") or "").strip().rstrip(".")
+    if status_val:
+        status_val = status_val[0].upper() + status_val[1:]
+    date_val = _format_date(bill.get("action_date", ""))
+    show_tiles = bool(status_val or date_val)
+    tile_gap = 24
+    tile_w = (INNER_W - tile_gap) // 2
+    # Measure tile height up front (height depends on the wrapped value).
+    status_h = 0
+    if show_tiles:
+        vf = _serif(38, weight=600)
+        tw = tile_w - 2 * 28
+        sl = len(_truncate(draw, _wrap(draw, status_val or "—", vf, tw), vf, 2, tw))
+        dl = len(_truncate(draw, _wrap(draw, date_val or "—", vf, tw), vf, 2, tw))
+        status_h = 8 + 24 + _line_h(_mono(14), 1.2) + 6 + _line_h(vf, 1.05) * max(sl, dl) + 24
 
-    has_summary = bool(summary and summary.strip().lower() != display.strip().lower())
-    sum_lines = _wrap(draw, summary, summary_font, inner_w) if has_summary else []
-    sum_h = _block_height(sum_lines, summary_font, 14, max_lines=11) if has_summary else 0
+    footer_font = _mono(18)
+    footer_h = _line_h(footer_font, 1.2)
 
-    nice_date = _format_date(bill.get("action_date", ""))
-    action = (bill.get("action_desc") or "").strip().rstrip(".")
-    action_line = " · ".join(p for p in (nice_date, action) if p)
-    act_lines = _wrap(draw, action_line, action_font, inner_w) if action_line else []
-    act_h = _block_height(act_lines, action_font, 10, max_lines=3) if action_line else 0
+    blocks = [header_h, hero_h]
+    if show_tiles:
+        blocks.append(status_h)
+    blocks.append(footer_h)
+    used = sum(blocks)
+    gaps = len(blocks) - 1
+    gap = max(28, (INNER_W - used) // gaps) if gaps else 0
 
-    total_h = head_h
-    if has_summary:
-        total_h += GAP_HEAD_SUM + sum_h
-    if action_line:
-        total_h += GAP_SUM_DATE + act_h
+    # ---- draw ---------------------------------------------------------------
+    y = INNER0
 
-    region_top = HEADER_BOTTOM
-    region_bottom = foot_y - 40
-    y = region_top + max(0, (region_bottom - region_top - total_h) // 2)
+    # Header: GOVBOT wordmark
+    _draw_wordmark(img, draw, INNER0, y, colors, spectrum)
+    y += header_h + gap
 
-    y = _draw_block(draw, head_lines, headline_font, MARGIN, y, HEADLINE_COLOR,
-                    line_gap=12, max_lines=4, ellipsis_after=inner_w)
+    # Hero: eyebrow + headline (with highlighter underline on last line) + summary
+    _draw_tracked(draw, INNER0, y, eyebrow, eyebrow_font, INK, tracking=3)
+    y += eyebrow_h + GAP_EYE_HEAD
+
+    for i, ln in enumerate(head_lines):
+        is_last = i == len(head_lines) - 1
+        if is_last and ln:
+            # Highlighter bar behind the last line's text, like the template.
+            lw = draw.textlength(ln, font=headline_font)
+            asc, _ = headline_font.getmetrics()
+            hl_h = round(head_lh * 0.24)
+            hl_y = y + round(asc * 0.74)
+            hl = _h_gradient(round(lw), hl_h, colors)
+            img.paste(hl, (INNER0, hl_y))
+        draw.text((INNER0, y), ln, font=headline_font, fill=INK)
+        y += head_lh
+
     if has_summary:
         y += GAP_HEAD_SUM
-        y = _draw_block(draw, sum_lines, summary_font, MARGIN, y, SUMMARY_COLOR,
-                        line_gap=14, max_lines=11, ellipsis_after=inner_w)
-    # Action + date line, folded into the main copy (not the footer), styled in
-    # the accent so the legislative status reads as part of the message.
-    if action_line:
-        y += GAP_SUM_DATE
-        _draw_block(draw, act_lines, action_font, MARGIN, y, accent_text,
-                    line_gap=10, max_lines=3, ellipsis_after=inner_w)
+        for ln in sum_lines:
+            draw.text((INNER0, y), ln, font=summary_font, fill=MUTED)
+            y += sum_lh
 
-    # --- Footer -------------------------------------------------------------
-    draw.line([(MARGIN, foot_y), (CARD_W - MARGIN, foot_y)], fill=DIVIDER, width=2)
+    # Status / date tiles, anchored above the footer but never allowed to ride
+    # up into the summary (the max() guards the long-copy edge case).
+    if show_tiles:
+        ty = max(INNER0 + INNER_W - footer_h - gap - status_h, y + 24)
+        _draw_status_tile(img, draw, INNER0, ty, tile_w, "STATUS",
+                          status_val or "—", colors, spectrum)
+        _draw_status_tile(img, draw, INNER0 + tile_w + tile_gap, ty, tile_w,
+                          "DATE", date_val or "—", colors, spectrum)
 
-    label_font = _font("regular", 34)
-    brand_font = _font("bold", 36)
-    draw.text((MARGIN, foot_y + 28), "Link to the bill in the description",
-              font=label_font, fill=FOOTER_COLOR)
-    brand_w = draw.textlength(brand, font=brand_font)
-    draw.text((CARD_W - MARGIN - brand_w, foot_y + 26), brand, font=brand_font,
-              fill=accent_text)
+    # Footer: @brand (left) and the caption pointer (right), pinned to the
+    # bottom of the content box.
+    fy = INNER0 + INNER_W - footer_h
+    handle = f"@{brand}"
+    draw.text((INNER0, fy), handle, font=footer_font, fill=MUTED)
+    link_text = "Full bill linked in description ↗"
+    link_w = draw.textlength(link_text, font=footer_font)
+    draw.text((INNER1 - link_w, fy), link_text, font=footer_font, fill=FAINT)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -315,21 +514,20 @@ def render_card(
 # Sample (visual review)
 # ---------------------------------------------------------------------------
 
-# LGBTQ+ is the launch topic, so the sample mirrors that account's emoji/accent.
+# LGBTQ+ is the launch topic, so the sample mirrors that account's accent and
+# uses the pride spectrum.
 _SAMPLE_BILL = {
-    "state": "MN",
-    "identifier": "HF1234",
-    "title": "Conversion therapy prohibition for minors.",
-    "action_desc": "Signed by the Governor.",
-    "action_date": "2026-06-15",
+    "state": "DE",
+    "identifier": "HCR 145",
+    "title": "June is officially Pride Month",
+    "action_desc": "Introduced",
+    "action_date": "2026-06-01",
 }
-_SAMPLE_HEADLINE = "Banning conversion therapy for minors statewide"
+_SAMPLE_HEADLINE = "June is officially Pride Month"
 _SAMPLE_SUMMARY = (
-    "Bars licensed mental health providers from practicing conversion therapy "
-    "on patients under 18 and makes any violation grounds for professional "
-    "disciplinary action."
+    "Delaware will officially recognize June 2026 as LGBTQ+ Pride Month."
 )
-_LGBTQ_ACCENT = (192, 38, 211)   # fuchsia; per-topic card_accent for lgbtq
+_LGBTQ_ACCENT = (192, 38, 211)   # #C026D3 fuchsia; lgbtq card_accent
 
 
 if __name__ == "__main__":
@@ -338,8 +536,8 @@ if __name__ == "__main__":
         _SAMPLE_BILL,
         headline=_SAMPLE_HEADLINE,
         summary=_SAMPLE_SUMMARY,
-        emoji="🏳️‍🌈",
         accent=_LGBTQ_ACCENT,
+        spectrum=True,
         out_path=out,
     )
     print(f"Wrote sample card to {path.resolve()}")

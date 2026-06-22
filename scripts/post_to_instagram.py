@@ -231,6 +231,7 @@ def render_bill_card(b: dict, summary: str, headline: str) -> Path:
         summary=summary,
         emoji=TOPIC.emoji_for(b),
         accent=TOPIC.card_accent,
+        spectrum=TOPIC.card_spectrum,
         out_path=out_path,
     )
 

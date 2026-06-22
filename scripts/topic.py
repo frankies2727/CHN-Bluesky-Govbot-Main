@@ -147,6 +147,11 @@ class Topic:
     # "card_accent" hex string in config.yml to an (R, G, B) tuple. Defaults to
     # govbot blue; only topics with an Instagram feed need to set it.
     card_accent: tuple[int, int, int] = (37, 99, 235)
+    # When true, the Instagram card uses the LGBTQ+ pride rainbow (for the frame,
+    # wordmark dots, headline highlight, and tile accents) instead of the single
+    # card_accent color. Set "card_spectrum: true" in config.yml; defaults off so
+    # every other topic keeps its single-hue accent.
+    card_spectrum: bool = False
     # Optional named keyword buckets used by the X poster to balance the daily
     # draw across sub-topics (e.g. ai_data_centers splits its keywords into
     # an "ai_data_centers" bucket and a "crypto" bucket so each X run posts at
@@ -216,6 +221,7 @@ class Topic:
         threads_subdir = (data.get("threads_subdir") or "meta-threads").strip() or "meta-threads"
         instagram_subdir = (data.get("instagram_subdir") or "instagram").strip() or "instagram"
         card_accent = _parse_hex_color(data.get("card_accent"), (37, 99, 235))
+        card_spectrum = bool(data.get("card_spectrum", False))
 
         raw_groups = data.get("keyword_groups") or {}
         keyword_groups: dict[str, list[str]] = {}
@@ -248,6 +254,7 @@ class Topic:
             threads_subdir=threads_subdir,
             instagram_subdir=instagram_subdir,
             card_accent=card_accent,
+            card_spectrum=card_spectrum,
             keyword_groups=keyword_groups,
             _keyword_group_res=keyword_group_res,
         )
