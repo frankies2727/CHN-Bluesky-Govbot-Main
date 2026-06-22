@@ -70,7 +70,13 @@ keywords:
 
   # Discrimination / protections / restrictions
   - conversion therapy
-  - anti-discrimination
+  # "anti-discrimination" is below in context_keywords — it trips on
+  # boilerplate "diversity and anti-discrimination training" language that
+  # appears in athletics, employment, and education bills that have nothing
+  # to do with LGBTQ rights. The specific "X discrimination" phrases below
+  # ("sexual orientation discrimination", "gender identity discrimination")
+  # and the "X or Y" enumerations above catch genuine LGBTQ
+  # anti-discrimination bills directly.
   - nondiscrimination act
   - non-discrimination act
   - act against discrimination
@@ -90,6 +96,10 @@ context_keywords:
   - hate crime
   - hate crimes
   - discrimination
+  # Demoted from a core keyword: "diversity and anti-discrimination training"
+  # is boilerplate in athletics/employment/education bills unrelated to LGBTQ
+  # rights. As context it only counts when a genuine core LGBTQ term co-occurs.
+  - anti-discrimination
   # State civil-rights statutes named "Law Against Discrimination" (e.g. New
   # Jersey's NJLAD) get amended for many protected classes — veterans,
   # military service, age — that have nothing to do with LGBTQ rights. Demoted
