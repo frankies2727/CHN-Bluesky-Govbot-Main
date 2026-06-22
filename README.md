@@ -290,7 +290,7 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | Workflow | Trigger | What it does |
 | --- | --- | --- |
 | `post_to_bluesky.yml` | Daily cron + manual | Fetch → filter → summarize → post **all topics** to Bluesky. Sharded ×2. |
-| `weekly-digest.yml` | Fridays + manual | Threaded weekly digest per topic on Bluesky. Sharded ×2. |
+| `weekly-digest-bluesky.yml` | Fridays + manual | Threaded weekly digest per topic on Bluesky. Sharded ×2. |
 | `post_to_x.yml` | Daily cron + manual | Same pipeline, posting to an X account. |
 | `weekly-digest-x.yml` | Weekly + manual | Weekly digest threads on X. |
 | `post_to_meta_threads.yml` | Daily cron + manual | Same pipeline, posting to a Meta Threads account (dedicated to the `lgbtq` topic; 3 posts/run). |
@@ -310,7 +310,7 @@ All scheduled workflows start with a **free-disk-space** step — `govbot` cloni
 .github/workflows/
   post_to_bluesky.yml          # daily Bluesky pipeline (all topics, sharded)
   post_to_x.yml                # daily X pipeline
-  weekly-digest.yml            # Friday Bluesky digest threads
+  weekly-digest-bluesky.yml    # Friday Bluesky digest threads
   weekly-digest-x.yml          # X digest threads
   post_bluesky_specific_bill.yml  # manual one-off force-post (Bluesky)
   post_x_specific_bill.yml        # manual one-off force-post (X)
