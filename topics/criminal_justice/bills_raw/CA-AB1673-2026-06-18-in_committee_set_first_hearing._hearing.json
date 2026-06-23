@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law allows a person to purchase, possess, or use tear gas or a tear gas weapon for the projection or release or tear gas if the tear gas or tear gas weapon is used solely for self-defense purposes, subject to specified requirements. Under existing law, anyone who uses tear gas or a tear gas weapon except in self-defense is guilty of a crime.\n\n This bill would allow a person, who is authorized by the Department of Fish and Wildlife to apply aversive conditioning on wolves, to purchase, possess, or use any tear gas weapon that expels a projectile upon authorization from the sheriff of a county or the chief or other head of a municipal police department of any city or city and county.\n\nExisting law requires certain fines and penalties paid to and retained in a county treasury to be deposited in a county fish and wildlife propagation fund and expended for the protection, conservation, propagation, and preservation of fish and wildlife, as specified. Existing law authorizes expenditures from a county fish and wildlife propagation fund for purposes relating to fish and wildlife, including, among other things, costs incurred by a district attorney or city attorney in investigating and prosecuting civil and criminal actions relating to fish and wildlife.\n\nThis bill would additionally authorize expenditures from a county fish and wildlife propagation fund for costs relating to wildlife coexistence programs to prevent human-wildlife conflict.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1673",
+    "legislative_session": "20252026",
+    "subject": [
+      "Countyfishandwildlifepropagationfund",
+      "teargas",
+      "wildlifecoexistence"
+    ],
+    "title": "County fish and wildlife propagation fund: wildlife coexistence: tear gas."
+  },
+  "id": "AB1673",
+  "log": {
+    "action": {
+      "date": "2026-06-18",
+      "description": "In committee: Set, first hearing. Hearing canceled at the request of author.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1673"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1673/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1673/logs/20260618T000000Z_in_committee_set_first_hearing_hearing_canceled_at_the_request_of_author.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

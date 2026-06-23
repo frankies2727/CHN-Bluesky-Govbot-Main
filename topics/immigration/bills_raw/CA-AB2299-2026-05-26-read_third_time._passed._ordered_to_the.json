@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing federal law establishes the Supplemental Nutrition Assistance Program (SNAP) , known in California as CalFresh, under which supplemental nutrition assistance benefits allocated to the state by the federal government are distributed to eligible individuals by each county.\n\nExisting federal law limits a participant who is an able-bodied adult without dependents (ABAWD) to 3 months of CalFresh benefits in a 3-year period unless that participant has met work participation requirements or is otherwise exempt. Existing federal law authorizes a waiver of that time limit upon the request of a state if it is determined that the area in which the individuals reside has an unemployment rate of over 10% or does not have a sufficient number of jobs to provide employment for the individuals. Existing state law requires the State Department of Social Services, to the extent permitted by federal law, to annually seek a federal waiver of the time limit. Existing federal law also authorizes a state to provide, in each fiscal year, an exemption from the 3-month time limit for covered individuals, to the extent that the average monthly number of exemptions in effect during a fiscal year does not exceed 8% of the number of covered individuals in the state.\n\nExisting law requires the department to also establish the California Food Assistance Program (CFAP) to provide nutrition benefits to households that are ineligible for CalFresh benefits solely due to their immigration status, as specified. Existing law requires CFAP benefits to be equivalent to SNAP benefits. Under existing law, operative on the date the department notifies the Legislature that the Statewide Automated Welfare System can perform the necessary automation for this purpose, an individual 55 years of age or older is eligible for CFAP benefits, subject to an appropriation. Existing law requires these provisions only be implemented during any period that specified federal benefits are provided.\n\nThis bill, the California Antihunger Response and Employment Training Act of 2026, would expand CFAP eligibility to include individuals ineligible for CalFresh benefits due to the federal time limits placed on ABAWDs regardless of if they are a citizen or noncitizen and individuals ineligible solely due to their humanitarian immigration status. The bill would also repeal the provisions requiring certain federal benefits be provided in order for CFAP to be implemented.\n\nThe bill would make related findings and declarations.\n\nTo the extent the bill would expand eligibility for county-administered benefits through expansion of the CFAP program, the bill would impose a state-mandated local program.\n\n The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2299",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaAntihungerResponseandEmploymentTrainingActof2026"
+    ],
+    "title": "California Antihunger Response and Employment Training Act of 2026."
+  },
+  "id": "AB2299",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-26",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 64. Noes 1.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2299"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2299/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2299/logs/20260526T000000Z.classification.passage.lower.json"
+  }
+}

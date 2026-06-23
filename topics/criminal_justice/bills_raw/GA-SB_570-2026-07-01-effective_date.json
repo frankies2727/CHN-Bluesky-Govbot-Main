@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 1 of Chapter 21 of Title 43 of the Official Code of Georgia Annotated, relating to rights, duties, and liabilities of innkeepers, so as to provide for a required human trafficking training program for inns and short-term rental properties; to provide for definitions; to provide for training policies and procedures; to provide for the retention of certain records; to provide for limitations; to provide for penalties; to provide an effective date; to provide a short title; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 570",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CRIMES AND OFFENSES (CRIMINAL CODE)",
+      "PROFESSIONS AND BUSINESSES"
+    ],
+    "title": "\"Georgia Human Trafficking Prevention Training Act\"; enact"
+  },
+  "id": "SB 570",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 570"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB570/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB570/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
