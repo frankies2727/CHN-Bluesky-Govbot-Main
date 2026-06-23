@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Planning and Zoning Law, requires each county and each city to adopt a comprehensive, long-term general plan for the physical development of the county or city, and specified land outside its boundaries, that includes, among other specified mandatory elements, a housing element. That law requires the planning agency of a city or county to provide by April 1 of each year an annual report to, among other entities, the Office of Land Use and Climate Innovation and the Department of Housing and Community Development, that includes, among other specified information, the status of a development of land disposed, as described, the information each county and city is required to include in its central inventory of surplus land and report, as specified, and the number of applications for parcel maps for urban lot splits, as provided.\n\nThis bill would make nonsubstantive changes and reorganize various provisions relating to the annual report requirements, including the requirements described above, and would make related nonsubstantive conforming changes.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1426",
+    "legislative_session": "20252026",
+    "subject": [
+      "Planningandzoning",
+      "annualreport"
+    ],
+    "title": "Planning and zoning: annual report."
+  },
+  "id": "SB1426",
+  "log": {
+    "action": {
+      "date": "2026-06-18",
+      "description": "In Senate. Ordered to engrossing and enrolling.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1426"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1426/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1426/logs/20260618T000000Z_in_senate_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

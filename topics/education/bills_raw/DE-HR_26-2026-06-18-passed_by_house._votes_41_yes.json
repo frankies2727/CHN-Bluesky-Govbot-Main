@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Resolution builds on House Resolution 14 by directing additional reporting by the Department of Health and Social Services to prepare reports on the Purchase of Care Program.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 26",
+    "legislative_session": "153",
+    "title": "UPDATING AND CONTINUING DIRECTIONS TO THE DEPARTMENT OF HEALTH AND SOCIAL SERVICES REGARDING  REPORTS ON DEMOGRAPHIC DATA IN EARLY CHILD CARE AND EDUCATION POPULATIONS."
+  },
+  "id": "HR 26",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 41 YES",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR 26"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HR26/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HR26/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,1409 @@
+Senate Bill 384
+By: Senators Hatchett of the 50th, Goodman of the 8th, Burns of the 23rd, Echols of the 49th,
+Williams of the 25th and others
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+To amend Article 2 of Chapter 9 of Title 12 and Title 40 of the Official Code of Georgia
+Annotated, relating to motor vehicle emission inspection and maintenance and motor
+vehicles and traffic, respectively, so as to provide for an optional five-year motor vehicle
+registration and revalidation for certain motor vehicles; to provide for the submission of
+certificates of emission inspection for such five-year motor vehicle registrations; to authorize
+electronic notice in certain instances; to prohibit credits or refunds of registration fees; to
+provide for fees for five-year registration decals for prestige and specialty license plates; to
+provide for the submission of certificates of emission inspections to the Department of
+Revenue; to authorize the adoption of rules and regulations; to revise and provide for
+definitions; to provide for conforming changes; to provide for related matters; to provide for
+an effective date; to repeal conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Article 2 of Chapter 9 of Title 12 of the Official Code of Georgia Annotated, relating to
+motor vehicle emission inspection and maintenance, is amended in Code Section 12-9-45,
+relating to certificate of emission inspection, by revising subsection (b) as follows:
+
+"(b) A certificate of emission inspection shall be valid for one inspection term. The owner
+
+of each responsible motor vehicle subject to subsection (a) of this Code section is required
+
+to obtain a new certificate of emission inspection on or before the date the current
+
+certificate of emission inspection expires or prior to the vehicle registration date conclusion
+
+of the registration period, as such term is defined in Code Section 40-2-21, in the year
+
+following the expiration of the certificate, as determined by the board."
+
+SECTION 2.
+
+Said article is further amended in Code Section 12-9-51, relating to emission inspection
+required for motor vehicle registration, operation without registration, and improper reuse,
+by revising subsection (a) as follows:
+
+"(a) Beginning July 1, 1992, it shall be unlawful for any county to and no county shall
+
+register any responsible motor vehicle subject to any requirement under Code Section
+
+12-9-45 pursuant to or subject to the requirements of Chapter 2 of Title 40 without proof
+
+of a valid certificate of emission inspection issued pursuant to Code Section 12-9-48
+
+indicating that such responsible motor vehicle satisfied all applicable requirements of Code
+
+Section Sections 12-9-45 and Code Section 12-9-48. In applying for a motor vehicle
+
+registration for a responsible motor vehicle subject to any requirement under Code Section
+
+12-9-45, the application shall be accompanied by proof of the issuance of a certificate of
+
+emission inspection issued pursuant to Code Section 12-9-48. A valid certificate of
+
+emission inspection shall be submitted during each inspection term of a five-year motor
+
+vehicle registration. Any county which registers any responsible motor vehicle without
+
+proof of a certificate of emission inspection or fails to suspend a five-year registration of
+
+a responsible motor vehicle without proof of a certificate of emission inspection during an
+
+inspection term shall be in violation of this article."
+
+SECTION 3.
+
+Said article is further amended in Code Section 12-9-55, relating to prohibited acts,
+registration of vehicle by county without proof of inspection, penalty, and withholding of
+funding, by revising subsection (i) as follows:
+
+"(i) If it is determined that any county has registered responsible motor vehicles or failed
+
+to suspend a five-year registration of responsible motor vehicles without receiving proof
+
+from the owners that the responsible motor vehicles satisfy all applicable requirements of
+
+Code Sections 12-9-45 and 12-9-48, the director shall notify the commissioner of
+
+transportation that such an unlawful act has occurred. Upon such notification, the State
+
+Transportation Board may at its discretion withhold Department of Transportation funding
+
+assistance from any such county."
+
+SECTION 4.
+
+Title 40 of the Official Code of Georgia Annotated, relating to motor vehicles and traffic, is
+amended in Code Section 40-1-9, relating to electronic notifications and communications by
+Department of Revenue, by adding a new subsection to read as follows:
+
+"(b.1)(1) Notice required by the department upon an owner for failure to comply with
+
+emission inspection certification requirements pursuant to Code Section 40-2-137 shall
+
+be satisfied by electronic means when:
+
+(A) The owner has elected to register his or her vehicle for a term of five years; and
+
+(B) The department provides notifications and communications electronically to the
+
+owner 30 days, 20 days, and ten days prior to the date of any suspension.
+
+(2) The department shall provide for notice of the use of electronic notifications and
+
+communications authorized by this subsection at the time of registration and in a
+
+statement which reads:
+
+'BY ELECTING A FIVE-YEAR VEHICLE REGISTRATION, YOU AGREE TO
+
+RECEIVE
+
+ELECTRONIC
+
+NOTIFICATIONS
+
+AND
+
+COMMUNICATIONS
+
+RELATING TO FAILURE TO SUBMIT REQUIRED EMISSIONS INSPECTION
+
+CERTIFICATION AND ANY POSSIBLE MOTOR VEHICLE SUSPENSION THAT
+
+MAY RESULT FROM SUCH FAILURE.'"
+
+SECTION 5.
+
+Said title is further amended in Code Section 40-2-1, relating to definitions relative to
+registration and licensing of motor vehicles, by adding a new paragraph to read as follows:
+
+"(3.3) 'Eligible motor vehicle' means a motor vehicle for which required state and local
+
+ad valorem taxes have been paid in accordance with the alternative ad valorem tax set
+
+forth Code Section 48-5C-1. Such term shall not include a commercial motor vehicle or
+
+an alternative fueled vehicle, as such term is defined in paragraph (7) of subsection (l) of
+
+Code Section 40-2-86.1."
+
+SECTION 6.
+
+Said title is further amended by adding a new Code section to read as follows:
+
+"40-2-10.1.
+
+In no case shall an owner be entitled to a credit or refund for any payment of fees for a
+
+registration issued under this chapter upon the cancellation, termination, transfer,
+
+suspension, or revocation of such registration or upon the removal of a license plate for any
+
+other reason from a vehicle registered in this state."
+
+SECTION 7.
+
+Said title is further amended by revising Code Section 40-2-20, relating to registration and
+license requirements, certificate of registration and temporary operating permit, and two-year
+registration option for new motor vehicles, as follows:
+
+"40-2-20.
+
+(a)(1)(A) Except as provided in subsections (b) and (d) of otherwise provided in this
+
+Code section and subsection (a) of Code Section 40-2-47, every owner of a motor
+
+vehicle, including a tractor or motorcycle, and every owner of a trailer shall, during the
+
+owner's registration period in each year, register such vehicle as provided in this chapter
+
+and obtain a license plate or revalidation decal to operate it for the 12 month period
+
+until such person's next registration period.
+
+(B)(i) The purchaser or other transferee owner of every new or used motor vehicle,
+
+including tractors and motorcycles, or trailer shall register such vehicle as provided
+
+in Code Section 40-2-8 and obtain or transfer as provided in this chapter a license to
+
+operate it for the period remaining until such person's next registration period which
+
+immediately follows such initial registration period, without regard to whether such
+
+next registration period occurs in the same calendar year as the initial registration
+
+period or how soon such next registration period follows the initial registration period;
+
+provided, however, that this registration and licensing requirement does not apply to
+
+a dealer which acquires a new or used motor vehicle and holds it for resale. The
+
+commissioner may provide by rule or regulation for one 30 day extension of such
+
+initial registration period which may be granted by the county tag agent if the
+
+transferor has not provided such purchaser or other transferee owner with a title to the
+
+motor vehicle more than five business days prior to the expiration of such initial
+
+registration period. The county tag agent shall grant an extension of the initial
+
+registration period when the transferor, purchaser, or transferee can demonstrate by
+
+affidavit in a form provided by the commissioner that title has not been provided to
+
+the purchaser or transferee due to the failure of a security interest or lienholder to
+
+timely release a security interest or lien in accordance with Code Section 40-3-56.
+
+(ii) No person, company, or corporation, including, but not limited to, used motor
+
+vehicle dealers and auto auctions, shall sell or transfer a motor vehicle without
+
+providing to the purchaser or transferee of such motor vehicle the last certificate of
+
+registration on such vehicle at the time of such sale or transfer; provided, however,
+
+that, in the case of a salvage motor vehicle or a motor vehicle which is stolen but
+
+subsequently recovered by the insurance company after payment of a total loss claim,
+
+the salvage dealer or insurer, respectively, shall not be required to provide the
+
+certificate of registration for such vehicle; and provided, further, that in the case of a
+
+repossessed motor vehicle or a court ordered sale or other involuntary transfer, the
+
+lienholder or the transferor shall not be required to provide the certificate of
+
+registration for such vehicle but shall, prior to the sale of such vehicle, surrender the
+
+license plate of such vehicle to the commissioner or the county tag agent by personal
+
+delivery or by certified mail or statutory overnight delivery for cancellation.
+
+(C) Upon application for renewal of a vehicle registration, the county tag agent may
+
+issue a temporary operating permit for any vehicle that fails to comply with applicable
+
+federal emission standards, provided that the owner of such vehicle has provided
+
+verification of the existence of minimum motor vehicle liability insurance coverage and
+
+paid all applicable taxes, penalties, insurance lapse fees, and fees other than the
+
+registration fee. Such temporary operating permit shall be valid for 30 days and shall
+
+not be renewable.
+
+(2) An application for the registration of a motor vehicle may not be submitted separately
+
+from the application for a certificate of title for such motor vehicle, unless a certificate
+
+of title has been issued in the owner's name, such title has been applied for in the owner's
+
+name, or the motor vehicle is not required to be titled. An application for a certificate of
+
+title for a motor vehicle may be submitted separately from the application for the
+
+registration of such motor vehicle.
+
+(b) Subsection (a) of this Code section shall not apply:
+
+(1) To any motor vehicle or trailer owned by the state or any municipality or other
+
+political subdivision of this state except to the extent provided by Code Section 40-2-37;
+
+(2) To any tractor or three-wheeled motorcycle used only for agricultural purposes;
+
+(2.1)(3) To any vehicle or equipment used for transporting cargo or containers between
+
+and within wharves, storage areas, or terminals within the facilities of any port under the
+
+jurisdiction of the Georgia Ports Authority when such vehicle or equipment is being
+
+operated upon any public road not part of The Dwight D. Eisenhower System of
+
+Interstate and Defense Highways by the owner thereof or his or her agent within a radius
+
+of ten miles of the port facility of origin and accompanied by an escort vehicle equipped
+
+with one or more operating amber flashing lights that are visible from a distance of 500
+
+feet;
+
+(3)(4) To any trailer which has no springs and which is being employed in hauling
+
+unprocessed farm products to their first market destination;
+
+(4)(5) To any trailer which has no springs, which is pulled from a tongue, and which is
+
+used primarily to transport fertilizer to a farm;
+
+(5)(6) To any electric powered personal transportation vehicle;
+
+(6)(7) To any moped; or
+
+(7)(8) To any golf car.
+
+(c) Any person who fails to register a new or used motor vehicle as required in subsection
+
+(a) of this Code section shall be guilty of a misdemeanor and, upon conviction thereof,
+
+shall be punished by a fine not exceeding $100.00.
+
+(d) Upon the payment of the requisite fee, the purchaser of a new motor vehicle which is
+
+a passenger car, for which such purchaser has paid state and local title ad valorem taxes,
+
+may choose to register such passenger car for an initial period of two years instead of the
+
+annual registration provided for in this Code section, provided that the motor vehicle owner
+
+does not elect a prestige or special license plate. Thereafter, such passenger car shall be
+
+subject to the annual registration requirements of this Code section.
+
+(c) On and after July 1, 2027, an owner of an eligible motor vehicle who has complied
+
+with all other requirements of this chapter shall be authorized to register or renew a
+
+registration for such eligible vehicle annually or for a period of five years. In addition to
+
+the applicable license fee set forth in Code Section 40-2-151, an owner of an eligible motor
+
+vehicle with a prestige or special license plate shall pay any applicable registration renewal
+
+fees for such license plate. Any owner of an eligible motor vehicle who elects a five-year
+
+registration and revalidation decal shall not be relieved of any applicable emission
+
+inspection certification requirements under Article 2 of Chapter 9 of Title 12.
+
+(d) Upon application for renewal of a motor vehicle registration, the county tag agent shall
+
+be authorized to issue a temporary operating permit for any vehicle that fails to comply
+
+with emission inspection certification requirements under Article 2 of Chapter 9 of
+
+Title 12, provided that the owner of such vehicle has provided verification of the existence
+
+of minimum motor vehicle liability insurance coverage and paid all applicable taxes,
+
+penalties, insurance lapse fees, and fees other than the registration fee. Such temporary
+
+operating permit shall be valid for 30 days and shall not be renewable.
+
+(e) The commissioner shall be authorized to promulgate such rules and regulations as may
+
+be necessary to effectuate the purposes of this Code section and the issuance of five-year
+
+registrations and revalidation decals."
+
+SECTION 8.
+
+Said title is further amended in Code Section 40-2-21, relating to registration periods, by
+adding a new paragraph to subsection (a) and revising subsection (b) as follows:
+
+"(.01) 'Eligible motor vehicle registration term' means every fifth registration period for
+
+an owner of an eligible motor vehicle who elects a five-year revalidation decal option."
+
+"(b) The owner of every vehicle registered in the previous calendar year shall register
+
+renew such registration and obtain a license to operate such vehicle with a revalidation
+
+decal not later than the last day of the owner's registration period for an annual motor
+
+vehicle registration or the last day of an eligible motor vehicle registration term for a
+
+five-year motor vehicle registration."
+
+SECTION 9.
+
+Said title is further amended in Code Section 40-2-34, relating to reports and remittances by
+tag agents, by adding a new subsection to read as follows:
+
+"(g) The commissioner shall be authorized to promulgate such rules and regulations as may
+
+be necessary to effectuate the purposes of this Code section and the distribution of funds
+
+relating to the issuance and renewal of annual and five-year motor vehicle registrations and
+
+the disbursement of funds relating to any special license plates issued by the department."
+
+SECTION 10.
+
+Said title is further amended in Code Section 40-2-42, relating to transfer of license plates
+and revalidation decals, by revising subsection (b) as follows:
+
+"(b) The commissioner shall provide by rules and regulations appropriate procedures
+
+whereby, upon the payment of a fee of $5.00, and, upon preparation and filing of an
+
+appropriate application therefor, currently valid annual and five-year license plates and
+
+revalidation decals shall be transferred from one vehicle to another vehicle of the same
+
+class of which ownership is acquired following that person's or those persons' ceasing to
+
+own or operate on the public roads the vehicle for which such plate was originally issued
+
+and during the initial registration period for the acquired vehicle. If such acquired vehicle
+
+is of a different class than the vehicle no longer owned or operated by such person, he or
+
+she shall submit the license plate currently issued to him or her for cancellation and, upon
+
+payment of any additional fee for registering such acquired vehicle, the commissioner shall
+
+issue a new license plate to such person for use on such acquired vehicle. License plates
+
+and revalidation decals may be transferred in accordance with the provisions of this
+
+subsection at any time after issuance or renewal thereof and until the expiration of the
+
+period for which issued."
+
+SECTION 11.
+
+Said title is further amended in Code Section 40-2-60, relating to prestige license plates, by
+revising subsection (a) as follows:
+
+"(a) Motor vehicle owners who are residents of Georgia, upon complying with the motor
+
+vehicle laws relating to registration and licensing of motor vehicles and, except as provided
+
+in subsection (c) of this Code section, upon the payment of a fee of $35.00 in addition to
+
+the regular motor vehicle registration fee, shall be issued special personalized prestige
+
+license plates by the commissioner. Special personalized license plates issued pursuant to
+
+this Code section shall be subject to an additional annual registration fee of $35.00 as a
+
+condition of obtaining an annual revalidation decal or an additional registration fee of
+
+$175.00 as a condition of obtaining a five-year revalidation decal for such license plate.
+
+which fee The fee required by this Code section shall be collected by the county tag agent
+
+at the time of collection of other registration fees and shall be remitted to the state as
+
+provided in Code Section 40-2-34."
+
+SECTION 12.
+
+Said title is further amended in Code Section 40-2-60.1, relating to standardized
+administrative process for special license plates, designs, fees, and application process, by
+revising paragraph (5) of subsection (c) as follows:
+
+"(5) 'Special license plate renewal fee' means a $35.00 fee the fee required to be paid at
+
+the time a special license plate is renewed and a revalidation decal is issued. For an
+
+annual revalidation decal, such fee shall be $35.00 and for a five-year revalidation decal,
+
+such fee shall be $175.00."
+
+SECTION 13.
+
+Said title is further amended by revising Code Section 40-2-61, relating to license plates for
+U.S. Senators and Congressmen, state constitutional officers, Speaker of the House of
+
+Representatives, Justices of Supreme Court, Judges of Court of Appeals, and Public Service
+Commission members, as follows:
+
+"40-2-61.
+
+(a) As used in this Code section, the term 'state constitutional officer' means the Governor,
+
+Lieutenant Governor, Secretary of State, Attorney General, State School Superintendent,
+
+Commissioner of Insurance, Commissioner of Agriculture, or Commissioner of Labor.
+
+(b) The commissioner shall design and issue distinctive license plates to each United
+
+States Senator and Congressman elected from the State of Georgia, each state constitutional
+
+officer, the Speaker of the House of Representatives, each Justice of the Supreme Court
+
+and each Judge of the Court of Appeals, and each member of the Public Service
+
+Commission to be placed on such official's personal motor vehicle. Each such distinctive
+
+license plate shall indicate the individual's elected office and no county name decal need
+
+be affixed to such plate as required pursuant to Code Section 40-2-9. The special license
+
+plate authorized by this Code section shall be issued to such elected official upon
+
+application and payment of a manufacturing fee of $25.00 and upon compliance with the
+
+state laws relating to registration and licensing of motor vehicles and shall be transferred
+
+as provided in Code Section 40-2-80. Distinctive license plates issued pursuant to this
+
+Code section shall be renewed annually, and revalidation decals shall be issued upon
+
+compliance with the laws relating to registration and licensing and upon payment of subject
+
+to an additional annual registration fee of $35.00 which shall as a condition of obtaining
+
+an annual revalidation decal or an additional registration fee of $175.00 as a condition of
+
+obtaining a five-year revalidation decal for such license plate. The fee required by this
+
+Code section shall be collected by the county tag agent at the time for collection of other
+
+registration fees and shall be remitted to the state as provided in Code Section 40-2-34. For
+
+purposes of this Code section, the term 'state constitutional officer' means the Governor,
+
+Lieutenant Governor, Secretary of State, Attorney General, State School Superintendent,
+
+Commissioner of Insurance, Commissioner of Agriculture, or Commissioner of Labor."
+
+SECTION 14.
+
+Said title is further amended by revising Code Section 40-2-62, relating to license plates for
+current and former members of the General Assembly, as follows:
+
+"40-2-62.
+
+The commissioner shall mail special and distinctive license plates printed for members of
+
+the General Assembly and former members of the General Assembly who are hereby
+
+deemed to have emeritus status after having served in the General Assembly eight or more
+
+years to the local tag agent in the counties wherein such members or former members
+
+reside on or before the owner's registration period each year. Such special and distinctive
+
+license plates shall be issued only upon applications made to the local tag agent and
+
+payment of a $25.00 manufacturing fee. License plates may be issued by the local tag
+
+agent upon a proper application and in accordance with the terms of this chapter. License
+
+plates issued pursuant to this Code section need not contain a place for the county name
+
+decal as required pursuant to Code Section 40-2-9, and no county name decal need be
+
+affixed to a license plate issued pursuant to this Code section. Special and distinctive
+
+license plates issued pursuant to this Code section shall be renewed annually, and
+
+revalidation decals shall be issued upon compliance with the laws relating to registration
+
+and licensing and upon payment of subject to an additional annual registration fee of
+
+$35.00 which as a condition of obtaining an annual revalidation decal or an additional
+
+registration fee of $175.00 as a condition of obtaining a five-year revalidation decal for
+
+such license plate. The fee required by this Code section shall be collected by the county
+
+tag agent at the time for collection of other registration fees and shall be remitted to the
+
+state as provided in Code Section 40-2-34. The special license plates issued pursuant to
+
+this Code section shall be transferred to another vehicle as provided in Code Section
+
+40-2-80."
+
+SECTION 15.
+
+Said title is further amended by revising Code Section 40-2-63, relating to license plates for
+sheriffs, as follows:
+
+"40-2-63.
+
+The commissioner shall mail to the local tag agents special and distinctive license plates
+
+for the elected sheriffs in the counties of this state on or before the owner's registration
+
+period of each sheriff. The sheriffs shall make application with the local tag agent and
+
+shall pay a fee of $25.00. Special sheriffs' license plates issued pursuant to this Code
+
+section shall be renewed annually, and revalidation decals shall be issued upon compliance
+
+with the laws relating to registration and licensing and upon payment of an additional
+
+registration fee of $25.00 which subject to an additional annual registration fee of $25.00
+
+as a condition of obtaining an annual revalidation decal or an additional registration fee of
+
+$125.00 as a condition of obtaining a five-year revalidation decal for such license plate.
+
+The fee required by this Code section shall be collected by the county tag agent at the time
+
+of collection of other registration fees and shall be remitted to the state as provided in Code
+
+Section 40-2-34. License plates shall be issued by the local tag agents upon proper
+
+application and in accordance with the terms of Article 2 of this chapter. Only one special
+
+and distinctive license plate shall be issued to each elected sheriff; however, a sheriff may
+
+choose to use the sheriff's distinctive license plate either on the law enforcement vehicle
+
+assigned to such sheriff or on his or her personal vehicle."
+
+SECTION 16.
+
+Said title is further amended in Code Section 40-2-64, relating to license plates for honorary
+consuls, by revising subsection (a) as follows:
+
+"(a) Honorary consuls shall be issued license plates as prescribed in Code Section 40-2-31
+
+in duplicate for use on their official or private passenger automobiles, upon application and
+
+compliance with the state motor vehicle laws relative to the registration and licensing of
+
+motor vehicles, payment of the regular license fees for license plates as provided by law,
+
+payment of a manufacturing fee of $25.00, and payment of an additional annual registration
+
+fee of $25.00 which fee as a condition of obtaining an annual revalidation decal or an
+
+additional registration fee of $125.00 as a condition of obtaining a five-year revalidation
+
+decal for such license plate. The fee required by this Code section shall be collected by the
+
+county tag agent at the time of collection of other registration fees and shall be remitted as
+
+provided in Code Section 40-2-34, shall be issued license plates as prescribed in Code
+
+Section 40-2-31 in duplicate for use on their official or private passenger automobiles.
+
+Such license plates shall be fastened to both the front and the rear of the vehicle. No more
+
+than two sets of honorary consular corps license plates shall be issued to any country. Such
+
+plates shall not be used by any person after his or her appointment has ended."
+
+SECTION 17.
+
+Said title is further amended in Code Section 40-2-64.1, relating to license plates for official
+representatives of the Taipei Economic and Cultural Representatives Office, by revising
+subsection (b) as follows:
+
+"(b) Upon application and compliance with the state motor vehicle laws relating to the
+
+registration and licensing of motor vehicles and the payment of any registration fees,
+
+including the $25.00 manufacturing fee and the $35.00 special license plate fee or the
+
+$35.00 special license plate renewal fee, as applicable, official representatives of the Taipei
+
+Economic and Cultural Representatives Office in the United States who maintain a
+
+presence in Georgia shall be issued Foreign Organization license plates as prescribed in
+
+Code Section 40-2-31 in duplicate. License plates issued pursuant to this Code section
+
+shall be subject to an additional annual registration fee of $35.00 as a condition of
+
+obtaining an annual revalidation decal or an additional registration fee of $175.00 as a
+
+condition of obtaining a five-year revalidation decal for such license plate. The fee
+
+required by this Code section shall be collected by the county tag agent at the time of
+
+collection of other registration fees and shall be remitted to the state as provided in Code
+
+Section 40-2-34. Such license plates shall be fastened to both the front and the rear of the
+
+vehicle."
+
+SECTION 18.
+
+Said title is further amended in Code Section 40-2-65, relating to license plates for active and
+retired reservists and certain members of the National Guard, by revising subsection (a) as
+follows:
+
+"(a)(1) Motor vehicle owners who are assigned or attached members of troop program
+
+units of any branch of the active reserve components of the United States inside or
+
+outside the State of Georgia shall be eligible to receive free motor vehicle license plates
+
+for private passenger cars, motorcycles, or trucks used for personal transportation. Motor
+
+vehicle owners who are members of any National Guard unit in a state adjoining the State
+
+of Georgia and for whom there is no National Guard unit in the county of their residence
+
+shall be eligible to receive free motor vehicle plates for private passenger cars,
+
+motorcycles, or trucks used for personal transportation to identify such vehicle owner as
+
+a reservist. Such license plates shall be issued in compliance with the state motor vehicle
+
+laws relating to registration and licensing of motor vehicles as prescribed in Article 2 of
+
+this chapter. No person shall be entitled to more than one free motor vehicle license plate
+
+for any calendar year; provided, however, that, upon payment of the regular license fee
+
+provided for in Code Section 40-2-151 and a manufacturing fee of $25.00, a reservist
+
+shall be entitled to receive one additional such license plate. For each additional license
+
+plate for which an initial $25.00 fee was required, there shall be an additional annual
+
+registration fee of $25.00, which fee as a condition of obtaining an annual revalidation
+
+decal or an additional registration fee of $125.00 as a condition of obtaining a five-year
+
+revalidation decal for such license plate. The fee required by this paragraph shall be
+
+collected by the county tag agent at the time of collection of other registration fees and
+
+shall be remitted to the state as provided in Code Section 40-2-34. Additional words or
+
+symbols in addition to numbers and letters prescribed by law shall be inscribed upon such
+
+license plates so as to identify distinctively the owner as a member of one of the
+
+following branches of the United States military reserve: Army, Navy, Marines, Air
+
+Force, Space Force, or Coast Guard. The commanding officer of each active reserve
+
+component program unit or the adjutant general of the National Guard unit of each
+
+neighboring state shall, upon request of any reserve member or National Guard member
+
+of that unit, respectively, furnish to that member approved documentation supporting the
+
+member's current membership in the respective reserve or National Guard unit. This
+
+documentation shall be presented annually to the tax commissioner of the county in
+
+which the reserve member or National Guard member applies for the special license plate
+
+under this Code section and upon subsequent reregistration for each succeeding year.
+
+(2) Motor vehicle owners who are retired from any branch of the active reserve
+
+components whose active reservists are eligible to obtain free motor vehicle license plates
+
+under paragraph (1) of this subsection, upon application for license plates and upon
+
+compliance with the state motor vehicle laws relating to registration and licensing of
+
+motor vehicles as prescribed under Article 2 of this chapter, shall be issued, free of
+
+charge, a license plate as prescribed in that article for private passenger cars, motorcycles,
+
+or trucks used for personal transportation. Each such retired member shall be entitled to
+
+no more than one such free plate for any calendar year; provided, however, that, upon
+
+payment of the regular license fee provided for in Code Section 40-2-151 and a
+
+manufacturing fee of $25.00, a retired member shall be entitled to receive one additional
+
+such license plate. For each additional license plate for which an initial $25.00 fee was
+
+required, there shall be an additional annual registration fee of $25.00, which fee as a
+
+condition of obtaining an annual revalidation decal or an additional registration fee of
+
+$125.00 as a condition of obtaining a five-year revalidation decal for such license plate.
+
+The fee required by this paragraph shall be collected by the county tag agent at the time
+
+of collection of other registration fees and shall be remitted to the state as provided in
+
+Code Section 40-2-34. The license plates issued pursuant to this paragraph shall, in
+
+addition to the numbers and letters prescribed by law, be identical to those issued
+
+pursuant to paragraph (1) of this subsection to members of the branch of the active
+
+reserve component from which that person retired. The commanding officer of each
+
+active reserve component program unit shall, upon request of any retired reserve member
+
+from that unit, furnish to that retired member approved documentation supporting the
+
+retired member's current retired membership status from that reserve unit.
+
+documentation shall be presented to the tax commissioner of the county in which the
+
+retired reserve member applies for the special license plate under this Code section.
+
+(3) The license plates issued pursuant to paragraph (2) of this subsection shall contain
+
+the word 'RETIRED' in the location of and in lieu of the name of the county of issuance."
+
+SECTION 19.
+
+This
+
+Said title is further amended in Code Section 40-2-66, relating to license plates for active and
+retired members of the Georgia National Guard, by revising paragraphs (1) and (2) of
+subsection (a) as follows:
+
+"(a)(1) Motor vehicle owners who are members of the Georgia National Guard, upon
+
+application for license plates and upon compliance with the state motor vehicle laws
+
+relating to registration and licensing of motor vehicles as prescribed under Article 2 of
+
+this chapter, shall be issued, free of charge, a license plate, as prescribed in that article for
+
+private passenger cars, motorcycles, or trucks used for personal transportation. Each
+
+member of the Georgia National Guard shall be entitled to no more than one such free
+
+plate at a time; provided, however, that, upon payment of the regular license fee provided
+
+for in Code Section 48-10-2 and a manufacturing fee of $25.00, a member shall be
+
+entitled to one additional such license plate. For each additional license plate for which
+
+an initial $25.00 fee was required, there shall be an additional annual registration fee of
+
+$25.00 which fee as a condition of obtaining an annual revalidation decal or an additional
+
+registration fee of $125.00 as a condition of obtaining a five-year revalidation decal for
+
+such license plate. The fee required by this paragraph shall be collected by the county
+
+tag agent at the time of collection of other registration fees and shall be remitted to the
+
+state as provided in Code Section 40-2-34. Additional words or symbols, in addition to
+
+the numbers and letters prescribed by law, shall be inscribed upon such license plates so
+
+as to identify distinctively the owner as a member of the Georgia National Guard. The
+
+adjutant general of Georgia shall, upon request of any member of that National Guard
+
+unit, furnish to that member approved documentation supporting the member's current
+
+membership in that National Guard unit. This documentation shall be presented annually
+
+to the tax commissioner of the county in which the National Guard member applies for
+
+the special license plate under this Code section and upon subsequent reregistration for
+
+each succeeding year.
+
+(2) Motor vehicle owners who are retired members of the Georgia National Guard, upon
+
+application for license plates and upon compliance with the state motor vehicle laws
+
+relating to registration and licensing of motor vehicles as prescribed under Article 2 of
+
+this chapter, shall be issued, free of charge, a license plate as prescribed in that article for
+
+private passenger cars, motorcycles, or trucks used for personal transportation. Each
+
+retired member of the Georgia National Guard shall be entitled to no more than one such
+
+free plate at a time; provided, however, that, upon payment of the regular license fee
+
+provided for in Code Section 48-10-2 and a manufacturing fee of $25.00, a member shall
+
+be entitled to one additional such license plate. For each additional license plate for
+
+which an initial $25.00 fee was required, there shall be an additional annual registration
+
+fee of $25.00 which fee as a condition of obtaining an annual revalidation decal or an
+
+additional registration fee of $125.00 as a condition of obtaining a five-year revalidation
+
+decal for such license plate. The fee required by this paragraph shall be collected by the
+
+county tag agent at the time of collection of other registration fees and shall be remitted
+
+to the state as provided in Code Section 40-2-34. The license plates issued pursuant to
+
+this paragraph shall, in addition to the numbers and letters prescribed by law, be identical
+
+to those issued pursuant to paragraph (1) of this subsection. The adjutant general of
+
+Georgia shall, upon request of any member retired from that National Guard unit, furnish
+
+to that retired member approved documentation supporting the member's retired
+
+membership status in that National Guard unit. This documentation shall be presented
+
+annually to the tax commissioner of the county in which the retired National Guard
+
+member applies for the special license plate under this Code section and upon subsequent
+
+reregistration for each succeeding year."
+
+SECTION 20.
+
+Said title is further amended in Code Section 40-2-67, relating to license plates for state
+commanders of nationally chartered veterans' organizations, by revising subsection (a) as
+follows:
+
+"(a) The state commanders of nationally chartered veterans' organizations shall be issued
+
+license plates as prescribed in Code Section 40-2-31 for use on their official or private
+
+passenger automobiles, upon application and compliance with the state motor vehicle laws
+
+relative to the registration and licensing of motor vehicles, upon payment of the regular
+
+license fees for license plates as provided by law, and upon the payment of an additional
+
+initial fee of $25.00 and an additional annual registration fee of $25.00 which fee as a
+
+condition of obtaining an annual revalidation decal or an additional registration fee of
+
+$125.00 as a condition of obtaining a five-year revalidation decal for such license plate.
+
+The fee required by this subsection shall be collected by the county tag agent at the time
+
+of collection of other registration fees and shall be remitted as provided in Code Section
+
+40-2-34, shall be issued license plates as prescribed in Code Section 40-2-31 for use on
+
+their official or private passenger automobiles, upon which,. For a license plate issued
+
+under this Code section, in lieu of the numbers prescribed by said Code section, Code
+
+Section 40-2-31, there shall be such figures or symbols indicative of the office held by such
+
+individuals as may be prescribed by the commissioner."
+
+SECTION 21.
+
+Said title is further amended by revising Code Section 40-2-81, relating to license plates for
+members of the Georgia State Defense Force, as follows:
+
+"40-2-81.
+
+(a) For purposes of this Code section, the term 'Georgia State Defense Force' means that
+
+organization established pursuant to Part 3 of Article 1 of Chapter 2 of Title 38.
+
+(b)(1) Motor vehicle and trailer owners who are members of the Georgia State Defense
+
+Force shall be eligible to receive special and distinctive vehicle license plates for private
+
+passenger cars, trucks, motorcycles, or recreational vehicles used for personal
+
+transportation. Such license plates shall be issued in compliance with the state motor
+
+vehicle laws relating to registration and licensing of motor vehicles as prescribed in
+
+Article 2 of this chapter.
+
+(2)(A) Motor vehicle and trailer owners who are members of the Georgia State
+
+Defense Force shall be issued, upon application for and upon compliance with the state
+
+motor vehicle laws relating to registration and licensing of motor vehicles, a Georgia
+
+State Defense Force member license plate. One such license plate shall be issued
+
+without the requisite registration fee, manufacturing fee, or annual registration fee.
+
+(B) Each member of the Georgia State Defense Force shall be entitled to no more than
+
+one such free license plate at a time; provided, however, that, upon payment of a
+
+manufacturing fee of $25.00, a member shall be entitled to one additional such license
+
+plate. For each additional license plate for which a $25.00 manufacturing fee is
+
+required, there shall be an additional annual registration fee of $25.00 which fee as a
+
+condition of obtaining an annual revalidation decal or an additional registration fee of
+
+$125.00 as a condition of obtaining a five-year revalidation decal for such license plate.
+
+The fee required by this Code section shall be collected by the county tag agent at the
+
+time of collection of other registration fees and shall be remitted to the state as provided
+
+in Code Section 40-2-34.
+
+(c) The commissioner shall design a Georgia State Defense Force member license plate.
+
+The commissioner shall promulgate such rules and regulations as may be necessary to
+
+enforce compliance with all state license laws relating to the use and operation of private
+
+passenger cars, trucks, motorcycles, and trailers before issuing these license plates in lieu
+
+of the regular Georgia license plates. The manufacturing fee for such special and
+
+distinctive license plates shall be $25.00. The commissioner is specifically authorized to
+
+promulgate all rules and regulations necessary to ensure compliance in instances where
+
+such vehicles have been transferred or sold. Such Except as provided in subsection (e) of
+
+this Code section, such plates shall be nontransferable.
+
+(d) The special and distinctive vehicle license plates shall be as prescribed in Article 2 of
+
+this chapter for private passenger cars, trucks, motorcycles, and trailers used for personal
+
+transportation. Such plates shall contain such words or symbols, in addition to the numbers
+
+and letters prescribed by law, so as to identify distinctively the owners as members of the
+
+Georgia State Defense Force.
+
+(e) The license plate issued pursuant to this Code section may be transferred between
+
+vehicles as provided in Code Section 40-2-80.
+
+(f)
+
+subparagraph (b)(2)(A) of this Code section, shall be renewed annually with a revalidation
+
+decal as provided in Code Section 40-2-31 without payment of an additional $25.00 annual
+
+registration fee.
+
+(g) Should a member of the Georgia State Defense Force who has been issued a license
+
+plate or license plates be discharged or otherwise separated from the Georgia State Defense
+
+Force, the member shall forward his or her Georgia State Defense Force member license
+
+plate or plates to the commissioner along with a certificate to the effect that such person
+
+Special license plates issued under this Code section, except as provided in
+
+has been discharged or otherwise separated from the Georgia State Defense Force, and
+
+thereupon the commissioner shall issue a regular license plate, at no additional charge, to
+
+such former member of the Georgia State Defense Force to replace the Georgia State
+
+Defense Force member plate or plates."
+
+SECTION 22.
+
+Said title is further amended in Code Section 40-2-84, relating to license plates for Purple
+Heart recipients, by revising subsection (e) as follows:
+
+"(e) For each additional special license plate issued under this Code section there shall be
+
+an additional $25.00 annual registration fee which fee of $25.00 as a condition of obtaining
+
+an annual revalidation decal or an additional registration fee of $125.00 as a condition of
+
+obtaining a five-year revalidation decal for such license plate. The fee required by this
+
+Code section shall be collected by the county tag agent at the time of collection of other
+
+registration fees and shall be remitted to the state as provided in Code Section 40-2-34."
+
+SECTION 23.
+
+Said title is further amended in Code Section 40-2-85, relating to license plates for veterans
+who survived attack on Pearl Harbor, by revising subsection (e) as follows:
+
+"(e) Special license plates issued under this Code section shall be renewed annually with
+
+a revalidation decal as provided in Code Section 40-2-31. It shall be a requirement that a
+
+county name decal shall be affixed and displayed on license plates issued under this Code
+
+section subject to an additional annual registration fee of $25.00 as a condition of obtaining
+
+an annual revalidation decal or an additional registration fee of $125.00 as a condition of
+
+obtaining a five-year revalidation decal for such license plate. The fee required by this
+
+Code section shall be collected by the county tag agent at the time of collection of other
+
+registration fees and shall be remitted to the state as provided in Code Section 40-2-34."
+
+SECTION 24.
+
+Said title is further amended in Code Section 40-2-85.1, relating to license plates for certain
+veterans, by revising subparagraph (b)(2)(B) and subsections (e.1) and (f) as follows:
+
+"(B) Each member or former member of the armed forces of the United States listed
+
+in this subsection shall be entitled to no more than one such free license plate at a time;
+
+provided, however, that, upon payment of a manufacturing fee of $25.00, a member
+
+shall be entitled to one additional such license plate. For each additional license plate
+
+for which a $25.00 manufacturing fee is required, there shall be an additional annual
+
+registration fee of $25.00, and such fee as a condition of obtaining an annual
+
+revalidation decal or an additional registration fee of $125.00 as a condition of
+
+obtaining a five-year revalidation decal for such license plate. The fee required by this
+
+subparagraph shall be collected by the county tag agent at the time of collection of other
+
+registration fees and shall be remitted to the state as provided in Code Section 40-2-34."
+
+"(e.1)(f) The spouse of any person eligible to be issued a special license plate under this
+
+Code section shall also be eligible for such license plate, provided that no motor vehicle
+
+is registered in the name of the eligible person and all other requirements relating to
+
+registration and licensing relative to motor vehicles as prescribed in Article 2 of this
+
+chapter have been satisfied.
+
+(f)(g) Special license plates issued under this Code section, except as provided in
+
+subparagraph (b)(2)(A) of this Code section, shall be renewed annually with a revalidation
+
+decal as provided in Code Section 40-2-31 without payment of an additional $25.00 annual
+
+registration fee subject to an additional annual registration fee of $25.00 as a condition of
+
+obtaining an annual revalidation decal or an additional registration fee of $125.00 as a
+
+condition of obtaining a five-year revalidation decal for such license plate. The fee
+
+required by this Code section shall be collected by the county tag agent at the time of
+
+collection of other registration fees and shall be remitted to the state as provided in Code
+
+Section 40-2-34."
+
+SECTION 25.
+
+Said title is further amended in Code Section 40-2-85.2, relating to license plates for veterans
+of the Chosin Reservoir Campaign, by revising subsection (e) as follows:
+
+"(e) Special license plates issued under this Code section shall be renewed annually with
+
+a revalidation decal, as provided in Code Section 40-2-31, without payment of an
+
+additional $25.00 annual registration fee subject to an additional annual registration fee of
+
+$25.00 as a condition of obtaining an annual revalidation decal or an additional registration
+
+fee of $125.00 as a condition of obtaining a five-year revalidation decal for such license
+
+plate. The fee required by this Code section shall be collected by the county tag agent at
+
+the time of collection of other registration fees and shall be remitted to the state as provided
+
+in Code Section 40-2-34.
+
+(f) Special license plates issued under this Code section shall be transferred between
+
+vehicles as provided in Code Section 40-2-80."
+
+SECTION 26.
+
+Said title is further amended in Code Section 40-2-85.3, relating to license plates for Gold
+Star family members, by revising subsections (d) through (g) as follows:
+
+"(d) Any motor vehicle owner who is a resident of Georgia, other than one registering
+
+under the International Registration Plan, upon complying with state laws relating to
+
+registration and licensing of motor vehicles shall be issued such a special license plate upon
+
+application therefor. Special license plates issued under this Code section shall be renewed
+
+annually with a revalidation decal as provided in Code Section 40-2-31. Upon payment
+
+of all ad valorem taxes and other fees due at registration of a motor vehicle, an eligible
+
+family member may apply for a Gold Star license plate. In order to qualify as an eligible
+
+family member for purposes of this Code section, the person must be related to the fallen
+
+service member as a spouse, mother, father, sibling, child, stepparent, or surviving spouse
+
+of such service member's sibling. Up to two free license plates shall be allowed for any
+
+eligible family member and they may purchase additional license plates for each motor
+
+vehicle they register in this state. If a Gold Star license plate is lost, damaged, or stolen,
+
+the eligible family member must pay the reasonable cost, to be established by the
+
+department, but not to exceed the cost of other specialty license plates, to replace the Gold
+
+Star license plate An eligible family member shall be entitled to no more than two free
+
+license plates at a time; provided, however, that an eligible family member shall be entitled
+
+to additional license plates upon payment of a manufacturing fee of $25.00. For each
+
+additional license plate for which a $25.00 manufacturing fee is required, there shall be an
+
+additional annual registration fee of $35.00 as a condition of obtaining an annual
+
+revalidation decal or an additional registration fee of $175.00 as a condition of obtaining
+
+a five-year revalidation decal for such license plate. The fee required by this Code section
+
+shall be collected by the county tag agent at the time of collection of other registration fees
+
+and shall be remitted to the state as provided in Code Section 40-2-34.
+
+(e) Whether a service member is deemed to have been killed in action shall be determined
+
+by the classification of death as listed by the United States Department of Defense and may
+
+be verified from documentation directly from the Department of Defense.
+
+(f) Free Gold Star license plates shall be issued only to eligible family members who
+
+resided in Georgia at the time of the death of the service member. However,; provided,
+
+however, that an eligible family member who was not a resident of Georgia at the time of
+
+the death of the service member may purchase a Gold Star license plate, at a cost to be
+
+established by the department, not to exceed the cost of other specialty license plates shall
+
+be entitled to such license plate upon payment of a manufacturing fee of $25.00.
+
+(g) Renewal decals shall be issued at no cost to any person that received a free license
+
+plate under the provisions of this Code section upon the payment of ad valorem taxes and
+
+other registration fees, provided that the renewal is applied for on or within 30 days prior
+
+to the renewal date of the eligible person. If the eligible person fails to renew within such
+
+time, he or she shall pay a standard renewal fee and be subject to the standard penalties for
+
+late payment of ad valorem taxes due on the motor vehicle A special license plate issued
+
+to an eligible family member pursuant to this Code section shall be issued the required
+
+revalidation decal at no cost. Any special license plate issued pursuant to this Code section
+
+for a fee shall be subject to an additional annual registration fee of $35.00 as a condition
+
+of obtaining an annual revalidation decal or an additional registration fee of $175.00 as a
+
+condition of obtaining a five-year revalidation decal for such license plate. The fee
+
+required by this Code section shall be collected by the county tag agent at the time of
+
+collection of other registration fees and shall be remitted to the state as provided in Code
+
+Section 40-2-34."
+
+SECTION 27.
+
+Said title is further amended in Code Section 40-2-86, relating to license plates promoting
+or supporting certain agencies, funds, or nonprofit corporations with proceeds disbursed to
+the general fund and the agency, fund, or nonprofit corporation, by revising subparagraph
+(a)(1)(C) as follows:
+
+"(C) 'Special license plate renewal fee' means a $35.00 fee the fee required to be paid
+
+at the time a revalidation decal is issued for a special license plate. For an annual
+
+revalidation decal, such fee shall be $35.00 and for a five-year revalidation decal, such
+
+fee shall be $175.00."
+
+SECTION 28.
+
+Said title is further amended in Code Section 40-2-86.1, relating to license plates promoting
+or supporting certain agencies, funds, or nonprofit corporations or issued to qualified motor
+vehicles or owners with proceeds deposited in the general fund, by revising subsection (d)
+as follows:
+
+"(d) Any Georgia resident who is the owner of a motor vehicle, except a vehicle registered
+
+under the International Registration Plan, upon complying with the motor vehicle laws
+
+relating to registration and licensing of motor vehicles and upon the payment of a
+
+manufacturing fee of $25.00 and a special license plate fee of $35.00, in addition to the
+
+regular motor vehicle registration fee, shall be able to apply for a special license plate listed
+
+in subsection (l) of this Code section. Revalidation decals shall be issued for special
+
+license plates in the same manner as provided for general issue license plates., with the
+
+addition of a $35.00 special license plate renewal fee, For an annual revalidation decal,
+
+such fee shall be $35.00 and for a five-year revalidation decal, such fee shall be $175.00,
+
+provided that special license plates issued pursuant to paragraph (9) of subsection (l) of this
+
+Code section shall be exempt from such special license plate renewal fee."
+
+SECTION 29.
+
+Said title is further amended in Code Section 40-2-151, relating to annual license fees for
+operation of vehicles, fee for permanent licensing of certain trailers, and fee for new
+passenger car with paid title ad valorem taxes, by revising subsection (c) as follows:
+
+"(c) The fee for a new motor vehicle which is a passenger car for which the purchaser has
+
+paid state and local title ad valorem taxes and that is being registered as provided in
+
+subsection (d) of Code Section 40-2-20 shall be $40.00 for the two-year registration period.
+
+Upon the election of a five-year motor vehicle registration and revalidation decal by an
+
+owner of an eligible motor vehicle, the fees for the licensing of the operation of such
+
+eligible motor vehicle shall be five times the applicable amount set forth in subsection (a)
+
+of this Code section for the five-year registration period."
+
+SECTION 30.
+
+Said title is further amended by adding a new Code section to read as follows:
+
+"40-2-139.
+
+(a) For purposes of aiding in the enforcement of any emission inspection certification
+
+requirements under Article 2 of Chapter 9 of Title 12, any emission inspection station
+
+holding a valid certificate of authorization from the Department of Natural Resources shall
+
+electronically transmit notice of the issuance of an emission inspection certification to the
+
+department within seven days of such issuance. Such notice shall include the name and
+
+contact information of the emission inspection station, the vehicle identification number
+
+to which such certificate has been issued, and the make and model year of such motor
+
+vehicle. The department shall prescribe the form and manner of electronic transmission
+
+for the purposes of complying with this Code section.
+
+(b) The department shall identify when a motor vehicle owner is required to comply with
+
+emission inspection certification requirements under Article 2 of Chapter 9 of Title 12, and
+
+no motor vehicle registration or renewal thereof shall be issued without notice to the
+
+department pursuant to this Code section that an emission inspection certification has been
+
+issued for such vehicle.
+
+(c)(1) The department shall monitor the reporting by emission inspection stations of the
+
+issuance of emission inspection certifications. When a five-year registration has been
+
+issued by the department for a vehicle identification number recorded in the department's
+
+motor vehicle records that is required to comply with emission certification requirements
+
+under Article 2 of Chapter 9 of Title 12, the department shall annually verify that the
+
+required emission inspection certification notice has been transmitted. The department
+
+shall notify the owner of a motor vehicle with a five-year registration period that lacks
+
+the required annual emission inspection certification. The department shall send such
+
+notice to the address of the owner of the motor vehicle shown in the records of the
+
+department unless such owner has consented to electronic notifications and
+
+communications pursuant to Code Section 40-1-9.
+
+(2) It shall be the duty of the owner of a motor vehicle receiving notice pursuant to
+
+paragraph (1) of this subsection to obtain an emission inspection certification and provide
+
+proof of such certification to the department within 30 days of receipt of such notice. If
+
+proof of an emission inspection certification is not provided within the time period
+
+specified in this Code section, the owner's motor vehicle registration shall be suspended
+
+immediately by operation of law by the department. When such proof is provided and
+
+the owner pays a $60.00 restoration fee, the suspension shall terminate. If any restoration
+
+fee provided for in this Code section is paid to the county tax commissioner, the county
+
+shall retain $10.00 thereof as a collection fee."
+
+SECTION 31.
+
+This Act shall become effective on July 1, 2027.
+
+SECTION 32.
+
+All laws and parts of laws in conflict with this Act are repealed.

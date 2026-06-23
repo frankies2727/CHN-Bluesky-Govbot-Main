@@ -1,0 +1,1962 @@
+House Bill 1272 (AS PASSED HOUSE AND SENATE)
+By: Representatives Jones of the 25th, Hilton of the 48th, Douglas of the 78th, Williamson of
+the 112th, Mitchell of the 88th, and others
+
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Title 7 of the Official Code of Georgia Annotated, relating to banking and finance,
+
+so as to provide for use of certain terms in the advertisement and place of business of
+
+licensed payment stablecoin issuers; to provide for licensing of payment stablecoin issuers;
+
+to provide for rules and regulations; to provide for application procedures; to provide for
+
+requirements for licensed payment stablecoin issuers; to provide for license renewal; to
+
+provide for information sharing with certain entities; to prohibit unlicensed persons from
+
+issuing payment stablecoin; to provide for the Department of Banking and Finance to request
+
+and receive conviction data; to provide for certain disqualifying conditions for licensure; to
+
+provide for procedures for denying applications; to provide for appeals; to provide for certain
+
+fees and assessments; to provide for certain certifications to the department; to require
+
+licensed payment stablecoin issuers to maintain certain reserves; to provide for procedures
+
+for failure by a licensed payment stablecoin issuer to meet certain reserves; to provide for
+
+certain capital requirements; to provide for reserves to be held in trust for consumers; to
+
+provide for certain disclosures; to provide for treatment as a financial institution; to provide
+
+for certain activities in which licensed payment stablecoin issuers can participate; to prohibit
+
+certain activities; to provide for annual financial statements; to provide for requirements for
+
+annual financial statements; to provide for examination and investigation of licensed
+
+payment stablecoin issuers; to provide for powers of the department relating to examination
+
+and investigation; to provide for third-party examination or investigation; to provide for
+
+payment of certain fees and costs of examination and investigation; to provide for suspension
+
+or revocation of a license and procedures therefor; to provide for cease and desist orders; to
+
+provide for removal of certain officers and members; to provide for a short title; to provide
+
+for legislative purpose and intent; to provide for definitions; to provide for related matters;
+
+to provide for an effective date and applicability; to repeal conflicting laws; and for other
+
+purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Title 7 of the Official Code of Georgia Annotated, relating to banking and finance, is
+
+amended by revising subparagraphs (K) and (L) of and adding a new subparagraph to
+
+paragraph (21) of Code Section 7-1-4, relating to definitions regarding purposes and
+
+preliminary matters, to read as follows:
+
+"(K) Federal credit unions for the purposes of Part 6 of Article 2 of this chapter,
+
+relating to deposits, safe-deposit agreements, and money received for transmission, and
+
+Article 8 of this chapter, relating to multiple-party accounts; and
+
+(L) Banks and credit unions chartered by states other than Georgia, national banks,
+
+federal credit unions, and federal savings and loan associations for the purposes of
+
+paragraph (1) of Code Section 7-1-650, provided that such institutions have federal
+
+deposit insurance; and
+
+(M) Licensed payment stablecoin issuers as defined by Code Section 7-11-3 for the
+
+purpose of the following provisions:
+
+(i) Code Section 7-1-2, relating to findings of the General Assembly;
+
+(ii) Code Section 7-1-8, relating to supplementary principles of law;
+
+(iii) Code Section 7-1-37, relating to restrictions on officials and personnel;
+
+(iv) Code Section 7-1-70, relating to disclosure of information;
+
+(v) Code Section 7-1-90, relating to judicial review of department actions;
+
+(vi) Code Sections 7-1-113 and 7-1-114, relating to voluntary dissolution;
+
+(vii) Code Sections 7-1-150 through 7-1-225, relating to receivership powers and
+
+procedures; and
+
+(viii) Code Sections 7-1-910 through 7-1-917, relating to records and reports of
+
+currency transactions."
+
+SECTION 2.
+
+Said title is further amended in Article 2, relating to banks and trust companies, by revising
+
+paragraph (2) of subsection (c) of and adding a new subsection to Code Section 7-1-243,
+
+relating to restrictions on banking and trust nomenclature, to read as follows:
+
+"(b.1) Except as provided in subsection (c) of this Code section, no person or corporation,
+
+except a federal qualified payment stablecoin issuer or a licensed payment stablecoin
+
+issuer, as such terms are defined in Code Section 7-11-3, shall use the words 'stablecoin'
+
+or 'payment stablecoin' upon any sign at its place of business or elsewhere, or in any form
+
+of marketing, including, but not limited to, its letterheads, billheads, blank checks, blank
+
+notes, receipts, certificates, circulars, advertisements, or any other written or printed
+
+matter."
+
+"(2) Prohibit advertisement in media distributed in or transmitted into this state by
+
+persons or corporations lawfully engaged in the banking, credit union, or trust business,
+
+or persons or corporations lawfully issuing payment stablecoins outside of this state; or"
+
+SECTION 3.
+
+Said title is further amended by adding a new chapter to read as follows:
+
+"CHAPTER 11
+
+7-11-1.
+
+This chapter shall be known and may be cited as the 'Georgia Payment Stablecoin Act.'
+
+7-11-2.
+
+(a) The purpose of this chapter is to enact Section 4(c) of the Guiding and Establishing
+
+National Innovation for U.S. Stablecoins Act, Pub. L. No. 119-27.
+
+(b) It is the intent of the General Assembly that this chapter;
+
+(1) Provides for the regulation of payment stablecoins;
+
+(2) Enables financial service providers in this state the opportunity to issue payment
+
+stablecoins;
+
+(3) Ensures the law of this state is substantially similar to the GENIUS Act; and
+
+(4) Empower the department to issue regulations to implement federal regulations
+
+promulgated to implement the GENIUS Act.
+
+7-11-3.
+
+As used in this chapter, the term:
+
+(1) 'Department' means the Department of Banking and Finance.
+
+(2) 'Digital asset' means any digital representation of value that is recorded on a
+
+cryptographically secured distributed ledger.
+
+(3) 'Distributed ledger' means technology in which data is shared across a network that
+
+creates a public digital ledger of verified transactions or information among network
+
+participants and cryptography is used to link the data to maintain the integrity of the
+
+public ledger and execute other functions.
+
+(4) 'Federal qualified payment stablecoin issuer' means an entity approved by the federal
+
+Office of the Comptroller of the Currency pursuant to the GENIUS Act to issue payment
+
+stablecoins.
+
+(5) 'GENIUS Act' means the Guiding and Establishing National Innovation for U.S.
+
+Stablecoins Act, Pub. L. No. 119-27, as amended.
+
+(6) 'Licensed payment stablecoin issuer' means a payment stablecoin issuer that is
+
+incorporated or organized under the laws of Georgia or the laws of a foreign country and
+
+that holds a license pursuant to this chapter.
+
+(7) 'Payment stablecoin' means a digital asset that:
+
+(A) Is designed or marketed to be used as a means of payment or settlement;
+
+(B) The issuer of which undertakes to convert, redeem, or repurchase for a fixed
+
+amount of monetary value; and
+
+(C) Is not legal tender, a deposit, or a security registered under federal securities laws.
+
+(8) 'Payment stablecoin issuer' means a person that issues a payment stablecoin.
+
+(9) 'Permitted payment stablecoin issuer' means a subsidiary of an insured depository
+
+institution that has been approved to issue payment stablecoins as described in Section 5
+
+of the GENIUS Act, a licensed payment stablecoin issuer, a federal qualified payment
+
+stablecoin issuer, or a state qualified payment stablecoin issuer.
+
+(10) 'Person' means an individual, corporation, limited liability company, partnership,
+
+association, trust, or any other entity.
+
+(11) 'State payment stablecoin regulator' means a state agency of another state that has
+
+primary regulatory and supervisory authority in such state over payment stablecoin
+
+issuers.
+
+(12) 'State qualified payment stablecoin issuer' means a payment stablecoin issuer that
+
+is legally established under the laws of a state and approved to issue payment stablecoins
+
+by a state payment stablecoin regulator.
+
+(13)(A) 'Ultimate equitable owner' means a person that, directly or indirectly:
+
+(i) Owns a 10 percent or more interest in a corporation or any other form of business
+
+organization;
+
+(ii) Owns 10 percent or more of the voting shares of any corporation or any other
+
+form of business organization; or
+
+(iii) Exerts control over a corporation or any other form of business organization,
+
+regardless of whether such person owns or controls such interest through one or more
+
+natural persons or one or more proxies, powers of attorney, nominees, corporations,
+
+associations, limited liability companies, partnerships, trusts, joint stock companies,
+
+or other entities or devices, or any combination thereof.
+
+(B) For purposes of determining ultimate equitable ownership by an individual, the
+
+individual's interest shall be aggregated with the interest of any other immediate family
+
+member, including the individual's spouse, parents, children, siblings, mothers- and
+
+fathers-in-law, sons- and daughters-in-law, brothers- and sisters-in-law, and any other
+
+individual who shares such individual's home.
+
+7-11-4.
+
+(a) The department may make reasonable rules and regulations, not inconsistent with law,
+
+for:
+
+(1) The interpretation of this chapter, including, but not limited to, language to achieve
+
+substantial similarity with the provisions of the GENIUS Act; and
+
+(2)
+
+administrative fines for violations of this chapter and of any rules promulgated by the
+
+department pursuant to this chapter.
+
+(b) The department shall by rule prescribe application, licensing, examination, and
+
+supervision fees or assessments.
+
+(c) The department shall:
+
+The enforcement of this chapter, including, but not limited to, prescribing
+
+(1) Receive, review, and consider for approval applications from any person that seeks
+
+to issue payment stablecoins as a licensed payment stablecoin issuer;
+
+(2) Establish a process and framework for the licensing, regulation, examination, and
+
+supervision of licensed payment stablecoin issuers;
+
+(3) Issue regulations consistent with the process and framework established pursuant to
+
+paragraph (2) of this subsection; and
+
+(4) Accept and process applications pursuant to the regulations issued in paragraph (3)
+
+of this subsection.
+
+(d) The department may initiate receivership proceedings against a licensed payment
+
+stablecoin issuer pursuant to Code Section 7-1-150. If such proceedings are initiated, the
+
+department has the powers, authorities, and duties prescribed by Code Sections 7-1-150
+
+through 7-1-225.
+
+(e) The department may initiate conservatorship proceedings against a licensed payment
+
+stablecoin issuer pursuant to Code Section 7-1-640. If such proceedings are initiated, the
+
+department has the powers, authorities, and duties prescribed by Code Sections 7-1-640
+
+through 7-1-645.
+
+7-11-5.
+
+(a) The department may share information on an ongoing basis with the Board of
+
+Governors of the Federal Reserve System with respect to licensed payment stablecoin
+
+issuers, including a copy of the initial application and any accompanying documents.
+
+(b) The department may enter into a memorandum of understanding with the Board of
+
+Governors of the Federal Reserve System under which the Board of Governors of the
+
+Federal Reserve System may participate in the supervision, examination, and enforcement
+
+of the GENIUS Act with respect to licensed payment stablecoin issuers.
+
+7-11–6.
+
+(a) It shall be unlawful for any person other than a permitted payment stablecoin issuer to
+
+issue a payment stablecoin in this state.
+
+(b) Beginning July 18, 2028, it shall be unlawful to offer or sell a payment stablecoin
+
+unless the payment stablecoin is issued by a licensed payment stablecoin issuer, a permitted
+
+payment stablecoin issuer, or a state qualified payment stablecoin issuer.
+
+(c) This Code section shall not apply to:
+
+(1) The direct transfer of digital assets between two individuals acting on their own
+
+behalf and for their own lawful purposes, without the involvement of an intermediary;
+
+(2) Any transaction involving the receipt of digital assets by an individual between an
+
+account owned by the individual in the United States and an account owned by the
+
+individual abroad that are offered by the same parent company; or
+
+(3) Any transaction by means of a software or hardware wallet that facilitates an
+
+individual's own custody of digital assets.
+
+7-11-7.
+
+(a) A licensed payment stablecoin issuer shall at all times maintain an office in this state.
+
+(b) Within one year after the date it begins operations, a licensed payment stablecoin issuer
+
+shall have the minimum number of employees in this state as determined by the
+
+commissioner to assure the continued and substantive presence of the licensed payment
+
+stablecoin issuer in this state for the purpose of conducting its corporate affairs and
+
+operations.
+
+7-11-8.
+
+(a) The department is authorized to:
+
+(1) Participate in the Nationwide Multistate Licensing System and Registry;
+
+(2) Enter into operating agreements and other contracts necessary for the department's
+
+participation in the Nationwide Multistate Licensing System and Registry;
+
+(3) Disclose or cause to be disclosed without liability, via the Nationwide Multistate
+
+Licensing System and Registry, applicant and licensed payment stablecoin issuer
+
+information, including, but not limited to, violations of this chapter and enforcement
+
+actions;
+
+(4) Request that the Nationwide Multistate Licensing System and Registry adopt an
+
+appropriate privacy, data security, and security breach notification policy that is in full
+
+compliance with existing state and federal law; and
+
+(5) Establish and adopt, by rule or regulation, requirements for participation by
+
+applicants and licensed payment stablecoin users in the Nationwide Multistate Licensing
+
+System and Registry upon the department's determination that each requirement is
+
+consistent with both the public interest and purposes of this chapter.
+
+(b) The department shall enact rules and regulations establishing a process whereby
+
+licensed payment stablecoin issuers may challenge information entered by the department
+
+on the Nationwide Multistate Licensing System and Registry.
+
+(c) Irrespective of its participation in the Nationwide Multistate Licensing System and
+
+Registry, the department shall retain full and exclusive authority over determinations of
+
+whether to grant, renew, suspend, or revoke licenses issued under this chapter. Nothing in
+
+this Code section shall be construed to reduce or otherwise limit such authority.
+
+(d) Information disclosed through the Nationwide Multistate Licensing System and
+
+Registry is deemed to be disclosed directly to the department and is subject to the
+
+provisions of Code Section 7-1-70. Such information shall not be disclosed to the public
+
+and shall remain privileged and confidential pursuant to Code Section 7-1-70.
+
+7-11-9.
+
+(a) Each applicant for a license under this chapter shall:
+
+(1) Submit an application in writing, which is made under oath and in such form as the
+
+department may prescribe;
+
+(2) Provide to the Nationwide Multistate Licensing System and Registry the following
+
+information:
+
+(A) The legal name and principle office address of the person applying for the license;
+
+(B) The name, residence, and business address of each director, ultimate equitable
+
+owner, and executive officer; and
+
+(C) The location where the initial registered office will be located in this state, if any;
+
+and
+
+(3) Submit such other data, financial statements, and pertinent information as the
+
+department may require with respect to the applicant, its directors, trustees, officers,
+
+members, ultimate equitable owners, subsidiaries, or affiliates.
+
+(b) The application for license shall be filed with:
+
+(1) An investigation and supervision fee established by the department through rule or
+
+regulation which shall not be refundable but which, if the license is granted, shall satisfy
+
+the fee requirement for the first licensed year or the remaining part thereof;
+
+(2) Any other items required by this chapter; and
+
+(3) Other information as may be required by the department.
+
+(c) The department shall pay all fees received from licensed payment stablecoin issuers
+
+and applicants related to applications, licenses, and renewals to the Office of the State
+
+Treasurer; provided, however, that the department may net such fees to recover the cost of
+
+participation in the Nationwide Multistate Licensing System and Registry.
+
+(d) The department shall enact rules and regulations regarding the time frame by which
+
+all persons shall submit an original or renewal application for licensure through the
+
+Nationwide Multistate Licensing System and Registry.
+
+(e) A substantially complete application shall be evaluated by the department using the
+
+factors listed in Code Section 7-11-10.
+
+7-11-10.
+
+(a) As used in this Code section, the term 'conviction data' means a record of a finding,
+
+verdict, or plea of guilty or nolo contendere with regard to any crime, regardless of whether
+
+an appeal of the conviction has been sought.
+
+(b)
+
+stablecoin issuers or renewal applications for licensed payment stablecoin issuers, the
+
+department shall consider various factors, including, but not limited to:
+
+(1) The ability of the applicant, based on financial condition and resources, to meet the
+
+requirements prescribed by this chapter;
+
+In evaluating initial applications received from prospective licensed payment
+
+(2)(A) Whether an individual who has been convicted of a felony offense involving
+
+conversion, theft, money laundering, financing of terrorism, bribery, dishonesty, false
+
+statements or omissions, perjury, extortion, breach of trust, forgery, counterfeiting,
+
+embezzlement, insider trading, tax evasion, kickbacks, identity theft, cybercrime, cyber
+
+attacks, social engineering, fraud, including but not limited to check fraud, credit card
+
+fraud, mortgage fraud, medical fraud, corporate fraud, bank account fraud, point of sale
+
+fraud, currency fraud, bank fraud, and securities fraud, or a felony directly related to the
+
+financial services business is serving as an officer, director, or ultimate equitable owner
+
+of the applicant.
+
+(B)(i) For the purposes of this chapter, a person shall be deemed to have been
+
+convicted of a crime if such person has pleaded guilty or nolo contendere to a charge
+
+before a court or federal magistrate or have been found guilty by the decision or
+
+judgment of a court or federal magistrate or by the verdict of a jury, irrespective of
+
+the pronouncement of sentence or the suspension of such sentence. Additionally, a
+
+person shall be deemed to have been convicted of a crime regardless of whether first
+
+offender treatment without adjudication of guilt pursuant to the charge was entered
+
+or an adjudication or sentence was otherwise withheld or not entered on that charge.
+
+(ii) A person shall be deemed to have been convicted of a crime unless and until the
+
+plea of guilty or nolo contendere or the decision, judgment, or verdict has been set
+
+aside, reversed, or otherwise abrogated by lawful judicial process, or until probation,
+
+sentence, or both probation and sentence of a first offender without adjudication of
+
+guilt have been successfully completed and documented or unless the person
+
+convicted of the crime shall have received a pardon from the President of the United
+
+States or the governor or other pardoning authority in the jurisdiction where the
+
+conviction occurred.
+
+(C) The department shall be authorized to obtain conviction data with respect to any
+
+applicant or licensed payment stablecoin issuer; and any person who is a director,
+
+officer, or ultimate equitable owner of an applicant or licensed payment stablecoin
+
+issuer. Criminal history record checks may be requested by the department through the
+
+Georgia Crime Information Center and the Federal Bureau of Investigation. The
+
+department shall have the authority to receive the results of such checks. The
+
+department may use the Nationwide Multistate Licensing System and Registry as a
+
+channeling agent for the submission of fingerprints to the Federal Bureau of
+
+Investigation and any governmental agency or entity authorized to receive such
+
+information for a state, national, and international criminal history background check
+
+and the receipt of such checks by the department. Fees required for a criminal history
+
+record check by the Georgia Crime Information Center or the Federal Bureau of
+
+Investigation shall be paid by the applicant or licensed payment stablecoin issuer.
+
+(D)(i) Upon request by the department, each applicant or licensed payment stablecoin
+
+issuer and each person who is a director, officer, or ultimate equitable owner of an
+
+applicant or licensed payment stablecoin issuer shall submit to the department
+
+fingerprints, the required records search fees, and such other information as may be
+
+required;
+
+(ii) Fees for background checks that the department administers shall be submitted
+
+to the department by applicants and licensed payment stablecoin issuers together with
+
+fingerprints, and the department is authorized to net such fees to recover any costs
+
+incurred by the department related to running the background checks;
+
+(iii) Upon receipt of fingerprints, fees, and other required information from the
+
+department, the Georgia Crime Information Center shall promptly transmit
+
+fingerprints to the Federal Bureau of Investigation for a search of bureau records and
+
+an appropriate report and promptly conduct a search of its own records and records
+
+to which it has access;
+
+(iv) The Georgia Crime Information Center shall notify the department in writing of
+
+any derogatory finding, including, but not limited to, any conviction data regarding
+
+the fingerprint records check, or if there is no such finding;
+
+(v) All conviction data received by the department shall be used by the department
+
+for the exclusive purpose of carrying out the responsibilities of this chapter, shall not
+
+be a public record, shall be confidential, and shall not be disclosed to any other person
+
+or agency except to any person or agency which otherwise has a legal right to inspect
+
+such data; and
+
+(vi) All such records shall be maintained by the department pursuant to laws
+
+regarding such records and the rules and regulations of the Georgia Crime
+
+Information Center and the Federal Bureau of Investigation, as applicable;
+
+(3) The competence, experience, financial responsibility, character, integrity, and general
+
+fitness of the applicant and of the ultimate equitable owners, officers, and directors of the
+
+applicant, its subsidiaries, and parent company, including:
+
+(A)
+
+compliance with laws and regulation; and
+
+The record of those ultimate equitable owners, officers, and directors of
+
+(B) The ability of those ultimate equable owners, officers, and directors to fulfill any
+
+commitments to and any conditions imposed by the department in connection with the
+
+application at issue and any prior applications;
+
+(4) Whether the redemption policy of the applicant meets the standards under Code
+
+Section 7-11-21;
+
+(5) Any other factors established under federal law or regulations as applying to state
+
+qualified payment stablecoin users; and
+
+(6) Any other factors established by this chapter or regulation of the department
+
+implementing this chapter.
+
+7-11-11.
+
+(a) No later than 120 days after receiving a substantially complete application, the
+
+department shall render a decision on the application.
+
+(b) An application shall be deemed substantially complete when all required fees have
+
+been paid, all portions of the application have been completed, and the department has
+
+sufficient information to determine whether the applicant satisfies the factors described in
+
+Code Section 7-11-10.
+
+(c) Not later than 30 days after receiving an application, the department shall notify the
+
+applicant as to whether the department considers the application to be substantially
+
+complete, and, if the application is not substantially complete, the additional information
+
+the applicant shall provide in order for the application to be considered substantially
+
+complete.
+
+(d) An application considered substantially complete remains substantially complete
+
+unless there is a material change in circumstances that requires the department to treat the
+
+application as a new application.
+
+(e) If the department fails to render a decision on a substantially complete application with
+
+days of deeming such application substantially complete, the application shall be
+
+deemed approved.
+
+7-11-12.
+
+(a) The department shall deny an application for licensure if:
+
+(1) The department determines that the applicant does not satisfy the factors listed in
+
+Code Section 7-11-10 or that the applicant is operating or would operate in an unsafe or
+
+unsound manner;
+
+(2) Such applicant is subject to a final cease and desist order that has been issued within
+
+the preceding five years if such order was based on a violation of this chapter; or
+
+(3) Such applicant had a license issued pursuant to this chapter revoked within the
+
+previous five years.
+
+(b) The issuance of a payment stablecoin on an open, public, or centralized network shall
+
+not be a valid ground for denial of an application.
+
+(c)(1) As used in this subsection, the term 'email address of record' means the email
+
+address that the applicant has designated as his or her email address for regulatory contact
+
+on file with the Nationwide Multistate Licensing System and Registry.
+
+(2) Notice of the department's intent to deny an application for a license shall be given
+
+to the applicant, sent by registered or certified mail or statutory overnight delivery
+
+addressed to the principal place of business of such applicant or to the email address of
+
+record of such applicant. If a person refuses to accept service of the notice by registered
+
+or certified mail or statutory overnight delivery, the notice or denial shall be served by
+
+the commissioner, or the commissioner's authorized representative, under any other
+
+method of lawful service, and the person shall be personally liable to the commissioner
+
+for a sum equal to the actual costs incurred to serve the notice or order. This liability
+
+shall be paid upon notice and demand by the commissioner or the commissioner's
+
+representative and shall be assessed and collected in the same manner as other fees or
+
+fines administered by the commissioner.
+
+(d) Within 30 days of the date of the notice of intention to deny an application, the
+
+applicant may request in writing a hearing to contest the denial. If a hearing is not
+
+requested within 30 days of such notice of intention, the department shall enter the denial.
+
+(e) If a timely request for a hearing pursuant to subsection (d) of this Code section is
+
+received by the department, the department shall notice a time and place at which the
+
+applicant may appear for a hearing.
+
+(f) The department shall issue a final decision on the application not later than 60 days
+
+after the date of the hearing.
+
+(g) The department shall state the ground upon which it denied the application and such
+
+denial shall be effective on the date of issuance. A copy of the denial shall be sent by mail
+
+addressed to the principal place of business of the applicant or licensed payment stablecoin
+
+user.
+
+(h) A decision by the department denying the application shall be subject to review in
+
+accordance with Chapter 13 of Title 50, the 'Georgia Administrative Procedure Act.'
+
+(i) Whenever the department initiates an administrative action against an applicant, the
+
+department may pursue such action to its conclusion despite the fact that an applicant may
+
+withdraw its application.
+
+(j) Judicial review of any final decision the department entered pursuant to the Code
+
+section shall be available solely in the superior court of the county of domicile of the
+
+department.
+
+(k) The denial of an application pursuant to this Code section shall not prohibit an
+
+applicant from filing a subsequent application.
+
+7-11-13.
+
+The department shall:
+
+(1) Notify the General Assembly upon receipt of the first application filed pursuant to
+
+this chapter; and
+
+(2) Annually report to the General Assembly on any substantially complete applications
+
+that have been pending for 180 days or more since the date the initial application was
+
+filed and for which the applicant has been informed that the application remains
+
+incomplete.
+
+7-11-14.
+
+A permitted payment stablecoin issuer is not required to obtain any other license or charter
+
+to issue payment stablecoins or to offer, sell, or redeem such payment stablecoin. Issuance
+
+of payment stablecoin shall not be considered to be money transmission as defined by Code
+
+Section 7-1-680. To the extent a permitted payment stablecoin issuer that is not a licensed
+
+payment stablecoin issuer engages in activity that satisfies the definition of money
+
+transmission other than the issuing of a payment stablecoin and offering, selling, or
+
+redeeming such stablecoin, such permitted payment stablecoin issuer will be required to
+
+obtain a license to conduct money transmission.
+
+7-11-15.
+
+(a) Except as otherwise provided for in this chapter, all licenses issued pursuant to this
+
+chapter shall expire on December 31 of each year, and each application for renewal shall
+
+be made annually on or before December 1 of each year.
+
+(b) A license may be renewed by filing an application substantially conforming with the
+
+requirements of Code Section 7-11-9 and department rules and regulations.
+
+investigation fee shall be payable in connection with such renewal application; provided,
+
+however, that an annual license fee established by the department shall be paid with each
+
+renewal application and shall not be refunded or prorated.
+
+No
+
+(c) The department is authorized to establish an annual assessment to further defray the
+
+cost of supervision and such assessment shall not be refunded or prorated.
+
+7-11-16.
+
+(a) Not later than 180 days after approval of an application and at the time of filing a
+
+renewal application thereafter, each licensed payment stablecoin issuer shall submit to the
+
+department a certification that the issuer has implemented anti-money laundering and
+
+economic sanctions compliance programs that are reasonably designed to prevent the
+
+licensed payment stablecoin issuer from facilitating money laundering, in particular, money
+
+laundering for cartels and organizations designated as foreign terrorist organizations.
+
+(b) The department shall make such certifications available to the Secretary of the
+
+Treasury upon request.
+
+(c)(1) The department may revoke the license of a licensed payment stablecoin issuer
+
+that does not submit a certification pursuant to subsection (a) of this Code section.
+
+(2)(A) Any person that knowingly submits a false certification shall be subject to Code
+
+Section 16-10-20.
+
+(B) If a person knowingly violates this Code section, the department may refer the
+
+matter to the Attorney General or the United States Attorney General.
+
+7-11-17.
+
+(a) A licensed payment stablecoin issuer shall maintain identifiable reserves backing the
+
+outstanding payment stablecoins of the licensed payment stablecoin issuer on at least a one
+
+to one basis, which reserves are composed of:
+
+(1) United States coins and currency or money standing to the credit of an account with
+
+a federal reserve bank;
+
+(2) Funds held as demand deposits, or other deposits that may be withdrawn upon
+
+request at any time, or insured shares at an insured depository institution subject to
+
+limitations established by the Federal Deposit Insurance Corporation and the National
+
+Credit Union Administration, as applicable, to address safety and soundness risks of such
+
+insured depository institution;
+
+(3) Treasury bills, notes, or bonds:
+
+(A) With a remaining maturity of 93 days or less; or
+
+(B) Issued with a maturity of 93 days or less;
+
+(4) Money received under repurchase agreements, with the permitted payment stablecoin
+
+issuer acting as a seller of securities and with an overnight maturity, that are backed by
+
+Treasury bills with a maturity of 93 days or less;
+
+(5) Reverse repurchase agreements, with the permitted payment stablecoin issuer acting
+
+as a purchaser of securities and with an overnight maturity, that are collateralized by
+
+Treasury notes, bills, or bonds on an overnight basis, subject to collateralization in line
+
+with standard market terms that are;
+
+(A) Tri-party;
+
+(B) Centrally cleared through a clearing agency registered with the Securities and
+
+Exchange Commission; or
+
+(C) Bilateral with a counterparty that the issuer has determined to be adequately
+
+credit-worthy even in the event of severe market stress;
+
+(6) Securities issued by an investment company registered under Section 8(a) of the
+
+federal Investment Company Act of 1940, or other registered government money market
+
+fund, and that are invested solely in underlying assets described in paragraphs (1)
+
+through (5) of this subsection;
+
+(7) Any other similarly liquid federal government issued asset approved by the primary
+
+federal payment stablecoin regulator in consultation with the department; or
+
+(8) Any reserve described in paragraphs (1) through (3) or paragraphs (6) and (7) of this
+
+subsection in tokenized form, provided that such reserves comply with all applicable laws
+
+and regulations.
+
+(b)(1) Licensed payment stablecoin issuers shall publish the monthly composition of the
+
+issuer's reserves on the website of the issuer. Such publication shall include:
+
+(A) The total number of outstanding payment stablecoins issued by the issuer; and
+
+(B) The amount and composition of the reserves described in subsection (a) of this
+
+Code section, including the average tenor and geographic location of custody of each
+
+category of reserve instrument.
+
+(2) Each month, the chief executive officer and the chief financial officer of a licensed
+
+payment stablecoin issuer shall submit a certification as to the accuracy of the monthly
+
+report to the department in such form and manner as required by the department.
+
+(3) Any person who submits a certification pursuant to paragraph (2) of this subsection
+
+knowing that such certification is false shall be subject to the same criminal penalties as
+
+those set forth in Code Section 16-10-20.
+
+(c) Reserves required under this Code section may not be pledged, rehypothecated, or
+
+reused by the licensed payment stablecoin issuer, either directly or indirectly, except for
+
+the purpose of:
+
+(1) Satisfying margin obligations in connection with investments in permitted reserves
+
+pursuant to paragraphs (4) and (5) of subsection (a) of this Code section.
+
+(2) Satisfying obligations associated with the use, receipt, or provision of standard
+
+custodial services; or
+
+(3) Creating liquidity to meet reasonable expectations of requests to redeem payment
+
+stablecoins, such that reserves in the form of Treasury bills may be sold as purchase
+
+securities for repurchase agreements with a maturity date of 93 days or less, provided that
+
+either:
+
+(A) The repurchase agreements are cleared by a clearing agency registered with the
+
+Securities and Exchange Commission; or
+
+(B)
+
+department.
+
+The licensed payment stablecoin issuer receives the prior approval of the
+
+7-11-18.
+
+(a) In the event a licensed payment stablecoin issuer fails to maintain identifiable reserves
+
+required by Code section 7-11-17, the licensed payment stablecoin issuer shall:
+
+(1) Calculate the mark-to-market value of all reserve assets;
+
+(2) If the mark-to-market value of all reserve assets is less than the amount needed for
+
+a one to one reserve requirement, the licensed payment stablecoin issuer shall:
+
+(A) Inject capital into the reserve holdings at an amount required to ensure the one to
+
+one reserve is maintained; or
+
+(B) Halt redemptions, hold all reserves to maturity, and distribute the reserve to
+
+payment stablecoin holders in accordance with the terms provided by the GENIUS Act.
+
+(b)(1) If a licensed payment stablecoin issuer fails to maintain identifiable reserves
+
+required by Code Section 7-11-17 and the licensed payment stablecoin issuer fails to
+
+comply with subsection (a) of this Code section, the department may order the licensed
+
+payment stablecoin issuer to halt redemptions.
+
+(2) Failure of a licensed payment stablecoin issuer to halt redemptions when ordered by
+
+the department may result in additional action by the department, including, but not
+
+limited to, license revocation or receivership.
+
+(c) A reserve is presumed to meet the one to one requirement of the GENIUS Act if the
+
+payment stablecoin maintains its peg to the reference asset.
+
+(d) If a payment stablecoin's value falls below 100 percent of the reference asset, the
+
+licensed payment stablecoin issuer is required to comply with subsection (a) of this Code
+
+section in a timeframe that reduces the likelihood of a potential run on the reserve assets.
+
+7-11-19.
+
+The department shall establish by rule minimum capital requirements, liquidity and risk
+
+standards, governance standards, third-party risk management requirements, and
+
+operational risk and information technology risk standards for applicants and licensed
+
+payment stablecoin issuers. Such standards shall meet or exceed the requirements of
+
+Section (4)(A) of the GENIUS Act and the related regulations promulgated by the federal
+
+payment stablecoin regulators.
+
+7-11-20.
+
+(a) Each licensed payment stablecoin issuer shall hold the reserves required by Code
+
+Section 7-11-17 in trust for the benefit of the holders of such payment stablecoins in the
+
+event of insolvency, the filing of a petition by or against the licensee under the United
+
+States Bankruptcy Code, the filing of a petition by or against the licensee for receivership,
+
+the commencement of any other judicial or administrative proceeding for its dissolution or
+
+reorganization, or in the event of an action by a creditor against the licensee who is not a
+
+beneficiary of the statutory trust.
+
+(b) No reserve impressed with a trust pursuant to this Code section shall be subject to
+
+attachment, levy of execution, or sequestration by order of any court, except for a
+
+beneficiary of the statutory trust.
+
+(c) A licensed payment stablecoin issuer and its officers shall have a fiduciary duty to
+
+preserve and account for its reserves as contemplated by this Code section.
+
+7-11-21.
+
+(a)
+
+redemption policy.
+
+(b) A licensed payment stablecoin issuer's redemption policy shall, at a minimum:
+
+(1) Establish clear and conspicuous procedures for timely redemption of outstanding
+
+payment stablecoins;
+
+(2) Publicly, clearly, and conspicuously disclose in plain language all fees associated
+
+with purchasing or redeeming the payment stablecoins, provided that such fees can only
+
+be changed upon not less than seven days prior notice to consumers. Such notice shall
+
+Each licensed payment stablecoin issuer shall publicly disclose such issuer's
+
+provide that the consumer can redeem prior to the effective date of the change at the
+
+existing rate; and
+
+(3) Comply with this chapter, the GENIUS Act, and any applicable state or federal
+
+regulations.
+
+7-11-22.
+
+(a) A licensed payment stablecoin issuer shall be treated as a financial institution for the
+
+purposes of the federal Bank Secrecy Act of 1970 and shall be subject to all federal laws
+
+applicable to a financial institution located in the United States relating to economic
+
+sanctions, prevention of money laundering, customer identification, and due diligence,
+
+including, but not limited to:
+
+(1) Maintenance of an effective anti-money laundering program, which shall include
+
+appropriate risk assessments and designation of an officer to supervise the program;
+
+(2) Retention of appropriate records;
+
+(3) Monitoring and reporting of any suspicious transactions relevant to possible
+
+violations of laws or regulation;
+
+(4) Technical capabilities, policies, and procedures to block, freeze, and reject specific
+
+or impermissible transactions that violate federal or state laws, rules, or regulations;
+
+(5) Maintenance of an effective customer identification program, including identification
+
+and verification of account holders with the permitted payment stablecoin issuer,
+
+high-value transactions, and appropriate enhanced due diligence; and
+
+(6) Maintenance of effective economic sanctions compliance programs, which at a
+
+minimum shall include verification of sanctions lists consistent with federal law.
+
+(b) Licensed payment stablecoin issuers shall comply with the provisions of Code
+
+Sections 7-1-970 through 7-1-917.
+
+7-11-23.
+
+(a) A licensed payment stablecoin issuer shall only:
+
+(1) Issue payment stablecoins;
+
+(2) Redeem payment stablecoins;
+
+(3) Manage related reserves, including purchasing, selling, and holding reserve assets or
+
+providing custodial services for reserve assets consistent with federal and state law;
+
+(4) Provide custodial or safekeeping services for payment stablecoins, required reserves,
+
+or private keys of payment stablecoins consistent with this chapter; and
+
+(5) Undertake other activities that directly support any of the activities listed in this Code
+
+section, or that are incidental to such activities, with the express permission of the
+
+department; provided, however, that the claims of payment stablecoin holders are senior
+
+to any potential claims of nonpayment stablecoin creditors with respect to reserve assets.
+
+(b) A licensed payment stablecoin issuer that engages in other activities not authorized by
+
+this Code section may be subject to revocation or suspension of such license.
+
+7-11-24.
+
+A licensed payment stablecoin issuer shall not provide services to a customer on the
+
+condition that such customer obtain an additional paid product or service from the licensed
+
+payment stablecoin issuer or any of its subsidiaries, or on the condition that such customer
+
+agree not to obtain a product or service from a competitor.
+
+7-11-25.
+
+A licensed payment stablecoin issuer shall not:
+
+(1) Use any name or combination of terms that are:
+
+(A) Barred by the GENIUS Act;
+
+(B) Related to this state or the government of this state; or
+
+(C) Barred by Code Section 7-1-243 as a corporate name; and
+
+(2) Market a payment stablecoin in such a way that a reasonable person would perceive
+
+the payment stablecoin to be:
+
+(A) Legal tender, as described in 31 U.S.C. Section 5103;
+
+(B) Issued by the United States or by this state;
+
+(C) Guaranteed or approved by the government of the United States or the government
+
+of this state;
+
+(D) Insured or guaranteed by a governmental entity, including, but not limited to, by
+
+the Federal Deposit Insurance Corporation or the National Credit Union
+
+Administration; or
+
+(E) Backed by deposits that are federally insured.
+
+7-11-26.
+
+(a) A licensed payment stablecoin issuer shall prepare, in accordance with generally
+
+accepted accounting principles, an annual financial statement which shall include the
+
+disclosure of any related party transaction, as defined by such generally accepted
+
+accounting principles.
+
+(b) A registered public accounting firm acceptable to the department shall perform an audit
+
+of the annual financial statements. Such audit shall be conducted with all applicable
+
+auditing standards established by the Public Company Accounting Oversight Board,
+
+including those relating to auditor independence, internal controls, and related party
+
+transactions.
+
+(c) Each licensed payment stablecoin issuer shall submit such audited financial statements
+
+annually to the department.
+
+7-11-27.
+
+No licensed payment stablecoin issuer shall pay the holder of any payment stablecoin any
+
+form of interest or yield, whether in cash, tokens, or other consideration, solely in
+
+connection with the holding, use, or retention of such payment stablecoin.
+
+7-11-28.
+
+Each licensed payment stablecoin issuer shall submit to the department an annual report
+
+listing:
+
+(1) The financial condition of the licensed payment stablecoin issuer;
+
+(2) The systems of the licensed payment stablecoin issuer for monitoring and controlling
+
+financial and operating risks;
+
+(3) Compliance by the licensed payment stablecoin issuer with this chapter; and
+
+(4) The compliance of the licensed payment stablecoin issuer with the requirements of
+
+the federal Bank Secrecy Act of 1970 and with laws authorizing the imposition of
+
+sanctions implemented by the federal Secretary of the Treasury.
+
+7-11-29.
+
+(a) The department shall investigate and examine a licensed payment stablecoin issuer in
+
+order to assess:
+
+(1) The nature of the operations and financial condition of the licensed payment
+
+stablecoin issuer;
+
+(2) The financial, operational, technological, and other risks associated with the licensed
+
+payment stablecoin issuer that may pose a threat to the:
+
+(A) Safety and soundness of the licensed payment stablecoin issuer; or
+
+(B) The stability of the financial system of the United States or this state;
+
+(3) The systems of the licensed payment stablecoin issuer for monitoring and controlling
+
+the risks described in subsection (b) of this Code section; and
+
+(4) Compliance with state and federal laws and regulations.
+
+(b)(1) The department shall examine or investigate all licensed payment stablecoin
+
+issuers at least once each year and may examine or investigate any licensed payment
+
+stablecoin issuer more frequently at any time it deems such action necessary or desirable.
+
+(2) At least annually, such examination or investigation shall consist of a comprehensive
+
+review of accounts, records, and affairs of the licensed payment stablecoin issuer.
+
+(3) To aid in its examination or investigation of a licensed payment stablecoin issuer, the
+
+department may conduct an examination or investigation of the licensed payment
+
+stablecoin issuer's holding companies, subsidiaries, affiliates, or support organizations
+
+provide material services to the licensed payment stablecoin issuer or that the failure of
+
+such entities would have a material impact on the services provided by the licensed
+
+payment stablecoin issuer.
+
+(c) Notwithstanding subsections (b) and (d) of this Code section, the department may,
+
+consistent with the purposes of this chapter and the rules enacted pursuant to this chapter,
+
+alter the examination frequency and scope in order to assure that appropriate time and
+
+attention are devoted to the supervision of troubled entities regulated by the department or
+
+to minimize the examination burden on well-managed licensed payment stablecoin issuers
+
+which have consistently been operated with safe and sound practices.
+
+(d) In addition to any other authority set forth under this chapter, the department shall be
+
+authorized to conduct investigations and examinations of applicants, licensed payment
+
+stablecoin issuers, ultimate equitable owners, officers, and directors as follows:
+
+(1) The department shall have the authority to access, receive, and use any books,
+
+accounts, records, files, documents, information, or evidence, including, but not limited
+
+to:
+
+(A) Criminal, civil, and administrative history information, including nonconviction
+
+data;
+
+(B) Personal history and experience information, including, but not limited to,
+
+independent credit reports;
+
+(C) For an individual who has resided outside of the United States, an international
+
+investigative background report prepared by a competent independent search firm,
+
+which shall include at a minimum comprehensive credit, criminal, employment, medial,
+
+and financial services regulatory history information; and
+
+(D) Any other documents, information, or evidence the department deems relevant to
+
+the inquiry, examination, or investigation, regardless of the location, possession,
+
+control, or custody of such documents, information, or evidence;
+
+(2) Each licensed payment stablecoin issuer or person subject to this chapter shall make
+
+available to the department, upon request, any books and records relating to the issuance
+
+of payment stablecoins;
+
+(3)
+
+examination pursuant to this chapter shall knowingly withhold, abstract, remove,
+
+mutilate, destroy, or secrete any books, records, documents, files, computer records,
+
+evidence, or other information; and
+
+(4) To carry out the purposes of this Code section, the department may:
+
+No licensed payment stablecoin issuer or person subject to investigation or
+
+(A)
+
+regulatory associations in order to improve efficiencies and reduce regulatory burden
+
+by sharing resources, documents, records, information, or evidence or by utilizing
+
+standardized or uniform methods or procedures;
+
+(B) Accept and rely on examination or investigation reports made by other government
+
+officials made within or outside this state;
+
+(C) Accept audit reports or portions of audit reports made by an independent certified
+
+public accountant on behalf of the licensed payment stablecoin issuer or person subject
+
+to this chapter covering the same general subject matter as the audit and may
+
+Enter into agreements or relationships with other government officials or
+
+incorporate the audit report in the report of examination, report of investigation, or
+
+other writing of the department; and
+
+(D) Use, hire, contract, or employ analytical systems, methods, or software.
+
+(e)(1)
+
+established by the rules and regulations of the department to cover the costs of an
+
+examination or investigation.
+
+(2) To aid the department in examining or investigating a licensed payment stablecoin
+
+issuer or its holding companies, affiliates, or subsidiaries, the department may retain a
+
+third-party expert to assist with such examination or investigation. The third-party expert
+
+shall analyze the accounts, records, affairs, systems, data, or information requested by the
+
+department and provide results to the department.
+
+(3) Any fees or costs associated with a third-party expert retained to aid the department
+
+with the examination or investigation of the licensed payment stablecoin issuer shall be
+
+paid by the licensed payment stablecoin issuer.
+
+(f) If a department enters into an agreement with a third-party expert for the purpose of
+
+aiding the department in evaluating a payment stablecoin issuer application or examining
+
+or investigating a licensed payment stablecoin issuer, the agreement may provide:
+
+(1) All fees and costs incurred by the third-party expert shall be paid by the applicant or
+
+licensed payment stablecoin issuer;
+
+(2) The fees may vary depending on the services provided by such third-party expert but
+
+as set forth in a general fee schedule;
+
+(3) The purpose of the agreement is to aid the department in determining if the applicant
+
+or licensed payment stablecoin issuer, its holding companies, and affiliates have complied
+
+with this chapter, any rules and regulations promulgated pursuant to this chapter, and are
+
+operating in a safe and sound manner;
+
+Each licensed payment stablecoin issuer shall pay an examination fee as
+
+(4) The department shall direct the focus and scope of such third-party expert's analysis,
+
+including, but not limited to, the accounts, records, affairs, data, or information to be
+
+reviewed;
+
+(5) The third-party expert shall produce at least one detailed report to the department
+
+which shall reach conclusions about its review and provide support for any conclusions
+
+in the report;
+
+(6) The third-party expert shall have access to all of the records of the applicant or
+
+licensed payment stablecoin issuer, its holding companies, subsidiaries, and affiliates that
+
+the department may review;
+
+(7) All information reviewed by the third-party expert shall be confidential and not
+
+subject to disclosure other than to the department or as may otherwise be required by law;
+
+and
+
+(8) All services shall be performed in accordance with applicable professional standards.
+
+(g) The department may:
+
+(1) Make such public or private examination or investigation within or outside of this
+
+state as it deems necessary to determine whether any person has violated this chapter, any
+
+rule or regulation, or order issued under this chapter, to aid in the enforcement of this
+
+chapter, or to assist in prescribing rules and regulations pursuant to this chapter;
+
+(2) Require or permit any person to file a statement in writing, under oath or otherwise,
+
+as to all the facts and circumstances concerning the matter to be investigated;
+
+(3) Request any financial data from an applicant or licensed payment stablecoin issuer;
+
+(4) Conduct an on-site examination of a licensed payment stablecoin issuer at any
+
+location of the licensed payment stablecoin issuer without prior notice to such licensed
+
+payment stablecoin issuer.
+
+reasonably incurred costs of the examination. The department is authorized to net its
+
+out-of-state travel expenses incurred as a result of an examination or investigation of a
+
+The licensed payment stablecoin issuer shall pay all
+
+licensed payment stablecoin issuer against payment from the licensed payment stablecoin
+
+issuer.
+
+(h) For the purpose of conducting any examination or investigation pursuant to this Code
+
+section, the department shall have the power to:
+
+(1) Administer oaths;
+
+(2) Call any party to testify under oath in the course of an examination or investigation;
+
+(3) Require attendance of witnesses;
+
+(4) Require the production of books, accounts, records, documents, and papers; and
+
+(5) Issue subpoenas for witnesses for the production of documentary evidence for such
+
+purposes. Such subpoenas may be served by certified mail or statutory overnight
+
+delivery, return receipt requested, to the addressee's business mailing address or by
+
+examiners appointed by the department, or shall be directed for service to the sheriff of
+
+the county where such witness resides or is found or where the person in custody of any
+
+books, accounts, records, documents, or papers resides or is found.
+
+(i) The department may issue and apply to enforce subpoenas in this state at the request
+
+of any government agency, department, organization, or entity regulating payment
+
+stablecoins in another state if the activities constituting the alleged violation for which the
+
+information is sought would be a violation of this chapter if the alleged activities had
+
+occurred in this state.
+
+(j) In case of refusal to obey a subpoena issued under this chapter to any person, a court
+
+of appropriate jurisdiction, upon application by the department, may issue to the person an
+
+order requiring him or her to appear before the court to show cause why he or she should
+
+not be held in contempt for refusal to obey the subpoena. Failure to obey a subpoena may
+
+be punished as contempt by the court.
+
+(k)(1)
+
+information obtained by the department in the course of conducting its duties pursuant
+
+Examinations and investigations conducted pursuant to this chapter and
+
+to this chapter are confidential, except as provided in this subsection, pursuant to the
+
+provisions of Code Section 7-1-70.
+
+(2) In addition to the exceptions set forth in subsection (b) of Code Section 7-1-70, the
+
+department is authorized to share information obtained under this chapter with other state
+
+and federal regulatory agencies or law enforcement authorities. The safeguards to
+
+confidentiality already in place within such agencies or authorities shall be deemed to be
+
+adequate for the purposes of this paragraph.
+
+(3) The commissioner, or a designated examiner, may disclose such information as is
+
+necessary to conduct a civil or administrative investigation or proceeding.
+
+(4) Information contained in the records of the department that is not confidential and
+
+may be made available to the public either on the department's website, upon receipt of
+
+a written request, or in the Nationwide Multistate Licensing System and Registry shall
+
+include:
+
+(A) The name, business address, telephone number, facsimile number, and unique
+
+identifier of a licensed payment stablecoin issuer;
+
+(B) The names and titles of the principal officers or directors;
+
+(C) The name of the owner or owners;
+
+(D) The business address of a licensed payment stablecoin issuer's registered agent for
+
+service;
+
+(E) Information concerning any violation of this chapter, any rule or regulation, or any
+
+order issued pursuant to this chapter, provided that the information is derived from a
+
+final decision of the department; and
+
+(F) Imposition of an administrative fine or penalty pursuant to this chapter.
+
+(l) The authority to conduct an examination or investigation as provided for in this Code
+
+section shall remain in effect whether a licensed payment stablecoin issuer or person acts
+
+or claims to act pursuant to any licensing or registration law of this state or claims to act
+
+without such authority.
+
+(m) In the absence of malice, fraud, or bad faith, a person is not subject to civil liability
+
+arising out of furnishing the department with any information required by this chapter or
+
+required by the department under the authority granted in this chapter. No civil cause of
+
+action of any nature shall arise against a person for any information:
+
+(1)
+
+enforcement officials, their agents, or employees or to or from other regulatory licensing
+
+authorities;
+
+(2) Furnished to or received from other persons subject to the provisions of this chapter;
+
+or
+
+(3) Furnished in complaints filed with the department.
+
+(n) The commissioner or any employee or agent of the department shall not be subject to
+
+civil liability, and no civil cause of action of any nature shall exist against such individuals
+
+arising out of the performance of activities or duties pursuant to this chapter or by
+
+publication of any report of activities pursuant to this Code section.
+
+7-11-30.
+
+(a)(1) Except as provided in this Code section, no person or group of persons acting in
+
+concert shall become an ultimate equitable owner of any licensed payment stablecoin
+
+issuer through acquisition or other change in control as a result of such acquisition or
+
+other change in control unless such person or group of persons acting in concert has first
+
+received approval for such acquisition, change in control, or designation as an executive
+
+officer from the department.
+
+(2) To obtain such approval, such person or group of persons acting in concert shall:
+
+Relating to suspected prohibited conduct furnished to or received from law
+
+(A) File an application with the department in such form as the department may
+
+prescribe from time to time;
+
+(B) Provide such other information as the department may require concerning the
+
+financial responsibility, background, experience, and activities of the applicant, its
+
+directors and executive officers, if a corporation, and its members, if applicable, and of
+
+any proposed new directors, executive officers, members, or ultimate equitable owners
+
+of the licensed payment stablecoin issuer; and
+
+(C) Pay such application fee as the department may prescribe.
+
+(b) The department may prescribe additional requirements for the approval of such
+
+acquisition, change in control, or designation as an executive officer as a result of such
+
+acquisition or other change in control through rules and regulations.
+
+(c) If the application is denied, the department shall notify the applicant in writing of the
+
+denial and the reasons for such denial.
+
+7-11-31.
+
+(a)(1) The department is authorized to suspend or revoke a license issued pursuant to this
+
+chapter if it finds that any grounds exist that would require or warrant the denial of an
+
+application for the issuance of a license.
+
+(2) The department may also suspend or revoke a license if it finds the licensed payment
+
+stablecoin issuer has:
+
+(A) Violated:
+
+(i) This chapter or any regulation or decision issued pursuant to this chapter;
+
+(ii) The GENIUS Act; or
+
+(iii) Any condition imposed by the department in writing;
+
+(B) Committed any fraud or engaged in any dishonest activities;
+
+(C) Made a false statement in an application or failed to give a true reply to a question
+
+in an application or renewal;
+
+(D) Demonstrated incompetency or untrustworthiness to act as a licensed payment
+
+stablecoin issuer;
+
+(E) Failed to pay a judgment recovered in any court by a claimant or creditor in an
+
+action arising out of the licensed payment stablecoin issuer's business in this state
+
+within 30 days after such judgment becomes final;
+
+(F) Purposefully withheld, deleted, destroyed, or altered information requested by an
+
+examiner of the department or made false statements or misrepresentations to the
+
+department;
+
+(G) Operated in an unsafe or unsound manner; or
+
+(H) Made a general assignment for the benefit of its creditors, suspended payment of
+
+its obligations, or is insolvent.
+
+(b) The department may revoke a license if the licensed payment stablecoin issuer is
+
+subject to a final cease and desist order that has been issued within the five proceeding
+
+years if such order was based on a violation of this chapter.
+
+(c)(1) As used in this subsection, the term 'email address of record' means the email
+
+address that the licensed payment stablecoin issuer designated as the email address for
+
+regulatory contact on file with the Nationwide Multistate Licensing System and Registry.
+
+(2) Notice of the department's intention to suspend or revoke a license shall be given to
+
+the licensed payment stablecoin issuer, sent by registered or certified main or statutory
+
+overnight delivery addressed to the principal place of business of such licensed payment
+
+stablecoin issuer or sent to the email address of record of the licensed payment stablecoin
+
+issuer.
+
+(3) If a person refuses to accept service of the notice of intention to suspend or revoke
+
+by certified mail or statutory overnight delivery, the notice shall be served by the
+
+commissioner or the commissioner's authorized representative pursuant to any other
+
+method of lawful service, and the person shall be personally liable to the commissioner
+
+for a sum equal to the actual costs incurred to serve the notice. This liability shall be paid
+
+upon notice and demand by the commissioner or commissioner's representative and shall
+
+be assessed and collected in the same manner as other fees or fines administered by the
+
+commissioner.
+
+(d) Within 30 days of the date of notice of intention to suspend or revoke, the licensed
+
+payment stablecoin issuer may request a hearing to contest the order in writing. If a
+
+hearing is not requested within 30 days of such notice of intention, the department shall
+
+enter a final decision on the suspension or revocation of the license.
+
+(e) If the department receives a timely request for a hearing, the department shall notice
+
+a time and place at which the licensed payment stablecoin issuer may appear for a hearing
+
+within 30 days of the receipt of such request.
+
+(f) Not later than 60 days after the date of the hearing, the department shall issue a final
+
+decision on the suspension or revocation.
+
+(g) Any final decision of the department suspending or revoking a license shall state the
+
+grounds upon which such suspension or revocation is based and shall be effective on the
+
+date of issuance. A copy of the final decision shall be forwarded promptly by mail
+
+addressed to the principal place of business of the licensed payment stablecoin issuer, the
+
+authorized agent of said issuer, or the licensed payment stablecoin issuer.
+
+(h) Any decision by the department suspending or revoking a license shall be subject to
+
+review pursuant to Chapter 13 of Title 50, the 'Georgia Administrative Procedure Act.'
+
+(i) Judicial review of any final decision of the department entered pursuant to this chapter
+
+shall be available solely in the superior court of the county of domicile of the department.
+
+(j) Whenever the department initiates an administrative action against a licensed payment
+
+stablecoin issuer, the department may pursue such action to its conclusion even if a
+
+licensed payment stablecoin issuer withdraws or surrenders its license.
+
+7-11-32.
+
+(a) The department is authorized to issue an order requiring a licensed payment stablecoin
+
+issuer to cease and desist immediately from unauthorized activities whenever it shall
+
+appear to the department that the licensed payment stablecoin issuer has violated any law
+
+of this state, any applicable federal law or regulation, or any decision, order, or regulation
+
+of the department. Such cease and desist order shall be final 20 days after it is issued,
+
+unless the licensed payment stablecoin issuer submits a written request for a hearing within
+
+such 20 day period.
+
+(b) The department may issue an order requiring a person to cease and desist immediately
+
+from unauthorized activities whenever it shall appear to the department that the person has
+
+engaged in activities requiring a license pursuant to this chapter and such person is not a
+
+licensed or permitted stablecoin issuer. Such cease and desist order shall be final 30 days
+
+from the date of issuance, and there shall be no opportunity for an administrative hearing.
+
+If the proper license or authority to engage in such activities is obtained and provided to
+
+the department within the 30 day period, such order shall be rescinded by the department.
+
+(c) Any cease and desist order issued pursuant to this Code section shall be in writing, sent
+
+by registered or certified mail or statutory overnight delivery, and addressed to the person's
+
+business address or, if the person is an individual, to the individual's personal address.
+
+(d) Any hearing authorized under this Code section shall be conducted in pursuant to
+
+Chapter 13 of Title 50, the 'Georgia Administrative Procedure Act.'
+
+(e) Judicial review of any final order entered by the department pursuant to this chapter
+
+shall be available solely in the superior court of the county of domicile of the department.
+
+7-11-33.
+
+(a) Whenever a person fails to comply with the terms of a final decision or order of the
+
+department issued pursuant to this chapter, the department, through the Attorney General
+
+and upon three days' notice to such person, petition the superior court where the person is
+
+domiciled for an order directing such person to obey the final decision or order within a
+
+period of time as shall be fixed by the court. Upon the filing of a petition, the court shall
+
+allow a motion to show cause as to why it should not be granted. After a hearing on the
+
+merits or after a failure of such person to appear when ordered, the court shall grant the
+
+petition of the department upon a finding that the order of the department was properly
+
+issued.
+
+(b)(1) Any person who violates the terms of any final decision or order issued pursuant
+
+to this chapter shall be liable for a civil penalty not to exceed $1,000.00. Each day the
+
+violation continues shall constitute a separate offense.
+
+(2) In determining the amount of the penalty, the department shall take into account:
+
+(A) The appropriateness of the penalty relative to the financial resources of such
+
+person;
+
+(B) Good faith efforts of such person to comply with the order;
+
+(C) The severity of the violation;
+
+(D) The history of previous violations by such person; and
+
+(E) Any other factors or circumstances that contributed to the violation.
+
+(3) The department is authorized to compromise, modify, or refund any penalty which
+
+has been imposed pursuant to this Code section.
+
+(4) Any person penalized pursuant to this subsection shall have the right to request a
+
+hearing within ten days of notification of such penalty has been served upon such person.
+
+Otherwise, such penalty shall be considered final except as to judicial review as provided
+
+in Code Section 7-1-90.
+
+7-11-34.
+
+The department shall be authorized to remove a director, officer, employee, ultimate
+
+equitable owner, or controlling stockholder of a licensed payment stablecoin issuer from
+
+the position or office he or she holds, and prohibit further participation in the affairs of the
+
+licensed payment stablecoin issuer and any entity supervised, licensed, or registered with
+
+the department if the department determines that:
+
+(1) The director, officer, employee, or controlling stockholder has knowingly committed
+
+a violation or attempted a violation of this chapter, the GENIUS Act, or any regulation,
+
+decision, or order issued pursuant to this chapter; or
+
+(2) The director, officer, employee, or controlling stockholder has knowingly committed
+
+a violation of a federal or state law or regulation, including, but not limited to,
+
+Subchapter II of Chapter 53 of Title 31 of the United States Code."
+
+SECTION 4.
+
+Subject to appropriations by the General Assembly, this Act shall become effective upon the
+
+earlier of:
+
+(1) January 18, 2027; or
+
+(2) 120 days after the issuance of final implementing regulations for the GENIUS Act.
+
+SECTION 5.
+
+All laws and parts of laws in conflict with this Act are repealed.

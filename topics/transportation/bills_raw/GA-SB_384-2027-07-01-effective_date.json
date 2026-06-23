@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 2 of Chapter 9 of Title 12 and Title 40 of the Official Code of Georgia Annotated, relating to motor vehicle emission inspection and maintenance and motor vehicles and traffic, respectively, so as to provide for an optional five-year motor vehicle registration and revalidation for certain motor vehicles; to revise and provide for definitions; to provide for conforming changes; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 384",
+    "legislative_session": "2025_26",
+    "subject": [
+      "MOTOR VEHICLES AND TRAFFIC"
+    ],
+    "title": "Motor Vehicle; optional five-year motor vehicle registration and revalidation for certain motor vehicles; provide"
+  },
+  "id": "SB 384",
+  "log": {
+    "action": {
+      "date": "2027-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 384"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB384/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB384/logs/20270701T000000Z_effective_date.json"
+  },
+  "timestamp": "20270701T000000Z"
+}
