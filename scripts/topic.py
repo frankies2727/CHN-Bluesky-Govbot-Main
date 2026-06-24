@@ -333,85 +333,80 @@ class Topic:
     # Prompts and copy
     # ------------------------------------------------------------------
 
-    def summary_system_prompt(self, max_chars: int = 160, max_sentences: int = 1,
-                              amendatory: bool = False) -> str:
-        sentence_rule = (
-            f"Output one or two plain-text sentences totaling under {max_chars} characters"
-            if max_sentences > 1
-            else f"Output exactly ONE plain-text sentence under {max_chars} characters"
-        )
-        # Amendatory bills repeal a statute section and re-enact it with the bulk
-        # of the existing text carried forward unchanged; only a small part is
-        # new. The default "ignore the title, summarize the description" rule
-        # backfires there — the description is mostly old law — so the title's
-        # subject becomes the trustworthy anchor for what the bill changes.
+    def post_copy_system_prompt(self, max_chars: int = 240,
+                                amendatory: bool = False,
+                                home_state: str = "") -> str:
+        """Combined prompt that produces the post's headline AND its blurb in a
+        single call (see _post_copy in post_to_bluesky.py). Asking for both at
+        once — with an explicit rule that the blurb must not restate the
+        headline — is what kills the headline/summary repetition the two-call
+        design produced."""
         amendatory_rule = (
-            "When the description repeals and re-enacts an existing statute, almost "
-            "all of it is pre-existing law carried forward verbatim — the title (and "
-            "any stated purpose) names the bill's TRUE subject. Make your summary about "
-            "that subject and the specific new requirement the bill introduces, never "
-            "the unchanged provisions carried over in the text. "
+            "This bill repeals and re-enacts an existing statute section, so nearly "
+            "all of the text is unchanged law carried forward verbatim — the title "
+            "(and any stated purpose) names the bill's TRUE subject. Base both fields "
+            "on the specific new requirement the bill introduces, never the unchanged "
+            "provisions carried over in the text. "
             if amendatory
             else ""
         )
-        return (
-            f"You summarize US legislative bills for a civic-engagement Bluesky bot "
-            f"focused on {self.prompt_topic}. The bill's title is shown directly above "
-            f"your summary, so DO NOT restate or paraphrase the title — lead with the "
-            f"substantive action (who must do what, what changes, who is affected). "
-            f"Never begin with or restate the bill's number, type, or chamber (do not "
-            f"write 'House Resolution 6023', 'Senate Bill 12', or 'Kansas Resolution') — "
-            f"that label already appears above your summary. "
-            f"Write in plain layman's terms: replace legislative jargon with the everyday "
-            f"word a general audience uses — 'block' or 'override' instead of 'preempt' or "
-            f"'preemption', 'sets aside money for' instead of 'appropriates', 'lets' "
-            f"instead of 'authorizes', 'requires' instead of 'mandates', 'bans' instead of "
-            f"'prohibits'. If the measure is a resolution or memorial that only states an "
-            f"opinion, say plainly what the legislature is urging, supporting, or opposing "
-            f"and name the concrete areas it affects in everyday language. "
-            f"Spell out agency and program acronyms in plain English (e.g. write 'the "
-            f"Environmental Protection Agency', not 'EPA') unless the acronym is universally "
-            f"known to a general audience (FBI, NASA, DNA). Do not introduce facts not "
-            f"present in the title or description — never invent agency names, statute "
-            f"citations, or states. "
-            f"The description may be the bill's full statutory text containing bill-number "
-            f"prefixes, section and chapter citations, line numbers, and a drafter's name — "
-            f"ignore those and summarize the bill's substantive policy change. "
-            f"{amendatory_rule}Read the whole "
-            f"text first, then translate it into plain layman's terms a non-lawyer "
-            f"understands: never copy legalese verbatim, and do not repeat the same word or "
-            f"phrase. When two sentences are "
-            f"allowed, use the second only to add a concrete, substantive detail (who is "
-            f"affected, key requirement, dollar threshold, penalty, or effective date) — never filler. "
-            f"{sentence_rule}, neutral and "
-            f"concrete. No emoji, no hashtags, no editorializing, no surrounding quotes, "
-            f"no leading phrases like 'This bill', 'The bill', or 'The Act'. Do not "
-            f"include any preamble, explanation, or trailing notes."
-        )
-
-
-    def headline_system_prompt(self, amendatory: bool = False) -> str:
-        amendatory_rule = (
-            "This bill repeals and re-enacts an existing statute, so most of the "
-            "description is unchanged law carried forward — write the headline about "
-            "the bill's specific new change (its stated purpose), not the carried-over "
-            "provisions. "
-            if amendatory
+        # Bills routinely name OTHER states incidentally — recognizing another
+        # state's license, citing model legislation, comparing programs. A small
+        # model can mistake that passing mention for the bill's subject and
+        # geographically misattribute it (e.g. tagging California's stablecoin
+        # bill "…in New York" because the text recognizes New York crypto
+        # licenses). Anchor every bill to its own state so the post never frames
+        # it around a different one. The bill's own state already appears in the
+        # post header, so neither field should name it either.
+        home_state_rule = (
+            f"This is a {home_state} bill — it changes {home_state}'s own law and "
+            f"programs. Write the headline and summary about what {home_state} is "
+            f"doing. The text may mention OTHER U.S. states incidentally (for "
+            f"example, recognizing another state's license or citing another "
+            f"state's law as a model) — never present the bill as being about, "
+            f"located in, or enacted by a different state, and never put any "
+            f"other state's name in the headline. {home_state} is already shown "
+            f"in the post header, so do not put '{home_state}' in the headline "
+            f"or summary either. "
+            if home_state
             else ""
         )
         return (
-            f"You write short Bluesky headlines for US legislative bills focused on "
-            f"{self.prompt_topic}. Rewrite the bill as a plain-English headline "
-            f"under 70 characters. Strip statute verbs ('Requiring', 'Prohibiting', "
-            f"'Concerning', 'Relating to', 'An act to', 'Establishing'). Use noun "
-            f"phrases, not full sentences (e.g. 'Daily recess for elementary students; "
-            f"Kansas fitness test'). Keep the substantive change. {amendatory_rule}The description may "
-            f"be a long statute — write a headline about the bill's overall purpose, "
-            f"never echo a section or chapter header verbatim. Spell out unfamiliar "
-            f"acronyms. Do not invent facts not present in the title or description — "
-            f"never invent agency names, statute citations, or states. No emoji, no "
-            f"hashtags, no surrounding quotes, no trailing period, no preamble — output "
-            f"only the headline text."
+            f"You write social-media copy about US legislative bills for a "
+            f"civic-engagement bot focused on {self.prompt_topic}. You are given the "
+            f"bill's full text (and sometimes its title). Read ALL of it, then return "
+            f"a SINGLE JSON object with exactly two string fields and nothing else:\n"
+            f'  {{"headline": "...", "summary": "..."}}\n\n'
+            f"\"headline\": a plain-English headline UNDER 70 characters. "
+            f"Strip statute verbs ('Requiring', 'Prohibiting', 'Concerning', 'Relating "
+            f"to', 'An act to', 'Establishing'). Use a noun phrase, not a full sentence "
+            f"(e.g. 'Daily recess for elementary students; Kansas fitness test'). "
+            f"Capture the bill's overall subject; never echo a section or chapter header "
+            f"verbatim.\n\n"
+            f"\"summary\": one or two plain-text sentences, UNDER {max_chars} characters "
+            f"total, that a non-lawyer instantly understands. CRITICAL: the summary must "
+            f"NOT restate or paraphrase the headline — the headline is shown directly "
+            f"above it in the post, so repeating it wastes the reader's time. Lead with "
+            f"NEW substantive detail the headline does not already convey (who must do "
+            f"what, what specifically changes, who is affected, a key requirement, dollar "
+            f"threshold, penalty, or effective date). If the measure is a resolution or "
+            f"memorial that only states an opinion, say plainly what the legislature is "
+            f"urging, supporting, or opposing.\n\n"
+            f"Rules for BOTH fields: write in plain layman's terms — replace legislative "
+            f"jargon with the everyday word ('block' or 'override' instead of 'preempt', "
+            f"'sets aside money for' instead of 'appropriates', 'lets' instead of "
+            f"'authorizes', 'requires' instead of 'mandates', 'bans' instead of "
+            f"'prohibits'). Spell out agency and program acronyms (write 'the "
+            f"Environmental Protection Agency', not 'EPA') unless universally known to a "
+            f"general audience (FBI, NASA, DNA). The text may contain bill-number "
+            f"prefixes, section and chapter citations, line numbers, and a drafter's "
+            f"name — ignore those and describe the substantive policy change. Do NOT "
+            f"introduce facts not present in the provided text — never invent agency "
+            f"names, statute citations, dates, dollar amounts, or states. "
+            f"{home_state_rule}{amendatory_rule}"
+            f"No emoji, no hashtags, no surrounding quotes inside the values, no markdown, "
+            f"and no text of any kind outside the single JSON object. Do not begin the "
+            f"summary with 'This bill', 'The bill', or 'The Act'."
         )
 
     # ------------------------------------------------------------------

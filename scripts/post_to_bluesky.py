@@ -1069,102 +1069,135 @@ def _extract_act_purpose(text: str) -> str:
     return purpose
 
 
-def summarize(b: dict, max_chars: int = 240) -> str:
+def _parse_copy_json(text: str) -> tuple[str, str]:
+    """Pull ("headline", "summary") out of the model's JSON reply, tolerating
+    the small-model habits of wrapping the object in ```json fences or trailing
+    a stray sentence after it. Returns ("", "") when no JSON object is found."""
+    text = (text or "").strip()
+    if text.startswith("```"):
+        text = text.strip("`")
+        text = re.sub(r"^\s*json\s*", "", text, flags=re.IGNORECASE)
+    obj = None
+    try:
+        obj = json.loads(text)
+    except Exception:
+        m = re.search(r"\{.*\}", text, re.DOTALL)
+        if m:
+            try:
+                obj = json.loads(m.group(0))
+            except Exception:
+                obj = None
+    if not isinstance(obj, dict):
+        return "", ""
+    return (
+        str(obj.get("headline") or "").strip(),
+        str(obj.get("summary") or "").strip(),
+    )
+
+
+def _post_copy(b: dict) -> dict:
+    """Generate the post's headline AND its plain-English blurb in a SINGLE
+    local-LLM call, returned as {"headline": str, "summary": str}.
+
+    The old design ran two independent calls — shorten_title() for the head and
+    summarize() for the body — each reading the same bill text, so they kept
+    converging on the same sentence ("Establishes regulations regarding AI in
+    mental health care" / "The legislature is establishing oversight of AI use
+    in mental healthcare…"). Generating both at once lets us instruct the model
+    that the summary must ADD detail the headline doesn't already carry, killing
+    the repetition by construction (and halving the LLM calls per bill).
+
+    Reads the richest groundable source — the full bill text (a data dump of the
+    actual legislation), then an omnibus table-of-contents digest, then the
+    abstract or blob title — exactly as the two old functions did, and inherits
+    their guards: amendment sheets are dropped, amendatory re-enactments are
+    steered onto the bill's stated purpose, and a bill with nothing but a bare
+    title is left un-rewritten (no source to ground a rewrite → return both ""
+    so the raw title stands and no blurb is invented).
+
+    Cached on the record so the single call happens once even though both
+    shorten_title() and summarize() read from it (whichever runs first pays for
+    the call; the other reuses the cache). Either field may be "".
+    """
+    cached = b.get("_post_copy")
+    if cached is not None:
+        return cached
+    result = {"headline": "", "summary": ""}
+
+    title = (b["title"] or "").strip()
     abstract = (b["abstract"] or "").strip()
-    title = b["title"].strip()
     blob = _is_blob_title(title)
 
     # Prefer the real bill body text (extracted from the bill's PDF via
-    # bill_text) when we can get it — it grounds the summary in the actual
-    # legislation instead of a short abstract. Falls back to the abstract
-    # whenever extraction isn't possible.
+    # bill_text); fall back to the abstract when extraction isn't possible.
     full_text = _get_full_text(b)
-
-    # When the fetched document is a floor-amendment sheet (not the bill body),
-    # summarizing it yields a fragment about the lone change that clashes with
-    # the headline. Drop it so the summary describes the actual bill via its
-    # abstract; the action line still reports the amendment.
+    # A floor-amendment sheet isn't the bill body — its one- or two-line change
+    # would mislead both the headline and the blurb. Drop it; the action line
+    # still reports the amendment.
     if full_text and _is_amendment_doc(full_text):
         full_text = ""
 
-    # When the title IS a blob (the whole bill description dumped into the
-    # title field — Puerto Rico does this for nearly every bill, Missouri
-    # sometimes), there's plenty of substance to summarise even when no
-    # separate abstract was shipped. Fall back to using the title as the
-    # source so the post gets a real one-sentence summary instead of
-    # collapsing to just headline + action line and wasting half the
-    # character budget.
+    # A blob title IS the bill description (PR does this for nearly every bill,
+    # Missouri sometimes) — use it as the source when no separate abstract ships.
     if not abstract and blob:
         abstract = title
 
-    # With full bill text in hand there's always real substance to summarize,
-    # so skip the abstract-only early-outs. Otherwise: when the only content
-    # is a short real title (common for Iowa, Indiana, etc., which don't ship
-    # abstracts in OpenStates data), there's nothing the model can add without
-    # restating the title — and asking a small model to do so anyway invites
-    # hallucination. Skip summarization and let the title stand alone.
-    if not full_text:
-        if not abstract:
-            return ""
-        if not blob and abstract.lower() == title.lower():
-            return ""
+    abstract_usable = bool(abstract) and _normalize(abstract) != _normalize(title)
 
-    # An amendatory repeal-and-reenact bill carries a whole existing statute
-    # section forward (mostly unchanged) and changes only a small part. Detect
-    # it and pull the bill's own "relating to …" purpose so the prompt can steer
-    # the model onto the actual change instead of the carried-over boilerplate.
+    # No groundable source beyond a bare title: a small model would have to
+    # invent specifics, so skip the call and leave both fields empty. The caller
+    # keeps the raw title and drops the blurb (mirrors the old early-outs in
+    # shorten_title() and summarize()).
+    if not full_text and not blob and not abstract_usable:
+        b["_post_copy"] = result
+        return result
+
+    # An amendatory repeal-and-reenact bill carries an existing statute section
+    # forward mostly unchanged; anchor on the bill's stated "relating to …"
+    # purpose so neither field describes the carried-over boilerplate.
     amendatory = bool(full_text) and _is_amendatory_reenactment(full_text)
     act_purpose = _extract_act_purpose(full_text) if amendatory else ""
 
-    # Choose the source text fed to the model: real bill body first, then the
-    # omnibus table-of-contents digest, then the cleaned abstract. Full text
-    # gets a wider character window since the opening pages carry the enacting
-    # clause and substantive sections — wider still for amendatory bills, whose
-    # one new provision is often appended as the final subsection and would be
-    # truncated away under the normal cap.
+    # Source text fed to the model: real bill body first (wide window — wider
+    # still for amendatory bills whose one new provision is often the final
+    # subsection), then the omnibus digest, then the cleaned abstract/title.
     if full_text:
-        clean_abstract = _clean_for_llm(full_text)
+        body = _clean_for_llm(full_text)
         char_cap = 9000 if amendatory else 6000
-        max_sentences = 2   # real bill text supports a richer 1–2 sentence summary
     else:
-        clean_abstract = _omnibus_digest(abstract) or _clean_for_llm(abstract)
+        source = abstract if abstract_usable else title
+        body = _omnibus_digest(source) or _clean_for_llm(source)
         char_cap = 2000
-        max_sentences = 1
-    if not clean_abstract:
-        return ""
+    if not body:
+        b["_post_copy"] = result
+        return result
 
-    # For blob bills the title is the same wall of legalese as the abstract;
-    # feeding it as a "Title:" line just confuses the model, so send only the
-    # cleaned description.
-    closing = (
-        "Write the neutral summary now (one or two sentences)."
-        if max_sentences > 1
-        else "Write the one-sentence neutral summary now."
-    )
-    # For amendatory bills, tell the model up front that the bulk of the text is
-    # unchanged law and point it at the bill's stated purpose, so it summarizes
-    # the new provision rather than the carried-over statute.
     amendatory_note = ""
     if amendatory:
         amendatory_note = (
             "NOTE: This bill repeals an existing statute section and re-enacts it, "
             "so nearly all of the text below is existing law carried forward "
-            "UNCHANGED. Do not summarize the carried-over provisions. Summarize only "
-            "what the bill newly adds or changes"
+            "UNCHANGED. Base BOTH the headline and the summary only on what the bill "
+            "newly adds or changes, never the carried-over provisions"
         )
         amendatory_note += (
             f" — the bill's stated purpose is \"{act_purpose}\"." if act_purpose else "."
         )
         amendatory_note += "\n\n"
+
+    # The bill's own state, so the prompt can anchor the copy to it and reject
+    # the incidental-other-state misattribution (e.g. a California stablecoin
+    # bill that recognizes New York crypto licenses being framed "…in New
+    # York"). Falls back to the bare code, then "" when the state is unknown.
+    state_name = STATE_FULL_NAME.get(b.get("state") or "", b.get("state") or "")
+    home_state_line = f"This is a {state_name} bill.\n" if state_name else ""
+
+    # For blob bills the title is the same wall of legalese as the body, so don't
+    # send it as a separate "Title:" line.
     if blob:
-        user_prompt = (
-            f"{amendatory_note}Description: {clean_abstract[:char_cap]}\n\n{closing}"
-        )
+        user_prompt = f"{amendatory_note}{home_state_line}Bill text:\n{body[:char_cap]}"
     else:
-        user_prompt = (
-            f"{amendatory_note}Title: {title}\n"
-            f"Description: {clean_abstract[:char_cap]}\n\n{closing}"
-        )
+        user_prompt = f"{amendatory_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
     try:
         r = requests.post(
@@ -1172,131 +1205,76 @@ def summarize(b: dict, max_chars: int = 240) -> str:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": TOPIC.summary_system_prompt(max_chars=max_chars, max_sentences=max_sentences, amendatory=amendatory)},
+                    {"role": "system", "content": TOPIC.post_copy_system_prompt(amendatory=amendatory, home_state=state_name)},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
-                "options": {"num_predict": 200, "temperature": 0.3},
+                "format": "json",
+                "options": {"num_predict": 260, "temperature": 0.3},
             },
             timeout=LLM_TIMEOUT,
         )
         if not r.ok:
-            print(f"  ! LLM {r.status_code}: {r.text[:300]}", file=sys.stderr)
+            print(f"  ! LLM post-copy {r.status_code}: {r.text[:300]}", file=sys.stderr)
             r.raise_for_status()
         data = r.json()
         # Ollama /api/chat returns {"message": {"content": "..."}, ...}
         # Ollama /api/generate returns {"response": "...", ...}
         text = (data.get("message") or {}).get("content") or data.get("response") or ""
-        return _strip_title_prefix(_clean_summary(text), b["title"])
+        raw_headline, raw_summary = _parse_copy_json(text)
     except Exception as e:
-        print(f"  ! summarization failed, using fallback: {e}", file=sys.stderr)
-        # A clean first sentence beats raw legalese; "" drops the block.
-        return _strip_title_prefix(_first_sentence(abstract or full_text), b["title"])
+        print(f"  ! post-copy generation failed, using fallback: {e}", file=sys.stderr)
+        # Leave the headline empty (raw title stands) but salvage a clean first
+        # sentence as the blurb; "" drops the block.
+        result["summary"] = _strip_title_prefix(
+            _first_sentence(abstract or full_text), b["title"]
+        )
+        b["_post_copy"] = result
+        return result
+
+    # Headline cleanup mirrors the old shorten_title() tail: strip a trailing
+    # period, bail when the model echoed the title or blew the length cap (the
+    # caller then keeps the raw/truncated title).
+    headline = _clean_summary(raw_headline).rstrip(".!?,; ")
+    if headline and _normalize(headline).startswith(_normalize(title)[:60]):
+        headline = ""
+    if len(headline) > HEADLINE_MAX_LEN:
+        headline = ""
+    result["headline"] = headline
+
+    # Summary cleanup mirrors the old summarize() tail. Belt-and-suspenders: if
+    # the model ignored the no-repeat rule and the blurb just restates the
+    # headline, drop it (compose_post also guards, but this keeps the cached
+    # value clean for every platform that reads it).
+    summary = _strip_title_prefix(_clean_summary(raw_summary), b["title"])
+    if summary and headline and _normalize(summary) == _normalize(headline):
+        summary = ""
+    result["summary"] = summary
+
+    b["_post_copy"] = result
+    return result
+
+
+def summarize(b: dict, max_chars: int = 240) -> str:
+    """Plain-English blurb for the post body. Generated together with the
+    headline in a single local-LLM call (see _post_copy) so the two never
+    restate each other. max_chars bounds the returned length; compose_post still
+    trims further to fit the whole post."""
+    summary = _post_copy(b)["summary"]
+    if summary and len(summary) > max_chars:
+        summary = _smart_truncate(summary, max_chars)
+    return summary
 
 
 def shorten_title(b: dict) -> str:
-    """Ask the local model to rewrite a long legalese title as a short
-    plain-English headline. Returns "" when the original title is already
-    short enough, when there's no abstract to ground the rewrite, or when
-    the model output is unusable. The caller falls back to smart-truncating
-    the original title in any of those cases."""
+    """Plain-English headline for the post head, generated together with the
+    blurb in a single local-LLM call (see _post_copy). Returns "" when the title
+    is already short enough to use as-is, or when there was no groundable source
+    to rewrite from — the caller then keeps the raw title."""
     title = (b["title"] or "").strip()
-    abstract = (b["abstract"] or "").strip()
-    blob = _is_blob_title(title)
     if len(title) <= HEADLINE_THRESHOLD:
         return ""
-
-    # A real abstract that differs from the title is the cleanest grounding for
-    # the rewrite. Many states (MS, IA, IN, …) ship no abstract — or set it
-    # equal to the title — leaving a wall of legalese as the only headline. For
-    # those, fall back to the bill's full PDF text (the same source summarize()
-    # uses) so the title still gets rephrased into plain English instead of
-    # shipping raw. Blob titles carry the full abstract inline and are always
-    # safe (and necessary) to rewrite.
-    abstract_usable = bool(abstract) and _normalize(abstract) != _normalize(title)
-    full_text = "" if (blob or abstract_usable) else _get_full_text(b)
-    # An amendment sheet isn't the bill body — don't rewrite the headline from
-    # it (mirrors summarize()). Falls through to the raw-title fallback below.
-    if full_text and _is_amendment_doc(full_text):
-        full_text = ""
-    # Without any grounding (no usable abstract, no full text) a normal title is
-    # the only signal — letting a small model paraphrase a title-only record
-    # invites hallucinated specifics, so bail and let the raw title stand.
-    if not blob and not abstract_usable and not full_text:
-        return ""
-
-    # Ground the rewrite on the cleaned body rather than echoing the raw title
-    # back: a usable abstract first, then the full bill text, then (for blob
-    # bills) the title itself. For omnibus bills (3+ titled sections) use a
-    # table-of-contents digest so the headline reflects the full bill.
-    source = abstract if abstract_usable else (full_text or abstract or title)
-    body = _omnibus_digest(source) or _clean_for_llm(source)
-    if not body:
-        return ""
-
-    # An amendatory repeal-and-reenact bill's body is mostly unchanged law, so a
-    # headline drawn from it names the carried-over boilerplate rather than the
-    # bill's real subject. Steer it onto the bill's stated "relating to …"
-    # purpose instead. (Only meaningful when grounding on full text — a blob or
-    # standalone abstract isn't a re-enacted statute section.)
-    amendatory = bool(full_text) and _is_amendatory_reenactment(full_text)
-    act_purpose = _extract_act_purpose(full_text) if amendatory else ""
-
-    system_prompt = TOPIC.headline_system_prompt(amendatory=amendatory)
-    amendatory_note = ""
-    if amendatory:
-        amendatory_note = (
-            "NOTE: This bill re-enacts an existing statute section, so most of the "
-            "text below is unchanged law. Write the headline about the bill's specific "
-            "new change"
-        )
-        amendatory_note += (
-            f", whose stated purpose is \"{act_purpose}\".\n\n" if act_purpose else ".\n\n"
-        )
-    if blob:
-        user_prompt = (
-            f"{amendatory_note}Description: {body[:2000]}\n\n"
-            f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
-        )
-    else:
-        user_prompt = (
-            f"{amendatory_note}Title: {title}\n"
-            f"Description: {body[:2000]}\n\n"
-            f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
-        )
-
-    try:
-        r = requests.post(
-            LLM_API_URL,
-            json={
-                "model": LLM_MODEL,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
-                ],
-                "stream": False,
-                "options": {"num_predict": 60, "temperature": 0.3},
-            },
-            timeout=LLM_TIMEOUT,
-        )
-        if not r.ok:
-            print(f"  ! LLM headline {r.status_code}: {r.text[:300]}", file=sys.stderr)
-            return ""
-        data = r.json()
-        text = (data.get("message") or {}).get("content") or data.get("response") or ""
-    except Exception as e:
-        print(f"  ! headline rewrite failed: {e}", file=sys.stderr)
-        return ""
-
-    headline = _clean_summary(text).rstrip(".!?,; ")
-    if not headline:
-        return ""
-    # If the model echoed the title (small models often do), bail.
-    if _normalize(headline).startswith(_normalize(title)[:60]):
-        return ""
-    if len(headline) > HEADLINE_MAX_LEN:
-        return ""
-    return headline
+    return _post_copy(b)["headline"]
 
 
 # ---------------------------------------------------------------------------
