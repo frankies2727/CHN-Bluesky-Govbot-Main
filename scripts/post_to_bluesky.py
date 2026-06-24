@@ -1012,6 +1012,63 @@ def _is_amendment_doc(text: str) -> bool:
     return len(text) < 2500
 
 
+# A bill that repeals a statute section and re-enacts it "in lieu thereof"
+# (Missouri's standard amendatory form, and the generic repeal-and-reenact
+# pattern many states use) carries the ENTIRE existing section forward in the
+# bill text, with only the genuinely new language marked in bold-face — a
+# distinction pdftotext throws away. So the extracted full text is dominated by
+# unchanged law (residency rules, organ-donor donations, fraud penalties, …),
+# and a naive summary describes that carried-over boilerplate instead of the
+# one provision the bill actually adds. Detect this so summarize() and
+# shorten_title() can anchor on the bill's stated purpose rather than the wall
+# of unchanged statute. Checked only over the document's opening, where the
+# enacting clause lives, so a passing "repeal" deep in the body can't trigger
+# it.
+_AMENDATORY_RE = re.compile(
+    r"\benact(?:ed)?\s+in\s+lieu\s+thereof\b|"
+    r"\bamend(?:ed|ing)?\s+and\s+re-?enact(?:ed|ing)?\b|"
+    r"\b(?:repeal|repealing|repealed)\b[^.]{0,160}?\b(?:re-?enact|reenact|reenacting|enacting)\b|"
+    r"\bto\s+amend\b[^.]{0,140}?\bby\s+(?:repealing|adding|amending)\b",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _is_amendatory_reenactment(text: str) -> bool:
+    """True when the bill text is an amendatory repeal-and-reenact: it carries
+    an existing statute section forward (mostly unchanged) and changes only a
+    small part. Only the opening of the document is inspected."""
+    if not text:
+        return False
+    return bool(_AMENDATORY_RE.search(text[:1200]))
+
+
+# The bill's own one-line statement of purpose, taken from the
+# "AN ACT … relating to <purpose>" enacting clause. For amendatory bills this
+# is the most reliable signal of what the bill actually changes, since the body
+# text is mostly unchanged law. Captures up to the end of the clause and is
+# searched only near the top, where the clause always appears.
+_ACT_PURPOSE_RE = re.compile(
+    r"\brelating to\s+(.+?)\s*(?:\.\s|\.$|;|\bbe it enacted\b|\bto read as follows\b)",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _extract_act_purpose(text: str) -> str:
+    """Pull '<purpose>' from a bill's 'AN ACT … relating to <purpose>' enacting
+    clause. Returns a cleaned phrase like 'sex designation on driver's
+    licenses', or "" when the clause is absent or implausibly long (a malformed
+    capture swallowing the body)."""
+    if not text:
+        return ""
+    m = _ACT_PURPOSE_RE.search(text[:1500])
+    if not m:
+        return ""
+    purpose = " ".join(m.group(1).split()).strip(" ,;:.")
+    if not purpose or len(purpose) > 160:
+        return ""
+    return purpose
+
+
 def summarize(b: dict, max_chars: int = 240) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
@@ -1052,13 +1109,22 @@ def summarize(b: dict, max_chars: int = 240) -> str:
         if not blob and abstract.lower() == title.lower():
             return ""
 
+    # An amendatory repeal-and-reenact bill carries a whole existing statute
+    # section forward (mostly unchanged) and changes only a small part. Detect
+    # it and pull the bill's own "relating to …" purpose so the prompt can steer
+    # the model onto the actual change instead of the carried-over boilerplate.
+    amendatory = bool(full_text) and _is_amendatory_reenactment(full_text)
+    act_purpose = _extract_act_purpose(full_text) if amendatory else ""
+
     # Choose the source text fed to the model: real bill body first, then the
     # omnibus table-of-contents digest, then the cleaned abstract. Full text
     # gets a wider character window since the opening pages carry the enacting
-    # clause and substantive sections.
+    # clause and substantive sections — wider still for amendatory bills, whose
+    # one new provision is often appended as the final subsection and would be
+    # truncated away under the normal cap.
     if full_text:
         clean_abstract = _clean_for_llm(full_text)
-        char_cap = 6000
+        char_cap = 9000 if amendatory else 6000
         max_sentences = 2   # real bill text supports a richer 1–2 sentence summary
     else:
         clean_abstract = _omnibus_digest(abstract) or _clean_for_llm(abstract)
@@ -1075,13 +1141,28 @@ def summarize(b: dict, max_chars: int = 240) -> str:
         if max_sentences > 1
         else "Write the one-sentence neutral summary now."
     )
+    # For amendatory bills, tell the model up front that the bulk of the text is
+    # unchanged law and point it at the bill's stated purpose, so it summarizes
+    # the new provision rather than the carried-over statute.
+    amendatory_note = ""
+    if amendatory:
+        amendatory_note = (
+            "NOTE: This bill repeals an existing statute section and re-enacts it, "
+            "so nearly all of the text below is existing law carried forward "
+            "UNCHANGED. Do not summarize the carried-over provisions. Summarize only "
+            "what the bill newly adds or changes"
+        )
+        amendatory_note += (
+            f" — the bill's stated purpose is \"{act_purpose}\"." if act_purpose else "."
+        )
+        amendatory_note += "\n\n"
     if blob:
         user_prompt = (
-            f"Description: {clean_abstract[:char_cap]}\n\n{closing}"
+            f"{amendatory_note}Description: {clean_abstract[:char_cap]}\n\n{closing}"
         )
     else:
         user_prompt = (
-            f"Title: {title}\n"
+            f"{amendatory_note}Title: {title}\n"
             f"Description: {clean_abstract[:char_cap]}\n\n{closing}"
         )
 
@@ -1091,7 +1172,7 @@ def summarize(b: dict, max_chars: int = 240) -> str:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": TOPIC.summary_system_prompt(max_chars=max_chars, max_sentences=max_sentences)},
+                    {"role": "system", "content": TOPIC.summary_system_prompt(max_chars=max_chars, max_sentences=max_sentences, amendatory=amendatory)},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
@@ -1153,15 +1234,33 @@ def shorten_title(b: dict) -> str:
     if not body:
         return ""
 
-    system_prompt = TOPIC.headline_system_prompt()
+    # An amendatory repeal-and-reenact bill's body is mostly unchanged law, so a
+    # headline drawn from it names the carried-over boilerplate rather than the
+    # bill's real subject. Steer it onto the bill's stated "relating to …"
+    # purpose instead. (Only meaningful when grounding on full text — a blob or
+    # standalone abstract isn't a re-enacted statute section.)
+    amendatory = bool(full_text) and _is_amendatory_reenactment(full_text)
+    act_purpose = _extract_act_purpose(full_text) if amendatory else ""
+
+    system_prompt = TOPIC.headline_system_prompt(amendatory=amendatory)
+    amendatory_note = ""
+    if amendatory:
+        amendatory_note = (
+            "NOTE: This bill re-enacts an existing statute section, so most of the "
+            "text below is unchanged law. Write the headline about the bill's specific "
+            "new change"
+        )
+        amendatory_note += (
+            f", whose stated purpose is \"{act_purpose}\".\n\n" if act_purpose else ".\n\n"
+        )
     if blob:
         user_prompt = (
-            f"Description: {body[:2000]}\n\n"
+            f"{amendatory_note}Description: {body[:2000]}\n\n"
             f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
         )
     else:
         user_prompt = (
-            f"Title: {title}\n"
+            f"{amendatory_note}Title: {title}\n"
             f"Description: {body[:2000]}\n\n"
             f"Write the headline now (under {HEADLINE_MAX_LEN} characters)."
         )

@@ -333,11 +333,26 @@ class Topic:
     # Prompts and copy
     # ------------------------------------------------------------------
 
-    def summary_system_prompt(self, max_chars: int = 160, max_sentences: int = 1) -> str:
+    def summary_system_prompt(self, max_chars: int = 160, max_sentences: int = 1,
+                              amendatory: bool = False) -> str:
         sentence_rule = (
             f"Output one or two plain-text sentences totaling under {max_chars} characters"
             if max_sentences > 1
             else f"Output exactly ONE plain-text sentence under {max_chars} characters"
+        )
+        # Amendatory bills repeal a statute section and re-enact it with the bulk
+        # of the existing text carried forward unchanged; only a small part is
+        # new. The default "ignore the title, summarize the description" rule
+        # backfires there — the description is mostly old law — so the title's
+        # subject becomes the trustworthy anchor for what the bill changes.
+        amendatory_rule = (
+            "When the description repeals and re-enacts an existing statute, almost "
+            "all of it is pre-existing law carried forward verbatim — the title (and "
+            "any stated purpose) names the bill's TRUE subject. Make your summary about "
+            "that subject and the specific new requirement the bill introduces, never "
+            "the unchanged provisions carried over in the text. "
+            if amendatory
+            else ""
         )
         return (
             f"You summarize US legislative bills for a civic-engagement Bluesky bot "
@@ -361,7 +376,8 @@ class Topic:
             f"citations, or states. "
             f"The description may be the bill's full statutory text containing bill-number "
             f"prefixes, section and chapter citations, line numbers, and a drafter's name — "
-            f"ignore those and summarize the bill's substantive policy change. Read the whole "
+            f"ignore those and summarize the bill's substantive policy change. "
+            f"{amendatory_rule}Read the whole "
             f"text first, then translate it into plain layman's terms a non-lawyer "
             f"understands: never copy legalese verbatim, and do not repeat the same word or "
             f"phrase. When two sentences are "
@@ -374,14 +390,22 @@ class Topic:
         )
 
 
-    def headline_system_prompt(self) -> str:
+    def headline_system_prompt(self, amendatory: bool = False) -> str:
+        amendatory_rule = (
+            "This bill repeals and re-enacts an existing statute, so most of the "
+            "description is unchanged law carried forward — write the headline about "
+            "the bill's specific new change (its stated purpose), not the carried-over "
+            "provisions. "
+            if amendatory
+            else ""
+        )
         return (
             f"You write short Bluesky headlines for US legislative bills focused on "
             f"{self.prompt_topic}. Rewrite the bill as a plain-English headline "
             f"under 70 characters. Strip statute verbs ('Requiring', 'Prohibiting', "
             f"'Concerning', 'Relating to', 'An act to', 'Establishing'). Use noun "
             f"phrases, not full sentences (e.g. 'Daily recess for elementary students; "
-            f"Kansas fitness test'). Keep the substantive change. The description may "
+            f"Kansas fitness test'). Keep the substantive change. {amendatory_rule}The description may "
             f"be a long statute — write a headline about the bill's overall purpose, "
             f"never echo a section or chapter header verbatim. Spell out unfamiliar "
             f"acronyms. Do not invent facts not present in the title or description — "
