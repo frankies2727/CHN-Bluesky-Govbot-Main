@@ -78,6 +78,11 @@ BLUESKY_API = "https://bsky.social/xrpc"
 LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
 LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "180"))
+# How long Ollama keeps the model resident between requests. Without this it
+# defaults to 5 minutes, so a topic that spends several minutes downloading
+# PDFs between summaries can force a cold model reload mid-run. Pin it for the
+# whole run (set to "-1" to keep loaded indefinitely, "0" to unload eagerly).
+LLM_KEEP_ALIVE = os.environ.get("LLM_KEEP_ALIVE", "30m")
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -145,6 +150,51 @@ def load_bills(path: Path) -> list[dict]:
                 continue
     print(f"Loaded {len(bills)} records from {path.name}")
     return bills
+
+
+# Optional prebuilt, pre-normalized bills file. The Bluesky workflow runs many
+# topics per shard, each as a separate process; without this each one would
+# re-parse bills.jsonl and re-run extract_fields() (a topic-independent step)
+# over every record. Building the normalized list once per shard and pointing
+# the topic processes at it via BILLS_NORMALIZED turns N per-line JSON parses +
+# N extract passes into a single array load.
+NORMALIZED_PATH = os.environ.get("BILLS_NORMALIZED", "").strip()
+
+
+def build_normalized(records: list[dict]) -> list[dict]:
+    """Apply extract_fields() to every raw record once, attaching the source
+    record as ``_raw`` (needed by save_raw_record/save_full_text for posted
+    bills). Topic-independent: the result is reused across topics. Records that
+    extract_fields() rejects (missing title/date, etc.) are dropped here, the
+    same as the inline loop in main() used to do."""
+    out: list[dict] = []
+    for r in records:
+        b = extract_fields(r)
+        if not b:
+            continue
+        b["_raw"] = r
+        out.append(b)
+    return out
+
+
+def load_normalized_bills() -> list[dict]:
+    """Return the per-run normalized bill list. When BILLS_NORMALIZED points at
+    a prebuilt file (written once per shard via ``--build-normalized``), load it
+    with a single json.loads of the array — skipping the per-line parse and the
+    extract_fields() pass that would otherwise repeat for every topic. Falls
+    back to parsing bills.jsonl directly when no prebuilt file is configured, so
+    local runs and the other platforms are unaffected."""
+    if NORMALIZED_PATH:
+        p = Path(NORMALIZED_PATH)
+        if p.is_file():
+            try:
+                data = json.loads(p.read_text(encoding="utf-8"))
+                print(f"Loaded {len(data)} normalized records from {p.name}")
+                return data
+            except (OSError, ValueError) as e:
+                print(f"  ! normalized cache unreadable ({e}); "
+                      f"rebuilding from {JSONL_PATH.name}", file=sys.stderr)
+    return build_normalized(load_bills(JSONL_PATH))
 
 
 # ---------------------------------------------------------------------------
@@ -916,6 +966,7 @@ def _translate_to_english(text: str) -> str:
                     {"role": "user", "content": text},
                 ],
                 "stream": False,
+                "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": 400, "temperature": 0.1},
             },
             timeout=LLM_TIMEOUT,
@@ -1210,6 +1261,7 @@ def _post_copy(b: dict) -> dict:
                 ],
                 "stream": False,
                 "format": "json",
+                "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": 260, "temperature": 0.3},
             },
             timeout=LLM_TIMEOUT,
@@ -2759,12 +2811,17 @@ def main() -> int:
               f"{TOPIC.bluesky_password_env()} must be set.", file=sys.stderr)
         return 1
 
-    records = load_bills(JSONL_PATH)
-    if not records:
-        return 0
-
+    # The forced-bill path wants the raw, unnormalized records (it does its own
+    # lookup by state/id), so load them directly and skip the normalized cache.
     if FORCE_STATE and FORCE_BILL_ID:
-        return _post_forced_bill(records)
+        return _post_forced_bill(load_bills(JSONL_PATH))
+
+    # extract_fields() has already been applied (once per shard when a prebuilt
+    # cache is used); each record here is a normalized dict carrying its source
+    # record under "_raw".
+    normalized = load_normalized_bills()
+    if not normalized:
+        return 0
 
     state = load_state()
     seen = set(state.get("posted", []))
@@ -2776,18 +2833,12 @@ def main() -> int:
     # through one per run, letting a single bill monopolize its state slot
     # for N consecutive runs.
     same_day_siblings: dict[str, set[str]] = {}
-    for r in records:
-        b = extract_fields(r)
-        if not b:
-            continue
+    for b in normalized:
         if not TOPIC.matches(b):
             continue
         same_day_siblings.setdefault(b["same_day_key"], set()).add(b["dedup_key"])
         if b["dedup_key"] in seen:
             continue
-        # Stash the source record so save_raw_record() can dump the verbatim
-        # bills.jsonl line for any bill we end up posting.
-        b["_raw"] = r
         candidates.append(b)
 
     # Freshness gate: a state's newest *unposted* match can genuinely be a
@@ -2973,4 +3024,15 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # `--build-normalized [out]` parses bills.jsonl once and writes the
+    # pre-normalized list (extract_fields applied, source kept as _raw) so the
+    # per-topic processes that follow can skip that work. Topic-independent, but
+    # importing this module still requires BOT_TOPIC — the workflow sets any
+    # valid topic for this step.
+    if len(sys.argv) >= 2 and sys.argv[1] == "--build-normalized":
+        out_path = Path(sys.argv[2]) if len(sys.argv) >= 3 else (ROOT / "bills_normalized.json")
+        normalized = build_normalized(load_bills(JSONL_PATH))
+        out_path.write_text(json.dumps(normalized), encoding="utf-8")
+        print(f"Wrote {len(normalized)} normalized records to {out_path}")
+        sys.exit(0)
     sys.exit(main())
