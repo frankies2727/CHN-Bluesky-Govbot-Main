@@ -140,6 +140,11 @@ jobs:
             ollama pull "$LLM_MODEL"
           fi
           ollama list
+          # Warm the model into memory now (pinned via keep_alive) so the first
+          # real summary doesn't pay the cold-load cost on the critical path.
+          curl -fsS http://localhost:11434/api/generate \
+            -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"30m\"}" \
+            > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
       - name: Build and post Threads weekly digest thread
         env:

@@ -152,6 +152,11 @@ jobs:
             ollama pull "$LLM_MODEL"
           fi
           ollama list
+          # Warm the model into memory now (pinned via keep_alive) so the first
+          # real summary doesn't pay the cold-load cost on the critical path.
+          curl -fsS http://localhost:11434/api/generate \
+            -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"30m\"}" \
+            > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
       - name: Filter, summarize, and post to Bluesky (all topics)
         env:
@@ -164,6 +169,20 @@ jobs:
           POST_LIMIT: "2"
         run: |
           shopt -s nullglob
+          # Parse bills.jsonl + run extract_fields ONCE for this shard, then
+          # point every per-topic process below at the result via
+          # BILLS_NORMALIZED. This step is topic-independent, but importing the
+          # module needs BOT_TOPIC, so pass the first available topic.
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          if BOT_TOPIC="$FIRST_TOPIC" python scripts/post_to_bluesky.py --build-normalized bills_normalized.json; then
+            export BILLS_NORMALIZED="$PWD/bills_normalized.json"
+          else
+            echo "  normalized build failed; topics will parse bills.jsonl directly."
+          fi
+
           # Assign topics to this shard by their sorted position (topics/*/
           # globs alphabetically). index % NUM_SHARDS interleaves them into a
           # balanced 7/6 split that auto-rebalances when topics are added.

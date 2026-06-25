@@ -3,6 +3,8 @@ __pycache__/
 *.pyo
 
 bills.jsonl
+# Per-shard pre-normalized bills cache (built once, read by every topic process)
+bills_normalized.json
 docs/
 
 # Cached full bill text extracted from PDFs (regenerated each run)
