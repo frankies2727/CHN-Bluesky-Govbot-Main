@@ -75,11 +75,10 @@ jobs:
           export PATH="$HOME/.govbot/bin:$PATH"
           govbot --version || true
 
-          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
-          for state in $STATES; do
-            echo "--- Cloning $state ---"
-            govbot clone "$state" 2>&1 || echo "  SKIPPED $state (not supported by govbot)"
-          done
+          # Clone every supported repo in one parallel invocation instead of a
+          # per-state shell loop. The revamped govbot exits 0 even when an
+          # individual repo fails, so no per-state skip guard is needed.
+          govbot clone all --parallel 8
 
           govbot logs --limit 8200 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
