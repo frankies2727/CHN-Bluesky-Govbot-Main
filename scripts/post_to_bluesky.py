@@ -2926,7 +2926,11 @@ def main() -> int:
                 days = (now - datetime.fromisoformat(ts)).days
             except ValueError:
                 days = 180
-        return min(max(days, 0), 180) + 1
+        # Square the recency gap so long-unposted states are strongly favored
+        # over recently-posted ones (~300:1 for a 90- vs 5-day gap, versus
+        # ~18:1 when linear), spreading coverage across more states. Never zero,
+        # so niche topics with only a few fresh states still always post.
+        return (min(max(days, 0), 180) + 1) ** 2
 
     def weighted_draw(pool: list[dict], k: int) -> list[dict]:
         pool = list(pool)
