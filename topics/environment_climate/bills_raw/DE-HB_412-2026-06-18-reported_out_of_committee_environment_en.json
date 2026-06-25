@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Substitute is different from the original bill in that it adds the activities of fishing, crabbing and clamming as requiring a license consistent with line 18 already in the code. The substitute also clarifies in section 2 that dogs may be used for tracking or recovering a wounded or dead deer that was lawfully shot during open deer season.\r\nSection 1 of this Act closes a loophole that allows hunters and trappers who are exempt from obtaining a Delaware hunting or trapping license to avoid completing a Department-approved hunting or trapping education program. Although many exempt hunters and trappers already complete these programs, this legislation codifies the requirement. This Act also updates and clarifies the statutory language governing administration of drugs to wildlife. \r\nSection 2 of this Act adds language to expressly permit the sale of taxidermy and antlers from lawfully taken deer. \r\nThis Act also makes technical corrections to conform with the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 412",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 7 OF THE DELAWARE CODE RELATING TO HUNTING, TRAPPING, GAME ANIMALS, GAME BIRDS, DEER, AND PROTECTED WILDLIFE."
+  },
+  "id": "HB 412",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-06-18",
+      "description": "Reported Out of Committee (Environment, Energy & Transportation) in Senate with 1 Favorable, 4 On Its Merits",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Environment, Energy & Transportation"
+        }
+      ]
+    },
+    "bill_id": "HB 412"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB412/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB412/logs/20260618T000000Z_reported_out_of_committee_environment_energy_transportation_in_senate_with_1_favorable_4_on_its_meri.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

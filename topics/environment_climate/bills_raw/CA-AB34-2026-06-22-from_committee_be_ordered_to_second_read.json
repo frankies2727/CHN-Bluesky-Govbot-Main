@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, the California Renewables Portfolio Standard Program requires retail sellers and local publicly owned electric utilities to procure a minimum quantity of electricity products from eligible renewable energy resources during certain compliance periods up to December 31, 2030. Existing law provides that a local publicly owned electric utility is not required to procure a certain amount of eligible renewable energy resources if, during a year within those compliance periods, the local publicly owned electric utility receives more than 40% of its retail sales from large hydroelectric generation under an ownership agreement or contract in effect as of January 1, 2018. Existing law authorizes the State Energy Resources Conservation and Development Commission (Energy Commission) to establish appropriate multiyear compliance periods for local publicly owned electric utilities beyond December 31, 2030.\n\nThis bill would provide that the provision related to the procurement of eligible renewable energy resources by local publicly owned electric utilities also applies to the compliance periods established by the Energy Commission.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB34",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaRenewablesPortfolioStandardProgram",
+      "largehydroelectricgeneration",
+      "localpubliclyownedelectricutilities"
+    ],
+    "title": "California Renewables Portfolio Standard Program: local publicly owned electric utilities: large hydroelectric generation."
+  },
+  "id": "AB34",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "reading-2"
+      ],
+      "date": "2026-06-22",
+      "description": "From committee: Be ordered to second reading file pursuant to Senate Rule 28.8 and ordered to Consent Calendar.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB34"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB34/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB34/logs/20260622T000000Z_from_committee_be_ordered_to_second_reading_file_pursuant_to_senate_rule_288_and_ordered_to_consent_.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

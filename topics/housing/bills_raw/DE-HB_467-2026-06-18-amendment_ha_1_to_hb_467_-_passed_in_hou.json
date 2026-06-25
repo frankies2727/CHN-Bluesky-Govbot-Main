@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides that a landlord may not require a tenant to use a particular renters insurance company as long as the tenant maintains renters insurance according to the terms of the rental agreement.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 467",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO RENTERS INSURANCE."
+  },
+  "id": "HB 467",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Amendment HA 1 to HB 467 - Passed In House by Voice Vote",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 467"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB467/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB467/logs/20260618T000000Z_amendment_ha_1_to_hb_467_passed_in_house_by_voice_vote.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

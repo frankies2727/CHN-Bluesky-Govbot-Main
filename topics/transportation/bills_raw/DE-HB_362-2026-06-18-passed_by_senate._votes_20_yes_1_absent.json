@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act clarifies that penalties associated with section 4512 of Title 21, relating to truck parking, are applicable to parking violations in both residence and non-residence districts.  This Act further clarifies that truck tractors (with and without attached trailers) may be prohibited from stopping, standing, or parking on highways in the same manner as trailers and semitrailers.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 362",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO TRUCK PARKING."
+  },
+  "id": "HB 362",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 362"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB362/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB362/logs/20260618T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Multifamily Housing Program, administered by the Department of Housing and Community Development, to provide financial assistance in the form of deferred payment loans to pay for the eligible costs of development of specified types of housing projects. Existing law requires that specified funds appropriated to provide housing for individuals and families who are experiencing homelessness or who are at risk of homelessness and who are inherently impacted by or at increased risk for medical diseases or conditions due to the COVID-19 pandemic or other communicable diseases be disbursed in accordance with the Multifamily Housing Program for specified uses, including acquisition or rehabilitation of motels, hotels, hostels, or other sites, as provided. This disbursement program is referred to as Homekey.\n\nExisting law, upon appropriation, requires Homekey awards to be expended within 8 months of the date of the award, as provided.\n\nThis bill would, for Homekey awards made on or after July 1, 2026, require the department to consider allowing applicants that utilize funds for adaptive reuse to be subject to the same timelines as new construction, as provided.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2320",
+    "legislative_session": "20252026",
+    "subject": [
+      "Homekey",
+      "MultifamilyHousingProgram",
+      "adaptivereuse"
+    ],
+    "title": "Multifamily Housing Program: Homekey: adaptive reuse."
+  },
+  "id": "AB2320",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "reading-2"
+      ],
+      "date": "2026-06-22",
+      "description": "From committee: Be ordered to second reading file pursuant to Senate Rule 28.8 and ordered to Consent Calendar.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2320"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2320/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2320/logs/20260622T000000Z_from_committee_be_ordered_to_second_reading_file_pursuant_to_senate_rule_288_and_ordered_to_consent_.json"
+  },
+  "timestamp": "20260622T000000Z"
+}
