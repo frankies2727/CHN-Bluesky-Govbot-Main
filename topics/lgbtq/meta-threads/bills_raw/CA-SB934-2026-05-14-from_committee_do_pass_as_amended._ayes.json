@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law defines \"sexual orientation change efforts\" as practices by mental health providers that seek to change an individual's sexual orientation, as specified. Existing law prohibits a mental health provider, as defined, from engaging in sexual orientation change efforts with a patient under 18 years of age, and provides that such efforts attempted by a mental health provider are considered unprofessional conduct and must subject the mental health provider to discipline by that provider's licensing entity.\n\nThis bill would define \"sexual orientation or gender identity change efforts\" as any practices of a licensed mental health provider that seek to direct a patient toward a predetermined sexual orientation or gender identity, as specified, and would apply the prohibitions described above to such efforts.\n\n(2) Existing law requires that specified actions for recovery of damages suffered as a result of childhood sexual assault, as defined, be commenced within 22 years of the date the plaintiff attains the age of majority or within 5 years of the date the plaintiff discovers or reasonably should have discovered that psychological injury or illness occurring after the age of majority was caused by the sexual assault, whichever period expires later. Existing law imposes various procedural requirements for such claims.\n\nThis bill would require specified actions for recovery of damages suffered as a result of sexual orientation or gender identity change efforts, as defined, be commenced (1) within 22 years of the date the plaintiff attains the age of majority if the plaintiff was under the age of 18 when at the time of conduct, (2) within 10 years if the plaintiff was 18 years of age or older at the time of conduct, (3) or within 5 years of the date the plaintiff discovers that psychological injury or illness occurring after the conduct was caused by sexual orientation or gender identity change efforts, as specified. The bill would apply to actions for damages commencing after January 1, 2027, against licensed mental health providers, as defined, and against persons and entities that employed or negligently hired, supervised, or retained a licensed mental health provider who engaged in sexual orientation or gender identity change efforts. The bill would make specified types of evidence, including certain expert testimony, admissible to establish causation and harm for these actions. The bill would revive certain actions arising from conduct that occurred on or after January 1, 2009 that have not been litigated to finality and that would otherwise be barred as of January 1, 2027, because the applicable statute of limitations or any other time limit had expired. The bill would provide that its provisions are severable.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB934",
+    "legislative_session": "20252026",
+    "subject": [
+      "Sexualorientationorgenderidentitychangeefforts"
+    ],
+    "title": "Sexual orientation or gender identity change efforts."
+  },
+  "id": "SB934",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass as amended. (Ayes 5. Noes 2.) (May 14).",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB934"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB934/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB934/logs/20260514T000000Z_from_committee_do_pass_as_amended_ayes_5_noes_2_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}
