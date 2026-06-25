@@ -71,37 +71,21 @@ jobs:
           test -f scripts/post_to_bluesky.py && echo "OK" || (echo "MISSING" && exit 1)
 
       - name: Install govbot, fetch all supported states, dump JSONL
-        # Clone each state one-at-a-time. Govbot panics on unsupported states,
-        # so we wrap each call in `|| echo "skipped"` to keep going. After the
-        # first successful run you'll see in the log which states are supported
-        # vs which ones were skipped.
+        # Clone every supported repo in one parallel invocation. `clone all`
+        # pulls the full supported set (no hardcoded state list to maintain) and
+        # `--parallel` runs the git clones concurrently instead of one-at-a-time
+        # in a shell loop. The revamped govbot exits 0 even when individual repos
+        # fail, so the old per-state skip guard is no longer needed.
         run: |
           curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
           export PATH="$HOME/.govbot/bin:$PATH"
           govbot --version || true
 
-          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
-          SUCCESSFUL=""
-          SKIPPED=""
-          for state in $STATES; do
-            echo "--- Cloning $state ---"
-            if govbot clone "$state" 2>&1; then
-              SUCCESSFUL="$SUCCESSFUL $state"
-            else
-              echo "  SKIPPED $state (not supported by govbot)"
-              SKIPPED="$SKIPPED $state"
-            fi
-          done
+          govbot clone all --parallel 8
 
-          echo ""
-          echo "=========================================="
-          echo "Supported states (cloned successfully):"
-          echo " $SUCCESSFUL"
-          echo ""
-          echo "Skipped states (not in govbot):"
-          echo " $SKIPPED"
-          echo "=========================================="
-
+          # Per-repo log cap, standardized across all daily posters. POST_LIMIT
+          # is tiny and the scripts apply their own freshness + topic filters,
+          # so a larger window is just wasted dump + parse time.
           govbot logs --limit 10200 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
@@ -118,6 +102,23 @@ jobs:
         with:
           path: ~/.ollama-bin
           key: ollama-bin-v1-linux-amd64
+
+      - name: Cache extracted bill text
+        # bill_text.py caches PDF-extracted text in .bill_text_cache/, keyed by
+        # a hash of the document URL — content-addressed, so entries never go
+        # stale. Persisting it across runs skips re-downloading and re-running
+        # pdftotext for bills already processed on an earlier day (bills stay in
+        # the freshness window for weeks). The run-scoped key always saves a
+        # fresh, grown cache; restore-keys pulls the most recent prior one, and
+        # the shared prefix lets every poster reuse text any other already
+        # fetched. The shard suffix keeps the two parallel shards from racing on
+        # the same save key.
+        uses: actions/cache@v4
+        with:
+          path: .bill_text_cache
+          key: bill-text-cache-${{ github.run_id }}-${{ github.run_attempt }}-shard${{ matrix.shard }}
+          restore-keys: |
+            bill-text-cache-
 
       - name: Install Ollama and pull the LLM model
         run: |

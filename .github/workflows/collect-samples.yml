@@ -144,7 +144,7 @@ jobs:
           curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
           export PATH="$HOME/.govbot/bin:$PATH"
           govbot --version || true
-          govbot clone ${{ github.event.inputs.states }}
+          govbot clone ${{ github.event.inputs.states }} --parallel 8
           govbot logs --limit 2200 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
