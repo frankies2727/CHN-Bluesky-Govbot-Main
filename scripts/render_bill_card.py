@@ -408,11 +408,12 @@ def _meta_row_height() -> int:
 def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
                     accent: tuple[int, int, int], theme: Theme) -> tuple[int, int]:
     """Draw a rounded "tag" chip (topic emoji + label) at (x, y) and return its
-    (width, height). Filled with the solid topic accent and white text so it
-    stays legible in both themes and over either palette."""
+    (width, height). No fill — just a thick rounded outline in the topic accent,
+    with the label in the accent color so it reads cleanly in both themes."""
     font = _mono(24, semibold=True)
     tracking = 3
     pad_x, pad_y = 22, 13
+    outline_w = 4
     asc, desc = font.getmetrics()
     text_h = asc + desc
 
@@ -423,13 +424,14 @@ def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
     chip_h = round(text_h + 2 * pad_y)
     radius = chip_h // 2
 
-    draw.rounded_rectangle([x, y, x + chip_w, y + chip_h], radius=radius, fill=accent)
+    draw.rounded_rectangle([x, y, x + chip_w, y + chip_h], radius=radius,
+                           outline=accent, width=outline_w)
     cx = x + pad_x
     if emoji_img is not None:
         img.paste(emoji_img,
                   (round(cx), round(y + chip_h / 2 - emoji_img.height / 2)), emoji_img)
         cx += emoji_w
-    _draw_tracked(draw, cx, y + pad_y, label, font, (255, 255, 255), tracking)
+    _draw_tracked(draw, cx, y + pad_y, label, font, accent, tracking)
     return chip_w, chip_h
 
 
