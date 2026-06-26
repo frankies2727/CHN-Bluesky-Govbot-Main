@@ -13,8 +13,7 @@ The layout is the "GovBot Post" design (Direction A — Daylight): a light cream
 card sitting inside a colored frame, with the GOVBOT wordmark, a state/bill-id
 eyebrow, a serif (Newsreader) headline with a highlighter underline on its last
 line, a monospace (IBM Plex Mono) summary, side-by-side STATUS and DATE cards,
-and a footer pointing readers to the caption ("Full bill linked in description")
-since Instagram captions can't carry a clickable link.
+and the GOVBOT wordmark anchored in the lower-right corner.
 
 Color treatment is driven by `spectrum`:
   * spectrum=True  -> the LGBTQ+ pride rainbow is used for the frame, the
@@ -57,7 +56,10 @@ INNER_W = INNER1 - INNER0       # = 888
 # "dark" — sharing the same layout; the poster picks one per run. Each theme
 # bundles the five tones the layout needs: card body, headline/value ink, the
 # muted summary/footer tone, the tile background, and the tile label tone.
-LABEL_SIZE = 16
+LABEL_SIZE = 14            # STATUS/DATE tile label size
+TILE_VALUE_SIZE = 32       # STATUS/DATE tile value size
+TILE_PAD_X = 24            # STATUS/DATE tile horizontal padding
+TILE_PAD_Y = 20            # STATUS/DATE tile vertical padding
 DEFAULT_ACCENT = (37, 99, 235)  # govbot blue fallback
 
 
@@ -367,15 +369,34 @@ def _wordmark_height(font: ImageFont.FreeTypeFont) -> int:
     return asc + desc
 
 
+# Wordmark layout constants, shared by the width measurement and the drawing so
+# the right-aligned footer placement stays in sync with what's actually painted.
+_WORDMARK_TRACKING = 8
+_WORDMARK_SEGMENTS = [("G", False), ("O", True), ("VB", False), ("O", True), ("T", False)]
+
+
+def _wordmark_width(draw, font: ImageFont.FreeTypeFont) -> float:
+    """Pixel width of the rendered GOVBOT wordmark (dots + tracked letters), so
+    callers can right-align it."""
+    dot_d = round(font.size * 0.8)
+    cx = 0.0
+    for text, is_dot in _WORDMARK_SEGMENTS:
+        if is_dot:
+            cx += dot_d + _WORDMARK_TRACKING
+        else:
+            cx += _tracked_width(draw, text, font, _WORDMARK_TRACKING) + _WORDMARK_TRACKING
+    return cx - _WORDMARK_TRACKING  # drop the trailing gap after the last glyph
+
+
 def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
                    theme: Theme) -> None:
     """Render the GOVBOT wordmark with the two O's replaced by rainbow dots."""
     font = _mono(40, semibold=True)
-    tracking = 8
+    tracking = _WORDMARK_TRACKING
     asc, _ = font.getmetrics()
     dot_d = round(40 * 0.8)
     cy = y + asc * 0.55          # vertical center of the cap height
-    segments = [("G", False), ("O", True), ("VB", False), ("O", True), ("T", False)]
+    segments = _WORDMARK_SEGMENTS
     cx = float(x)
     for text, is_dot in segments:
         if is_dot:
@@ -389,11 +410,11 @@ def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
 def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
                       colors, spectrum: bool, theme: Theme) -> int:
     """Draw a rounded STATUS/DATE tile and return its height."""
-    pad_x, pad_y = 28, 24
+    pad_x, pad_y = TILE_PAD_X, TILE_PAD_Y
     bar_h = 8
     radius = 6
     label_font = _mono(LABEL_SIZE, semibold=True)
-    value_font = _serif(38, weight=600)
+    value_font = _serif(TILE_VALUE_SIZE, weight=600)
 
     text_w = w - 2 * pad_x
     value_lines = _truncate(draw, _wrap(draw, value, value_font, text_w),
@@ -420,6 +441,34 @@ def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
     return tile_h
 
 
+def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
+                    accent: tuple[int, int, int], theme: Theme) -> tuple[int, int]:
+    """Draw a rounded "tag" chip (topic emoji + label) at (x, y) and return its
+    (width, height). Filled with the solid topic accent and white text so it
+    stays legible in both themes and over either palette."""
+    font = _mono(24, semibold=True)
+    tracking = 3
+    pad_x, pad_y = 22, 13
+    asc, desc = font.getmetrics()
+    text_h = asc + desc
+
+    emoji_img = _render_emoji(emoji, round(font.size * 1.05))
+    emoji_w = (emoji_img.width + 12) if emoji_img is not None else 0
+    text_w = _tracked_width(draw, label, font, tracking)
+    chip_w = round(emoji_w + text_w + 2 * pad_x)
+    chip_h = round(text_h + 2 * pad_y)
+    radius = chip_h // 2
+
+    draw.rounded_rectangle([x, y, x + chip_w, y + chip_h], radius=radius, fill=accent)
+    cx = x + pad_x
+    if emoji_img is not None:
+        img.paste(emoji_img,
+                  (round(cx), round(y + chip_h / 2 - emoji_img.height / 2)), emoji_img)
+        cx += emoji_w
+    _draw_tracked(draw, cx, y + pad_y, label, font, (255, 255, 255), tracking)
+    return chip_w, chip_h
+
+
 # ---------------------------------------------------------------------------
 # Card
 # ---------------------------------------------------------------------------
@@ -429,7 +478,8 @@ def render_card(
     *,
     headline: str = "",
     summary: str = "",
-    emoji: str = "",   # topic emoji, shown to the left of the state in the eyebrow
+    emoji: str = "",   # topic emoji, shown inside the top-left topic tag
+    topic_label: str = "",  # topic name shown in the top-left tag chip (e.g. "LGBTQ")
     accent: tuple[int, int, int] = DEFAULT_ACCENT,
     spectrum: bool = False,
     mode: str = "light",
@@ -508,17 +558,16 @@ def render_card(
     # Measure tile height up front (height depends on the wrapped value).
     status_h = 0
     if show_tiles:
-        vf = _serif(38, weight=600)
-        tw = tile_w - 2 * 28
+        vf = _serif(TILE_VALUE_SIZE, weight=600)
+        tw = tile_w - 2 * TILE_PAD_X
         sl = len(_truncate(draw, _wrap(draw, status_val or "—", vf, tw), vf, 2, tw))
         dl = len(_truncate(draw, _wrap(draw, date_val or "—", vf, tw), vf, 2, tw))
-        status_h = 8 + 24 + _line_h(_mono(LABEL_SIZE, semibold=True), 1.2) + 6 + _line_h(vf, 1.05) * max(sl, dl) + 24
+        status_h = (8 + TILE_PAD_Y + _line_h(_mono(LABEL_SIZE, semibold=True), 1.2)
+                    + 6 + _line_h(vf, 1.05) * max(sl, dl) + TILE_PAD_Y)
 
-    footer_font = _mono(18)
-    # The footer row now carries the GOVBOT wordmark on the left (moved down from
-    # the old header) next to the caption pointer, so the row is as tall as the
-    # wordmark.
-    footer_h = max(_line_h(footer_font, 1.2), _wordmark_height(wordmark_font))
+    # The footer row carries only the GOVBOT wordmark (lower-right), so the row
+    # is as tall as the wordmark.
+    footer_h = _wordmark_height(wordmark_font)
 
     blocks = [hero_h]
     if show_tiles:
@@ -531,14 +580,25 @@ def render_card(
     # ---- draw ---------------------------------------------------------------
     y = INNER0
 
+    # Topic tag chip (emoji + topic name) pinned to the top-left corner. The rest
+    # of the text starts below it, which also drops the whole block lower on the
+    # card for a more balanced, breathing layout.
+    GAP_TAG_HERO = 56
+    if topic_label:
+        _, tag_h = _draw_topic_tag(img, draw, INNER0, y, topic_label.upper(),
+                                   emoji, accent, theme)
+        y += tag_h + GAP_TAG_HERO
+
     # Hero: eyebrow + headline (with highlighter underline on last line) + summary.
-    # The topic emoji (when available) leads the eyebrow, to the left of the state.
+    # When the topic tag carries the emoji, the eyebrow is just the state/bill id;
+    # otherwise the emoji leads the eyebrow as before.
     ex = INNER0
-    emoji_img = _render_emoji(emoji, round(eyebrow_font.size * 1.15))
-    if emoji_img is not None:
-        asc, _ = eyebrow_font.getmetrics()
-        img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
-        ex += emoji_img.width + 18
+    if not topic_label:
+        emoji_img = _render_emoji(emoji, round(eyebrow_font.size * 1.15))
+        if emoji_img is not None:
+            asc, _ = eyebrow_font.getmetrics()
+            img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
+            ex += emoji_img.width + 18
     _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, theme.ink, tracking=3)
     y += eyebrow_h + GAP_EYE_HEAD
 
@@ -570,25 +630,12 @@ def render_card(
         _draw_status_tile(img, draw, INNER0 + tile_w + tile_gap, ty, tile_w,
                           "DATE", date_val or "—", colors, spectrum, theme)
 
-    # Footer: the GOVBOT wordmark (left, moved down from the old header) and the
-    # caption pointer (right), pinned to the bottom of the content box. The
-    # wordmark sets the row height; the link is vertically centered against it.
+    # Footer: the GOVBOT wordmark, pinned to the lower-right of the content box.
+    # (The "Link to the bill in the description" caption pointer was removed.)
     fy = INNER0 + INNER_W - footer_h
-    _draw_wordmark(img, draw, INNER0, fy, colors, spectrum, theme)
-    # Right side: 🔗 + "Link to the bill in the description", right-aligned and
-    # vertically centered within the footer row.
-    link_text = "Link to the bill in the description"
-    link_w = draw.textlength(link_text, font=footer_font)
-    link_emoji = _render_emoji("🔗", round(footer_font.size * 1.2))
-    emoji_w = (link_emoji.width + 8) if link_emoji is not None else 0
-    sx = INNER1 - link_w - emoji_w
-    link_lh = _line_h(footer_font, 1.2)
-    link_y = fy + (footer_h - link_lh) // 2
-    if link_emoji is not None:
-        asc, _ = footer_font.getmetrics()
-        img.paste(link_emoji, (round(sx), round(link_y + asc * 0.5 - link_emoji.height / 2)),
-                  link_emoji)
-    draw.text((sx + emoji_w, link_y), link_text, font=footer_font, fill=theme.muted)
+    wm_w = _wordmark_width(draw, wordmark_font)
+    wm_x = round(INNER1 - wm_w)
+    _draw_wordmark(img, draw, wm_x, fy, colors, spectrum, theme)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -627,6 +674,7 @@ if __name__ == "__main__":
             headline=_SAMPLE_HEADLINE,
             summary=_SAMPLE_SUMMARY,
             emoji="🏳️‍🌈",
+            topic_label="LGBTQ",
             accent=_LGBTQ_ACCENT,
             spectrum=True,
             mode=m,
