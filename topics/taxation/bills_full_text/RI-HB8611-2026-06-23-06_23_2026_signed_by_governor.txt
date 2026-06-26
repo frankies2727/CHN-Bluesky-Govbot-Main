@@ -1,0 +1,197 @@
+-- H 8611
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+
+AN ACT
+RELATING TO TAXATION -- TAXATION OF BANKS
+
+Introduced By: Representative Alex D. Marszalkowski
+Date Introduced: June 03, 2026
+Referred To: House Finance
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Section 44-14-14.1 of the General Laws in Chapter 44-14 entitled "Taxation
+of Banks" is hereby amended to read as follows:
+
+44-14-14.1. Apportionment and allocation of income for purposes of taxation.
+
+(a) Except as specifically provided in this chapter a banking institution whose business
+
+activity is taxable both within and outside of this state shall allocate and apportion its net income
+
+as provided in §§ 44-14-14.1 — 44-14-14.5. A financial institution organized under the laws of a
+
+foreign country, the Commonwealth of Puerto Rico, or a territory or possession of the United States
+
+whose effectively connected income (as defined under the federal Internal Revenue Code) is
+
+taxable both within this state and within another state, other than the state in which it is organized
+
+shall allocate and apportion its net income as provided in §§ 44-14-14.1 — 44-14-14.5.
+
+(b) All income shall be apportioned to this state by multiplying this income by the
+
+apportionment percentage. The apportionment percentage is determined by adding the taxpayer’s
+
+receipts factor (as described in § 44-14-14.3), property factor (as described in § 44-14-14.4), and
+
+payroll factor (as described in § 44-14-14.5) together and dividing the sum by three. If one of the
+
+factors is missing, the two remaining factors are added and the sum is divided by two. If two of the
+
+factors are missing, the remaining factor is the apportionment percentage. A factor is missing if
+
+both its numerator and denominator are zero, but it is not missing merely because its numerator is
+
+zero.
+
+(c) Each factor shall be computed according to the method of accounting (cash or accrual
+
+basis) used by the taxpayer for the taxable year.
+
+(d) For tax years ending prior to January 1, 2025, if the allocation and apportionment
+
+provisions of §§ 44-14-14.1 — 44-14-14.5 do not fairly represent the extent of the taxpayer’s
+
+business activity in this state, the taxpayer may petition for or the tax administrator may require, in
+
+respect to all or any part of the taxpayer’s business activity, if reasonable:
+
+(1) The exclusion of any one or more of the factors;
+
+(2) The inclusion of one or more additional factors which will fairly represent the
+
+taxpayer’s business activity in this state; or
+(3) The employment of any other method to effectuate an equitable allocation and
+apportionment of the taxpayer’s income.
+
+(e) For tax years beginning on or after January 1, 2025, if the allocation and apportionment
+
+provisions of §§ 44-14-14.1 — 44-14-14.5 or subsection (f) of this section are not reasonably
+
+adapted to approximate the net income derived from business carried on within the state, a banking
+
+institution may apply to the tax administrator, or the tax administrator may require the banking
+
+institution, to have its income derived from business carried on within the state determined by an
+
+alternative method. Such application shall be made by attaching to its duly-filed return a statement
+
+of the reasons why the banking institution believes that §§ 44-14-14.1 — 44-14-14.5 or subsection
+
+(f) of this section are not reasonably adapted to approximate its net income derived from business
+
+carried on within the state and a description of the method sought by it. A banking institution which
+
+so applies shall, upon receipt of a request therefor from the tax administrator, file with the tax
+
+administrator, under oath of its treasurer, a statement of such additional information as the tax
+
+administrator may require.
+
+If, after such application by the banking institution, or after the tax administrator’s own
+
+review, the tax administrator determines that §§ 44-14-14.1 — 44-14-14.5 or subsection (f) of this
+
+section are not reasonably adapted to approximate the banking institution’s net income derived
+
+from business carried on within the state, the tax administrator shall by reasonable methods
+
+determine the amount of net income derived from business activity carried on within the state. The
+
+amount thus determined shall be the net income taxable under § 44-14-3 or § 44-14-4 and the
+
+foregoing determination shall be in lieu of the determination required by §§ 44-14-14.1 — 44-14-
+
+14.5 or subsection (f) of this section. If an alternative method is used by the tax administrator
+
+hereunder, the tax administrator, in their discretion, may require similar information from such
+
+banking institution if it shall appear that such alternative method or §§ 44-14-14.1 — 44-14-14.5
+
+or subsection (f) of this section are not reasonably adapted to approximate for the applicable year
+
+the banking institution’s net income derived from business carried on within the state and may
+
+LC006561 - Page 2 of 4
+
+again by reasonable methods determine such income.
+
+(f) For tax years beginning on or after January 1, 2025, except as specifically provided in
+
+this chapter a banking institution whose business activity is taxable both within and outside of this
+
+state may elect to allocate and apportion its net income by multiplying its net income by its receipts
+
+factor as described in § 44-14-14.3. For purposes of an election made pursuant to this subsection
+
+(f), the following shall apply:
+
+(1) An election shall be made by filing the form prescribed by the tax administrator with
+
+the taxpayer’s duly-filed return. The election shall take effect in the tax year for which the taxpayer
+
+makes the election and shall remain in effect for all subsequent tax years; except that, after a
+
+minimum of five (5) subsequent tax years after the tax year for which the election is made, in the
+
+event of a material change of facts or law, a taxpayer may apply to the tax administrator to revoke
+
+the election. Such application shall be made by attaching a statement of the event of a material
+
+change of facts or law to the taxpayer’s duly-filed return. A banking institution which so applies
+
+shall, upon receipt of a request therefor from the tax administrator, file with the tax administrator,
+
+under oath of its treasurer, a statement of such additional information as the tax administrator may
+
+require.
+
+(2) If the receipts factor is missing, the whole of the banking institution’s net income shall
+
+be taxable pursuant to §§ 44-14-3 — 44-14-4. The receipts factor shall be missing if both its
+
+numerator and denominator are zero, but it shall not be missing merely because its numerator is
+
+zero.
+
+(3) The receipts factor shall be computed according to the method of accounting (cash or
+accrual basis) used by the taxpayer for the taxable year.
+(4) A banking institution electing apportionment under this subsection shall not claim any
+benefit pursuant to chapter 64.5 of title 42.
+SECTION 2. This act shall take effect upon passage and be effective for tax years
+beginning on or after January 1, 2025.
+========
+========
+
+LC006561 - Page 3 of 4
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO TAXATION -- TAXATION OF BANKS
+
+***
+
+This act would amend the apportionment and allocation of income for purposes of taxation
+relating to the taxation of banks.
+This act would take effect upon passage and be effective for tax years beginning on or after
+January 1, 2025.
+========
+========
+
+LC006561 - Page 4 of 4
