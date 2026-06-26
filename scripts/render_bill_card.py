@@ -354,13 +354,14 @@ _WORDMARK_TRACKING = 8
 _WORDMARK_SEGMENTS = [("G", False), ("O", True), ("VB", False), ("O", True), ("T", False)]
 
 
-def _wordmark_width(draw, font: ImageFont.FreeTypeFont) -> float:
+def _wordmark_width(draw, font: ImageFont.FreeTypeFont, spectrum: bool) -> float:
     """Pixel width of the rendered GOVBOT wordmark (dots + tracked letters), so
-    callers can right-align it."""
+    callers can right-align it. The O's are rainbow dots only when spectrum;
+    otherwise they're plain tracked letters like the rest of the wordmark."""
     dot_d = round(font.size * 0.8)
     cx = 0.0
     for text, is_dot in _WORDMARK_SEGMENTS:
-        if is_dot:
+        if is_dot and spectrum:
             cx += dot_d + _WORDMARK_TRACKING
         else:
             cx += _tracked_width(draw, text, font, _WORDMARK_TRACKING) + _WORDMARK_TRACKING
@@ -369,7 +370,9 @@ def _wordmark_width(draw, font: ImageFont.FreeTypeFont) -> float:
 
 def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
                    theme: Theme) -> None:
-    """Render the GOVBOT wordmark with the two O's replaced by rainbow dots."""
+    """Render the GOVBOT wordmark. When spectrum (the LGBTQ+ account), the two
+    O's are rainbow dots; otherwise they're plain "O" letters in the wordmark
+    ink, matching the rest of the lettering (no design)."""
     font = _mono(40, semibold=True)
     tracking = _WORDMARK_TRACKING
     asc, _ = font.getmetrics()
@@ -378,7 +381,7 @@ def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
     segments = _WORDMARK_SEGMENTS
     cx = float(x)
     for text, is_dot in segments:
-        if is_dot:
+        if is_dot and spectrum:
             dot = _rainbow_dot(dot_d, colors, spectrum)
             img.paste(dot, (round(cx), round(cy - dot_d / 2)), dot)
             cx += dot_d + tracking
@@ -509,7 +512,7 @@ def render_card(
     GAP_TAG_HERO = 52
 
     # ---- bottom band: STATUS/DATE row + GOVBOT wordmark above a hairline -----
-    wm_w = _wordmark_width(draw, wordmark_font)
+    wm_w = _wordmark_width(draw, wordmark_font, spectrum)
     wm_h = _wordmark_height(wordmark_font)
     meta_h = _meta_row_height()
     band_h = max(wm_h, meta_h)
