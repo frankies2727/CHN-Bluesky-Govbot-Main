@@ -441,6 +441,34 @@ def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
     return tile_h
 
 
+def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
+                    accent: tuple[int, int, int], theme: Theme) -> tuple[int, int]:
+    """Draw a rounded "tag" chip (topic emoji + label) at (x, y) and return its
+    (width, height). Filled with the solid topic accent and white text so it
+    stays legible in both themes and over either palette."""
+    font = _mono(24, semibold=True)
+    tracking = 3
+    pad_x, pad_y = 22, 13
+    asc, desc = font.getmetrics()
+    text_h = asc + desc
+
+    emoji_img = _render_emoji(emoji, round(font.size * 1.05))
+    emoji_w = (emoji_img.width + 12) if emoji_img is not None else 0
+    text_w = _tracked_width(draw, label, font, tracking)
+    chip_w = round(emoji_w + text_w + 2 * pad_x)
+    chip_h = round(text_h + 2 * pad_y)
+    radius = chip_h // 2
+
+    draw.rounded_rectangle([x, y, x + chip_w, y + chip_h], radius=radius, fill=accent)
+    cx = x + pad_x
+    if emoji_img is not None:
+        img.paste(emoji_img,
+                  (round(cx), round(y + chip_h / 2 - emoji_img.height / 2)), emoji_img)
+        cx += emoji_w
+    _draw_tracked(draw, cx, y + pad_y, label, font, (255, 255, 255), tracking)
+    return chip_w, chip_h
+
+
 # ---------------------------------------------------------------------------
 # Card
 # ---------------------------------------------------------------------------
@@ -450,7 +478,8 @@ def render_card(
     *,
     headline: str = "",
     summary: str = "",
-    emoji: str = "",   # topic emoji, shown to the left of the state in the eyebrow
+    emoji: str = "",   # topic emoji, shown inside the top-left topic tag
+    topic_label: str = "",  # topic name shown in the top-left tag chip (e.g. "LGBTQ")
     accent: tuple[int, int, int] = DEFAULT_ACCENT,
     spectrum: bool = False,
     mode: str = "light",
@@ -551,14 +580,25 @@ def render_card(
     # ---- draw ---------------------------------------------------------------
     y = INNER0
 
+    # Topic tag chip (emoji + topic name) pinned to the top-left corner. The rest
+    # of the text starts below it, which also drops the whole block lower on the
+    # card for a more balanced, breathing layout.
+    GAP_TAG_HERO = 56
+    if topic_label:
+        _, tag_h = _draw_topic_tag(img, draw, INNER0, y, topic_label.upper(),
+                                   emoji, accent, theme)
+        y += tag_h + GAP_TAG_HERO
+
     # Hero: eyebrow + headline (with highlighter underline on last line) + summary.
-    # The topic emoji (when available) leads the eyebrow, to the left of the state.
+    # When the topic tag carries the emoji, the eyebrow is just the state/bill id;
+    # otherwise the emoji leads the eyebrow as before.
     ex = INNER0
-    emoji_img = _render_emoji(emoji, round(eyebrow_font.size * 1.15))
-    if emoji_img is not None:
-        asc, _ = eyebrow_font.getmetrics()
-        img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
-        ex += emoji_img.width + 18
+    if not topic_label:
+        emoji_img = _render_emoji(emoji, round(eyebrow_font.size * 1.15))
+        if emoji_img is not None:
+            asc, _ = eyebrow_font.getmetrics()
+            img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
+            ex += emoji_img.width + 18
     _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, theme.ink, tracking=3)
     y += eyebrow_h + GAP_EYE_HEAD
 
@@ -634,6 +674,7 @@ if __name__ == "__main__":
             headline=_SAMPLE_HEADLINE,
             summary=_SAMPLE_SUMMARY,
             emoji="🏳️‍🌈",
+            topic_label="LGBTQ",
             accent=_LGBTQ_ACCENT,
             spectrum=True,
             mode=m,
