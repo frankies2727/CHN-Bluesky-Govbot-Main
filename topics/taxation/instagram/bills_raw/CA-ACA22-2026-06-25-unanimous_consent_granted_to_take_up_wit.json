@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The California Constitution conditions the imposition of a special tax by a local government upon the approval of 23 of the voters of the local government voting on that tax, and prohibits these entities from imposing an ad valorem tax on real property or a transactions or sales tax on the sale of real property.\n\nThe Supreme Court of California interpreted this provision and other provisions restricting the authority of local governments to impose, extend, or increase taxes as not restricting the authority of voters to impose taxes via initiative.\n\nThis measure would, beginning January 1, 2027, prohibit a local government, including the electorate of a local government exercising the initiative power, from imposing, extending, or increasing any special tax, except as provided, unless and until that tax is submitted to the electorate and approved by a 23 vote. The measure would prohibit a local government, including the electorate of a local government exercising the initiative power, from imposing ad valorem taxes on real property, except as provided pursuant to specified constitutional provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "ACA22",
+    "legislative_session": "20252026",
+    "subject": [
+      "Localtaxes",
+      "limitation"
+    ],
+    "title": "A resolution to propose to the people of the State of California an amendment to the Constitution of the State, by adding Section 4.5 to Article XIII A thereof, relating to taxation."
+  },
+  "id": "ACA22",
+  "log": {
+    "action": {
+      "description": "Unanimous consent granted to take up without reference to file.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260ACA22"
+        }
+      ]
+    },
+    "bill_id": "ACA22"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/ACA22/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/ACA22/logs/20260625T000000Z_unanimous_consent_granted_to_take_up_without_reference_to_file.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

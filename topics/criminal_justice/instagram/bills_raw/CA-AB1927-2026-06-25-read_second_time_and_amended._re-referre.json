@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally regulates the business of insurance in the state, including the conduct of insurance licensees, and provides for the issuance of bail licenses under the jurisdiction of the Insurance Commissioner. Existing regulations generally prohibit the solicitation of bail except after a bona fide request for bail services has been received from the arrestee or from another specified person.\n\nExisting law makes it a misdemeanor to impersonate certain personnel, including a law enforcement officer or an officer or member of a fire department, with the intent of fraudulently impersonating such a person, or of fraudulently inducing the belief that they are such a person.\n\nThis bill, the Bail Consumer Protection Act, would make it a misdemeanor for any person to willfully impersonate, or falsely hold themselves out to be, a licensed bail agent, and while doing so solicits or attempts to solicit bail from any individual. By creating a new crime, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1927",
+    "legislative_session": "20252026",
+    "subject": [
+      "BailConsumerProtectionAct"
+    ],
+    "title": "Bail Consumer Protection Act."
+  },
+  "id": "AB1927",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on JUD.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on JUD."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1927"
+        }
+      ]
+    },
+    "bill_id": "AB1927"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1927/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1927/logs/20260625T000000Z_read_second_time_and_amended_rereferred_to_com_on_jud.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

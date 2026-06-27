@@ -1,6 +1,22 @@
 {
   "posted": [
+    "CA|AB1843|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|AB1876|2026-06-24|From committee: Do pass and re-refer to ",
+    "CA|AB1927|2026-06-25|Read second time and amended. Re-referre",
+    "CA|ACA22|2026-06-25|",
+    "CA|ACA22|2026-06-25|(Ayes 36. Noes 0.)",
+    "CA|ACA22|2026-06-25|Adopted and to Assembly. (Ayes 35. Noes ",
+    "CA|ACA22|2026-06-25|Adopted and to Senate. (Ayes 68. Noes 2.",
+    "CA|ACA22|2026-06-25|Assembly Rule 66 suspended.",
+    "CA|ACA22|2026-06-25|Enrolled and filed with the Secretary of",
+    "CA|ACA22|2026-06-25|In Assembly. Ordered to Engrossing and E",
+    "CA|ACA22|2026-06-25|In Senate. To Com. on RLS.",
+    "CA|ACA22|2026-06-25|Joint rules and Senate rules suspended.",
+    "CA|ACA22|2026-06-25|Unanimous consent granted to take up wit",
+    "CA|ACA22|2026-06-25|Withdrawn from committee.",
+    "CA|ACA22|2026-06-25|Without reference to committee.",
+    "IA|HF 2788|2026-04-29|Amendment H-8432 filed. H.J. 04/29.",
+    "IA|HF 2788|2026-04-29|Amendment H-8433 filed. H.J. 04/29.",
     "MO|SB 1421|2026-05-28|Delivered to Governor",
     "MO|SB 1421|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
     "MO|SB 1421|2026-05-28|Signed by House Speaker",
@@ -8,6 +24,8 @@
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HB7619|2026-06-23|06/23/2026 Signed by Governor"
   ],
-  "runs": {},
-  "last_run": "2026-06-26T14:17:23.912579+00:00"
+  "runs": {
+    "28277775276-1": 4
+  },
+  "last_run": "2026-06-27T04:31:07.905407+00:00"
 }

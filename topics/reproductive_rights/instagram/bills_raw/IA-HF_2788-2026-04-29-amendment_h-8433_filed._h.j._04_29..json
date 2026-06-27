@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 2788",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "abortions",
+      "informed consent",
+      "mifepristone"
+    ],
+    "title": "A bill for an act relating to abortions including informed consent, dispensing abortion-inducing drugs, and reporting abortion-inducing drug complications."
+  },
+  "id": "HF 2788",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction"
+      ],
+      "date": "2026-04-29",
+      "description": "Amendment H-8433 filed. H.J. 04/29.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 2788"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/HF2788/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/HF2788/logs/20260429T000000Z_amendment_h8433_filed_hj_0429.json"
+  },
+  "timestamp": "20260429T000000Z"
+}

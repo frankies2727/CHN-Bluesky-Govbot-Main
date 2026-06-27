@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regulation of health care service plans by the Department of Managed Health Care and makes a willful violation of the act a crime. Existing law also provides for the regulation of health insurers by the Department of Insurance. Existing law generally prohibits a health care service plan or health insurer from subjecting antiretroviral drugs that are medically necessary for the prevention of HIV/AIDS to prior authorization or step therapy.\n\nThis bill would prohibit a health care service plan and health insurer from subjecting direct-acting antiviral drugs that are medically necessary for the treatment of hepatitis C to prior authorization. The bill would specify that these provisions do not require a health care service plan or health insurer to cover all therapeutically equivalent versions without prior authorization, as specified. The bill would require a health care service plan and health insurer's clinical criteria for hepatitis C treatment and prior authorization to align with current guidelines and the standard of care consistent with the standards of the American Association for the Study of Liver Diseases and the Infectious Diseases Society of America or generally accepted clinical practice guidelines of another nonprofit health care provider professional association or specialty society pertaining to clinical hepatology or infectious disease. The bill would prohibit a plan or insurer, for the purpose of determining prior authorization for hepatitis C treatment, from requesting specified tests or information. Because a violation of these provisions by a health care service plan would be a crime, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1843",
+    "legislative_session": "20252026",
+    "subject": [
+      "Communicablediseases",
+      "hepatitisC"
+    ],
+    "title": "Communicable diseases: hepatitis C."
+  },
+  "id": "AB1843",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 8. Noes 1.) (June 24). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1843"
+        }
+      ]
+    },
+    "bill_id": "AB1843"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1843/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1843/logs/20260625T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_8_noes_1_june_24_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

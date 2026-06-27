@@ -1,0 +1,435 @@
+House File 2788 - Introduced
+HOUSE FILE 2788
+BY COMMITTEE ON APPROPRIATIONS
+(SUCCESSOR TO HF 2563)
+(SUCCESSOR TO HSB 704)
+
+A BILL FOR
+
+An Act relating to abortions including informed consent,
+dispensing abortion-inducing drugs, and reporting
+abortion-inducing drug complications.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA:
+
+TLSB 5778HZ (2) 91
+ak/ko
+
+DIVISION I
+ABORTION —— DEFINED
+Section 1. Section 146B.1, subsection 1, Code 2026, is
+amended to read as follows:
+1. “Abortion” means the termination of a human pregnancy
+with the intent other than to produce a live birth or to
+remove a dead fetus. “Abortion” does not include a spontaneous
+termination of pregnancy, commonly known as a miscarriage, if
+not all the products of conception are expelled.
+DIVISION II
+INFORMED CONSENT
+Sec. 2. Section 146A.1, Code 2026, is amended by adding the
+following new subsection:
+NEW SUBSECTION. 1A. Prior to performing an abortion,
+a physician shall perform an in-person examination of the
+pregnant woman including screening for indicia of coercion or
+abuse. A physician shall, if necessary, refer the woman to an
+appropriate health care provider for treatment consistent with
+the examination results.
+Sec. 3. Section 146A.1, subsection 6, Code 2026, is amended
+by adding the following new paragraphs:
+NEW PARAGRAPH. 0a. “Abortion” means the same as defined in
+section 146B.1.
+NEW PARAGRAPH. 00a. “Health care provider” means a
+person who is licensed, certified, or otherwise authorized or
+permitted by the laws of this state to administer health care
+in the ordinary course of business or in the practice of a
+profession.
+NEW PARAGRAPH. 0b. “Physician” means the same as defined
+in section 146B.1.
+Sec. 4. NEW SECTION. 146A.2 Dispensing abortion-inducing
+drugs —— licensee discipline.
+1. As used in this section, unless the context otherwise
+requires:
+a. “Abortion-inducing drug” means the same as defined in
+
+ak/ko
+
+1/11
+
+section 146F.1.
+b. “Chemical abortion” means the same as defined in section
+146F.1.
+c. “Dispense” means the same as defined in section 146F.1.
+d. “Medical emergency” means the same as defined in section
+146A.1.
+e. “Pregnant” or “pregnancy” means the human female
+reproductive condition of having a living unborn child within
+the pregnant woman’s body throughout every stage of the unborn
+child’s life and development, from fertilization to full
+gestation and childbirth.
+2. A physician who is performing or attempting to perform
+a chemical abortion shall do all of the following prior to
+prescribing or dispensing an abortion-inducing drug to a
+pregnant woman:
+a. Obtain the signature of the woman on the United States
+food and drug administration patient agreement form required
+for each abortion-inducing drug authorized to be manufactured
+or sold in the United States.
+b. Obtain written confirmation from the woman that the woman
+has been informed of all of the following information:
+(1) The gestational age-specific risks of abortion-inducing
+drugs.
+(2) The risks related to the specific abortion-inducing
+drug or drugs to be used, including hemorrhage, failure to
+remove all tissue of the unborn child, sepsis, sterility, and
+possible continuation of the pregnancy.
+(3) That the United States federal food and drug
+administration recommends that the pregnant woman follow up
+with the woman’s health care provider approximately seven
+to fourteen calendar days after the administration of an
+abortion-inducing drug to confirm complete termination of
+pregnancy has occurred and to evaluate the degree of bleeding.
+(4) That women using abortion-inducing drugs have suffered
+trauma from seeing the remains of the unborn child in the
+
+ak/ko
+
+2/11
+
+process of a chemical abortion.
+c. Advise the pregnant woman how to access emergency
+surgical intervention in case of an incomplete abortion, severe
+bleeding, or other medical complications.
+3. Subsection 2 shall not apply to a chemical abortion
+performed in a medical emergency.
+4. This section shall not be construed to impose civil or
+criminal liability on a woman upon whom a chemical abortion has
+been performed.
+5. A physician who fails to comply with this section is
+subject to licensee discipline under chapter 148.
+6. The board of medicine shall adopt rules pursuant to
+chapter 17A to administer this section.
+DIVISION III
+DISPENSING AND REPORTING —— ABORTION-INDUCING DRUGS
+Sec. 5. NEW SECTION. 146F.1 Definitions.
+As used in this chapter, unless the context otherwise
+requires:
+1. “Abortion-inducing drug” means any of the following:
+a. Mifepristone.
+b. Misoprostol.
+c. Any other drug, measure, or chemical approved by the
+United States food and drug administration when prescribed or
+administered with the intent to terminate the pregnancy of a
+woman known to be pregnant. “Abortion-inducing drug” includes
+off-label use of a drug known to have abortion-inducing
+properties, which is prescribed with the intent of causing an
+abortion. “Abortion-inducing drug” does not include drugs that
+may be known to cause an abortion but that are prescribed for
+other medical conditions.
+2. “Abortion-inducing drug complication” means any physical
+or psychological condition which, in the reasonable medical
+judgment of a health care provider, may occur as a primary or
+secondary result of the patient’s use of abortion-inducing
+drugs including but not limited to:
+
+ak/ko
+
+3/11
+
+a. Uterine rupture, bleeding, or hemorrhage.
+b. Failure to actually terminate the pregnancy.
+c. Incomplete abortion or retained tissue.
+d. Missed ectopic pregnancy.
+e. Infection.
+f. Sepsis.
+3. “Chemical abortion” means an abortion performed by the
+administration or use of an abortion-inducing drug.
+4. “Department” means the department of health and human
+services.
+5. “Dispense” means to distribute, administer, or send an
+abortion-inducing drug to the ultimate user.
+6. “Health care provider” means the same as defined in
+section 146A.1.
+7. “Health care setting” means a pharmacy, clinic, medical
+office, or hospital.
+8. “Hospital” means the same as defined in section 135B.1.
+9. “Interested party” means any of the following persons:
+a. A woman upon whom a chemical abortion was performed or
+attempted.
+b. The personal representative of a woman upon whom a
+chemical abortion was performed or attempted.
+10. “Medical emergency” means the same as defined in section
+146A.1.
+11. “Personal representative” means an administrator or
+an executor, or if there is no such personal representative
+appointed, then a person legally authorized to perform
+substantially the same functions.
+12. “Physician” means the same as defined in section 146B.1.
+13. “Postfertilization age” means the same as defined in
+section 146B.1.
+14. “Pregnancy” or “pregnant” means the same as defined in
+section 146A.2.
+15. “Rural emergency hospital” means the same as defined in
+section 135B.1.
+
+ak/ko
+
+4/11
+
+Sec. 6. NEW SECTION. 146F.2 Dispensing of abortion-inducing
+drugs —— restrictions.
+1. A person shall not dispense an abortion-inducing drug in
+this state unless all of the following criteria are met:
+a. The drug is dispensed in a health care setting directly
+to the woman prescribed the drug.
+b. The person dispensing the drug is authorized to do so
+pursuant to section 147.107.
+2. Subsection 1 does not apply to the dispensing of an
+abortion-inducing drug in response to a medical emergency.
+Sec. 7. NEW SECTION. 146F.3 Abortion-inducing drug
+complication —— reporting.
+1. a. Within thirty calendar days of the date of discharge
+or death of a woman who presented with or was treated for
+an abortion-inducing drug complication, a hospital, rural
+emergency hospital, or an attending physician shall file a
+report with the department. The report shall be in a form
+prescribed by the department and include a list of the most
+common abortion complications and the most recent international
+classification of diseases code as maintained by the world
+health organization for each. The report must be completed and
+signed by the woman’s attending physician and contain all of
+the following information:
+(1) The age of the woman who presented with or was treated
+for an abortion-inducing drug complication.
+(2) The state and county of residence of the woman who
+presented with or was treated for an abortion-inducing drug
+complication.
+(3) The date the abortion-inducing drug was used by the
+woman.
+(4) The probable postfertilization age of the unborn child
+on the date of the abortion-inducing drug complication.
+(5) The identity of the physician who performed the
+chemical abortion, the facility where the chemical abortion was
+performed, and the referring physician, agency, or service, if
+
+ak/ko
+
+5/11
+
+any.
+(6) The specific complication or complications that led to
+the treatment and the most recent international classification
+of diseases code for each complication as maintained by the
+world health organization, if applicable.
+b. A report shall not contain the name of the woman or
+other information or identifiers that would make it possible to
+identify the woman who suffered the reported abortion-inducing
+drug complication.
+2. A report filed pursuant to subsection 1 shall be
+confidential and not subject to disclosure under chapter 22.
+3. a. On or before December 31, 2026, and every calendar
+year thereafter, the department shall prepare a comprehensive
+statistical report based upon the aggregated data gathered from
+reports filed pursuant to subsection 1 for the immediately
+preceding calendar year. The aggregated data shall be
+anonymized to prevent public disclosure of either of the
+following:
+(1) The hospital, rural emergency hospital, or attending
+physician that filed a report.
+(2) The woman about whom a report was filed.
+b. The anonymized aggregated data shall be made available to
+the public by the department in a downloadable format on the
+department’s internet site.
+Sec. 8. NEW SECTION. 146F.4 Private cause of action ——
+civil liability.
+1. A person who dispenses an abortion-inducing drug
+in violation of section 146F.2 shall be civilly liable
+to any interested party for all damages caused by the
+abortion-inducing drug. A person who is subject to licensee
+discipline under chapter 148 or 155A shall be immune from civil
+liability under this section.
+2. In addition to compensatory or punitive damages, a
+prevailing plaintiff who brings an action under this section is
+entitled to court costs and reasonable attorney fees.
+
+ak/ko
+
+6/11
+
+3. In an action brought under this section, the name and
+other identifying characteristics of a woman who sought or
+obtained an abortion-inducing drug shall be redacted without
+a court order from all pleadings and documents filed in the
+action. The court may make further orders as necessary to
+protect the identity and privacy of the woman who sought or
+obtained an abortion-inducing drug.
+4. This section shall not be construed to impose civil or
+criminal liability on a woman upon whom a chemical abortion is
+performed.
+Sec. 9. NEW SECTION. 146F.5 Licensee discipline.
+A licensee who fails to comply with this chapter is subject
+to licensee discipline under chapter 148 or 155A.
+DIVISION IV
+ABORTION-RELATED PROVISIONS
+Sec. 10. Section 144.29A, subsection 1, paragraph k, Code
+2026, is amended to read as follows:
+k. The method used for an induced termination, including
+whether mifepristone or misoprostol was used.
+Sec. 11. Section 144.29A, subsection 1, Code 2026, is
+amended by adding the following new paragraph:
+NEW PARAGRAPH. l. If a spontaneous termination of
+pregnancy, whether the patient ingested mifepristone or
+misoprostol within fourteen calendar days prior to the date of
+the spontaneous termination of pregnancy.
+Sec. 12. Section 144.29A, subsection 7, paragraph c, Code
+2026, is amended to read as follows:
+c. “Spontaneous termination of pregnancy”, commonly known
+as a miscarriage, means the occurrence of an unintended
+termination of pregnancy at any time during the period from
+conception to twenty weeks gestation and which is not a
+spontaneous termination of pregnancy at any time during the
+period from twenty weeks or greater which is reported to the
+department as a fetal death under this chapter.
+EXPLANATION
+
+ak/ko
+
+7/11
+
+The inclusion of this explanation does not constitute agreement with
+the explanation’s substance by the members of the general assembly.
+
+This bill relates to abortions, including informed
+consent, dispensing of abortion-inducing drugs, and reporting
+abortion-inducing drug complications.
+DIVISION I —— ABORTION DEFINED. The bill excludes
+a spontaneous termination of pregnancy, if not all the
+products of conception are expelled, from the definition of
+abortion for the purpose of the reporting requirements and
+penalties on abortions under Code chapter 146B (abortion ——
+postfertilization age).
+DIVISION II —— INFORMED CONSENT. Under the bill, a
+physician, prior to performing or attempting to perform an
+abortion, is required to perform an in-person examination of
+the woman seeking an abortion, including screening for indicia
+of coercion or abuse; if necessary, the physician shall make a
+referral to an appropriate health care provider consistent with
+the examination results.
+The bill requires a physician who is performing or
+attempting to perform a chemical abortion, prior to prescribing
+or dispensing an abortion-inducing drug, to do all of the
+following: have the woman being prescribed or dispensed the
+drug sign a patient agreement form, obtain written confirmation
+that the physician has informed the woman of specific health
+and safety information related to abortion-inducing drugs
+as detailed in the bill, and advise the pregnant woman how
+to access emergency surgical intervention in cases of an
+incomplete abortion, severe bleeding, or other medical
+complications. The bill specifies that these requirements
+shall not apply to a chemical abortion performed in response to
+a medical emergency. The bill provides that the prohibition on
+dispensing of abortion-inducing drugs shall not be construed
+to impose civil or criminal liability on a woman upon whom
+a chemical abortion has been performed. Under the bill,
+a physician who fails to comply with the informed consent
+
+ak/ko
+
+8/11
+
+requirements is subject to licensee discipline. The bill
+requires the board of medicine to adopt rules to administer
+this division of the bill. The bill defines “abortion-inducing
+drug”, “chemical abortion”, “dispense”, “medical emergency”,
+and “pregnant” or “pregnancy”.
+DIVISION III —— DISPENSING AND REPORTING ——
+ABORTION-INDUCING DRUGS. The bill defines “abortion-inducing
+drug”, “abortion-inducing drug complication”, “chemical
+abortion”, “dispense”, “health care setting”, “interested
+party”, “medical emergency”, “physician”, “postfertilization
+age”, and “rural emergency hospital”.
+The bill prohibits a person from dispensing an
+abortion-inducing drug in this state unless the drug is
+dispensed in a health care setting directly to the woman
+prescribed the drug, and the person dispensing the drug is
+authorized to do so pursuant to Code section 147.107 (drug
+dispensing, supplying, and prescribing —— limitations). These
+requirements do not apply to a medical emergency.
+The bill requires a hospital, rural emergency hospital, or
+the attending physician to file a report with the department
+of health and human services (HHS) using a prescribed form
+within 30 days of discharge or death of a woman who presented
+with or was treated for an abortion-inducing drug complication.
+The form must be signed and completed by the attending
+physician and contain the age of the woman experiencing the
+abortion-inducing drug complication, the woman’s state and
+county of residence, the date the abortion-inducing drug was
+used by the woman, and the probable postfertilization age
+of the unborn child at the time of the abortion-inducing
+drug complication. The report must identify the physician
+who performed the chemical abortion, the facility where the
+chemical abortion was performed, the referring physician,
+agency, or service, if any, and the specific complication or
+complications that led to the treatment performed along with
+the most recent international classification of diseases code
+
+ak/ko
+
+9/11
+
+for each, if applicable. The report shall be confidential and
+not subject to disclosure under Code chapter 22 (open records).
+The bill also requires HHS to prepare annually on or
+before December 31 a comprehensive statistical report based
+upon the aggregated data gathered from the reports filed on
+abortion-inducing drug complications. Under the bill, the data
+gathered by HHS must be anonymized to prevent public disclosure
+of either the physician or hospital that filed a report, or the
+woman about whom a report is filed. HHS is required to make the
+anonymized data publicly available in a downloadable format on
+its internet site.
+This division of the bill imposes civil liabilities on any
+person who dispenses an abortion-inducing drug in violation
+of this division of the bill for all damages caused by the
+abortion-inducing drug suffered by a woman upon whom a chemical
+abortion was performed or was attempted or the personal
+representative of the woman upon whom a chemical abortion was
+performed or was attempted. A licensed pharmacist or physician
+is immune from civil liability. The bill defines “personal
+representative” as an administrator or an executor, or if there
+is no such personal representative appointed, then a person
+legally authorized to perform substantially the same functions.
+A prevailing plaintiff in an action brought under this division
+of the bill, in addition to compensatory and punitive damages,
+is entitled to court costs and reasonable attorney fees. In
+an action brought under this division of the bill, the name
+and other identifying characteristics of a woman who sought or
+obtained an abortion-inducing drug shall be redacted from all
+pleadings and documents filed in the action without a court
+order, and the court may make further orders as necessary to
+protect the identity and privacy of the woman who sought or
+obtained an abortion-inducing drug. This division of the bill
+is not to be construed to impose civil or criminal liability
+upon a woman upon whom a chemical abortion is performed.
+Under the bill, a licensed pharmacist or physician that
+
+ak/ko
+
+10/11
+
+fails to comply with this division of the bill is subject to
+licensee discipline.
+DIVISION IV —— ABORTION-RELATED PROVISIONS. The bill amends
+Code section 144.29A (termination of pregnancy reporting ——
+legislative intent) to require a health care provider that
+diagnoses or induces a spontaneous termination of pregnancy
+to include in the required report to HHS if mifepristone or
+misoprostol was used to induce a spontaneous termination of
+pregnancy. Current law requires the health care provider to
+only disclose if mifepristone was used to induce a spontaneous
+termination of pregnancy. The bill also requires the health
+care provider to disclose whether mifepristone or misoprostol
+were ingested by the patient within 14 days prior to the
+spontaneous termination of pregnancy.
+
+ak/ko
+
+11/11
