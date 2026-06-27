@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally regulates classes of insurance, including automobile liability insurance. Existing law prohibits classifying a private passenger motor vehicle as a commercial vehicle, for-hire vehicle, permissive use vehicle, or livery solely because its owner allows it to be shared, if specified criteria are met. In the event of a loss or injury that occurs during any time period when the vehicle is under the operation and control of a person other than the vehicle owner, existing law requires the personal vehicle sharing program to assume all liability of the owner and is considered the owner of the vehicle for all purposes. \n\nExisting law requires a personal vehicle sharing program to provide insurance coverages for the vehicle and operator at a minimum of $45,000 for bodily injury or death for one person, $90,000 for bodily injury or death for all persons, and $15,000 for property damage, and, on and after January 1, 2031, to provide liability coverage at least 3 times the minimum insurance requirements for private passenger vehicles. \n\nThis bill would, instead of requiring a personal vehicle sharing program to assume all liability of the owner, require the program to assume liability of the owner for bodily injury or property damage to injured third parties resulting from personal vehicle sharing in amounts stated in the personal vehicle sharing program agreement, and not less than $250,000 for bodily injury or death for one person, $500,000 for bodily injury or death for all persons, and $100,000 for property damage. The bill would make these provisions inapplicable if the vehicle owner acts in concert with a shared vehicle driver who fails to return the shared vehicle pursuant to the terms of the personal vehicle sharing program agreement.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2361",
+    "legislative_session": "20252026",
+    "subject": [
+      "Insurance",
+      "personalvehiclesharing"
+    ],
+    "title": "Insurance: personal vehicle sharing."
+  },
+  "id": "AB2361",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on JUD. (Ayes 6. Noes 0.) (June 24). Re-referred to Com. on JUD.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on JUD."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2361"
+        }
+      ]
+    },
+    "bill_id": "AB2361"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2361/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2361/logs/20260625T000000Z_from_committee_do_pass_and_rerefer_to_com_on_jud_ayes_6_noes_0_june_24_rereferred_to_com_on_jud.json"
+  },
+  "timestamp": "20260625T000000Z"
+}
