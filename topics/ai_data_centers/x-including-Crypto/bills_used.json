@@ -127,11 +127,13 @@
     "NJ|A3611|2026-01-13|WITHDRAWN APP P.L.2025, c.335.",
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "PR|PS0731|2026-05-28|Aprobado por el Senado en Votaci\u00f3n Final",
+    "PR|PS0731|2026-06-04|Aparece en Primera Lectura de la C\u00e1mara",
     "PR|PS0934|2026-01-14|Aparece en Primera Lectura del Senado",
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|PS1297|2026-05-28|Aparece en Primera Lectura del Senado",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2197|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|SB2570|2026-06-22|06/22/2026 Signed by Governor",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
     "WA|SB 5956|2026-02-24|Executive action taken in the House Comm",
     "WA|SB 5956|2026-02-24|Minority; do not pass.",
@@ -158,9 +160,9 @@
     "FL": "2026-06-04T11:37:54.949048+00:00",
     "NJ": "2026-05-27T03:05:58.226214+00:00",
     "IL": "2026-05-26T01:08:56.456572+00:00",
-    "PR": "2026-06-23T11:55:21.211318+00:00",
+    "PR": "2026-06-27T10:37:05.870630+00:00",
     "DE": "2026-06-25T11:26:21.568225+00:00",
-    "RI": "2026-06-24T11:45:55.540518+00:00"
+    "RI": "2026-06-27T10:37:05.870630+00:00"
   },
-  "last_run": "2026-06-25T11:28:53.285625+00:00"
+  "last_run": "2026-06-27T10:40:00.720323+00:00"
 }
