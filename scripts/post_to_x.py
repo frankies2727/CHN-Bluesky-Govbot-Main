@@ -49,7 +49,7 @@ JSONL_PATH = ROOT / "bills.jsonl"
 TOPIC = load_active_topic()
 STATE_FILE = TOPIC.x_state_file_path()
 
-POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
+POST_LIMIT = int(os.environ.get("POST_LIMIT", "4"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
@@ -70,7 +70,13 @@ FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
 FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
 FORCE_REPOST = os.environ.get("FORCE_REPOST") == "1"
 
-MAX_TWEET = 280
+# X doubled the per-post weighted-character cap from 280 to 560, so posts can
+# now carry a fuller summary/action block before any trimming kicks in. Kept as
+# an env override (default 560) so a future limit change is a config tweak, not
+# a code edit. Every cap check below reads MAX_TWEET, so bumping it here widens
+# the budget everywhere (compose_x_post, x_summary_budget, and the weekly digest
+# which imports this constant).
+MAX_TWEET = int(os.environ.get("MAX_TWEET", "560"))
 
 # Posted at the end of the bill tweet so readers know to look for the bill
 # URL in the reply. Plain ASCII so Python len() matches X's weighted count.
@@ -131,14 +137,14 @@ def save_raw_record(b: dict) -> None:
 # Composition
 # ---------------------------------------------------------------------------
 
-# X enforces its 280 cap with twitter-text's *weighted* character count, not a
-# raw code-point count. Most code points weigh 1, but anything outside a few
-# Latin / General-Punctuation ranges weighs 2 — that includes essentially all
-# emoji, the ₿ symbol (U+20BF), the … ellipsis (U+2026), and CJK text. Python's
-# len() weighs every code point as 1, so a post that len()-measures at exactly
-# 280 can be 281-282 by X's count and bounce (the 403 / over-limit errors we
-# see). x_weighted_len mirrors X's algorithm so every cap check below matches
-# what X actually enforces.
+# X enforces its post cap (now 560, see MAX_TWEET) with twitter-text's
+# *weighted* character count, not a raw code-point count. Most code points weigh
+# 1, but anything outside a few Latin / General-Punctuation ranges weighs 2 —
+# that includes essentially all emoji, the ₿ symbol (U+20BF), the … ellipsis
+# (U+2026), and CJK text. Python's len() weighs every code point as 1, so a post
+# that len()-measures right at the cap can be 1-2 over by X's count and bounce
+# (the 403 / over-limit errors we see). x_weighted_len mirrors X's algorithm so
+# every cap check below matches what X actually enforces.
 _X_LIGHT_RANGES = ((0, 4351), (8192, 8205), (8208, 8223), (8242, 8247))
 
 
@@ -259,7 +265,7 @@ def compose_x_post(b: dict, summary: str, headline: str = "",
     # Trim order matches Bluesky: summary → display in head → action desc.
     # Every cap check uses X's weighted character count (x_weighted_len) and
     # every cut goes through _weighted_truncate, so weight-2 code points
-    # (emoji, …, ₿, CJK) can't push the post past X's real 280 limit the way
+    # (emoji, …, ₿, CJK) can't push the post past X's real cap the way
     # raw len() math silently let them.
     if x_weighted_len(text) > MAX_TWEET and summary_block:
         fixed = x_weighted_len(assemble(head, "\n\n", action_block, notice_block))
