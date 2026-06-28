@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 12 of Title 50 of the Official Code of Georgia Annotated, relating to commissions and other agencies, so as to create the Georgia Interagency Council for the Homeless; to provide for the purpose, membership, and duties of such council; to provide for reporting of activities; to provide for compensation; to provide for legislative findings; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 170",
+    "legislative_session": "2025_26",
+    "subject": [
+      "STATE GOVERNMENT"
+    ],
+    "title": "Georgia Interagency Council for the Homeless; create"
+  },
+  "id": "SB 170",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-11",
+      "description": "Senate Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 170"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB170/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB170/logs/20260511T000000Z_senate_date_signed_by_governor.json"
+  },
+  "timestamp": "20260511T000000Z"
+}
