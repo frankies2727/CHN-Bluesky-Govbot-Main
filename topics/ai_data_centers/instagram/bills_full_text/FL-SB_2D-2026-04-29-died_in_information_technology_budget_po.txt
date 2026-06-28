@@ -1,0 +1,2011 @@
+Florida Senate - 2026
+
+By Senator Brodeur
+
+20262D__
+
+A bill to be entitled
+
+An act relating to the Artificial Intelligence Bill of
+
+Rights; amending s. 287.138, F.S.; defining the term
+
+“artificial intelligence”; prohibiting a governmental
+
+entity from extending or renewing a contract with
+
+specified entities, beginning on a specified date;
+
+prohibiting a local governmental entity from taking
+
+certain actions relating to contracting with an entity
+
+to provide artificial intelligence technology,
+
+software, or products unless certain requirements are
+
+met, beginning on a specified date; prohibiting a
+
+governmental entity from entering into a contract with
+
+an entity for artificial intelligence technology,
+
+software, or products under certain circumstances;
+
+providing a directive to the Division of Law Revision;
+
+creating part IX of ch. 501, F.S., to be entitled the
+
+“Artificial Intelligence Bill of Rights”; creating s.
+
+501.9981, F.S.; providing a short title; creating s.
+
+501.9982, F.S.; providing the rights of residents
+
+relating to the use of artificial intelligence;
+
+authorizing residents to exercise certain rights;
+
+providing construction; creating s. 501.9983, F.S.;
+
+defining terms; creating s. 501.9984, F.S.; requiring
+
+companion chatbot platforms to prohibit a minor from
+
+becoming or being an account holder unless the minor’s
+
+parent or guardian consents; specifying requirements
+
+for contract formation; requiring companion chatbot
+
+platforms to provide the minor’s parent or guardian
+
+certain options; requiring companion chatbot platforms
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+to terminate certain accounts or identifiers and
+
+provide certain options; requiring companion chatbot
+
+platforms to make certain disclosures and institute
+
+certain measures to prevent their companion chatbots
+
+from producing or sharing materials harmful to minors;
+
+providing that knowing or reckless violations are
+
+deceptive or unfair trade practices or acts;
+
+authorizing the Department of Legal Affairs to bring
+
+actions under the Florida Deceptive and Unfair Trade
+
+Practices Act for such violations; providing civil
+
+penalties; authorizing punitive damages under certain
+
+circumstances; authorizing the department to grant
+
+companion chatbot platforms a specified timeframe in
+
+which to cure an alleged violation and to issue a
+
+certain letter of guidance upon notification of an
+
+alleged violation; authorizing the department to
+
+consider certain information when making such
+
+determination; providing applicability; authorizing
+
+the companion chatbot platform to provide certain
+
+information to the department in the event of an
+
+alleged violation of certain requirements; prohibiting
+
+the department from bringing an action against a
+
+companion chatbot platform under certain
+
+circumstances; authorizing the department to issue a
+
+certain letter of guidance; authorizing the department
+
+to bring an action against a companion chatbot
+
+platform that fails to cure an alleged violation;
+
+providing liability for knowing or reckless violations
+
+of specified provisions; providing requirements for an
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+action brought pursuant to the act; providing that
+
+certain companion chatbot platforms are subject to the
+
+jurisdiction of state courts; providing construction;
+
+authorizing the department to adopt rules; creating s.
+
+501.9985, F.S.; requiring bot operators to
+
+periodically provide a certain notification to a user;
+
+providing applicability; authorizing the department to
+
+bring actions under the Florida Deceptive and Unfair
+
+Trade Practices Act for violations; providing civil
+
+penalties; authorizing the department to grant an
+
+operator a specified timeframe in which to cure an
+
+alleged violation and to issue a certain letter of
+
+guidance; authorizing the department to consider
+
+certain information when making such determination;
+
+authorizing the operator to provide certain
+
+information to the department in the event of an
+
+alleged violation of certain requirements; prohibiting
+
+the department from bringing an action against an
+
+operator under certain circumstances; authorizing the
+
+department to issue a certain letter of guidance;
+
+authorizing the department to bring an action against
+
+an operator who fails to cure an alleged violation;
+
+providing that certain bot operators are subject to
+
+the jurisdiction of state courts; authorizing the
+
+department to adopt rules; creating s. 501.9986, F.S.;
+
+prohibiting artificial intelligence technology
+
+companies from selling or disclosing the personal
+
+information of users unless the information is
+
+deidentified data; specifying that the sale or
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+disclosure of information authorized by federal law is
+
+not prohibited; requiring artificial intelligence
+
+technology companies in possession of deidentified
+
+data to take specified measures to ensure such data
+
+remains deidentified; authorizing the department to
+
+bring actions under the Florida Deceptive and Unfair
+
+Trade Practices Act for violations; providing civil
+
+penalties; authorizing the department to grant an
+
+artificial intelligence technology company a specified
+
+timeframe in which to cure an alleged violation and to
+
+issue a certain letter of guidance; authorizing the
+
+department to consider certain information when making
+
+such determination; authorizing the artificial
+
+intelligence technology company to provide certain
+
+information to the department in the event of an
+
+alleged violation of certain requirements; prohibiting
+
+the department from bringing an action against an
+
+artificial intelligence technology company under
+
+certain circumstances; authorizing the department to
+
+issue a certain letter of guidance; authorizing the
+
+department to bring an action against an artificial
+
+intelligence company that fails to cure an alleged
+
+violation; providing that certain artificial
+
+intelligence technology companies are subject to the
+
+jurisdiction of state courts; authorizing the
+
+department to adopt rules; creating s. 501.9987, F.S.;
+
+authorizing the department to take certain
+
+investigative and compliance actions in connection
+
+with potential violations of specified provisions;
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+authorizing the department to adopt rules; amending s.
+
+540.08, F.S.; defining terms; prohibiting the
+
+commercial use of an individual’s name, image, or
+
+likeness created through artificial intelligence
+
+without the individual’s or an authorized individual’s
+
+consent; providing requirements for the use of the
+
+name, image, or likeness of deceased persons;
+
+providing penalties for the use of the name, image, or
+
+likeness of a servicemember; providing applicability;
+
+conforming provisions to changes made by the act;
+
+amending s. 1002.42, F.S.; requiring certain private
+
+schools to comply with specified provisions; creating
+
+s. 1006.1495, F.S.; defining terms; prohibiting an
+
+educational entity from using or providing students
+
+access to artificial intelligence instructional tools
+
+before a specified grade level; providing exceptions;
+
+requiring an educational entity to provide parents
+
+with specified notice before providing a student with
+
+access to an artificial intelligence instructional
+
+tool; requiring a parent to be provided the
+
+opportunity to opt out of a student’s use of an
+
+artificial intelligence instructional tool; providing
+
+requirements for such opt-out process; requiring a
+
+school district or public school to provide certain
+
+activities if the parent opts out of the student’s use
+
+of an artificial intelligence instructional tool;
+
+requiring an operator to provide student access and
+
+simultaneous parental access to a student account for
+
+an artificial intelligence instructional tool;
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+providing methods to satisfy certain provisions;
+
+specifying that an operator of an educational entity
+
+does not have to create or maintain a transcript or
+
+record of certain student interactions on the
+
+artificial intelligence instructional tool; providing
+
+construction; reenacting ss. 540.10 and 743.08(1)(c),
+
+F.S., relating to the exemption of news media from
+
+liability and contracts entered into by minors,
+
+respectively, to incorporate the amendment made to s.
+
+540.08, F.S., in references thereto; providing an
+
+effective date.
+
+Be It Enacted by the Legislature of the State of Florida:
+
+Section 1.
+
+Present paragraphs (a) through (d) of subsection
+
+(1) and present subsection (7) of section 287.138, Florida
+
+Statutes, are redesignated as paragraphs (b) through (e) and
+
+subsection (8), respectively, a new paragraph (a) is added to
+
+subsection (1), a new subsection (7) is added to that section,
+
+and subsection (3) of that section is amended, to read:
+
+287.138 Contracting with entities of foreign countries of
+concern prohibited.—
+
+(1) As used in this section, the term:
+
+(a) “Artificial intelligence” means a machine-based system
+
+that can, for a given set of human-defined objectives, make
+
+predictions, recommendations, or decisions influencing real or
+
+virtual environments.
+
+(3)(a) Beginning July 1, 2025, a governmental entity may
+not extend or renew a contract with an entity listed in
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+paragraphs (2)(a)-(c) if the contract would give such entity
+
+access to an individual’s personal identifying information.
+
+Beginning July 1, 2026, a governmental entity may not extend or
+
+renew a contract with an entity listed in paragraph (7)(a),
+
+paragraph (7)(b), or paragraph (7)(c).
+
+(b) Beginning July 1, 2026, a governmental entity may not
+
+accept a bid on, a proposal for, or a reply to, or enter into a
+
+contract with, an entity to provide artificial intelligence
+
+technology, software, or products, including as a portion or an
+
+option to the products or services provided under the contract,
+
+unless the entity provides the governmental entity with an
+
+affidavit signed by an officer or a representative of the entity
+
+under penalty of perjury attesting that the entity does not meet
+
+any of the criteria in paragraph (7)(a), paragraph (7)(b), or
+
+paragraph (7)(c).
+
+(7) A governmental entity may not knowingly enter into a
+
+contract with an entity for artificial intelligence technology,
+
+software, or products, including as a portion or an option to
+
+the products or services provided under the contract, if:
+
+(a) The entity is owned by the government of a foreign
+country of concern;
+(b) A government of a foreign country of concern has a
+controlling interest in the entity; or
+(c) The entity is organized under the laws of or has its
+principal place of business in a foreign country of concern.
+Section 2.
+
+The Division of Law Revision is directed to
+
+create part IX of chapter 501, Florida Statutes, consisting of
+
+ss. 501.9981, 501.9982, 501.9983, 501.9984, 501.9985, 501.9986,
+
+and 501.9987, Florida Statutes, to be entitled the “Artificial
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+Intelligence Bill of Rights.”
+Section 3.
+
+Section 501.9981, Florida Statutes, is created
+
+to read:
+501.9981 Short title.—This part may be cited as the
+“Artificial Intelligence Bill of Rights.”
+Section 4.
+
+Section 501.9982, Florida Statutes, is created
+
+to read:
+501.9982 Rights relating to the use of artificial
+intelligence.—
+(1) Residents are entitled to certain rights with respect
+
+to the use of artificial intelligence, including, but not
+
+limited to:
+
+(a) The right to use artificial intelligence to improve
+
+their own lives and the lives of family members, fellow
+
+residents, and the world at large in accordance with the law.
+
+(b) The right to supervise, access, limit, and control
+their minor children’s use of artificial intelligence.
+(c) The right to know whether they are communicating with a
+
+human being or an artificial intelligence system, program, or
+
+chatbot.
+
+(d) The right to know whether artificial intelligence
+
+technology companies are collecting personal information or
+
+biometric data, and the right to expect artificial intelligence
+
+technology companies to protect and deidentify that information
+
+or data in accordance with the law.
+
+(e) The right to pursue civil remedies authorized by law
+
+against persons who use artificial intelligence to appropriate
+
+the name, image, or likeness of others for commercial purposes
+
+without their consent.
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+(f) The right to be protected by law from criminal acts,
+
+such as fraud, exploitation, identity theft, stalking, and
+
+cyberbullying, regardless of whether artificial intelligence is
+
+used in the commission of those acts.
+
+(g) The right to be protected by law from criminal acts
+
+relating to the alteration of existing images to create sexual
+
+or lewd or lascivious images or child pornography, regardless of
+
+whether artificial intelligence is used in the commission of
+
+those acts.
+
+(h) The right to know whether political advertisements,
+
+electioneering communications, or similar advertisements were
+
+created in whole or in part with the use of artificial
+
+intelligence.
+
+(i) The right to pursue civil remedies authorized by law
+
+against others who use artificial intelligence to slander,
+
+libel, or defame them.
+
+(j) The right to prevent a companion chatbot from engaging
+
+with a user as a character that is protected by federal
+
+copyright law without the express written consent of the
+
+copyright owner.
+
+(k) The right to prevent a companion chatbot from engaging
+
+with a user as a character that is a living individual without
+
+the express written consent of that individual.
+
+(l) The right to prevent generative artificial intelligence
+
+from using a character that is protected by federal copyright
+
+law without the express written consent of the copyright owner.
+
+(2) Residents may exercise the rights described in this
+
+section in accordance with existing law. This section may not be
+
+construed as creating new or independent rights or entitlements.
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+Section 5.
+
+20262D__
+Section 501.9983, Florida Statutes, is created
+
+to read:
+
+501.9983 Definitions.—As used in this part, the term:
+
+(1) “Account holder” means an individual who opens an
+
+account or creates a profile or is identified by the companion
+
+chatbot platform by a unique identifier while he or she is using
+
+or accessing the platform, if the platform knows or has reason
+
+to believe the individual is a resident of this state.
+
+(2) “Artificial intelligence” means a machine-based system
+
+that can, for a given set of human-defined objectives, make
+
+predictions, recommendations, or decisions influencing real or
+
+virtual environments.
+
+(3) “Artificial intelligence technology company” means a
+
+business or organization that produces, develops, creates,
+
+designs, or manufactures artificial intelligence technology or
+
+products, collects data for use in artificial intelligence
+
+products, or implements artificial intelligence technology.
+
+(4) “Bot” means an automated online software application in
+
+which all or substantially all of the actions or posts of the
+
+account are not the result of a natural person.
+
+(5) “Companion chatbot” means an artificial intelligence
+
+system with a natural language interface that provides adaptive,
+
+human-like responses to user inputs and is capable of meeting a
+
+user’s social needs by retaining information on prior
+
+interactions or user sessions and user preferences to
+
+personalize the interaction and facilitate ongoing engagement,
+
+asking unprompted or unsolicited emotion-based questions that go
+
+beyond a direct response to a user prompt, and sustaining an
+
+ongoing dialogue personalized to the user. The term does not
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+include:
+(a) A chatbot used only for customer service; a business’s
+
+internal operational purposes, productivity and analysis; or
+
+uses related to source information, internal research, or
+
+technical assistance;
+
+(b) A chatbot that is a feature of a video game or theme
+
+park and is limited to replies related to the video game or
+
+theme park experience and does not discuss topics related to
+
+mental health, self-harm, or material harmful to minors or
+
+maintain a dialogue on other topics unrelated to the video game
+
+or theme park;
+
+(c) A stand-alone consumer electronic device that functions
+
+as a speaker and voice command interface, acts as a voice-
+
+activated virtual assistant, and does not sustain a relationship
+
+across multiple interactions or generate outputs likely to
+
+elicit emotional responses in the user; or
+
+(d) An artificial intelligence instructional tool, as
+defined in s. 1006.1495.
+(6) “Companion chatbot platform” means a platform that
+allows a user to engage with companion chatbots.
+(7) “Deidentified data” means data that cannot reasonably
+
+be linked to an identified or identifiable individual or a
+
+device linked to that individual.
+
+(8) “Department” means the Department of Legal Affairs.
+
+(9) “Material harmful to minors” has the same meaning as in
+
+s. 501.1737(1).
+
+(10) “Minor” means any person 17 years of age or younger.
+
+(11) “Operator” means a person who owns, operates, or
+
+otherwise makes available a bot to individuals in this state.
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+(12) “Pop-up” means a visible notification on the computer,
+
+tablet, or smartphone screen of a user which may be resolved if
+
+the user interacts with or responds to the notification.
+
+(13) “Resident” means an individual who has resided in this
+
+state for more than 6 months during the preceding 12-month
+
+period.
+
+(14) “Theme park” has the same meaning as the term theme
+park or entertainment complex as defined in s. 509.013.
+(15) “User” means an individual who resides or is domiciled
+
+in this state and who accesses an Internet website, online or
+
+cloud-computing service, online application, or mobile
+
+application.
+
+(16) “Video game” means a game played on an electronic
+
+amusement device that uses a computer, microprocessor, or
+
+similar electronic circuitry and its own monitor, or is designed
+
+to be used with a television set or a computer monitor, to
+
+interact with the user of the device.
+
+Section 6.
+
+Section 501.9984, Florida Statutes, is created
+
+to read:
+
+501.9984 Companion chatbot use for minors.—
+
+(1) A companion chatbot platform shall prohibit a minor
+
+from becoming or being an account holder unless the minor’s
+
+parent or guardian provides consent. If a companion chatbot
+
+platform allows a minor to become or be an account holder, the
+
+parties have entered into a contract.
+
+(a) If the minor’s parent or guardian provides consent for
+
+the minor to become an account holder or maintain an existing
+
+account, the companion chatbot platform must allow the
+
+consenting parent or guardian of the minor account holder to:
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+1. Receive copies of all past or present interactions
+between the account holder and the companion chatbot;
+2. Limit the amount of time that the account holder may
+interact with the companion chatbot each day;
+
+3. Limit the days of the week and the times during the day
+
+when the account holder may interact with the companion chatbot;
+
+4. Disable any of the interactions between the account
+
+holder and third-party account holders on the companion chatbot
+
+platform; and
+
+5. Receive timely notifications if the account holder
+
+expresses to the companion chatbot a desire or an intent to
+
+engage in harm to self or others.
+
+(b) A companion chatbot platform shall do all of the
+following:
+
+1. Terminate any account or identifier belonging to an
+
+account holder who is a minor if the companion chatbot platform
+
+treats or categorizes the account or identifier as belonging to
+
+a minor for purposes of targeting content or advertising and if
+
+the minor’s parent or guardian has not provided consent for the
+
+minor pursuant to subsection (1). The companion chatbot platform
+
+shall provide 90 days for the account holder to dispute the
+
+termination. Termination must be effective upon the expiration
+
+of the 90 days if the account holder fails to effectively
+
+dispute the termination.
+
+2. Allow an account holder who is a minor to request to
+
+terminate the account or identifier. Termination must be
+
+effective within 5 business days after the request.
+
+3. Allow the consenting parent or guardian of an account
+holder who is a minor to request that the minor’s account or
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+identifier be terminated. Termination must be effective within
+
+business days after the request.
+
+4. Permanently delete all personal information held by the
+
+companion chatbot platform relating to the terminated minor
+
+account or identifier, unless state or federal law requires the
+
+platform to maintain the information.
+
+(2) In connection to all accounts or identifiers held by
+
+account holders who are minors, the companion chatbot platform
+
+shall do all of the following:
+
+(a) Disclose to the account holder that he or she is
+interacting with artificial intelligence.
+(b) Provide by default a clear and conspicuous notification
+
+to the account holder, at the beginning of companion chatbot
+
+interactions and at least once every hour during continuing
+
+interactions, reminding the minor to take a break and that the
+
+companion chatbot is artificially generated and not human.
+
+(c) Institute reasonable measures to prevent the companion
+
+chatbot from producing or sharing materials harmful to minors or
+
+encouraging the account holder to engage in any of the conduct
+
+described or depicted in materials harmful to minors.
+
+(3) A knowing or reckless violation of this section is
+
+deemed a deceptive or unfair trade practice or act actionable
+
+under part II of this chapter solely by the department against a
+
+companion chatbot platform. If the department has reason to
+
+believe that a companion chatbot platform is in violation of
+
+this section, the department, as the enforcing authority, may
+
+bring an action against such platform for a deceptive or unfair
+
+trade practice or act. In addition to other remedies under part
+
+II of this chapter, the department may collect a civil penalty
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+of up to $50,000 per violation and reasonable attorney fees and
+
+court costs. If the companion chatbot platform’s failure to
+
+comply with this section is part of a consistent pattern of
+
+knowing or reckless conduct, punitive damages may be assessed
+
+against the companion chatbot platform.
+
+(4)(a) After the department has notified a companion
+
+chatbot platform in writing of an alleged violation, the
+
+department may grant the companion chatbot platform 45 calendar
+
+days to cure the alleged violation and may issue a letter of
+
+guidance stating that the companion chatbot platform will not be
+
+offered another 45-calendar-day cure period for any future
+
+violations of this section. The department may consider the
+
+number and frequency of violations, the substantial likelihood
+
+of injury to the public, and the safety of persons or property
+
+in determining whether to grant the companion chatbot platform
+
+calendar days to cure and issue the letter of guidance.
+
+1. The 45-calendar-day cure period does not apply to an
+
+alleged violation where the companion chatbot platform willfully
+
+or knowingly disregarded the account holder’s age.
+
+2. For an alleged violation of paragraph (2)(c), the
+
+companion chatbot platform may provide for the department’s
+
+consideration information that shows that the reasonable
+
+measures taken by the platform include controls aligned with the
+
+latest versions of the National Institute of Standards and
+
+Technology AI Risk Management Framework, ISO 42001. Such
+
+information may include structured interaction logs, status of
+
+parental access controls, harm-signal detection and response
+
+procedures enacted, and verified deletion events.
+
+(b) If the alleged violation is cured to the satisfaction
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+of the department, and proof of such cure is provided to the
+
+department, the department may not bring an action for the
+
+alleged violation but may issue a letter of guidance stating
+
+that the companion chatbot platform will not be offered a 45-
+
+calendar-day cure period for any future violations of this
+
+section.
+
+(c) If the companion chatbot platform fails to cure the
+
+alleged violation within 45 calendar days, the department may
+
+bring an action against such companion chatbot platform for the
+
+alleged violation.
+
+(5)(a) A companion chatbot platform that knowingly or
+
+recklessly violates this section is liable to a minor account
+
+holder for up to $10,000 in damages plus court costs and
+
+reasonable attorney fees as ordered by the court.
+
+(b) A civil action for a claim under this subsection must
+
+be brought within 1 year after the date the complainant knew, or
+
+reasonably should have known, of the alleged violation.
+
+(c) An action brought under this subsection may be brought
+only on behalf of a minor account holder.
+
+(6) For purposes of bringing an action under this section,
+
+a companion chatbot platform that allows a minor to become or be
+
+an account holder on the platform is considered to be both
+
+engaged in substantial and not isolated activities within this
+
+state and operating, conducting, engaging in, or carrying on a
+
+business, and doing business in this state, and is therefore
+
+subject to the jurisdiction of the courts of this state.
+
+(7) This section does not preclude any other available
+remedy at law or equity.
+(8) The department may adopt rules to implement this
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+section.
+Section 7.
+
+Section 501.9985, Florida Statutes, is created
+
+to read:
+
+501.9985 Consumer protections regarding bots.—
+
+(1) At the beginning of an interaction between a user and a
+
+bot, and at least once every hour during the interaction, an
+
+operator shall display a pop-up message or other prominent
+
+notification notifying the user or, if the interaction is not
+
+through a device with a screen, otherwise inform the user, that
+
+he or she is not engaging in dialogue with a human counterpart.
+
+This section does not apply to a bot that is used solely by
+
+employees within a business for its internal operational
+
+purposes.
+
+(2) A violation of this section is deemed a deceptive or
+
+unfair trade practice or act actionable under part II of this
+
+chapter solely by the department on behalf of a user of a bot.
+
+If the department has reason to believe that an operator is in
+
+violation of this section, the department, as the enforcing
+
+authority, may bring an action against the operator for a
+
+deceptive or unfair trade practice or act. For the purpose of
+
+bringing an action pursuant to this section, ss. 501.211 and
+
+501.212 do not apply. In addition to any other remedy under part
+
+II of this chapter, the department may collect a civil penalty
+
+of up to $50,000 per violation and reasonable attorney fees and
+
+court costs.
+
+(3)(a) After the department has notified an operator in
+
+writing of an alleged violation, the department may grant the
+
+operator 45 calendar days to cure the alleged violation and may
+
+issue a letter of guidance stating that the companion chatbot
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+platform will not be offered another 45-calendar-day cure period
+
+for any future violations. The department may consider the
+
+number and frequency of violations, the substantial likelihood
+
+of injury to the public, and the safety of persons or property
+
+in determining whether to grant an operator 45 calendar days to
+
+cure and issue the letter of guidance.
+
+(b) For an alleged violation of this section, the operator
+
+may provide for the department’s consideration information that
+
+demonstrates that the operator provides persistent and
+
+conspicuous identity indicators and accessible disclosures which
+
+are in conformity with the latest versions of the National
+
+Institute of Standards and Technology AI Risk Management
+
+Framework, ISO 42001.
+
+(c) If the alleged violation is cured to the satisfaction
+
+of the department and proof of such cure is provided to the
+
+department, the department may not bring an action for the
+
+alleged violation but may issue a letter of guidance that
+
+indicates that the operator will not be offered a 45-calendar-
+
+day cure period for any future violations.
+
+(d) If the operator fails to cure the alleged violation
+
+within the 45-calendar-day cure period, the department may bring
+
+an action against such operator for the alleged violation.
+
+(4) For purposes of bringing an action pursuant to this
+
+section, an operator that owns, operates, or otherwise makes
+
+available a bot to individuals in this state is considered to be
+
+both engaged in substantial and not isolated activities within
+
+this state and operating, conducting, engaging in, or carrying
+
+on a business, and doing business in this state, and is
+
+therefore subject to the jurisdiction of the courts of this
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+state.
+(5) The department may adopt rules to implement this
+section.
+Section 8.
+
+Section 501.9986, Florida Statutes, is created
+
+to read:
+
+501.9986 Consumer protections regarding deidentified data.—
+
+(1) An artificial intelligence technology company may not
+
+sell or disclose personal information of users unless the
+
+information is deidentified data. This subsection does not
+
+prohibit the sale or disclosure of information specifically
+
+authorized by federal law.
+
+(2) An artificial intelligence technology company in
+
+possession of deidentified data shall do all of the following:
+
+(a) Take reasonable measures to ensure that the data cannot
+be associated with a user.
+(b) Maintain and use the data in deidentified form. An
+
+artificial intelligence technology company may not attempt to
+
+reidentify the data, except that the artificial intelligence
+
+technology company may attempt to reidentify the data solely for
+
+the purpose of determining whether its deidentification
+
+processes satisfy the requirements of this section.
+
+(c) Contractually obligate a recipient of the deidentified
+data to comply with this section.
+(d) Implement business processes to prevent the inadvertent
+release of deidentified data.
+
+(3) A violation of this section is deemed a deceptive or
+
+unfair trade practice or act actionable under part II of this
+
+chapter solely by the department. If the department has reason
+
+to believe that an artificial intelligence technology company is
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+in violation of this section, the department, as the enforcing
+
+authority, may bring an action against the artificial
+
+intelligence technology company for a deceptive or unfair trade
+
+practice or act. For the purpose of bringing an action pursuant
+
+to this section, ss. 501.211 and 501.212 do not apply. In
+
+addition to any other remedy under part II of this chapter, the
+
+department may collect a civil penalty of up to $50,000 per
+
+violation and reasonable attorney fees and court costs.
+
+(4)(a) After the department has notified an artificial
+
+intelligence technology company in writing of an alleged
+
+violation, the department may grant the artificial intelligence
+
+technology company 45 calendar days to cure the alleged
+
+violation and may issue a letter of guidance stating that the
+
+artificial intelligence technology company will not be offered
+
+another 45-calendar-day cure period for any future violations.
+
+The department may consider the number and frequency of
+
+violations, the substantial likelihood of injury to the public,
+
+and the safety of persons or property in determining whether to
+
+grant the artificial intelligence technology company 45 calendar
+
+days to cure and issue the letter of guidance.
+
+(b) For an alleged violation of this section, the
+
+artificial intelligence technology company may provide for the
+
+department’s consideration information that shows that the
+
+artificial intelligence technology company maintains a risk
+
+management program that:
+
+1. Validates the company’s information security and privacy
+
+controls against a recognized framework aligned with the latest
+
+versions of the National Institute of Standards and Technology
+
+AI Risk Management Framework, ISO 42001; and
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+2. Includes assessed controls for deidentification,
+
+contractual flow-down, non-reidentification, inadvertent release
+
+prevention, monitoring, and auditing sufficient to demonstrate
+
+that the company is taking reasonable measures to meet the
+
+requirements of this section.
+
+(c) If the alleged violation is cured to the satisfaction
+
+of the department and proof of such cure is provided to the
+
+department, the department may not bring an action for the
+
+alleged violation but may issue a letter of guidance that
+
+indicates that the artificial intelligence technology company
+
+will not be offered another 45-calendar-day cure period for any
+
+future violations.
+
+(d) If the artificial intelligence technology company fails
+
+to cure the alleged violation within the 45-calendar-day cure
+
+period, the department may bring an action against such
+
+artificial intelligence technology company for the alleged
+
+violation.
+
+(5) For purposes of bringing an action pursuant to this
+
+section, an artificial intelligence technology company that
+
+produces, develops, creates, designs, or manufactures artificial
+
+intelligence technology or products, collects data for use in
+
+artificial intelligence products, or implements artificial
+
+intelligence technology in this state is considered to be both
+
+engaged in substantial and not isolated activities within this
+
+state and operating, conducting, engaging in, or carrying on a
+
+business, and doing business in this state, and is therefore
+
+subject to the jurisdiction of the courts of this state.
+
+(6) The department may adopt rules to implement this
+section.
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+Section 9.
+
+20262D__
+Section 501.9987, Florida Statutes, is created
+
+to read:
+
+501.9987 Investigations.—
+
+(1) If, by its own inquiry or as a result of complaints,
+
+the department has reason to believe that a person has engaged
+
+in, or is engaging in, a practice or an act that violates this
+
+part, the department may administer oaths and affirmations,
+
+subpoena witnesses or matter, and collect evidence. Within 5
+
+days, excluding weekends and legal holidays, after service of a
+
+subpoena, or at any time before the return date specified in the
+
+subpoena, whichever time period is longer, the party served may
+
+file in the circuit court in the county in which it resides or
+
+in which it transacts business and serve upon the enforcing
+
+authority a petition for an order modifying or setting aside the
+
+subpoena. The petitioner may raise any objection or privilege
+
+that would be available upon service of a subpoena in a civil
+
+action. The subpoena must inform the party served of the party’s
+
+rights under this subsection.
+
+(2) If the matter that the department seeks to obtain by
+
+subpoena is located outside this state, the person subpoenaed
+
+may make the matter available to the department or its
+
+representative at the place where it is located. The department
+
+may designate representatives, including officials of the state
+
+in which the matter is located, to inspect the matter on its
+
+behalf and may respond to similar requests from officials of
+
+other states.
+
+(3) Upon the failure of a person, without lawful excuse, to
+
+obey a subpoena and upon reasonable notice to all persons
+
+affected, the department may apply to the circuit court for an
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+order compelling compliance.
+(4) The department may request that a person who refuses to
+
+comply with a subpoena on the grounds that the testimony or
+
+matter may be self-incriminating be ordered by the court to
+
+provide the testimony or matter. Except in a prosecution for
+
+perjury, a person who complies with a court order to provide
+
+testimony or matter after asserting a valid privilege against
+
+self-incrimination may not have the testimony or matter so
+
+provided, or evidence derived from the testimony or matter,
+
+received against the person in any criminal investigation or
+
+proceeding.
+
+(5) A person upon whom a subpoena is served pursuant to
+
+this part must comply with its terms unless otherwise provided
+
+by order of the court. A person who fails to appear, with the
+
+intent to avoid, evade, or prevent compliance in whole or in
+
+part with an investigation under this part, or who removes from
+
+any place, conceals, withholds, mutilates, alters, or destroys,
+
+or by any other means falsifies any documentary material in the
+
+possession, custody, or control of a person subject to a
+
+subpoena, or who knowingly conceals relevant information with
+
+the intent to avoid, evade, or prevent compliance, is liable for
+
+a civil penalty of not more than $5,000 per week in violation,
+
+reasonable attorney fees, and costs.
+
+(6) The department may adopt rules to implement this
+section.
+Section 10.
+
+Section 540.08, Florida Statutes, is amended to
+
+read:
+540.08 Unauthorized publication of name, image, or
+likeness.—
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+(1) As used in this section, the term:
+
+(a) “Generative artificial intelligence” means a machine-
+
+based system that can, for a given set of human-defined
+
+objectives, emulate the structure and characteristics of input
+
+data in order to generate derived synthetic content, including
+
+images, videos, audio, text, and other digital content.
+
+(b) “Person” has the same meaning as in s. 1.01.
+
+(c) “Servicemember” has the same meaning as in s. 250.01
+
+and includes any officer or enlisted member who died from
+
+service-connected causes while on active duty.
+
+(d) “Surviving children” means an individual’s immediate
+
+offspring and any children legally adopted by the individual.
+
+(e) “Surviving spouse” means an individual’s surviving
+
+spouse under the law of the individual’s domicile at the time of
+
+the individual’s death, regardless of whether the spouse later
+
+remarried.
+
+(2) A person may not publish, print, display, or otherwise
+
+publicly use for trade or for any commercial or advertising
+
+purpose the name, portrait, photograph, image, or other likeness
+
+of an individual created through generative artificial
+
+intelligence without the express written or oral consent to such
+
+use given by any of the following:
+
+(a) The individual.
+
+(b) Any other person authorized in writing by the
+
+individual to license the commercial use of the individual’s
+
+name, image, or likeness.
+
+(c) If the individual is deceased:
+
+1. A person authorized in writing to license the commercial
+
+use of the individual’s name, image, or likeness; or
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+2. If a person is not authorized, any one individual from a
+
+class composed of the deceased individual’s surviving spouse and
+
+surviving children. A legal parent or guardian may give consent
+
+on behalf of a minor surviving child.
+
+(3) A No person may not shall publish, print, display or
+
+otherwise publicly use for purposes of trade or for any
+
+commercial or advertising purpose the name, portrait,
+
+photograph, image, or other likeness of an individual any
+
+natural person without the express written or oral consent to
+
+such use given by any of the following:
+
+(a) The individual. Such person; or
+
+(b) Any other person, firm or corporation authorized in
+
+writing by the individual such person to license the commercial
+
+use of the individual’s her or his name, image, or likeness.; or
+
+(c) If the individual such person is deceased:,
+
+1. A any person, firm or corporation authorized in writing
+
+to license the commercial use of the deceased individual’s her
+
+or his name, image, or likeness;, or
+
+2. If a no person, firm or corporation is not so
+
+authorized, then by any one individual from among a class
+
+composed of the individual’s her or his surviving spouse and
+
+surviving children. A legal parent or guardian may give consent
+
+on behalf of a minor surviving child.
+
+(4)(2) If In the event the consent required in subsection
+
+(2) or subsection (3) (1) is not obtained, the individual person
+
+whose name, portrait, photograph, image, or other likeness is so
+
+used, or a any person, firm, or corporation authorized by the
+
+individual such person in writing to license the commercial use
+
+of the individual’s her or his name, image, or likeness, or, if
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+the individual person whose likeness is used is deceased, a any
+
+person, firm, or corporation having the right to give such
+
+consent, as provided in subsection (2) or subsection (3)
+
+hereinabove, may bring an action to enjoin the such unauthorized
+
+publication, printing, display, or other public use, and to
+
+recover damages for any loss or injury resulting from the
+
+unauthorized publication sustained by reason thereof, including
+
+an amount that which would have been a reasonable royalty, and
+
+punitive or exemplary damages.
+
+(5)(3) If a person uses the name, portrait, photograph,
+
+image, or other likeness of a servicemember member of the armed
+
+forces without obtaining the consent required in subsection (2)
+
+or subsection (3) (1) and the such use is not subject to an any
+
+exception listed in this section, a court may impose a civil
+
+penalty of up to $1,000 per violation in addition to the civil
+
+remedies contained in subsection (4) (2). Each commercial
+
+transaction constitutes a violation under this section. As used
+
+in this section, the term “member of the armed forces” means an
+
+officer or enlisted member of the Army, Navy, Air Force, Marine
+
+Corps, Space Force, or Coast Guard of the United States, the
+
+Florida National Guard, and the United States Reserve Forces,
+
+including any officer or enlisted member who died as a result of
+
+injuries sustained in the line of duty.
+
+(6)(4) The provisions of This section does shall not apply
+to any of the following:
+(a) The publication, printing, display, or use of the name,
+
+portrait, photograph, image, or other likeness of an individual
+
+any person in a any newspaper, magazine, book, news broadcast or
+
+telecast, radio broadcast, or other news medium or publication
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+if used as part of a any bona fide news report or presentation
+
+having a current and legitimate public interest and if the where
+
+such name, image, or likeness is not used for advertising
+
+purposes.;
+
+(b) The publication, printing, display, or use of the name,
+
+portrait, photograph, image, or other likeness of an individual
+
+created through generative artificial intelligence in a
+
+newspaper, magazine, book, news broadcast or telecast, radio
+
+broadcast, or other news medium or publication if the generative
+
+artificial intelligence is used as part of a bona fide news
+
+report or presentation and that report or presentation contains
+
+a clear acknowledgement of speculation regarding the
+
+authenticity of the materials which are the subject of the
+
+report or presentation.
+
+(c) The use of an individual’s such name, portrait,
+
+photograph, image, or other likeness in connection with the
+
+resale or other distribution of literary, musical, or artistic
+
+productions or other articles of merchandise or property with
+
+the individual’s consent where such person has consented to the
+
+use of her or his name, portrait, photograph, or likeness on or
+
+in connection with the initial sale or distribution of the
+
+productions, articles, or merchandise. thereof; or
+
+(d)(c) A Any photograph of an individual a person solely as
+
+a member of the public if the individual and where such person
+
+is not named or otherwise identified in or in connection with
+
+the use of the such photograph.
+
+(7)(5) An No action may not shall be brought under this
+
+section by reason of a any publication, printing, display, or
+
+other public use of the name, portrait, photograph, image, or
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+other likeness of an individual a person occurring more than
+
+after the expiration of 40 years from and after the death of the
+
+individual such person.
+
+(6) As used in this section, a person’s “surviving spouse”
+
+is the person’s surviving spouse under the law of her or his
+
+domicile at the time of her or his death, whether or not the
+
+spouse has later remarried; and a person’s “children” are her or
+
+his immediate offspring and any children legally adopted by the
+
+person. Any consent provided for in subsection (1) shall be
+
+given on behalf of a minor by the guardian of her or his person
+
+or by either parent.
+
+(8)(7) The remedies provided for in this section are shall
+
+be in addition to and not in limitation of the remedies and
+
+rights of any person under the common law against the invasion
+
+of her or his privacy.
+
+Section 11.
+
+Subsection (21) is added to section 1002.42,
+
+Florida Statutes, to read:
+
+1002.42 Private schools.—
+
+(21) ARTIFICIAL INTELLIGENCE INSTRUCTIONAL TOOLS.—A private
+
+school that provides student access to an artificial
+
+intelligence instructional tool, as defined in s. 1006.1495,
+
+must comply with the provisions in that section.
+
+Section 12.
+
+Section 1006.1495, Florida Statutes, is created
+
+to read:
+1006.1495
+
+Artificial intelligence instructional tools;
+
+parental notice, opt-out, and account access.—
+
+(1) DEFINITIONS.—As used in this section, the term:
+
+(a) “Artificial intelligence instructional tool” means a
+
+software application or service that uses artificial
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+intelligence, including machine learning, which is made
+
+available to a student by an educational entity for educational
+
+purposes, including instruction, tutoring, practice, feedback,
+
+or completing educator-directed assignments, and that is not
+
+designed, marketed, or configured to:
+
+1. Meet a student’s social needs;
+
+2. Simulate friendship, companionship, or an emotional
+
+relationship with a student; or
+3. Employ relationship-building or anthropomorphic design
+
+features for the purpose of encouraging a student to continue
+
+interacting with the system.
+
+(b) “Educational entity” means a school district, a public
+
+school, or a private school. The term includes a VPK provider
+
+meaning a private prekindergarten provider or a public school
+
+prekindergarten provider, as those terms are defined in s.
+
+1002.51, which delivers the Voluntary Prekindergarten Education
+
+Program under part V of chapter 1002.
+
+(c) “Operator” means a person who operates an artificial
+
+intelligence instructional tool and collects, receives,
+
+maintains, or uses student information or student-generated
+
+content through the tool.
+
+(d) “Parent” includes a parent, guardian, or other person
+
+with legal authority to make educational decisions for a
+
+student.
+
+(e) “Private school” has the same meaning as in s.
+1002.01(3).
+(f) “Public school” means a component described in s.
+1000.04(2), (4), (5), or (6).
+(2) RESTRICTION.—An educational entity may not provide
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+students with access to an artificial intelligence instructional
+
+tool before grade 6 unless such use is:
+
+(a) Directed and supervised by school personnel;
+
+(b) For translation or similar support necessary for a
+
+student identified as an English language learner; or
+
+(c) For accommodations, assistive technology, or similar
+
+support necessary for a student with a documented disability.
+
+(3) EDUCATIONAL USE; PARENTAL NOTICE.—Before a student is
+
+provided access credentials for an artificial intelligence
+
+instructional tool, the educational entity must provide the
+
+parent of a minor student with notice that:
+
+(a) Identifies the tool and its educational purpose;
+
+(b) Describes, in general terms, the manner in which the
+
+tool will be used by students;
+(c) Explains how the parent may exercise the opt-out
+process under subsection (4); and
+
+(d) Explains how the parent may access the student’s
+
+account or request access to information and account activity
+
+under subsection (5), including the method for submitting a
+
+written request.
+
+(4) PARENTAL OPT-OUT.—
+
+(a) A parent of a minor student must be provided the
+
+opportunity to opt out of the student’s use of an artificial
+
+intelligence instructional tool.
+
+(b) The opt-out process must align with the educational
+
+entity’s existing policies for parental notice, consent,
+
+objection, or opt out for instructional materials, digital
+
+tools, or online accounts, as applicable.
+
+(c) If a parent opts out of a student’s use of an
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+artificial intelligence instructional tool and the student is
+
+enrolled in a public school, the school district or public
+
+school must provide an alternative instructional activity that
+
+allows the student to meet a comparative educational requirement
+
+without penalty.
+
+(5) PARENT ACCOUNT ACCESS; COMPLIANCE OPTIONS.—
+
+(a) At the time an operator provides a student’s access
+
+credentials or otherwise provides or enables student access to
+
+an educational entity for an artificial intelligence
+
+instructional tool, the operator shall simultaneously provide to
+
+the educational entity a means to authorize the parent of a
+
+minor student to access information and account activity
+
+maintained within the artificial intelligence instructional
+
+tool.
+
+(b) The operator may satisfy paragraph (a) by:
+
+1. Providing the parent of a minor student credentials or
+
+another method for read-only access to the student’s account; or
+
+2. Upon written request from the parent of a minor student,
+
+providing access to the information and account activity
+
+maintained within the tool, in accordance with applicable state
+
+and federal law, within 30 days after receipt of the request.
+
+The educational entity shall inform the parent of the right to
+
+make such a request and the method for submitting the request.
+
+(c) If an educational entity satisfies subparagraph (b)1.,
+
+the educational entity must provide the credentials or other
+
+access method at the time the educational entity provides the
+
+student with access credentials or otherwise enables student
+
+access.
+
+(d) This subsection does not require an operator or
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+educational entity to create or retain a transcript or record of
+
+student interactions beyond information otherwise maintained in
+
+the ordinary course of providing access to the tool.
+
+(6) CONSTRUCTION.—This section does not alter:
+
+(a) A parent’s rights under state or federal law to access
+
+student education records; or
+(b) An educational entity’s obligations under applicable
+state and federal student privacy laws.
+Section 13.
+
+For the purpose of incorporating the amendment
+
+made by this act to section 540.08, Florida Statutes, in a
+
+reference thereto, section 540.10, Florida Statutes, is
+
+reenacted to read:
+
+540.10 Exemption of news media from liability.—No relief
+
+may be obtained under s. 540.08 or s. 540.09, against any
+
+broadcaster, publisher or distributor broadcasting, publishing
+
+or distributing paid advertising matter by radio or television
+
+or in a newspaper, magazine, or similar periodical without
+
+knowledge or notice that any consent required by s. 540.08 or s.
+
+540.09, in connection with such advertising matter has not been
+
+obtained, except an injunction against the presentation of such
+
+advertising matter in future broadcasts or in future issues of
+
+such newspaper, magazine, or similar periodical.
+
+Section 14.
+
+For the purpose of incorporating the amendment
+
+made by this act to section 540.08, Florida Statutes, in a
+
+reference thereto, paragraph (c) of subsection (1) of section
+
+743.08, Florida Statutes, is reenacted to read:
+
+743.08 Removal of disabilities of minors; artistic or
+
+creative services; professional sports contracts; judicial
+
+approval.—
+CODING: Words stricken are deletions; words underlined are additions.
+
+Florida Senate - 2026
+
+20262D__
+
+(1) A contract made by a minor or made by a parent or
+
+guardian of a minor, or a contract proposed to be so made, may
+
+be approved by the probate division of the circuit court or any
+
+other division of the circuit court that has guardianship
+
+jurisdiction, where the minor is a resident of this state or the
+
+services of the minor are to be performed or rendered in this
+
+state, where the contract sought to be approved is one under
+
+which:
+
+(c) The minor will endorse a product or service, or in any
+
+other way receive compensation for the use of right of publicity
+
+of the minor as that right is defined by s. 540.08.
+
+Section 15.
+
+This act shall take effect July 1, 2026.
+
+CODING: Words stricken are deletions; words underlined are additions.

@@ -1,0 +1,231 @@
+-- H 7654 AS AMENDED
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+AN ACT
+RELATING TO PROPERTY -- MORTGAGE FORECLOSURE AND SALE
+
+Introduced By: Representative Matthew S. Dawson
+Date Introduced: February 11, 2026
+Referred To: House Judiciary
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Section 34-27-4 of the General Laws in Chapter 34-27 entitled "Mortgage
+Foreclosure and Sale" is hereby amended to read as follows:
+34-27-4. Publication of notice under power of sale and rights of active military
+servicemembers.
+
+(a) Whenever any real estate shall be sold under any power of sale mortgage executed
+
+subsequent to May 4, 1911, and the mortgage shall provide for the giving of notice of the sale by
+
+publication in some public newspaper at least once a week for three (3) successive weeks before
+
+the sale, the first publication of the notice shall be at least twenty-one (21) days before the day of
+
+sale, including the day of the first publication in the computation, and the third publication of the
+
+notice shall be no fewer than seven (7) days before the original date of sale listed in the
+
+advertisement, including the day of the third publication in the computation, and no more than
+
+fourteen (14) days before the original date of sale listed in the advertisement. The sale may take
+
+place no more than fourteen (14) days from the date on which the third successive notice is
+
+published, excluding the day of the third publication in the computation. Provided, however, that
+
+if the sale is adjourned as provided in § 34-11-22, and the adjourned sale is held during the same
+
+calendar week as the originally scheduled day of sale, no additional advertising is required.
+
+Otherwise, publication of the notice of the adjourned sale, together with a notice of the adjournment
+
+or adjournments, shall be continued at least once each week commencing with the calendar week
+
+following the originally scheduled day of sale; the sale, as so adjourned, shall take place during the
+
+same calendar week in which the last notice of the adjourned sale is published, at least one day
+
+after the date on which the last notice is published.
+
+(b) Provided, however, that no notice shall be valid or effective unless the mortgagor has
+
+been mailed sent written notice of the time and place of sale by certified mail return receipt
+
+requested at way of United States Postal Service First Class Mail and an overnight delivery service
+
+the address of the real estate and, if different, at the mortgagor’s address listed with the tax
+
+assessor’s office of the city or town where the real estate is located or any other address the
+
+mortgagor designates by written notice to the mortgagee at their, or its last known address, at least
+
+twenty (20) days for mortgagors other than individual consumer mortgagors, and at least thirty (30)
+
+days for individual consumer mortgagors, days prior to the first publication, including the day of
+
+mailing in the computation. The mortgagee shall include in the foreclosure deed an affidavit of
+
+compliance with this provision.
+
+(c) Provided further, that the notice mailed sent to the mortgagor in accordance with
+
+subsection (b) above shall also contain a copy of subsection (d) below (printed in not less than 12
+
+point type) headed by the following notice (printed in not less than 14 point type): “A
+
+servicemember on active duty or deployment or who has recently ceased such duty or deployment
+
+has certain rights under § 34-27-4(d) of the Rhode Island general laws set out below. To protect
+
+your rights if you are such a servicemember, you should give written notice to the servicer of the
+
+obligation or the attorney conducting the foreclosure, prior to the sale, that you are a servicemember
+
+on active duty or deployment or who has recently ceased such duty or deployment. This notice may
+
+be given on your behalf by your authorized representative. If you have any questions about this
+
+notice, you should consult with an attorney.” The mortgagee shall include in the foreclosure deed
+
+an affidavit of compliance with this provision.
+
+(d) Foreclosure sales affecting servicemembers.
+
+(1) The following definitions shall apply to this subsection and to subsection (c):
+
+(i) “Servicemember” means a member of the Army, Navy, Air Force, Marine Corps, Space
+
+Force, or Coast Guard and members of the National Guard or Reserves called to active duty.
+
+(ii) “Active duty” has the same meaning as the term is defined in 10 U.S.C. §§ 12301 —
+
+12304. In the case of a member of the National Guard, or Reserves “active duty” means and
+
+includes service under a call to active service authorized by the president or the secretary of defense
+
+for a period of time of more than thirty (30) consecutive days under 32 U.S.C. § 502(f), for the
+
+purposes of responding to a national emergency declared by the president and supported by federal
+
+funds.
+
+(2) This subsection applies only to an obligation on real and related personal property
+
+LC005019 - Page 2 of 5
+
+owned by a servicemember that:
+
+(i) Originated before the period of the service member’s military service or in the case of
+
+a member of the National Guard or Reserves originated before being called into active duty and for
+
+which the servicemember is still obligated; and
+
+(ii) Is secured by a mortgage or other security in the nature of a mortgage.
+
+(3) Stay of right to foreclose by mortgagee. Upon receipt of written notice from the
+
+mortgagor or mortgagor’s authorized representative that the mortgagor is participating in active
+
+duty or deployment or that the notice as provided in subsection (c) was received within nine (9)
+
+months one year of completion of active duty or deployment, the mortgagee shall be barred from
+
+proceeding with the execution of sale of the property as defined in the notice until such nine-month
+
+(9) one year period has lapsed or until the mortgagee obtains court approval in accordance with
+
+subsection (d)(5) below.
+
+(4) Stay of proceedings and adjustment of obligation. In the event a mortgagee proceeds
+
+with foreclosure of the property during, or within nine (9) months one year after a servicemember’s
+
+period of active duty or deployment notwithstanding receipt of notice contemplated by subsection
+
+(d)(3) above, the servicemember or their authorized representative may file a petition against the
+
+mortgagee seeking a stay of such foreclosure, after a hearing on such petition, and on its own
+
+motion, the court may:
+
+(i) Stay the proceedings for a period of time as justice and equity require; or
+
+(ii) Adjust the obligation as permitted by federal law to preserve the interests of all parties.
+
+(5) Sale or foreclosure. A sale, foreclosure or seizure of property for a breach of an
+
+obligation of a servicemember who is entitled to the benefits under subsection (d) and who provided
+
+the mortgagee with written notice permitted under subsection (d)(3) shall not be valid if made
+
+during, or within nine (9) months one year after, the period of the servicemember’s military service
+
+except:
+
+(i) Upon a court order granted before such sale, foreclosure, or seizure after hearing on a
+petition filed by the mortgagee against such servicemember; or
+
+(ii) If made pursuant to an agreement of all parties.
+
+(6) Penalties. A mortgagee who knowingly makes or causes to be made a sale, foreclosure,
+
+or seizure of property that is prohibited by subsection (d)(3) shall be fined the sum of one thousand
+
+dollars ($1,000), or imprisoned for not more than one year, or both. The remedies and rights
+
+provided hereunder are in addition to and do not preclude any remedy for wrongful conversion
+
+otherwise available under law to the person claiming relief under this section, including
+
+consequential and punitive damages.
+
+LC005019 - Page 3 of 5
+
+(7) Any petition hereunder shall be commenced by action filed in the superior court for the
+
+county in which the property subject to the mortgage or other security in the nature of a mortgage
+
+is situated. Any hearing on such petition shall be conducted on an expedited basis following such
+
+notice and/or discovery as the court deems proper.
+
+SECTION 2. This act shall take effect upon passage.
+========
+========
+
+LC005019 - Page 4 of 5
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO PROPERTY -- MORTGAGE FORECLOSURE AND SALE
+
+***
+
+This act would allow for sending of the notice under power of sale and rights of active
+
+military servicemembers by United States Postal Service First Class Mail and/or an overnight
+
+delivery service, instead of by United States Postal Service certified mail return receipt requested.
+
+This act would take effect upon passage.
+========
+========
+
+LC005019 - Page 5 of 5
