@@ -411,8 +411,11 @@ def _meta_row_height() -> int:
 def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
                     accent: tuple[int, int, int], theme: Theme) -> tuple[int, int]:
     """Draw a rounded "tag" chip (topic emoji + label) at (x, y) and return its
-    (width, height). No fill — just a thick rounded outline in the topic accent,
-    with the label in the accent color so it reads cleanly in both themes."""
+    (width, height). No fill — just a thick rounded outline in the topic accent.
+    The label uses the theme ink (near-black in light mode, white in dark mode)
+    rather than the accent color, so the letters keep a strong contrast against
+    the card body in both themes for accessible readability; the outline border
+    stays in the topic accent."""
     font = _mono(24, semibold=True)
     tracking = 3
     pad_x, pad_y = 22, 13
@@ -434,7 +437,7 @@ def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
         img.paste(emoji_img,
                   (round(cx), round(y + chip_h / 2 - emoji_img.height / 2)), emoji_img)
         cx += emoji_w
-    _draw_tracked(draw, cx, y + pad_y, label, font, accent, tracking)
+    _draw_tracked(draw, cx, y + pad_y, label, font, theme.ink, tracking)
     return chip_w, chip_h
 
 
