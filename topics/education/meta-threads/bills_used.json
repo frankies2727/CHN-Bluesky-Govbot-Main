@@ -1,11 +1,15 @@
 {
   "posted": [
     "CO|SR 008|2026-04-27|Senate Third Reading Laid Over to 05/05/",
-    "MA|H4683|2026-06-17|Reported by H5511"
+    "MA|H4683|2026-06-17|Reported by H5511",
+    "WI|SB1|2026-05-13|Laid on table",
+    "WI|SB1|2026-05-13|Read a third time",
+    "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
   "state_last_posted": {
     "MA": "2026-06-27T05:11:23.961792+00:00",
-    "CO": "2026-06-27T12:05:36.403008+00:00"
+    "CO": "2026-06-27T12:05:36.403008+00:00",
+    "WI": "2026-06-28T04:35:16.713383+00:00"
   },
-  "last_run": "2026-06-27T12:05:47.212330+00:00"
+  "last_run": "2026-06-28T04:36:21.440358+00:00"
 }

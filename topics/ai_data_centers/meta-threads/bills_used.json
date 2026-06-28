@@ -2,12 +2,14 @@
   "posted": [
     "CA|AB2504|2026-06-25|From committee: Do pass and re-refer to ",
     "GA|SB 444|2027-01-01|Effective Date",
-    "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)"
+    "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)",
+    "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la "
   ],
   "state_last_posted": {
     "CA": "2026-06-26T17:49:04.170730+00:00",
     "MO": "2026-06-27T05:00:03.590102+00:00",
-    "GA": "2026-06-27T11:59:44.577676+00:00"
+    "GA": "2026-06-27T11:59:44.577676+00:00",
+    "PR": "2026-06-28T04:22:41.078195+00:00"
   },
-  "last_run": "2026-06-27T12:00:54.407489+00:00"
+  "last_run": "2026-06-28T04:24:23.736139+00:00"
 }

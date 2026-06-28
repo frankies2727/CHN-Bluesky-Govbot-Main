@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Gomez, a petition (accompanied by bill, Senate, No. 1122) of Adam Gomez, Joanne M. Comerford, Jason M. Lewis, Rebecca L. Rausch and other members of the Senate for legislation relative to Massachusetts state sovereignty.  The Judiciary.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1122",
+    "legislative_session": "194th",
+    "title": "An Act relative to immigration detention and collaboration agreements"
+  },
+  "id": "S1122",
+  "log": {
+    "action": {
+      "date": "2026-04-30",
+      "description": "Accompanied H5316",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1122"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1122/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1122/logs/20260430T000000Z_accompanied_h5316.json"
+  },
+  "timestamp": "20260430T000000Z"
+}
