@@ -14,7 +14,8 @@ Reuse, not duplication:
   * Significance scoring, lookback windowing, highlight selection and the
     landscape (quiet-week) fallback all come from weekly_digest_bluesky.py — the same
     logic that drives the Bluesky digest.
-  * X composition (weighted 280-char accounting, summary budgeting, the
+  * X composition (weighted character accounting against MAX_TWEET, now 560,
+    summary budgeting, the
     tweepy client) comes from post_to_x.py.
 
 The only X-digest-specific logic here is the thread root/links-post copy, the
@@ -174,7 +175,7 @@ def build_link_posts(link_items: list[tuple[str, str]]) -> list[str]:
     """Pack '<STATE ID>: <url>' lines into as few tweets as possible, counting
     each URL as 23 weighted chars (t.co). Returns [] when there are no links.
     Normally a single post; only overflows to continuation posts when there
-    are more links than fit in 280 chars."""
+    are more links than fit in one post (MAX_TWEET weighted chars)."""
     if not link_items:
         return []
     header = "🔗 Bill links:"
