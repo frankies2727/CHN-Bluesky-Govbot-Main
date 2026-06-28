@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Oliveira, a petition (accompanied by bill, Senate, No. 652) of Jacob R. Oliveira for legislation relative to the Quabbin Watershed advisory committee.  Environment and Natural Resources.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S652",
+    "legislative_session": "194th",
+    "title": "An Act relative to the Quabbin Watershed Advisory Committee"
+  },
+  "id": "S652",
+  "log": {
+    "action": {
+      "description": "Bills in the Third Reading new draft substituted, see S3133",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S652"
+        }
+      ]
+    },
+    "bill_id": "S652"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S652/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S652/logs/20260625T000000Z_bills_in_the_third_reading_new_draft_substituted_see_s3133.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

@@ -144,6 +144,7 @@
     "MA|H4290|2026-03-30|Read second and ordered to a third readi",
     "MA|H4290|2026-03-30|Rules suspended",
     "MA|H4318|2026-05-19|Read; and placed in the Orders of the Da",
+    "MA|H4318|2026-06-18|Read second and ordered to a third readi",
     "MA|H4378|2026-05-18|Read third and passed to be engrossed",
     "MA|H4378|2026-05-19|Read; and placed in the Orders of the Da",
     "MA|H4378|2026-06-18|Read second and ordered to a third readi",
@@ -261,6 +262,7 @@
     "RI|HB7654|2026-06-24|06/24/2026 Signed by Governor",
     "RI|HB8105|2026-03-13|03/13/2026 Scheduled for hearing and/or ",
     "RI|HB8105|2026-03-13|03/13/2026 Withdrawn at sponsor's reques",
+    "RI|SB3361|2026-06-24|06/24/2026 Signed by Governor",
     "TN|HB 0469|2026-01-26|Meeting Canceled",
     "TN|HB 1399|2026-01-26|Meeting Canceled",
     "TN|HB 1892|2026-01-22|Sponsor(s) withdrawn.",
@@ -279,7 +281,7 @@
     "WA|SB 6200|2026-03-24|Effective date 6/11/2026.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-06-27T09:35:46.235226+00:00",
+  "last_run": "2026-06-28T10:10:12.803644+00:00",
   "state_last_posted": {
     "MS": "2026-06-16T12:04:58.783194+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -295,10 +297,10 @@
     "CA": "2026-06-25T10:12:59.125888+00:00",
     "DE": "2026-06-27T09:34:00.933653+00:00",
     "KS": "2026-06-19T11:27:32.791688+00:00",
-    "MA": "2026-06-24T10:24:30.175256+00:00",
+    "MA": "2026-06-28T10:08:48.008291+00:00",
     "NJ": "2026-05-19T02:06:37.149818+00:00",
     "MO": "2026-06-23T10:42:37.603056+00:00",
     "TN": "2026-06-14T16:03:05.390837+00:00",
-    "RI": "2026-06-27T09:34:00.933653+00:00"
+    "RI": "2026-06-28T10:08:48.008291+00:00"
   }
 }
