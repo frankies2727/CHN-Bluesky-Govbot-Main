@@ -901,6 +901,24 @@ def _smart_truncate(text: str, max_len: int) -> str:
     return _drop_dangling_tail(cut) + "…"
 
 
+def _excerpt_summary(excerpt: str) -> str:
+    """Turn a topic-match excerpt (one or more abstract sentences naming the
+    provisions that pulled a bill into its feed) into a fallback blurb. Prefers
+    the operative "This bill would …" sentence over a leading "Existing law …"
+    description so the blurb reads as what the bill *does*, not the prior state
+    of the law. Falls back to the first sentence when no operative one is found."""
+    if not excerpt:
+        return ""
+    # Split on sentence punctuation AND the "…" that matching_excerpt inserts
+    # between (or after truncating) provisions, so a leading truncated
+    # "Existing law …" clause doesn't hide the operative sentence behind it.
+    sentences = [s for s in re.split(r"(?<=[.!?…])\s+", excerpt) if s.strip()]
+    for s in sentences:
+        if re.match(r"\s*(this bill|the bill)\b", s, re.IGNORECASE):
+            return _first_sentence(s)
+    return _first_sentence(excerpt)
+
+
 def _first_sentence(text: str) -> str:
     """First sentence of a cleaned abstract — the non-LLM fallback summary.
     Returns "" when there's no usable prose, so the caller can drop the
@@ -1299,9 +1317,12 @@ def _post_copy(b: dict) -> dict:
     except Exception as e:
         print(f"  ! post-copy generation failed, using fallback: {e}", file=sys.stderr)
         # Leave the headline empty (raw title stands) but salvage a clean first
-        # sentence as the blurb; "" drops the block.
+        # sentence as the blurb; "" drops the block. Prefer the on-topic
+        # provision for body-matched omnibus bills — the abstract's own first
+        # sentence is provision (1), which is off-topic for this feed.
         result["summary"] = _strip_title_prefix(
-            _first_sentence(abstract or full_text), b["title"]
+            _excerpt_summary(topic_excerpt) or _first_sentence(abstract or full_text),
+            b["title"],
         )
         b["_post_copy"] = result
         return result
@@ -1323,6 +1344,15 @@ def _post_copy(b: dict) -> dict:
     summary = _strip_title_prefix(_clean_summary(raw_summary), b["title"])
     if summary and headline and _normalize(summary) == _normalize(headline):
         summary = ""
+    # When the local model returns an empty (or self-repeating, just-dropped)
+    # blurb for an omnibus bill that matched on a buried provision, the post
+    # would ship as a bare headline with informative space left unused. Fall
+    # back to the on-topic provision so the post still says something concrete
+    # about why it belongs in this feed. Only fires when we have that excerpt
+    # (body-matched bills), so single-subject and bare-title bills are
+    # unaffected.
+    if not summary and topic_excerpt:
+        summary = _strip_title_prefix(_excerpt_summary(topic_excerpt), b["title"])
     result["summary"] = summary
 
     b["_post_copy"] = result
