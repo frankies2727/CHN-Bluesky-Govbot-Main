@@ -299,17 +299,20 @@ class Topic:
                 return True
         return False
 
-    def matching_excerpt(self, b: dict, max_chars: int = 300) -> str:
-        """Return the single abstract sentence that earned this topic's match —
-        the provision whose keywords pulled the bill into the feed.
+    def matching_excerpt(self, b: dict, max_chars: int = 400, max_provisions: int = 2) -> str:
+        """Return the abstract sentence(s) that earned this topic's match — the
+        provision(s) whose keywords pulled the bill into the feed.
 
         Omnibus bills (e.g. a budget trailer bill touching 30+ unrelated
-        programs) can match a narrow topic on one buried line item. The
-        summarizer, handed the full bill text, then picks a different, more
+        programs) can match a narrow topic on one or more buried line items.
+        The summarizer, handed the full bill text, then picks a different, more
         prominent provision, so the post reads as off-topic for the feed it
-        ran in. Feeding this excerpt back to the copy prompt anchors the
-        headline and summary on the provision that actually justifies the
-        topic placement.
+        ran in. Feeding these excerpts back to the copy prompt anchors the
+        headline and summary on the provisions that actually justify the topic
+        placement — and, when a bill matched on several distinct provisions
+        (e.g. an immigration match on both a border-tuition exemption and
+        Dreamer funding), surfaces all of them so the post can mention more
+        than one and use its full character budget.
 
         Returns "" when the title itself carried the topic signal (the whole
         bill is already on-topic, so no anchoring is needed) or when no
@@ -321,24 +324,44 @@ class Topic:
         abstract = b.get("abstract") or ""
         if not abstract:
             return ""
-        # Pick the sentence with the most distinct core-keyword hits; ties go to
-        # the first such sentence (earliest provision in the abstract).
-        best = ""
-        best_score = 0
-        for sentence in re.findall(r"[^.!?]*[.!?]", abstract):
-            hits = {m.group(1).lower() for m in self._keyword_re.finditer(sentence.lower())}
-            if len(hits) > best_score:
-                best_score = len(hits)
-                best = sentence
-        if best_score == 0:
+        # Score every sentence by the distinct core keywords it carries, keeping
+        # document order so the chosen excerpts read in the order they appear.
+        scored: list[tuple[int, int, str, frozenset[str]]] = []
+        for idx, sentence in enumerate(re.findall(r"[^.!?]*[.!?]", abstract)):
+            hits = frozenset(m.group(1).lower() for m in self._keyword_re.finditer(sentence.lower()))
+            if hits:
+                scored.append((len(hits), idx, sentence, hits))
+        if not scored:
             return ""
-        best = " ".join(best.split())
-        # Drop a leading provision marker like "(29)" that prefixes each item in
-        # an enumerated omnibus abstract — it's a citation, not content.
-        best = re.sub(r"^\(\d+\)\s*", "", best)
-        if len(best) > max_chars:
-            best = best[:max_chars].rstrip() + "…"
-        return best
+        # Take the strongest sentences first (most keyword hits), but skip any
+        # whose keywords are already covered by a chosen sentence — that keeps
+        # the excerpts pointing at *distinct* provisions rather than repeating
+        # the same one. Then restore document order for readability.
+        chosen: list[tuple[int, str]] = []
+        covered: set[str] = set()
+        for _, idx, sentence, hits in sorted(scored, key=lambda s: (-s[0], s[1])):
+            if len(chosen) >= max_provisions:
+                break
+            if hits <= covered:
+                continue
+            covered |= hits
+            chosen.append((idx, sentence))
+        # Give each chosen provision a fair share of the budget so one verbose
+        # sentence (e.g. a long enumeration of college names) can't swallow the
+        # whole excerpt and crowd out the other matched provisions.
+        per = max(120, max_chars // max(1, len(chosen)))
+        parts = []
+        for _, sentence in sorted(chosen, key=lambda c: c[0]):
+            # Drop a leading provision marker like "(29)" that prefixes each item
+            # in an enumerated omnibus abstract — it's a citation, not content.
+            part = re.sub(r"^\(\d+\)\s*", "", " ".join(sentence.split()))
+            if len(part) > per:
+                part = part[:per].rstrip() + "…"
+            parts.append(part)
+        out = " ".join(parts)
+        if len(out) > max_chars:
+            out = out[:max_chars].rstrip() + "…"
+        return out
 
     def emoji_for(self, b: dict) -> str:
         s = " ".join([b.get("title", ""), b.get("abstract", ""), b.get("subjects", "")]).lower()
