@@ -1,0 +1,149 @@
+SESSION
+26-2240
+08/09
+SENATE BILL
+
+AN ACT
+
+enabling the department of safety and the secretary of state to develop a process
+to share certain information regarding REAL ID applicants.
+
+SPONSORS:
+
+Sen. Perkins Kwoka, Dist 21; Sen. Lang, Dist 2; Rep. Lane, Merr. 16; Rep.
+Telerski, Hills. 11; Rep. Simpson, Rock. 33
+
+COMMITTEE:
+
+Election Law and Municipal Affairs
+
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+This bill enables the department of safety and the secretary of state to develop a process to share
+certain information regarding REAL ID applicants.
+--------------------------------------------------------------------------Explanation:
+
+Matter added to current law appears in bold italics.
+Matter removed from current law appears [in brackets and struckthrough.]
+Matter which is either (a) all new or (b) repealed and reenacted appears in regular type.
+
+26-2240
+08/09
+
+STATE OF NEW HAMPSHIRE
+In the Year of Our Lord Two Thousand Twenty-Six
+AN ACT
+
+enabling the department of safety and the secretary of state to develop a process
+to share certain information regarding REAL ID applicants.
+
+Be it Enacted by the Senate and House of Representatives in General Court convened:
+
+New Section; Identification. Amend RSA 659 by inserting after section 13-b the following new
+section:
+659:13-c Citizenship Information; Secretary of State; Department of Safety.
+
+I. Notwithstanding any other provision of law, any United States citizen applying for an
+
+enhanced identification card pursuant to RSA 260:21-b shall be given the opportunity to have their
+
+photo image and information regarding their United States citizenship shared with the secretary of
+
+state for voting identification purposes.
+
+secretary of state shall develop an agreement to electronically transmit photo images and
+
+information related to United States citizenship securely and confidentially by January 1, 2027.
+
+The commissioner of the department of safety and the
+
+II. The secretary of state shall transmit photo images and information related to United
+
+States citizenship to the appropriate clerk to be used by the clerk, moderator, or supervisor of the
+
+checklist for purposes of identification, if applicable. The secretary of state shall transmit photo
+
+images and other United States citizenship information to the appropriate clerk within 3 days of
+
+receipt of such photos and information. Notwithstanding any other provision of law, the photo image
+
+and United States citizenship information provided shall satisfy proof of citizenship documentation
+
+requirements pursuant to RSA 654:7-a and RSA 654:12. In order to be used on election day, the
+
+photo image and United States citizenship information shall be captured by the department of safety
+
+no later than 14 days before the election.
+
+III. In cities and towns that use electronic poll books under RSA 652:27, the clerk shall
+
+download the photo image and United States citizenship information to the checklist no later than
+
+the Friday before the election. In cities and towns that do not use electronic poll books, the clerk
+
+shall confirm receipt of the photo image and United States citizenship information by marking the
+
+column on the checklist for citizenship information under RSA 654:25. Nothing in this section shall
+
+be construed as permitting the electronic poll book device to be connected to the Internet on election
+
+day.
+
+IV. The applicant may decline or withdraw consent to have his or her photo and United
+
+States citizenship information shared with the secretary of state at any time by contacting the
+
+department of safety. In the event the applicant declines or withdraws consent, the department of
+
+safety and the secretary of state shall remove the photo image captured for the enhanced
+
+- Page 2 1
+
+identification card promptly and the secretary of state shall remove information regarding the
+
+applicant's United States citizenship promptly.
+
+V. Nothing in this section shall be construed as enabling the registering of an applicant at
+an office of the department of safety or impacting an applicant's voter registration status.
+
+Preparing Checklist. Amend RSA 654:25 to read as follows:
+
+654:25 Preparing Checklist. The secretary of state shall issue and distribute guidelines for the
+
+content, composition, and style of checklists and for the maintenance of data related to checklists by
+
+which the supervisors of the checklist shall compile and correct the checklist. Such guidelines shall
+
+specify the information which will be maintained and updated by the supervisors. The secretary
+
+shall establish standard forms and procedures for the use of the supervisors for the maintenance of
+
+such information.
+
+domicile address, mailing address, citizenship status, if the clerk has received such
+
+information from the secretary of state under RSA 659:13-c, and party affiliation, if any, of
+
+each voter on the checklist and such other information as the secretary requires. Every checklist
+
+used at any election shall at a minimum contain the full name, domicile address, mailing address,
+
+and party affiliation, if any, of each voter on the checklist. The paper checklists used by ballot clerks
+
+on election day need not include mailing addresses. The name and address of a voter shall not
+
+appear on the checklist at the request of the voter if the voter presents to the supervisors of the
+
+checklist a valid protective order pursuant to RSA 173-B. The name, domicile address, and mailing
+
+address, if different, of such a voter shall be maintained on a separate list of voters, which shall be
+
+nonpublic and not subject to RSA 91-A. If it is necessary to establish such a nonpublic list, the
+
+public checklist shall be marked at the end with a notation of the number of voters whose names are
+
+maintained on the nonpublic list.
+
+The information to be maintained and updated shall include the full name,
+
+Effective Date. This act shall take effect January 1, 2027.

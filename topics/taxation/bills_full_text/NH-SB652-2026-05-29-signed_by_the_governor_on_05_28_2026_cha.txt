@@ -1,0 +1,300 @@
+SB 652-FN - AS INTRODUCED
+SESSION
+07/09
+SENATE BILL
+
+652-FN
+
+changing the maximum award of tax credits for overpayment of due taxes.
+
+SPONSORS:
+
+Sen. Lang, Dist 2
+
+COMMITTEE:
+
+Ways and Means
+
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+This bill changes the maximum award of tax credits for overpayment of due taxes.
+--------------------------------------------------------------------------Explanation:
+
+Matter added to current law appears in bold italics.
+Matter removed from current law appears [in brackets and struckthrough.]
+Matter which is either (a) all new or (b) repealed and reenacted appears in regular type.
+
+SB 652-FN - AS INTRODUCED
+
+07/09
+
+STATE OF NEW HAMPSHIRE
+In the Year of Our Lord Two Thousand Twenty-Six
+
+changing the maximum award of tax credits for overpayment of due taxes.
+
+Be it Enacted by the Senate and House of Representatives in General Court convened:
+
+Business Profits Tax; Payments Due With Returns and With Estimates. Amend RSA 77-A:7,
+I(b) to read as follows:
+
+(b) If the return required by RSA 77-A:6, I shows an additional amount to be due, such
+
+additional amount is due and payable on the prescribed payment date. If such return shows an
+
+overpayment of the tax due, the commissioner shall refund or credit the overpayment to the
+
+taxpayer in accordance with RSA 21-J:28-a, except that:
+
+(1) For taxable periods ending on or after December 31, 2022 a credit shall only be
+
+allowed in an amount up to 500 percent of the total tax liability for the taxable period and the
+
+remainder of the overpayment shall be refunded;
+
+(2) For taxable periods ending on or after December 31, 2029 a credit shall only be
+
+allowed in an amount up to [250] 450 percent of the total tax liability for the taxable period and the
+
+remainder of the overpayment shall be refunded; [and]
+
+(3) For taxable periods ending on or after December 31, 2031 a credit shall only be
+
+allowed in an amount up to [100] 400 percent of the total tax liability for the taxable period and the
+
+remainder of the overpayment shall be refunded;
+
+(4) For taxable periods ending on or after December 31, 2033 a credit shall
+
+only be allowed in an amount up to 350 percent of the total tax liability for the taxable
+
+period and the remainder of the overpayment shall be refunded;
+
+(5) For taxable periods ending on or after December 31, 2035 a credit shall
+
+only be allowed in an amount up to 300 percent of the total tax liability for the taxable
+
+period and the remainder of the overpayment shall be refunded;
+
+(6) For taxable periods ending on or after December 31, 2037 a credit shall
+
+only be allowed in an amount up to 250 percent of the total tax liability for the taxable
+
+period and the remainder of the overpayment shall be refunded;
+
+(7) For taxable periods ending on or after December 31, 2039 a credit shall
+
+only be allowed in an amount up to 200 percent of the total tax liability for the taxable
+
+period and the remainder of the overpayment shall be refunded; and
+
+(8) For taxable periods ending on or after December 31, 2041 a credit shall
+
+only be allowed in an amount up to 150 percent of the total tax liability for the taxable
+
+period and the remainder of the overpayment shall be refunded.
+
+Effective Date. This act shall take effect 60 days after its passage.
+
+LBA
+Revised 3/4/26
+SB 652-FN- FISCAL NOTE
+AS INTRODUCED
+
+changing the maximum award of tax credits for overpayment of due taxes.
+
+FISCAL IMPACT:
+
+Estimated State Impact
+FY 2026
+$0
+
+Revenue
+Revenue Fund(s)
+
+FY 2028
+$0
+
+$0
+
+FY 2029
+Indeterminable
+Increase
+
+General Fund and Education Trust Fund
+
+Expenditures*
+Funding Source(s)
+
+FY 2027
+
+$0
+
+$0
+
+$0
+
+$0
+
+$0
+
+$0
+
+$0
+
+$0
+
+None
+
+Appropriations*
+Funding Source(s) None
+*Expenditure = Cost of bill
+
+*Appropriation = Authorized funding to cover cost of bill
+
+METHODOLOGY:
+This bill amends the credit carryforward limits for the Business Profits Tax and Business
+Enterprise Tax. Currently the credit carry forward limit is 500% with further decreases
+scheduled to a 250% limit for taxable periods ending on or after December 31, 2029 and to a
+100% limit for taxable periods ending on or after December 31, 2031. This bill will change the
+credit carryforward limits to be the following:
+Taxable Period Ending
+
+Credit Carryforward Limit
+
+December 31, 2029
+
+450%
+
+December 31, 2031
+
+400%
+
+December 31, 2033
+
+350%
+
+December 31, 2035
+
+300%
+
+December 31, 2037
+
+250%
+
+December 31, 2039
+
+200%
+
+December 31, 2041
+
+150%
+
+The Department of Revenue Administration states that it is unable to predict the exact future
+impact of this change. Using Tax Year (TY) 2023 data, the Department is able to provide an
+estimated impact assuming that tax year liability will remain static and that taxpayer behavior
+will not change in response to the current or proposed law phase-ins. The Department notes this
+
+bill does not produce new revenue, it results in a decrease of refunds issued from the General
+Fund and Education Trust Fund therefore increasing the net revenue recognized for fiscal years
+through 2044 by an estimated $54.1 million.
+The Department states the refund impact related to a given tax year are typically experienced
+over the following three fiscal years. On TY 2023 tax returns, at the 500% limit, to date 19,566
+taxpayers have carried forward $482.5 million in overpayments in fiscal years 2024 through
+2026. Had the stricter limits in current law been in place, 6,446 of these taxpayers would have
+had a portion of their overpayments refunded resulting in $129.2 million in additional refunds.
+Of this total:
+ 41.3% of affected taxpayers had or will have a credit carryforward in excess of 250% of their TY
+tax liability, which equates to $30.6 million of additional refunds; and
+ 100% of affected taxpayers had or will have a credit carryforward in excess of 100% of their TY
+tax liability, which equates to $98.6 million of additional refunds.
+If this bill had been law, 4,285 of these taxpayers would have had their overpayments refunded
+resulting in $75.1 million in additional refunds. Of this total:
+ 22.3% of affected taxpayers had or will have a credit carryforward in excess of 450% of their TY
+tax liability, which equates to $2.8 million of additional refunds;
+ 25.6% of affected taxpayers had or will have a credit carryforward in excess of 400% of their TY
+tax liability, which equates to $3.6 million of additional refunds;
+ 29.6% of affected taxpayers had or will have a credit carryforward in excess of 350% of their TY
+tax liability, which equates to $5.6 million of additional refunds;
+ 34.7% of affected taxpayers had or will have a credit carryforward in excess of 300% of their TY
+tax liability, which equates to $8.3 million of additional refunds;
+ 41.3% of affected taxpayers had or will have a credit carryforward in excess of 250% of their TY
+tax liability, which equates to $10.3 million of additional refunds;
+ 50.7% of affected taxpayers had or will have a credit carryforward in excess of 200% of their TY
+tax liability, which equates to $14.6 million of additional refunds; and
+ 66.5% of affected taxpayers had or will have a credit carryforward in excess of 150% of their TY
+tax liability, which equates to $29.8 million of additional refunds.
+Using TY 2023 data for all years, the table below shows the fiscal impact that could be
+experienced under current and proposed law by fiscal year based on when returns were received
+for TY2023.
+
+The fiscal impact does not reflect the background rate of refunds—refunds for
+
+taxpayers who have credit carryforwards in excess of 500%, as current law, which has been in
+effect since tax year 2022, already requires any amounts above 500% to be fully refunded when
+the return is received.
+
+Fiscal
+Year
+Total
+
+Estimated Refunds
+Released By Fiscal
+Year Current Law
+$(1,500,000)
+(23,900,000)
+(9,900,000)
+(77,200,000)
+(16,700,000)
+$(129,200,000)
+
+Estimated Refunds
+Released By Fiscal
+Year Proposed Law
+$(100,000)
+(2,200,000)
+(600,000)
+(2,800,000)
+(900,000)
+(4,400,000)
+(1,400,000)
+(6,500,000)
+(1,900,000)
+(8,100,000)
+(2,500,000)
+(11,500,000)
+(3,900,000)
+(23,300,000)
+(5,000,000)
+$(75,100,000)
+
+Variance
+$1,400,000
+21,700,000
+9,300,000
+74,400,000
+15,800,000
+(4,400,000)
+(1,400,000)
+(6,500,000)
+(1,900,000)
+(8,100,000)
+(2,500,000)
+(11,500,000)
+(3,900,000)
+(23,300,000)
+(5,000,000)
+$54,100,000
+
+It is not possible to anticipate how taxpayers may actually respond to the current and proposed
+future limitations.
+
+Taxpayers may use an available credit carryforward against future tax
+
+liabilities in the taxable period in which this proposed change would apply. Taxpayers could also
+reduce their future estimate and return payments in anticipation of having to reduce their
+outstanding credit carryforward. Finally, a taxpayer may also request a refund of the amounts
+overpaid in excess of the proposed limitations. Therefore, the Department is not able to reliably
+determine how the impact will spread across fiscal years.
+AGENCIES CONTACTED:
+Department of Revenue Administration
