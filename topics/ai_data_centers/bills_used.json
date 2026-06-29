@@ -44,6 +44,7 @@
     "CA|SB97|2026-06-22|Ordered to third reading.",
     "CO|SB 004|2025-08-28|Governor Signed",
     "DE|HB 441|2026-06-11|Passed By House. Votes: 40 YES 1 ABSENT",
+    "DE|HB 453|2026-06-25|Amendment HA 2 to HS 1 - Introduced and ",
     "DE|SB 16|2026-06-16|Reported Out of Committee (Appropriation",
     "DE|SB 16|2026-06-18|",
     "DE|SB 16|2026-06-18|Passed By House. Votes: 36 YES 5 ABSENT",
@@ -181,6 +182,7 @@
     "NJ|A3611|2026-01-13|WITHDRAWN APP P.L.2025, c.335.",
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "PR|PS0731|2026-05-28|Aprobado por el Senado en Votaci\u00f3n Final",
+    "PR|PS0731|2026-06-04|Aparece en Primera Lectura de la C\u00e1mara",
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|PS1297|2026-05-28|Aparece en Primera Lectura del Senado",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
@@ -216,7 +218,7 @@
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-06-28T09:49:06.108942+00:00",
+  "last_run": "2026-06-29T11:56:42.270678+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -231,8 +233,8 @@
     "CA": "2026-06-28T09:46:30.382605+00:00",
     "MO": "2026-06-19T11:11:07.400114+00:00",
     "MN": "2026-06-15T12:56:14.584301+00:00",
-    "PR": "2026-06-28T09:46:30.382605+00:00",
-    "DE": "2026-06-25T10:02:44.455538+00:00",
+    "PR": "2026-06-29T11:51:37.398371+00:00",
+    "DE": "2026-06-29T11:51:37.398371+00:00",
     "TN": "2026-06-13T09:58:12.123643+00:00",
     "MA": "2026-06-14T15:50:33.642619+00:00",
     "RI": "2026-06-27T09:16:19.919989+00:00"

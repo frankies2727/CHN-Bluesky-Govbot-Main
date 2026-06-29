@@ -1,0 +1,63 @@
+153rd GENERAL ASSEMBLY
+FISCAL NOTE
+BILL:
+
+HOUSE BILL NO. 462
+
+SPONSOR:
+
+Representative K. Williams
+
+DESCRIPTION:
+
+AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO SCHOOL
+TAXES.
+
+Assumptions:
+1. This Act becomes effective upon signature of the Governor.
+2. This Act amends code to allow school districts entirely within New Castle County to use different
+tax rates for residential and non-residential properties, with the following conditions:
+a. A non-residential tax rate may be no more than 1.85 times the district’s residential tax
+rate.
+b. A vocational-technical school district may not use different rates for residential and nonresidential properties.
+3. The loss of local school revenue can be estimated by multiplying the reduction of the nonresidential property tax rate by the assessed value of non-residential properties within each
+district.
+
+District
+
+Non-Residential
+Rate Reduction
+
+Loss of Local School
+Revenue
+
+Appoquinimink School District
+
+0.086
+
+$1,677,473
+
+Christina School District
+New Castle VocationalTechnical School District
+
+0.072
+
+$6,081,399
+
+0.023
+
+$5,584,404
+
+4. For this estimate, tax rates and the assessed value of non-residential properties are assumed to
+remain constant through Fiscal Year 2029 as the next reassessment is not required until 2030.
+Cost:
+Loss of Local School Revenue
+Fiscal Year 2027: $13,343,276
+Fiscal Year 2028: $13,343,276
+Fiscal Year 2029: $13,343,276
+Prepared by Russell Ames
+Office of the Controller General
+
+0721530023
+
+Date: June 08, 2026
