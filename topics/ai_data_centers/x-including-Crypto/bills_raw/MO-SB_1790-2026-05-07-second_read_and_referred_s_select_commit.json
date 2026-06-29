@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SB 1790 - This act effectively reduces the tax rate paid by all existing property owners when a data center is built by creating a mandatory rate reduction mechanism.\r\nJOSH NORBERG",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1790",
+    "legislative_session": "2026",
+    "title": "SB 1790 - This act effectively reduces the tax rate paid by all existing property owners when a data center is built by creating a mandatory rate reduction mechanism.\r\nJOSH NORBERG"
+  },
+  "id": "SB 1790",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2",
+        "referral-committee"
+      ],
+      "date": "2026-05-07T05:00:00+00:00",
+      "description": "Second Read and Referred S Select Committee on Property Taxes and the State Tax Commission Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1790"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1790/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1790/logs/20260507T050000Z_second_read_and_referred_s_select_committee_on_property_taxes_and_the_state_tax_commission_committee.json"
+  },
+  "timestamp": "20260507T050000Z"
+}
