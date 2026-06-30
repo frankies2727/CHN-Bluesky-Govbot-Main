@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR8616",
+    "legislative_session": "2026",
+    "title": "HOUSE RESOLUTION COMMEMORATING \"WORLD REFUGEE DAY\" AND RECOGNIZING THE WORK OF DORCAS INTERNATIONAL OF PROVIDENCE ON JUNE 20TH OF 2026, IN THE STATE OF RHODE ISLAND"
+  },
+  "id": "HR8616",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-04",
+      "description": "06/04/2026 House read and passed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR8616"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HR8616/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HR8616/logs/20260604T000000Z.classification.passage.lower.json"
+  }
+}
