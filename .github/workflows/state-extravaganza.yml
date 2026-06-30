@@ -20,6 +20,7 @@ on:
           - bluesky
           - x
           - threads
+          - instagram
       states:
         description: "States to pull bills from — space/comma separated 2-letter codes (e.g. 'CA NY TX'). Leave blank for all states."
         required: false
@@ -106,6 +107,15 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Configure git
+        # The Instagram path commits + pushes the rendered carousel cards itself,
+        # mid-run, so Instagram can fetch them from raw.githubusercontent before
+        # the publish call. Identity must be set before that push. Harmless for
+        # the text platforms, which don't push mid-run.
+        run: |
+          git config user.name  "govbot-state-extravaganza[bot]"
+          git config user.email "govbot-state-extravaganza[bot]@users.noreply.github.com"
 
       - name: Resolve run config
         id: cfg
@@ -229,6 +239,8 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
           PLATFORM: ${{ inputs.platform }}
           BOT_TOPIC: ${{ steps.cfg.outputs.bot_topic }}
@@ -245,9 +257,12 @@ jobs:
           git config user.email "govbot-state-extravaganza[bot]@users.noreply.github.com"
           # The raw artifacts land in each platform's weekly_digest/ folder
           # (the script reuses the digest persistence helpers).
+          # Instagram carousel cards are committed mid-run by the poster; this
+          # final commit catches the bills_raw / full-text artifacts saved after.
           git add topics/*/weekly_digest/bills_raw \
                   topics/*/x*/weekly_digest/bills_raw topics/*/x*/weekly_digest/bills_full_text \
                   topics/*/meta-threads/weekly_digest/bills_raw topics/*/meta-threads/weekly_digest/bills_full_text \
+                  topics/*/instagram/cards topics/*/instagram/bills_raw topics/*/instagram/bills_full_text \
                   || true
           if git diff --cached --quiet; then
             echo "No State Extravaganza artifacts to commit."
