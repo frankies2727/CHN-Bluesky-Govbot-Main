@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SB 1804 - This act provides that certain professional licensing boards shall not grant any regulatory mitigation or waive or modify any rules related to dispensing, prescribing, administering, or otherwise distributing, including renewing, medications or controlled substances to a person or business developing, creating, or generating artificial intelligence for such prescription activities.\r\nKATIE O'BRIEN",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1804",
+    "legislative_session": "2026",
+    "title": "SB 1804 - This act provides that certain professional licensing boards shall not grant any regulatory mitigation or waive or modify any rules related to dispensing, prescribing, administering, or otherwise distributing, including renewing, medications or controlled substances to a person or business developing, creating, or generating artificial intelligence for such prescription activities.\r\nKATIE O'BRIEN"
+  },
+  "id": "SB 1804",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2",
+        "referral-committee"
+      ],
+      "date": "2026-05-07T05:00:00+00:00",
+      "description": "Second Read and Referred S Emerging Issues and Professional Registration Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1804"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1804/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1804/logs/20260507T050000Z_second_read_and_referred_s_emerging_issues_and_professional_registration_committee.json"
+  },
+  "timestamp": "20260507T050000Z"
+}

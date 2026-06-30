@@ -40,6 +40,8 @@
     "CA|SB97|2026-06-22|From inactive file.",
     "CA|SB97|2026-06-22|Ordered to third reading.",
     "CA|SCR82|2026-06-10|Coauthors revised.",
+    "DE|HB 404|2026-06-23|Amendment HA 1 to HS 1 - Introduced and ",
+    "DE|HB 404|2026-06-23|Reported Out of Committee (Appropriation",
     "DE|HB 441|2026-06-09|Reported Out of Committee (Economic Deve",
     "DE|HB 441|2026-06-11|",
     "DE|HB 441|2026-06-11|Passed By House. Votes: 40 YES 1 ABSENT",
@@ -125,6 +127,7 @@
     "MO|SB 1012|2026-05-12|Hearing Scheduled H Emerging Issues--(4:",
     "MO|SB 1012|2026-05-12|Voted Do Not Pass H Emerging Issues",
     "MO|SB 1790|2026-05-07|Second Read and Referred S Select Commit",
+    "MO|SB 1804|2026-05-07|Second Read and Referred S Emerging Issu",
     "MO|SB 841|2026-04-28|SA 1 to SA 4 to SS for SCS S offered & a",
     "MO|SB 841|2026-04-28|SA 3 to SS for SCS S offered & adopted (",
     "MO|SB 841|2026-04-28|SA 4 to SS for SCS S offered (Henderson)",
@@ -135,6 +138,7 @@
     "MS|HB1720|2026-02-03|Died In Committee",
     "MS|SB2050|2026-01-29|DR - TSDP: EL To TE",
     "MS|SB2050|2026-02-03|Title Suff Do Pass",
+    "NH|SB657|2026-05-14|Ought to Pass: MA VV 05/14/2026  HJ 13",
     "NH|SB657|2026-05-21|Sen. Gannon Moved Nonconcur with the Hou",
     "NJ|A1401|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "NJ|A3611|2026-01-13|WITHDRAWN APP P.L.2025, c.335.",
@@ -151,6 +155,7 @@
     "PR|PS1297|2026-05-28|Aparece en Primera Lectura del Senado",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HB7350|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|HB7538|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2195|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2197|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2570|2026-06-22|06/22/2026 Signed by Governor",
@@ -175,15 +180,15 @@
     "MN": "2026-06-02T12:32:48.851632+00:00",
     "CA": "2026-06-30T04:03:19.176616+00:00",
     "MS": "2026-05-30T10:31:21.713792+00:00",
-    "MO": "2026-06-30T04:03:19.176616+00:00",
+    "MO": "2026-06-30T11:31:08.364218+00:00",
     "AL": "2026-06-05T23:32:07.647880+00:00",
     "FL": "2026-06-04T11:37:54.949048+00:00",
     "NJ": "2026-05-27T03:05:58.226214+00:00",
     "IL": "2026-05-26T01:08:56.456572+00:00",
     "PR": "2026-06-30T04:03:19.176616+00:00",
-    "DE": "2026-06-29T12:50:55.506269+00:00",
-    "RI": "2026-06-30T04:03:19.176616+00:00",
-    "NH": "2026-06-29T12:50:55.506269+00:00"
+    "DE": "2026-06-30T11:31:08.364218+00:00",
+    "RI": "2026-06-30T11:31:08.364218+00:00",
+    "NH": "2026-06-30T11:31:08.364218+00:00"
   },
-  "last_run": "2026-06-30T04:15:18.222483+00:00"
+  "last_run": "2026-06-30T11:35:37.078866+00:00"
 }

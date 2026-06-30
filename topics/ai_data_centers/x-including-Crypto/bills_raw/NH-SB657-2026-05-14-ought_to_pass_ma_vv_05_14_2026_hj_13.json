@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB657",
+    "legislative_session": "2026",
+    "title": "relative to the use of information technology and artificial intelligence systems by state agencies."
+  },
+  "id": "SB657",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable",
+        "passage"
+      ],
+      "description": "Ought to Pass: MA VV 05/14/2026  HJ 13",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-14",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2483&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB657"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB657/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB657/logs/20260514T000000Z_ought_to_pass_ma_vv_05142026_hj_13.json"
+  },
+  "timestamp": "20260514T000000Z"
+}
