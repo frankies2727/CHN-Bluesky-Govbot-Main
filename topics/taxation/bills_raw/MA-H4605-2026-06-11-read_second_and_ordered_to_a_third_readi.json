@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Arena-DeRosa of Holliston, a petition (accompanied by bill, House, No. 4605) of James C. Arena-DeRosa (by vote of the town) that the town of Millis be authorized to establish a means-tested senior citizen property tax exemption for school building construction projects.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4605",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the town of Millis to establish a means-tested senior citizen property tax exemption for school building construction projects"
+  },
+  "id": "H4605",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-06-11",
+      "description": "Read second and ordered to a third reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "H4605"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4605/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4605/logs/20260611T000000Z_read_second_and_ordered_to_a_third_reading.json"
+  },
+  "timestamp": "20260611T000000Z"
+}

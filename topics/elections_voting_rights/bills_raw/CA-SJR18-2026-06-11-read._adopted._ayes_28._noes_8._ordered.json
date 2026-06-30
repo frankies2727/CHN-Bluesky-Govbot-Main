@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This measure would memorialize the Legislature's strong disagreement with the decision of the United States Supreme Court in Citizens United v. Federal Election Commission and encourage states to adopt policies to limit the powers of corporations to contribute to political campaigns, consistent with the United States Constitution.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR18",
+    "legislative_session": "20252026",
+    "subject": [
+      "Campaignfinancereform"
+    ],
+    "title": "Relative to campaign finance reform."
+  },
+  "id": "SJR18",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage",
+        "passage",
+        "reading-1"
+      ],
+      "date": "2026-06-11",
+      "description": "Read. Adopted. (Ayes 28. Noes 8.) Ordered to the Assembly.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR18"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SJR18/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SJR18/logs/20260611T000000Z_read_adopted_ayes_28_noes_8_ordered_to_the_assembly.json"
+  },
+  "timestamp": "20260611T000000Z"
+}
