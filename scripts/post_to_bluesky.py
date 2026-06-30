@@ -2069,17 +2069,19 @@ def _b_ri(session, ident):  # verified — webserver.rilegislature.gov BillText
     # bill text. There's no public per-bill status URL with an action log;
     # this is the canonical detail page on rilegislature.gov.
     #
-    # Only HB/SB are handled — the URL scheme for HR/SR/HJR/SJR resolutions
-    # on RI's site is undocumented; let those fall back to the homepage
-    # rather than 404 readers into a broken link.
+    # RI numbers ALL House measures (bills, resolutions, joint resolutions) in
+    # a single H#### sequence served from HouseText, and all Senate measures
+    # as S#### from SenateText — the page keys only on the chamber letter and
+    # number, not the measure type. So HR/SR/HJR/SJR resolve the same way as
+    # HB/SB: e.g. HR 8616 -> .../HouseText26/H8616.htm. Handle any H*/S* type.
     year = _first_year(session)
     typ, num = _split_ident(ident)
     if not (year and typ and num):
         return None
-    if typ not in ("HB", "SB"):
-        return None
-    chamber = "House" if typ == "HB" else "Senate"
     body = typ[0]
+    if body not in ("H", "S"):
+        return None
+    chamber = "House" if body == "H" else "Senate"
     yy = year[-2:]
     return (f"https://webserver.rilegislature.gov/BillText{yy}/"
             f"{chamber}Text{yy}/{body}{num}.htm")
