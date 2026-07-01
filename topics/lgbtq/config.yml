@@ -53,6 +53,11 @@ keywords:
   - gender affirming care
   - gender-affirming treatment
   - gender transition
+  # "social transition" is LGBTQ-specific (a minor changing gender presentation
+  # or expression) and doesn't appear in the background protected-class
+  # enumerations that got "gender identity"/"gender expression" demoted to
+  # context, so it's safe as a core single-hit keyword.
+  - social transition
   - gender dysphoria
   - sex reassignment
   - puberty blockers
@@ -124,7 +129,7 @@ context_keywords:
 
 emojis:
   - emoji: "🏳️‍⚧️"
-    match: ["transgender", "nonbinary", "non-binary", "gender identity", "gender expression", "gender marker"]
+    match: ["transgender", "nonbinary", "non-binary", "gender identity", "gender expression", "gender marker", "social transition"]
   - emoji: "🏥"
     match: ["gender-affirming care", "gender affirming care", "gender-affirming treatment", "gender transition", "gender dysphoria", "sex reassignment", "puberty blockers", "hormone therapy", "transition-related care"]
   - emoji: "💍"
