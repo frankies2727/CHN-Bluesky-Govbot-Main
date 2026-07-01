@@ -1,0 +1,20 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2953",
+    "legislative_session": "222",
+    "subject": [
+      "CIVIL RIGHTS"
+    ],
+    "title": "Establishes \"LGBTQIA+ Pride Month\" in New Jersey."
+  },
+  "id": "S2953",
+  "log": {
+    "bill_id": "S2953"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S2953/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S2953/logs/20260618T040000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260618T040000Z.vote"
+}

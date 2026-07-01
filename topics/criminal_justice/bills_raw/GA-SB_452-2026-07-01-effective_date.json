@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 47-2-357 of the Official Code of Georgia Annotated, relating to withdrawal, employer contributions, vesting, and date of election, so as to increase the maximum employer contribution to a 401(k) for certain state law enforcement officers; to provide for definitions; to provide for an effective date; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 452",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CRIMES AND OFFENSES (CRIMINAL CODE)",
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES",
+      "RETIREMENT AND PENSIONS"
+    ],
+    "title": "Retirement and Pension; maximum employer contribution to a 401(k) for certain state law enforcement officers; increase"
+  },
+  "id": "SB 452",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 452"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB452/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB452/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

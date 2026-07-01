@@ -1,0 +1,181 @@
+Senate Bill 452
+By: Senators Hatchett of the 50th, Robertson of the 29th, Strickland of the 42nd, Tillery of
+the 19th, Albers of the 56th and others
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Code Section 47-2-357 of the Official Code of Georgia Annotated, relating to
+
+withdrawal, employer contributions, vesting, and date of election, so as to increase the
+
+maximum employer contribution to a 401(k) for certain state law enforcement officers; to
+
+provide for definitions; to provide for an effective date; to provide for related matters; to
+
+repeal conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Code Section 47-2-357 of the Official Code of Georgia Annotated, relating to withdrawal,
+
+employer contributions, vesting, and date of election, is amended as follows:
+
+"47-2-357.
+
+(a) As used in this Code section, the term:
+
+(1) '401(k)' means the deferred compensation plan offered by the state for public
+
+employees pursuant to Article 3 of Chapter 18 of Title 45 utilizing Section 401(k) of the
+
+federal Internal Revenue Code.
+
+(2) 'Plan' means the employee savings plan created by this article.
+
+(3) 'State law enforcement officer' means:
+
+(A) A peace officer, as such term is defined in Code Section 35-8-2, employed by the
+
+Department of Community Supervision; or
+
+(B) A sworn law enforcement officer certified by the Georgia Peace Officer Standards
+
+and Training Council who, by virtue of his or her office or public employment giving
+
+rise to his or her membership under this article, is vested by law with the duties of a
+
+peace officer, as such term is defined in Code Section 16-1-3.
+
+(b) Each member shall, at the time of becoming a member, be automatically enrolled in
+
+the plan; provided, however, that the member shall have a period of 90 days from the date
+
+of enrollment to withdraw from the plan. Such withdrawal shall be made in writing to the
+
+board of trustees in such form as the board prescribes and any employee account balance
+
+shall be returned to the member. Thereafter, participation in the plan shall be voluntary.
+
+The member may not withdraw from the plan so long as he or she remains eligible to
+
+participate in the 401(k) plan offered by the state.
+
+(c)(1) This paragraph shall apply to persons who became members prior to July 1, 2014.
+
+Unless the participating member elects otherwise, the member shall, for each pay period,
+
+contribute 1 percent of his or her compensation into his or her 401(k) account. The
+
+member may change such level of participation at any time.
+
+(2) This paragraph shall apply to persons who become members on or after July 1, 2014.
+
+Unless the participating member elects otherwise, the member shall, for each pay period,
+
+contribute 5 percent of his or her compensation into his or her 401(k) account. The
+
+member may change such level of participation at any time.
+
+(d)(1) On and after July 1, 2022, for any participating member who contributes a
+
+percentage of his or her salary into the 401(k) plan for a pay period, the employer shall
+
+contribute an equal amount into his or her 401(k) account up to a maximum of 5 percent
+
+except as otherwise provided in paragraph (2) of this subsection.
+
+(2) On and after July 1, 2022 2026, in addition to the amounts provided for in
+
+paragraph (1) of this subsection, for any participating member, other than a state law
+
+enforcement officer, who has attained five years or more of creditable service in the plan
+
+and contributes at least 5 percent of his or her salary into his or her 401(k) account, such
+
+member's employer shall contribute an additional amount equal to 0.5 percent of the
+
+member's compensation for each year of such member's creditable service that exceeds
+
+five years; provided, however, that the total rate of any employer's contribution pursuant
+
+to this subsection shall not exceed 9 percent of the member's compensation.
+
+(3) On and after July 1, 2026, in addition to the amounts provided for in paragraph (1)
+
+of this subsection, for any participating member who is a state law enforcement officer
+
+who has attained five years or more of creditable service in the plan and who contributes
+
+at least 5 percent of his or her salary into his or her 401(k) account, such member's
+
+employer shall contribute an additional amount equal to 2 percent of the member's
+
+compensation for each year of such member's creditable service that exceeds five years;
+
+provided, however, that the total rate of any employer's contribution pursuant to this
+
+subsection shall not exceed 15 percent of the member's compensation.
+
+(3)(4)(A) Notwithstanding the provisions of this subsection, employer contributions
+
+shall be subject to the limitations imposed by federal law.
+
+(B) The member may make such additional contributions as he or she desires, subject
+
+to limitations imposed by federal law.
+
+(e) The board of trustees shall apportion the costs of administering the plan among the
+
+employers and members on the basis of the normal costs of administration against any
+
+special services requested by any member.
+
+(f) All contributions by participating members are 100 percent vested and shall be
+
+maintained in an account and invested based on the participant's investment allocation
+
+choices. All employer contributed amounts credited to a member's account shall be
+
+maintained as a matching contribution subaccount and invested based on the participant's
+
+investment allocation choices. Any and all amounts credited to a member's matching
+
+contribution subaccount, including applicable earnings and investment appreciation or
+
+depreciation, shall become vested and nonforfeitable based on the number of employment
+
+service years completed and in accordance with the vesting schedule set forth below:
+
+Years of Service
+
+Employer Nonforfeitable
+
+Vested Percentage
+
+Upon separation from service for greater than 31 days, the portion of such matching
+
+contribution subaccount not so vested shall be transferred from the member's account into
+
+a temporary plan forfeiture accumulation account for future disposition as determined by
+
+the board of trustees. A break in service less than 32 days shall not affect vesting rights.
+
+(g) Members electing to be governed by the provisions of this article pursuant to
+
+subsection (b) of Code Section 47-2-351 shall use their date of election as the beginning
+
+date for purposes of calculating their vesting service for the employer contribution as
+
+provided in subsection (f) of this Code section used to calculate the vesting requirements
+
+of subsection (f) of this Code section, except that service as provided under Code
+
+Section 47-2-91 shall not constitute creditable service for this purpose."
+
+SECTION 2.
+This Act shall become effective on July 1, 2026.
+SECTION 3.
+All laws and parts of laws in conflict with this Act are repealed.
