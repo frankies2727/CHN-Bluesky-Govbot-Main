@@ -84,6 +84,10 @@ def _occurrence_is_personal_name(title: str, m: "re.Match") -> bool:
     word = m.group(0)
     if not word[:1].isupper():
         return False  # lower-case "gay" is the common word, not a surname
+    if word.isupper() and len(word) > 1:
+        # ALL-CAPS reads as a section header or acronym, not a Title-cased
+        # surname ("ABORTION" in a Missouri header vs. the surname "Gay").
+        return False
     prefix = title[: m.start()]
     prev = re.search(r"([A-Za-z][A-Za-z.'\-]*)\W*$", prefix)
     if not prev:
@@ -114,6 +118,74 @@ def _is_proper_name_only_match(title_raw: str, title_hits: set[str]) -> bool:
         if not all(_occurrence_is_personal_name(title_raw, m) for m in occurrences):
             return False
     return True
+
+
+# A multi-part committee/substitute bill-number prefix, e.g. "SS/SCS/SB 974 - "
+# or "HCS/HB 1490 - " — alphanumeric codes joined by slashes, the bill number, a
+# dash. It's a strong signal of a Missouri-style record that dumps the whole
+# abstract into the title field (mirrors _SUBSTITUTE_PREFIX_RE in
+# post_to_bluesky.py, kept here so topic.py stays import-standalone).
+_SUBSTITUTE_PREFIX_RE = re.compile(r"^\s*[A-Z0-9#]+(?:/[A-Z0-9#]+)+\s+\d+\s*[-–—]\s+")
+# A leading bill-designation prefix with or without the slashes, e.g. "SB 974 - "
+# or "SS/SCS/SB 974 - ". Used to strip the redundant designation off the subject
+# line before matching so the bill number can't be mistaken for content.
+_BILL_NUMBER_PREFIX_RE = re.compile(r"^\s*[A-Z0-9#]+(?:/[A-Z0-9#]+)*\s+\d+\s*[-–—]\s+")
+# No genuine bill headline runs this long; beyond it the "title" is a dumped
+# summary. Iowa's verbose but real appropriations titles top out near 1,100
+# chars and never equal their abstract, so this ceiling doesn't touch them.
+_BLOB_TITLE_MAX_CHARS = 2000
+
+
+def _title_is_dumped_abstract(title_raw: str, abstract_raw: str) -> bool:
+    """True when the `title` field is really the bill's full summary dumped in,
+    not a short headline. Some sources — Missouri most notably — stuff the entire
+    multi-thousand-character abstract into `title`.
+
+    This matters because `matches()` treats a single keyword hit in the title as
+    conclusive (titles are assumed short and on-point). A lone topic term buried
+    in a 12k-char omnibus summary — e.g. one incidental "data centers" mention in
+    a military-affairs bill's veterans-benefits clause — must not get that
+    shortcut. A genuinely long-but-real title never equals its abstract, so it
+    keeps the shortcut."""
+    t = (title_raw or "").strip()
+    if not t:
+        return False
+    a = (abstract_raw or "").strip()
+    if a and t == a:
+        return True
+    if _SUBSTITUTE_PREFIX_RE.match(t):
+        return True
+    return len(t) > _BLOB_TITLE_MAX_CHARS
+
+
+def _is_section_header(line: str) -> bool:
+    """True for a Missouri-style ALL-CAPS section header, e.g. "ARTIFICIAL
+    INTELLIGENCE IN MENTAL HEALTH (Section 407.3007)". These name the distinct
+    provisions an omnibus bill contains, so a topic keyword appearing in one is a
+    genuine signal (unlike a keyword buried in a section's lowercase prose)."""
+    letters = [c for c in line if c.isalpha()]
+    if len(letters) < 6:
+        return False
+    return sum(1 for c in letters if c.isupper()) / len(letters) > 0.85
+
+
+def _effective_match_title(title_raw: str, abstract_raw: str) -> str:
+    """Title text for the "a single keyword in the title is conclusive" rule.
+
+    Normally just the raw title. But when a source dumps the entire abstract into
+    the title (Missouri), the raw "title" is really the whole bill, so a lone
+    keyword buried anywhere in it would wrongly claim the bill for a topic. Reduce
+    it to the parts that carry real headline signal: the subject overview (the
+    first paragraph, minus the "SB 123 - " designation) plus the bill's ALL-CAPS
+    section headers, each of which names a provision the bill actually contains.
+    Keywords only in a section's lowercase running prose are left to the stricter
+    two-distinct-keyword body rule in matches()."""
+    t = (title_raw or "").strip()
+    if not _title_is_dumped_abstract(title_raw, abstract_raw):
+        return t
+    subject = _BILL_NUMBER_PREFIX_RE.sub("", re.split(r"\r?\n\s*\r?\n", t, maxsplit=1)[0]).strip()
+    headers = [ln.strip() for ln in re.split(r"\r?\n", t) if _is_section_header(ln)]
+    return "\n".join([subject, *headers]).strip()
 
 
 @dataclass
@@ -277,7 +349,12 @@ class Topic:
         # elections feed even when "referendum" matches a core keyword.
         if self._negative_re is not None and self._negative_re.search(title):
             return False
-        title_hits = {m.group(1).lower() for m in self._keyword_re.finditer(title)}
+        # When a source dumps the whole abstract into the title (Missouri), the
+        # "title" is really the entire bill, so match the single-hit rule against
+        # just its headline signal — the subject line plus section headers — not
+        # a keyword buried in some section's prose. See _effective_match_title.
+        match_title = _effective_match_title(title_raw, b.get("abstract", ""))
+        title_hits = {m.group(1).lower() for m in self._keyword_re.finditer(match_title.lower())}
         # A single common-word keyword (e.g. "gay") routinely collides with a
         # person's surname in honorary resolutions ("Grayson Gay, commended"),
         # which would wrongly pull the bill into a topic feed and — worse — let
@@ -285,7 +362,7 @@ class Topic:
         # When the title's only signal is one such keyword appearing solely as
         # part of a proper name, don't treat the title as a match; fall through
         # to the body/context checks, which need real corroboration.
-        if title_hits and not _is_proper_name_only_match(title_raw, title_hits):
+        if title_hits and not _is_proper_name_only_match(match_title, title_hits):
             return True
         body = " ".join([b.get("abstract", ""), b.get("subjects", "")]).lower()
         distinct = {m.group(1).lower() for m in self._keyword_re.finditer(body)}
@@ -318,10 +395,16 @@ class Topic:
         bill is already on-topic, so no anchoring is needed) or when no
         keyword-bearing sentence can be isolated from the abstract."""
         title_raw = b.get("title") or ""
-        title_hits = {m.group(1).lower() for m in self._keyword_re.finditer(title_raw.lower())}
-        if title_hits and not _is_proper_name_only_match(title_raw, title_hits):
-            return ""
         abstract = b.get("abstract") or ""
+        # For a dumped-abstract title (Missouri), don't short-circuit even when a
+        # section header carried the match — the bill is an omnibus, so anchor the
+        # copy on the specific provision(s) below rather than its broad headline.
+        # A real short title that carried the signal means the whole bill is
+        # on-topic, so no anchoring is needed.
+        if not _title_is_dumped_abstract(title_raw, abstract):
+            title_hits = {m.group(1).lower() for m in self._keyword_re.finditer(title_raw.lower())}
+            if title_hits and not _is_proper_name_only_match(title_raw, title_hits):
+                return ""
         if not abstract:
             return ""
         # Score every sentence by the distinct core keywords it carries, keeping
